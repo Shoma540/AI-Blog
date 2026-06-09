@@ -1,10 +1,9 @@
-﻿# AI-Blog
+# AI-Blog：全国祭り情報
 
-全国祭り情報収集サイト。
-Claude Code Routines により毎日自動更新されます。
+Claude Code Routines により毎日自動更新される全国祭り情報サイトです。
 
 ## 公開URL
-https://shoma0406a.github.io/AI-Blog/
+（ドメイン確定後に記載）
 
 ## 更新スケジュール
 毎日 12:00 / 17:00 / 22:00 / 03:00 / 08:00（日本時間）
@@ -13,3 +12,8 @@ https://shoma0406a.github.io/AI-Blog/
 - data/         : 祭りデータ（JSON）
 - docs/         : 公開用HTMLページ（GitHub Pages）
 - admin/        : 管理画面（ローカルのみ）
+
+## 連携サービス
+- GitHub Pages（公開ブログ）
+- X（Twitter）自動投稿
+- Instagram自動投稿
