@@ -23,7 +23,7 @@ https://shoma540.github.io/AI-Blog/
 | ホスティング | GitHub Pages |
 | CI/CD | GitHub Actions（main push → docs/ を自動公開） |
 | 情報収集 | Web検索（47都道府県） |
-| SNS連携 | X API v2（OAuth 1.0a）/ Instagram Graph API |
+| SNS連携 | Instagram Graph API |
 | シークレット管理 | .env（gitignore 済み）+ 環境変数 |
 | ローカル運用 | Windows 11 / PowerShell |
 
