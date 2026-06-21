@@ -69,13 +69,22 @@ def generate_prefecture_pages(festivals: list):
     out_dir = os.path.join(DOCS_DIR, 'prefecture')
     os.makedirs(out_dir, exist_ok=True)
 
+    trust_colors = {'高': '#2e7d32', '中': '#f9a825', '低': '#c62828'}
+
     prefectures = set(f['prefecture'] for f in festivals if 'prefecture' in f)
     for pref in prefectures:
         pref_festivals = [f for f in festivals if f.get('prefecture') == pref]
-        items = ''.join(
-            f'<li><strong>{f.get("name", "")}</strong> {f.get("date_start", "")} {f.get("city", "")}</li>'
-            for f in pref_festivals
-        )
+        items = ''
+        for f in pref_festivals:
+            trust = f.get('trust_level', '低')
+            color = trust_colors.get(trust, '#999')
+            check_note = ' <span style="color:#c62828;">⚠️要確認</span>' if f.get('requires_check') else ''
+            items += (
+                f'<li><strong>{f.get("name", "")}</strong> '
+                f'{f.get("date_start", "")} {f.get("city", "")} '
+                f'<span style="color:{color};font-size:0.85em;">[信頼度:{trust}]</span>'
+                f'{check_note}</li>'
+            )
         html = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
