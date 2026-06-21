@@ -1,0 +1,11 @@
+{
+  "errors": [
+    {
+      "timestamp": "2026-06-21 17:10",
+      "step": "STEP9_instagram_post",
+      "script": "scripts/post_instagram.py",
+      "message": "Instagramメディア作成失敗: 400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A0izFNzYGlCW1Ki9iU93SsO\"}}",
+      "note": "INSTAGRAM_ACCESS_TOKEN / INSTAGRAM_BUSINESS_ACCOUNT_ID は設定済みだったが、Graph APIがアクセスをブロックした。トークンの権限不足・期限切れ・アプリレビュー未承認などが疑われる。要確認。"
+    }
+  ]
+}
