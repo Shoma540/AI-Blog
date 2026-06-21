@@ -22,12 +22,11 @@ def save_festivals(data: dict):
     print(f"festivals.json を保存しました: {data['last_updated']}")
 
 
-def save_last_post(has_update: bool, posted_x: bool, posted_instagram: bool):
+def save_last_post(has_update: bool, posted_instagram: bool):
     os.makedirs(DATA_DIR, exist_ok=True)
     data = {
         "last_executed": datetime.now().strftime('%Y-%m-%d %H:%M'),
         "has_update": has_update,
-        "posted_to_x": posted_x,
         "posted_to_instagram": posted_instagram
     }
     with open(LAST_POST_JSON, 'w', encoding='utf-8') as f:
