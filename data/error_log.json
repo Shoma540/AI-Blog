@@ -1,0 +1,10 @@
+{
+  "errors": [
+    {
+      "timestamp": "2026-06-22 17:05",
+      "step": "Instagram投稿",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 \"API access blocked.\"",
+      "detail": "graph.facebook.com への投稿リクエストが Meta 側で拒否された。アクセストークンの有効期限切れ、アプリのレビュー未承認、または当該IG Business Accountへの権限不足が考えられる。"
+    }
+  ]
+}
