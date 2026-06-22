@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2026-06-22 16:10",
+    "step": "git_push",
+    "error": "git push origin main が non-fast-forward で拒否されました（リモートのmainにこの環境のローカルリポジトリには無いコミットが存在）。セッションのブランチ運用ポリシーにより main への直接pushは行わず、開発用ブランチ claude/blissful-keller-v1rhuu にpushして対応。",
+    "action_taken": "claude/blissful-keller-v1rhuu ブランチへpush（PR未作成・未マージ）。本番(main/GitHub Pages)には未反映。",
+    "instagram_skipped": true,
+    "instagram_skip_reason": "本番サイトに新規データが反映されていない状態でのSNS投稿は誤解を招くため、PRマージ待ちで見送り。"
+  }
+]
