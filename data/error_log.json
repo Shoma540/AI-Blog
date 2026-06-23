@@ -1,0 +1,20 @@
+{
+  "errors": [
+    {
+      "timestamp": "2026-06-23 12:09",
+      "step": "STEP8_github_push",
+      "severity": "blocking_policy",
+      "message": "scripts/git_push.py は origin/main へ直接pushする実装だが、本セッションのブランチ運用ポリシーにより claude/blissful-keller-c9d1y6 以外への push が禁止されているため、git_push.py の実行をスキップした。代わりに festivals.json 等の変更は同ブランチへコミット・pushした。",
+      "action_taken": "git_push.py を実行せず、変更を claude/blissful-keller-c9d1y6 ブランチへコミット・push。",
+      "follow_up_needed": "公開サイト(GitHub Pages, main想定)へ反映するには、(a) このブランチをmainにマージする、または (b) このRoutine実行用セッションに対してmainへの直接pushを明示的に許可する、のいずれかの対応が必要。"
+    },
+    {
+      "timestamp": "2026-06-23 12:09",
+      "step": "STEP9_instagram_post",
+      "severity": "skipped",
+      "message": "STEP8がブロックされ公開サイトが未反映のため、'更新しました'という投稿内容が実態と一致しない可能性があるため、Instagram投稿を保留した。",
+      "action_taken": "post_instagram.py を実行せずスキップ。",
+      "follow_up_needed": "STEP8の解決後、次回実行時（has_update=trueのまま）に投稿される想定。"
+    }
+  ]
+}
