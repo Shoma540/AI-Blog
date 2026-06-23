@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-06-23 21:30",
+    "step": "STEP9_INSTAGRAM",
+    "error": "Instagramメディア作成失敗: 400 OAuthException - API access blocked (code:200)",
+    "detail": "INSTAGRAM_ACCESS_TOKEN が無効・期限切れ、またはAPIアクセスが制限されています。Meta for Developersでトークンを再発行してください。",
+    "action_required": true
+  }
+]
