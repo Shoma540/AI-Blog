@@ -1,0 +1,7 @@
+[
+  {
+    "datetime": "2026-06-23 08:06",
+    "type": "DEPLOY_BLOCKED",
+    "message": "git_push.py は origin/main への直接pushを行う設計だが、本セッションはブランチ claude/blissful-keller-s1jr6q での作業に制限されているため main へのpushをスキップし、同ブランチへpushした。GitHub Pages（docs/）は main へのpushでのみ自動デプロイされるため、本番サイトは未更新。Instagram投稿もサイト未反映との不整合を避けるためスキップした。ユーザーによるブランチのマージ判断が必要。"
+  }
+]
