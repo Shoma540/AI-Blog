@@ -1,0 +1,11 @@
+{
+  "errors": [
+    {
+      "timestamp": "2026-06-25 09:00",
+      "step": "STEP 9: Instagram投稿",
+      "error": "400 Bad Request: API access blocked (OAuthException code 200)",
+      "detail": "INSTAGRAM_ACCESS_TOKEN または INSTAGRAM_BUSINESS_ACCOUNT_ID が無効か未設定の可能性があります。Routineのカスタム環境変数を確認してください。",
+      "action_taken": "投稿スキップ（has_update=true のまま保持）"
+    }
+  ]
+}
