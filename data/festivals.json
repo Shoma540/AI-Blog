@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21 10:55",
+  "last_updated": "2026-06-25 10:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -10,7 +10,7 @@
       "city": "京都市",
       "date_start": "2026-07-01",
       "date_end": "2026-07-31",
-      "date_note": "山鉾巡行（前祭）は7月17日、宵山（前祭）は7月14日〜16日。山鉾巡行（後祭）は7月24日、宵山（後祭）は7月21日〜23日。",
+      "date_note": "山鉾巡行（前祭）は7月17日9:00四条烏丸出発、宵山（前祭）は7月14日〜16日。山鉾巡行（後祭）は7月24日9:30烏丸御池出発、宵山（後祭）は7月21日〜23日。神幸祭（神輿渡御）は7月17日16:00八坂神社出発。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -30,16 +30,16 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "http://www.gionmatsuri.or.jp/schedule/", "site_name": "公益財団法人祇園祭山鉾連合会", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://ja.kyoto.travel/event/single.php?event_id=6778", "site_name": "京都市公式 京都観光Navi", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://kyoto-design.jp/special/gionmatsuri/schedule", "site_name": "KYOTOdesign", "is_official": false, "retrieved_date": "2026-06-21"}
+        {"url": "http://www.gionmatsuri.or.jp/schedule/", "site_name": "公益財団法人祇園祭山鉾連合会", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://ja.kyoto.travel/event/single.php?event_id=6778", "site_name": "京都市公式 京都観光Navi", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://kyoto-design.jp/special/gionmatsuri/schedule", "site_name": "KYOTOdesign", "is_official": false, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "前回登録より日程詳細を補強（山鉾巡行・神幸祭の時刻を追記）"}
     },
     {
       "id": "festival_002",
@@ -50,7 +50,7 @@
       "city": "大阪市",
       "date_start": "2026-07-24",
       "date_end": "2026-07-25",
-      "date_note": "奉納花火・船渡御は7月25日のみ開催。",
+      "date_note": "奉納花火・船渡御は7月25日のみ開催。約100隻の船団と約3000発の花火。打ち上げ場所：川崎公園・桜之宮公園。",
       "time_start": "19:30",
       "time_end": "20:50",
       "rain_policy": "不明",
@@ -58,7 +58,7 @@
       "genre": ["神事", "花火", "船渡御"],
       "scale": "その他（大阪三大祭）",
       "is_free": true,
-      "price": "見学無料（有料観覧席あり、2026年5月25日販売開始）",
+      "price": "見学無料（有料観覧席あり）",
       "ticket_url": "不明",
       "history_years": "不明",
       "history_description": "不明",
@@ -70,15 +70,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://osakatemmangu.or.jp/3651", "site_name": "大阪天満宮", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://hanabi.walkerplus.com/detail/ar0727e00977/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-21"}
+        {"url": "https://osakatemmangu.or.jp/3651", "site_name": "大阪天満宮", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://hanabi.walkerplus.com/detail/ar0727e00977/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_003",
@@ -89,7 +89,7 @@
       "city": "青森市",
       "date_start": "2026-08-02",
       "date_end": "2026-08-07",
-      "date_note": "前夜祭は8月1日。8/2-3は19:00〜、8/4-6は18:45〜、8/7は13:00〜・19:15〜21:00頃。",
+      "date_note": "前夜祭は8月1日（土）15:00〜21:10頃、青い海公園ねぶたラッセランドで開催。8/2-3は19:00〜、8/4-6は18:45〜、8/7は13:00〜・19:15〜21:00頃（受賞ねぶた4台が青森港海上運行＋第72回青森花火大会）。",
       "time_start": "18:45",
       "time_end": "21:00",
       "rain_policy": "不明",
@@ -109,15 +109,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.nebuta.jp/info/schedule/schedule.html", "site_name": "青森ねぶた祭 オフィシャルサイト", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://www.nebuta.jp/info/schedule/zenyasai.html", "site_name": "青森ねぶた祭 オフィシャルサイト", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.nebuta.jp/info/schedule/schedule.html", "site_name": "青森ねぶた祭 オフィシャルサイト", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://www.nebuta.jp/info/schedule/zenyasai.html", "site_name": "青森ねぶた祭 オフィシャルサイト", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_004",
@@ -148,15 +148,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.awaodorimirai.com/", "site_name": "The Awaodori", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html", "site_name": "徳島市公式ウェブサイト", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.awaodorimirai.com/", "site_name": "The Awaodori", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html", "site_name": "徳島市公式ウェブサイト", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_005",
@@ -187,15 +187,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.sendaitanabata.com/", "site_name": "仙台七夕まつり公式", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://hanabi.walkerplus.com/detail/ar0204e00651/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.sendaitanabata.com/", "site_name": "仙台七夕まつり公式", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://hanabi.walkerplus.com/detail/ar0204e00651/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_006",
@@ -226,15 +226,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.sumidagawa-hanabi.com/", "site_name": "隅田川花火大会 公式Webサイト", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://hanabi.walkerplus.com/detail/ar0313e00858/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.sumidagawa-hanabi.com/", "site_name": "隅田川花火大会 公式Webサイト", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://hanabi.walkerplus.com/detail/ar0313e00858/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_007",
@@ -245,7 +245,7 @@
       "city": "福岡市",
       "date_start": "2026-07-01",
       "date_end": "2026-07-15",
-      "date_note": "追い山笠（フィナーレ）は7月15日4:59〜。市内13ヶ所で飾り山笠公開。",
+      "date_note": "7/1飾り山笠公開、7/9全流お汐井とり（17:30〜）、7/10流舁き（16:00〜）、7/11朝山笠（5:00〜）、7/12追い山笠馴らし（15:59〜）、7/13集団山笠見せ（15:30〜）、7/14流舁き（16:00〜）、7/15追い山笠（4:59〜）。市内13ヶ所で飾り山笠公開。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -265,15 +265,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.hakatayamakasa.com/162358.html", "site_name": "博多祇園山笠 公式", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://yokanavi.com/events/177576", "site_name": "福岡市観光情報サイト よかなび", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.hakatayamakasa.com/162358.html", "site_name": "博多祇園山笠 公式", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://yokanavi.com/events/177576", "site_name": "福岡市観光情報サイト よかなび", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_008",
@@ -284,7 +284,7 @@
       "city": "秋田市",
       "date_start": "2026-08-03",
       "date_end": "2026-08-06",
-      "date_note": "夜本番19:15〜20:35、昼竿燈9:00〜15:40（8/6のみ9:20〜15:00）。会場は竿燈大通り。",
+      "date_note": "夜本番（竿燈大通り）：竿燈入場18:50、演技19:15〜20:35。昼竿燈（竿燈妙技大会）9:00〜15:40（8/6のみ9:20〜15:00）、8/4〜6はエリアなかいち にぎわい広場。",
       "time_start": "19:15",
       "time_end": "20:35",
       "rain_policy": "不明",
@@ -299,20 +299,20 @@
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "秋田市中心部の竿燈大通り。秋田駅から徒歩約10分（昼竿燈会場）。",
       "official_url": "https://www.kantou.gr.jp/",
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.kantou.gr.jp/", "site_name": "秋田竿燈まつり公式", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://www.kantou.gr.jp/eventa/item.cgi?pro2=&1=", "site_name": "秋田竿燈まつり公式", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.kantou.gr.jp/", "site_name": "秋田竿燈まつり公式", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://www.kantou.gr.jp/eventa/item.cgi?pro2=&1=", "site_name": "秋田竿燈まつり公式", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_009",
@@ -343,15 +343,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.sanjasama.jp/", "site_name": "浅草神社奉賛会／三社祭 公式情報", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://asakusajinja.jp/sanjamatsuri/schedule/", "site_name": "浅草神社", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.sanjasama.jp/", "site_name": "浅草神社奉賛会／三社祭 公式情報", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://asakusajinja.jp/sanjamatsuri/schedule/", "site_name": "浅草神社", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_010",
@@ -362,7 +362,7 @@
       "city": "長岡市",
       "date_start": "2026-08-02",
       "date_end": "2026-08-03",
-      "date_note": "打ち上げ場所は信濃川河川敷。",
+      "date_note": "打ち上げ場所は信濃川河川敷。50万人以上の来場見込み。",
       "time_start": "19:20",
       "time_end": "21:25",
       "rain_policy": "不明",
@@ -376,21 +376,21 @@
       "history_description": "不明",
       "food_stalls": "不明",
       "crowd_level": "不明",
-      "visitors": "不明",
+      "visitors": "約50万人以上",
       "access": "不明",
       "official_url": "https://nagaokamatsuri.com/",
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://nagaokamatsuri.com/", "site_name": "長岡花火 公式ウェブサイト", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://nagaokamatsuri.com/topics/3238/", "site_name": "長岡花火財団", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://nagaokamatsuri.com/", "site_name": "長岡花火 公式ウェブサイト", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://nagaokamatsuri.com/topics/3238/", "site_name": "長岡花火財団", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_011",
@@ -421,15 +421,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.city.gujo.gifu.jp/admin/info/4-20.html", "site_name": "郡上市公式", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://gujolife.com/event/2026%E5%B9%B4%E3%80%80%E9%83%A1%E4%B8%8A%E3%81%8A%E3%81%A9%E3%82%8A/", "site_name": "郡上・ふるさと定住機構", "is_official": false, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.city.gujo.gifu.jp/admin/info/4-20.html", "site_name": "郡上市公式", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://gujolife.com/event/2026%E5%B9%B4%E3%80%80%E9%83%A1%E4%B8%8A%E3%81%8A%E3%81%A9%E3%82%8A/", "site_name": "郡上・ふるさと定住機構", "is_official": false, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_012",
@@ -460,15 +460,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.hanagasa.jp/_lang/en/", "site_name": "Yamagata Hanagasa Festival Official Site", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://yamagatakanko.com/festivals/detail_2955.html", "site_name": "やまがたへの旅（山形県公式）", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.hanagasa.jp/_lang/en/", "site_name": "Yamagata Hanagasa Festival Official Site", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://yamagatakanko.com/festivals/detail_2955.html", "site_name": "やまがたへの旅（山形県公式）", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_013",
@@ -479,7 +479,7 @@
       "city": "高山市",
       "date_start": "2026-04-14",
       "date_end": "2026-04-15",
-      "date_note": "2026年春は開催終了済み（記録用）。秋の高山祭（八幡祭）は2026年10月9日・10日開催予定。",
+      "date_note": "2026年春は開催終了済み（記録用）。秋の高山祭（八幡祭）は2026年10月9日（金）・10日（土）開催予定。国の重要有形民俗文化財の11台の屋台が曳き揃えられる。",
       "time_start": "09:30",
       "time_end": "21:00",
       "rain_policy": "不明",
@@ -499,15 +499,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.kankou-gifu.jp/event/detail_8488.html", "site_name": "岐阜県観光公式サイト", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://www.kankou-gifu.jp/event/detail_1074.html", "site_name": "岐阜県観光公式サイト（秋の高山祭）", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.kankou-gifu.jp/event/detail_8488.html", "site_name": "岐阜県観光公式サイト", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://www.kankou-gifu.jp/event/detail_1074.html", "site_name": "岐阜県観光公式サイト（秋の高山祭）", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_014",
@@ -538,15 +538,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://welcome-kochi.jp/yosakoi/schedule.html", "site_name": "高知市観光協会", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://kokoharekochi.com/article/feature/recommend/n98786/", "site_name": "ココハレ", "is_official": false, "retrieved_date": "2026-06-21"}
+        {"url": "https://welcome-kochi.jp/yosakoi/schedule.html", "site_name": "高知市観光協会", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://kokoharekochi.com/article/feature/recommend/n98786/", "site_name": "ココハレ", "is_official": false, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_015",
@@ -577,15 +577,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.dontaku.fukunet.or.jp/", "site_name": "福岡市民の祭り 博多どんたく港まつり", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://yokanavi.com/events/274296", "site_name": "福岡市観光情報サイト よかなび", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.dontaku.fukunet.or.jp/", "site_name": "福岡市民の祭り 博多どんたく港まつり", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://yokanavi.com/events/274296", "site_name": "福岡市観光情報サイト よかなび", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_016",
@@ -616,15 +616,15 @@
       "sns_accounts": {"instagram": "https://www.instagram.com/omagari_hanabi/"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.omagari-hanabi.com/overview/summer", "site_name": "全国花火競技大会「大曲の花火」公式", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://hanabi.walkerplus.com/detail/ar0205e00654/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.omagari-hanabi.com/overview/summer", "site_name": "全国花火競技大会「大曲の花火」公式", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://hanabi.walkerplus.com/detail/ar0205e00654/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_017",
@@ -655,15 +655,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://ugokanko.com/nishimonaibonodori/", "site_name": "羽後町観光物産協会", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://www.town.ugo.lg.jp/sightseeing/detail.html?id=2432&category_id=41", "site_name": "羽後町公式", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://ugokanko.com/nishimonaibonodori/", "site_name": "羽後町観光物産協会", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://www.town.ugo.lg.jp/sightseeing/detail.html?id=2432&category_id=41", "site_name": "羽後町公式", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_018",
@@ -694,15 +694,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://visithachinohe.com/stories/sannshataisai_schedule/", "site_name": "VISITはちのへ観光物産サイト", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://aomori-tourism.com/event/detail_28.html", "site_name": "青森県観光情報サイト Amazing AOMORI", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://visithachinohe.com/stories/sannshataisai_schedule/", "site_name": "VISITはちのへ観光物産サイト", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://aomori-tourism.com/event/detail_28.html", "site_name": "青森県観光情報サイト Amazing AOMORI", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_019",
@@ -733,15 +733,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://koto.goguynet.jp/2026/06/20/fukagawamatsuri2026/", "site_name": "号外NET 江東区", "is_official": false, "retrieved_date": "2026-06-21"},
-        {"url": "https://fukagawa-web.com/wpfuka02/2026/03/13/2026hachiman-maturi-288/", "site_name": "タウン誌 深川WEB", "is_official": false, "retrieved_date": "2026-06-21"}
+        {"url": "https://koto.goguynet.jp/2026/06/20/fukagawamatsuri2026/", "site_name": "号外NET 江東区", "is_official": false, "retrieved_date": "2026-06-25"},
+        {"url": "https://fukagawa-web.com/wpfuka02/2026/03/13/2026hachiman-maturi-288/", "site_name": "タウン誌 深川WEB", "is_official": false, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "中",
       "conflict_note": "富岡八幡宮の公式サイト上での一次情報を確認できておらず、地域メディア・タウン誌の情報に基づく。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_020",
@@ -772,15 +772,15 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://kuroishi.or.jp/event/summer/kuroishiyosare", "site_name": "一般社団法人黒石観光協会", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://aomori-tourism.com/event/detail_34.html", "site_name": "青森県観光情報サイト Amazing AOMORI", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://kuroishi.or.jp/event/summer/kuroishiyosare", "site_name": "一般社団法人黒石観光協会", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://aomori-tourism.com/event/detail_34.html", "site_name": "青森県観光情報サイト Amazing AOMORI", "is_official": true, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "2026年の正式日程は黒石観光協会の例年情報（8月中旬）から推定。公式発表での確定日程は要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
-      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
     },
     {
       "id": "festival_021",
@@ -811,8 +811,286 @@
       "sns_accounts": {"instagram": "不明"},
       "video_url": "不明",
       "sources": [
-        {"url": "https://www.karatsu-jinja.org/", "site_name": "唐津神社公式ホームページ", "is_official": true, "retrieved_date": "2026-06-21"},
-        {"url": "https://www.city.karatsu.lg.jp/life/5/32/160/", "site_name": "唐津市ホームページ", "is_official": true, "retrieved_date": "2026-06-21"}
+        {"url": "https://www.karatsu-jinja.org/", "site_name": "唐津神社公式ホームページ", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://www.city.karatsu.lg.jp/life/5/32/160/", "site_name": "唐津市ホームページ", "is_official": true, "retrieved_date": "2026-06-25"}
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {"changed": false, "details": "不明（2026-06-21登録時と変化なし）"}
+    },
+    {
+      "id": "festival_022",
+      "name": "諏訪湖祭湖上花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "諏訪市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "第78回。諏訪湖上で打ち上げ。サマーナイト花火は7/24〜8/23（8/15除く）毎日20:30〜約10分間開催。",
+      "time_start": "19:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "諏訪湖祭実行委員会",
+      "genre": ["花火"],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料席あり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR上諏訪駅から徒歩",
+      "official_url": "https://suwako-hanabi.com/",
+      "sns_accounts": {"instagram": "不明"},
+      "video_url": "不明",
+      "sources": [
+        {"url": "https://suwako-hanabi.com/", "site_name": "諏訪湖祭湖上花火大会公式", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://www.suwakanko.jp/story/hanabi-suwako/", "site_name": "諏訪観光協会公式サイト", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://hanabi.walkerplus.com/detail/ar0420e00799/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-25"}
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+    },
+    {
+      "id": "festival_023",
+      "name": "長崎くんち",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長崎県",
+      "city": "長崎市",
+      "date_start": "2026-10-07",
+      "date_end": "2026-10-09",
+      "date_note": "10/7（宵やま）、10/8・9（本番）。諏訪神社の秋季大祭。今年の踊町は今籠町・油屋町・元船町・上町・鍛冶屋町・筑後町の6ヶ町。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "長崎伝統芸能振興会",
+      "genre": ["曳山", "神事", "伝統芸能"],
+      "scale": "国指定重要無形民俗文化財／ユネスコ無形文化遺産",
+      "is_free": true,
+      "price": "見学無料（演し物鑑賞席は有料）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "長崎の氏神「諏訪神社」の秋季大祭。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "長崎市内各所（諏訪神社・御旅所・公会堂前広場ほか）",
+      "official_url": "https://nagasaki-kunchi.com/",
+      "sns_accounts": {"instagram": "不明"},
+      "video_url": "不明",
+      "sources": [
+        {"url": "https://nagasaki-kunchi.com/", "site_name": "長崎くんち公式サイト（長崎伝統芸能振興会）", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://www.nagasaki-tabinet.com/event/60489", "site_name": "ながさき旅ネット（長崎県観光連盟）", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://furari-nagasaki.sakura.ne.jp/kunti-R8.html", "site_name": "ふらり長崎（踊町情報）", "is_official": false, "retrieved_date": "2026-06-25"}
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+    },
+    {
+      "id": "festival_024",
+      "name": "江戸川区花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "江戸川区",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第51回。約14,000発。打ち上げ場所：江戸川河川敷（都立篠崎公園先）。",
+      "time_start": "19:15",
+      "time_end": "20:20",
+      "rain_policy": "不明",
+      "organizer": "江戸川区花火大会実行委員会",
+      "genre": ["花火"],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料席あり、1席2,000円〜）",
+      "ticket_url": "https://www.city.edogawa.tokyo.jp/hanabi/",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "都営地下鉄篠崎駅から徒歩15分。JR小岩駅・京成江戸川駅から徒歩25分。",
+      "official_url": "https://www.city.edogawa.tokyo.jp/hanabi/",
+      "sns_accounts": {"instagram": "不明"},
+      "video_url": "不明",
+      "sources": [
+        {"url": "https://www.city.edogawa.tokyo.jp/hanabi/", "site_name": "江戸川区ホームページ（公式）", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://hanabi.walkerplus.com/detail/ar0313e00863/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-25"},
+        {"url": "https://weathernews.jp/hanabi/spot/2201005/", "site_name": "ウェザーニュース 花火大会", "is_official": false, "retrieved_date": "2026-06-25"}
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+    },
+    {
+      "id": "festival_025",
+      "name": "熊野大花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "熊野市",
+      "date_start": "2026-08-17",
+      "date_end": "2026-08-17",
+      "date_note": "約10,000発。七里御浜海岸で開催。海上自爆・鬼ヶ城の大仕掛・三尺玉海上自爆が見どころ。三百余年の伝統。",
+      "time_start": "19:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "熊野大花火大会実行委員会",
+      "genre": ["花火"],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料席あり）",
+      "ticket_url": "不明",
+      "history_years": "300",
+      "history_description": "三百余年の伝統を誇る。熊野路最大の夏の風物詩。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR熊野市駅から徒歩5分",
+      "official_url": "https://www.kumano-kankou.info/kumano-fireworks/",
+      "sns_accounts": {"instagram": "不明"},
+      "video_url": "不明",
+      "sources": [
+        {"url": "https://www.kumano-kankou.info/kumano-fireworks/", "site_name": "熊野市観光協会（公式）", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://hanabi.walkerplus.com/detail/ar0624e00803/", "site_name": "ウォーカープラス 花火大会2026", "is_official": false, "retrieved_date": "2026-06-25"},
+        {"url": "https://www.kankomie.or.jp/event/5207", "site_name": "観光三重（三重県公式）", "is_official": true, "retrieved_date": "2026-06-25"}
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+    },
+    {
+      "id": "festival_026",
+      "name": "沖縄全島エイサーまつり",
+      "alternate_names": ["全島エイサーまつり"],
+      "similar_name_warning": false,
+      "prefecture": "沖縄県",
+      "city": "沖縄市",
+      "date_start": "2026-09-04",
+      "date_end": "2026-09-06",
+      "date_note": "第71回（2025年が第70回記念）。コザ運動公園陸上競技場・胡屋十字路周辺で開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "沖縄全島エイサーまつり実行委員会",
+      "genre": ["踊り", "伝統芸能"],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（一部有料席あり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "沖縄の伝統的な盆踊り「エイサー」を一堂に集めた県最大規模のエイサーイベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "沖縄市コザ運動公園陸上競技場・胡屋十字路周辺",
+      "official_url": "https://www.zentoeisa.com/",
+      "sns_accounts": {"instagram": "不明"},
+      "video_url": "不明",
+      "sources": [
+        {"url": "https://www.zentoeisa.com/", "site_name": "沖縄全島エイサーまつり実行委員会（公式）", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://www.okinawa.oriental-hotels.com/activity/26/", "site_name": "オリエンタルホテル沖縄（2026エイサー情報）", "is_official": false, "retrieved_date": "2026-06-25"}
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+    },
+    {
+      "id": "festival_027",
+      "name": "YOSAKOIソーラン祭り",
+      "alternate_names": ["よさこいソーラン祭り"],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市",
+      "date_start": "2026-06-10",
+      "date_end": "2026-06-14",
+      "date_note": "第35回。2026年は開催終了済み（記録用）。大通公園・すすきの・一番街など複数会場。約275チームが参加。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "YOSAKOIソーラン祭り組織委員会",
+      "genre": ["踊り"],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料席あり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "高知の「よさこい祭り」と北海道の民謡「ソーラン節」を融合した踊りの祭典。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約200万人",
+      "access": "大通公園（地下鉄大通駅）・すすきのほか",
+      "official_url": "https://www.yosakoi-soran.jp/",
+      "sns_accounts": {"instagram": "https://www.instagram.com/4351_yosakoisoran/"},
+      "video_url": "不明",
+      "sources": [
+        {"url": "https://www.yosakoi-soran.jp/", "site_name": "YOSAKOIソーラン祭り公式ホームページ", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://sasaru.media/article/weather/20260608_002/", "site_name": "SASARU（北海道ローカルメディア）", "is_official": false, "retrieved_date": "2026-06-25"}
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {"changed": false, "details": "不明（初回登録のため比較対象なし）"}
+    },
+    {
+      "id": "festival_028",
+      "name": "葵祭",
+      "alternate_names": ["賀茂祭"],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "京都市",
+      "date_start": "2026-05-15",
+      "date_end": "2026-05-15",
+      "date_note": "2026年は開催終了済み（記録用）。悪天候の場合5/16順延。路頭の儀：京都御所（10:30）→下鴨神社（11:40頃）→上賀茂神社（15:30頃）。馬36頭・牛4頭・500余名の行列。",
+      "time_start": "10:30",
+      "time_end": "不明",
+      "rain_policy": "悪天候の場合翌日順延",
+      "organizer": "上賀茂神社（賀茂別雷神社）・下鴨神社（賀茂御祖神社）",
+      "genre": ["神事", "行列"],
+      "scale": "国指定重要無形民俗文化財（日本三勅祭・京都三大祭）",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり、5,000円〜20,000円）",
+      "ticket_url": "不明",
+      "history_years": "1500",
+      "history_description": "今から約1500年前に始まったとされる上賀茂神社・下鴨神社の例祭。日本三勅祭・京都三大祭のひとつ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京都御所→下鴨神社（市バス）→上賀茂神社（市バス）",
+      "official_url": "https://www.shimogamo-jinja.or.jp/en/saiji/aoimatsuri-2026",
+      "sns_accounts": {"instagram": "不明"},
+      "video_url": "不明",
+      "sources": [
+        {"url": "https://www.shimogamo-jinja.or.jp/en/saiji/aoimatsuri-2026", "site_name": "下鴨神社（公式）", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://ja.kyoto.travel/event/single.php?event_id=1005", "site_name": "京都市公式 京都観光Navi", "is_official": true, "retrieved_date": "2026-06-25"},
+        {"url": "https://kyototravel.info/aoimaturi", "site_name": "京都観光情報（葵祭日程まとめ）", "is_official": false, "retrieved_date": "2026-06-25"}
       ],
       "trust_level": "高",
       "conflict_note": "",
