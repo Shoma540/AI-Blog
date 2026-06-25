@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-06-25 09:00",
+    "step": "STEP9_INSTAGRAM",
+    "error": "Instagram API 400 OAuthException: API access blocked (code 200)",
+    "detail": "INSTAGRAM_ACCESS_TOKEN が無効または期限切れの可能性。環境変数を再設定してください。",
+    "action_taken": "スキップして処理続行"
+  }
+]
