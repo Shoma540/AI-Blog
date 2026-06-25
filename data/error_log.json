@@ -1,0 +1,13 @@
+{
+  "errors": [
+    {
+      "timestamp": "2026-06-25 18:06",
+      "step": "STEP 9: Instagram投稿",
+      "error_type": "OAuthException",
+      "error_code": 200,
+      "http_status": 400,
+      "message": "API access blocked. Instagramメディア作成に失敗。アクセストークンの有効期限切れまたはAPI権限の問題が考えられます。INSTAGRAM_ACCESS_TOKENの更新が必要な可能性があります。",
+      "action_required": "Routineカスタム環境の INSTAGRAM_ACCESS_TOKEN を確認・更新してください。"
+    }
+  ]
+}
