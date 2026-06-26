@@ -1,10 +1,28 @@
 {
   "image_base_url": "https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images",
   "default_image": "default_ill.png",
+  "genre_priority": [
+    "ねぶた", "竿燈", "七夕", "船渡御",
+    "曳山", "山車", "屋台行事", "神輿", "神事",
+    "流し踊り", "踊り", "パレード", "民俗芸能",
+    "花火", "盆踊り", "農祭り"
+  ],
   "genre_images": {
     "花火": "hanabi_ill.png",
     "神輿": "mikoshi_ill.png",
     "盆踊り": "bon_ill.png",
-    "農祭り": "nou_ill.png"
+    "農祭り": "nou_ill.png",
+    "山車": "dashi_ill.png",
+    "曳山": "dashi_ill.png",
+    "屋台行事": "dashi_ill.png",
+    "ねぶた": "nebuta_ill.png",
+    "竿燈": "kanto_ill.png",
+    "七夕": "tanabata_ill.png",
+    "踊り": "odori_ill.png",
+    "流し踊り": "odori_ill.png",
+    "パレード": "odori_ill.png",
+    "民俗芸能": "odori_ill.png",
+    "神事": "shinji_ill.png",
+    "船渡御": "shinji_ill.png"
   }
 }

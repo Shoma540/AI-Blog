@@ -57,12 +57,14 @@ def load_config():
 def select_image_file(festivals, config):
     """祭りのジャンルから使用する画像ファイル名を決定する。
 
-    - NEW/UPDATED の祭りを優先（なければ先頭）し、その最初のジャンルを使う
+    - NEW/UPDATED の祭りを優先（なければ先頭）し、その祭りのジャンルを使う
     - ジャンルと画像の対応は config.json の genre_images で管理
+    - 複数ジャンルを持つ場合は genre_priority 順で最も固有性の高いものを選ぶ
     - 未対応ジャンル、またはローカルにファイルが無い場合は default にフォールバック
     """
     genre_images = config.get('genre_images', {})
     default_image = config.get('default_image', DEFAULT_IMAGE)
+    priority = config.get('genre_priority', [])
 
     target = next(
         (f for f in festivals if f.get('diff_status') in ('NEW', 'UPDATED')),
@@ -74,8 +76,20 @@ def select_image_file(festivals, config):
     filename = default_image
     if target:
         genres = target.get('genre') or []
-        if genres:
-            filename = genre_images.get(genres[0], default_image)
+        # 1. genre_priority順で最初にマッチしたジャンルの画像
+        picked = None
+        for p in priority:
+            if p in genres and p in genre_images:
+                picked = genre_images[p]
+                break
+        # 2. 優先リストに無いが画像があるジャンルを、genre順で
+        if picked is None:
+            for g in genres:
+                if g in genre_images:
+                    picked = genre_images[g]
+                    break
+        if picked is not None:
+            filename = picked
 
     # ローカルにファイルが無ければ default にフォールバック
     if not os.path.exists(os.path.join(ASSETS_IMAGES_DIR, filename)):
@@ -148,7 +162,6 @@ def post_instagram(caption, image_url):
         print(f"Instagram認証情報が不足しています: {', '.join(missing)}")
         return False
 
-    # Instagramは画像（または動画）が必須。公開アクセス可能なURLを指定する。
     if not image_url:
         print("画像の公開URLを解決できないため Instagram投稿をスキップしました"
               "（config.json の image_base_url か IG_IMAGE_URL を設定してください）")
@@ -156,7 +169,6 @@ def post_instagram(caption, image_url):
 
     base = f"https://graph.facebook.com/{GRAPH_API_VERSION}/{ig_user_id}"
 
-    # STEP 1: メディアコンテナを作成
     create = requests.post(f"{base}/media", data={
         "image_url": image_url,
         "caption": caption,
@@ -170,7 +182,6 @@ def post_instagram(caption, image_url):
         print(f"Instagram creation_id を取得できませんでした: {create.text}")
         return False
 
-    # STEP 2: メディアを公開
     publish = requests.post(f"{base}/media_publish", data={
         "creation_id": creation_id,
         "access_token": access_token,
