@@ -1,0 +1,8 @@
+[
+  {
+    "timestamp": "2026-06-26 09:00",
+    "step": "STEP9_INSTAGRAM",
+    "error": "Instagram API access blocked (OAuthException code:200). Access token may be expired or permissions insufficient.",
+    "action_required": "INSTAGRAM_ACCESS_TOKENの更新、またはInstagramアカウントのAPI権限を確認してください。"
+  }
+]
