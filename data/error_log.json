@@ -1,0 +1,8 @@
+[
+  {
+    "timestamp": "2026-06-26 09:00",
+    "step": "STEP9_Instagram",
+    "error": "API access blocked (code:200). INSTAGRAM_ACCESS_TOKEN が無効または期限切れの可能性あり。",
+    "action": "Instagram投稿スキップ。データ更新・HTML生成・GitHubプッシュは成功。"
+  }
+]
