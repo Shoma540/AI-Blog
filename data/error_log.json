@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-06-27 12:09",
+    "step": "STEP9_INSTAGRAM",
+    "script": "scripts/post_instagram.py",
+    "error": "OAuthException: API access blocked (code 200). Instagram access token may need refresh or API permissions revoked.",
+    "action_taken": "スキップ。has_update: true、posted_to_instagram: false のまま保存。"
+  }
+]
