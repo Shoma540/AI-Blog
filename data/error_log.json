@@ -1,0 +1,12 @@
+{
+  "errors": [
+    {
+      "timestamp": "2026-06-27 09:00",
+      "step": "STEP 9: Instagram投稿",
+      "error": "Instagram API access blocked (OAuthException code 200)",
+      "detail": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200}}",
+      "action": "処理継続。INSTAGRAM_ACCESS_TOKENまたはINSTAGRAM_BUSINESS_ACCOUNT_IDの再設定が必要。"
+    }
+  ],
+  "last_updated": "2026-06-27 09:00"
+}
