@@ -1,0 +1,7 @@
+[
+  {
+    "timestamp": "2026-06-28 16:08",
+    "step": "STEP 9: Instagram投稿",
+    "error": "Instagramメディア作成失敗: 400 - API access blocked (OAuthException code:200). INSTAGRAM_ACCESS_TOKEN または INSTAGRAM_BUSINESS_ACCOUNT_ID の有効期限切れの可能性あり。"
+  }
+]
