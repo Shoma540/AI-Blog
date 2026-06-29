@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-06-29 10:00",
+    "step": "STEP 9: Instagram投稿",
+    "error": "APIアクセスブロック: 400 OAuthException code 200 - API access blocked",
+    "detail": "INSTAGRAM_ACCESS_TOKEN または INSTAGRAM_BUSINESS_ACCOUNT_ID の権限・設定を確認してください。",
+    "action": "投稿スキップ。has_update=true のままとし、次回実行時に再試行します。"
+  }
+]
