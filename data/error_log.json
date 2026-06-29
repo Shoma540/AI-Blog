@@ -1,0 +1,8 @@
+[
+  {
+    "timestamp": "2026-06-29 09:00",
+    "step": "STEP 9 Instagram投稿",
+    "error": "API access blocked (HTTP 400 OAuthException code:200). Instagram Business API のアクセストークンまたは権限設定を確認してください。",
+    "action": "投稿はスキップ。他のステップは正常完了。"
+  }
+]
