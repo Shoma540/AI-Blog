@@ -1,0 +1,8 @@
+[
+  {
+    "timestamp": "2026-06-29 17:09",
+    "step": "STEP9_INSTAGRAM",
+    "error": "API access blocked (OAuthException code 200)",
+    "detail": "INSTAGRAM_ACCESS_TOKEN may be expired or revoked. Meta Instagram Basic Display API access blocked."
+  }
+]
