@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2026-06-29 16:14",
+    "step": "STEP 9: Instagram投稿",
+    "error_type": "OAuthException",
+    "error_code": 200,
+    "message": "API access blocked. Instagram Graph APIへのアクセスがブロックされました。INSTAGRAM_ACCESS_TOKENの期限切れまたは権限不足の可能性があります。",
+    "action_required": "Instagram Business アカウントのアクセストークンを更新してください。"
+  }
+]
