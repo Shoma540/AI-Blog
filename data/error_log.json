@@ -1,0 +1,8 @@
+[
+  {
+    "timestamp": "2026-06-30 08:07",
+    "step": "STEP 9: Instagram投稿",
+    "error": "Instagram APIアクセスブロック。400エラー: OAuthException code:200 (API access blocked). アクセストークンの期限切れまたは無効の可能性あり。",
+    "action": "Instagram投稿をスキップ。他のステップは正常完了。"
+  }
+]
