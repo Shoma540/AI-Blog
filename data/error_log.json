@@ -1,0 +1,8 @@
+[
+  {
+    "datetime": "2026-06-30 10:12",
+    "step": "STEP9_instagram",
+    "error": "Instagram API access blocked: 400 OAuthException code 200",
+    "action": "スキップ - 環境変数 INSTAGRAM_ACCESS_TOKEN の確認が必要"
+  }
+]
