@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30 18:25",
+  "last_updated": "2026-07-01 12:18",
   "festivals": [
     {
       "id": "festival_001",
@@ -63,7 +63,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -125,14 +125,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "official_url",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "公式サイトURLが変更: https://osakatemmangu.or.jp/ → https://www.tenjinsan.com/（日程・内容に変更なし）"
+        "changed": false,
+        "details": "変更なし"
       }
     },
     {
@@ -189,7 +186,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -247,7 +244,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -304,7 +301,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -366,7 +363,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -423,7 +420,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -479,7 +476,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -537,7 +534,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -593,7 +590,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -649,7 +646,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -705,7 +702,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -764,7 +761,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -822,7 +819,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -879,7 +876,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -937,7 +934,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -993,7 +990,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -1050,7 +1047,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -1111,15 +1108,11 @@
       "trust_level": "高",
       "conflict_note": "富岡八幡宮の公式サイトは取得時(2026-06-30)に一時的にアクセス不可(HTTP 503)だったため未確認だが、江東区観光協会（公式）と地域メディア2件が一致して日程を確認。2026年は3年に一度の本祭り（神輿連合渡御は8/16、50基以上）。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：信頼度中（地域メディアのみ） → 今年：江東区観光協会（公式）の情報で裏付けが取れ信頼度高に。日程自体に変更なし。"
+        "changed": false,
+        "details": "変更なし"
       }
     },
     {
@@ -1180,15 +1173,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "conflict_note",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：日程は例年情報から推定（要確認） → 今年：公式サイトで2026年8/15-16開催を明記確認、要確認フラグ解除"
+        "changed": false,
+        "details": "変更なし"
       }
     },
     {
@@ -1245,7 +1234,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "details": "変更なし"
       }
     },
     {
@@ -1292,11 +1281,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1342,11 +1331,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1393,11 +1382,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1444,11 +1433,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1462,7 +1451,7 @@
       "city": "日光市",
       "date_start": "2026-10-16",
       "date_end": "2026-10-17",
-      "date_note": "10/16流鏑馬神事、10/17百物揃千人武者行列。日程は例年固定だが2026年版の公式明記は非公式サイト経由のみで確認しており要再確認。",
+      "date_note": "10/16流鏑馬神事、10/17百物揃千人武者行列。栃木県公式観光サイトで2026年10月16日〜17日開催と明記。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -1492,16 +1481,28 @@
           "site_name": "日光東照宮公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://www.tochigiji.or.jp/event/e15021",
+          "site_name": "とちぎ旅ネット（栃木県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "2026年の正式日程は例年パターンからの推定を含む。公式サイトでの確定告知の再確認を推奨。",
-      "requires_check": true,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "sources",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "changed": true,
+        "details": "前回：日光東照宮公式のみで日程は例年パターンからの推定 → 今年：栃木県公式観光サイトが2026年10月16日〜17日開催を明記し確認が取れた。"
       }
     },
     {
@@ -1549,11 +1550,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1602,11 +1603,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1653,11 +1654,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1704,11 +1705,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1761,11 +1762,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1810,13 +1811,15 @@
         }
       ],
       "trust_level": "低",
-      "conflict_note": "2026年の正確な日程は固定パターンからの推定。公式の確定発表での再確認を推奨。",
+      "conflict_note": "2026年の輪島大祭本体の正確な日程は固定パターンからの推定で公式の確定発表は未確認（要再確認）。なお関連情報として、輪島市内の別イベント「輪島市民大花火大会」は2024年能登半島地震の復旧工事のため2026年は夜間開催が中止となることが輪島商工会議所公式サイトで確認された。",
       "requires_check": true,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "changed": true,
+        "details": "日程自体に変更なし。関連する輪島市民大花火大会が2026年は震災復旧のため中止と新たに判明。"
       }
     },
     {
@@ -1863,11 +1866,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1915,11 +1918,11 @@
       "trust_level": "低",
       "conflict_note": "2026年の正式日程は例年パターンからの推定。公式の確定告知の再確認を推奨。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -1965,11 +1968,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2015,11 +2018,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2066,11 +2069,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2082,7 +2085,7 @@
       "city": "桑名市",
       "date_start": "2026-08-01",
       "date_end": "2026-08-02",
-      "date_note": "試楽8/1、本楽8/2（叩き出しは8/2 2:00〜）。「日本一やかましい祭」と称される。日程は「8月第1日曜とその前日」という固定パターンから2系統の調査で一致したが、公式サイトの2026年表記は取得時点で未更新だったため要再確認。",
+      "date_note": "試楽8/1、本楽8/2（叩き出しは8/2 2:00〜）。「日本一やかましい祭」と称される。桑名宗社公式サイトで令和8年（2026年）の日程として明記を確認。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -2111,23 +2114,28 @@
           "url": "https://kuwana-ishidori.com/",
           "site_name": "石取祭保存会公式",
           "is_official": true,
-          "retrieved_date": "2026-06-30"
+          "retrieved_date": "2026-07-01"
         },
         {
           "url": "https://www.kuwanasousha.org/isidori/",
           "site_name": "桑名宗社公式",
           "is_official": true,
-          "retrieved_date": "2026-06-30"
+          "retrieved_date": "2026-07-01"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "日程は固定パターンからの推定で2系統の調査が一致。公式サイトの2026年版表記更新を要確認。",
-      "requires_check": true,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "changed": true,
+        "details": "前回：日程は固定パターンからの推定で公式2026年表記は未確認 → 今年：桑名宗社公式サイトで令和8年(2026年)の日程として明記されているのを確認、信頼度を中→高に更新。"
       }
     },
     {
@@ -2174,11 +2182,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2233,11 +2241,11 @@
       "trust_level": "中",
       "conflict_note": "2026年の正式日程は例年パターンからの推定（2系統の調査で一致）。公式の確定告知での再確認を推奨。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2283,11 +2291,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2336,11 +2344,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2386,11 +2394,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2444,11 +2452,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2495,11 +2503,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2509,9 +2517,9 @@
       "similar_name_warning": false,
       "prefecture": "広島県",
       "city": "廿日市市宮島町",
-      "date_start": "2026-07-11",
-      "date_end": "2026-08-10",
-      "date_note": "旧暦6月17日（2026年は7/11）に開催。2026年は閏月の関係で「居管絃」が8/10にも行われ、1987年以来38年ぶりの年2回開催。日本三大船神事の一つ。",
+      "date_start": "2026-07-30",
+      "date_end": "2026-07-30",
+      "date_note": "旧暦6月17日にあたる7/30に開催。2025年は閏月の影響で「居管絃」が8/10にも行われる特殊年（38年ぶり）だったが、2026年はその特例が発生せず単日開催。日本三大船神事の一つ。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -2522,7 +2530,7 @@
       ],
       "scale": "嚴島神社は世界遺産（祭礼自体の文化財指定は不明）",
       "is_free": true,
-      "price": "沿岸からの見学無料（観覧船ツアーは有料）",
+      "price": "沿岸からの見学無料（嚴島神社拝観料：大人300円/高校生200円/小中学生100円、観覧船ツアーは別途有料）",
       "ticket_url": "不明",
       "history_years": "不明",
       "history_description": "不明",
@@ -2540,23 +2548,29 @@
           "url": "https://www.itsukushimajinja.jp/jp/event.html",
           "site_name": "嚴島神社公式",
           "is_official": true,
-          "retrieved_date": "2026-06-30"
+          "retrieved_date": "2026-07-01"
         },
         {
           "url": "https://www.miyajima.or.jp/event/event_kangen.html",
           "site_name": "宮島観光協会公式",
           "is_official": true,
-          "retrieved_date": "2026-06-30"
+          "retrieved_date": "2026-07-01"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "price",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "changed": true,
+        "details": "前回登録：2026-07-11〜2026-08-10（2025年の特殊日程を誤って引き継いだ表記） → 今年：2026-07-30（単日開催に訂正）。"
       }
     },
     {
@@ -2604,11 +2618,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2656,11 +2670,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2707,11 +2721,11 @@
       "trust_level": "低",
       "conflict_note": "2026年の正式日程は未確定。市公式サイトの2026年版更新を要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2758,11 +2772,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2815,11 +2829,11 @@
       "trust_level": "低",
       "conflict_note": "情報源に年表記の誤記（令和7年/2025年表記）が含まれており、2026年の確定日程は要再確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2867,11 +2881,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2918,11 +2932,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -2969,11 +2983,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -3020,11 +3034,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -3071,11 +3085,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "変更なし"
       }
     },
     {
@@ -3089,7 +3103,7 @@
       "city": "川越市",
       "date_start": "2026-10-17",
       "date_end": "2026-10-18",
-      "date_note": "「10月第3土日」という例年の固定パターンからの推定。公式の2026年確定発表での再確認を推奨。",
+      "date_note": "川越まつり公式サイトで「令和８年１０月１７日（土）、１８日（日）開催予定」と明記（「予定」表記のため確定告知ではない点に留意）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -3118,17 +3132,22 @@
           "url": "https://kawagoematsuri.jp/",
           "site_name": "川越まつり公式",
           "is_official": true,
-          "retrieved_date": "2026-06-30"
+          "retrieved_date": "2026-07-01"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "2026年の正式日程は例年パターンからの推定。公式の確定告知の再確認を推奨。",
-      "requires_check": true,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "公式サイトの表記が「開催予定」であり、確定告知ではない点に留意。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "changed": true,
+        "details": "前回：日程は例年パターンからの推定 → 今年：川越まつり公式サイトが令和8年10月17日・18日開催予定と明記。"
       }
     }
   ]
