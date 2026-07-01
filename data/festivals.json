@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30 18:25",
+  "last_updated": "2026-07-01 20:10",
   "festivals": [
     {
       "id": "festival_001",
@@ -125,14 +125,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "official_url",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "公式サイトURLが変更: https://osakatemmangu.or.jp/ → https://www.tenjinsan.com/（日程・内容に変更なし）"
+        "changed": false,
+        "details": "前回から変更なし"
       }
     },
     {
@@ -378,8 +375,8 @@
       "city": "福岡市",
       "date_start": "2026-07-01",
       "date_end": "2026-07-15",
-      "date_note": "追い山笠（フィナーレ）は7月15日4:59〜。市内13ヶ所で飾り山笠公開。",
-      "time_start": "不明",
+      "date_note": "追い山笠（フィナーレ）は7月15日4:59〜。7/9全流お汐井とり、7/12追い山笠馴らし、7/13集団山笠見せ。市内13ヶ所で飾り山笠公開。2026年でユネスコ無形文化遺産登録10周年。",
+      "time_start": "04:59",
       "time_end": "不明",
       "rain_policy": "不明",
       "organizer": "博多祇園山笠振興会",
@@ -391,8 +388,8 @@
       "is_free": true,
       "price": "見学無料",
       "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "櫛田神社を中心とした祭礼。",
+      "history_years": "770年以上（鎌倉時代起源とされる）",
+      "history_description": "博多を代表する祭り。7つの舁き山笠と1つの飾り山笠が街を疾走し、クライマックスの追い山笠では一番山笠から順に櫛田神社の「櫛田入り」を奉納する。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -414,16 +411,40 @@
           "site_name": "福岡市観光情報サイト よかなび",
           "is_official": true,
           "retrieved_date": "2026-06-21"
+        },
+        {
+          "url": "https://yokanavi.com/events/177576",
+          "site_name": "福岡市観光情報サイト よかなび",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.hakata-yamakasa.net/",
+          "site_name": "山笠ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://bunka.nii.ac.jp/heritages/detail/274342",
+          "site_name": "文化遺産オンライン",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "time_start",
+        "history_years",
+        "history_description",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "前回(2026-06-21)から変更なし"
+        "changed": true,
+        "details": "前回情報を補完・詳細化（date_note, time_start, history_years, history_description, sources）"
       }
     },
     {
@@ -1111,15 +1132,11 @@
       "trust_level": "高",
       "conflict_note": "富岡八幡宮の公式サイトは取得時(2026-06-30)に一時的にアクセス不可(HTTP 503)だったため未確認だが、江東区観光協会（公式）と地域メディア2件が一致して日程を確認。2026年は3年に一度の本祭り（神輿連合渡御は8/16、50基以上）。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：信頼度中（地域メディアのみ） → 今年：江東区観光協会（公式）の情報で裏付けが取れ信頼度高に。日程自体に変更なし。"
+        "changed": false,
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1180,15 +1197,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "conflict_note",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：日程は例年情報から推定（要確認） → 今年：公式サイトで2026年8/15-16開催を明記確認、要確認フラグ解除"
+        "changed": false,
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1292,11 +1305,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1342,11 +1355,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1393,11 +1406,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1444,11 +1457,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1497,11 +1510,11 @@
       "trust_level": "低",
       "conflict_note": "2026年の正式日程は例年パターンからの推定を含む。公式サイトでの確定告知の再確認を推奨。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1549,11 +1562,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1568,9 +1581,9 @@
       "date_start": "2026-07-10",
       "date_end": "2026-07-12",
       "date_note": "各日10:00〜22:00。山車（曳山）と佐原囃子による行事。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "time_start": "10:00",
+      "time_end": "22:00",
+      "rain_policy": "雨天決行（山車人形にはビニールシートをかけて対応）",
       "organizer": "佐原の大祭実行委員会",
       "genre": [
         "山車",
@@ -1580,15 +1593,15 @@
       "is_free": true,
       "price": "見学無料",
       "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
+      "history_years": "約300年（起源は享保6年(1721)の諏訪祭とされる。現在の「佐原型」山車祭りは文政年間(1819-1829)以降に成立）",
+      "history_description": "関東三大山車祭りの一つ。総欅造りの山車に関東彫りの彫刻、江戸・明治期の人形師作の高さ4mの大人形を飾る。「佐原囃子」（日本三大囃子の一つ）に合わせて曳き廻す。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "JR成田線佐原駅から徒歩約10分。東京駅から特急で約110分、千葉駅から約70分。無料駐車場（河川敷1000台）あり。",
       "official_url": "https://www.city.katori.lg.jp/",
       "sns_accounts": {
-        "instagram": "不明"
+        "instagram": "@sawaranotaisai_jikkouiinkai"
       },
       "video_url": "不明",
       "sources": [
@@ -1597,16 +1610,38 @@
           "site_name": "香取市公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://maruchiba.jp/event/detail_10868.html",
+          "site_name": "千葉県公式観光サイト まるごとちば",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kyouiku/bunkazai/bunkazai/n321-003.html",
+          "site_name": "千葉県教育委員会",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "",
+      "trust_level": "高",
+      "conflict_note": "⚠️ 矛盾: 一部情報源で7月10日は山車9台、11-12日は10台とする記述があるが、参加台数の年次変動によるものとみられる。",
       "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "history_years",
+        "history_description",
+        "access",
+        "sns_accounts",
+        "sources",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "changed": true,
+        "details": "前回情報を補完・詳細化（time_start, time_end, rain_policy, history_years, history_description, access, sns_accounts, sources, conflict_note）"
       }
     },
     {
@@ -1653,11 +1688,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1704,11 +1739,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1761,11 +1796,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1812,11 +1847,11 @@
       "trust_level": "低",
       "conflict_note": "2026年の正確な日程は固定パターンからの推定。公式の確定発表での再確認を推奨。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1863,11 +1898,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1915,11 +1950,11 @@
       "trust_level": "低",
       "conflict_note": "2026年の正式日程は例年パターンからの推定。公式の確定告知の再確認を推奨。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -1965,11 +2000,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2015,11 +2050,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2066,11 +2101,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2123,11 +2158,11 @@
       "trust_level": "中",
       "conflict_note": "日程は固定パターンからの推定で2系統の調査が一致。公式サイトの2026年版表記更新を要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2174,11 +2209,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2233,11 +2268,11 @@
       "trust_level": "中",
       "conflict_note": "2026年の正式日程は例年パターンからの推定（2系統の調査で一致）。公式の確定告知での再確認を推奨。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2283,11 +2318,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2301,25 +2336,25 @@
       "city": "那智勝浦町",
       "date_start": "2026-07-14",
       "date_end": "2026-07-14",
-      "date_note": "毎年7月14日固定開催。日本三大火祭りの一つ。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_note": "毎年7月14日固定開催（古くは旧暦6月14日・18日に実施）。日本三大火祭りの一つ。10:00本殿祭, 11:00那智の田楽奉納, 13:00扇神輿渡御開始, 14:00大滝前で炎の神事, 15:30還御。",
+      "time_start": "10:00",
+      "time_end": "15:30",
       "rain_policy": "不明",
       "organizer": "熊野那智大社",
       "genre": [
         "神事",
         "神輿"
       ],
-      "scale": "国指定重要無形民俗文化財",
+      "scale": "国指定重要無形民俗文化財（2015年3月2日指定）",
       "is_free": true,
       "price": "見学無料",
       "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
+      "history_years": "熊野那智大社の由緒は約2700年前（神武天皇東征の伝承）とされるが、祭り自体の成立時期は不明。",
+      "history_description": "熊野那智大社の例大祭。12体の扇神輿が本社より那智の滝へ渡御し、重さ50〜60kgの大松明12本で祓い清める神事。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "熊野御坊南海バスで「那智山」または「那智の滝前」バス停下車。駐車場混雑時は臨時無料シャトルバスあり。",
       "official_url": "https://kumanonachitaisha.or.jp/event/fan/",
       "sns_accounts": {
         "instagram": "不明"
@@ -2331,16 +2366,43 @@
           "site_name": "熊野那智大社公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://www.kumano-sanzan.jp/nachi/himatsuri.html",
+          "site_name": "熊野三山協議会",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.town.nachikatsuura.wakayama.jp/info/70",
+          "site_name": "那智勝浦町公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://bunka.nii.ac.jp/heritages/detail/210224",
+          "site_name": "文化遺産オンライン/文化庁",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "date_note",
+        "scale",
+        "history_years",
+        "history_description",
+        "access",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "changed": true,
+        "details": "前回情報を補完・詳細化（time_start, time_end, date_note, scale, history_years, history_description, access, sources）"
       }
     },
     {
@@ -2386,11 +2448,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2444,11 +2506,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2495,11 +2557,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2552,11 +2614,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2604,11 +2666,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2656,11 +2718,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2707,11 +2769,11 @@
       "trust_level": "低",
       "conflict_note": "2026年の正式日程は未確定。市公式サイトの2026年版更新を要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2758,11 +2820,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2815,11 +2877,11 @@
       "trust_level": "低",
       "conflict_note": "情報源に年表記の誤記（令和7年/2025年表記）が含まれており、2026年の確定日程は要再確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2867,11 +2929,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2918,11 +2980,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -2969,11 +3031,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -3020,11 +3082,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -3071,11 +3133,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（新規登録のため比較対象なし）"
+        "details": "前回から変更なし"
       }
     },
     {
@@ -3123,6 +3185,426 @@
       ],
       "trust_level": "低",
       "conflict_note": "2026年の正式日程は例年パターンからの推定。公式の確定告知の再確認を推奨。",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "前回から変更なし"
+      }
+    },
+    {
+      "id": "festival_058",
+      "name": "和霊大祭",
+      "alternate_names": [
+        "うわじま牛鬼まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "宇和島市",
+      "date_start": "2026-07-22",
+      "date_end": "2026-07-24",
+      "date_note": "毎年7月22〜24日固定。2026年は第60回の節目。22日:食のイベント・花火、23日:神事・パレード、24日:本パレード・踊り大会・走り込み（奪い合い神事）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "うわじま牛鬼まつり実行委員会（宇和島市）",
+      "genre": [
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他（「宇和島の牛鬼」の文化財指定区分は要確認）",
+      "is_free": true,
+      "price": "一般観覧は無料と見られる（花火大会は有料観覧席の可能性あり、詳細不明）",
+      "ticket_url": "不明",
+      "history_years": "牛鬼の歴史は約200年（最古の史料1784年）。市民祭りとしての開始は1967年、2026年で第60回。",
+      "history_description": "加藤清正が朝鮮出兵時に敵威嚇のため使用したという伝説があるが史実未確認。牛鬼は全長5〜6mの山車で、赤い布や棕櫚で覆われた牛の胴体と鬼の顔を持つ。フィナーレの「走り込み」は御幣の奪い合い神事。",
+      "food_stalls": "あり（「オールカマーフェスタ」食のイベントが2会場で開催）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明（JR宇和島駅が近いと推定されるが未確認）",
+      "official_url": "https://ushioni.gaina.ne.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ushioni.gaina.ne.jp/event-schedule/",
+          "site_name": "うわじま牛鬼まつり実行委員会公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.uwajima.org/event/index2.html",
+          "site_name": "うわじま観光ガイド/宇和島市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.iyokannet.jp/event/1762",
+          "site_name": "愛媛県観光物産協会公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0938e00115/",
+          "site_name": "Walkerplus",
+          "is_official": false,
+          "retrieved_date": "2026-07-01"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明（新規登録のため比較対象なし）"
+      }
+    },
+    {
+      "id": "festival_059",
+      "name": "日田祇園の山鉾行事",
+      "alternate_names": [
+        "日田祇園祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大分県",
+      "city": "日田市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "本祭は例年7月最終土日。関連行事「日田祇園山鉾集団顔見世」は2026-07-19（18:30開始）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "日田まつり振興会（事務局: 日田市役所観光課内）",
+      "genre": [
+        "屋台行事"
+      ],
+      "scale": "ユネスコ無形文化遺産「山・鉾・屋台行事」の一つ（2016年登録）。国指定重要無形民俗文化財としての明記は本調査では未確定のため要確認。",
+      "is_free": true,
+      "price": "無料と見られる（明記なし）",
+      "ticket_url": "不明",
+      "history_years": "約300年の伝統",
+      "history_description": "疫病・自然災害除けを祈願する祭り。絢爛豪華な山鉾が祇園囃子とともに町を巡行し、夜は提灯で飾られた「晩山」の巡行が行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR日田駅周辺（顔見世はJR日田駅前で開催）",
+      "official_url": "https://gion.oidehita.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://gion.oidehita.com/",
+          "site_name": "日田祇園祭 特設サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.city.hita.oita.jp/soshiki/shokokankobu/kankoka/kankokikaku/gion/2548.html",
+          "site_name": "日田市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.visit-oita.jp/events/detail/14028",
+          "site_name": "大分県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.welcomekyushu.jp/events/detail/80efb75a-c90f-4408-9d28-48b6e34475ef/",
+          "site_name": "九州観光推進機構",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "国指定文化財の指定区分が本調査では確認できず、要確認フラグを立てる。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明（新規登録のため比較対象なし）"
+      }
+    },
+    {
+      "id": "festival_060",
+      "name": "住吉祭",
+      "alternate_names": [
+        "おはらい"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "大阪市住吉区",
+      "date_start": "2026-07-20",
+      "date_end": "2026-08-01",
+      "date_note": "大阪三大夏祭り（天神祭・愛染まつり・住吉祭）の一つで、大阪の夏祭りを締めくくる。神輿洗神事7/20、宵宮祭7/30、夏越祓神事・例大祭7/31、神輿渡御8/1（渡御本体のみ8月にまたがる）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "住吉大社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他（国・県・市指定の明記は確認できず）",
+      "is_free": true,
+      "price": "参拝・見学は無料。駐車場のみ有料（¥1,000/時間、7/31-8/1）",
+      "ticket_url": "不明",
+      "history_years": "1800年以上（住吉大社創建は神功皇后の時代に遡るとされる）",
+      "history_description": "大阪中を祓い清める意義を持つ祭礼で、古くは「おはらい」と呼ばれた。鎌倉時代末期の記録には堺の開口宿院への神輿渡御が既に記されている。",
+      "food_stalls": "あり（例大祭期間中に露店が出る）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "南海本線「住吉大社駅」・阪堺電軌「住吉鳥居前駅」等が最寄りと推定（公式ページでの詳細な駅名記載は未確認）",
+      "official_url": "https://www.sumiyoshitaisha.net/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sumiyoshitaisha.net/news/detail.php?seq=149",
+          "site_name": "住吉大社公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://osaka-info.jp/event/sumiyoshitaisha-sumiyoshimatsuri/",
+          "site_name": "大阪観光局公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "神輿渡御本体は8月1日で7月をまたぐ点に留意。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明（新規登録のため比較対象なし）"
+      }
+    },
+    {
+      "id": "festival_061",
+      "name": "おたる潮まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "小樽市",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-26",
+      "date_note": "例年7月下旬固定的に開催。2026年は第60回記念大会。初日「潮ふれこみ」、2日目「潮ねりこみ」（踊りパレード）、最終日「神輿パレード」（4団体・約800人の担ぎ手）と大花火大会。",
+      "time_start": "不明",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "おたる潮まつり実行委員会",
+      "genre": [
+        "花火",
+        "神輿",
+        "パレード"
+      ],
+      "scale": "その他（国・県・市指定の記載なし）",
+      "is_free": true,
+      "price": "無料観覧エリアあり。花火の有料観覧エリアチケットも販売（価格不明）",
+      "ticket_url": "https://otaru.ushiomatsuri.net/blog/1721810168",
+      "history_years": "1967年に第1回開催（前身の「みなと小樽商工観光まつり」は1959年〜）。2026年で60回目。",
+      "history_description": "1958年の北海道博覧会成功を機に、複数の既存祭り（港まつり、競争花火大会等）を統合し1967年に開始。",
+      "food_stalls": "不明（大規模祭りのため通常あると推測されるが未確認）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR小樽駅から徒歩約10分（打ち上げ場所：小樽港第3号ふ頭基部）",
+      "official_url": "https://otaru.ushiomatsuri.net/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://otaru.ushiomatsuri.net/",
+          "site_name": "おたる潮まつり実行委員会公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://otaru.gr.jp/event/ushiomaturi2026",
+          "site_name": "小樽観光協会公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00713/",
+          "site_name": "Walkerplus",
+          "is_official": false,
+          "retrieved_date": "2026-07-01"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明（新規登録のため比較対象なし）"
+      }
+    },
+    {
+      "id": "festival_062",
+      "name": "鳥取しゃんしゃん祭",
+      "alternate_names": [
+        "鳥取しゃんしゃん祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "鳥取市",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-15",
+      "date_note": "3日間開催。8/13すずっこ踊り（旧・前夜祭）、8/14一斉傘踊り（メインの一斉傘踊り、約2,700〜3,000人が参加）、8/15市民納涼花火大会（日本海新聞主催・別組織）。2026年は「美」判定・基本おどりコンテストを休止。2026年で第62回。",
+      "time_start": "17:00",
+      "time_end": "21:00",
+      "rain_policy": "すずっこ踊り: 小雨決行。一斉傘踊り: 雨天中止。花火大会: 小雨決行、荒天時は中止（いずれも2025年実績からの推定含む）。",
+      "organizer": "鳥取しゃんしゃん祭振興会",
+      "genre": [
+        "踊り",
+        "花火"
+      ],
+      "scale": "その他（祭り自体は無指定。基となる伝統舞踊「因幡の傘踊り」は鳥取県指定無形民俗文化財＝1974年10月18日指定）",
+      "is_free": true,
+      "price": "見学無料（有料観覧席等の情報は確認できず）",
+      "ticket_url": "不明",
+      "history_years": "1965年開始（前身の「鳥取祭」は1961年〜）。2026年で第62回。",
+      "history_description": "因幡の傘踊り（江戸期起源とされる雨乞い・豊作祈願の踊り）を基に、1965年に約1,000人規模の市民祭りとして開始。2014年には約4,000人が参加し「世界最大の傘踊り」としてギネス世界記録認定（1,688人の同時5分間ダンス）。「しゃんしゃん」は傘に付けた鈴の音と、温泉が豊かに湧く様子の両方を意味する。",
+      "food_stalls": "あり",
+      "crowd_level": "高（鳥取市最大の夏祭り。2025年花火大会は約10万人）",
+      "visitors": "不明（3日間合計の公式人数は未確認）",
+      "access": "JR鳥取駅が拠点。ダンス会場は駅前中心街（若桜街道・片原通り等）、花火会場は千代河原市民スポーツ広場（駅から徒歩15分）。",
+      "official_url": "https://tottori-shanshan.jp/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/_____sznofficial/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tottori-shanshan.jp/event",
+          "site_name": "鳥取しゃんしゃん祭公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.torican.jp/festival/detail_1090.html",
+          "site_name": "鳥取市観光サイト【公式】",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/鳥取しゃんしゃん祭",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0831e00686/data.html",
+          "site_name": "Walkerplus",
+          "is_official": false,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://db.pref.tottori.jp/bunkazainavi.nsf/bunkazai_web_view/0580A55C8088FCD14925796F0007FF41",
+          "site_name": "鳥取県 とっとり文化財ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明（新規登録のため比較対象なし）"
+      }
+    },
+    {
+      "id": "festival_063",
+      "name": "宮崎神宮大祭",
+      "alternate_names": [
+        "神武さま",
+        "御神幸祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮崎県",
+      "city": "宮崎市",
+      "date_start": "2026-10-31",
+      "date_end": "2026-11-01",
+      "date_note": "例祭本体は毎年10月26日固定（神事のみ）。市民に「神武さま」と呼ばれる公開の御神幸祭（渡御行列）は10月26日以降の最初の土日に開催。2026年日程（10/31-11/1）は宮崎市コールセンターFAQのみに掲載された単独情報源で「予定」と明記されており、他の公式サイト（神社・商工会議所・県観光サイト）では未公表。信頼度は低く、9〜10月頃の再確認が必要。",
+      "time_start": "13:00",
+      "time_end": "16:00",
+      "rain_policy": "雨天時は短縮、または渡御の出発を翌日に順延する場合あり（荒天中止ではなく当日朝に判断）。",
+      "organizer": "宮﨑神宮御神幸祭奉賛会（実務は宮崎商工会議所が調整）",
+      "genre": [
+        "神輿",
+        "神事",
+        "パレード"
+      ],
+      "scale": "その他（国・県・市指定の明記は確認できず。1970年代は「九州三大祭り」の一つとされていた）",
+      "is_free": true,
+      "price": "無料（公道での見学）",
+      "ticket_url": "不明",
+      "history_years": "諸説あり: 最古の記録は1785年、近代の渡御形式（現在の御鳳輦）は1908〜1909年頃確立。",
+      "history_description": "神武天皇の東征を記念する祭り。地元住民の請願により明治期に渡御が始まったとされる。1970年代には2日間で最大約50万人を集め「九州三大祭り」の一つに数えられたが、近年は来場者数が減少（2008年頃で約15.5万人）。2020〜2021年は新型コロナウイルスにより中止。",
+      "food_stalls": "あり（100以上の屋台・キッチンカーが出店との情報あり、公式未確認のため中程度の信頼度）",
+      "crowd_level": "高（歴史的には九州三大祭りの一つ）",
+      "visitors": "不明（近年の公式集計なし）",
+      "access": "JR日豊本線「宮崎神宮駅」から徒歩約10分。御旅所（瀬頭）や中心市街地（橘通り・旭通り）にかけて交通規制あり。",
+      "official_url": "https://miyazakijingu.or.jp/publics/index/20/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://miyazakijingu.or.jp/publics/index/20/",
+          "site_name": "宮崎神宮公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.miyazaki-cci.or.jp/miyazaki/events/jinmu-festival/",
+          "site_name": "宮崎商工会議所公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.miyazaki-city.tourism.or.jp/event/12284",
+          "site_name": "宮崎市公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://faq.miyazaki-city-callcenter.jp/faq/detail.aspx?id=503",
+          "site_name": "宮崎市コールセンターFAQ",
+          "is_official": true,
+          "retrieved_date": "2026-07-01"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/宮崎神宮大祭",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-07-01"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "⚠️ 矛盾/要確認: 2026年の具体的日程（10/31-11/1）は市コールセンターFAQのみに記載された単独情報源かつ「予定」表記。神社・商工会議所・県観光サイトでは2026年日程が未公表（研究時点）。",
       "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
