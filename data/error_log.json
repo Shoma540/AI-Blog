@@ -5,6 +5,18 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "INSTAGRAM_ACCESS_TOKEN によるmedia作成APIコールが拒否された。トークン無効/期限切れ、またはアプリのレビュー/権限状態に起因する可能性が高い。INSTAGRAM_ACCESS_TOKEN の再発行を要確認。"
+    },
+    {
+      "timestamp": "2026-07-02 08:17",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "前回(2026-06-30)と同一エラーが再発。INSTAGRAM_ACCESS_TOKENは環境変数に設定済みだったが、Graph API側でアプリ/トークンがブロックされている状態が継続中。トークンの再発行、またはFacebook/Instagramアプリのレビュー・権限状態の確認が必要。"
+    },
+    {
+      "timestamp": "2026-07-02 08:16",
+      "step": "STEP8_git_push",
+      "error": "git push 失敗: main -> main (non-fast-forward)",
+      "detail": "scripts/git_push.py は現在チェックアウト中のブランチに関わらずローカルの『main』ブランチをorigin/mainへpushする実装になっているため、作業ブランチ(claude/blissful-keller-6czfbm)上のコミットはpushされない。今回はセッションの指示に従い、代わりに手動で `git push -u origin claude/blissful-keller-6czfbm` を実行して作業ブランチをpushした。mainへの反映（GitHub Pagesへのデプロイ）にはPRのマージ等、別途の統合作業が必要。"
     }
   ]
 }
