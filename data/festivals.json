@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02 16:12",
+  "last_updated": "2026-07-02 18:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -1697,17 +1697,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "date_note",
-        "trust_level",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "公式ソース3件で開催時間・第74回である旨を追加確認し信頼度を中→高に更新（日程に変更なし）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -3239,14 +3233,11 @@
       "trust_level": "高",
       "conflict_note": "参加費・傘踊り参加条件について情報源間で明記がなく不明のまま記載。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "3件目のソースで日程を再確認し信頼度を中→高に更新（日程・場所に変更なし）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -3377,11 +3368,11 @@
       "trust_level": "低",
       "conflict_note": "公式サイト(kibunematsuri.jp)のトップ・日程ページは2026-07-02確認時点で前年度(2025年度／7月24日〜26日)の内容のままで、2026年度(7月24日・25日)の更新が未反映だった。他情報源との突合により2026年日程を暫定記載しているが、公式サイト更新後の再確認が必要。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "新規追加"
+        "details": ""
       }
     },
     {
@@ -3409,8 +3400,8 @@
       ],
       "scale": "その他（手筒花火発祥の地）",
       "is_free": true,
-      "price": "見学無料",
-      "ticket_url": "不明",
+      "price": "見学無料（7/18打上花火大会の有料桟敷席は1枚6,000円、チケットぴあにて販売）",
+      "ticket_url": "https://w.pia.jp/",
       "history_years": "不明",
       "history_description": "吉田神社の例祭で、江戸時代から続くとされる「三州吉田の花火祭り」を前身とする。手筒花火発祥の地とされ、氏子が自ら手筒花火を抱えて奉納する勇壮な神事で知られる。",
       "food_stalls": "不明",
@@ -3440,6 +3431,79 @@
           "site_name": "愛知県観光公式サイト Aichi Now",
           "is_official": true,
           "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://motsunabe-yokaroumon.jp/toyohashigion/",
+          "site_name": "豊橋祇園祭2026 花火大会情報まとめ",
+          "is_official": false,
+          "retrieved_date": "2026-07-02"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "price",
+        "ticket_url",
+        "sources"
+      ],
+      "year_comparison": {
+        "changed": true,
+        "details": "有料桟敷席（1枚6,000円・チケットぴあ販売）の情報を追加"
+      }
+    },
+    {
+      "id": "festival_062",
+      "name": "東京湾大華火祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "中央区・港区",
+      "date_start": "2026-10-24",
+      "date_end": "2026-10-24",
+      "date_note": "荒天の場合は中止で順延なし。2015年を最後に休止していたが、中央区制80周年・港区政80周年記念事業として11年ぶりに復活開催。",
+      "time_start": "17:30",
+      "time_end": "19:00",
+      "rain_policy": "荒天中止（順延なし）",
+      "organizer": "東京湾大華火祭実行委員会（中央区・港区・東京都港湾局協力）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（中央区制80周年・港区政80周年記念事業）",
+      "is_free": false,
+      "price": "完全チケット制（観覧料5,000円〜10,000円、中央区・港区・江東区一部の区民優先会場は5,000円）。当日券の販売なし。",
+      "ticket_url": "https://tokyo-hanabi-festival.com/",
+      "history_years": "不明",
+      "history_description": "1988年開始、2000年に「東京湾大華火祭」として再編された都内屈指の花火大会。2015年を最後に開催が休止されていたが、2026年に11年ぶりに復活する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約10万8,000人（見込み）",
+      "access": "晴海埠頭及びその周辺（観覧エリアマップは公式サイトで公開）",
+      "official_url": "https://tokyo-hanabi-festival.com/",
+      "sns_accounts": {
+        "instagram": "不明",
+        "twitter": "@TokyoHanabi_Fes"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.chuo.lg.jp/a0013/r8tokyohanabifestival.html",
+          "site_name": "中央区公式（東京湾大華火祭の開催日の決定について）",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://www.city.minato.tokyo.jp/chiikishinkou/hanabi.html",
+          "site_name": "港区公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://tokyo-hanabi-festival.com/",
+          "site_name": "東京湾大華火祭 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
         }
       ],
       "trust_level": "高",
@@ -3448,8 +3512,8 @@
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
-        "changed": false,
-        "details": "新規追加"
+        "changed": true,
+        "details": "昨年：休止中（2015年以来非開催）→ 今年：11年ぶりに復活開催（2026年10月24日）"
       }
     }
   ]
