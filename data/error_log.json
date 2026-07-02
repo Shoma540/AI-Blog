@@ -11,6 +11,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25の実行時と同一のエラーが再発。INSTAGRAM_ACCESS_TOKEN によるmedia作成APIコールが継続して拒否されている。トークンの再発行、またはFacebook/Instagram開発者アプリの審査・権限状態（ブロック理由）の確認が必要。"
+    },
+    {
+      "timestamp": "2026-07-02 16:13",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "3回連続（2026-06-30 18:25 / 2026-07-02 12:20 / 2026-07-02 16:13）で同一のAPI access blockedエラーが発生。トークン更新だけでは解消しない可能性が高く、Facebook/Metaアプリ側の審査却下・利用制限・アプリ停止などブロック理由そのものの確認が必要。Meta for Developersのアプリダッシュボードでアプリの状態とエラー詳細を確認することを推奨。"
     }
   ]
 }
