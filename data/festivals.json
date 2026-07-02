@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02 12:20",
+  "last_updated": "2026-07-02 16:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -63,7 +63,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -132,15 +132,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "history_description",
-        "genre",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "由来・出典情報を追加確認（2026-07-02時点で複数ソースにより再検証、日程・場所に変更なし）"
+        "changed": false,
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -201,15 +197,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "history_description",
-        "genre",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "由来・出典情報を追加確認（2026-07-02時点で複数ソースにより再検証、日程・場所に変更なし）"
+        "changed": false,
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -271,15 +263,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "history_description",
-        "genre",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "由来・出典情報を追加確認（2026-07-02時点で複数ソースにより再検証、日程・場所に変更なし）"
+        "changed": false,
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -336,7 +324,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -400,14 +388,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "history_description",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "由来・出典情報を追加確認（2026-07-02時点で複数ソースにより再検証、日程・場所に変更なし）"
+        "changed": false,
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -464,7 +449,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -522,14 +507,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "history_description",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "由来・出典情報を追加確認（2026-07-02時点で複数ソースにより再検証、日程・場所に変更なし）"
+        "changed": false,
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -587,7 +569,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -643,7 +625,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -703,15 +685,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "history_description",
-        "genre",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "由来・出典情報を追加確認（2026-07-02時点で複数ソースにより再検証、日程・場所に変更なし）"
+        "changed": false,
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -767,7 +745,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -826,7 +804,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -884,7 +862,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -941,7 +919,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -999,7 +977,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1055,7 +1033,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1112,7 +1090,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1177,7 +1155,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1242,7 +1220,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1299,7 +1277,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1350,7 +1328,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1400,7 +1378,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1451,7 +1429,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1502,7 +1480,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1555,7 +1533,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1607,7 +1585,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1660,7 +1638,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1672,9 +1650,9 @@
       "city": "平塚市",
       "date_start": "2026-07-03",
       "date_end": "2026-07-05",
-      "date_note": "関東三大七夕まつりの一つ。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_note": "関東三大七夕まつりの一つ。7月3日・4日は20:30まで、最終日5日は19:00まで。第74回。",
+      "time_start": "09:30",
+      "time_end": "20:30",
       "rain_policy": "不明",
       "organizer": "湘南ひらつか七夕まつり実行委員会",
       "genre": [
@@ -1702,16 +1680,34 @@
           "site_name": "湘南ひらつか七夕まつり公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://www.city.hiratsuka.kanagawa.jp/kanko/page35_00241.html",
+          "site_name": "平塚市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/osirase/0602/feelshonan/news/5865/index.html",
+          "site_name": "かながわシープロジェクト（神奈川県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "date_note",
+        "trust_level",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "changed": true,
+        "details": "公式ソース3件で開催時間・第74回である旨を追加確認し信頼度を中→高に更新（日程に変更なし）"
       }
     },
     {
@@ -1762,7 +1758,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1819,7 +1815,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1870,7 +1866,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1921,7 +1917,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -1973,7 +1969,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2023,7 +2019,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2073,7 +2069,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2124,7 +2120,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2181,7 +2177,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2232,7 +2228,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2291,7 +2287,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2341,7 +2337,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2394,7 +2390,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2444,7 +2440,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2502,7 +2498,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2553,7 +2549,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2610,7 +2606,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2662,7 +2658,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2714,7 +2710,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2765,7 +2761,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2816,7 +2812,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2873,7 +2869,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2925,7 +2921,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -2976,7 +2972,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -3027,7 +3023,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -3078,7 +3074,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -3129,7 +3125,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -3182,7 +3178,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02)から変更なし"
+        "details": "前回(2026-07-02 12:20)から変更なし"
       }
     },
     {
@@ -3232,16 +3228,25 @@
           "site_name": "鳥取市観光サイト（公式）",
           "is_official": true,
           "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0831e00686/",
+          "site_name": "ウォーカープラス 花火大会2026（関連: 市民納涼花火大会）",
+          "is_official": false,
+          "retrieved_date": "2026-07-02"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "参加費・傘踊り参加条件について情報源間で明記がなく不明のまま記載。",
       "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "新規追加"
+        "changed": true,
+        "details": "3件目のソースで日程を再確認し信頼度を中→高に更新（日程・場所に変更なし）"
       }
     },
     {
@@ -3256,7 +3261,7 @@
       "city": "宮崎市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "直近の開催（2025年）は11月1日・2日。例年11月1日・2日固定で開催される傾向があるが、2026年分の日程は2026年7月2日時点で公式発表が確認できず未確定。",
+      "date_note": "直近の開催（2025年）は11月1日・2日。例年11月1日・2日固定で開催される傾向があるが、2026年分の日程は2026年7月2日16時時点で公式発表が確認できず未確定（宮崎商工会議所公式・みやざき観光ナビとも2025年度の情報のまま更新なしを再確認）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -3305,6 +3310,141 @@
       "trust_level": "中",
       "conflict_note": "祭り自体の内容・主催は3ソース一致で確認できたが、2026年の具体的な開催日は本稿時点で未発表のため「不明」とした。要確認。",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "前回(2026-07-02 12:20)から変更なし"
+      }
+    },
+    {
+      "id": "festival_060",
+      "name": "貴船まつり",
+      "alternate_names": [
+        "真鶴貴船まつり",
+        "貴船神社例大祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "神奈川県",
+      "city": "真鶴町",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-25",
+      "date_note": "宵宮(7/24)・本祭(7/25)。海上渡御は本祭日に実施予定。公式サイト(kibunematsuri.jp)は2026-07-02時点で前年度(2025年度)の日程ページのままだったため、日程は町観光関連情報からの確認値。公式サイトでの最終確認を推奨。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "貴船神社／真鶴貴船まつり実行委員会",
+      "genre": [
+        "神事",
+        "船渡御",
+        "民俗芸能"
+      ],
+      "scale": "国指定重要無形民俗文化財（日本三大船祭りの一つ）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "神奈川県真鶴町の貴船神社例大祭。小早船（こばやぶね）と呼ばれる装飾船が海上を渡る「海上渡御」で知られ、京都・貴船神社とは別の祭りで、日本三大船祭りの一つに数えられる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://kibunematsuri.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kibunematsuri.jp/",
+          "site_name": "真鶴貴船まつり公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://www.yoritomo-japan.com/kifunematuri-manaduru.htm",
+          "site_name": "鎌倉タイム／頼朝と鎌倉（2026年開催情報記載）",
+          "is_official": false,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://www.manazuru.net/event/kibunematsuri/",
+          "site_name": "真鶴町観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "公式サイト(kibunematsuri.jp)のトップ・日程ページは2026-07-02確認時点で前年度(2025年度／7月24日〜26日)の内容のままで、2026年度(7月24日・25日)の更新が未反映だった。他情報源との突合により2026年日程を暫定記載しているが、公式サイト更新後の再確認が必要。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "新規追加"
+      }
+    },
+    {
+      "id": "festival_061",
+      "name": "豊橋祇園祭",
+      "alternate_names": [
+        "吉田神社例祭",
+        "三州吉田の花火祭り"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "愛知県",
+      "city": "豊橋市",
+      "date_start": "2026-07-17",
+      "date_end": "2026-07-19",
+      "date_note": "7/17 16:00〜大筒台清祓い、18:30〜手筒・大筒・乱玉奉納(吉田神社境内)。7/18 18:00〜打上げ花火大会(豊川河畔)。7/19 16:00〜神輿渡御・頼朝行列など。",
+      "time_start": "16:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "豊橋祇園祭奉賛会（吉田神社内）",
+      "genre": [
+        "神輿",
+        "花火",
+        "神事",
+        "パレード"
+      ],
+      "scale": "その他（手筒花火発祥の地）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "吉田神社の例祭で、江戸時代から続くとされる「三州吉田の花火祭り」を前身とする。手筒花火発祥の地とされ、氏子が自ら手筒花火を抱えて奉納する勇壮な神事で知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "吉田神社（豊橋市関屋町2）",
+      "official_url": "https://www.toyohashigion.org/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.toyohashigion.org/%E6%9C%AC%E5%B9%B4%E5%BA%A6%E3%81%AE%E8%A9%B3%E7%B4%B0/",
+          "site_name": "豊橋祇園祭奉賛会公式（令和8年度の詳細）",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://www.honokuni.or.jp/toyohashi/tezutsuhanabi/place_000012.html",
+          "site_name": "豊橋観光コンベンション協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/150/",
+          "site_name": "愛知県観光公式サイト Aichi Now",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
