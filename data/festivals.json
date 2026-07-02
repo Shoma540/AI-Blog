@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02 16:12",
+  "last_updated": "2026-07-02 17:40",
   "festivals": [
     {
       "id": "festival_001",
@@ -1105,7 +1105,7 @@
       "city": "江東区",
       "date_start": "2026-08-12",
       "date_end": "2026-08-16",
-      "date_note": "2026年は3年に一度の本祭り。神輿連合渡御（50基以上）は8/16。",
+      "date_note": "2026年は3年に一度の本祭り。8/12神事、8/13〜14各種催し、8/15神幸祭（鳳輦渡御）、8/16神輿連合渡御（50基以上、朝7:30〜）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "雨天決行",
@@ -1146,16 +1146,27 @@
           "site_name": "江東区観光協会",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://koto-kanko.jp/special/detail.php?spid=55",
+          "site_name": "江東区観光協会（直接確認・本祭りスケジュール記載）",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "富岡八幡宮の公式サイトは取得時(2026-06-30)に一時的にアクセス不可(HTTP 503)だったため未確認だが、江東区観光協会（公式）と地域メディア2件が一致して日程を確認。2026年は3年に一度の本祭り（神輿連合渡御は8/16、50基以上）。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "conflict_note",
+        "requires_check",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02 12:20)から変更なし"
+        "details": "前回(2026-07-02 16:12)から変更なし。requires_checkを解消（江東区観光協会ページで直接確認）。"
       }
     },
     {
@@ -1697,14 +1708,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "date_note",
-        "trust_level",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "公式ソース3件で開催時間・第74回である旨を追加確認し信頼度を中→高に更新（日程に変更なし）"
@@ -2168,16 +2173,27 @@
           "site_name": "桑名宗社公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/event/35039",
+          "site_name": "観光三重（2026年8月1日〜2日の明記を確認）",
+          "is_official": false,
+          "retrieved_date": "2026-07-02"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "日程は固定パターンからの推定で2系統の調査が一致。公式サイトの2026年版表記更新を要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
-        "details": "前回(2026-07-02 12:20)から変更なし"
+        "details": "前回(2026-07-02 16:12)から変更なし。requires_checkを解消（観光三重で2026年日程を確認）。"
       }
     },
     {
@@ -3239,11 +3255,8 @@
       "trust_level": "高",
       "conflict_note": "参加費・傘踊り参加条件について情報源間で明記がなく不明のまま記載。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "3件目のソースで日程を再確認し信頼度を中→高に更新（日程・場所に変更なし）"
@@ -3377,7 +3390,7 @@
       "trust_level": "低",
       "conflict_note": "公式サイト(kibunematsuri.jp)のトップ・日程ページは2026-07-02確認時点で前年度(2025年度／7月24日〜26日)の内容のままで、2026年度(7月24日・25日)の更新が未反映だった。他情報源との突合により2026年日程を暫定記載しているが、公式サイト更新後の再確認が必要。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -3439,6 +3452,134 @@
           "url": "https://aichinow.pref.aichi.jp/events/detail/150/",
           "site_name": "愛知県観光公式サイト Aichi Now",
           "is_official": true,
+          "retrieved_date": "2026-07-02"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "新規追加"
+      }
+    },
+    {
+      "id": "festival_062",
+      "name": "鎌倉花火大会（第78回）",
+      "alternate_names": [
+        "鎌倉花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "鎌倉市",
+      "date_start": "2026-07-10",
+      "date_end": "2026-07-10",
+      "date_note": "荒天・高波時は中止（2025年は高波の影響で中止となった実績あり）。",
+      "time_start": "19:20",
+      "time_end": "20:10",
+      "rain_policy": "荒天・高波の場合中止",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "78",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "江ノ島電鉄由比ヶ浜駅・和田塚駅から徒歩5分、JR・江ノ島電鉄鎌倉駅から徒歩15分",
+      "official_url": "https://www.city.kamakura.kanagawa.jp/kankou/hanabitaikai.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kamakura.kanagawa.jp/kankou/hanabitaikai.html",
+          "site_name": "鎌倉市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0314e00875/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://www.trip-kamakura.com/subsite/detail.php?id=9",
+          "site_name": "鎌倉市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "新規追加"
+      }
+    },
+    {
+      "id": "festival_063",
+      "name": "ぎおん柏崎まつり 海の大花火大会",
+      "alternate_names": [
+        "柏崎海の大花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "柏崎市",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "ぎおん柏崎まつり全体は7/24〜26開催、海の大花火大会は最終日7/26。越後三大花火の一つ。",
+      "time_start": "19:30",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（越後三大花火）",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり、2026年3月11日販売開始）",
+      "ticket_url": "https://kashiwazaki-hanabi.jp/",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://kashiwazaki-hanabi.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kashiwazaki-hanabi.jp/",
+          "site_name": "ぎおん柏崎まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://www.city.kashiwazaki.lg.jp/event_information/42775.html",
+          "site_name": "柏崎市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0415e00663/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
           "retrieved_date": "2026-07-02"
         }
       ],
