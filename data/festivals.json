@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02 18:12",
+  "last_updated": "2026-07-03 08:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -1494,9 +1494,9 @@
       "city": "日光市",
       "date_start": "2026-10-16",
       "date_end": "2026-10-17",
-      "date_note": "10/16流鏑馬神事、10/17百物揃千人武者行列。日程は例年固定だが2026年版の公式明記は非公式サイト経由のみで確認しており要再確認。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_note": "10/16 13:00頃〜流鏑馬神事（本殿→表参道）。10/17 11:00頃〜百物揃千人武者行列渡御（東照宮→表参道→御旅所）、12:00御旅所祭、13:00頃還御。日光市公式観光サイト・とちぎ旅ネット（栃木県公式）でも同日程を確認し、信頼度を引き上げ。",
+      "time_start": "11:00",
+      "time_end": "13:00",
       "rain_policy": "不明",
       "organizer": "日光東照宮",
       "genre": [
@@ -1524,16 +1524,36 @@
           "site_name": "日光東照宮公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event/506",
+          "site_name": "日光市公式観光サイト 日光旅ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.tochigiji.or.jp/event/e15021",
+          "site_name": "とちぎ旅ネット（栃木県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "2026年の正式日程は例年パターンからの推定を含む。公式サイトでの確定告知の再確認を推奨。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "date_note",
+        "time_start",
+        "time_end",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "前回(2026-07-02 12:20)から変更なし"
+        "changed": true,
+        "details": "前回(2026-07-02 18:12)から追加の公式/準公式ソースで日程を再確認。信頼度を更新。"
       }
     },
     {
@@ -1821,7 +1841,7 @@
       "city": "輪島市",
       "date_start": "2026-08-22",
       "date_end": "2026-08-25",
-      "date_note": "市内4神社が順次開催（各夜開催）。日程は固定パターンからの推定で単独の公式2026年発表ページは未確認。",
+      "date_note": "8/22奥津比咩神社大祭(海士町)、8/23重蔵神社大祭(河井町)、8/24住吉神社大祭(鳳至町)、8/25輪島前神社大祭(輪島崎町)の順で市内4地区が開催。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -1851,16 +1871,34 @@
           "site_name": "わじま観光navi（輪島市観光協会）",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://wajimanavi.jp/event/wajimataisai",
+          "site_name": "輪島たび結び（輪島市観光課・観光協会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://notokiriko.ishikawa.jp/kiriko/jp/kiriko/wajimataisai.php",
+          "site_name": "日本遺産「能登のキリコ祭り」公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "2026年の正確な日程は固定パターンからの推定。公式の確定発表での再確認を推奨。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "輪島市観光協会公式サイトと石川県の日本遺産公式サイト（能登のキリコ祭り）の2つの準公式ソースで8/22〜25の日程・4神社の順次開催を確認。単独の一次公式発表ページは未確認のため信頼度は中に留める。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "前回(2026-07-02 12:20)から変更なし"
+        "changed": true,
+        "details": "前回(2026-07-02 18:12)から追加の公式/準公式ソースで日程を再確認。信頼度を更新。"
       }
     },
     {
@@ -1954,16 +1992,33 @@
           "site_name": "北口本宮冨士浅間神社公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://fujiyoshida.net/feature/himatsuri/index",
+          "site_name": "富士吉田市観光ガイド（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.yamanashi-kankou.jp/fujiyoshida/event/yoshida_fire_ceremony.html",
+          "site_name": "山梨県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "2026年の正式日程は例年パターンからの推定。公式の確定告知の再確認を推奨。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "富士吉田市観光ガイド公式・山梨県観光公式サイトでも8/26・27の開催を確認し、信頼度を引き上げ。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "前回(2026-07-02 12:20)から変更なし"
+        "changed": true,
+        "details": "前回(2026-07-02 18:12)から追加の公式/準公式ソースで日程を再確認。信頼度を更新。"
       }
     },
     {
@@ -2746,16 +2801,33 @@
           "site_name": "新居浜市公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://www.city.niihama.lg.jp/soshiki/kankou/taikomatsuri.html",
+          "site_name": "新居浜市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.iyokannet.jp/event/2553",
+          "site_name": "いよ観ネット（愛媛県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "2026年の正式日程は未確定。市公式サイトの2026年版更新を要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "新居浜市公式サイトの太鼓祭りページと愛媛県公式観光サイト「いよ観ネット」の2ソースで10/16〜18の開催を確認。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "前回(2026-07-02 12:20)から変更なし"
+        "changed": true,
+        "details": "前回(2026-07-02 18:12)から追加の公式/準公式ソースで日程を再確認。信頼度を更新。"
       }
     },
     {
@@ -2854,16 +2926,27 @@
           "site_name": "熊本県公式観光サイト",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://yatsushiroguide.com/distinations/myoken/",
+          "site_name": "やつしろ観光ガイド協会",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "情報源に年表記の誤記（令和7年/2025年表記）が含まれており、2026年の確定日程は要再確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "やつしろ観光ガイド協会サイトでも11/22(御夜・お下り)・11/23(お上り)の日程が確認でき、以前指摘した年表記の誤記は今回の情報源には見られなかった。3ソース一致のため信頼度を引き上げ。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "前回(2026-07-02 12:20)から変更なし"
+        "changed": true,
+        "details": "前回(2026-07-02 18:12)から追加の公式/準公式ソースで日程を再確認。信頼度を更新。"
       }
     },
     {
@@ -3163,16 +3246,27 @@
           "site_name": "川越まつり公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://kawagoe.fun/magazine/event/kawagoe-matsuri/",
+          "site_name": "川越マガジン",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "2026年の正式日程は例年パターンからの推定。公式の確定告知の再確認を推奨。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "複数の情報源で「令和8年10月17日(土)・18日(日)」の開催予定が確認できたが、川越氷川神社・川越まつり実行委員会による一次公式発表の明記は未確認のため信頼度は中に留める。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": "前回(2026-07-02 12:20)から変更なし"
+        "changed": true,
+        "details": "前回(2026-07-02 18:12)から追加の公式/準公式ソースで日程を再確認。信頼度を更新。"
       }
     },
     {
@@ -3320,7 +3414,7 @@
       "city": "真鶴町",
       "date_start": "2026-07-24",
       "date_end": "2026-07-25",
-      "date_note": "宵宮(7/24)・本祭(7/25)。海上渡御は本祭日に実施予定。公式サイト(kibunematsuri.jp)は2026-07-02時点で前年度(2025年度)の日程ページのままだったため、日程は町観光関連情報からの確認値。公式サイトでの最終確認を推奨。",
+      "date_note": "令和8年度(2026年度)開催が公式サイトで正式に決定・掲載されたことを確認（前回確認時は旧年度ページのままだったが更新済み）。宵宮(7/24)は西小早船、本祭(7/25)は東小早船が海上渡御を行い、8年ぶりに海上渡御が復活予定。天候により内容変更の場合あり。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -3363,16 +3457,28 @@
           "site_name": "真鶴町観光協会",
           "is_official": true,
           "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://kibunematsuri.jp/nittei.html",
+          "site_name": "真鶴貴船まつり公式ホームページ（2026年度日程ページ更新確認）",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "公式サイト(kibunematsuri.jp)のトップ・日程ページは2026-07-02確認時点で前年度(2025年度／7月24日〜26日)の内容のままで、2026年度(7月24日・25日)の更新が未反映だった。他情報源との突合により2026年日程を暫定記載しているが、公式サイト更新後の再確認が必要。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "前回(2026-07-02 18:12)から追加の公式/準公式ソースで日程を再確認。信頼度を更新。"
       }
     },
     {
@@ -3442,15 +3548,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "price",
-        "ticket_url",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "有料桟敷席（1枚6,000円・チケットぴあ販売）の情報を追加"
+        "changed": false,
+        "details": "前回(2026-07-02 18:12)から変更なし"
       }
     },
     {
@@ -3509,11 +3611,135 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "前回(2026-07-02 18:12)から変更なし"
+      }
+    },
+    {
+      "id": "festival_063",
+      "name": "川口七夕まつり",
+      "alternate_names": [
+        "第65回川口七夕まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "川口市",
+      "date_start": "2026-07-03",
+      "date_end": "2026-07-07",
+      "date_note": "会場はふじの市商店街。開催時間10:00〜20:30（最終日7/7のみ20:00まで）。第65回。",
+      "time_start": "10:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "川口七夕まつり実行委員会",
+      "genre": [
+        "七夕"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://trico-kawaguchi.jp/article/event_kawaguchi",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://summer.walkerplus.com/odekake/detail_e/ar0311e552340/",
+          "site_name": "夏休みおでかけガイド2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://trico-kawaguchi.jp/article/event_kawaguchi",
+          "site_name": "トリコカワグチ（川口市イベント情報）",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：休止中（2015年以来非開催）→ 今年：11年ぶりに復活開催（2026年10月24日）"
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_064",
+      "name": "南房総白浜海女まつり",
+      "alternate_names": [
+        "第62回南房総白浜海女まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "南房総市",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "date_note": "海女まつり18:30〜21:00、花火20:45〜21:00（7/18）、盆踊り19:00〜、大夜泳20:30〜21:30。能登復興支援イベント「まるグル'26」は7/18〜20併催。会場は野島埼灯台前広場・同灯台前広場脇漁港。",
+      "time_start": "18:30",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "南房総市観光協会",
+      "genre": [
+        "花火",
+        "盆踊り",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR内房線館山駅からバス「野島埼灯台口」下車徒歩約5分／富津館山道路「富浦IC」から約19km・約35分",
+      "official_url": "https://www.cm-boso.com/amamatsuri2026.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.cm-boso.com/amamatsuri2026.html",
+          "site_name": "南房総市観光協会公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://maruchiba.jp/event/detail_12962.html",
+          "site_name": "ちば観光ナビ（千葉県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://amamatsuri.com/",
+          "site_name": "南房総白浜海女まつり公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
