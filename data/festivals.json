@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03 17:16",
+  "last_updated": "2026-07-03 18:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -1652,13 +1652,11 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "price"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：協力金制度の言及なし → 今年：シャトルバス利用時に500円の環境整備協力金を新規導入"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -2652,15 +2650,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "旧データ：2026-07-11〜2026-08-10（約1か月の誤った範囲表記） → 正しくは2026-07-30（木）の単日開催"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -3470,15 +3464,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "旧データ：2026-07-24〜2026-07-25 → 正しくは2026-07-25（宵宮）〜2026-07-26（本祭）。加えて8年ぶりに海上渡御が復活。"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -3799,7 +3789,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -3863,7 +3853,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -3929,7 +3919,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -3993,7 +3983,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4059,7 +4049,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4126,7 +4116,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4184,7 +4174,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4250,7 +4240,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4316,7 +4306,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4381,7 +4371,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4449,7 +4439,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4517,7 +4507,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4581,7 +4571,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4648,7 +4638,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4711,7 +4701,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4776,7 +4766,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4842,6 +4832,401 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_082",
+      "name": "鎌倉花火大会",
+      "alternate_names": [
+        "第78回鎌倉花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "鎌倉市",
+      "date_start": "2026-07-10",
+      "date_end": "2026-07-10",
+      "date_note": "予備日なし。雨天・荒天・高波の場合は中止。",
+      "time_start": "19:20",
+      "time_end": "20:10",
+      "rain_policy": "雨天・荒天・高波の場合は中止（予備日なし）",
+      "organizer": "鎌倉花火大会実行委員会（鎌倉市観光協会内）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "約2,500発",
+      "is_free": true,
+      "price": "見学無料（有料観覧に関する情報は不明）",
+      "ticket_url": "不明",
+      "history_years": 78,
+      "history_description": "由比ヶ浜・材木座海岸で行われる鎌倉の夏の風物詩。水中花火が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "江ノ島電鉄由比ヶ浜駅・和田塚駅から徒歩5分、JR・江ノ島電鉄鎌倉駅から徒歩15分",
+      "official_url": "https://www.trip-kamakura.com/subsite/detail.php?id=9",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0314e00875/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.trip-kamakura.com/subsite/detail.php?id=9",
+          "site_name": "鎌倉市観光協会公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://sorahanabi.com/kanagawa/kamakura/kamakura-hanabitaikai.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_083",
+      "name": "浜降祭",
+      "alternate_names": [
+        "茅ヶ崎海岸浜降祭",
+        "暁の祭典 浜降祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "茅ヶ崎市",
+      "date_start": "2026-07-20",
+      "date_end": "2026-07-20",
+      "date_note": "4時頃一番神輿入場、7時合同祭開式、8時最初の神輿出発（帰路へ）",
+      "time_start": "04:00",
+      "time_end": "08:00",
+      "rain_policy": "不明",
+      "organizer": "浜降祭協賛会（茅ヶ崎市・寒川町の各神社）",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "神奈川県指定無形民俗文化財、大小約39基の神輿が参加",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "茅ヶ崎西浜海岸に市内と寒川町の各神社から神輿が集まり、みそぎを行う「相州神輿」の祭り。関東有数の規模の神輿祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.chigasaki.kanagawa.jp/kankou_list/event/1006906/1006924.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankou_list/event/1006906/1006924.html",
+          "site_name": "茅ヶ崎市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.shonan-sh.jp/events/hamaorisai/",
+          "site_name": "とことこ湘南",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://local-time.jp/hamaorisaichigasaki-2026/",
+          "site_name": "Local TiME",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_084",
+      "name": "和霊大祭・うわじま牛鬼まつり",
+      "alternate_names": [
+        "宇和島牛鬼まつり",
+        "うわじま牛鬼まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "宇和島市",
+      "date_start": "2026-07-22",
+      "date_end": "2026-07-24",
+      "date_note": "22日:海上打上花火・ガイヤカーニバル、23日:和霊大祭・闘牛大会・宇和島おどり大会、24日:子ども牛鬼パレード・親牛鬼パレード",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "うわじま牛鬼まつり実行委員会",
+      "genre": [
+        "花火",
+        "パレード",
+        "神事"
+      ],
+      "scale": "第60回",
+      "is_free": true,
+      "price": "見学無料（一部有料イベントあり）",
+      "ticket_url": "不明",
+      "history_years": 60,
+      "history_description": "和霊神社の例大祭にあわせて行われる宇和島の夏を代表する祭り。牛鬼パレードや闘牛大会などで知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://ushioni.gaina.ne.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ushioni.gaina.ne.jp/",
+          "site_name": "うわじま牛鬼まつり公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.uwajima.org/event/index2.html",
+          "site_name": "うわじま観光ガイド",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0938e00115/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_085",
+      "name": "金峯山寺蓮華会・蛙飛び行事",
+      "alternate_names": [
+        "蛙飛び行事",
+        "蓮華会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "吉野町",
+      "date_start": "2026-07-07",
+      "date_end": "2026-07-07",
+      "date_note": "12:30蛙太鼓台が竹林院前を出発、15:00行列が下千本を出発、16:00蔵王堂で蓮華会・蛙飛び法要、17:00採灯大護摩供",
+      "time_start": "12:30",
+      "time_end": "17:00",
+      "rain_policy": "不明",
+      "organizer": "金峯山寺",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "役行者ゆかりの伝統行事",
+      "is_free": true,
+      "price": "見学無料（拝観料は境内による）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "役行者が産湯をつかったと伝えられる弁天池の蓮の花を蔵王権現に供える法会（蓮華会）に合わせ、大青蛙を乗せた太鼓台が蔵王堂へ練り込み、蛙が導師の授戒により人間の姿に戻る儀式が行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://www.kinpusen.or.jp/event/3dai.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://www.kinpusen.or.jp/event/3dai.html",
+          "site_name": "金峯山修験本宗 総本山 金峯山寺公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.town.yoshino.nara.jp/promotion/kankojoho/nenjugyoji/1434.html",
+          "site_name": "吉野町公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://naratrip.com/rengee",
+          "site_name": "naratrip",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_086",
+      "name": "弥彦燈籠まつり",
+      "alternate_names": [
+        "やひこの火まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "西蒲原郡弥彦村",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-26",
+      "date_note": "25日夜に大燈籠・小田楽燈籠と二基の御神輿による渡御が行われる",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "彌彦神社",
+      "genre": [
+        "神事",
+        "神輿"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "彌彦神社に千年の昔から伝わる燈籠神事「やひこの火まつり」で、夏の大祭として知られる。県下各地からの献燈大燈籠と地元氏子の小田楽燈籠が二基の御神輿とともに渡御する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.e-yahiko.com/spot/tourou-fes/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.e-yahiko.com/spot/tourou-fes/",
+          "site_name": "弥彦観光協会公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.vill.yahiko.niigata.jp/culture/?category=41",
+          "site_name": "弥彦村公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://niigata-kankou.or.jp/event/2418",
+          "site_name": "にいがた観光ナビ（新潟県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_087",
+      "name": "青柏祭の曳山行事",
+      "alternate_names": [
+        "青柏祭",
+        "でか山"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "石川県",
+      "city": "七尾市",
+      "date_start": "2026-05-02",
+      "date_end": "2026-05-05",
+      "date_note": "2日夜に「人形見」、4日は大地主神社、5日は能登食祭市場・仙対橋付近に曳山が勢ぞろい",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "青柏祭でか山保存会",
+      "genre": [
+        "山車",
+        "曳山",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財／ユネスコ無形文化遺産「山・鉾・屋台行事」。曳山（でか山）は高さ約12m・重さ約20t。",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "大地主神社の例大祭。日本一大きいとされる曳山「でか山」が七尾市街地を巡行する能登地方最大の祭礼。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.nanao.lg.jp/koryu-s/event/event_syokai/seihakusai.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.nanao.lg.jp/koryu-s/event/event_syokai/seihakusai.html",
+          "site_name": "七尾市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://ishikawa-style.com/seihakusai-2026/",
+          "site_name": "いしかわスタイル",
+          "is_official": false,
+          "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.hot-ishikawa.jp/event/detail_5674.html",
+          "site_name": "ほっと石川旅ねっと（石川県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-03"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾：開催開始日について「5月2日」とする情報と「5月3日」とする情報が混在。要確認。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
