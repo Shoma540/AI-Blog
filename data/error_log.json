@@ -41,6 +41,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "7回連続（2026-06-30 18:25 / 2026-07-02 12:20 / 2026-07-02 16:13 / 2026-07-02 18:12 / 2026-07-03 08:12 / 2026-07-03 17:16 / 2026-07-03 18:12）で同一のAPI access blockedエラーが発生。4日以上・7回の実行にわたり全く同一のエラーメッセージが継続しており、アクセストークン自体は環境変数に設定済みで疎通できているため、トークン失効ではなくMetaアプリ側の審査却下・利用制限・アプリ停止による構造的なブロックである可能性が極めて高い。ユーザーによるMeta for Developersダッシュボードでのアプリステータス確認・サポート問い合わせが必須。ブログ更新（HTML生成・GitHub Push）自体は正常に完了している。"
+    },
+    {
+      "timestamp": "2026-07-04 08:15",
+      "step": "STEP8_git_push",
+      "error": "scripts/git_push.py によるmain への直接pushを今回は実行しなかった",
+      "detail": "今回のセッションは main ではなく隔離された作業ブランチ（claude/blissful-keller-y2kxy7）上で実行されており、権限ポリシー上ユーザーの明示的な許可なしに main へ直接pushできない。git_push.py は現在のブランチ名に関わらずローカルの 'main' ブランチ参照を origin/main へpushする実装のため、このコンテナのようにローカル main が古いまま（現在 b5ba665、origin/main は 10eca42）だと push は non-fast-forward で失敗する状態だった。今回は変更を data/festivals.json, docs/ ごと claude/blissful-keller-y2kxy7 ブランチへコミット・pushするに留め、mainへの反映・GitHub Pagesへの反映は保留。過去のログには『GitHub Push自体は正常に完了』とあるが、それはおそらく過去のセッションが main を直接チェックアウトして作業していたため。今回のようにセッションごとに隔離ブランチが割り当てられる運用に変わった場合、git_push.py のロジック（固定で 'origin main' をpush）とブランチ運用の前提が食い違い、今後の自動公開が失敗し続ける可能性がある。ユーザーに、(a) このブランチをmainにマージする、(b) 今後のセッションにmainへの直接push許可を明示する、(c) git_push.pyを 'git push origin HEAD:main' のようにブランチ非依存の形に修正する、のいずれかの対応を要請。"
     }
   ]
 }
