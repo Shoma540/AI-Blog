@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03 18:11",
+  "last_updated": "2026-07-04 12:00",
   "festivals": [
     {
       "id": "festival_001",
@@ -4896,7 +4896,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4962,7 +4962,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -5029,7 +5029,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -5095,7 +5095,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -5160,7 +5160,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -5227,6 +5227,303 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：開催開始日について「5月2日」とする情報と「5月3日」とする情報が混在。要確認。",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_088",
+      "name": "豊田おいでんまつり花火大会",
+      "alternate_names": [
+        "おいでんまつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "豊田市",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "第58回。総踊りは7/25、花火大会は7/26",
+      "time_start": "19:00",
+      "time_end": "20:40",
+      "rain_policy": "不明",
+      "organizer": "豊田おいでんまつり実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "有料観覧席あり",
+      "ticket_url": "https://www.oidenmaturi.com/hanabi/",
+      "history_years": 58,
+      "history_description": "全国の著名な花火師によるメロディ花火・手筒花火・ナイアガラ大瀑布が特徴の花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "名鉄豊田市駅・愛知環状鉄道新豊田駅から徒歩10分（打ち上げ場所：白浜公園一帯）",
+      "official_url": "https://www.oidenmaturi.com/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.oidenmaturi.com/hanabi/",
+          "site_name": "豊田おいでんまつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-04"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0623e00808/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-04"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/1137/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-04"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_089",
+      "name": "葛飾納涼花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "葛飾区",
+      "date_start": "2026-07-28",
+      "date_end": "2026-07-28",
+      "date_note": "第60回記念大会",
+      "time_start": "19:20",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "葛飾納涼花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "有料観覧席あり",
+      "ticket_url": "",
+      "history_years": 60,
+      "history_description": "60回記念大会として約20,000発の花火とドローンショーを実施予定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京成電鉄柴又駅から徒歩10分（打ち上げ場所：柴又野球場・江戸川河川敷）",
+      "official_url": "https://www.city.katsushika.lg.jp/tourism/1000064/1000065/1031830.html",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/hanabi__katsushika/"
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.katsushika.lg.jp/tourism/1000064/1000065/1031830.html",
+          "site_name": "葛飾区公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-04"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00861/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-04"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/2201008/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-04"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_090",
+      "name": "水戸偕楽園花火大会",
+      "alternate_names": [
+        "水戸黄門まつり水戸偕楽園花火大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "茨城県",
+      "city": "水戸市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "第66回。荒天時は7/26に順延。水戸黄門まつり本祭（8/1・8/2、festival_025）とは開催日が異なる関連行事",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "荒天時は翌日（7/26）に順延",
+      "organizer": "水戸観光コンベンション協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "有料観覧席あり",
+      "ticket_url": "",
+      "history_years": 66,
+      "history_description": "水戸黄門まつりの一環として千波湖畔で行われる花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "千波湖畔",
+      "official_url": "https://mitokoumon.com/koumon/hanabi.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://mitokoumon.com/koumon/hanabi.html",
+          "site_name": "水戸黄門まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-04"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0308e00896/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-04"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_091",
+      "name": "伊勢神宮奉納全国花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "伊勢市",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-18",
+      "date_note": "第74回。荒天等の場合は9/5に延期、9/5も荒天の場合は9/6に順延",
+      "time_start": "19:20",
+      "time_end": "21:00",
+      "rain_policy": "雨天決行。荒天等の場合は2026-09-05に延期、それも荒天の場合は2026-09-06に順延",
+      "organizer": "伊勢市（伊勢神宮奉納全国花火大会実行委員会）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "有料観覧席あり",
+      "ticket_url": "https://eplus.jp/sf/detail/0590530001",
+      "history_years": 74,
+      "history_description": "伊勢神宮に花火を奉納する全国花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "宮川河畔（度会橋上流）",
+      "official_url": "https://www.city.ise.mie.jp/hanabi/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.ise.mie.jp/hanabi/",
+          "site_name": "伊勢市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-04"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0624e00804/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-04"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/event/5091",
+          "site_name": "観光三重（三重県観光連盟公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-04"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_092",
+      "name": "秋の高山祭（八幡祭）",
+      "alternate_names": [
+        "高山祭八幡祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "岐阜県",
+      "city": "高山市",
+      "date_start": "2026-10-09",
+      "date_end": "2026-10-10",
+      "date_note": "毎年10月9日・10日開催。春の高山祭（山王祭、festival_013）とは別の祭り（秋の部）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "櫻山八幡宮",
+      "genre": [
+        "曳山",
+        "山車"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 0,
+      "history_description": "旧高山城下町北半分の氏神・櫻山八幡宮の例大祭。11台の屋台曳き揃え、屋台曳き廻し、布袋台のからくり奉納、御神幸行列などが行われる。京都祇園祭・秩父夜祭と並ぶ「日本三大美祭」の一つ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.kankou-gifu.jp/event/detail_1074.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.kankou-gifu.jp/event/detail_1074.html",
+          "site_name": "岐阜県観光公式サイト「岐阜の旅ガイド」",
+          "is_official": true,
+          "retrieved_date": "2026-07-04"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000157.000124925.html",
+          "site_name": "高山市プレスリリース（PR TIMES）",
+          "is_official": true,
+          "retrieved_date": "2026-07-04"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
