@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03 18:11",
+  "last_updated": "2026-07-05 08:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -1146,13 +1146,36 @@
           "site_name": "江東区観光協会",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://fukagawa-web.com/wpfuka02/2026/03/13/2026hachiman-maturi-288/",
+          "site_name": "タウン誌 深川WEB（神輿連合渡御 令和8年8月16日決定の告知）",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://f-kurashi.tokyo/fukagawa-hachiman-matsuri/",
+          "site_name": "深川くらし（2026年本祭りガイド）",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://x.com/c_kankokyokai/status/1955796515378631071",
+          "site_name": "中央区観光協会 公式X",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "富岡八幡宮の公式サイトは取得時(2026-06-30)に一時的にアクセス不可(HTTP 503)だったため未確認だが、江東区観光協会（公式）と地域メディア2件が一致して日程を確認。2026年は3年に一度の本祭り（神輿連合渡御は8/16、50基以上）。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "富岡八幡宮公式サイトは2026-06-30・2026-07-05のいずれの取得時点でもHTTP 503でアクセス不可。ただし江東区観光協会（公式）・中央区観光協会公式X（公式）・地域メディア複数（深川WEB、深川くらし等）が独立して同一日程（神輿連合渡御8/16、祭礼期間8/12〜8/16、3年に一度の本祭り）を確認しており、矛盾は解消。",
+      "requires_check": false,
+      "diff_status": "CONFLICT_RESOLVED",
+      "updated_fields": [
+        "sources",
+        "conflict_note",
+        "requires_check",
+        "diff_status"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -2204,13 +2227,31 @@
           "site_name": "桑名宗社公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/event/35039",
+          "site_name": "観光三重（三重県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.city.kuwana.lg.jp/kanko/event/summer/summer004.html",
+          "site_name": "桑名市公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "日程は固定パターンからの推定で2系統の調査が一致。公式サイトの2026年版表記更新を要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "2026-07-05時点で観光三重（三重県公式）・桑名市公式観光サイトの2つの公式ソースが2026年8月1日(土)・2日(日)開催を明記していることを確認。前回指摘した「公式サイト2026年表記未更新」の懸念は解消。",
+      "requires_check": false,
+      "diff_status": "CONFLICT_RESOLVED",
+      "updated_fields": [
+        "sources",
+        "conflict_note",
+        "requires_check",
+        "trust_level",
+        "diff_status"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -4896,7 +4937,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -4962,7 +5003,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -5029,7 +5070,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -5095,7 +5136,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -5160,7 +5201,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -5222,11 +5263,227 @@
           "site_name": "ほっと石川旅ねっと（石川県公式）",
           "is_official": true,
           "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.city.nanao.lg.jp/koryu-s/event/event_syokai/seihakusai.html",
+          "site_name": "七尾市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.hot-ishikawa.jp/event/detail_5674.html",
+          "site_name": "ほっと石川旅ねっと（石川県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.kanazawa-kankoukyoukai.or.jp/event/detail_52398.html",
+          "site_name": "金沢市観光協会公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾：開催開始日について「5月2日」とする情報と「5月3日」とする情報が混在。要確認。",
-      "requires_check": true,
+      "trust_level": "高",
+      "conflict_note": "七尾市公式・石川県公式観光サイト・金沢市観光協会公式の3ソースが2026年5月2日〜5日の開催で一致したため信頼度を引き上げ。",
+      "requires_check": false,
+      "diff_status": "CONFLICT_RESOLVED",
+      "updated_fields": [
+        "sources",
+        "conflict_note",
+        "requires_check",
+        "trust_level",
+        "diff_status"
+      ],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_088",
+      "name": "弘前ねぷたまつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "青森県",
+      "city": "弘前市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-07",
+      "date_note": "土手町コース8/1〜4 19:00〜、駅前コース8/5・6 19:00〜、土手町午前コース8/7 10:00〜。なぬか日おくりは8/7 17:00〜20:30(予定)。",
+      "time_start": "19:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "弘前ねぷたまつり運営委員会",
+      "genre": [
+        "ねぷた",
+        "山車",
+        "パレード"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり、特別観覧席・グループ席は4/1〜、個人観覧席は6/22〜販売開始）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.hirosaki-kanko.or.jp/edit.html?id=cat02_summer_neputa",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hirosaki-kanko.or.jp/edit.html?id=cat02_summer_neputa",
+          "site_name": "弘前観光コンベンション協会公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://aomori-tourism.com/event/detail_26.html",
+          "site_name": "青森県観光情報サイト Amazing AOMORI",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.gettiis.jp/en/event/detail/17243/20260801",
+          "site_name": "Tickets GETTIIS",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_089",
+      "name": "豊田おいでんまつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "豊田市",
+      "date_start": "2026-06-06",
+      "date_end": "2026-07-26",
+      "date_note": "マイタウンおいでん6/6〜7/5。おいでん総踊り7/25(土)18:00〜21:00(予定)。花火大会7/26(日)19:00〜20:40(予定)。第58回。2027年以降は秋開催へ変更予定で、夏開催は2026年が最後（中日新聞報道）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "豊田おいでんまつり実行委員会",
+      "genre": [
+        "踊り",
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（花火大会は一部有料席あり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.oidenmaturi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.oidenmaturi.com/news/2026/",
+          "site_name": "豊田おいでんまつり公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/1137/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0623e00808/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_090",
+      "name": "鹿嶋市花火大会（式年大祭御船祭記念 第46回）",
+      "alternate_names": [
+        "鹿嶋市花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "鹿嶋市",
+      "date_start": "2026-07-04",
+      "date_end": "2026-07-04",
+      "date_note": "19:30〜20:30。荒天・霧・強風時は7月5日(日)に順延。式年大祭御船祭を記念した開催。",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "荒天・霧・強風時は翌日に順延",
+      "organizer": "鹿嶋市／鹿嶋市観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料席の有無は不明）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR鹿島神宮駅から徒歩25分。大船津地内北浦湖上で打ち上げ。",
+      "official_url": "https://www.city.kashima.ibaraki.jp/site/kankou/9118.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kashima.ibaraki.jp/site/kankou/9118.html",
+          "site_name": "鹿嶋市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=733",
+          "site_name": "観光いばらき公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1701022/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
