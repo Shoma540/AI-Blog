@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05 16:27",
+  "last_updated": "2026-07-05 18:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -753,10 +753,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1368,10 +1366,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1438,10 +1434,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1509,10 +1503,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1580,10 +1572,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1770,10 +1760,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1904,10 +1892,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -2038,10 +2024,8 @@
       "trust_level": "高",
       "conflict_note": "輪島市観光協会公式サイトと石川県の日本遺産公式サイト（能登のキリコ祭り）の2つの準公式ソースで8/22〜25の日程・4神社の順次開催を確認。単独の一次公式発表ページは未確認のため信頼度は中に留める。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -2223,10 +2207,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -2293,11 +2275,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -2600,12 +2579,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "time_start",
-        "time_end"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -2725,10 +2700,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -2854,10 +2827,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -2995,10 +2966,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3067,10 +3036,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3138,10 +3105,8 @@
       "trust_level": "高",
       "conflict_note": "新居浜市公式サイトの太鼓祭りページと愛媛県公式観光サイト「いよ観ネット」の2ソースで10/16〜18の開催を確認。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3324,10 +3289,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3505,12 +3468,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "date_note",
-        "alternate_names"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3572,10 +3531,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3778,12 +3735,8 @@
       "trust_level": "中",
       "conflict_note": "祭り自体の内容・主催は3ソース一致で確認できたが、2026年の具体的な開催日は本稿時点で未発表のため「不明」とした。要確認。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "organizer",
-        "date_note",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -4074,10 +4027,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -4472,10 +4423,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -4611,10 +4560,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -5071,10 +5018,8 @@
       "trust_level": "低",
       "conflict_note": "検索結果の一部に「2026年10月10-12日開催」とのAI要約が見られたが、これは2025年実績の誤表記（年違い）と判断し採用しなかった。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -5273,10 +5218,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -6204,7 +6147,7 @@
       "conflict_note": "京都祇園祭とは無関係。青森ねぶた祭とは別の祭りのため混同注意。",
       "requires_check": false,
       "id": "festival_095",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6270,7 +6213,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_096",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6336,7 +6279,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_097",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6400,7 +6343,7 @@
       "conflict_note": "festival_005「仙台七夕まつり」とは別イベント・別主催団体。名称類似のため混同注意。",
       "requires_check": false,
       "id": "festival_098",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6465,7 +6408,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_099",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6531,7 +6474,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_100",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6596,7 +6539,7 @@
       "conflict_note": "一部非公式まとめサイトで8/23-24とする記載あり。公式サイト2件が8/22-23で一致するためそちらを採用。",
       "requires_check": false,
       "id": "festival_101",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6677,7 +6620,7 @@
       "conflict_note": "祭全体の日程(9/2-5)と、とうろう流しと大花火大会単体の日程(8/16)とする情報源の間で矛盾あり。要継続確認。",
       "requires_check": true,
       "id": "festival_102",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6748,7 +6691,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_103",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6814,7 +6757,7 @@
       "conflict_note": "Wikipediaは歴史的に7/13-15の3日間と記す一方、2026年公式案内は7/13-14の2日間。京都「祇園祭」と類似名のため別祭りである旨を明示。",
       "requires_check": false,
       "id": "festival_104",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6881,7 +6824,7 @@
       "conflict_note": "「天神祭」の名を含むが大阪天神祭(festival_002)とは無関係の別祭り。",
       "requires_check": false,
       "id": "festival_105",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -6944,7 +6887,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_106",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7010,7 +6953,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_107",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7077,7 +7020,7 @@
       "conflict_note": "名称は岸和田だんじり祭(festival_091)や住吉大社御田植神事(festival_093, 共に大阪府)と類似するが、本住吉神社(兵庫県神戸市)の別祭り。",
       "requires_check": false,
       "id": "festival_108",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7148,7 +7091,7 @@
       "conflict_note": "山口祇園祭(festival_047)の「鷺の舞」と混同されやすいが、指定区分・神社（弥栄神社 vs 八坂神社）・主催が異なる別の行事。",
       "requires_check": false,
       "id": "festival_109",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7214,7 +7157,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_110",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7278,7 +7221,7 @@
       "conflict_note": "対岸の福岡県北九州市門司区会場と一体の合同花火大会のため、別集計されているサイトがある点に注意。",
       "requires_check": false,
       "id": "festival_111",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7342,7 +7285,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_112",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7408,7 +7351,7 @@
       "conflict_note": "既に開催済み（6月）のため、参考情報扱い。",
       "requires_check": false,
       "id": "festival_113",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7474,7 +7417,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_114",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7538,7 +7481,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_115",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7605,7 +7548,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_116",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7671,7 +7614,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_117",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7734,7 +7677,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_118",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7806,7 +7749,7 @@
       "conflict_note": "交通規制関連情報で7/27まで言及する記述があり、本祭3日間に加えて予備日が存在する可能性。要確認。",
       "requires_check": true,
       "id": "festival_119",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7872,7 +7815,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_120",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7938,7 +7881,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_121",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -7996,7 +7939,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_122",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -8062,7 +8005,7 @@
       "conflict_note": "「国選択無形民俗文化財」であり「国指定重要無形民俗文化財」とは制度上異なる区分。",
       "requires_check": false,
       "id": "festival_123",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -8128,7 +8071,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_124",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -8194,7 +8137,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_125",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -8260,6 +8203,265 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_126",
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_127",
+      "name": "長岡まつり大花火大会",
+      "alternate_names": [
+        "長岡花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "長岡市",
+      "date_start": "2026-08-02",
+      "date_end": "2026-08-03",
+      "date_note": "毎年8月2日・3日固定開催。信濃川河川敷にて実施。",
+      "time_start": "19:20",
+      "time_end": "21:10",
+      "rain_policy": "不明",
+      "organizer": "一般財団法人長岡花火財団",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（国内最大級・約2万発）",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり、市民先行4/10〜4/28・一般抽選5/25〜6/8は完売、公式再販売7/6〜）",
+      "ticket_url": "https://www.nagaokahanabi.jp/",
+      "history_years": "不明",
+      "history_description": "1945年の長岡空襲からの復興と慰霊、平和への祈りを込めて始まった花火大会。ナイアガラ花火やフェニックス花火など大規模な演出で知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://nagaokamatsuri.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://nagaokamatsuri.com/",
+          "site_name": "長岡花火 公式ウェブサイト（長岡花火財団）",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0415e00665/data.html",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://nagaoka-navi.or.jp/event/2441",
+          "site_name": "長岡観光ナビ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_128",
+      "name": "沖縄全島エイサーまつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "沖縄県",
+      "city": "沖縄市",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "9/5(土)は沖縄市青年まつり（開演15:00）、9/6(日)が本祭・全島エイサーまつり（開演15:00）。",
+      "time_start": "15:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "沖縄全島エイサーまつり実行委員会",
+      "genre": [
+        "民俗芸能",
+        "踊り",
+        "パレード"
+      ],
+      "scale": "沖縄最大級のエイサー祭り（第71回）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "沖縄各地の青年会エイサー団体が一堂に会し演舞を披露する、沖縄最大規模のエイサー祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "沖縄市コザ運動公園陸上競技場",
+      "official_url": "https://www.zentoeisa.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.zentoeisa.com/",
+          "site_name": "沖縄全島エイサーまつり実行委員会オフィシャルサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.kozaweb.jp/events/show/24890",
+          "site_name": "沖縄市観光ポータル Kozaweb",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://kozainfo.okinawa/special/s000003.html",
+          "site_name": "あっと！沖縄市コザ",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_129",
+      "name": "おはら祭",
+      "alternate_names": [
+        "鹿児島おはら祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "鹿児島市",
+      "date_start": "2026-11-02",
+      "date_end": "2026-11-03",
+      "date_note": "11/2(月)夜まつり18:50〜20:30、11/3(火・祝)本まつり10:20〜15:25。",
+      "time_start": "10:20",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "おはら祭運営委員会（事務局：鹿児島市）",
+      "genre": [
+        "踊り",
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "九州最大級の総踊り（第74回以降）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "「おはら節」に合わせて市民が電車通りを踊り歩く、鹿児島を代表する秋祭り。総踊りやおごじょ太鼓競演などが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "高見馬場〜いづろ〜桟橋通り（電車通り約1,480m区間）",
+      "official_url": "https://www.kagoshima-kankou.com/event/50229",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kagoshima-yokanavi.jp/event/10001",
+          "site_name": "鹿児島市観光サイト よかナビ",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.kagoshima-kankou.com/event/50229",
+          "site_name": "鹿児島県観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.city.kagoshima.lg.jp/faq-bunka-sport/kanshin/q35.html",
+          "site_name": "鹿児島市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_130",
+      "name": "京都五山送り火",
+      "alternate_names": [
+        "大文字送り火",
+        "大文字焼き"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "京都府",
+      "city": "京都市",
+      "date_start": "2026-08-16",
+      "date_end": "2026-08-16",
+      "date_note": "大文字20:00点火、妙法20:05、船形20:10、左大文字20:15、鳥居形20:20点火。各30分程燃焼。",
+      "time_start": "20:00",
+      "time_end": "20:50",
+      "rain_policy": "原則雨天決行（気象条件により点火時間が変更になる場合あり）",
+      "organizer": "京都市／各山保存会",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他（京都の夏の風物詩）",
+      "is_free": true,
+      "price": "見学無料（有料観覧席・鑑賞ツアーあり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "お盆に迎えた先祖の霊を送る伝統行事。大文字・妙法・船形・左大文字・鳥居形の5つの山に順次点火される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://ja.kyoto.travel/event/single.php?event_id=1467",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ja.kyoto.travel/event/single.php?event_id=1467",
+          "site_name": "京都市公式 京都観光Navi",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.kyoto-kankou.or.jp/event/1300",
+          "site_name": "京都府観光連盟公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://kyototravel.info/gozannookuribi",
+          "site_name": "京都トラベル情報",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "「大文字焼き」と俗称されることがあるが、正式には5山全体の宗教行事「五山送り火」であり、大文字はその一つに過ぎない点に注意。",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
