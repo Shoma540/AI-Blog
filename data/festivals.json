@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05 08:13",
+  "last_updated": "2026-07-05 12:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -2323,7 +2323,7 @@
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
-      "organizer": "松原八幡神社氏子総代会",
+      "organizer": "松原八幡神社／松原八幡神社氏子総代会",
       "genre": [
         "神輿",
         "屋台行事"
@@ -2345,23 +2345,36 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://web.pref.hyogo.lg.jp/archives/c492.html",
-          "site_name": "兵庫県公式アーカイブ",
-          "is_official": true,
-          "retrieved_date": "2026-06-30"
+          "url": "https://www.nadamatsuri.jp/",
+          "site_name": "灘のけんか祭り情報サイト（非公式・氏子会等とは無関係と明記）",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
         },
         {
-          "url": "https://www.nadamatsuri.jp/",
-          "site_name": "灘のけんか祭り情報サイト（非公式・神社非提携を明記）",
+          "url": "https://ja.wikipedia.org/wiki/灘のけんか祭り",
+          "site_name": "Wikipedia",
           "is_official": false,
-          "retrieved_date": "2026-06-30"
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://hyogo-tourism.jp/event/detail_2039.html",
+          "site_name": "兵庫県観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "2026年の正式日程は例年パターンからの推定（2系統の調査で一致）。公式の確定告知での再確認を推奨。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "松原八幡神社自体の公式サイトは確認できず。ただし固定日程（毎年10/14・15開催）で複数ソース（兵庫県観光公式サイト含む）が一致しており矛盾なし。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "organizer",
+        "sources",
+        "conflict_note",
+        "trust_level",
+        "requires_check",
+        "diff_status"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3371,7 +3384,7 @@
       "city": "宮崎市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "直近の開催（2025年）は11月1日・2日。例年11月1日・2日固定で開催される傾向があるが、2026年分の日程は2026年7月2日16時時点で公式発表が確認できず未確定（宮崎商工会議所公式・みやざき観光ナビとも2025年度の情報のまま更新なしを再確認）。",
+      "date_note": "例祭（本祭）は毎年10/26固定。御神幸祭（神武さま、パレード本体）は例祭後の直近土日に開催される慣例（2025年は11/1-2）。2026年の公式日程は本稿執筆時点(2026-07-05)で未発表。例年のパターンから2026-11-07〜08頃と推定されるが、これは推定であり確定情報ではない。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -3399,29 +3412,34 @@
       "video_url": "不明",
       "sources": [
         {
+          "url": "https://miyazakijingu.or.jp/publics/index/20/",
+          "site_name": "宮崎神宮公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
           "url": "https://www.miyazaki-cci.or.jp/miyazaki/events/jinmu-festival/",
-          "site_name": "宮崎商工会議所 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-02"
+          "site_name": "宮崎商工会議所",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
         },
         {
-          "url": "https://www.kanko-miyazaki.jp/event/1269",
-          "site_name": "宮崎県公式観光サイト みやざき観光ナビ",
+          "url": "https://miyazaki-city.tourism.or.jp/",
+          "site_name": "宮崎市観光協会",
           "is_official": true,
-          "retrieved_date": "2026-07-02"
-        },
-        {
-          "url": "https://www.miyazaki-city.tourism.or.jp/event/12284",
-          "site_name": "宮崎市観光サイト（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-02"
+          "retrieved_date": "2026-07-05"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "低",
       "conflict_note": "祭り自体の内容・主催は3ソース一致で確認できたが、2026年の具体的な開催日は本稿時点で未発表のため「不明」とした。要確認。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "sources",
+        "trust_level",
+        "diff_status"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -4630,7 +4648,7 @@
       "city": "佐倉市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "例年10月第2金・土・日曜日に開催。2025年は10/10-12だったが、2026年の公式日程はまだ発表されていない（要確認）。",
+      "date_note": "隔年開催ではなく毎年開催と判明。例年10月第2金〜日曜に開催（2025年は10/10-12）。2026年の公式日程は本稿執筆時点(2026-07-05)で未発表。カレンダー上の第2金曜から推定すると2026-10-09〜11頃だが、これは推定であり確定情報ではない。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -4658,29 +4676,29 @@
       "video_url": "不明",
       "sources": [
         {
+          "url": "https://sakura-maturi.jp/",
+          "site_name": "佐倉の秋祭り公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
           "url": "https://www.city.sakura.lg.jp/soshiki/sakuranomiryoku/event_kanko/16470.html",
           "site_name": "佐倉市公式",
           "is_official": true,
-          "retrieved_date": "2026-07-03"
-        },
-        {
-          "url": "https://www.sakura-maturi.jp/about/index.html",
-          "site_name": "佐倉の秋祭り公式",
-          "is_official": true,
-          "retrieved_date": "2026-07-03"
-        },
-        {
-          "url": "https://maruchiba.jp/event/detail_10869.html",
-          "site_name": "ちば観光ナビ（千葉県公式）",
-          "is_official": false,
-          "retrieved_date": "2026-07-03"
+          "retrieved_date": "2026-07-05"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "",
+      "trust_level": "低",
+      "conflict_note": "検索結果の一部に「2026年10月10-12日開催」とのAI要約が見られたが、これは2025年実績の誤表記（年違い）と判断し採用しなかった。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "sources",
+        "conflict_note",
+        "trust_level",
+        "diff_status"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -5356,7 +5374,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -5420,7 +5438,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -5477,6 +5495,267 @@
         {
           "url": "https://weathernews.jp/hanabi/spot/1701022/",
           "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_091",
+      "name": "岸和田だんじり祭（9月祭礼）",
+      "alternate_names": [
+        "岸和田祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "岸和田市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "試験曳きは9/6・9/18。宵宮9/19、本宮（やりまわし）9/20。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "岸和田だんじり祭実行委員会／岸和田市",
+      "genre": [
+        "山車",
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他（国指定の記録は確認できず。大阪府を代表する民俗行事として広く著名）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "「やりまわし」と呼ばれる勢いよく直角に曲がる曳行が見どころの、岸和田市を代表する曳山（だんじり）祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.kishiwada.lg.jp/site/danjiri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kishiwada.lg.jp/site/danjiri/",
+          "site_name": "岸和田市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://expo2025.fun/",
+          "site_name": "イベントガイド",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/",
+          "site_name": "エンジョイ東京イベント情報",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "国指定重要無形民俗文化財としての指定有無は今回の調査で確認できず、「その他」区分とした。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_092",
+      "name": "板橋の田遊び",
+      "alternate_names": [
+        "徳丸北野神社田遊び",
+        "赤塚諏訪神社田遊び"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "板橋区",
+      "date_start": "2026-02-11",
+      "date_end": "2026-02-13",
+      "date_note": "2026年は開催終了済み（記録用）。徳丸北野神社は2/11(18時頃〜約2時間)、赤塚諏訪神社は2/13。",
+      "time_start": "18:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "地元田遊び保存会（板橋区教育委員会 生涯学習課文化財係 監修）",
+      "genre": [
+        "農祭り",
+        "神事",
+        "田遊び"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "約1000年",
+      "history_description": "田の神に稲作の一年間（耕作・田植え・収穫）の様子を模擬して奉納し豊作を祈願する神事。昭和51年に国の重要無形民俗文化財に指定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.itabashi.tokyo.jp/bunka/bunkazi/bunkazai/1004839.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/bunkazi/bunkazai/1004839.html",
+          "site_name": "板橋区公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://itabashi-times.com/",
+          "site_name": "いたばしタイムズ",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/板橋の田遊び",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_093",
+      "name": "住吉大社 御田植神事",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "大阪市（住吉区）",
+      "date_start": "2026-06-14",
+      "date_end": "2026-06-14",
+      "date_note": "2026年は開催終了済み（記録用）。13:00〜、第一本宮→御田。",
+      "time_start": "13:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "住吉大社",
+      "genre": [
+        "農祭り",
+        "神事",
+        "御田植祭"
+      ],
+      "scale": "国指定重要無形民俗文化財（日本三大御田植の一つ）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "約1800年",
+      "history_description": "摂津地方の田植え神事を再現したとされる祭事で、伝統的な所作を崩さず伝えることから「日本三大御田植」の一つとされる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.sumiyoshitaisha.net/events/annualevents/06.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sumiyoshitaisha.net/events/annualevents/06.html",
+          "site_name": "住吉大社公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://fukucalendar.com/",
+          "site_name": "福カレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://osaka-info.jp/",
+          "site_name": "大阪観光局",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_094",
+      "name": "香取神宮 御田植祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "香取市",
+      "date_start": "2026-04-05",
+      "date_end": "2026-04-05",
+      "date_note": "2026年は開催終了済み（記録用）。13:00〜。",
+      "time_start": "13:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "香取神宮",
+      "genre": [
+        "農祭り",
+        "神事",
+        "御田植祭"
+      ],
+      "scale": "その他（日本三大御田植の一つとされるが国指定の記録は確認できず）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "明徳年間(1390〜1394年)の記録が残る古い神事。耕田式（牛や農具を使った耕作の所作）と田植式（早乙女による田植え歌を伴う所作）からなる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://katori-jingu.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://katori-jingu.or.jp/",
+          "site_name": "香取神宮公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.city.katori.lg.jp/",
+          "site_name": "香取市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.jalan.net/",
+          "site_name": "じゃらん",
           "is_official": false,
           "retrieved_date": "2026-07-05"
         }
