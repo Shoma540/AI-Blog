@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06 18:30",
+  "last_updated": "2026-07-06 19:00",
   "festivals": [
     {
       "id": "festival_001",
@@ -1774,12 +1774,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "rain_policy"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -9924,7 +9920,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9986,6 +9982,3005 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_157",
+      "name": "五所川原立佞武多",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "青森県",
+      "city": "五所川原市",
+      "date_start": "2026-08-04",
+      "date_end": "2026-08-08",
+      "date_note": "毎日19:00〜21:00頃運行。初日・最終日は大型立佞武多3台の「お見合い」演出あり。2026年は新作「猿田彦大神」が初出陣予定。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "五所川原立佞武多運営委員会・五所川原商工会議所",
+      "genre": [
+        "山車",
+        "ねぷた"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "沿道見学無料。有料観覧席あり（価格は公式サイト参照）",
+      "ticket_url": "不明",
+      "history_years": 28,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://tachineputa-official.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tachineputa-official.jp/",
+          "site_name": "五所川原立佞武多 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://aomori-tourism.com/event/detail_86.html",
+          "site_name": "Amazing AOMORI（青森県観光情報）",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E4%BA%94%E6%89%80%E5%B7%9D%E5%8E%9F%E7%AB%8B%E4%BD%9E%E6%AD%A6%E5%A4%9A",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_158",
+      "name": "石巻川開き祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "石巻市",
+      "date_start": "2026-07-31",
+      "date_end": "2026-08-02",
+      "date_note": "7/31前夜祭、8/1・8/2本祭り。第103回。花火大会・孫兵衛船競漕・流燈などを実施。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "石巻川開祭実行委員会",
+      "genre": [
+        "花火",
+        "船渡御",
+        "夏祭り"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明（花火大会観覧は無料の可能性が高いが有料席の有無は未確認）",
+      "ticket_url": "不明",
+      "history_years": 110,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.ishinomakikawabiraki.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.ishinomakikawabiraki.jp/schedule.html",
+          "site_name": "石巻川開祭実行委員会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.jcci.or.jp/news/news/2026/0529112545.html",
+          "site_name": "日本商工会議所ニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.i-kanko.com/news/45180/",
+          "site_name": "石巻観光協会",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_159",
+      "name": "酒田まつり（山王祭）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "酒田市",
+      "date_start": "2026-05-19",
+      "date_end": "2026-05-21",
+      "date_note": "5/19宵祭り、5/20本祭り（式台の儀・渡御行列・山車行列）、5/21最終日。開催は5月で夏〜秋の重点期間外だが地域を代表する祭りとして掲載。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "上下両日枝神社・酒田まつり実行委員会",
+      "genre": [
+        "神輿",
+        "山車"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（詳細な有料エリアの有無は未確認）",
+      "ticket_url": "不明",
+      "history_years": 417,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.visityamagata.jp/event-sakata-sakatamatsuri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.visityamagata.jp/event-sakata-sakatamatsuri/",
+          "site_name": "VISIT YAMAGATA（山形県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://sakata-kankou.com/event/30728",
+          "site_name": "酒田観光物産協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_160",
+      "name": "会津まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "福島県",
+      "city": "会津若松市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-21",
+      "date_note": "9/19提灯行列・会津磐梯山踊り、9/20先人感謝祭・会津藩公行列、9/21日新館童子行列・鼓笛隊パレード。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "会津まつり協会",
+      "genre": [
+        "行列",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学は基本無料（一部有料観覧席の可能性あり、未確認）",
+      "ticket_url": "不明",
+      "history_years": 73,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.aizukanko.com/kk/festival/aizu-matsuri",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.aizukanko.com/kk/festival/aizu-matsuri",
+          "site_name": "会津まつり協会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://yado123.com/aizu-matsuri-2026/",
+          "site_name": "温泉宿ざんまい",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://aizu-kyouiku.com/",
+          "site_name": "会津若松教育旅行ナビ",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_161",
+      "name": "函館港まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "函館市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-05",
+      "date_note": "8/1第71回道新花火大会（小雨決行）、8/2・8/3市民参加パレード「ワッショイはこだて」（いか踊り）。8/4・5は予備日。2026年は開港167周年。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "函館港まつり実行委員会",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "パレード・いか踊りの見学は無料。花火大会の有料観覧エリアの有無は未確認",
+      "ticket_url": "不明",
+      "history_years": 91,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.hakodate-minatomatsuri.org/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hakodate-minatomatsuri.org/schedule/",
+          "site_name": "函館港まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00710/",
+          "site_name": "ウォーカープラス花火大会",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hakodate-kankou.com/event/2026/0629-22656/",
+          "site_name": "函館・みなみ北海道観光ガイド",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_162",
+      "name": "能代役七夕（能代のねぶ流し行事）",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "秋田県",
+      "city": "能代市",
+      "date_start": "2026-08-06",
+      "date_end": "2026-08-07",
+      "date_note": "五町組による年番制。2026年の年番は清助町組。8/7夜に米代川河口でねぶ流し（灯籠の焼却）。「能代七夕 天空の不夜城」（8/2・8/3開催）とは別の現代観光イベントのため混同注意。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "能代役七夕五町組（年番制）",
+      "genre": [
+        "七夕",
+        "灯籠"
+      ],
+      "scale": "県指定（秋田県選択無形民俗文化財）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://bunka.welcomenoshiro.com/culture/noshiroyakutanabata/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://bunka.welcomenoshiro.com/culture/noshiroyakutanabata/",
+          "site_name": "能代観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.hokuu.co.jp/?p=30846",
+          "site_name": "北羽新報（地元紙）",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://common3.pref.akita.lg.jp/bunka/detail.html?id=4914&cid=57",
+          "site_name": "秋田県ブンカDEゲンキ",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "「能代七夕 天空の不夜城」という別イベントと名称・時期が近く混同されやすいため注意。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_163",
+      "name": "足利花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "足利市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "19:15〜20:50。毎年8月第1土曜開催、第110回。荒天中止（順延情報は確認できず）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "足利花火大会実行委員会（足利商工会議所）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "有料観覧席あり（詳細金額は公式サイト要確認）",
+      "ticket_url": "不明",
+      "history_years": 110,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.ashikaga-kankou.jp/event/ashikaga_hanabi",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.ashikaga-kankou.jp/event/ashikaga_hanabi",
+          "site_name": "足利市観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.tochigiji.or.jp/event/e16389/",
+          "site_name": "とちぎ旅ネット",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_164",
+      "name": "木更津港まつり花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "木更津市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "打ち上げ時間19:05〜20:30。第79回。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "木更津港まつり実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "全席有料（観覧エリアはチケット制）",
+      "ticket_url": "不明",
+      "history_years": 79,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://hanabi.walkerplus.com/detail/ar0312e00916/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://weathernews.jp/hanabi/spot/2101025/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0312e00916/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "木更津市公式サイトでの直接確認ができておらず、花火情報専門サイト2社のみでの一致。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_165",
+      "name": "大洗海上花火大会（千櫓祭）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "東茨城郡大洗町",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-26",
+      "date_note": "18:00花火開始〜19:30終了、〜21:00後夜祭。荒天中止時は花火のみ翌日順延の可能性。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "大洗のまつり実行委員会（M's Creationと共催）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "有料観覧席・テーブル席あり（ふるさと納税返礼品としても販売）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.oarai-hanabi.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.oarai-hanabi.jp/",
+          "site_name": "大洗海上花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0308e00860/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=731",
+          "site_name": "観光いばらき公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "開催曜日の表記に情報源間で「土」「日」の揺れがあり要再確認（日付自体は9/26で一致）。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_166",
+      "name": "戸田橋花火大会（市制施行60周年記念 第73回）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "戸田市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "19:00〜20:30、対岸の板橋花火大会と同時開催（合計約1万5000発）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "戸田橋花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "会場内は全席有料（事前チケット購入制）",
+      "ticket_url": "不明",
+      "history_years": 73,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://hanabi.walkerplus.com/detail/ar0311e01078/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e01078/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "ウォーカープラス1ソースのみで確認。戸田市・実行委員会公式サイトでの直接照合ができていない。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_167",
+      "name": "世良田祇園まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "群馬県",
+      "city": "太田市（世良田町）",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "17:00〜21:30。毎年7月第4土曜開催。会場は世良田公園（八坂神社周辺）。「上州三大祇園」「関東三大祭」の一つとされる。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "世良田祇園まつり実行委員会（八坂神社共催）",
+      "genre": [
+        "屋台行事",
+        "祇園祭"
+      ],
+      "scale": "市指定（8台の世良田祇園屋台は太田市指定重要有形民俗文化財）",
+      "is_free": true,
+      "price": "無料（詳細未確認）",
+      "ticket_url": "不明",
+      "history_years": 450,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://seradagion.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.ota.gunma.jp/page/4096.html",
+          "site_name": "太田市公式サイト（尾島地区振興課）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "http://seradagion.jp/",
+          "site_name": "世良田祇園まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.ota.gunma.jp/page/4490.html",
+          "site_name": "太田市公式サイト（文化財課）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_168",
+      "name": "鷲宮催馬楽神楽 夏越祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "久喜市",
+      "date_start": "2026-07-31",
+      "date_end": "2026-07-31",
+      "date_note": "鷲宮神社にて年6回奉納される神楽の一つ（夏越祭）。開始時刻は正午前後とされるが詳細未確認。単発の「祭り」というより通年行事の一環。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "鷲宮神社",
+      "genre": [
+        "神楽"
+      ],
+      "scale": "国指定重要無形民俗文化財（1976年指定、関東神楽の源流とされる）",
+      "is_free": null,
+      "price": "不明（神社境内での奉納につき見物は無料の可能性が高いが未確認）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.kuki.lg.jp/miryoku/rekishi_bunkazai/bunkazai/mukei/kagura/index.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kuki.lg.jp/miryoku/rekishi_bunkazai/bunkazai/1002314/1007107/1002889.html",
+          "site_name": "久喜市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.kuki.lg.jp/miryoku/rekishi_bunkazai/bunkazai/mukei/kagura/index.html",
+          "site_name": "久喜市公式サイト（国指定文化財ページ）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "ソースが久喜市公式サイトの複数ページのみで、独立した第三者ソースでの確認ができていない。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_169",
+      "name": "江戸川区花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "江戸川区",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "19:15〜20:20、荒天中止。第51回。約1万4000発。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "江戸川区花火大会実行委員会（江戸川区産業振興課産業係）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料席あり（区民先行販売・一般販売あり、無料観覧エリアの有無は未確認）",
+      "ticket_url": "不明",
+      "history_years": 51,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.edogawa.tokyo.jp/hanabi/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/04/0408.html",
+          "site_name": "江戸川区公式サイト（プレスリリース）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00863/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_170",
+      "name": "小田原酒匂川花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "小田原市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "18:30〜19:10オープニング、19:10〜20:10花火打上げ。雨天決行・荒天中止（予備日なし）。第37回。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "小田原市（小田原市観光協会が運営協力）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "有料席3,500円〜70,000円（複数タイプあり）、無料観覧エリアの有無は未確認",
+      "ticket_url": "不明",
+      "history_years": 37,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.odawara.kanagawa.jp/kanko/event/AUG/p36642.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/kanko/event/AUG/p36642.html",
+          "site_name": "小田原市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.odawara-kankou.com/hanabi/sakawa-hanabi.html",
+          "site_name": "小田原市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kanagawa-kankou.or.jp/event/1710",
+          "site_name": "観光かながわNOW（神奈川県観光協会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_171",
+      "name": "片貝まつり（浅原神社秋季例大祭奉納大煙火）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "小千谷市",
+      "date_start": "2026-09-11",
+      "date_end": "2026-09-12",
+      "date_note": "毎年9月9日・10日に近い金・土曜日に開催。花火は19:30〜22:20。四尺玉発祥の地。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "片貝町煙火協会",
+      "genre": [
+        "花火",
+        "奉納煙火"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "有料桟敷席あり（一般見物は無料エリアもあり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://katakaimachi-enkakyokai.info/enka_info.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://katakaimachi-enkakyokai.info/enka_info.html",
+          "site_name": "片貝町煙火協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0415e00667/data.html",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "一部メディア（PR TIMES過去記事）に「9/12,13」との異なる表記もあったが、公式サイトの最新情報（9/11,12）を優先。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_172",
+      "name": "魚津のたてもん祭り（じゃんとこい魚津まつり）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "富山県",
+      "city": "魚津市",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-09",
+      "date_note": "たてもん祭り本体は8/7・8、8/9はせり込み蝶六踊り街流し。海上花火大会は8/8。第57回。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "じゃんとこい魚津まつり実行委員会／魚津たてもん保存会",
+      "genre": [
+        "曳山",
+        "灯籠",
+        "花火"
+      ],
+      "scale": "国指定重要無形民俗文化財（魚津のタテモン行事）",
+      "is_free": true,
+      "price": "見物無料（一部有料観覧席の可能性あり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://uozu-kanko.jp/jyantokoi-uozu-fest/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://uozu-kanko.jp/jyantokoi-uozu-fest/",
+          "site_name": "魚津市観光案内公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.uozu.toyama.jp/event-topics/svTopiDtl.aspx?servno=15380",
+          "site_name": "魚津市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.jtco.or.jp/japanese-culture/?act=detail&id=96&p=0&c=20",
+          "site_name": "日本伝統文化振興機構(JTCO)",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_173",
+      "name": "七尾祇園祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "石川県",
+      "city": "七尾市",
+      "date_start": "2026-07-11",
+      "date_end": "2026-07-11",
+      "date_note": "毎年7月第2土曜日開催が通例。20:30〜24:00に奉燈（キリコ）乱舞。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "七尾市（交流推進課）／大地主神社山王奉賛会",
+      "genre": [
+        "神事"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "見物無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.hot-ishikawa.jp/event/detail_21220.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hot-ishikawa.jp/event/detail_21220.html",
+          "site_name": "ほっと石川旅ねっと（七尾市回答含む）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://sannou.tank.jp/housannkai/gion/gion1.html",
+          "site_name": "大地主神社 山王奉賛会",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "例年パターン（第2土曜）との整合は取れるが、2026年専用の独立ソースでの直接確認はできていない。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_174",
+      "name": "小浜放生祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "福井県",
+      "city": "小浜市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "敬老の日（9/21）直前の土・日曜日開催。八幡神社の例大祭。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "小浜放生祭実行委員会／八幡神社",
+      "genre": [
+        "山車",
+        "神輿"
+      ],
+      "scale": "県指定（福井県無形民俗文化財）",
+      "is_free": true,
+      "price": "見物無料",
+      "ticket_url": "不明",
+      "history_years": 380,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://hoze-matsuri.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hoze-matsuri.jp/",
+          "site_name": "小浜放生祭公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://wakasa-obama.jp/event/hozemasturi/",
+          "site_name": "小浜市公式観光サイト「まるっとおばま」",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_175",
+      "name": "石和温泉花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "笛吹市",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-22",
+      "date_note": "19:30〜21:00開催予定。荒天の場合は8月23日(日)に順延。笛吹市夏祭りの一環。第62回。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "笛吹市観光物産連盟",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見物無料（有料観覧席の可能性あり）",
+      "ticket_url": "不明",
+      "history_years": 62,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.isawa-kankou.org/sightseeing/fireworks/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0419e00682/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Kohshinetsu/yamanashi/2026/2026-08-22_isawaonsen-hanabi-taikai.html",
+          "site_name": "花火に行こう",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.isawa-kankou.org/sightseeing/fireworks/",
+          "site_name": "石和温泉観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_176",
+      "name": "信州上田大花火大会（上田商工会議所創立130周年記念）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "上田市",
+      "date_start": "2026-08-29",
+      "date_end": "2026-08-29",
+      "date_note": "19:00〜20:30予定。千曲川河川敷（常田新橋下流）で開催。約8,000発。第39回。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "上田商工会議所（信州上田大花火大会実行委員会）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見物無料（有料桟敷席の可能性あり）",
+      "ticket_url": "不明",
+      "history_years": 39,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.ucci.or.jp/info/event/shinsyuuedadaihanabitaikai2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.ucci.or.jp/info/event/shinsyuuedadaihanabitaikai2026/",
+          "site_name": "上田商工会議所公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0420e00685/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_177",
+      "name": "中津川夏祭り「おいでん祭」",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岐阜県",
+      "city": "中津川市",
+      "date_start": "2026-08-12",
+      "date_end": "2026-08-13",
+      "date_note": "8/12夜に納涼花火大会（19:30〜20:00、中津川河畔・桃山）、8/13に本祭り（16:15〜20:30、中心市街地）。小雨決行。第39回。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "おいでん祭実行委員会（中津川商工会議所内）",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見物無料",
+      "ticket_url": "不明",
+      "history_years": 39,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://cci.nakatsugawa.gifu.jp/news/39_oidensai/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.cloud/html/Tohkai/gifu/2026/2026-08-12_nakatsugawa-natsumatsuri-oiden-sai.html",
+          "site_name": "花火に行こう",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.nakatsugawa.lg.jp/topics/35488.html",
+          "site_name": "中津川市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "中津川商工会議所ページは前年（第39回）情報が2026年のものと混在している可能性があり要再確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_178",
+      "name": "西尾祇園祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "西尾市",
+      "date_start": "2026-07-17",
+      "date_end": "2026-07-19",
+      "date_note": "7/17町ぞろい(18:00〜21:00)、7/18・19市街地での大名行列・神輿・獅子舞など(16:00〜21:00)、7/19市民総踊り「おどりん西尾」でフィナーレ。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "西尾祇園祭奉賛会",
+      "genre": [
+        "神輿",
+        "山車",
+        "盆踊り"
+      ],
+      "scale": "市指定（詳細は要確認）",
+      "is_free": true,
+      "price": "見物無料",
+      "ticket_url": "不明",
+      "history_years": 400,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://nishio-gion.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://nishio-gion.com/",
+          "site_name": "西尾祗園祭公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://nishiokanko.com/list/special/gion/",
+          "site_name": "西尾観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/1340/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_179",
+      "name": "掛川祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "静岡県",
+      "city": "掛川市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-12",
+      "date_note": "10/10は18:00〜21:00、10/11・12は9:00〜21:00。掛川城下で屋台（2輪屋台）・大獅子・三大余興が披露される。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "掛川祭実行委員会（掛川市）",
+      "genre": [
+        "屋台",
+        "獅子舞"
+      ],
+      "scale": "不明（遠州地区に多い2輪屋台文化の代表格）",
+      "is_free": true,
+      "price": "見物無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.kakegawa.shizuoka.jp/kanko/docs/7650.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kakegawa.shizuoka.jp/kanko/docs/7650.html",
+          "site_name": "掛川市公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "確認できたソースは掛川市公式サイト1件のみ。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_180",
+      "name": "熊野大花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "熊野市",
+      "date_start": "2026-08-17",
+      "date_end": "2026-08-17",
+      "date_note": "19:00頃〜21:30予定。荒天時は8/21・8/24・8/27に順延の可能性あり。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "熊野市観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "不明（地域最大級の花火大会）",
+      "is_free": true,
+      "price": "一般見学は無料。有料観覧席（カメラ席・堤防席・浜席）あり",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.kumano-kankou.info/kumano-fireworks/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kumano-kankou.info/kumano-fireworks/",
+          "site_name": "熊野市観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0624e00803/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/event/5207",
+          "site_name": "観光三重",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Tohkai/mie/2026/2026-08-17_kumano-oohanabi-taikai.html",
+          "site_name": "花火クラウド",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_181",
+      "name": "建部大社 納涼船幸祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "滋賀県",
+      "city": "大津市",
+      "date_start": "2026-08-17",
+      "date_end": "2026-08-17",
+      "date_note": "毎年8月17日固定開催。大津三大祭のひとつとされる。2026年の公式発表ページは未確認のため、過去の開催パターン（直近実績2025年8月17日）からの推定を含む。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "建部大社",
+      "genre": [
+        "神輿",
+        "船渡御",
+        "花火"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "無料（河川敷等での見学）。詳細な料金記載なし",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://takebetaisha.jp/ceremony/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://takebetaisha.jp/ceremony/",
+          "site_name": "建部大社（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.biwako-visitors.jp/event/detail/303/",
+          "site_name": "滋賀県観光情報（公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0725e00357/",
+          "site_name": "ウォーカープラス（2025年情報）",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "2026年分の公式告知は見つからず、直近実績（2025年8月17日）からの外挿。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_182",
+      "name": "亀岡祭山鉾行事",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "亀岡市",
+      "date_start": "2026-10-23",
+      "date_end": "2026-10-25",
+      "date_note": "23日宵々山、24日宵宮、25日巡行（本祭）が例年パターン。2026年公式日程は市・連合会サイトで確認できず、2025年実績（10/24-25報道）に基づく推定を含む。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "亀岡祭山鉾連合会／鍬山神社",
+      "genre": [
+        "山鉾",
+        "祭礼"
+      ],
+      "scale": "京都府登録無形民俗文化財・亀岡市指定無形民俗文化財",
+      "is_free": true,
+      "price": "無料（見学）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.k-yamahoko.com/event.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.k-yamahoko.com/event.html",
+          "site_name": "亀岡祭山鉾連合会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.kameoka.kyoto.jp/site/kankou/3544.html",
+          "site_name": "亀岡市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kyoto-kankou.or.jp/event/1650",
+          "site_name": "京都府観光連盟公式サイト",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "3ソースとも2025年時点の情報がベースで2026年の正式発表は未確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_183",
+      "name": "福知山ドッコイセまつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "福知山市",
+      "date_start": "2026-08-14",
+      "date_end": "2026-08-25",
+      "date_note": "情報源により日程表記が食い違う（8/14〜8/25の期間説、8/22〜23の説、8/11花火・8/15盆地祭など個別行事日）。総踊り等のコア開催日は未確定。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "福知山商工会議所／福知山観光協会",
+      "genre": [
+        "盆踊り",
+        "パレード",
+        "花火"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "無料（一部有料観覧席の可能性あり、未確認）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://dokkoise.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://dokkoise.com/",
+          "site_name": "福知山観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://fukuchiyama.or.jp/dokkoisefes.html",
+          "site_name": "福知山商工会議所（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://kitakinki.gr.jp/events/event/490336",
+          "site_name": "まるごと北近畿",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kyoto-kankou.or.jp/event/1470",
+          "site_name": "京都府観光連盟公式サイト",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "⚠️矛盾: 複数ソース間で開催日程の記載が一致せず。確定日程は要問い合わせ（福知山商工会議所 TEL:0773-22-2108）。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_184",
+      "name": "采女祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "奈良市",
+      "date_start": "2026-09-24",
+      "date_end": "2026-09-25",
+      "date_note": "旧暦8月15日「中秋の名月」の日に開催される慣例。2026年の中秋の名月は9月25日(金)のため、24日宵宮祭・25日例祭と推定。公式サイトに2026年分の明記なし。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "采女神社（春日大社末社）／奈良市観光協会",
+      "genre": [
+        "神事",
+        "行列"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://narashikanko.or.jp/event/detail_10201.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://narashikanko.or.jp/event/detail_10201.html",
+          "site_name": "奈良市観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://naratrip.com/unemematsuri",
+          "site_name": "naratrip.com",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.nao.ac.jp/astro/sky/2026/09-topics03.html",
+          "site_name": "国立天文台（中秋の名月日確認用）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "「中秋の名月の日」という開催ルールは一致するが、2026年の具体日程を明記した公式発表は未確認で天文台データからの逆算推定。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_185",
+      "name": "田辺花火大会（弁慶まつり同日開催）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "和歌山県",
+      "city": "田辺市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "20:00〜20:20予定。雨天等の場合は10/4, 10/10, 10/11に順延の情報あり（順延日はソースにより差異あり）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "田辺観光協会・田辺市",
+      "genre": [
+        "花火",
+        "夏祭り"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "一般観覧無料、有料観覧席あり（詳細未確認）",
+      "ticket_url": "不明",
+      "history_years": 56,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.tanabe-kanko.jp/event/hanabi/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tanabe-kanko.jp/event/hanabi/",
+          "site_name": "田辺観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0730e00343/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3901027/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "当初の検索結果では10月4日との情報もあったが、原典再確認により10月3日が正しい日程と判明。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_186",
+      "name": "愛染まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "大阪市天王寺区",
+      "date_start": "2026-06-30",
+      "date_end": "2026-07-02",
+      "date_note": "大阪三大夏祭り（愛染祭・天神祭・住吉祭）の一つ。2026年は6/30〜7/2開催で、本更新日（7/6）時点で既に終了済み。来年以降の掲載継続を検討。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "愛染堂勝鬘院",
+      "genre": [
+        "夏祭り",
+        "パレード"
+      ],
+      "scale": "不明（大阪三大夏祭りの一つとされる伝統行事）",
+      "is_free": true,
+      "price": "無料（一部行事は有料の可能性あり、未確認）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.aizendo.com/festival.htm",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.aizendo.com/festival.htm",
+          "site_name": "愛染堂勝鬘院（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://osaka-info.jp/event/aizenmatsuri2026/",
+          "site_name": "大阪観光局公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%84%9B%E6%9F%93%E3%81%BE%E3%81%A4%E3%82%8A",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_187",
+      "name": "三木秋まつり（大宮八幡宮秋祭り）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "三木市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "例年「体育の日（10月第2月曜）」前の土日に開催される傾向あり。2026年の体育の日は10/12のため10/10-11頃と推定されるが、2026年の公式日程は未発表・未確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "大宮八幡宮／三木市",
+      "genre": [
+        "だんじり",
+        "屋台"
+      ],
+      "scale": "不明（播州三大祭りの一つとされる）",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.miki.lg.jp/soshiki/33/2991.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.miki.lg.jp/soshiki/33/2991.html",
+          "site_name": "三木市公式ホームページ（2025年度情報、2026年ページ未確認）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kobe-np.co.jp/news/miki/202510/0019582402.shtml",
+          "site_name": "神戸新聞NEXT",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "2026年の具体的日程を明記したソースが見つからず、開催パターンからの推定のみ。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_188",
+      "name": "柳井金魚ちょうちん祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山口県",
+      "city": "柳井市",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-13",
+      "date_note": "第35回。本祭りは8月13日(木)16:30〜21:00。関連の点灯式は7月11日(土)開催。会場はJR柳井駅前〜白壁の町並み一帯。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "柳井金魚ちょうちん祭り協議会（柳井市商工観光課内）",
+      "genre": [
+        "伝統行事",
+        "パレード"
+      ],
+      "scale": "不明（市の代表的観光行事）",
+      "is_free": true,
+      "price": "観覧無料（詳細不明）",
+      "ticket_url": "不明",
+      "history_years": 35,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city-yanai.jp/site/kanko/kingyomatsuri.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city-yanai.jp/site/kanko/kingyomatsuri.html",
+          "site_name": "柳井市ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://yamaguchi-tourism.jp/event/detail_15055.html",
+          "site_name": "おいでませ山口へ（山口県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_189",
+      "name": "お手火神事",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "広島県",
+      "city": "福山市（鞆町・沼名前神社）",
+      "date_start": "2026-07-11",
+      "date_end": "2026-07-11",
+      "date_note": "20:00開始、雨天決行。鞆祇園宮の神輿渡御に先立つ祓いの火祭り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "沼名前神社（地元奉賛会）",
+      "genre": [
+        "神事",
+        "火祭り"
+      ],
+      "scale": "福山市指定重要無形民俗文化財（昭和48年3月31日指定）",
+      "is_free": true,
+      "price": "無料（観覧自由）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.fukuyama.hiroshima.jp/soshiki/bunka/64137.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/bunka/64137.html",
+          "site_name": "福山市ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://tomo-rekimin.org/wordpress/?p=497",
+          "site_name": "鞆の浦歴史民俗資料館",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_190",
+      "name": "松山まつり（松山野球拳おどり）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "松山市",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-09",
+      "date_note": "第61回松山野球拳おどり。おどりパレードなど。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "松山野球拳おどり実行委員会",
+      "genre": [
+        "おどり",
+        "パレード",
+        "花火"
+      ],
+      "scale": "その他（市民まつり）",
+      "is_free": true,
+      "price": "無料（観覧自由、有料桟敷席の有無は不明）",
+      "ticket_url": "不明",
+      "history_years": 61,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://baseball-dance.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://baseball-dance.com/",
+          "site_name": "松山野球拳おどり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://summer.walkerplus.com/odekake/detail_e/ar0938e04760/data.html",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_191",
+      "name": "今治市民のまつり「おんまく」",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "今治市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-09",
+      "date_note": "第29回。2026年は例年より1週遅く、8月第2土日に開催。花火は8/9(日)20:00〜20:50、今治港防波堤で打ち上げ。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "今治市民のまつり実行委員会",
+      "genre": [
+        "花火",
+        "おどり"
+      ],
+      "scale": "その他（市民まつり）",
+      "is_free": false,
+      "price": "一般観覧は無料。有料協賛席あり",
+      "ticket_url": "不明",
+      "history_years": 29,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://onmaku.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://onmaku.jp/info2026first/",
+          "site_name": "おんまく公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0938e01050/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://miton-imabari.jp/onmaku-news/",
+          "site_name": "みとん今治",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_192",
+      "name": "津山納涼ごんごまつりIN吉井川",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岡山県",
+      "city": "津山市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-02",
+      "date_note": "第48回。8/1(土)ごんごおどり、8/2(日)大花火大会。18:00〜（予定）、会場は吉井川河岸緑地公園。2026年テーマ「DREAM WORKS〜夢を描こう〜」。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "津山納涼ごんごまつりIN吉井川実行委員会",
+      "genre": [
+        "花火",
+        "おどり"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（観覧自由）",
+      "ticket_url": "不明",
+      "history_years": 48,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://gongo.e-tsuyama.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://gongo.e-tsuyama.com/",
+          "site_name": "津山納涼ごんごまつり実行委員会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.okayama-kanko.jp/event/detail_12587.html",
+          "site_name": "岡山観光WEB（岡山県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_193",
+      "name": "倉敷天領夏祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岡山県",
+      "city": "倉敷市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "第53回。13:00〜21:00、メインイベントは16:40〜。倉敷中央通り〜倉敷駅前商店街〜あちてらす倉敷周辺。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "倉敷天領夏祭り実行委員会",
+      "genre": [
+        "パレード",
+        "おどり"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 53,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.kurashiki.okayama.jp/culture/tourism/1001881/1016114/1018380.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kurashiki.okayama.jp/culture/tourism/1001881/1016114/1018380.html",
+          "site_name": "倉敷市ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.okayama-kanko.jp/event/detail_12563.html",
+          "site_name": "岡山観光WEB（岡山県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_194",
+      "name": "松江天神さん夏祭り（白潟天満宮夏季例大祭）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "島根県",
+      "city": "松江市",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-25",
+      "date_note": "毎年7月24日・25日開催が恒例。25日11:00〜例大祭、20:00〜悪切神事、神輿渡御（本宮・女神輿・子どもみこしパレード）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "白潟天満宮／松江天神神輿連",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "不明（開府より400年以上続く伝統行事）",
+      "is_free": true,
+      "price": "無料（観覧自由）",
+      "ticket_url": "不明",
+      "history_years": 400,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://shirakatatenmangu.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://shirakatatenmangu.com/",
+          "site_name": "白潟天満宮公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kankou-shimane.com/events/32057",
+          "site_name": "しまね観光ナビ（島根県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://tenjin-mikoshi.com/",
+          "site_name": "松江天神神輿連",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "「毎年7月24・25日」という記載は一致するが、2026年開催を明示的に確定した一次告知は確認できず、例年通りの日程としての推定。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_195",
+      "name": "浦富海岸元気フェスティバル（いわみ花火祭り）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "岩美町",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "第39回。20:00〜花火打ち上げ、荒天時は7月26日(日)に順延。会場は浦富海水浴場。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "浦富海岸元気フェスティバル実行委員会（岩美町観光協会内）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（観覧自由）",
+      "ticket_url": "不明",
+      "history_years": 39,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.iwamikanko.org/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tottorizumu.com/iwami-hanabi/",
+          "site_name": "とっとりずむ",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.iwamikanko.org/news/8422/",
+          "site_name": "岩美町観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.torican.jp/festival/detail_1454.html",
+          "site_name": "鳥取市観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "2026年7月25日の明記は1記事のみで、主催・場所情報は岩美町観光協会の過去実績ベース情報との照合。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_196",
+      "name": "美馬市花火大会・うだつのまちの阿波おどり大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "徳島県",
+      "city": "美馬市（脇町）",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "検索で得られた「8月17日(日)開催」情報は2025年実績（8/17が日曜）の可能性が高く、2026年の確定日程は確認できなかった。例年8月中旬開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "美馬市／美馬市観光協会",
+      "genre": [
+        "花火",
+        "おどり"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（観覧自由）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.mima.lg.jp/kanko/docs/2161037.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.mima.lg.jp/kanko/docs/2161037.html",
+          "site_name": "美馬市ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.awanavi.jp/archives/event/1576",
+          "site_name": "阿波ナビ（徳島県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "記載日付が2025年実績とみられ、2026年の確定情報である確証がない。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_197",
+      "name": "津田まつり（津田の松原夏まつり）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "さぬき市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "さぬき市観光協会公式サイトでは2025年8月16日(土)開催情報のみ確認。非公式まとめサイト1件は2026年8月22日(土)開催と記載しているが、公式サイトでの2026年発表は未確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "さぬき市観光協会",
+      "genre": [
+        "花火",
+        "パレード",
+        "おどり"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（観覧自由）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://sanuki-kanko.jp/event/summer/post-1407.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sanuki-kanko.jp/event/summer/post-1407.html",
+          "site_name": "さぬき市観光ガイド（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://kagawa-life.website/2026-hanabi/",
+          "site_name": "かがわらいふ",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "公式サイトは2025年情報のみで2026年日程は非公式サイト1件のみの記載。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_198",
+      "name": "筑後川花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "久留米市（鳥栖市・みやき町にまたがる6会場）",
+      "date_start": "2026-08-05",
+      "date_end": "2026-08-05",
+      "date_note": "雨天等の場合は8月7日(金)に順延。2026年で通算367回目。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "筑後川花火大会実行委員会（筑後川花火大会振興会・西日本新聞社・久留米市・鳥栖市）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（一部有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://welcome-kurume.com/events/detail/ee39e5e5-fb6b-46b1-b16a-618264042dda",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://welcome-kurume.com/events/detail/ee39e5e5-fb6b-46b1-b16a-618264042dda",
+          "site_name": "久留米市公式観光サイト ほとめきの街",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1040e01014/data.html",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://sorahanabi.com/fukuoka/kurume/chikugogawa-hanabitaikai.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_199",
+      "name": "鹿島おどり（鹿島市民納涼花火大会）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "鹿島市",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-08",
+      "date_note": "花火大会は鹿島おどり最終日の8月8日に開催。1962年の大水害復興を機に始まった祭り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "鹿島市（鹿島市観光協会等）",
+      "genre": [
+        "盆踊り",
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 63,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://saga-kashima-kankou.com/event/month/8",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://saga-kashima-kankou.com/event/month/8",
+          "site_name": "鹿島市公式観光サイト かしまいろ",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.asobo-saga.jp/events/detail/3d47bebd-9ff3-4157-a230-9fa28560d81c",
+          "site_name": "佐賀県観光サイト あそぼーさが",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "一般Web検索の要約では「8月8-9日」との情報もあったが、鹿島市公式サイトの「8月7-8日」を正として採用。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_200",
+      "name": "江迎千灯籠まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長崎県",
+      "city": "佐世保市江迎町",
+      "date_start": "2026-08-23",
+      "date_end": "2026-08-24",
+      "date_note": "約500年の歴史を持つ夏祭り。高さ25mの灯籠塔に3,500個の提灯を飾る。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "江迎千灯籠まつり実行委員会",
+      "genre": [
+        "提灯",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 500,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.emukae-update.com/sentoro-festival",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.emukae-update.com/sentoro-festival",
+          "site_name": "江迎地区公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.nagasaki-tabinet.com/event/51809",
+          "site_name": "ながさき旅ネット（長崎県観光連盟公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_201",
+      "name": "竹ン芸（若宮稲荷神社秋季大祭）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長崎県",
+      "city": "長崎市伊良林",
+      "date_start": "2026-10-14",
+      "date_end": "2026-10-15",
+      "date_note": "毎年10月14・15日に固定で開催される奉納神事。2026年専用の告知ページではなく例年開催情報からの推定。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "若宮稲荷神社（竹ン芸保存会）",
+      "genre": [
+        "神事",
+        "曲芸奉納"
+      ],
+      "scale": "国選択無形民俗文化財",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 130,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.at-nagasaki.jp/event/51413",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.at-nagasaki.jp/event/51413",
+          "site_name": "長崎市公式観光サイト travel nagasaki",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.nagasaki.lg.jp/page/1333.html",
+          "site_name": "長崎市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.pref.nagasaki.jp/bunkadb/index.php/view/94",
+          "site_name": "長崎県の文化財データベース",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "毎年同日開催の定例神事のため複数の公式サイトで確認できたが、2026年専用の告知ではなく例年情報からの推定。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_202",
+      "name": "TKU江津湖花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "熊本県",
+      "city": "熊本市東区（下江津湖周辺）",
+      "date_start": "2026-08-29",
+      "date_end": "2026-08-29",
+      "date_note": "「熊本地震から10年〜支えられた日々を、支え合う力に。」がテーマ。約10,000発。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "江津湖花火大会実行委員会・熊本市（特別協賛：再春館製薬所、共催：テレビ熊本）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（一部有料観覧エリアあり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://hanabi.kumamoto-guide.jp/index.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kumamoto.jp/kiji00370420/index.html",
+          "site_name": "熊本市公式サイト（報道資料）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.kumamoto-guide.jp/topics/detail/1372.html",
+          "site_name": "TKU江津湖花火公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://x.com/kuma_event/status/2046137168289231198",
+          "site_name": "熊本市イベント情報公式X",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_203",
+      "name": "べっぷ火の海まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "大分県",
+      "city": "別府市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "最終日26日20時8分8秒から「納涼花火大会」で8,888発を打ち上げ。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "べっぷ火の海まつり実行委員会",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://beppu-event.jp/natsuyoi/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://beppu-event.jp/natsuyoi/",
+          "site_name": "別府市観光協会公式イベントサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.visit-oita.jp/events/detail/14003",
+          "site_name": "大分県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_204",
+      "name": "みやざき納涼花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "宮崎県",
+      "city": "宮崎市（大淀川河畔）",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "2026年で第78回。1949年開始。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "宮崎商工会議所（商工観光部）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（有料観覧席あり、2026年6月上旬発売）",
+      "ticket_url": "不明",
+      "history_years": 78,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.miyazaki-cci.or.jp/miyazaki/events/fireworks01/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.miyazaki-cci.or.jp/miyazaki/events/fireworks01/",
+          "site_name": "宮崎商工会議所公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.miyazaki-city.tourism.or.jp/event/10080",
+          "site_name": "宮崎市公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kanko-miyazaki.jp/event/1264",
+          "site_name": "宮崎県公式観光サイト みやざき観光ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_205",
+      "name": "川内大綱引",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "薩摩川内市（鳥追町）",
+      "date_start": "2026-09-22",
+      "date_end": "2026-09-22",
+      "date_note": "毎年秋分の日の前日に開催。2024年3月に国の重要無形民俗文化財に指定。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "川内大綱引保存会",
+      "genre": [
+        "綱引き",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://sendai-ootsuna.jimdofree.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sendai-ootsuna.jimdofree.com/",
+          "site_name": "川内大綱引保存会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kagoshima-kankou.com/event/51897",
+          "site_name": "鹿児島県観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.welcomekyushu.jp/events/detail/9999900058867/",
+          "site_name": "九州旅ネット",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_206",
+      "name": "与那原大綱曳まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "沖縄県",
+      "city": "与那原町",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-16",
+      "date_note": "2026年で第44回。大綱曳（本綱曳）は16日のみ実施。沖縄三大綱引きの一つ。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "与那原町（与那原町役場ブランド推進課ほか実行委員会）",
+      "genre": [
+        "綱引き",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 450,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.yonabaru.okinawa/ozunahiki2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.yonabaru.okinawa.jp/soshiki/6/8321.html",
+          "site_name": "与那原町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.yonabaru.okinawa/ozunahiki2026/",
+          "site_name": "与那原町大綱曳まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
