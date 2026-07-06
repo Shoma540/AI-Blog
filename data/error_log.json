@@ -83,6 +83,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25から数えて14回連続で同一のAPI access blockedエラーが継続。ユーザーへの再エスカレーションは2026-07-05 12:14に実施済みで状況変化がないため今回は追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push）は正常に完了。今回は弘前ねぷたまつりの重複エントリ（festival_088/095、同一祭りが表記ゆれ判定漏れで別レコード化していた）を統合し1件に集約（更新:1件、festival総数152→151件）。近日開催の祭り（金峯山寺蓮華会・蛙飛び行事、佐原の大祭、郡上おどり等）を再検索し既存データとの整合を確認、台風・中止情報も確認したが本DB収録の祭りに影響する中止・延期はなし。"
+    },
+    {
+      "timestamp": "2026-07-06 18:30",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて15回連続で同一のAPI access blockedエラーが継続（約1週間解消せず）。ユーザーへの再エスカレーションは2026-07-05 12:14に実施済みで状況変化がないため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push、新規2件・更新1件）は正常に完了。今回は精霊流し（長崎県長崎市）・神明の花火大会（山梨県市川三郷町）を新規追加、佐原の大祭夏祭りの時間・雨天時の対応（雨天決行）を追記。台風7号「メーカラー」（6月下旬）による他イベントの中止情報を確認したが、本DB収録の祭りに影響する中止・延期は無し。なお、git_push.pyのgit push origin mainは前回同様ローカルmainがリモートより遅れていたためnon-fast-forwardで一度失敗し、git push origin HEAD:mainで解消。"
     }
   ]
 }
