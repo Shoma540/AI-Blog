@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06 16:13",
+  "last_updated": "2026-07-06 18:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -1722,9 +1722,9 @@
       "date_start": "2026-07-10",
       "date_end": "2026-07-12",
       "date_note": "各日10:00〜22:00。山車（曳山）と佐原囃子による行事。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "time_start": "10:00",
+      "time_end": "22:00",
+      "rain_policy": "雨天決行（山車人形にはビニールシートを着用）",
       "organizer": "佐原の大祭実行委員会",
       "genre": [
         "山車",
@@ -1774,8 +1774,12 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "rain_policy"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -5722,18 +5726,8 @@
       "trust_level": "高",
       "conflict_note": "青森ねぶた祭（festival_003）とは別の祭りで、弘前市が会場。ねぶたが立体人形型なのに対しねぷたは扇型が主体という違いがあり、主催団体・歴史も異なる。名称類似のため混同注意。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "organizer",
-        "genre",
-        "scale",
-        "ticket_url",
-        "history_description",
-        "similar_name_warning",
-        "conflict_note",
-        "sources",
-        "重複エントリ(festival_095)を統合"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -9872,6 +9866,129 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_155",
+      "name": "精霊流し",
+      "alternate_names": [
+        "長崎精霊流し"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "長崎県",
+      "city": "長崎市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "精霊船の受付は8月15日17:00〜21:00終了予定（流し場により受入開始時刻が異なる）",
+      "time_start": "17:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "長崎市／各町内精霊流し実行委員会",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "長崎地方の伝統行事",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "盆前に亡くなった故人の霊を弔うため、遺族が手作りの精霊船を曳いて街中を練り歩き、極楽浄土へ送り出す長崎地方のお盆行事。爆竹やロケット花火が鳴り響くことでも知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.nagasaki.lg.jp/page/53761.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.nagasaki.lg.jp/page/53761.html",
+          "site_name": "長崎市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.nagasaki-tabinet.com/event/51798",
+          "site_name": "ながさき旅ネット",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_156",
+      "name": "神明の花火大会",
+      "alternate_names": [
+        "市川三郷町ふるさと夏まつり 神明の花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "市川三郷町",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-07",
+      "date_note": "荒天の場合8日・9日に順延。雨天決行。",
+      "time_start": "19:15",
+      "time_end": "21:00",
+      "rain_policy": "雨天決行（荒天の場合のみ8/8・8/9に順延）",
+      "organizer": "市川三郷町ふるさと夏まつり実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "山梨県内最大級・第38回",
+      "is_free": false,
+      "price": "有料観覧席あり（詳細は公式サイト参照）",
+      "ticket_url": "https://www.cnplayguide.com/shinmeinohanabi/",
+      "history_years": 38,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "例年の人出は約20万人",
+      "visitors": "約20万人",
+      "access": "JR身延線市川大門駅から徒歩約10分",
+      "official_url": "https://www.town.ichikawamisato.yamanashi.jp/shinmei/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.ichikawamisato.yamanashi.jp/shinmei/",
+          "site_name": "市川三郷町公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.yamanashi-kankou.jp/ichikawamisato/event/shinmei-hanabi.html",
+          "site_name": "富士の国やまなし観光ネット（山梨県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0419e00910/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
