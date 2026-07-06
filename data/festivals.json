@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05 18:30",
+  "last_updated": "2026-07-06 17:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -575,7 +575,9 @@
     {
       "id": "festival_010",
       "name": "長岡まつり大花火大会",
-      "alternate_names": [],
+      "alternate_names": [
+        "長岡花火"
+      ],
       "similar_name_warning": false,
       "prefecture": "新潟県",
       "city": "長岡市",
@@ -583,18 +585,18 @@
       "date_end": "2026-08-03",
       "date_note": "打ち上げ場所は信濃川河川敷。",
       "time_start": "19:20",
-      "time_end": "21:25",
+      "time_end": "21:10",
       "rain_policy": "不明",
       "organizer": "一般財団法人長岡花火財団",
       "genre": [
         "花火"
       ],
-      "scale": "その他",
+      "scale": "その他（国内最大級・約2万発）",
       "is_free": true,
-      "price": "見学無料（有料席あり）",
+      "price": "見学無料（有料観覧席あり、市民先行4/10〜4/28・一般抽選5/25〜6/8は完売、公式再販売7/6〜）",
       "ticket_url": "https://www.nagaokahanabi.jp/schedule/",
       "history_years": "不明",
-      "history_description": "不明",
+      "history_description": "1945年の長岡空襲からの復興と慰霊、平和への祈りを込めて始まった花火大会。ナイアガラ花火やフェニックス花火など大規模な演出で知られる。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -616,16 +618,34 @@
           "site_name": "長岡花火財団",
           "is_official": true,
           "retrieved_date": "2026-06-21"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0415e00665/data.html",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://nagaoka-navi.or.jp/event/2441",
+          "site_name": "長岡観光ナビ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "scale",
+        "history_description",
+        "price",
+        "time_end",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
-        "details": ""
+        "details": "同一祭りの重複エントリ（festival_127）を統合。日程・内容に変更なし。"
       }
     },
     {
@@ -3482,27 +3502,28 @@
       "similar_name_warning": false,
       "prefecture": "沖縄県",
       "city": "沖縄市",
-      "date_start": "2026-09-04",
+      "date_start": "2026-09-05",
       "date_end": "2026-09-06",
-      "date_note": "初日9/4(金)は道ジュネー、9/5(土)は沖縄市青年まつり（中日）、9/6(日)が本祭（最終日）という3日間構成。中日・最終日の会場は沖縄市コザ運動公園陸上競技場。主催団体公式サイトは本稿執筆時点で前年情報のまま未更新のため、公式一次情報の裏付けは取れておらず信頼度は中を維持。",
-      "time_start": "不明",
+      "date_note": "9/5(土)は沖縄市青年まつり（開演15:00）、9/6(日)が本祭・全島エイサーまつり（開演15:00）。一部旧情報では9/4(金)の道ジュネーを含む3日間としていたが、直近の公式発表（第71回）では9/5・6の2日間開催として確認された。",
+      "time_start": "15:00",
       "time_end": "不明",
       "rain_policy": "不明",
       "organizer": "沖縄全島エイサーまつり実行委員会",
       "genre": [
+        "民俗芸能",
         "踊り",
-        "民俗芸能"
+        "パレード"
       ],
-      "scale": "その他（1956年発祥。国指定等の確認できず）",
+      "scale": "沖縄最大級のエイサー祭り（第71回）",
       "is_free": true,
       "price": "一般観覧エリアは無料（スタンド指定席は有料）",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "不明",
+      "history_description": "沖縄各地の青年会エイサー団体が一堂に会し演舞を披露する、沖縄最大規模のエイサー祭り。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "沖縄市コザ運動公園陸上競技場",
       "official_url": "https://www.zentoeisa.com/",
       "sns_accounts": {
         "instagram": "不明"
@@ -3526,16 +3547,31 @@
           "site_name": "すーらいる沖縄",
           "is_official": false,
           "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://kozainfo.okinawa/special/s000003.html",
+          "site_name": "あっと！沖縄市コザ",
+          "is_official": false,
+          "retrieved_date": "2026-07-05"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "",
+      "trust_level": "高",
+      "conflict_note": "⚠️ 矛盾: 旧情報(道ジュネー含む9/4〜9/6の3日間)と最新公式情報(9/5〜9/6の2日間)で開催日数が異なる。最新の公式発表を採用。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_note",
+        "trust_level",
+        "organizer",
+        "genre",
+        "scale",
+        "sources",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "重複エントリ（festival_128）を統合。旧: 2026-09-04〜2026-09-06 → 新: 2026-09-05〜2026-09-06"
       }
     },
     {
@@ -8211,134 +8247,6 @@
       }
     },
     {
-      "id": "festival_127",
-      "name": "長岡まつり大花火大会",
-      "alternate_names": [
-        "長岡花火"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "新潟県",
-      "city": "長岡市",
-      "date_start": "2026-08-02",
-      "date_end": "2026-08-03",
-      "date_note": "毎年8月2日・3日固定開催。信濃川河川敷にて実施。",
-      "time_start": "19:20",
-      "time_end": "21:10",
-      "rain_policy": "不明",
-      "organizer": "一般財団法人長岡花火財団",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他（国内最大級・約2万発）",
-      "is_free": true,
-      "price": "見学無料（有料観覧席あり、市民先行4/10〜4/28・一般抽選5/25〜6/8は完売、公式再販売7/6〜）",
-      "ticket_url": "https://www.nagaokahanabi.jp/",
-      "history_years": "不明",
-      "history_description": "1945年の長岡空襲からの復興と慰霊、平和への祈りを込めて始まった花火大会。ナイアガラ花火やフェニックス花火など大規模な演出で知られる。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://nagaokamatsuri.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://nagaokamatsuri.com/",
-          "site_name": "長岡花火 公式ウェブサイト（長岡花火財団）",
-          "is_official": true,
-          "retrieved_date": "2026-07-05"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0415e00665/data.html",
-          "site_name": "ウォーカープラス 花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-07-05"
-        },
-        {
-          "url": "https://nagaoka-navi.or.jp/event/2441",
-          "site_name": "長岡観光ナビ（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-05"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_128",
-      "name": "沖縄全島エイサーまつり",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "prefecture": "沖縄県",
-      "city": "沖縄市",
-      "date_start": "2026-09-05",
-      "date_end": "2026-09-06",
-      "date_note": "9/5(土)は沖縄市青年まつり（開演15:00）、9/6(日)が本祭・全島エイサーまつり（開演15:00）。",
-      "time_start": "15:00",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "沖縄全島エイサーまつり実行委員会",
-      "genre": [
-        "民俗芸能",
-        "踊り",
-        "パレード"
-      ],
-      "scale": "沖縄最大級のエイサー祭り（第71回）",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "沖縄各地の青年会エイサー団体が一堂に会し演舞を披露する、沖縄最大規模のエイサー祭り。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "沖縄市コザ運動公園陸上競技場",
-      "official_url": "https://www.zentoeisa.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.zentoeisa.com/",
-          "site_name": "沖縄全島エイサーまつり実行委員会オフィシャルサイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-05"
-        },
-        {
-          "url": "https://www.kozaweb.jp/events/show/24890",
-          "site_name": "沖縄市観光ポータル Kozaweb",
-          "is_official": false,
-          "retrieved_date": "2026-07-05"
-        },
-        {
-          "url": "https://kozainfo.okinawa/special/s000003.html",
-          "site_name": "あっと！沖縄市コザ",
-          "is_official": false,
-          "retrieved_date": "2026-07-05"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_129",
       "name": "おはら祭",
       "alternate_names": [
@@ -8397,7 +8305,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -8461,6 +8369,392 @@
       ],
       "trust_level": "高",
       "conflict_note": "「大文字焼き」と俗称されることがあるが、正式には5山全体の宗教行事「五山送り火」であり、大文字はその一つに過ぎない点に注意。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_131",
+      "name": "信玄公祭り",
+      "alternate_names": [
+        "甲州軍団出陣"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "甲府市",
+      "date_start": "2026-04-03",
+      "date_end": "2026-04-05",
+      "date_note": "第52回。甲州軍団出陣は4/4(土)夕方から実施。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "信玄公祭り実行委員会（甲府市・甲府市観光協会）",
+      "genre": [
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他（世界最大の武者行列と称される市主催イベント）",
+      "is_free": true,
+      "price": "観覧無料（一部有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": 52,
+      "history_description": "武田信玄と家臣団を偲び、戦国絵巻を再現する武者行列パレード「甲州軍団出陣」を中心とした祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.yamanashi-kankou.jp/shingen/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yamanashi-kankou.jp/shingen/",
+          "site_name": "信玄公祭り公式サイト（山梨県）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.kofu.yamanashi.jp/welcome/saijiki/r8shingenfes.html",
+          "site_name": "甲府市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://kofu-tourism.com/feature/singen%20festival/1",
+          "site_name": "甲府市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_132",
+      "name": "山王祭（日吉大社）",
+      "alternate_names": [
+        "日吉大社山王祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "滋賀県",
+      "city": "大津市",
+      "date_start": "2026-04-12",
+      "date_end": "2026-04-15",
+      "date_note": "3月申の日の「午の神事」から始まり、中心行事は4/12〜4/15。4/14が例祭・神輿渡御、4/15が酉の神事で結願。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "日吉大社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他（日吉大社最大の神事）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "大山咋神と鴨玉依姫の結婚を再現する神事「花渡り式」や神輿渡御など、複数の神事から構成される日吉大社の祭礼。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://hiyoshitaisha.jp/event/sannou/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hiyoshitaisha.jp/event/sannou/",
+          "site_name": "日吉大社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://otsu.or.jp/event/sannou-festival",
+          "site_name": "びわ湖大津トラベルガイド",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.biwako-visitors.jp/event/detail/104/",
+          "site_name": "滋賀県観光情報（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_133",
+      "name": "伊万里トンテントン祭り",
+      "alternate_names": [
+        "伊萬里神社御神幸祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "伊万里市",
+      "date_start": "2026-10-24",
+      "date_end": "2026-10-25",
+      "date_note": "伊万里市中心市街地で開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "伊万里トンテントン祭振興会",
+      "genre": [
+        "神輿",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "「川落とし」と呼ばれる神輿と団車のぶつかり合いが特徴の勇壮な祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://tontenton.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tontenton.jp/",
+          "site_name": "伊万里トンテントン公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://o-matsuri.jp/kyusyu-okinawa/saga/1910.php",
+          "site_name": "OMATSURI NAVI",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.imari.lg.jp/5974.htm",
+          "site_name": "伊万里市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_134",
+      "name": "さぬき豊浜ちょうさ祭",
+      "alternate_names": [
+        "観音寺ちょうさ祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "香川県",
+      "city": "観音寺市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-12",
+      "date_note": "毎年10月第2金曜から3日間開催。観音寺市内の他地区でも同時期に別のちょうさ祭（琴弾八幡宮秋季大祭など）が開催されるため、同一名称の別行事と混同注意。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "豊浜ちょうさ祭保存会",
+      "genre": [
+        "神輿",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "五穀豊穣・大漁を祈願する祭りで、大型の太鼓台「ちょうさ」が地区を練り歩く。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://chohsa.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://chohsa.jp/",
+          "site_name": "さぬき豊浜ちょうさ祭 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.kanonji.kagawa.jp/soshiki/21/364.html",
+          "site_name": "観音寺市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.my-kagawa.jp/feature/autumnfestival/chosa/",
+          "site_name": "香川県観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_135",
+      "name": "日向ひょっとこ夏祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "宮崎県",
+      "city": "日向市",
+      "date_start": "2026-07-31",
+      "date_end": "2026-08-01",
+      "date_note": "7/31(金)前夜祭18:00〜21:00、8/1(土)本祭り15:00〜21:30。荒天中止。",
+      "time_start": "15:00",
+      "time_end": "21:30",
+      "rain_policy": "荒天中止",
+      "organizer": "日向ひょっとこ夏祭り実行委員会",
+      "genre": [
+        "踊り",
+        "民俗芸能"
+      ],
+      "scale": "その他（第41回、約2,000人の踊り手が参加）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 41,
+      "history_description": "明治初期に地元の医師が神楽をもとに伝えたとされる「ひょっとこ踊り」を中心とした祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約2,000人（踊り手）",
+      "access": "不明",
+      "official_url": "https://www.hyottoko.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hyottoko.jp/",
+          "site_name": "日向ひょっとこ夏祭り公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kanko-miyazaki.jp/event/1184",
+          "site_name": "みやざき観光ナビ（宮崎県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hyuga.or.jp/app/events/view/11",
+          "site_name": "日向市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_136",
+      "name": "日和佐うみがめまつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "徳島県",
+      "city": "海部郡美波町",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-20",
+      "date_note": "第62回。15:00〜うみがめ感謝祭（大浜海岸・日和佐八幡神社）、17:00〜うみがめフェスティバル（桜町通り）、20:30〜納涼花火大会（日和佐川河川敷）。",
+      "time_start": "15:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "美波町（日和佐うみがめまつり実行委員会）",
+      "genre": [
+        "花火",
+        "民俗芸能"
+      ],
+      "scale": "その他（第62回）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 62,
+      "history_description": "ウミガメの上陸・産卵地として知られる大浜海岸で、うみがめへの感謝を祈願する祭り。フィナーレに花火大会を実施。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.town.minami.lg.jp/docs/382.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.minami.lg.jp/docs/382.html",
+          "site_name": "美波町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.awanavi.jp/archives/event/1690",
+          "site_name": "徳島県観光情報サイト 阿波ナビ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20002588",
+          "site_name": "るるぶ&more.",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
