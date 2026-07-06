@@ -65,6 +65,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "11回連続（2026-06-30〜2026-07-05 16:27の10回に加え今回）で同一のAPI access blockedエラーが継続。7日間・11回の実行にわたり解消の兆しなし。既に2026-07-05 12:14にユーザーへプッシュ通知でエスカレーション済みのため今回は追加通知を送らず記録のみ行う。ブログ更新（HTML生成・GitHub Push、新規4件：長岡まつり大花火大会・沖縄全島エイサーまつり・おはら祭・京都五山送り火）自体は正常に完了。"
+    },
+    {
+      "timestamp": "2026-07-06 17:12",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "12回連続（2026-06-30〜2026-07-05 21:40の11回に加え今回）で同一のAPI access blockedエラーが継続。8日間・12回の実行にわたり解消の兆しなし。既に2026-07-05 12:14にユーザーへプッシュ通知でエスカレーション済みのため今回も追加通知は送らず記録のみ行う。今回はfestival_010/festival_127（長岡まつり大花火大会）とfestival_056/festival_128（沖縄全島エイサーまつり）の重複エントリを統合し、新規6件（信玄公祭り・山王祭（日吉大社）・伊万里トンテントン祭り・さぬき豊浜ちょうさ祭・日向ひょっとこ夏祭り・日和佐うみがめまつり）を追加。ブログ更新（HTML生成・GitHub Push）自体は正常に完了。なお、git_push.pyの`git push origin main`はローカルmainブランチが29コミット遅れていたため一度non-fast-forwardで失敗し、ローカルmainをHEADにfast-forwardしてから再実行して解消（スクリプト自体の不具合ではなく、作業ブランチとmainの追従状態に起因）。"
     }
   ]
 }
