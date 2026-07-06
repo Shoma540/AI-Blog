@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06 13:33",
+  "last_updated": "2026-07-06 16:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -5663,7 +5663,7 @@
       "id": "festival_088",
       "name": "弘前ねぷたまつり",
       "alternate_names": [],
-      "similar_name_warning": false,
+      "similar_name_warning": true,
       "prefecture": "青森県",
       "city": "弘前市",
       "date_start": "2026-08-01",
@@ -5672,18 +5672,18 @@
       "time_start": "19:00",
       "time_end": "不明",
       "rain_policy": "不明",
-      "organizer": "弘前ねぷたまつり運営委員会",
+      "organizer": "弘前ねぷたまつり運営委員会（公益社団法人弘前観光コンベンション協会）",
       "genre": [
         "ねぷた",
         "山車",
         "パレード"
       ],
-      "scale": "国指定重要無形民俗文化財",
+      "scale": "国指定重要無形民俗文化財（大型扇ねぷた最大9m超、多数運行）",
       "is_free": true,
       "price": "見学無料（有料観覧席あり、特別観覧席・グループ席は4/1〜、個人観覧席は6/22〜販売開始）",
-      "ticket_url": "不明",
+      "ticket_url": "https://www.hirosaki-kanko.or.jp/edit.html?id=cat02_summer_neputa_order",
       "history_years": "不明",
-      "history_description": "不明",
+      "history_description": "青森ねぶた祭(festival_003)とは別の祭りで、弘前市が会場。ねぶたが立体人形型なのに対しねぷたは扇型が主体という違いがあり、主催団体・歴史も異なる。名称類似のため混同注意。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -5711,13 +5711,29 @@
           "site_name": "Tickets GETTIIS",
           "is_official": false,
           "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.tohokukanko.jp/attractions/detail_1003300.html",
+          "site_name": "旅東北（東北観光推進機構公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "青森ねぶた祭（festival_003）とは別の祭りで、弘前市が会場。ねぶたが立体人形型なのに対しねぷたは扇型が主体という違いがあり、主催団体・歴史も異なる。名称類似のため混同注意。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "organizer",
+        "genre",
+        "scale",
+        "ticket_url",
+        "history_description",
+        "similar_name_warning",
+        "conflict_note",
+        "sources",
+        "重複エントリ(festival_095)を統合"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -6105,69 +6121,6 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "name": "弘前ねぷたまつり",
-      "alternate_names": [],
-      "similar_name_warning": true,
-      "prefecture": "青森県",
-      "city": "弘前市",
-      "date_start": "2026-08-01",
-      "date_end": "2026-08-07",
-      "date_note": "8/1-4は土手町コース(19:00~)、8/5-6は駅前コース(19:00~)、8/7は土手町なぬか日コース(10:00~)。",
-      "time_start": "19:00",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "弘前ねぷたまつり運営委員会（公益社団法人弘前観光コンベンション協会）",
-      "genre": [
-        "ねぷた",
-        "国指定重要無形民俗文化財"
-      ],
-      "scale": "大規模（扇型ねぷた最大9m超、多数運行）",
-      "is_free": true,
-      "price": "有料観覧席あり",
-      "ticket_url": "https://www.hirosaki-kanko.or.jp/edit.html?id=cat02_summer_neputa_order",
-      "history_years": "不明",
-      "history_description": "青森ねぶた祭(festival_003)とは別の祭りで、弘前市が会場。ねぶたが立体人形型なのに対しねぷたは扇型が主体という違いがあり、主催団体・歴史も異なる。名称類似のため混同注意。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.hirosaki-kanko.or.jp/edit.html?id=cat02_summer_neputa",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.hirosaki-kanko.or.jp/edit.html?id=cat02_summer_neputa",
-          "site_name": "弘前観光コンベンション協会公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-05"
-        },
-        {
-          "url": "https://aomori-tourism.com/event/detail_26.html",
-          "site_name": "Amazing AOMORI（青森県公式観光サイト）",
-          "is_official": true,
-          "retrieved_date": "2026-07-05"
-        },
-        {
-          "url": "https://www.tohokukanko.jp/attractions/detail_1003300.html",
-          "site_name": "旅東北（東北観光推進機構公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-05"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "京都祇園祭とは無関係。青森ねぶた祭とは別の祭りのため混同注意。",
-      "requires_check": false,
-      "id": "festival_095",
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
@@ -8804,7 +8757,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -8872,7 +8825,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -8940,7 +8893,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9006,7 +8959,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9072,7 +9025,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9139,7 +9092,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9204,7 +9157,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9269,7 +9222,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9330,7 +9283,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9396,7 +9349,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9462,7 +9415,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9526,7 +9479,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9594,7 +9547,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9654,7 +9607,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9718,7 +9671,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9784,7 +9737,7 @@
       "trust_level": "高",
       "conflict_note": "開催日について「10日・11日」と「11日・12日」の表記揺れあり。曜日計算により10日・11日を採用したが要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9850,7 +9803,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -9918,7 +9871,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
