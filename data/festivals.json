@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07 19:30",
+  "last_updated": "2026-07-07 18:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -639,7 +639,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "同一祭りの重複エントリ（festival_127）を統合。日程・内容に変更なし。"
+        "details": ""
       }
     },
     {
@@ -3556,7 +3556,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "重複エントリ（festival_128）を統合。旧: 2026-09-04〜2026-09-06 → 新: 2026-09-05〜2026-09-06"
+        "details": ""
       }
     },
     {
@@ -11001,16 +11001,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "date_note",
-        "time_start",
-        "time_end",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12285,14 +12277,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13215,9 +13201,9 @@
       "city": "吉川市",
       "date_start": "2026-07-18",
       "date_end": "2026-07-19",
-      "date_note": "神輿競演は2日目の夜、いちょう通りで実施。情報源により2日目を7月19日とするものと7月20日とするものが混在するが、2026年7月20日は月曜のため「2日目の夜」の記述と整合するのは7月19日(日)と判断。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_note": "吉川市公式サイトで2026年7月18日(土)・19日(日)開催、神輿競演は2日目19日(日)20:00〜21:00と明記され確認済み。",
+      "time_start": "20:00",
+      "time_end": "21:00",
       "rain_policy": "不明",
       "organizer": "吉川八坂祭り実行委員会（吉川市）",
       "genre": [
@@ -13252,11 +13238,18 @@
           "retrieved_date": "2026-07-07"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾：神輿競演2日目の日程が情報源により7/19・7/20の両方で記載されているが、曜日計算上7/19(日)が有力",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "date_note",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13589,7 +13582,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -13653,6 +13646,180 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_217",
+      "name": "福井フェニックスまつり",
+      "alternate_names": [
+        "福井フェニックス花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福井県",
+      "city": "福井市",
+      "date_start": "2026-07-31",
+      "date_end": "2026-08-02",
+      "date_note": "メイン日程は7/31〜8/2。関連行事「100万人のためのマーチング」は8/23に別途開催。",
+      "time_start": "19:30",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "福井市（福井市商工労働部商工労政課）",
+      "genre": [
+        "花火",
+        "パレード",
+        "踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "福井市の夏を代表する祭り。福井フェニックス花火、民踊大会、YOSAKOIイッチョライなどで構成される。",
+      "food_stalls": "ふくいやきとりフェス等の出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://fuku-iro.jp/fukui_fes",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://fuku-iro.jp/fukui_fes",
+          "site_name": "福いろ（福井市公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.fuku-e.com/event/detail_5896.html",
+          "site_name": "ふくいドットコム（福井県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_218",
+      "name": "赤川花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "鶴岡市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "第33回開催。荒天時の順延情報は未確認。",
+      "time_start": "19:15",
+      "time_end": "20:45",
+      "rain_policy": "不明",
+      "organizer": "赤川花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "全席チケット制（チケットなしでの入場不可）",
+      "ticket_url": "https://akagawahanabi.com/",
+      "history_years": 33,
+      "history_description": "全国デザイン花火競技会として選りすぐりの花火業者が参加する、東北を代表する花火大会の一つ。2026年のテーマは「響輝－HIBIKI－ 響く感動、輝く未来へ」。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://akagawahanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://akagawahanabi.com/",
+          "site_name": "赤川花火大会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.tsuruokakanko.com/spot/222",
+          "site_name": "つるおか観光ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0206e00656/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_219",
+      "name": "みなとみらい大盆踊り",
+      "alternate_names": [
+        "第17回みなとみらい大盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "横浜市",
+      "date_start": "2026-08-28",
+      "date_end": "2026-08-29",
+      "date_note": "第17回開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "パシフィコ横浜",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": 17,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.pacifico.co.jp/event/MM_BonOdori",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.pacifico.co.jp/event/MM_BonOdori",
+          "site_name": "パシフィコ横浜公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
