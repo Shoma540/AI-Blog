@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06 19:00",
+  "last_updated": "2026-07-07 09:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -10047,7 +10047,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10111,7 +10111,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10168,7 +10168,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10231,7 +10231,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10294,7 +10294,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10357,7 +10357,7 @@
       "trust_level": "高",
       "conflict_note": "「能代七夕 天空の不夜城」という別イベントと名称・時期が近く混同されやすいため注意。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10413,7 +10413,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10469,7 +10469,7 @@
       "trust_level": "中",
       "conflict_note": "木更津市公式サイトでの直接確認ができておらず、花火情報専門サイト2社のみでの一致。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10531,7 +10531,7 @@
       "trust_level": "高",
       "conflict_note": "開催曜日の表記に情報源間で「土」「日」の揺れがあり要再確認（日付自体は9/26で一致）。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10581,7 +10581,7 @@
       "trust_level": "低",
       "conflict_note": "ウォーカープラス1ソースのみで確認。戸田市・実行委員会公式サイトでの直接照合ができていない。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10644,7 +10644,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10700,7 +10700,7 @@
       "trust_level": "低",
       "conflict_note": "ソースが久喜市公式サイトの複数ページのみで、独立した第三者ソースでの確認ができていない。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10756,7 +10756,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10818,7 +10818,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10875,7 +10875,7 @@
       "trust_level": "中",
       "conflict_note": "一部メディア（PR TIMES過去記事）に「9/12,13」との異なる表記もあったが、公式サイトの最新情報（9/11,12）を優先。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10939,7 +10939,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -10995,7 +10995,7 @@
       "trust_level": "中",
       "conflict_note": "例年パターン（第2土曜）との整合は取れるが、2026年専用の独立ソースでの直接確認はできていない。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11052,7 +11052,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11114,7 +11114,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11170,7 +11170,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11227,7 +11227,7 @@
       "trust_level": "中",
       "conflict_note": "中津川商工会議所ページは前年（第39回）情報が2026年のものと混在している可能性があり要再確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11291,7 +11291,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11342,7 +11342,7 @@
       "trust_level": "低",
       "conflict_note": "確認できたソースは掛川市公式サイト1件のみ。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11410,7 +11410,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11474,7 +11474,7 @@
       "trust_level": "中",
       "conflict_note": "2026年分の公式告知は見つからず、直近実績（2025年8月17日）からの外挿。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11537,7 +11537,7 @@
       "trust_level": "中",
       "conflict_note": "3ソースとも2025年時点の情報がベースで2026年の正式発表は未確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11607,7 +11607,7 @@
       "trust_level": "低",
       "conflict_note": "⚠️矛盾: 複数ソース間で開催日程の記載が一致せず。確定日程は要問い合わせ（福知山商工会議所 TEL:0773-22-2108）。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11670,7 +11670,7 @@
       "trust_level": "中",
       "conflict_note": "「中秋の名月の日」という開催ルールは一致するが、2026年の具体日程を明記した公式発表は未確認で天文台データからの逆算推定。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11733,7 +11733,7 @@
       "trust_level": "高",
       "conflict_note": "当初の検索結果では10月4日との情報もあったが、原典再確認により10月3日が正しい日程と判明。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11796,7 +11796,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11853,7 +11853,7 @@
       "trust_level": "低",
       "conflict_note": "2026年の具体的日程を明記したソースが見つからず、開催パターンからの推定のみ。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11910,7 +11910,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -11967,7 +11967,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12025,7 +12025,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12088,7 +12088,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12145,7 +12145,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12202,7 +12202,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12265,7 +12265,7 @@
       "trust_level": "中",
       "conflict_note": "「毎年7月24・25日」という記載は一致するが、2026年開催を明示的に確定した一次告知は確認できず、例年通りの日程としての推定。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12327,7 +12327,7 @@
       "trust_level": "中",
       "conflict_note": "2026年7月25日の明記は1記事のみで、主催・場所情報は岩美町観光協会の過去実績ベース情報との照合。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12384,7 +12384,7 @@
       "trust_level": "低",
       "conflict_note": "記載日付が2025年実績とみられ、2026年の確定情報である確証がない。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12442,7 +12442,7 @@
       "trust_level": "低",
       "conflict_note": "公式サイトは2025年情報のみで2026年日程は非公式サイト1件のみの記載。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12504,7 +12504,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12562,7 +12562,7 @@
       "trust_level": "中",
       "conflict_note": "一般Web検索の要約では「8月8-9日」との情報もあったが、鹿島市公式サイトの「8月7-8日」を正として採用。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12619,7 +12619,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12682,7 +12682,7 @@
       "trust_level": "中",
       "conflict_note": "毎年同日開催の定例神事のため複数の公式サイトで確認できたが、2026年専用の告知ではなく例年情報からの推定。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12744,7 +12744,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12801,7 +12801,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12863,7 +12863,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12926,7 +12926,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -12981,6 +12981,134 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_207",
+      "name": "江戸川区花火大会",
+      "alternate_names": [
+        "江戸川花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "江戸川区",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第51回大会。荒天の場合は中止（順延なし）。",
+      "time_start": "19:15",
+      "time_end": "20:20",
+      "rain_policy": "荒天の場合は中止",
+      "organizer": "江戸川区花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料席あり、1万8000人分）",
+      "ticket_url": "不明",
+      "history_years": 51,
+      "history_description": "1976年開始、今年で第51回を迎える江戸川区の夏の風物詩。「富士の大仕掛け」など大型仕掛け花火が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "都営地下鉄篠崎駅から徒歩15分、JR小岩駅またはKeisei江戸川駅から徒歩25分",
+      "official_url": "https://www.city.edogawa.tokyo.jp/hanabi/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/hanabi/",
+          "site_name": "江戸川区公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00863/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/2201005/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_208",
+      "name": "北海道真駒内花火大会",
+      "alternate_names": [
+        "真駒内花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市南区",
+      "date_start": "2026-07-11",
+      "date_end": "2026-07-11",
+      "date_note": "第14回大会。荒天時は翌7月12日(日)に順延。",
+      "time_start": "19:50",
+      "time_end": "20:50",
+      "rain_policy": "荒天時は翌日に順延",
+      "organizer": "特定非営利活動法人真駒内花火大会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料（座席により異なる）",
+      "ticket_url": "https://www.makomanai-hanabi.com/",
+      "history_years": 14,
+      "history_description": "真駒内セキスイハイムスタジアムで行われる札幌最大級の花火大会。音楽・照明と花火を融合した演出が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "真駒内セキスイハイムスタジアム（札幌市南区）",
+      "official_url": "https://www.makomanai-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/makomanaihanabitaikai/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.makomanai-hanabi.com/",
+          "site_name": "北海道真駒内花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e01110/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.sapporo.travel/event/event-list/makomanai-hanabi/",
+          "site_name": "ようこそさっぽろ（札幌市観光公式サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
