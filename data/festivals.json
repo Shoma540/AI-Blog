@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07 12:30",
+  "last_updated": "2026-07-07 16:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -13173,7 +13173,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -13229,7 +13229,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：神輿競演2日目の日程が情報源により7/19・7/20の両方で記載されているが、曜日計算上7/19(日)が有力",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -13287,6 +13287,211 @@
           "url": "https://arift.jp/event/8361/",
           "site_name": "arift web",
           "is_official": false,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_212",
+      "name": "一関夏まつり磐井川川開き花火大会",
+      "alternate_names": [
+        "一関夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "一関市",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-09",
+      "date_note": "花火大会は8月7日(金)。夏まつり全体は8月7日〜9日の3日間。",
+      "time_start": "19:15",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "不明（一関夏まつり実行委員会等と推定されるが一次資料上の明記は未確認）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 73,
+      "history_description": "昭和23年（1948年）、カスリン・アイオン両台風からの復興を願い一関七夕まつりを復活させたのが起源。昭和28年に磐井川川開き花火大会が復活し現在の形になった。2026年で第73回。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR一ノ関駅から徒歩10分、東北道一関ICから約10分",
+      "official_url": "https://ichinoseki-cci.com/about/matsuri/ichinoseki.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0203e00015/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.ichitabi.jp/event/data.php?p=4",
+          "site_name": "いち旅（一関市公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.pref.iwate.jp/event/moyooshi/1076560.html",
+          "site_name": "岩手県",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://ichinoseki-cci.com/about/matsuri/ichinoseki.html",
+          "site_name": "一関商工会議所",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_213",
+      "name": "北上・みちのく芸能まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "北上市",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-09",
+      "date_note": "毎年8月7日〜9日の3日間開催（2026年で第65回）。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "北上・みちのく芸能まつり実行委員会",
+      "genre": [
+        "民俗芸能",
+        "盆踊り",
+        "神輿",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 65,
+      "history_description": "1962年（昭和37年）に北上商業高等学校校庭で開催された「みちのく郷土芸能まつり」が第1回。1975年（第14回）より現称「北上・みちのく芸能まつり」に改称。1983年（第22回）から8月7〜9日の3日間開催に。鬼剣舞・神楽・鹿踊り・虎舞など100組超の郷土芸能団体が出演し、東北六大まつりの一つとされることもある。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://geinoumatsuri.com/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://geinoumatsuri.com/schedule/",
+          "site_name": "北上・みちのく芸能まつり公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://iwatetabi.jp/events/8003/",
+          "site_name": "いわての旅",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/北上・みちのく芸能まつり",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.tohokukanko.jp/attractions/detail_1005112.html",
+          "site_name": "東北観光推進機構",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_214",
+      "name": "三陸・大船渡夏まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "大船渡市",
+      "date_start": "2026-07-31",
+      "date_end": "2026-08-01",
+      "date_note": "7月31日(金)16:00〜21:30、8月1日(土)12:00〜21:00の2日間。",
+      "time_start": "16:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "三陸・大船渡夏まつり実行委員会（大船渡商工会議所内）",
+      "genre": [
+        "花火",
+        "踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 0,
+      "history_description": "初日に海上七夕湾内巡航パレード、2日目に市民道中踊りや花火大会など、大船渡港周辺で開催される夏まつり（令和8年度開催）。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大船渡町茶屋前岸壁離岸",
+      "official_url": "https://sanriku-ofunato-fes.jp/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://sanriku-ofunato-fes.jp/",
+          "site_name": "三陸・大船渡夏まつり公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.city.ofunato.iwate.jp/ofunatrip/page-34151",
+          "site_name": "大船渡市",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0203e00352/data.html",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://iwatetabi.jp/events/8097/",
+          "site_name": "いわての旅",
+          "is_official": true,
           "retrieved_date": "2026-07-07"
         }
       ],
