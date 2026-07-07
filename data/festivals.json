@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07 16:15",
+  "last_updated": "2026-07-07 19:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -10955,9 +10955,9 @@
       "city": "七尾市",
       "date_start": "2026-07-11",
       "date_end": "2026-07-11",
-      "date_note": "毎年7月第2土曜日開催が通例。20:30〜24:00に奉燈（キリコ）乱舞。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_note": "毎年7月第2土曜日開催。石川県公式サイトで2026年7月11日(土)開催が明記された。20:30〜24:00に奉燈（キリコ）乱舞。",
+      "time_start": "20:30",
+      "time_end": "24:00",
       "rain_policy": "不明",
       "organizer": "七尾市（交流推進課）／大地主神社山王奉賛会",
       "genre": [
@@ -10990,13 +10990,27 @@
           "site_name": "大地主神社 山王奉賛会",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.hot-ishikawa.jp/event/detail_21220.html",
+          "site_name": "ほっと石川旅ねっと（石川県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "例年パターン（第2土曜）との整合は取れるが、2026年専用の独立ソースでの直接確認はできていない。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "date_note",
+        "time_start",
+        "time_end",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12218,7 +12232,7 @@
       "city": "松江市",
       "date_start": "2026-07-24",
       "date_end": "2026-07-25",
-      "date_note": "毎年7月24日・25日開催が恒例。25日11:00〜例大祭、20:00〜悪切神事、神輿渡御（本宮・女神輿・子どもみこしパレード）。",
+      "date_note": "白潟天満宮公式サイトの告知（2026-07-06付）で2026年7月24日・25日開催が明記された。25日11:00〜例大祭、20:00〜悪切神事、神輿渡御。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -12260,13 +12274,25 @@
           "site_name": "松江天神神輿連",
           "is_official": false,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://shirakatatenmangu.com/",
+          "site_name": "白潟天満宮公式サイト（2026年7月6日付お知らせ「令和8年『天神夏祭』開催！」）",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "「毎年7月24・25日」という記載は一致するが、2026年開催を明示的に確定した一次告知は確認できず、例年通りの日程としての推定。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13361,7 +13387,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -13430,7 +13456,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -13492,6 +13518,135 @@
           "url": "https://iwatetabi.jp/events/8097/",
           "site_name": "いわての旅",
           "is_official": true,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_215",
+      "name": "塩竈みなと祭 前夜祭花火大会",
+      "alternate_names": [
+        "塩竈みなと祭前夜祭花火大会",
+        "第79回塩竈みなと祭前夜祭花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "塩竈市",
+      "date_start": "2026-07-19",
+      "date_end": "2026-07-19",
+      "date_note": "翌7月20日(月・海の日)が本祭（第79回塩竈みなと祭、神輿海上渡御）。",
+      "time_start": "20:00",
+      "time_end": "20:40",
+      "rain_policy": "不明（公式サイトに明記なし、問い合わせ先：塩竈市商工観光課 022-364-1165）",
+      "organizer": "塩竈みなと祭協賛会（事務局：塩竈市商工観光課）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "見物無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "日本三大船祭りの一つとされる塩竈みなと祭の前夜祭として行われる花火大会。志波彦神社・鹽竈神社の御神輿による海上渡御が本祭の見どころ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://shiogama-minatomatsuri.jp/fireworks/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://shiogama-minatomatsuri.jp/fireworks/",
+          "site_name": "塩竈みなと祭 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.city.shiogama.miyagi.jp/soshiki/17/56484.html",
+          "site_name": "塩竈市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0204e00649/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_216",
+      "name": "香南市みなこい港まつり",
+      "alternate_names": [
+        "第20回香南市みなこい港まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "高知県",
+      "city": "香南市",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "荒天時は翌週8月2日(日)に花火のみ実施。",
+      "time_start": "15:30",
+      "time_end": "22:00",
+      "rain_policy": "荒天中止・翌週8/2に花火のみ順延実施",
+      "organizer": "香南市みなこい港まつり実行委員会（香南市共催）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "見物無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "例年の人出 約3万人",
+      "visitors": "約3万人",
+      "access": "土佐くろしお鉄道ごめん・なはり線のいち駅からタクシーで15分。無料駐車場あり（1000台）。",
+      "official_url": "https://www.city.kochi-konan.lg.jp/soshikikarasagasu/shokokankoka/kankojoho/1/10389.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kochi-konan.lg.jp/soshikikarasagasu/shokokankoka/kankojoho/1/10389.html",
+          "site_name": "香南市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0939e00707/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87489.html",
+          "site_name": "ジョルダン花火",
+          "is_official": false,
           "retrieved_date": "2026-07-07"
         }
       ],
