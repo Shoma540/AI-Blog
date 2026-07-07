@@ -113,6 +113,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25から数えて19回連続（1週間以上）で同一のAPI access blockedエラーが継続。ユーザーへの再エスカレーションは2026-07-05 12:14に実施済みで状況変化がないため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push、新規3件：一関夏まつり磐井川川開き花火大会・北上みちのく芸能まつり・三陸大船渡夏まつり、いずれも岩手県）は正常に完了。前回同様ローカルmainブランチが44コミット遅れていたため、ローカルmainをHEADへfast-forwardした上で直接git push origin mainを実行して解消（既知の事象）。台風・悪天候による中止・延期情報を確認したが、本DB収録の祭りに影響するものは無し。七尾祇園祭・松江天神さん夏祭りなど既存のrequires_check案件は2026年専用の一次確認ソースが依然見つからず状態維持。"
+    },
+    {
+      "timestamp": "2026-07-07 17:11",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて20回連続（1週間以上）で同一のAPI access blockedエラーが継続。状況変化なし、前回2026-07-05 12:14のエスカレーション後も未解消。ブログ更新（HTML生成・GitHub Push）は正常に完了、新規2件：塩竈みなと祭前夜祭花火大会（宮城県）・香南市みなこい港まつり（高知県）。更新2件：七尾祇園祭・松江天神さん夏祭りについて、それぞれ石川県公式サイト（ほっと石川旅ねっと）と白潟天満宮公式サイトで2026年開催日程の一次確認が取れたためrequires_checkを解除し信頼度を高に更新。"
     }
   ]
 }
