@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07 09:30",
+  "last_updated": "2026-07-07 12:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -13105,6 +13105,188 @@
           "url": "https://www.sapporo.travel/event/event-list/makomanai-hanabi/",
           "site_name": "ようこそさっぽろ（札幌市観光公式サイト）",
           "is_official": true,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_209",
+      "name": "与野夏祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "さいたま市中央区",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "date_note": "一部サイトで7月19日・20日と表記されているが、2026年7月20日は月曜(海の日)にあたり「土日開催」の記述と矛盾するため、曜日が一致する7月18日(土)・19日(日)が正しいと判断。",
+      "time_start": "16:00",
+      "time_end": "21:30",
+      "rain_policy": "雨天決行",
+      "organizer": "公益社団法人さいたま観光国際協会",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 320,
+      "history_description": "宝永年間(1704〜1711年)から続くと言われる歴史ある祭り。上町・仲町・下町・上峰地区の神輿が本町通り周辺を渡御する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR「与野本町駅」西口から徒歩約5分",
+      "official_url": "https://visitsaitamacity.jp/events/17",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://visitsaitamacity.jp/events/17",
+          "site_name": "VISIT SAITAMA CITY（さいたま観光国際協会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/642012/",
+          "site_name": "エンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://sustabi.com/service/%E4%BB%A4%E5%92%8C6%E5%B9%B4%E5%BA%A6-%E4%B8%8E%E9%87%8E%E5%A4%8F%E7%A5%AD%E3%82%8A/",
+          "site_name": "サスタビ",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_210",
+      "name": "吉川八坂祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "吉川市",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "date_note": "神輿競演は2日目の夜、いちょう通りで実施。情報源により2日目を7月19日とするものと7月20日とするものが混在するが、2026年7月20日は月曜のため「2日目の夜」の記述と整合するのは7月19日(日)と判断。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "吉川八坂祭り実行委員会（吉川市）",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 400,
+      "history_description": "悪疫退散・商売繁盛・五穀豊穣を願い、神輿を上空へ投げ上げる「暴れ神輿」で知られる。2日目の夜には各町内の神輿9基が集結し一斉に担ぐ「競演」が行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.yoshikawa.saitama.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/26,99861,226,845,html",
+          "site_name": "吉川市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://koshigayalaketown.net/archives/20260616.html",
+          "site_name": "越谷レイクタウン散歩",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾：神輿競演2日目の日程が情報源により7/19・7/20の両方で記載されているが、曜日計算上7/19(日)が有力",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_211",
+      "name": "浦和まつりみこし渡御",
+      "alternate_names": [
+        "浦和まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "さいたま市浦和区",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "",
+      "time_start": "14:15",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "浦和まつり実行委員会",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "旧中山道（新浦和橋下〜調神社）にて木やり流しと大人みこしが練り歩く、浦和地区を代表する夏祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "旧中山道（新浦和橋下〜調神社）。当日13:00〜21:00は会場周辺道路で交通規制。",
+      "official_url": "https://visitsaitamacity.jp/events/19",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://visitsaitamacity.jp/events/19",
+          "site_name": "VISIT SAITAMA CITY（さいたま観光国際協会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://sustabi.com/service/urawa-matsuri-mikoshi/",
+          "site_name": "サスタビ",
+          "is_official": false,
+          "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://arift.jp/event/8361/",
+          "site_name": "arift web",
+          "is_official": false,
           "retrieved_date": "2026-07-07"
         }
       ],
