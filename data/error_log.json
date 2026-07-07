@@ -101,6 +101,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25から数えて17回連続（1週間以上）で同一のAPI access blockedエラーが継続。ユーザーへの再エスカレーションは2026-07-05 12:14に実施済みで状況変化がないため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push、新規2件：江戸川区花火大会・北海道真駒内花火大会）は正常に完了。前回同様ローカルmainブランチが39コミット遅れていたため、ローカルmainをHEADへfast-forwardした上でgit_push.pyを実行し解消（既知の事象）。"
+    },
+    {
+      "timestamp": "2026-07-07 12:16",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて18回連続（1週間以上）で同一のAPI access blockedエラーが継続。ユーザーへの再エスカレーションは2026-07-05 12:14に実施済みで状況変化がないため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push、新規3件：与野夏祭り・吉川八坂祭り・浦和まつりみこし渡御、いずれも埼玉県の神輿祭り）は正常に完了。なお、前回実行(2026-07-07 08:13)分の江戸川区花火大会・北海道真駒内花火大会がdiff_status=NEWのまま残っていたためUNCHANGEDに修正し、新規件数の重複計上を解消。"
     }
   ]
 }
