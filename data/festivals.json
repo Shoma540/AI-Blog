@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08 12:23",
+  "last_updated": "2026-07-08 17:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -2161,74 +2161,6 @@
       }
     },
     {
-      "id": "festival_035",
-      "name": "諏訪湖祭湖上花火大会",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "prefecture": "長野県",
-      "city": "諏訪市",
-      "date_start": "2026-08-15",
-      "date_end": "2026-08-15",
-      "date_note": "19:00開始。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "諏訪湖祭実行委員会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "見学無料（有料席あり）",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://suwakanko.jp/story/hanabi-suwako/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://suwakanko.jp/story/hanabi-suwako/",
-          "site_name": "諏訪湖温泉観光協会公式",
-          "is_official": true,
-          "retrieved_date": "2026-06-30"
-        },
-        {
-          "url": "https://www.suwakanko.jp/story/hanabi-suwako/",
-          "site_name": "諏訪市観光ガイド（諏訪観光協会公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-05"
-        },
-        {
-          "url": "https://suwako-hanabi.com/",
-          "site_name": "信州諏訪湖の花火（実行委員会公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-05"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0420e00799/",
-          "site_name": "ウォーカープラス花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-07-05"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_036",
       "name": "熱海海上花火大会",
       "alternate_names": [],
@@ -3510,7 +3442,7 @@
       ],
       "scale": "沖縄最大級のエイサー祭り（第71回）",
       "is_free": true,
-      "price": "一般観覧エリアは無料（スタンド指定席は有料）",
+      "price": "一般観覧エリアは無料（有料観覧席あり、チケット販売は2026年7月1日開始）",
       "ticket_url": "不明",
       "history_years": "不明",
       "history_description": "沖縄各地の青年会エイサー団体が一堂に会し演舞を披露する、沖縄最大規模のエイサー祭り。",
@@ -3526,15 +3458,15 @@
       "sources": [
         {
           "url": "https://www.zentoeisa.com/",
-          "site_name": "沖縄全島エイサーまつり実行委員会公式",
+          "site_name": "沖縄全島エイサーまつり実行委員会公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-06-30"
+          "retrieved_date": "2026-07-08"
         },
         {
           "url": "https://www.kozaweb.jp/events/show/24890",
-          "site_name": "沖縄市観光ポータル Kozaweb（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-05"
+          "site_name": "沖縄市観光ポータル Kozaweb",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
         },
         {
           "url": "https://www.surairu-okinawa.com/zento-eisa",
@@ -3552,8 +3484,11 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 旧情報(道ジュネー含む9/4〜9/6の3日間)と最新公式情報(9/5〜9/6の2日間)で開催日数が異なる。最新の公式発表を採用。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "price",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -6521,10 +6456,10 @@
       "city": "敦賀市",
       "date_start": "2026-09-02",
       "date_end": "2026-09-05",
-      "date_note": "⚠矛盾：敦賀市公式サイトの令和8年度告知では祭全体が9/2(水)～9/5(土)開催と発表されている一方、別の観光サイト系ソース（3件）は「とうろう流しと大花火大会」を8/16(日)開催として案内しており、日付が一致しない。氣比神宮例祭は歴史的に9月開催が通例のため9月説を優先候補としたが未解決。開催直前に公式発表の確定日程を要再確認。",
+      "date_note": "氣比神宮例大祭を中心とする「敦賀まつり」本体は9/2(水)〜9/5(土)開催（敦賀市公式・敦賀まつり公式サイトで確認）。一方、「とうろう流しと大花火大会」（第77回）は敦賀まつりとは開催日が異なる別日程の付帯行事で、2026年8月16日(日)開催（とうろう流し18:30〜／花火大会19:30〜、気比の松原海岸）と敦賀市公式サイト含む複数ソースで確認。従来「矛盾」としていたが、実際は同一祭り内の別行事が別日程で開催される構成と判明したため解消。",
       "time_start": "不明",
       "time_end": "不明",
-      "rain_policy": "荒天中止・小雨決行（8月説の情報源による）",
+      "rain_policy": "とうろう流しと大花火大会は荒天中止・小雨決行（敦賀市公式サイトで確認）",
       "organizer": "敦賀まつり実行委員会／氣比神宮（敦賀観光協会）",
       "genre": [
         "花火大会",
@@ -6578,17 +6513,30 @@
           "site_name": "ふくいドットコム",
           "is_official": true,
           "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.city.tsuruga.lg.jp/page/23817.html",
+          "site_name": "敦賀市公式サイト（第77回とうろう流しと大花火大会）",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "祭全体の日程(9/2-5)と、とうろう流しと大花火大会単体の日程(8/16)とする情報源の間で矛盾あり。要継続確認。",
-      "requires_check": true,
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "id": "festival_102",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "requires_check",
+        "date_note",
+        "trust_level",
+        "sources",
+        "rain_policy",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "矛盾を解消：とうろう流しと大花火大会は8/16開催と確定（従来は敦賀まつり本体9/2-5との整合性が不明だった）"
       }
     },
     {
@@ -10732,62 +10680,6 @@
       }
     },
     {
-      "id": "festival_169",
-      "name": "江戸川区花火大会",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "prefecture": "東京都",
-      "city": "江戸川区",
-      "date_start": "2026-08-01",
-      "date_end": "2026-08-01",
-      "date_note": "19:15〜20:20、荒天中止。第51回。約1万4000発。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "江戸川区花火大会実行委員会（江戸川区産業振興課産業係）",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": false,
-      "price": "有料席あり（区民先行販売・一般販売あり、無料観覧エリアの有無は未確認）",
-      "ticket_url": "不明",
-      "history_years": 51,
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.city.edogawa.tokyo.jp/hanabi/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/04/0408.html",
-          "site_name": "江戸川区公式サイト（プレスリリース）",
-          "is_official": true,
-          "retrieved_date": "2026-07-06"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0313e00863/",
-          "site_name": "ウォーカープラス花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-07-06"
-        }
-      ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_170",
       "name": "小田原酒匂川花火大会",
       "alternate_names": [],
@@ -11380,74 +11272,6 @@
       }
     },
     {
-      "id": "festival_180",
-      "name": "熊野大花火大会",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "prefecture": "三重県",
-      "city": "熊野市",
-      "date_start": "2026-08-17",
-      "date_end": "2026-08-17",
-      "date_note": "19:00頃〜21:30予定。荒天時は8/21・8/24・8/27に順延の可能性あり。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "熊野市観光協会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "不明（地域最大級の花火大会）",
-      "is_free": true,
-      "price": "一般見学は無料。有料観覧席（カメラ席・堤防席・浜席）あり",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.kumano-kankou.info/kumano-fireworks/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.kumano-kankou.info/kumano-fireworks/",
-          "site_name": "熊野市観光協会（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-06"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0624e00803/",
-          "site_name": "ウォーカープラス花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-07-06"
-        },
-        {
-          "url": "https://www.kankomie.or.jp/event/5207",
-          "site_name": "観光三重",
-          "is_official": false,
-          "retrieved_date": "2026-07-06"
-        },
-        {
-          "url": "https://hanabi.cloud/html/Tohkai/mie/2026/2026-08-17_kumano-oohanabi-taikai.html",
-          "site_name": "花火クラウド",
-          "is_official": false,
-          "retrieved_date": "2026-07-06"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_181",
       "name": "建部大社 納涼船幸祭",
       "alternate_names": [],
@@ -11577,21 +11401,23 @@
     {
       "id": "festival_183",
       "name": "福知山ドッコイセまつり",
-      "alternate_names": [],
+      "alternate_names": [
+        "福知山HANABI",
+        "BONCHI祭"
+      ],
       "similar_name_warning": false,
       "prefecture": "京都府",
       "city": "福知山市",
-      "date_start": "2026-08-14",
-      "date_end": "2026-08-25",
-      "date_note": "情報源により日程表記が食い違う（8/14〜8/25の期間説、8/22〜23の説、8/11花火・8/15盆地祭など個別行事日）。総踊り等のコア開催日は未確定。",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-15",
+      "date_note": "従来「福知山ドッコイセまつり」として一体運営されてきた祭りは、近年「福知山HANABI」（花火・8/11）、「ドッコイセこども大会」（8/14）、「BONCHI祭」（野外フェス・8/15）という独立性の高い複数のサブイベントに再編されている。福知山HANABI2026は一般社団法人DOKKOISE公式サイトで8/11(火) 20:00〜20:45・由良川河川敷(音無瀬橋)開催と確認。BONCHI祭2026は公式サイトで8/15 9:00〜20:30・三段池公園大はらっぱ広場開催と確認。「ドッコイセ音頭総おどり」パレード本体の2026年開催有無・日程は今回も確認できず要継続確認。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
-      "organizer": "福知山商工会議所／福知山観光協会",
+      "organizer": "福知山商工会議所／福知山観光協会／一般社団法人DOKKOISE",
       "genre": [
-        "盆踊り",
-        "パレード",
-        "花火"
+        "花火",
+        "パレード"
       ],
       "scale": "不明",
       "is_free": true,
@@ -11632,16 +11458,37 @@
           "site_name": "京都府観光連盟公式サイト",
           "is_official": false,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.fukuchiyama-hanabi.com/",
+          "site_name": "福知山HANABI2026 公式サイト（一般社団法人DOKKOISE）",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.fukuchiyama-bonchi.com/",
+          "site_name": "BONCHI祭2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "⚠️矛盾: 複数ソース間で開催日程の記載が一致せず。確定日程は要問い合わせ（福知山商工会議所 TEL:0773-22-2108）。",
+      "trust_level": "中",
+      "conflict_note": "サブイベントごとの日程は公式サイトで個別に確認できたが、「ドッコイセ音頭総おどり」パレード本体の2026年開催日程は未確認のため要継続確認。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_note",
+        "sources",
+        "alternate_names",
+        "genre",
+        "date_end",
+        "organizer",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "従来「8/14〜8/25」の期間説など複数の不確実な日程があったが、福知山HANABI(8/11)・こども大会(8/14)・BONCHI祭(8/15)という個別サブイベントの確定日程が新たに判明"
       }
     },
     {
@@ -12369,15 +12216,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "date_note",
-        "rain_policy",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13082,22 +12922,30 @@
         },
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0313e00863/",
-          "site_name": "ウォーカープラス 花火大会2026",
+          "site_name": "ウォーカープラス花火大会2026",
           "is_official": false,
-          "retrieved_date": "2026-07-07"
+          "retrieved_date": "2026-07-06"
         },
         {
           "url": "https://weathernews.jp/hanabi/spot/2201005/",
           "site_name": "ウェザーニュース",
           "is_official": false,
           "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/04/0408.html",
+          "site_name": "江戸川区公式サイト（プレスリリース）",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13900,22 +13748,36 @@
         },
         {
           "url": "https://www.suwakanko.jp/story/hanabi-suwako/",
-          "site_name": "諏訪観光協会公式サイト",
+          "site_name": "諏訪市観光ガイド（諏訪観光協会公式）",
           "is_official": true,
-          "retrieved_date": "2026-07-08"
+          "retrieved_date": "2026-07-05"
         },
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0420e00799/",
           "site_name": "ウォーカープラス花火大会2026",
           "is_official": false,
-          "retrieved_date": "2026-07-08"
+          "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://suwakanko.jp/story/hanabi-suwako/",
+          "site_name": "諏訪湖温泉観光協会公式",
+          "is_official": true,
+          "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://suwako-hanabi.com/",
+          "site_name": "信州諏訪湖の花火（実行委員会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-05"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13956,87 +13818,42 @@
       "sources": [
         {
           "url": "https://www.kumano-kankou.info/kumano-fireworks/",
-          "site_name": "熊野市観光協会公式サイト",
+          "site_name": "熊野市観光協会（公式）",
           "is_official": true,
-          "retrieved_date": "2026-07-08"
+          "retrieved_date": "2026-07-06"
         },
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0624e00803/",
           "site_name": "ウォーカープラス花火大会2026",
           "is_official": false,
-          "retrieved_date": "2026-07-08"
+          "retrieved_date": "2026-07-06"
         },
         {
           "url": "https://weathernews.jp/hanabi/spot/3301020/",
           "site_name": "ウェザーニュース花火カレンダー",
           "is_official": false,
           "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/event/5207",
+          "site_name": "観光三重",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Tohkai/mie/2026/2026-08-17_kumano-oohanabi-taikai.html",
+          "site_name": "花火クラウド",
+          "is_official": false,
+          "retrieved_date": "2026-07-06"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_222",
-      "name": "沖縄全島エイサーまつり",
-      "alternate_names": [
-        "第71回沖縄全島エイサーまつり"
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources"
       ],
-      "similar_name_warning": false,
-      "prefecture": "沖縄県",
-      "city": "沖縄市",
-      "date_start": "2026-09-05",
-      "date_end": "2026-09-06",
-      "date_note": "9/5(土)は沖縄市青年まつり、9/6(日)が全島エイサーまつり本祭。両日とも開演15:00。前日にエイサーナイト等のプレイベントあり。",
-      "time_start": "15:00",
-      "time_end": "不明",
-      "rain_policy": "悪天候により延期の場合あり（詳細未発表）",
-      "organizer": "沖縄全島エイサーまつり実行委員会",
-      "genre": [
-        "民俗芸能",
-        "パレード"
-      ],
-      "scale": "その他",
-      "is_free": false,
-      "price": "有料観覧席あり（チケット販売は2026年7月1日開始）",
-      "ticket_url": "不明",
-      "history_years": 71,
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "コザ運動公園陸上競技場（沖縄市諸見里2丁目1-1）",
-      "official_url": "https://www.zentoeisa.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.zentoeisa.com/",
-          "site_name": "沖縄全島エイサーまつり実行委員会公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-08"
-        },
-        {
-          "url": "https://www.kozaweb.jp/events/show/24890",
-          "site_name": "沖縄市観光ポータル Kozaweb",
-          "is_official": false,
-          "retrieved_date": "2026-07-08"
-        }
-      ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14099,7 +13916,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -14162,6 +13979,145 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_225",
+      "name": "さっぽろ夏まつり",
+      "alternate_names": [
+        "第73回さっぽろ夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市",
+      "date_start": "2026-07-23",
+      "date_end": "2026-08-18",
+      "date_note": "福祉協賛さっぽろ大通ビアガーデンは7/23(木)〜8/18(火)の27日間開催。北海盆踊り・すすきの祭り・狸まつりなど複数の協賛行事を含む。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "さっぽろ夏まつり実行委員会（札幌市）",
+      "genre": [
+        "盆踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "ビアガーデンは有料、まつり自体の見学は無料",
+      "ticket_url": "不明",
+      "history_years": 73,
+      "history_description": "不明",
+      "food_stalls": "大通公園5丁目〜11丁目にビアガーデン各会場（サントリー・キリン・サッポロ・世界のビール広場・札幌ドイツ村）が出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.sapporo.travel/summerfes/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sapporo.travel/summerfes/",
+          "site_name": "さっぽろ夏まつり公式サイト（札幌市）",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.sapporo.travel/summerfes/news/detail/634/",
+          "site_name": "さっぽろ夏まつり公式サイト（開催内容告知）",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.visit-hokkaido.jp/event/detail_11008.html",
+          "site_name": "HOKKAIDO LOVE!（北海道公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.gutabi.jp/event/detail/1544",
+          "site_name": "ぐうたび北海道",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_226",
+      "name": "道新・UHB花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市",
+      "date_start": "2026-07-31",
+      "date_end": "2026-07-31",
+      "date_note": "19:40打ち上げ開始、約50分間。荒天の場合は8/7(金)に順延。",
+      "time_start": "19:40",
+      "time_end": "不明",
+      "rain_policy": "荒天の場合は8月7日(金)に延期",
+      "organizer": "北海道新聞社・UHB北海道文化放送 ほか実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料観覧エリア試験導入の情報あり、詳細未確認）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "豊平川南大橋〜幌平橋間（札幌市中央区南13条西1丁目付近）",
+      "official_url": "https://www.hokkaido-np.co.jp/hanabi2026/sapporo/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hokkaido-np.co.jp/hanabi2026/sapporo/",
+          "site_name": "北海道新聞デジタル（主催者系公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.sapporo.travel/event/event-list/doshinuhbhanabi/",
+          "site_name": "ようこそさっぽろ（札幌市観光協会）",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://hanabi-navi.info/hokkaido/6102/",
+          "site_name": "花火大会ナビ",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Hokkaido/hokkaido/2026/2026-07-31_doushin-hanabi-taikai.html",
+          "site_name": "花火に行こう",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "有料観覧エリア導入の詳細（規模・料金）は情報源間で確認が取れておらず要継続確認。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
