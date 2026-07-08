@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07 18:12",
+  "last_updated": "2026-07-08 08:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -10548,9 +10548,9 @@
       "date_start": "2026-08-01",
       "date_end": "2026-08-01",
       "date_note": "19:00〜20:30、対岸の板橋花火大会と同時開催（合計約1万5000発）。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "time_start": "19:00",
+      "time_end": "20:30",
+      "rain_policy": "荒天（大雨・強風・雷など）の場合は中止（順延なし）。開催有無は当日10時から公式サイトで発表。",
       "organizer": "戸田橋花火大会実行委員会",
       "genre": [
         "花火"
@@ -10565,7 +10565,7 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "不明",
-      "official_url": "https://hanabi.walkerplus.com/detail/ar0311e01078/",
+      "official_url": "https://www.todabashi-hanabi.jp/",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -10576,13 +10576,40 @@
           "site_name": "ウォーカープラス花火大会2026",
           "is_official": false,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.todabashi-hanabi.jp/",
+          "site_name": "戸田橋花火大会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/2001026/",
+          "site_name": "ウェザーニュース花火カレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Kanto/saitama/2026/2026-08-01_toda-bashi-hanabi-taikai.html",
+          "site_name": "花火に行こう",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "ウォーカープラス1ソースのみで確認。戸田市・実行委員会公式サイトでの直接照合ができていない。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "official_url",
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "sources",
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -10669,15 +10696,15 @@
         "神楽"
       ],
       "scale": "国指定重要無形民俗文化財（1976年指定、関東神楽の源流とされる）",
-      "is_free": null,
-      "price": "不明（神社境内での奉納につき見物は無料の可能性が高いが未確認）",
+      "is_free": true,
+      "price": "無料",
       "ticket_url": "不明",
       "history_years": "不明",
       "history_description": "不明",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "東武鷲宮駅から徒歩7分。車の場合は東北道加須ICまたは久喜ICから約15分（無料駐車場60台あり）。",
       "official_url": "https://www.city.kuki.lg.jp/miryoku/rekishi_bunkazai/bunkazai/mukei/kagura/index.html",
       "sns_accounts": {
         "instagram": "不明"
@@ -10695,13 +10722,27 @@
           "site_name": "久喜市公式サイト（国指定文化財ページ）",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20002702",
+          "site_name": "るるぶ&more.",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "ソースが久喜市公式サイトの複数ページのみで、独立した第三者ソースでの確認ができていない。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "price",
+        "access",
+        "is_free",
+        "sources",
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13241,15 +13282,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "date_note",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13706,7 +13740,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -13768,7 +13802,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -13820,6 +13854,191 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_220",
+      "name": "諏訪湖祭湖上花火大会",
+      "alternate_names": [
+        "第78回諏訪湖祭湖上花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "諏訪市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "第78回。19:00打ち上げ開始（終了時刻は未定）。諏訪湖では7/24〜8/23の期間中は毎日花火が上がる。",
+      "time_start": "19:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "諏訪市／諏訪湖祭実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料エリアあり（一部有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": 78,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR上諏訪駅から徒歩10分",
+      "official_url": "https://suwako-hanabi.com/kojyou/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://suwako-hanabi.com/kojyou/",
+          "site_name": "信州諏訪湖の花火 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.suwakanko.jp/story/hanabi-suwako/",
+          "site_name": "諏訪観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0420e00799/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_221",
+      "name": "熊野大花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "熊野市",
+      "date_start": "2026-08-17",
+      "date_end": "2026-08-17",
+      "date_note": "19時頃打ち上げ開始、21:30頃終了予定。荒天等の場合の予備日は8/21(金)・24(月)・27(木)。3尺玉の海上自爆や「鬼ヶ城大仕掛」が見どころ。",
+      "time_start": "19:00",
+      "time_end": "21:30",
+      "rain_policy": "荒天時は8/21・24・27のいずれかに順延（詳細は公式発表待ち）",
+      "organizer": "熊野市観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "例年約12万人",
+      "visitors": "約12万人",
+      "access": "JR熊野市駅から徒歩5分",
+      "official_url": "https://www.kumano-kankou.info/kumano-fireworks/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kumano-kankou.info/kumano-fireworks/",
+          "site_name": "熊野市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0624e00803/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3301020/",
+          "site_name": "ウェザーニュース花火カレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_222",
+      "name": "沖縄全島エイサーまつり",
+      "alternate_names": [
+        "第71回沖縄全島エイサーまつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "沖縄県",
+      "city": "沖縄市",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "9/5(土)は沖縄市青年まつり、9/6(日)が全島エイサーまつり本祭。両日とも開演15:00。前日にエイサーナイト等のプレイベントあり。",
+      "time_start": "15:00",
+      "time_end": "不明",
+      "rain_policy": "悪天候により延期の場合あり（詳細未発表）",
+      "organizer": "沖縄全島エイサーまつり実行委員会",
+      "genre": [
+        "民俗芸能",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧席あり（チケット販売は2026年7月1日開始）",
+      "ticket_url": "不明",
+      "history_years": 71,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "コザ運動公園陸上競技場（沖縄市諸見里2丁目1-1）",
+      "official_url": "https://www.zentoeisa.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.zentoeisa.com/",
+          "site_name": "沖縄全島エイサーまつり実行委員会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.kozaweb.jp/events/show/24890",
+          "site_name": "沖縄市観光ポータル Kozaweb",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
