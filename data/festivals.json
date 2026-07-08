@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08 21:40",
+  "last_updated": "2026-07-08 22:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -6525,8 +6525,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "矛盾を解消：とうろう流しと大花火大会は8/16開催と確定（従来は敦賀まつり本体9/2-5との整合性が不明だった）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -7140,17 +7140,17 @@
       "city": "高知市",
       "date_start": "2026-08-09",
       "date_end": "2026-08-09",
-      "date_note": "よさこい祭り(festival_014, 8/9~8/12)の前夜・幕開けとして開催。",
+      "date_note": "よさこい祭り(festival_014, 8/9~8/12)の前夜・幕開けとして開催。荒天時は2026-08-13(木)に延期。",
       "time_start": "19:45",
       "time_end": "21:00",
-      "rain_policy": "荒天時延期の可能性あり",
+      "rain_policy": "荒天時は8/13(木)同時刻に延期。延期日も荒天の場合は中止",
       "organizer": "高知市／公益社団法人高知市観光協会",
       "genre": [
         "花火大会"
       ],
       "scale": "約4000発",
       "is_free": true,
-      "price": "無料（有料観覧席・マス席あり）",
+      "price": "無料（有料観覧席・マス席あり／パイプ椅子席2,100円〜テーブル席20,000円等）",
       "ticket_url": "不明",
       "history_years": "76回目",
       "history_description": "高知市鏡川河畔にて、高低差のある4カ所から打ち上げるスターマインや仕掛け花火が見どころ。",
@@ -7181,14 +7181,25 @@
           "site_name": "花火大会2026 - ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0939e00705/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_112",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "rain_policy",
+        "price",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -7657,13 +7668,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_119",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "conflict_note",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -10430,16 +10436,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "official_url",
-        "rain_policy",
-        "organizer",
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -11499,8 +11497,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "従来「8/14〜8/25」の期間説など複数の不確実な日程があったが、福知山HANABI(8/11)・こども大会(8/14)・BONCHI祭(8/15)という個別サブイベントの確定日程が新たに判明"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -13714,15 +13712,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "rain_policy",
-        "trust_level",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13943,70 +13934,6 @@
       }
     },
     {
-      "id": "festival_224",
-      "name": "第76回高知市納涼花火大会",
-      "alternate_names": [
-        "高知市納涼花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "高知県",
-      "city": "高知市",
-      "date_start": "2026-08-09",
-      "date_end": "2026-08-09",
-      "date_note": "荒天時は2026-08-13(木)に延期",
-      "time_start": "19:45",
-      "time_end": "21:00",
-      "rain_policy": "荒天時は8/13(木)同時刻に延期。延期日も荒天の場合は中止",
-      "organizer": "公益社団法人高知市観光協会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "約4000発、ナイアガラ花火全長約650m",
-      "is_free": true,
-      "price": "有料観覧席あり（パイプ椅子席2,100円〜テーブル席20,000円等）",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "高知市の夏の風物詩で第76回を数える伝統の花火大会。鏡川河畔にて開催。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "JR高知駅から路面電車で県庁前下車、徒歩3分",
-      "official_url": "https://welcome-kochi.jp/event/hanabi/index.html",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://welcome-kochi.jp/event/hanabi/index.html",
-          "site_name": "高知市観光協会公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-08"
-        },
-        {
-          "url": "https://www.city.kochi.kochi.jp/site/kanko/hanabi.html",
-          "site_name": "高知市公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-08"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0939e00705/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-07-08"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_225",
       "name": "さっぽろ夏まつり",
       "alternate_names": [
@@ -14208,6 +14135,70 @@
           "url": "https://www.nikkei.com/article/DGXZQOUF307RY0Q6A130C2000000/",
           "site_name": "日本経済新聞",
           "is_official": false,
+          "retrieved_date": "2026-07-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_225",
+      "name": "かごしま錦江湾サマーナイト大花火大会",
+      "alternate_names": [
+        "第24回かごしま錦江湾サマーナイト大花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "鹿児島市",
+      "date_start": "2026-08-29",
+      "date_end": "2026-08-29",
+      "date_note": "第24回開催。",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "かごしま錦江湾サマーナイト大花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "約15,000発、九州最大級",
+      "is_free": true,
+      "price": "無料（有料観覧席の有無は不明）",
+      "ticket_url": "不明",
+      "history_years": "24回目",
+      "history_description": "活火山・桜島と錦江湾を背景に打ち上げられる、鹿児島港本港区を会場とする九州最大級の花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "鹿児島港本港区（会場周辺）",
+      "official_url": "https://hanabi.kankou-kagoshima.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.kankou-kagoshima.jp/",
+          "site_name": "かごしま錦江湾サマーナイト大花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1046e01033/map.html",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.kagoshima-kankou.com/event/53769",
+          "site_name": "鹿児島県観光サイト かごしまの旅",
+          "is_official": true,
           "retrieved_date": "2026-07-08"
         }
       ],
