@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08 08:16",
+  "last_updated": "2026-07-08 12:23",
   "festivals": [
     {
       "id": "festival_001",
@@ -10599,17 +10599,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "official_url",
-        "time_start",
-        "time_end",
-        "rain_policy",
-        "sources",
-        "trust_level",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -10733,16 +10724,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "price",
-        "access",
-        "is_free",
-        "sources",
-        "trust_level",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12334,10 +12317,10 @@
       "city": "岩美町",
       "date_start": "2026-07-25",
       "date_end": "2026-07-25",
-      "date_note": "第39回。20:00〜花火打ち上げ、荒天時は7月26日(日)に順延。会場は浦富海水浴場。",
+      "date_note": "荒天の場合は7/26(日)に順延。一部旧記事に見られる「7/26開催」表記は2025年実績または順延日の混同と判定。",
       "time_start": "不明",
       "time_end": "不明",
-      "rain_policy": "不明",
+      "rain_policy": "荒天時は2026-07-26(日)に順延",
       "organizer": "浦富海岸元気フェスティバル実行委員会（岩美町観光協会内）",
       "genre": [
         "花火"
@@ -12375,13 +12358,26 @@
           "site_name": "鳥取市観光サイト",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://tottorizumu.com/iwami-hanabi/",
+          "site_name": "とっとリズム",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "2026年7月25日の明記は1記事のみで、主催・場所情報は岩美町観光協会の過去実績ベース情報との照合。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "date_note",
+        "rain_policy",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13918,7 +13914,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -13980,7 +13976,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -14037,6 +14033,134 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_223",
+      "name": "富士まつり花火大会",
+      "alternate_names": [
+        "富士まつり2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "静岡県",
+      "city": "富士市",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "荒天等の場合は2026-07-27(月)に順延。順延日も荒天中止の場合のみ払戻し。",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "荒天時は7/27(月)に順延、順延日も荒天中止の場合のみ払戻し",
+      "organizer": "富士まつり運営委員会（事務局：富士市交流観光課）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "富士市制60周年記念、過去最大6060発",
+      "is_free": true,
+      "price": "有料席あり（いす席3,000円／ファミリーシート10,000円／花火撮影席5,000円／プレミアム席15,000円）※2026年分は完売",
+      "ticket_url": "https://7ticket.jp/s/116031",
+      "history_years": "不明",
+      "history_description": "富士市制60周年記念として「過去から未来へ」をテーマに開催。市制施行後の各年代の音楽に合わせた花火演出。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.fuji.shizuoka.jp/1035170000/miryoku/p007462.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.fuji.shizuoka.jp/1035170000/miryoku/p007462.html",
+          "site_name": "富士市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0622e357468/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://sorahanabi.com/shizuoka/fuji/fujimatsuri-hanabitaikai.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_224",
+      "name": "第76回高知市納涼花火大会",
+      "alternate_names": [
+        "高知市納涼花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "高知県",
+      "city": "高知市",
+      "date_start": "2026-08-09",
+      "date_end": "2026-08-09",
+      "date_note": "荒天時は2026-08-13(木)に延期",
+      "time_start": "19:45",
+      "time_end": "21:00",
+      "rain_policy": "荒天時は8/13(木)同時刻に延期。延期日も荒天の場合は中止",
+      "organizer": "公益社団法人高知市観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "約4000発、ナイアガラ花火全長約650m",
+      "is_free": true,
+      "price": "有料観覧席あり（パイプ椅子席2,100円〜テーブル席20,000円等）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "高知市の夏の風物詩で第76回を数える伝統の花火大会。鏡川河畔にて開催。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR高知駅から路面電車で県庁前下車、徒歩3分",
+      "official_url": "https://welcome-kochi.jp/event/hanabi/index.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://welcome-kochi.jp/event/hanabi/index.html",
+          "site_name": "高知市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.city.kochi.kochi.jp/site/kanko/hanabi.html",
+          "site_name": "高知市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0939e00705/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
