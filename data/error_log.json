@@ -149,6 +149,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25から数えて25回連続（9日目）で同一のAPI access blockedエラーが継続。状況変化なし、前回2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push）は正常に完了、新規1件：びわ湖大花火大会（滋賀県・第40回記念大会）。更新3件：山あげ祭（那須烏山市公式サイトに令和8年公演日程ページが新設されたことを確認しrequires_checkを解除）、木更津港まつり花火大会（木更津市公式サイト・ちば観光ナビで一次確認が取れ信頼度を高に更新）、みなとみらい大盆踊り（横浜市公式観光サイトで開催時間16:30-20:30の裏付けが取れ信頼度を中に更新）。福知山ドッコイセまつり（festival_183）のパレード本体日程、中津川おいでん祭（festival_177）の年次混在懸念、建部大社納涼船幸祭（festival_181）の2026年公式告知については再検索したが新たな一次情報を得られず状態維持。なにわ淀川花火大会2026（10/17開催確定）は本DBの収集対象期間（向こう8週間）外のため今回は追加を見送り。花火大会中止・延期情報（ウォーカープラス中止一覧）も確認したが、本DB収録の祭りに影響するものは無し。なお、git_push.pyのgit push origin mainは今回もローカルmainブランチが作業ブランチ(HEAD)より1コミット遅れていたため一度non-fast-forwardで失敗し、origin/mainがHEADの祖先であることを確認したうえでローカルmainをHEADへfast-forwardしgit push origin mainを再実行して解消（既知の事象）。"
+    },
+    {
+      "timestamp": "2026-07-08 22:30",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて26回連続（9日目）で同一のAPI access blockedエラーが継続。状況変化なし、前回2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push）は正常に完了、新規1件：かごしま錦江湾サマーナイト大花火大会（鹿児島市・第24回、8/29開催、公式サイト等3ソースで確認し信頼度を高に設定）。データ品質改善として、高知市納涼花火大会（festival_112）と第76回高知市納涼花火大会（festival_224）が同一イベントの重複登録であることを主催・日程・場所・出典が完全一致することから確認し、festival_112に統合してfestival_224を削除（220件→220件、うち新規1・統合分削除1）。掛川祭（festival_179）・亀岡祭山鉾行事（festival_182）は公式サイトを再確認したが、いずれも令和7年（2025年）の情報のみで2026年（令和8年）の正式発表はまだ無く、requires_checkを維持。三木秋まつり（festival_187）・美馬市花火大会（festival_196）・鹿沼今宮神社祭の屋台行事（festival_152）も再検索したが2026年の確定情報は得られず状態維持。なお、git_push.pyのgit push origin mainは今回もローカルmainブランチが作業ブランチ(HEAD)より1コミット遅れていたため一度non-fast-forwardで失敗し、origin/mainがHEADの祖先であることを確認したうえでローカルmainをHEADへfast-forwardしgit push origin mainを再実行して解消（既知の事象）。"
     }
   ]
 }
