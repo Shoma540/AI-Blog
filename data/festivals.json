@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08 17:30",
+  "last_updated": "2026-07-08 21:40",
   "festivals": [
     {
       "id": "festival_001",
@@ -3484,11 +3484,8 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 旧情報(道ジュネー含む9/4〜9/6の3日間)と最新公式情報(9/5〜9/6の2日間)で開催日数が異なる。最新の公式発表を採用。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "price",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -6525,15 +6522,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_102",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "date_note",
-        "trust_level",
-        "sources",
-        "rain_policy",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "矛盾を解消：とうろう流しと大花火大会は8/16開催と確定（従来は敦賀まつり本体9/2-5との整合性が不明だった）"
@@ -7606,7 +7596,7 @@
       "city": "那須烏山市",
       "date_start": "2026-07-24",
       "date_end": "2026-07-26",
-      "date_note": "毎年7月第4土曜日を含む金土日の3日間。2026年の第4土曜日は7/25のため7/24(金)-26(日)。一部情報源で前日7/23の準備行事や交通規制上7/27まで言及するものもあり、日数の詳細は要確認。",
+      "date_note": "毎年7月第4土曜日を含む金土日の3日間。2026年の第4土曜日は7/25のため7/24(金)-26(日)。那須烏山市公式サイトに「令和8(2026)年公演日程」ページが新たに公開され2026年も同形式での開催を確認。前回懸念した7/27までの延長を示す2026年向けの一次情報は今回の再確認では見当たらなかった。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -7655,14 +7645,25 @@
           "site_name": "栃木県公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.city.nasukarasuyama.lg.jp/yamaage-matsuri/schedule-location/page006791.html",
+          "site_name": "那須烏山市公式サイト「令和8(2026)年公演日程」",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "交通規制関連情報で7/27まで言及する記述があり、本祭3日間に加えて予備日が存在する可能性。要確認。",
-      "requires_check": true,
+      "conflict_note": "",
+      "requires_check": false,
       "id": "festival_119",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "conflict_note",
+        "requires_check",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -10380,8 +10381,8 @@
       "date_note": "打ち上げ時間19:05〜20:30。第79回。",
       "time_start": "不明",
       "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "木更津港まつり実行委員会",
+      "rain_policy": "順延なし（雨天決行）",
+      "organizer": "木更津港まつり実行委員会（木更津市経済部観光振興課）",
       "genre": [
         "花火"
       ],
@@ -10395,7 +10396,7 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "不明",
-      "official_url": "https://hanabi.walkerplus.com/detail/ar0312e00916/",
+      "official_url": "https://www.city.kisarazu.lg.jp/soshiki/keizai/kankoshinko/2/2/14381.html",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -10412,13 +10413,33 @@
           "site_name": "ウォーカープラス花火大会2026",
           "is_official": false,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.kisarazu.lg.jp/soshiki/keizai/kankoshinko/2/2/14381.html",
+          "site_name": "木更津市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://maruchiba.jp/event/detail_12990.html",
+          "site_name": "ちば観光ナビ（千葉県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "木更津市公式サイトでの直接確認ができておらず、花火情報専門サイト2社のみでの一致。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "official_url",
+        "rain_policy",
+        "organizer",
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -11475,17 +11496,8 @@
       "trust_level": "中",
       "conflict_note": "サブイベントごとの日程は公式サイトで個別に確認できたが、「ドッコイセ音頭総おどり」パレード本体の2026年開催日程は未確認のため要継続確認。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_note",
-        "sources",
-        "alternate_names",
-        "genre",
-        "date_end",
-        "organizer",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "従来「8/14〜8/25」の期間説など複数の不確実な日程があったが、福知山HANABI(8/11)・こども大会(8/14)・BONCHI祭(8/15)という個別サブイベントの確定日程が新たに判明"
@@ -12942,10 +12954,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13665,9 +13675,9 @@
       "date_start": "2026-08-28",
       "date_end": "2026-08-29",
       "date_note": "第17回開催。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "time_start": "16:30",
+      "time_end": "20:30",
+      "rain_policy": "小雨決行（順延なし）",
       "organizer": "パシフィコ横浜",
       "genre": [
         "盆踊り"
@@ -13693,13 +13703,26 @@
           "site_name": "パシフィコ横浜公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://www.welcome.city.yokohama.jp/eventinfo/ev_detail.php?bid=yw10025",
+          "site_name": "横浜市観光情報サイト（横浜市公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "trust_level",
+        "requires_check",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13774,10 +13797,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13850,10 +13871,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14051,7 +14070,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -14118,6 +14137,82 @@
       ],
       "trust_level": "高",
       "conflict_note": "有料観覧エリア導入の詳細（規模・料金）は情報源間で確認が取れておらず要継続確認。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_227",
+      "name": "びわ湖大花火大会",
+      "alternate_names": [
+        "第40回記念大会 2026びわ湖大花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "滋賀県",
+      "city": "大津市",
+      "date_start": "2026-08-06",
+      "date_end": "2026-08-06",
+      "date_note": "第40回記念大会。2部制で開催：第1部19:30〜19:45（ドローン・レーザー・音楽と連携した花火）、第2部19:45〜20:30（尺玉斜め打ちなど従来演出）。荒天時の順延有無は公式サイトで随時更新予定のため現時点で不明。",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "びわ湖大花火大会実行委員会（大津市）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（第40回記念大会、打ち上げ数約12,000発、最大10号玉）",
+      "is_free": null,
+      "price": "有料観覧席あり（チケット販売サイトで取扱い）。無料区域の有無は公式サイトに明記なく不明。",
+      "ticket_url": "https://ssw.web.docomo.ne.jp/ticket/biwako-fireworks/",
+      "history_years": 40,
+      "history_description": "琵琶湖畔（大津市）で開催される滋賀県最大級の花火大会。2026年は第40回記念大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.biwako-visitors.jp/hanabi",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.otsu.lg.jp/soshiki/025/1604/g/kanko/74310.html",
+          "site_name": "大津市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.biwako-visitors.jp/hanabi",
+          "site_name": "びわ湖大花火大会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0725e00765/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3401011/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.nikkei.com/article/DGXZQOUF307RY0Q6A130C2000000/",
+          "site_name": "日本経済新聞",
+          "is_official": false,
+          "retrieved_date": "2026-07-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
