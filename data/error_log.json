@@ -137,6 +137,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25から数えて23回連続（9日目）で同一のAPI access blockedエラーが継続。状況変化なし、前回2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push、新規2件：富士まつり花火大会・第76回高知市納涼花火大会）は正常に完了。浦富海岸元気フェスティバル（いわみ花火祭り、festival_195）は2026年6月公開のとっとリズム記事で「7/25開催・荒天時7/26順延」と一次確認が取れたためrequires_checkを解除し信頼度を高に更新。今回はgit push origin main実行時に一瞬non-fast-forwardで拒否されたが、再fetch後にHEADがorigin/mainのfast-forwardであることを確認し再pushして解消（既知の事象）。"
+    },
+    {
+      "timestamp": "2026-07-08 17:30",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて24回連続（9日目）で同一のAPI access blockedエラーが継続。状況変化なし、前回2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push、新規2件：さっぽろ夏まつり・道新UHB花火大会、更新6件）は正常に完了。今回はデータ品質改善として、過去の実行で重複登録されていた4件の祭り（諏訪湖祭湖上花火大会・沖縄全島エイサーまつり・江戸川区花火大会・熊野大花火大会）を同一性判定に基づき統合し、festivals.jsonの重複を解消（221件→219件）。また敦賀まつり（festival_102）はとうろう流しと大花火大会が本祭とは別日程の付帯行事(8/16)であることが敦賀市公式サイトで確認できたため矛盾を解消しrequires_checkを解除、信頼度を高に更新。福知山ドッコイセまつり（festival_183）は福知山HANABI(8/11)・BONCHI祭(8/15)という個別サブイベントの公式日程が新たに判明したため日程情報を更新したが、パレード本体の日程は未確認のためrequires_checkは維持。なお、git_push.pyのgit push origin mainは今回もローカルmainブランチが作業ブランチ(HEAD)より1コミット遅れていたため一度non-fast-forwardで失敗し、ローカルmainをHEADへfast-forwardした上でgit push -u origin mainを再実行して解消（既知の事象）。"
     }
   ]
 }
