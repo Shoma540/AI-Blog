@@ -125,6 +125,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25から数えて21回連続（1週間以上）で同一のAPI access blockedエラーが継続。状況変化なし、前回2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push、新規3件：福井フェニックスまつり・赤川花火大会・みなとみらい大盆踊り）は正常に完了。吉川八坂祭り（festival_210）は吉川市公式サイトで7/18(土)・19(日)開催、神輿競演19日20:00〜21:00と直接確認が取れたため矛盾を解消しrequires_checkを解除、信頼度を高に更新。敦賀まつり（festival_102）・福知山ドッコイセまつり（festival_183）は再検索したが2026年の確定日程を巡る矛盾を解消する新情報は得られず状態維持。なお、git_push.pyのgit push origin mainは今回もローカルmainブランチが作業ブランチ(HEAD)より2コミット遅れていたため一度non-fast-forwardで失敗し、ローカルmainをHEADへfast-forwardした上でgit push -u origin mainを実行して解消（既知の事象）。"
+    },
+    {
+      "timestamp": "2026-07-08 08:16",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて22回連続（9日目）で同一のAPI access blockedエラーが継続。状況変化なし、前回2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push、新規3件：諏訪湖祭湖上花火大会・熊野大花火大会・沖縄全島エイサーまつり、更新2件：戸田橋花火大会・鷲宮催馬楽神楽夏越祭）は正常に完了。なお、git_push.pyのgit push origin mainは今回もローカルmainブランチが作業ブランチ(HEAD)より1コミット遅れていたため一度non-fast-forwardで失敗し、ローカルmainをHEADへfast-forwardした上でgit push origin mainを再実行して解消（既知の事象）。"
     }
   ]
 }
