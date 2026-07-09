@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09 17:12",
+  "last_updated": "2026-07-09 12:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -11122,10 +11122,10 @@
       "city": "中津川市",
       "date_start": "2026-08-12",
       "date_end": "2026-08-13",
-      "date_note": "8/12夜に納涼花火大会（19:30〜20:00、中津川河畔・桃山）、8/13に本祭り（16:15〜20:30、中心市街地）。小雨決行。第39回。",
+      "date_note": "8/12夜に納涼花火大会（19:30〜20:00、中津川河畔・桃山）、8/13に本祭り（16:15〜20:30、中心市街地）。小雨決行。第39回。 岐阜県観光公式サイトで2026年8月12日〜13日（予定）と明記されているのを確認。",
       "time_start": "不明",
       "time_end": "不明",
-      "rain_policy": "不明",
+      "rain_policy": "小雨決行（荒天中止）",
       "organizer": "おいでん祭実行委員会（中津川商工会議所内）",
       "genre": [
         "花火",
@@ -11158,13 +11158,25 @@
           "site_name": "中津川市公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kankou-gifu.jp/event/detail_3799.html",
+          "site_name": "岐阜県観光公式サイト「岐阜の旅ガイド」",
+          "is_official": true,
+          "retrieved_date": "2026-07-09"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "中津川商工会議所ページは前年（第39回）情報が2026年のものと混在している可能性があり要再確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "rain_policy",
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -11294,8 +11306,8 @@
       "city": "大津市",
       "date_start": "2026-08-17",
       "date_end": "2026-08-17",
-      "date_note": "毎年8月17日固定開催。大津三大祭のひとつとされる。2026年の公式発表ページは未確認のため、過去の開催パターン（直近実績2025年8月17日）からの推定を含む。",
-      "time_start": "不明",
+      "date_note": "毎年8月17日固定開催。大津三大祭のひとつ。建部大社公式サイトで2026年の神事日程（8/7御涼みの神事、8/15・16提灯点灯、8/17 16:30出御の儀）を確認。",
+      "time_start": "16:30",
       "time_end": "不明",
       "rain_policy": "不明",
       "organizer": "建部大社",
@@ -11339,11 +11351,17 @@
           "retrieved_date": "2026-07-06"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "2026年分の公式告知は見つからず、直近実績（2025年8月17日）からの外挿。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "date_note",
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14266,7 +14284,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
