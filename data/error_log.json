@@ -161,6 +161,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25から数えて27回連続（10日目）で同一のAPI access blockedエラーが継続。状況変化なし、前回2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push）は正常に完了。今回は既存220件のうち主要祭りとの照合を行い、全国的に著名な「阿波おどり（徳島市）」が未収録だったことを確認し新規追加（THE AWAODORI公式サイト・徳島市公式サイト・日本経済新聞の3ソース一致、8/11〜15開催、信頼度：高）。福知山ドッコイセまつり（festival_183）のパレード本体日程は商工会議所公式サイトを再確認したが記載なく状態維持。建部大社納涼船幸祭（festival_181）・中津川おいでん祭（festival_177、第40回の公式告知は未検出で直近実績からの推定のまま）も2026年一次情報は得られず状態維持。花火大会中止一覧（ウォーカープラス）を確認したが、本DB収録の祭りに影響する中止は無し。前回実行分の1件（NEW）・1件（UPDATED）のdiff_statusをUNCHANGEDにリセットしてから今回の差分を計上（新規1件：阿波おどり）。なお、git_push.pyのgit push origin mainは今回もローカルmainブランチが作業ブランチ(HEAD)より1コミット遅れていたため一度non-fast-forwardで失敗し、origin/mainがHEADの祖先であることを確認したうえでローカルmainをHEADへfast-forwardしgit push origin mainを再実行して解消（既知の事象）。"
+    },
+    {
+      "timestamp": "2026-07-09 12:17",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて28回連続（11日目）で同一のAPI access blockedエラーが継続。状況変化なし、前回2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push）は正常に完了。今回はrequires_checkの残る要確認祭りのうち、期日が近い8件を優先して一次情報を再検証：中津川おいでん祭（festival_177）は岐阜県観光公式サイトで「2026年8月12日〜13日（予定）小雨決行」の明記を確認し信頼度を高に更新。建部大社納涼船幸祭（festival_181）は建部大社公式サイトで2026年の神事日程（8/7・8/15・8/16・8/17 16:30出御の儀）を確認し信頼度を高に更新。一方、采女祭（festival_184）・亀岡祭山鉾行事（festival_182）・掛川祭（festival_179）は検索結果が一見2026年情報に見えたが、各公式ページを直接確認したところそれぞれ2025年・2025年・2024年の実績データであることが判明したため上書きを見送り状態維持（誤った年の情報混入を防止）。美馬市花火大会（festival_196）も同様に検証：ページ記載の「8/17（日）」は2026年8月17日が月曜日であることから2025年実績と判断し、状態維持。diff: 新規0件・更新2件。なお、本セッションのハーネス方針により作業ブランチはclaude/blissful-keller-vjm4rl固定のため、git_push.pyのgit push origin mainをそのまま実行せず、同等のadd/commit/push処理をorigin/claude/blissful-keller-vjm4rlに対して手動実行した（過去ログのorigin main運用から変更）。"
     }
   ]
 }
