@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08 22:30",
+  "last_updated": "2026-07-09 17:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -7193,13 +7193,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_112",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "rain_policy",
-        "price",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14200,6 +14195,72 @@
           "site_name": "鹿児島県観光サイト かごしまの旅",
           "is_official": true,
           "retrieved_date": "2026-07-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_228",
+      "name": "阿波おどり（徳島市）",
+      "alternate_names": [
+        "THE AWAODORI",
+        "徳島市阿波おどり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "徳島県",
+      "city": "徳島市",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-15",
+      "date_note": "8/11(火・祝)は屋内会場「匠の舞台 優りび」（アスティとくしま）、8/12(水)〜15(土)は「夢の舞台 祭りび」（あわぎんホール）および屋外有料演舞場（藍場浜・南内町・紺屋町）で開催。",
+      "time_start": "18:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "阿波おどり未来へつなぐ実行委員会",
+      "genre": [
+        "踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "屋外有料演舞場（藍場浜・南内町・紺屋町）SS席6,000円〜C席1,000円、南内町演舞場特別観覧席15,000円。屋内はあわぎんホールSS席4,500円〜A席2,800円、アスティとくしま特別指定席5,000円〜A席2,800円。無料演舞場（両国本町・新町橋等）もあり。",
+      "ticket_url": "https://www.awaodorimirai.com/",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.awaodorimirai.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.awaodorimirai.com/2025-%E9%96%8B%E5%82%AC%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB",
+          "site_name": "The Awaodori（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-09"
+        },
+        {
+          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
+          "site_name": "徳島市公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-09"
+        },
+        {
+          "url": "https://www.nikkei.com/article/DGXZQOCC222AI0S5A221C2000000/",
+          "site_name": "日本経済新聞",
+          "is_official": false,
+          "retrieved_date": "2026-07-09"
         }
       ],
       "trust_level": "高",
