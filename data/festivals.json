@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10 01:12",
+  "last_updated": "2026-07-09 17:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -208,6 +208,7 @@
       "id": "festival_004",
       "name": "阿波おどり",
       "alternate_names": [
+        "THE AWAODORI",
         "徳島市阿波おどり"
       ],
       "similar_name_warning": false,
@@ -215,11 +216,11 @@
       "city": "徳島市",
       "date_start": "2026-08-11",
       "date_end": "2026-08-15",
-      "date_note": "8月11日は屋内会場（アスティとくしま）「優りび」、8月12日〜15日が有料・無料演舞場ほか開催。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_note": "8/11(火・祝)は屋内会場「匠の舞台 優りび」（アスティとくしま）、8/12(水)〜15(土)は「夢の舞台 祭りび」（あわぎんホール）および屋外有料演舞場（藍場浜・南内町・紺屋町）で開催。",
+      "time_start": "18:00",
+      "time_end": "22:00",
       "rain_policy": "不明",
-      "organizer": "徳島市阿波おどり実行委員会",
+      "organizer": "阿波おどり未来へつなぐ実行委員会（旧：徳島市阿波おどり実行委員会）",
       "genre": [
         "盆踊り",
         "踊り",
@@ -227,7 +228,7 @@
       ],
       "scale": "その他",
       "is_free": false,
-      "price": "演舞場は有料（一部無料演舞場あり）。WEB先行販売は6/13正午〜6/21",
+      "price": "屋外有料演舞場（藍場浜・南内町・紺屋町）SS席6,000円〜C席1,000円、南内町演舞場特別観覧席15,000円。屋内はあわぎんホールSS席4,500円〜A席2,800円、アスティとくしま特別指定席5,000円〜A席2,800円。無料演舞場（両国本町・新町橋等）もあり。",
       "ticket_url": "https://www.awaodorimirai.com/",
       "history_years": "不明",
       "history_description": "「踊る阿呆に見る阿呆」の掛け声で知られる徳島の代表的な盆踊り。連（れん）と呼ばれる踊り集団が「ぞめき」のリズムに乗って市内を踊り歩く。徳島市阿波おどりは日本三大盆踊りの一つとされ、毎年多くの観光客を集める。",
@@ -251,20 +252,34 @@
           "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
           "site_name": "徳島市公式ウェブサイト",
           "is_official": true,
-          "retrieved_date": "2026-06-21"
+          "retrieved_date": "2026-07-09"
         },
         {
           "url": "https://www.nikkei.com/article/DGXZQOCC222AI0S5A221C2000000/",
           "site_name": "日本経済新聞",
           "is_official": false,
-          "retrieved_date": "2026-07-02"
+          "retrieved_date": "2026-07-09"
+        },
+        {
+          "url": "https://www.awaodorimirai.com/2025-%E9%96%8B%E5%82%AC%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB",
+          "site_name": "The Awaodori（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-09"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "price",
+        "date_note",
+        "organizer",
+        "alternate_names",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14208,57 +14223,55 @@
       }
     },
     {
-      "id": "festival_228",
-      "name": "阿波おどり（徳島市）",
+      "id": "festival_229",
+      "name": "葛飾納涼花火大会",
       "alternate_names": [
-        "THE AWAODORI",
-        "徳島市阿波おどり"
+        "第60回葛飾納涼花火大会"
       ],
       "similar_name_warning": false,
-      "prefecture": "徳島県",
-      "city": "徳島市",
-      "date_start": "2026-08-11",
-      "date_end": "2026-08-15",
-      "date_note": "8/11(火・祝)は屋内会場「匠の舞台 優りび」（アスティとくしま）、8/12(水)〜15(土)は「夢の舞台 祭りび」（あわぎんホール）および屋外有料演舞場（藍場浜・南内町・紺屋町）で開催。",
-      "time_start": "18:00",
-      "time_end": "22:00",
-      "rain_policy": "不明",
-      "organizer": "阿波おどり未来へつなぐ実行委員会",
+      "prefecture": "東京都",
+      "city": "葛飾区",
+      "date_start": "2026-07-28",
+      "date_end": "2026-07-28",
+      "date_note": "2026年で第60回の記念大会。荒天の場合は中止（順延の明記なし）。",
+      "time_start": "19:20",
+      "time_end": "20:30",
+      "rain_policy": "荒天の場合は中止",
+      "organizer": "葛飾区（葛飾納涼花火大会実行委員会）",
       "genre": [
-        "踊り",
-        "パレード"
+        "花火"
       ],
       "scale": "その他",
       "is_free": false,
-      "price": "屋外有料演舞場（藍場浜・南内町・紺屋町）SS席6,000円〜C席1,000円、南内町演舞場特別観覧席15,000円。屋内はあわぎんホールSS席4,500円〜A席2,800円、アスティとくしま特別指定席5,000円〜A席2,800円。無料演舞場（両国本町・新町橋等）もあり。",
-      "ticket_url": "https://www.awaodorimirai.com/",
-      "history_years": "不明",
-      "history_description": "不明",
+      "price": "有料観覧席あり（詳細は公式サイト参照）。無料観覧エリアもあり。",
+      "ticket_url": "https://www.city.katsushika.lg.jp/tourism/1000064/1000065/1031830.html",
+      "history_years": 60,
+      "history_description": "1961年頃から続く葛飾区の夏の風物詩。江戸川河川敷（柴又野球場）から至近距離で打ち上げられ、音・振動を体感できるのが特徴。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.awaodorimirai.com/",
+      "access": "京成電鉄柴又駅から徒歩10分、北総鉄道新柴又駅から徒歩15分、JR・京成金町駅から徒歩20分",
+      "official_url": "https://www.city.katsushika.lg.jp/tourism/1000064/1000065/1031830.html",
       "sns_accounts": {
-        "instagram": "不明"
+        "instagram": "https://www.instagram.com/hanabi__katsushika/"
       },
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.awaodorimirai.com/2025-%E9%96%8B%E5%82%AC%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB",
-          "site_name": "The Awaodori（公式）",
+          "url": "https://www.city.katsushika.lg.jp/tourism/1000064/1000065/1031830.html",
+          "site_name": "葛飾区公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-09"
         },
         {
-          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
-          "site_name": "徳島市公式ウェブサイト",
-          "is_official": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00861/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
           "retrieved_date": "2026-07-09"
         },
         {
-          "url": "https://www.nikkei.com/article/DGXZQOCC222AI0S5A221C2000000/",
-          "site_name": "日本経済新聞",
+          "url": "https://weathernews.jp/hanabi/spot/2201008/",
+          "site_name": "ウェザーニュース",
           "is_official": false,
           "retrieved_date": "2026-07-09"
         }
@@ -14266,7 +14279,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
