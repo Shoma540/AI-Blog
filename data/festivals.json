@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09 17:12",
+  "last_updated": "2026-07-09 18:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -270,16 +270,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "price",
-        "date_note",
-        "organizer",
-        "alternate_names",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14272,6 +14264,70 @@
         {
           "url": "https://weathernews.jp/hanabi/spot/2201008/",
           "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-09"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_230",
+      "name": "神宮外苑花火大会",
+      "alternate_names": [
+        "2026 神宮外苑花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "新宿区",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "荒天の場合は翌8/9(日)に順延。中止判断は当日正午に公式サイト・SNSで発表。",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "小雨決行。荒天の場合は翌日に順延。",
+      "organizer": "神宮外苑花火大会実行委員会（ぴあライブクリエイティブ・日刊スポーツホールディングス・テレビ朝日・ポニーキャニオン共同主催）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "10,000発",
+      "is_free": false,
+      "price": "有料観覧席あり（神宮球場・秩父宮ラグビー場の2会場、詳細はチケット情報ページ参照）",
+      "ticket_url": "https://www.jinguhanabi.com/",
+      "history_years": null,
+      "history_description": "明治神宮外苑（神宮軟式球場）から花火を打ち上げる都心の大型花火大会。アーティストライブも同時開催。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.jinguhanabi.com/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/jinguhanabi/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.jinguhanabi.com/about.html",
+          "site_name": "2026 神宮外苑花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-09"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00876/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-09"
+        },
+        {
+          "url": "https://www.fashion-press.net/news/146952",
+          "site_name": "ファッションプレス",
           "is_official": false,
           "retrieved_date": "2026-07-09"
         }
