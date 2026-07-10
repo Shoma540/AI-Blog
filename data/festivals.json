@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10 16:20",
+  "last_updated": "2026-07-10 17:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -11508,11 +11508,8 @@
       "trust_level": "中",
       "conflict_note": "「ドッコイセ音頭総おどり」パレード本体の2026年日程は公式未確認。非公式サイトの8/14という情報は参考情報にとどめ、採用しない。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12358,18 +12355,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "time_start",
-        "time_end",
-        "date_note",
-        "trust_level",
-        "conflict_note",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：2025年8月16日(土) → 今年：2026年8月22日(土)"
@@ -14538,7 +14525,7 @@
       "trust_level": "中",
       "conflict_note": "「祇園祭」を名乗るが京都の祇園祭（八坂神社）とは無関係の、広瀬地域（安来市）独自の神輿祭り。同名の他祭りと混同しないよう注意。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -14587,6 +14574,129 @@
       ],
       "trust_level": "低",
       "conflict_note": "確認できたソースは唐津観光協会公式サイト1件のみ。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_235",
+      "name": "鳥取しゃんしゃん祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "鳥取市",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-14",
+      "date_note": "8/13(木)すずっこ踊り前夜祭、8/14(金)一斉傘踊り。8/15(土)に市民納涼花火大会が例年フィナーレとして開催されるが、2026年の花火詳細は公式サイトで「決まり次第更新」とされ本稿時点で未確定のため日程範囲には含めていない。",
+      "time_start": "17:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "鳥取しゃんしゃん祭振興会",
+      "genre": [
+        "踊り",
+        "パレード"
+      ],
+      "scale": "その他（鳥取市最大の夏祭り）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://tottori-shanshan.jp/event",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tottori-shanshan.jp/event",
+          "site_name": "鳥取しゃんしゃん祭 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        },
+        {
+          "url": "https://www.torican.jp/festival/detail_1090.html",
+          "site_name": "鳥取市観光サイト【公式】",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/ar0831/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-10"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_236",
+      "name": "長野びんずる",
+      "alternate_names": [
+        "長野びんずる祭り",
+        "第56回長野びんずる"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "長野市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第56回。「市民総和楽・総参加」を掲げる長野市の市民祭。",
+      "time_start": "11:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "第56回長野びんずる実行委員会",
+      "genre": [
+        "踊り",
+        "パレード"
+      ],
+      "scale": "その他（長野市最大の市民祭）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 56,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://nagano-binzuru.jp/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/nbinzuru/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://nagano-binzuru.jp/",
+          "site_name": "第56回長野びんずる 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        },
+        {
+          "url": "https://www.city.nagano.nagano.jp/n150800/event/p000011.html",
+          "site_name": "長野市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
