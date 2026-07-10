@@ -185,6 +185,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25から数えて31回連続（11日目）で同一のAPI access blockedエラーが継続。状況変化なし、前回2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push、新規1件）は正常に完了、大分県中津市の「中津祇園」（伝統約600年・豊前三大祭の一つ、7/24〜26開催）を新規追加（223件→224件、中津祇園保存協議会公式サイト・大分県公式観光サイトの2ソース一致、信頼度：中）。附帯行事の中津祇園市民花火大会は協賛金不足等を理由に2026年は中止決定（祭り本体は開催）と確認したため、conflict_noteに補足記載。requires_check中の案件（宮崎神宮大祭・三木秋まつり・美馬市花火大会・建部大社納涼船幸祭など）を再検索したが、2026年の確定一次情報は新たに得られず状態維持。花火大会・祭りの中止情報を確認し、中津祇園市民花火大会（附帯行事、本体祭りへの影響なし）以外に本DB収録の224件に影響する中止・延期は無し。なお、ローカルmainブランチが作業ブランチ(HEAD)より39コミット遅れていたため、git_push.py実行前にローカルmainをoriginへfast-forwardして解消（既知の事象）。"
+    },
+    {
+      "timestamp": "2026-07-10 16:20",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて32回連続（11日目）で同一のAPI access blockedエラーが継続。2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push）は正常完了、新規2件・更新2件。新規追加：広瀬祇園祭（festival_233、島根県安来市、7/19-20、安来市観光協会・しまね観光ナビの2ソース一致、信頼度：中）、浜玉町花火大会（festival_234、佐賀県唐津市、7/24、唐津観光協会公式1ソースのみ、信頼度：低）。更新：津田まつり（festival_197）は非公式サイトが示していた2026-08-22という予測日程がさぬき市観光協会公式サイトで正式確認され、信頼度を低から中に更新・requires_checkを解除。福知山ドッコイセまつり（festival_183）はWalkerPlus（非公式）に「令和8年は日にちが変更されている」との注記付きで8/14総踊りの記載を確認したが公式サイト（dokkoise.com・福知山商工会議所）は未掲載のためdate_note/conflict_noteに参考情報として記録するに留め、日付フィールドは変更せず。requires_check中の他案件（建部大社納涼船幸祭、美馬市花火大会）を再検索したが2026年の確定一次情報は新たに得られず状態維持。なお、git_push.pyのgit push origin mainは今回もローカルmainブランチが作業ブランチ(HEAD)より1コミット遅れていたため一度non-fast-forwardで失敗し、origin/mainがHEADの祖先であることを確認したうえでローカルmainをHEADへfast-forwardしgit push origin mainを再実行して解消（既知の事象）。作業ブランチ(claude/blissful-keller-r9n82i)もorigin へ新規push済み。"
     }
   ]
 }
