@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10 08:12",
+  "last_updated": "2026-07-10 12:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -11182,13 +11182,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14417,6 +14412,61 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_232",
+      "name": "中津祇園",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "大分県",
+      "city": "中津市",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-26",
+      "date_note": "中津祇園保存協議会公式サイトでは7/23(木)「町内回り」（一部町内のみ）を含む4日間、大分県公式観光サイトでは7/24(金)～26(日)の3日間と表記。中心日程は7/24～26で一致。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "中津祇園保存協議会／中津市観光課",
+      "genre": [
+        "神輿",
+        "山車"
+      ],
+      "scale": "大分県指定無形民俗文化財",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 600,
+      "history_description": "疫病退散と無病息災祈願を目的に約600年の伝統を持つ祭り。豊前三大祭・大分県三大祇園祭の一つ。下祇園（闇無濱神社）と上祇園（中津神社）あわせて「祇園車」と呼ばれる漆塗りの山車13台と御神輿2基が城下町を巡行し、各地点で民舞などが奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大分県中津市（闇無濱神社・中津神社ほか）",
+      "official_url": "https://nakatsu-gion.com/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://nakatsu-gion.com/2026/03/2026nittei/",
+          "site_name": "中津祇園保存協議会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        },
+        {
+          "url": "https://www.visit-oita.jp/events/detail/14047",
+          "site_name": "日本一の「おんせん県」大分県観光情報公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "開催日数（3日間 or 4日間）の表記に軽微な差異あり。中心日程7/24-26で一致のため矛盾ではなく補足として扱う。なお、附帯イベントの「中津祇園市民花火大会」は協賛金不足・資材費高騰を理由に2026年は中止が決定（祭り本体は開催）。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
