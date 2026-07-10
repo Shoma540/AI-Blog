@@ -191,6 +191,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25から数えて32回連続（11日目）で同一のAPI access blockedエラーが継続。2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push）は正常完了、新規2件・更新2件。新規追加：広瀬祇園祭（festival_233、島根県安来市、7/19-20、安来市観光協会・しまね観光ナビの2ソース一致、信頼度：中）、浜玉町花火大会（festival_234、佐賀県唐津市、7/24、唐津観光協会公式1ソースのみ、信頼度：低）。更新：津田まつり（festival_197）は非公式サイトが示していた2026-08-22という予測日程がさぬき市観光協会公式サイトで正式確認され、信頼度を低から中に更新・requires_checkを解除。福知山ドッコイセまつり（festival_183）はWalkerPlus（非公式）に「令和8年は日にちが変更されている」との注記付きで8/14総踊りの記載を確認したが公式サイト（dokkoise.com・福知山商工会議所）は未掲載のためdate_note/conflict_noteに参考情報として記録するに留め、日付フィールドは変更せず。requires_check中の他案件（建部大社納涼船幸祭、美馬市花火大会）を再検索したが2026年の確定一次情報は新たに得られず状態維持。なお、git_push.pyのgit push origin mainは今回もローカルmainブランチが作業ブランチ(HEAD)より1コミット遅れていたため一度non-fast-forwardで失敗し、origin/mainがHEADの祖先であることを確認したうえでローカルmainをHEADへfast-forwardしgit push origin mainを再実行して解消（既知の事象）。作業ブランチ(claude/blissful-keller-r9n82i)もorigin へ新規push済み。"
+    },
+    {
+      "timestamp": "2026-07-10 17:25",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて33回連続（11日目）で同一のAPI access blockedエラーが継続。2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push）は正常完了、新規2件：鳥取しゃんしゃん祭（festival_235、鳥取県鳥取市、8/13-14、公式サイト・鳥取市観光サイト【公式】・ウォーカープラスの3ソース一致、信頼度：高）、長野びんずる（festival_236、長野県長野市、8/1、公式サイト・長野市公式ホームページの2ソース一致、信頼度：高）。requires_check中の3件（建部大社納涼船幸祭、美馬市花火大会、佐倉の秋祭り）を再検索したが、いずれも2026年の確定日程を示す新規の一次情報は得られず、むしろ検索結果の一部（美馬市花火大会「8/17(日)」、鳥取しゃんしゃん祭花火大会「8/15」の一部情報等）が前年（2025年）実績の未更新ページである可能性を確認したのみで、状態を維持（更新なし）。"
     }
   ]
 }
