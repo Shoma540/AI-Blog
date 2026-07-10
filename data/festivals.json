@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10 12:30",
+  "last_updated": "2026-07-10 16:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -11443,7 +11443,7 @@
       "city": "福知山市",
       "date_start": "2026-08-11",
       "date_end": "2026-08-15",
-      "date_note": "従来「福知山ドッコイセまつり」として一体運営されてきた祭りは、近年「福知山HANABI」（花火・8/11）、「ドッコイセこども大会」（8/14）、「BONCHI祭」（野外フェス・8/15）という独立性の高い複数のサブイベントに再編されている。福知山HANABI2026は一般社団法人DOKKOISE公式サイトで8/11(火) 20:00〜20:45・由良川河川敷(音無瀬橋)開催と確認。BONCHI祭2026は公式サイトで8/15 9:00〜20:30・三段池公園大はらっぱ広場開催と確認。「ドッコイセ音頭総おどり」パレード本体の2026年開催有無・日程は今回も確認できず要継続確認。",
+      "date_note": "従来「福知山ドッコイセまつり」として一体運営されてきた祭りは、近年「福知山HANABI」（花火・8/11）、「ドッコイセこども大会」（8/14）、「BONCHI祭」（野外フェス・8/15）という独立性の高い複数のサブイベントに再編されている。福知山HANABI2026は一般社団法人DOKKOISE公式サイトで8/11(火) 20:00〜20:45・由良川河川敷(音無瀬橋)開催と確認。BONCHI祭2026は公式サイトで8/15 9:00〜20:30・三段池公園大はらっぱ広場開催と確認。「ドッコイセ音頭総おどり」パレード本体の2026年開催有無・日程は今回も確認できず要継続確認。 2026-07-10再確認：非公式サイト(WalkerPlus)に「令和8年は日にちが変更されている」との注記とともに8/14(金)総踊り・8/25(火)市民総おどり大会という記載を確認したが、dokkoise.com・福知山商工会議所の公式サイトには2026年分の掲載がまだなく未確認のまま。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -11506,10 +11506,13 @@
         }
       ],
       "trust_level": "中",
-      "conflict_note": "サブイベントごとの日程は公式サイトで個別に確認できたが、「ドッコイセ音頭総おどり」パレード本体の2026年開催日程は未確認のため要継続確認。",
+      "conflict_note": "「ドッコイセ音頭総おどり」パレード本体の2026年日程は公式未確認。非公式サイトの8/14という情報は参考情報にとどめ、採用しない。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12311,11 +12314,11 @@
       "similar_name_warning": false,
       "prefecture": "香川県",
       "city": "さぬき市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "さぬき市観光協会公式サイトでは2025年8月16日(土)開催情報のみ確認。非公式まとめサイト1件は2026年8月22日(土)開催と記載しているが、公式サイトでの2026年発表は未確認。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-22",
+      "date_note": "さぬき市観光協会公式サイトで2026年開催日を確認：2026年8月22日(土)13:00〜21:00、花火打ち上げ20:00〜。荒天時は花火のみ8月23日(日)同時刻に延期。非公式サイトが示していた2026-08-22という予測日程が公式発表で裏付けられた。",
+      "time_start": "13:00",
+      "time_end": "21:00",
       "rain_policy": "不明",
       "organizer": "さぬき市観光協会",
       "genre": [
@@ -12343,7 +12346,7 @@
           "url": "https://sanuki-kanko.jp/event/summer/post-1407.html",
           "site_name": "さぬき市観光ガイド（公式）",
           "is_official": true,
-          "retrieved_date": "2026-07-06"
+          "retrieved_date": "2026-07-10"
         },
         {
           "url": "https://kagawa-life.website/2026-hanabi/",
@@ -12352,14 +12355,24 @@
           "retrieved_date": "2026-07-06"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "公式サイトは2025年情報のみで2026年日程は非公式サイト1件のみの記載。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "time_start",
+        "time_end",
+        "date_note",
+        "trust_level",
+        "conflict_note",
+        "requires_check",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：2025年8月16日(土) → 今年：2026年8月22日(土)"
       }
     },
     {
@@ -14467,6 +14480,113 @@
       ],
       "trust_level": "中",
       "conflict_note": "開催日数（3日間 or 4日間）の表記に軽微な差異あり。中心日程7/24-26で一致のため矛盾ではなく補足として扱う。なお、附帯イベントの「中津祇園市民花火大会」は協賛金不足・資材費高騰を理由に2026年は中止が決定（祭り本体は開催）。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_233",
+      "name": "広瀬祇園祭",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "島根県",
+      "city": "安来市広瀬町",
+      "date_start": "2026-07-19",
+      "date_end": "2026-07-20",
+      "date_note": "7/19(日)宵宮・神輿清め18:00〜、7/20(月)未明・夜の神輿渡御、花火20:00〜20:15/20:30、屋台17:00〜22:00、ステージ19:00〜22:00。",
+      "time_start": "18:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "広瀬祇園祭実行委員会（安来市観光協会広瀬支部）",
+      "genre": [
+        "神輿",
+        "花火"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "無料（観覧自由）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "屋台あり（17:00〜22:00）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://yasugi-kankou.com/event/hirose-gion-festival/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://yasugi-kankou.com/event/hirose-gion-festival/",
+          "site_name": "安来市観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        },
+        {
+          "url": "https://www.kankou-shimane.com/events/67276",
+          "site_name": "しまね観光ナビ（島根県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "「祇園祭」を名乗るが京都の祇園祭（八坂神社）とは無関係の、広瀬地域（安来市）独自の神輿祭り。同名の他祭りと混同しないよう注意。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_234",
+      "name": "浜玉町花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "唐津市浜玉町",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-24",
+      "date_note": "荒天時の順延有無は未確認。",
+      "time_start": "20:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "浜玉観光運営委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（観覧自由）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "浜崎海岸",
+      "official_url": "https://www.karatsu-kankou.jp/events/detail/914",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.karatsu-kankou.jp/events/detail/914",
+          "site_name": "唐津観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "確認できたソースは唐津観光協会公式サイト1件のみ。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
