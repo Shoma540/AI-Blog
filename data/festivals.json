@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09 18:12",
+  "last_updated": "2026-07-10 08:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -11165,13 +11165,30 @@
           "site_name": "中津川市公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.kankou-gifu.jp/event/detail_3799.html",
+          "site_name": "岐阜県観光公式サイト「岐阜の旅ガイド」",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        },
+        {
+          "url": "https://high-fieldshop.com/nakatsugawa-oidensai/",
+          "site_name": "エンジョイ情報局",
+          "is_official": false,
+          "retrieved_date": "2026-07-10"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "中津川商工会議所ページは前年（第39回）情報が2026年のものと混在している可能性があり要再確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14330,6 +14347,72 @@
           "site_name": "ファッションプレス",
           "is_official": false,
           "retrieved_date": "2026-07-09"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_231",
+      "name": "みたままつり",
+      "alternate_names": [
+        "靖国神社みたままつり",
+        "靖國神社みたままつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "date_start": "2026-07-13",
+      "date_end": "2026-07-16",
+      "date_note": "第79回。",
+      "time_start": "17:00",
+      "time_end": "21:30",
+      "rain_policy": "雨天決行",
+      "organizer": "靖國神社",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "社頭参拝は無料。祭典参列・正式参拝は5,000円より、夜間中庭参拝は一般2,000円（小学生以下無料）。",
+      "ticket_url": "不明",
+      "history_years": 79,
+      "history_description": "戦没者の霊を慰めるため明治時代から続く靖国神社の夏の祭事。約3万の献灯（みあかし）が境内を彩る。",
+      "food_stalls": "境内での露店の出店はなし。キッチンカーが11:00〜21:00に出店予定。",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.yasukuni.or.jp/schedule/saiji.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yasukuni.or.jp/news_detail.html?id=701",
+          "site_name": "靖國神社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        },
+        {
+          "url": "https://visit-chiyoda.tokyo/app/event/detail/938",
+          "site_name": "Visit Chiyoda（千代田区観光協会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000003.000115346.html",
+          "site_name": "PR TIMES（靖國神社プレスリリース）",
+          "is_official": true,
+          "retrieved_date": "2026-07-10"
         }
       ],
       "trust_level": "高",
