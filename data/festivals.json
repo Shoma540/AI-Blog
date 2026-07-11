@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10 18:10",
+  "last_updated": "2026-07-11 08:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -4976,7 +4976,7 @@
         }
       ],
       "trust_level": "低",
-      "conflict_note": "検索結果の一部に「2026年10月10-12日開催」とのAI要約が見られたが、これは2025年実績の誤表記（年違い）と判断し採用しなかった。",
+      "conflict_note": "公式サイト・佐倉市公式ページとも2026年7月11日時点では2025年（令和7年10月10日〜12日）の情報のみ掲載。2026年日程は未発表のため要再確認。",
       "requires_check": true,
       "diff_status": "UNCHANGED",
       "updated_fields": [],
@@ -11313,7 +11313,7 @@
       "city": "大津市",
       "date_start": "2026-08-17",
       "date_end": "2026-08-17",
-      "date_note": "毎年8月17日固定開催。大津三大祭のひとつとされる。2026年の公式発表ページは未確認のため、過去の開催パターン（直近実績2025年8月17日）からの推定を含む。",
+      "date_note": "8/17(月) 16:30に建部大社にて「納涼船幸祭出御の儀」、瀬田浜より御座船で黒津浜「供御の瀬」へ。奉納花火は20:00〜21:00。前日8/16 16:00に安全祈願祭、8/15献灯点灯の儀、8/7納涼祭あり（毎年同日程で開催）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -11340,29 +11340,34 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://takebetaisha.jp/ceremony/",
+          "url": "https://takebetaisha.jp/events/",
           "site_name": "建部大社（公式）",
           "is_official": true,
-          "retrieved_date": "2026-07-06"
+          "retrieved_date": "2026-07-11"
         },
         {
-          "url": "https://www.biwako-visitors.jp/event/detail/303/",
-          "site_name": "滋賀県観光情報（公式観光サイト）",
-          "is_official": true,
-          "retrieved_date": "2026-07-06"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0725e00357/",
-          "site_name": "ウォーカープラス（2025年情報）",
+          "url": "https://otsu-event.site/events/01JYT81K6XKVWFCW4M5EZ2F8SK",
+          "site_name": "大津市イベント情報集約サイト",
           "is_official": false,
-          "retrieved_date": "2026-07-06"
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_103803.html",
+          "site_name": "ジョルダン 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-11"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "2026年分の公式告知は見つからず、直近実績（2025年8月17日）からの外挿。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "sources",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12254,11 +12259,11 @@
       "similar_name_warning": false,
       "prefecture": "徳島県",
       "city": "美馬市（脇町）",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "検索で得られた「8月17日(日)開催」情報は2025年実績（8/17が日曜）の可能性が高く、2026年の確定日程は確認できなかった。例年8月中旬開催。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_start": "2026-08-17",
+      "date_end": "2026-08-17",
+      "date_note": "美馬市花火大会（脇町稲田橋対岸・吉野川河川敷）20:00〜21:00・約1,500発。同日「うだつのまちの阿波おどり大会」（道の駅藍ランドうだつ）18:00〜20:00。",
+      "time_start": "18:00",
+      "time_end": "21:00",
       "rain_policy": "不明",
       "organizer": "美馬市／美馬市観光協会",
       "genre": [
@@ -12283,22 +12288,37 @@
       "sources": [
         {
           "url": "https://www.city.mima.lg.jp/kanko/docs/2161037.html",
-          "site_name": "美馬市ホームページ",
+          "site_name": "美馬市観光サイト（公式）",
           "is_official": true,
-          "retrieved_date": "2026-07-06"
+          "retrieved_date": "2026-07-11"
         },
         {
           "url": "https://www.awanavi.jp/archives/event/1576",
-          "site_name": "阿波ナビ（徳島県公式観光サイト）",
-          "is_official": true,
-          "retrieved_date": "2026-07-06"
+          "site_name": "阿波ナビ（徳島県観光情報サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0936e00111/",
+          "site_name": "ウォーカープラス 花火大会2025",
+          "is_official": false,
+          "retrieved_date": "2026-07-11"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "記載日付が2025年実績とみられ、2026年の確定情報である確証がない。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "time_start",
+        "time_end",
+        "trust_level",
+        "requires_check",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14699,6 +14719,71 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_237",
+      "name": "久里浜ペリー祭花火大会",
+      "alternate_names": [
+        "久里浜ペリー祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "横須賀市",
+      "date_start": "2026-07-11",
+      "date_end": "2026-07-11",
+      "date_note": "花火大会は19:30〜20:00・約7,000発。同日「よこすか開国バザール」「水師提督ペリー上陸記念式典」も開催。日米親善ペリーパレードは今回開催なし。",
+      "time_start": "19:30",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火",
+        "歴史行事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "花火観覧は無料。有料観覧席：椅子席3,000円／席、ペア席9,000円／ペア（約3,000席）",
+      "ticket_url": "https://perryfes.jp/",
+      "history_years": "不明",
+      "history_description": "ペリー提督の久里浜上陸を記念して行われる祭り。花火大会のほか開国バザールなどが同時開催される。",
+      "food_stalls": "よこすか開国バザールにて出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://perryfes.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://perryfes.jp/",
+          "site_name": "久里浜ペリー祭（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://www.cocoyoko.net/event/perry-fes.html",
+          "site_name": "横須賀市観光情報",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://www.kanagawa-kankou.or.jp/event/6177",
+          "site_name": "観光かながわNOW（神奈川県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
