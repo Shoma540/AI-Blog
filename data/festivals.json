@@ -9690,12 +9690,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -11385,9 +11381,9 @@
       "similar_name_warning": false,
       "prefecture": "京都府",
       "city": "亀岡市",
-      "date_start": "2026-10-23",
+      "date_start": "2026-10-24",
       "date_end": "2026-10-25",
-      "date_note": "23日宵々山、24日宵宮、25日巡行（本祭）が例年パターン。2026年公式日程は市・連合会サイトで確認できず、2025年実績（10/24-25報道）に基づく推定を含む。",
+      "date_note": "2024年より宵々山（従来10/23開催）は実施されないことになり、24日(土)宵宮・25日(日)本祭（山鉾巡行）の2日間開催に変更。10/5にくじ取り式（亀岡市議会議場）。亀岡祭山鉾連合会公式サイトで2026年日程を確認（2026-07-11時点、曜日照合済み）。丹波の祇園祭とも呼ばれる。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -11416,7 +11412,7 @@
           "url": "https://www.k-yamahoko.com/event.html",
           "site_name": "亀岡祭山鉾連合会（公式）",
           "is_official": true,
-          "retrieved_date": "2026-07-06"
+          "retrieved_date": "2026-07-11"
         },
         {
           "url": "https://www.city.kameoka.kyoto.jp/site/kankou/3544.html",
@@ -11432,13 +11428,18 @@
         }
       ],
       "trust_level": "中",
-      "conflict_note": "3ソースとも2025年時点の情報がベースで2026年の正式発表は未確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_note",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：宵々山(10/23)を含む3日間表記 → 今年：2024年から宵々山廃止のため宵宮(10/24)・本祭巡行(10/25)の2日間に変更"
       }
     },
     {
@@ -11452,8 +11453,8 @@
       "prefecture": "京都府",
       "city": "福知山市",
       "date_start": "2026-08-11",
-      "date_end": "2026-08-15",
-      "date_note": "従来「福知山ドッコイセまつり」として一体運営されてきた祭りは、近年「福知山HANABI」（花火・8/11）、「ドッコイセこども大会」（8/14）、「BONCHI祭」（野外フェス・8/15）という独立性の高い複数のサブイベントに再編されている。福知山HANABI2026は一般社団法人DOKKOISE公式サイトで8/11(火) 20:00〜20:45・由良川河川敷(音無瀬橋)開催と確認。BONCHI祭2026は公式サイトで8/15 9:00〜20:30・三段池公園大はらっぱ広場開催と確認。「ドッコイセ音頭総おどり」パレード本体の2026年開催有無・日程は今回も確認できず要継続確認。 2026-07-10再確認：非公式サイト(WalkerPlus)に「令和8年は日にちが変更されている」との注記とともに8/14(金)総踊り・8/25(火)市民総おどり大会という記載を確認したが、dokkoise.com・福知山商工会議所の公式サイトには2026年分の掲載がまだなく未確認のまま。",
+      "date_end": "2026-08-25",
+      "date_note": "従来「福知山ドッコイセまつり」として一体運営されてきた祭りは、近年「福知山HANABI」（花火・8/11）、「ドッコイセこども大会」、「BONCHI祭」（野外フェス・8/15）という独立性の高い複数のサブイベントに再編。福知山HANABI2026は8/11(火)20:00〜20:45・由良川河川敷(音無瀬橋)。BONCHI祭2026は8/15 9:00〜20:30・三段池公園大はらっぱ広場。「ドッコイセ音頭総おどり」パレード本体は、福知山観光協会公式サイト（dokkoise.com）の「福知山ドッコイセ祭り2026」専用ページ（本文中に『令和８年８月１４日（金）・２５日（火）』と明記、2026-07-11取得・曜日照合済み）で8/14(金)御霊公園/広小路通り、8/25(火)福知山駅北口公園（市民総おどり大会）と確認。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -11513,16 +11514,28 @@
           "site_name": "BONCHI祭2026 公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://dokkoise.com/%e7%a6%8f%e7%9f%a5%e5%b1%b1%e3%83%89%e3%83%83%e3%82%b3%e3%82%a4%e3%82%bb%e7%a5%ad%e3%82%8a2026/",
+          "site_name": "福知山観光協会（公式）2026年ページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "「ドッコイセ音頭総おどり」パレード本体の2026年日程は公式未確認。非公式サイトの8/14という情報は参考情報にとどめ、採用しない。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "「ドッコイセ音頭総おどり」パレード本体の8/14・8/25開催は、福知山観光協会公式サイトの2026年専用ページで確認できたが、単一ソースのため当該日程のみ信頼度は低。福知山HANABI・BONCHI祭の日程は複数ソースで確認済みのため中のまま。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_end",
+        "date_note",
+        "sources",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：総おどりの具体的日程は例年変動 → 今年：総おどり8/14(金)御霊公園・広小路通り、市民総おどり大会8/25(火)福知山駅北口公園に確定"
       }
     },
     {
@@ -11587,13 +11600,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "trust_level",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12628,12 +12636,8 @@
       "trust_level": "高",
       "conflict_note": "毎年同日開催の定例神事のため複数の公式サイトで確認できたが、2026年専用の告知ではなく例年情報からの推定。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "trust_level",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14924,7 +14928,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -14984,7 +14988,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -15046,7 +15050,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -15104,7 +15108,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -15162,11 +15166,76 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_245",
+      "name": "素盞雄神社天王祭",
+      "alternate_names": [
+        "南千住天王祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "荒川区",
+      "date_start": "2026-06-06",
+      "date_end": "2026-06-07",
+      "date_note": "3年に一度の本祭（御神幸祭）。宮出しは6月6日7時、宮入りは6月7日17〜19時ごろ。四間半（約8.1m）の担ぎ棒を持つ大神輿・中神輿・小神輿の3基が南千住・三ノ輪・三河島・町屋の61ヶ町を渡御。",
+      "time_start": "07:00",
+      "time_end": "19:00",
+      "rain_policy": "不明",
+      "organizer": "素盞雄神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "神輿の担ぎ棒は2本のみ（二天）で担ぎ、屋根の鳳凰が地面につくほど神輿を左右へ倒して激しく振る「神輿振り」で知られる、荒々しく勇壮な祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京都荒川区南千住 素盞雄神社",
+      "official_url": "https://susanoo.or.jp/tennosai/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://susanoo.or.jp/tennosai/",
+          "site_name": "素盞雄神社公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://arakawa.goguynet.jp/2026/05/11/susanojinjya-2/",
+          "site_name": "号外NET 荒川区",
+          "is_official": false,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://san-tatsu.jp/news/528301/",
+          "site_name": "さんたつ by 散歩の達人",
+          "is_official": false,
+          "retrieved_date": "2026-07-11"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "本祭（御神幸祭）は3年に一度。前回本祭は2023年、2026年は本祭年に該当（次回本祭は2029年見込み）。"
       }
     }
   ]
