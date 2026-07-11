@@ -203,6 +203,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30 18:25から数えて34回連続（12日目）で同一のAPI access blockedエラーが継続。2026-07-05 12:14のエスカレーション後も未解消のため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push）は正常完了。新規1件：久里浜ペリー祭花火大会（festival_237、神奈川県横須賀市、7/11開催・公式perryfes.jp／横須賀市観光情報／観光かながわNOWの3ソース一致、信頼度：高）。更新2件：建部大社 納涼船幸祭（festival_181）は公式サイト・大津市イベント情報集約サイト・ジョルダン花火大会2026の3ソースで8/17開催を確認し信頼度を中から高に更新、requires_checkを解除。美馬市花火大会・うだつのまちの阿波おどり大会（festival_196）は美馬市観光サイト（公式）・阿波ナビで日程「不明」から2026-08-17（花火20:00-21:00・阿波おどり18:00-20:00）を確定、信頼度を低から高に更新、requires_checkを解除。requires_check中の佐倉の秋祭り（festival_078）は公式サイト・佐倉市公式ページとも2026年7月11日時点で2025年（令和7年）の情報のみ掲載を再確認し、2026年日程は未発表のため状態維持。なお、git push origin mainは今回もローカルmainブランチが作業ブランチ(HEAD)より遅れていたため一度non-fast-forwardで失敗し、origin/mainがHEADの祖先であることを確認したうえでgit push origin HEAD:mainで解消（既知の事象）。作業ブランチ(claude/blissful-keller-420p0w)もoriginへ新規push済み。"
+    },
+    {
+      "timestamp": "2026-07-11 12:20",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25以降、本実行で35回連続同一エラー（11日以上継続）。トークン再発行では解消しない可能性が高く、Meta for Developersのアプリダッシュボードでアプリの審査状態・利用制限・ブロック理由の確認が必要。ユーザーへの通知が必要な段階と判断。"
     }
   ]
 }
