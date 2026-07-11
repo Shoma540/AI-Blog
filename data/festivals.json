@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11 12:20",
+  "last_updated": "2026-07-11 16:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -9679,13 +9679,23 @@
           "site_name": "Wikipedia",
           "is_official": false,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.buttsuke.com/",
+          "site_name": "鹿沼秋まつり公式サイト（ぶっつけ秋まつり）",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "開催日について「10日・11日」と「11日・12日」の表記揺れあり。曜日計算により10日・11日を採用したが要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -11566,13 +11576,24 @@
           "site_name": "国立天文台（中秋の名月日確認用）",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://narashikanko.or.jp/event/detail_10201.html",
+          "site_name": "奈良市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "「中秋の名月の日」という開催ルールは一致するが、2026年の具体日程を明記した公式発表は未確認で天文台データからの逆算推定。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "requires_check",
+        "trust_level",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12596,13 +12617,23 @@
           "site_name": "長崎県の文化財データベース",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.nagasaki-tabinet.com/event/51413",
+          "site_name": "ながさき旅ネット（長崎県観光連盟公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "毎年同日開催の定例神事のため複数の公式サイトで確認できたが、2026年専用の告知ではなく例年情報からの推定。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "requires_check",
+        "trust_level",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14169,7 +14200,7 @@
       }
     },
     {
-      "id": "festival_225",
+      "id": "festival_244",
       "name": "かごしま錦江湾サマーナイト大花火大会",
       "alternate_names": [
         "第24回かごしま錦江湾サマーナイト大花火大会"
@@ -14829,6 +14860,306 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_239",
+      "name": "広島みなと夢花火大会～花火ミュージアム～",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "広島県",
+      "city": "広島市南区",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "広島みなと夢花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.minato-yumehanabi.com/summary/index.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.hiroshima.lg.jp/tourism-culture/tourism/1021450/1021418/1021420/1049557.html",
+          "site_name": "広島市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://www.minato-yumehanabi.com/summary/index.html",
+          "site_name": "広島みなと夢花火大会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0834e00696/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-11"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_240",
+      "name": "阿南の夏まつり（阿波おどり）",
+      "alternate_names": [
+        "阿南阿波おどり"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "徳島県",
+      "city": "阿南市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "徳島市の「阿波おどり」（festival_004）とは別イベント。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "阿南商工会議所",
+      "genre": [
+        "盆踊り",
+        "踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://anancci.or.jp/anan-summerfestival/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://anancci.or.jp/anan-summerfestival/",
+          "site_name": "阿南商工会議所公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://www.awanavi.jp/archives/event/1863",
+          "site_name": "阿波ナビ（徳島県観光協会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_241",
+      "name": "北國大花火 川北大会（第41回川北まつり）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "石川県",
+      "city": "能美郡川北町",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "荒天時は8/2に順延。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "川北まつり実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.kanazawa-kankoukyoukai.or.jp/event/detail_52407.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hot-ishikawa.jp/blog/detail_506.html",
+          "site_name": "ほっと石川旅ねっと（石川県観光連盟公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://www.kanazawa-kankoukyoukai.or.jp/event/detail_52407.html",
+          "site_name": "金沢市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Hokuriku/ishikawa/2026/2026-08-01_kawakita-matsuri-kitakuni-oohanabi-kawakita-taikai.html",
+          "site_name": "hanabi.cloud",
+          "is_official": false,
+          "retrieved_date": "2026-07-11"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_242",
+      "name": "みなと祭花火大会",
+      "alternate_names": [
+        "第80回みなと祭花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "境港市",
+      "date_start": "2026-08-09",
+      "date_end": "2026-08-09",
+      "date_note": "",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.torican.jp/festival/detail_1091.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0831e00090/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://www.torican.jp/festival/detail_1091.html",
+          "site_name": "とりっぷ鳥取（鳥取県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_243",
+      "name": "五所川原花火大会",
+      "alternate_names": [
+        "第74回五所川原花火大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "青森県",
+      "city": "五所川原市",
+      "date_start": "2026-08-03",
+      "date_end": "2026-08-03",
+      "date_note": "同市の「五所川原立佞武多」（festival_157、8/4開催）とは別のイベント。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.gocci.or.jp/gosyogawarahanabi/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.gocci.or.jp/gosyogawarahanabi/",
+          "site_name": "五所川原市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://aomori-tourism.com/event/detail_3340.html",
+          "site_name": "青森県観光情報サイト（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
