@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11 08:30",
+  "last_updated": "2026-07-11 12:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -11361,13 +11361,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "sources",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12308,17 +12303,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "time_start",
-        "time_end",
-        "trust_level",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14777,6 +14763,68 @@
           "url": "https://www.kanagawa-kankou.or.jp/event/6177",
           "site_name": "観光かながわNOW（神奈川県公式）",
           "is_official": true,
+          "retrieved_date": "2026-07-11"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_238",
+      "name": "勝毎花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "帯広市",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-13",
+      "date_note": "第74回開催。荒天の場合は8月14日（金）に順延。",
+      "time_start": "19:20",
+      "time_end": "21:00",
+      "rain_policy": "荒天順延（翌日）",
+      "organizer": "十勝毎日新聞社・帯広市",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "一部有料観覧席あり",
+      "ticket_url": "https://e-tix.jp/hanabi/",
+      "history_years": 74,
+      "history_description": "音楽・照明・花火が一体となったエンターテインメント性の高い演出が特徴で、道内でも人気の高い花火大会。フィナーレの錦冠花火（にしきかむろはなび）が代名詞。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "帯広市・十勝川河川敷特設会場（十勝大橋下流400m付近）",
+      "official_url": "https://kachimai-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kachimai-hanabi.com/pg.php?c=about_overview",
+          "site_name": "勝毎花火大会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e01041/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://tokachibare.jp/event/xo_event-23481/",
+          "site_name": "とかち晴れ",
+          "is_official": false,
           "retrieved_date": "2026-07-11"
         }
       ],
