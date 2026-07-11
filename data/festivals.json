@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11 16:17",
+  "last_updated": "2026-07-11 18:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -3568,7 +3568,7 @@
       "city": "鳥取市",
       "date_start": "2026-08-13",
       "date_end": "2026-08-14",
-      "date_note": "8月13日に前夜祭・すずっこ踊り(18:00〜21:00)、8月14日に一斉傘踊り(第1部17:00〜18:50、第2部19:00〜21:00)。2026年で第62回。",
+      "date_note": "8月13日に前夜祭・すずっこ踊り(18:00〜21:00)、8月14日に一斉傘踊り(第1部17:00〜18:50、第2部19:00〜21:00)。2026年で第62回。 なお8/15(土)に市民納涼花火大会が例年フィナーレとして開催されるが、2026年の花火詳細は公式サイトで「決まり次第更新」とされ本稿時点で未確定のため日程範囲には含めていない。",
       "time_start": "17:00",
       "time_end": "21:00",
       "rain_policy": "不明",
@@ -3610,13 +3610,23 @@
           "site_name": "ウォーカープラス 花火大会2026（関連: 市民納涼花火大会）",
           "is_official": false,
           "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/ar0831/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-10"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "参加費・傘踊り参加条件について情報源間で明記がなく不明のまま記載。",
+      "conflict_note": "（データ統合）festival_235として重複登録されていた同一祭りのエントリを統合（主催団体・公式サイトが一致のため同一祭りと判定）。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "date_note",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14615,69 +14625,6 @@
       ],
       "trust_level": "低",
       "conflict_note": "確認できたソースは唐津観光協会公式サイト1件のみ。",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_235",
-      "name": "鳥取しゃんしゃん祭",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "prefecture": "鳥取県",
-      "city": "鳥取市",
-      "date_start": "2026-08-13",
-      "date_end": "2026-08-14",
-      "date_note": "8/13(木)すずっこ踊り前夜祭、8/14(金)一斉傘踊り。8/15(土)に市民納涼花火大会が例年フィナーレとして開催されるが、2026年の花火詳細は公式サイトで「決まり次第更新」とされ本稿時点で未確定のため日程範囲には含めていない。",
-      "time_start": "17:00",
-      "time_end": "21:00",
-      "rain_policy": "不明",
-      "organizer": "鳥取しゃんしゃん祭振興会",
-      "genre": [
-        "踊り",
-        "パレード"
-      ],
-      "scale": "その他（鳥取市最大の夏祭り）",
-      "is_free": true,
-      "price": "見学無料",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://tottori-shanshan.jp/event",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://tottori-shanshan.jp/event",
-          "site_name": "鳥取しゃんしゃん祭 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-10"
-        },
-        {
-          "url": "https://www.torican.jp/festival/detail_1090.html",
-          "site_name": "鳥取市観光サイト【公式】",
-          "is_official": true,
-          "retrieved_date": "2026-07-10"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/list/ar0831/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-07-10"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
       "updated_fields": [],
