@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12 17:20",
+  "last_updated": "2026-07-12 19:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -2551,8 +2551,8 @@
       "date_start": "2026-07-14",
       "date_end": "2026-07-14",
       "date_note": "毎年7月14日固定開催。日本三大火祭りの一つ。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "time_start": "10:00",
+      "time_end": "15:30",
       "rain_policy": "不明",
       "organizer": "熊野那智大社",
       "genre": [
@@ -2563,12 +2563,12 @@
       "is_free": true,
       "price": "見学無料",
       "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
+      "history_years": 2700,
+      "history_description": "神武天皇東征の時代（約2700年前）に那智の滝を大己貴命の霊代として祀ったことに起源を持つと伝わる。熊野那智大社の御本社より十二体の扇神輿に神霊を遷して渡御し、那智の滝の神意を発揚する神事。渡御した扇神輿を大松明の炎で清める様から「那智の火祭り」とも称される。国指定重要無形民俗文化財。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "JR紀伊勝浦駅からタクシー約20分／バス約30分（滝前バス停）、車で国道42号・那智勝浦バイパス経由約15分",
       "official_url": "https://kumanonachitaisha.or.jp/event/fan/",
       "sns_accounts": {
         "instagram": "不明"
@@ -2580,13 +2580,39 @@
           "site_name": "熊野那智大社公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://www.kumano-sanzan.jp/nachi/himatsuri.html",
+          "site_name": "熊野三山協議会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://www.town.nachikatsuura.wakayama.jp/info/70",
+          "site_name": "那智勝浦町 公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://www.wakayama-kanko.or.jp/events/detail_79.html",
+          "site_name": "和歌山県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "access",
+        "history_description",
+        "history_years",
+        "sources",
+        "time_end",
+        "time_start",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -15414,67 +15440,124 @@
       }
     },
     {
-      "id": "festival_250",
-      "name": "那智の扇祭り（那智の火祭り）",
-      "alternate_names": [
-        "那智の火祭り"
-      ],
+      "id": "festival_251",
+      "name": "黒石ねぷた祭り",
+      "alternate_names": [],
       "similar_name_warning": false,
-      "prefecture": "和歌山県",
-      "city": "那智勝浦町",
-      "date_start": "2026-07-14",
-      "date_end": "2026-07-14",
-      "date_note": "毎年7月14日固定開催（曜日に関わらず日付固定のため日程変動なし）",
-      "time_start": "10:00",
-      "time_end": "15:30",
+      "prefecture": "青森県",
+      "city": "黒石市",
+      "date_start": "2026-07-30",
+      "date_end": "2026-08-05",
+      "date_note": "",
+      "time_start": "17:30",
+      "time_end": "不明",
       "rain_policy": "不明",
-      "organizer": "熊野那智大社",
+      "organizer": "黒石ねぷた祭り実行委員会",
       "genre": [
-        "神事"
+        "ねぷた"
       ],
-      "scale": "国指定重要無形民俗文化財",
+      "scale": "青森県指定重要無形民俗文化財",
       "is_free": true,
-      "price": "無料（駐車場利用時は有料）",
+      "price": "見学無料",
       "ticket_url": "不明",
-      "history_years": 2700,
-      "history_description": "神武天皇東征の時代（約2700年前）に那智の滝を大己貴命の霊代として祀ったことに起源を持つと伝わる。熊野那智大社の御本社より十二体の扇神輿に神霊を遷して渡御し、那智の滝の神意を発揚する神事。渡御した扇神輿を大松明の炎で清める様から「那智の火祭り」とも称される。国指定重要無形民俗文化財。",
+      "history_years": 260,
+      "history_description": "260年以上の歴史を持つ伝統行事。人形ねぷたと扇ねぷたが同時に運行される点が特徴。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "JR紀伊勝浦駅からタクシー約20分／バス約30分（滝前バス停）、車で国道42号・那智勝浦バイパス経由約15分",
-      "official_url": "https://kumanonachitaisha.or.jp/event/fan/",
+      "access": "不明",
+      "official_url": "https://k-jc.com/neputa/",
       "sns_accounts": {
         "instagram": "不明"
       },
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://kumanonachitaisha.or.jp/event/fan/",
-          "site_name": "熊野那智大社 公式サイト",
+          "url": "https://aomori-tourism.com/event/detail_654.html",
+          "site_name": "青森県観光情報サイト Amazing AOMORI（公式）",
           "is_official": true,
           "retrieved_date": "2026-07-12"
         },
         {
-          "url": "https://www.kumano-sanzan.jp/nachi/himatsuri.html",
-          "site_name": "熊野三山協議会 公式サイト",
+          "url": "https://k-jc.com/neputa/",
+          "site_name": "黒石ねぷた祭り公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-12"
         },
         {
-          "url": "https://www.town.nachikatsuura.wakayama.jp/info/70",
-          "site_name": "那智勝浦町 公式ウェブサイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "url": "https://www.wakayama-kanko.or.jp/events/detail_79.html",
-          "site_name": "和歌山県公式観光サイト",
+          "url": "https://kuroishi.or.jp/event/summer/kuroishineputa",
+          "site_name": "黒石観光協会（公式）",
           "is_official": true,
           "retrieved_date": "2026-07-12"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_252",
+      "name": "与那原大綱曳まつり",
+      "alternate_names": [
+        "与那原大綱曳"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "沖縄県",
+      "city": "与那原町",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-16",
+      "date_note": "大綱曳の実施は16日",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "与那原大綱曳まつり実行委員会",
+      "genre": [
+        "綱引き",
+        "花火"
+      ],
+      "scale": "沖縄三大綱引きの一つ",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 440,
+      "history_description": "440年余りの伝統を誇る沖縄三大綱引きの一つ。長さ90m・重さ5トンを超える雄綱・雌綱を曳き合う。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.yonabaru.okinawa/ozunahiki2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.yonabaru.okinawa.jp/soshiki/6/8321.html",
+          "site_name": "与那原町ホームページ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://www.yonabaru.okinawa/ozunahiki2026/",
+          "site_name": "第44回与那原大綱曳まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://www.okinawastory.jp/event/600021889",
+          "site_name": "沖縄観光情報WEBサイト おきなわ物語",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "詳細な開催時間・場所・料金は町公式サイトで今後公開予定のため不明として記載",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
