@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11 18:15",
+  "last_updated": "2026-07-12 15:32",
   "festivals": [
     {
       "id": "festival_001",
@@ -3621,12 +3621,8 @@
       "trust_level": "高",
       "conflict_note": "（データ統合）festival_235として重複登録されていた同一祭りのエントリを統合（主催団体・公式サイトが一致のため同一祭りと判定）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "date_note",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -11440,13 +11436,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_note",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：宵々山(10/23)を含む3日間表記 → 今年：2024年から宵々山廃止のため宵宮(10/24)・本祭巡行(10/25)の2日間に変更"
@@ -11535,14 +11526,8 @@
       "trust_level": "中",
       "conflict_note": "「ドッコイセ音頭総おどり」パレード本体の8/14・8/25開催は、福知山観光協会公式サイトの2026年専用ページで確認できたが、単一ソースのため当該日程のみ信頼度は低。福知山HANABI・BONCHI祭の日程は複数ソースで確認済みのため中のまま。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_end",
-        "date_note",
-        "sources",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：総おどりの具体的日程は例年変動 → 今年：総おどり8/14(金)御霊公園・広小路通り、市民総おどり大会8/25(火)福知山駅北口公園に確定"
@@ -15178,11 +15163,134 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "本祭（御神幸祭）は3年に一度。前回本祭は2023年、2026年は本祭年に該当（次回本祭は2029年見込み）。"
+      }
+    },
+    {
+      "id": "festival_246",
+      "name": "第5回芽室花火「華音」",
+      "alternate_names": [
+        "芽室花火大会",
+        "華音2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "河西郡芽室町",
+      "date_start": "2026-07-12",
+      "date_end": "2026-07-12",
+      "date_note": "",
+      "time_start": "11:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（有料エリアの記載なし）",
+      "ticket_url": "不明",
+      "history_years": 5,
+      "history_description": "音楽とシンクロする花火演出が特徴の芽室町の花火大会。",
+      "food_stalls": "50店舗以上のグルメブースあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "芽室公園（河西郡芽室町西1条8丁目）。特設駐車場からシャトルバス運行。",
+      "official_url": "https://www.memuro-hanaoto.com/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/memurohanabi_hanaoto/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kachimai.jp/article/index.php?no=2026030100023",
+          "site_name": "十勝毎日新聞",
+          "is_official": false,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://matoka-tokachi.jp/memurohanabi-hanaoto2026/",
+          "site_name": "まとかとかち",
+          "is_official": false,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://www.memuro-hanaoto.com/",
+          "site_name": "華音2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_247",
+      "name": "中野駅前大盆踊り大会",
+      "alternate_names": [
+        "なかぼん"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "中野区",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-02",
+      "date_note": "第14回開催",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "中野駅前大盆踊り大会実行委員会（中野区民謡連盟共催）",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 14,
+      "history_description": "中野セントラルパークで開催される盆踊り大会。",
+      "food_stalls": "屋台あり（募集制）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "中野セントラルパーク",
+      "official_url": "https://nakabon.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://nakabon.jp/",
+          "site_name": "中野駅前大盆踊り大会2026公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://summer.walkerplus.com/odekake/list/sg0999/bonodori/",
+          "site_name": "夏休みおでかけガイド2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-12"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
