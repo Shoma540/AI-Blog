@@ -227,6 +227,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30以降、同一エラーが継続発生（本件で38件目）。トークン再発行では解消せず、Meta側のアプリ審査・利用制限に起因する可能性が高い。Meta for Developersダッシュボードでのアプリステータス確認とサポート問い合わせをユーザーに要請。"
+    },
+    {
+      "timestamp": "2026-07-12 15:32",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて39回連続（13日目）で同一のAPI access blockedエラーが継続。2026-07-05 12:14にユーザーへエスカレーション済みで状況変化がないため今回も追加通知せず記録のみ行う。ブログ更新（HTML生成・GitHub Push）は正常完了、新規2件を追加：第5回芽室花火「華音」（festival_246、北海道河西郡芽室町、7/12開催・打ち上げ約5000発、公式サイトmemuro-hanaoto.com・十勝毎日新聞・まとかとかちの3ソース一致、信頼度：高）、中野駅前大盆踊り大会（festival_247、東京都中野区、第14回、8/1-2開催、公式サイトnakabon.jp・ウォーカープラスの2ソース一致、信頼度：中）。既存のrequires_check案件（宮崎神宮大祭festival_059、掛川祭festival_179、佐倉の秋祭りfestival_078、三木秋まつりfestival_187ほか）は再検索したが2026年の確定一次情報は新たに得られず状態維持。花火大会・祭りの中止情報を確認したが、本DB収録の237件に影響する中止・延期は無し。"
     }
   ]
 }
