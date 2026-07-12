@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12 15:32",
+  "last_updated": "2026-07-12 16:45",
   "festivals": [
     {
       "id": "festival_001",
@@ -15228,7 +15228,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -15286,6 +15286,126 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_248",
+      "name": "恵比寿駅前盆踊り大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-07-31",
+      "date_end": "2026-08-01",
+      "date_note": "第71回開催",
+      "time_start": "17:30",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "全恵比寿納涼盆踊り大会実行委員会・恵比寿地区町会連合会・渋谷区商連恵比寿ブロック",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 71,
+      "history_description": "JR恵比寿駅西口広場（アトレ前）で開催される盆踊り大会。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR恵比寿駅西口広場",
+      "official_url": "https://ebisubondance.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ebisubondance.jp/",
+          "site_name": "恵比寿駅前盆踊り大会公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://tokyofesta.com/23ku/31035/",
+          "site_name": "東京フェスタ",
+          "is_official": false,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://www.shibukei.com/headline/19295/",
+          "site_name": "シブヤ経済新聞",
+          "is_official": false,
+          "retrieved_date": "2026-07-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_249",
+      "name": "大和田氷川神社はだか神輿",
+      "alternate_names": [
+        "大和田氷川神社夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "新座市",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-25",
+      "date_note": "7/24宵宮・7/25本祭",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "大和田氷川神社",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "市指定無形民俗文化財",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 180,
+      "history_description": "約180年前に五穀豊穣・無病息災を祈願して始められたと伝わる祭り。白足袋に褌姿の担ぎ手が「やんよー、やんよー」の掛け声で川越街道を練り歩く。市指定無形民俗文化財（平成14年11月1日指定）。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "埼玉県新座市大和田4丁目15-13",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://niiza-shiki.goguynet.jp/2026/07/04/matsuri-9/",
+          "site_name": "新座しきタウン情報",
+          "is_official": false,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://www.city.niiza.lg.jp/site/bunkazai/shitei-oowadahikawajinjahadakamikoshi.html",
+          "site_name": "新座市公式ウェブサイト（文化財指定情報。2026年日程の記載なし）",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "2026年の具体的な日程を明記した一次情報（公式サイト等）が見つからず、地域ニュースサイト1件のみでの確認。新座市公式ページは文化財指定情報のみで日程記載なし。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
