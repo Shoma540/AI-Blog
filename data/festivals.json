@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12 16:45",
+  "last_updated": "2026-07-12 17:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -15348,7 +15348,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -15406,6 +15406,76 @@
       "trust_level": "低",
       "conflict_note": "2026年の具体的な日程を明記した一次情報（公式サイト等）が見つからず、地域ニュースサイト1件のみでの確認。新座市公式ページは文化財指定情報のみで日程記載なし。",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_250",
+      "name": "那智の扇祭り（那智の火祭り）",
+      "alternate_names": [
+        "那智の火祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "和歌山県",
+      "city": "那智勝浦町",
+      "date_start": "2026-07-14",
+      "date_end": "2026-07-14",
+      "date_note": "毎年7月14日固定開催（曜日に関わらず日付固定のため日程変動なし）",
+      "time_start": "10:00",
+      "time_end": "15:30",
+      "rain_policy": "不明",
+      "organizer": "熊野那智大社",
+      "genre": [
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "無料（駐車場利用時は有料）",
+      "ticket_url": "不明",
+      "history_years": 2700,
+      "history_description": "神武天皇東征の時代（約2700年前）に那智の滝を大己貴命の霊代として祀ったことに起源を持つと伝わる。熊野那智大社の御本社より十二体の扇神輿に神霊を遷して渡御し、那智の滝の神意を発揚する神事。渡御した扇神輿を大松明の炎で清める様から「那智の火祭り」とも称される。国指定重要無形民俗文化財。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR紀伊勝浦駅からタクシー約20分／バス約30分（滝前バス停）、車で国道42号・那智勝浦バイパス経由約15分",
+      "official_url": "https://kumanonachitaisha.or.jp/event/fan/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kumanonachitaisha.or.jp/event/fan/",
+          "site_name": "熊野那智大社 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://www.kumano-sanzan.jp/nachi/himatsuri.html",
+          "site_name": "熊野三山協議会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://www.town.nachikatsuura.wakayama.jp/info/70",
+          "site_name": "那智勝浦町 公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "url": "https://www.wakayama-kanko.or.jp/events/detail_79.html",
+          "site_name": "和歌山県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
