@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13 17:12",
+  "last_updated": "2026-07-13 12:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -15615,7 +15615,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -15679,7 +15679,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -15741,7 +15741,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -15791,6 +15791,134 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_257",
+      "name": "いたばし花火大会",
+      "alternate_names": [
+        "第67回いたばし花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "板橋区",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第67回開催。荒天中止（順延なし）",
+      "time_start": "19:00",
+      "time_end": "20:30",
+      "rain_policy": "荒天中止（順延開催はなし）",
+      "organizer": "板橋区・板橋区観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": 67,
+      "history_description": "板橋区荒川河川敷で開催される花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "荒川河川敷（板橋区）",
+      "official_url": "https://itabashihanabi.jp/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/itabashi_hanabi/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://itabashihanabi.jp/",
+          "site_name": "いたばし花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/hanabi/1006860.html",
+          "site_name": "板橋区公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00868/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_258",
+      "name": "熊谷花火大会",
+      "alternate_names": [
+        "第74回熊谷花火大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "埼玉県",
+      "city": "熊谷市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "第74回開催。熊谷うちわ祭（festival_126）とは別の祭り。",
+      "time_start": "19:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "熊谷花火大会実行委員会／熊谷市",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": 74,
+      "history_description": "荒川河畔（荒川大橋下流）で開催される、例年約42万人が訪れる埼玉県内有数の花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "例年約42万人来場",
+      "visitors": "約42万人",
+      "access": "荒川河畔（荒川大橋下流、熊谷市）",
+      "official_url": "https://www.city.kumagaya.lg.jp/kanko/matsuri/kumagayahanabitaikai/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kumagaya.lg.jp/kanko/matsuri/kumagayahanabitaikai/",
+          "site_name": "熊谷市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://www.oideyo-kumagaya.com/%E7%AC%AC73%E5%9B%9E%E7%86%8A%E8%B0%B7%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A/",
+          "site_name": "熊谷観光局",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00874/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
