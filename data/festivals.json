@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13 12:16",
+  "last_updated": "2026-07-13 18:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -15855,7 +15855,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -15912,6 +15912,134 @@
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0311e00874/",
           "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_259",
+      "name": "墨田区民納涼民踊大会",
+      "alternate_names": [
+        "東京ソラマチ夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "墨田区",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-03",
+      "date_note": "東京ソラマチ夏まつりと同時開催",
+      "time_start": "18:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "墨田区／東京ソラマチ",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "東京スカイツリータウン1階ソラマチひろばで開催される盆踊り大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京スカイツリータウン1階 ソラマチひろば",
+      "official_url": "https://www.sumidaevent.com/sumida-kumin-noryo-minyo-taikai-2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sumidaevent.com/sumida-kumin-noryo-minyo-taikai-2026/",
+          "site_name": "すみだイベント",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://visit-sumida.jp/event/soramachi-natsumatsuri/",
+          "site_name": "墨田区観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0313e316363/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_260",
+      "name": "築地本願寺納涼盆踊り大会",
+      "alternate_names": [
+        "第79回築地本願寺納涼盆踊り大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "中央区",
+      "date_start": "2026-07-29",
+      "date_end": "2026-08-01",
+      "date_note": "第79回開催。最終日のみ終了時刻が異なる。",
+      "time_start": "19:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "築地本願寺奉讃会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 79,
+      "history_description": "築地本願寺境内で開催される都内有数の盆踊り大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京メトロ日比谷線「築地」駅出口1直結",
+      "official_url": "https://tsukijihongwanji.jp/news/11529/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tsukijihongwanji.jp/news/11529/",
+          "site_name": "築地本願寺（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://www.chuo-kanko.or.jp/blogs/event/202606290856",
+          "site_name": "中央区観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://tokyofesta.com/23ku/30953/",
+          "site_name": "東京フェスタ",
           "is_official": false,
           "retrieved_date": "2026-07-13"
         }
