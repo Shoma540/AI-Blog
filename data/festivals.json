@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12 19:17",
+  "last_updated": "2026-07-13 17:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -2603,16 +2603,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "access",
-        "history_description",
-        "history_years",
-        "sources",
-        "time_end",
-        "time_start",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -11465,7 +11457,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "昨年：宵々山(10/23)を含む3日間表記 → 今年：2024年から宵々山廃止のため宵宮(10/24)・本祭巡行(10/25)の2日間に変更"
       }
     },
@@ -11555,7 +11547,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "昨年：総おどりの具体的日程は例年変動 → 今年：総おどり8/14(金)御霊公園・広小路通り、市民総おどり大会8/25(火)福知山駅北口公園に確定"
       }
     },
@@ -12414,7 +12406,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "昨年：2025年8月16日(土) → 今年：2026年8月22日(土)"
       }
     },
@@ -15192,7 +15184,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "本祭（御神幸祭）は3年に一度。前回本祭は2023年、2026年は本祭年に該当（次回本祭は2029年見込み）。"
       }
     },
@@ -15494,7 +15486,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -15559,6 +15551,246 @@
       "trust_level": "高",
       "conflict_note": "詳細な開催時間・場所・料金は町公式サイトで今後公開予定のため不明として記載",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_253",
+      "name": "安倍川花火大会",
+      "alternate_names": [
+        "第73回安倍川花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "静岡県",
+      "city": "静岡市葵区",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-18",
+      "date_note": "荒天中止・順延なし（中止の場合のみ告知）。",
+      "time_start": "19:30",
+      "time_end": "21:00",
+      "rain_policy": "荒天中止（順延なし）",
+      "organizer": "安倍川花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（静岡最大級の花火大会）",
+      "is_free": true,
+      "price": "見学無料（有料観覧席の有無は公式サイトで要確認）",
+      "ticket_url": "不明",
+      "history_years": 73,
+      "history_description": "静岡市葵区の安倍川河川敷（田町三丁目付近）で開催される、静岡最大級とされる花火大会。第73回を迎える。",
+      "food_stalls": "不明",
+      "crowd_level": "例年57万人前後の人出",
+      "visitors": "約57万人",
+      "access": "安倍川河川敷（田町三丁目付近）",
+      "official_url": "https://www.abekawa-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.abekawa-hanabi.com/",
+          "site_name": "安倍川花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://www.city.shizuoka.lg.jp/s9635/s006369.html",
+          "site_name": "静岡市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0622e00889/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_254",
+      "name": "さかいで大橋まつり海上花火大会",
+      "alternate_names": [
+        "第61回さかいで大橋まつり海上花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "坂出市",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-11",
+      "date_note": "8月11日（火・祝、山の日）開催。",
+      "time_start": "20:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "坂出まつり協賛会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料観覧席：ペア席6,000円／テーブル席20,000円、2026年7月1日9:00より販売開始、3歳以下は膝上無料）",
+      "ticket_url": "https://sakaide-ohashi-matsuri.com/",
+      "history_years": 61,
+      "history_description": "ライトアップされた瀬戸大橋を背景に、坂出港沖合の台船から音楽連動・レーザー演出付きで打ち上げられる海上花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約5万5000人（予想）",
+      "access": "坂出港中央ふ頭（JR坂出駅から徒歩20分、瀬戸中央道坂出北ICから約5分）",
+      "official_url": "https://sakaide-ohashi-matsuri.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sakaide-ohashi-matsuri.com/",
+          "site_name": "第61回さかいで大橋まつり 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0937e00341/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/4501005/",
+          "site_name": "ウェザーニュース 花火",
+          "is_official": false,
+          "retrieved_date": "2026-07-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_255",
+      "name": "南紀白浜花火フェスタ2026",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "和歌山県",
+      "city": "西牟婁郡白浜町",
+      "date_start": "2026-08-10",
+      "date_end": "2026-08-10",
+      "date_note": "予備日は2026年8月23日（日）同時刻。「南紀白浜温泉メッセージ花火」（7/18,25・8/1,8,15,22の毎週土曜）や「南紀白浜秋の花火フェスタ」（9/13）は別イベントのため注意。",
+      "time_start": "20:10",
+      "time_end": "20:40",
+      "rain_policy": "荒天時は予備日（8/23）に順延と推定（公式サイトで要確認）",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "白良浜海水浴場で開催される花火大会。台船から約2,500発が打ち上げられる。",
+      "food_stalls": "露店営業なし",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "白良浜海水浴場（駐車場は旧南紀白浜空港跡地）",
+      "official_url": "https://www.nankishirahama.jp/news/19125/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.nankishirahama.jp/news/19125/",
+          "site_name": "南紀白浜観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://www.wakayama-kanko.or.jp/events/detail_4292.html",
+          "site_name": "和歌山県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0730e466889/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_256",
+      "name": "和歌浦天満宮 夏祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "和歌山県",
+      "city": "和歌山市",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-25",
+      "date_note": "宵宮は7/24、本宮は7/25。",
+      "time_start": "18:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "和歌浦天満宮",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "和歌浦天満宮で毎年開催される夏祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "和歌浦天満宮",
+      "official_url": "https://www.wakayama-kanko.or.jp/events/detail_3693.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.wakayama-kanko.or.jp/events/detail_3693.html",
+          "site_name": "和歌山県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-13"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
