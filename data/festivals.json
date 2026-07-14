@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14 16:15",
+  "last_updated": "2026-07-14 18:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -16549,7 +16549,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -16611,6 +16611,134 @@
       "trust_level": "高",
       "conflict_note": "花火の打ち上げ時間は公式サイトでも「未定」表記。確認次第更新が必要",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_270",
+      "name": "北海盆踊り",
+      "alternate_names": [
+        "さっぽろ夏まつり 北海盆踊り"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "北海道",
+      "city": "札幌市",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-16",
+      "date_note": "さっぽろ夏まつりの一企画として開催。同名の「くしろ市民北海盆踊り」（釧路市、2026-08-19開催）とは別イベントのため注意。",
+      "time_start": "19:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "さっぽろ夏まつり実行委員会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.visit-hokkaido.jp/event/detail_11008.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.visit-hokkaido.jp/event/detail_11008.html",
+          "site_name": "北海道観光公式サイト HOKKAIDO LOVE!",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://www.htb.co.jp/event/bonodori/",
+          "site_name": "HTB北海道テレビ",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://summer.walkerplus.com/odekake/list/ar0101/sg0999/bonodori/",
+          "site_name": "ウォーカープラス 夏休みおでかけガイド2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_271",
+      "name": "丸の内盆踊り",
+      "alternate_names": [
+        "大手町・丸の内・有楽町 夏祭り2026 丸の内盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-24",
+      "date_note": "「大手町・丸の内・有楽町 夏祭り2026」内の1企画。",
+      "time_start": "16:00",
+      "time_end": "22:30",
+      "rain_policy": "不明",
+      "organizer": "大手町・丸の内・有楽町 夏祭り実行委員会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "キッチンカーによる飲食出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京駅前 行幸通り（東京都千代田区丸の内2-2）",
+      "official_url": "https://www.marunouchi.com/pickup/event/9833/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.marunouchi.com/pickup/event/9833/",
+          "site_name": "丸の内ドットコム（三菱地所 公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://www.ecozzeria.jp/topics-omy/daimaruyu/summerfes2026.html",
+          "site_name": "エコッツェリア協会（大丸有夏祭り実行委員会事務局）",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://www.fashion-press.net/news/148127",
+          "site_name": "ファッションプレス",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
