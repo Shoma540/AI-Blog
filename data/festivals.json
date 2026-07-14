@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14 12:11",
+  "last_updated": "2026-07-14 16:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -16346,6 +16346,132 @@
           "url": "https://weathernews.jp/hanabi/spot/3101045/",
           "site_name": "ウェザーニュース",
           "is_official": false,
+          "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_266",
+      "name": "サンシャインシティ納涼盆踊り大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "豊島区",
+      "date_start": "2026-07-30",
+      "date_end": "2026-08-01",
+      "date_note": "第47回",
+      "time_start": "19:00",
+      "time_end": "21:15",
+      "rain_policy": "不明",
+      "organizer": "サンシャインシティ",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": 47,
+      "history_description": "サンシャインシティ開業以来続く池袋の夏の風物詩。約6メートルの櫓を囲み伝統的な盆踊りを披露。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "サンシャインシティ サンシャイン広場（池袋）",
+      "official_url": "https://sunshinecity.jp/event/entry-37720.html",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://sunshinecity.jp/event/entry-37720.html",
+          "site_name": "池袋・サンシャインシティ オフィシャルサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0313e112877/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://www.city.toshima.lg.jp/069/event/2606101347.html",
+          "site_name": "豊島区公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_267",
+      "name": "三国花火",
+      "alternate_names": [
+        "坂井市三国花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福井県",
+      "city": "坂井市",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-11",
+      "date_note": "第44回。荒天の場合は8/12に順延",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "雨天決行／荒天の場合8月12日に順延",
+      "organizer": "三国花火実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "有料観覧席あり（一部エリア）、無料観覧エリアもあり",
+      "ticket_url": "http://www.mikuni.org/hanabi/",
+      "history_years": 44,
+      "history_description": "福井県坂井市三国町で開催される伝統の花火大会。約1万5000発を打ち上げ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "三国サンセットビーチ・九頭竜川ボートパーク",
+      "official_url": "http://www.mikuni.org/hanabi/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "http://www.mikuni.org/hanabi/",
+          "site_name": "三国花火 公式HP",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0518e00676/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kankou/hanabi_calander.html",
+          "site_name": "坂井市公式サイト",
+          "is_official": true,
           "retrieved_date": "2026-07-14"
         }
       ],
