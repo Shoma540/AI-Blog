@@ -16352,7 +16352,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -16414,7 +16414,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -16478,6 +16478,139 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_268",
+      "name": "久居花火大会",
+      "alternate_names": [
+        "津市合併20周年 第65回久居花火大会",
+        "津花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "津市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第65回。津市合併20周年記念事業。荒天時の順延情報は公式サイトで要確認",
+      "time_start": "19:45",
+      "time_end": "20:30",
+      "rain_policy": "不明（荒天時対応は公式サイトで要確認）",
+      "organizer": "久居まつり実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": 65,
+      "history_description": "陸上自衛隊久居駐屯地グラウンドで開催。観覧場所と打ち上げ場所が近く臨場感のある花火が特徴。2026年は昨年の4000発から5000発以上に規模拡大し、「歌える合唱花火」をテーマに音楽・プロジェクター演出と融合。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "近鉄久居駅下車徒歩5分",
+      "official_url": "https://hisai-matsuri.jp/hanabi.html",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://hisai-matsuri.jp/hanabi.html",
+          "site_name": "久居まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0624e00835/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/event/5022",
+          "site_name": "観光三重（三重県観光連盟）",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://tsukanko.jp/feature/feature-7818/",
+          "site_name": "津の時間。（津市観光協会）",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：打ち上げ数約4000発 → 今年：5000発以上に拡大"
+      }
+    },
+    {
+      "id": "festival_269",
+      "name": "奥物部湖湖水祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "高知県",
+      "city": "香美市",
+      "date_start": "2026-08-14",
+      "date_end": "2026-08-14",
+      "date_note": "第64回。花火打ち上げ時間は検索時点で未定（公式サイトで要確認）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "香美市（奥物部湖湖水祭実行委員会）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": 64,
+      "history_description": "奥物部湖の安定と上下流域の五穀豊穣を祈願し、地域住民の交流と誘客拡大を通じたまちの活性化を目的として開催。湖面を彩る約4000個の灯ろう流しと花火が幻想的な雰囲気を作り出す。ステージでは盆踊り（大杉音頭など）も披露される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "香美市物部町（奥物部湖畔）",
+      "official_url": "https://www.city.kami.lg.jp/soshiki/36/kosui.html",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.kami.lg.jp/soshiki/36/kosui.html",
+          "site_name": "香美市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://iko-yo.net/events/585568",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_346070/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "花火の打ち上げ時間は公式サイトでも「未定」表記。確認次第更新が必要",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
