@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13 18:10",
+  "last_updated": "2026-07-14 08:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -15786,13 +15786,23 @@
           "site_name": "和歌山県公式観光サイト",
           "is_official": true,
           "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://www.city.wakayama.wakayama.jp/kankou/nenkangyoji/1006628.html",
+          "site_name": "和歌山市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -16111,6 +16121,179 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_262",
+      "name": "いわき花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "福島県",
+      "city": "いわき市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第71回大会。毎年8月第一土曜日開催。",
+      "time_start": "19:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "いわき花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "有料観覧席あり（詳細は公式サイト参照）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "アクアマリンパークで開催されるいわき市の花火大会。2026年は第71回、テーマ「輝く未来へ ～光でつなぐ60年の軌跡～」。約12,000発を打ち上げ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "アクアマリンパーク（小名浜港1・2号埠頭間）",
+      "official_url": "https://www.iwakihanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.iwakihanabi.com/",
+          "site_name": "いわき花火大会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0207e00661/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://kankou-iwaki.or.jp/feature/fessummer/top",
+          "site_name": "いわき市観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_263",
+      "name": "千葉開府900年記念 幕張ビーチ花火フェスタ2026（第48回千葉市民花火大会）",
+      "alternate_names": [
+        "幕張ビーチ花火フェスタ"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "千葉市美浜区",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "千葉開府900年記念として開催される第48回千葉市民花火大会。",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "荒天・強風時は中止（当日9:00に決定予定）",
+      "organizer": "千葉市民花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "有料観覧席あり",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "千葉開府900年を記念し、尺玉や海上花火など約24,000発を打ち上げる千葉市最大級の花火大会。例年の人出は約30万人。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "例年約30万人",
+      "access": "幕張海浜公園・幕張メッセ駐車場（JR京葉線「海浜幕張駅」より徒歩15〜20分、駐車場なし）",
+      "official_url": "https://chiba-hanabi.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.chiba.jp/keizainosei/keizai/kanko/2025_chiba_hanabi.html",
+          "site_name": "千葉市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0312e00869/data.html",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_264",
+      "name": "貴船まつり（貴船神社例大祭）",
+      "alternate_names": [
+        "真鶴貴船まつり"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "神奈川県",
+      "city": "足柄下郡真鶴町",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-25",
+      "date_note": "宵宮7/24(金)、本祭7/25(土)。海上渡御など詳細プログラムは公式サイトで2026年版が未公開のため不明。京都・貴船神社の「貴船祭」とは別の祭りのため注意。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事",
+        "船渡御"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "日本三大船まつりの一つとされる真鶴町・貴船神社の例大祭。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://kibunematsuri.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.manazuru.kanagawa.jp/soshiki/sangyoukankou/kanko/2258.html",
+          "site_name": "真鶴町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "貴船まつり公式サイト(kibunematsuri.jp)は本稿時点で2025年(令和7年)の情報のみ掲載。真鶴町公式サイトで2026年7月24日(金)・25日(土)の開催を確認したが、独立した2件目のソースが得られていないため信頼度を低とし要確認とする。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
