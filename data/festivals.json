@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14 08:14",
+  "last_updated": "2026-07-14 12:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -15797,12 +15797,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -16183,7 +16179,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -16241,7 +16237,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -16294,6 +16290,68 @@
       "trust_level": "低",
       "conflict_note": "貴船まつり公式サイト(kibunematsuri.jp)は本稿時点で2025年(令和7年)の情報のみ掲載。真鶴町公式サイトで2026年7月24日(金)・25日(土)の開催を確認したが、独立した2件目のソースが得られていないため信頼度を低とし要確認とする。",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_265",
+      "name": "沼津夏まつり・狩野川花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "静岡県",
+      "city": "沼津市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "第79回。1948年から続く伝統行事",
+      "time_start": "19:10",
+      "time_end": "20:10",
+      "rain_policy": "不明",
+      "organizer": "沼津夏まつり実行委員会（沼津市観光戦略課）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "有料観覧席あり（11,500円〜30,000円）、無料観覧エリアもあり",
+      "ticket_url": "https://ticket.rakuten.co.jp/event/rtvznmn/",
+      "history_years": 79,
+      "history_description": "1948年から続く沼津市の夏の風物詩。市街地での花火大会としては東海地方随一の規模。",
+      "food_stalls": "不明",
+      "crowd_level": "高（2日間で約33万人来場実績）",
+      "visitors": "約33万人（2日間、前年実績）",
+      "access": "中心市街地・狩野川河川敷（あゆみ橋〜御成橋〜永代橋）",
+      "official_url": "https://numazukanko.jp/event/50051",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://numazukanko.jp/event/50051",
+          "site_name": "沼津観光ポータルサイト（沼津市観光協会）",
+          "is_official": true,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0622e00888/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3101045/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
