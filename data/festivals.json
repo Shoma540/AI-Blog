@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15 08:12",
+  "last_updated": "2026-07-15 12:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -3736,13 +3736,13 @@
       "similar_name_warning": true,
       "prefecture": "神奈川県",
       "city": "真鶴町",
-      "date_start": "2026-07-25",
-      "date_end": "2026-07-26",
-      "date_note": "宵宮7月25日（金）、本祭7月26日（土）。8年ぶりに「海上渡御」が復活予定（安全対策のため特別な実施形態）。",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-25",
+      "date_note": "宵宮7月24日（金）、本祭7月25日（土）。2023年以降「7月最終土曜日及びその前日」ルールで開催（2026年の7月最終土曜日は7/25）。本祭夜に花火あり。8年ぶりに「海上渡御」が復活予定（安全対策のため特別な実施形態）。※前回記録の7/25-26は公式サイト(kibunematsuri.jp/nittei.html)がまだ2025年度日程を掲載したままだったことによる誤りと判明し訂正。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
-      "organizer": "貴船神社／真鶴貴船まつり実行委員会",
+      "organizer": "貴船神社／真鶴貴船まつり実行委員会／真鶴町",
       "genre": [
         "神事",
         "船渡御",
@@ -3766,49 +3766,40 @@
       "sources": [
         {
           "url": "https://kibunematsuri.jp/",
-          "site_name": "真鶴貴船まつり公式ホームページ",
+          "site_name": "真鶴貴船まつり公式ホームページ（[2026.7.12]付ニュースで令和8年度開催決定を確認）",
           "is_official": true,
-          "retrieved_date": "2026-07-02"
+          "retrieved_date": "2026-07-15"
         },
         {
-          "url": "https://www.yoritomo-japan.com/kifunematuri-manaduru.htm",
-          "site_name": "鎌倉タイム／頼朝と鎌倉（2026年開催情報記載）",
-          "is_official": false,
-          "retrieved_date": "2026-07-02"
-        },
-        {
-          "url": "https://www.manazuru.net/event/kibunematsuri/",
-          "site_name": "真鶴町観光協会",
+          "url": "https://www.town.manazuru.kanagawa.jp/soshiki/sangyoukankou/kanko/2258.html",
+          "site_name": "真鶴町公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-07-02"
+          "retrieved_date": "2026-07-15"
         },
         {
-          "url": "https://kibunematsuri.jp/nittei.html",
-          "site_name": "真鶴貴船まつり公式ホームページ（2026年度日程ページ更新確認）",
+          "url": "https://www.manazuru.net/kibune2026/",
+          "site_name": "真鶴町観光協会（「令和8年貴船まつり」ページ）",
           "is_official": true,
-          "retrieved_date": "2026-07-03"
-        },
-        {
-          "url": "https://kibunematsuri.jp/nittei.html",
-          "site_name": "真鶴貴船まつり公式ホームページ",
-          "is_official": true,
-          "retrieved_date": "2026-07-03"
-        },
-        {
-          "url": "https://www.yoritomo-japan.com/kifunematuri-manaduru.htm",
-          "site_name": "yoritomo-japan.com",
-          "is_official": false,
-          "retrieved_date": "2026-07-03"
+          "retrieved_date": "2026-07-15"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "organizer",
+        "sources",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "前回記録：2026-07-25 - 2026-07-26（誤り） → 訂正後：2026-07-24 - 2026-07-25（真鶴町公式サイト・観光協会で確認）"
       }
     },
     {
@@ -11292,7 +11283,7 @@
       "city": "掛川市",
       "date_start": "2026-10-10",
       "date_end": "2026-10-12",
-      "date_note": "10/10は18:00〜21:00、10/11・12は9:00〜21:00。掛川城下で屋台（2輪屋台）・大獅子・三大余興が披露される。",
+      "date_note": "10/10は18:00〜21:00、10/11・12は9:00〜21:00。掛川城下で屋台（2輪屋台）・大獅子・三大余興が披露される。／参考未確認情報：掛川では丑・辰・未・戌年に「大祭」が行われ、次回大祭は2027年との情報あり（2026年は通常規模の開催と推定されるが公式一次情報は未確認）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -11327,8 +11318,10 @@
       "trust_level": "低",
       "conflict_note": "確認できたソースは掛川市公式サイト1件のみ。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -16245,59 +16238,6 @@
       }
     },
     {
-      "id": "festival_264",
-      "name": "貴船まつり（貴船神社例大祭）",
-      "alternate_names": [
-        "真鶴貴船まつり"
-      ],
-      "similar_name_warning": true,
-      "prefecture": "神奈川県",
-      "city": "足柄下郡真鶴町",
-      "date_start": "2026-07-24",
-      "date_end": "2026-07-25",
-      "date_note": "宵宮7/24(金)、本祭7/25(土)。海上渡御など詳細プログラムは公式サイトで2026年版が未公開のため不明。京都・貴船神社の「貴船祭」とは別の祭りのため注意。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "不明",
-      "genre": [
-        "神事",
-        "船渡御"
-      ],
-      "scale": "国指定重要無形民俗文化財",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "日本三大船まつりの一つとされる真鶴町・貴船神社の例大祭。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://kibunematsuri.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.town.manazuru.kanagawa.jp/soshiki/sangyoukankou/kanko/2258.html",
-          "site_name": "真鶴町公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-14"
-        }
-      ],
-      "trust_level": "低",
-      "conflict_note": "貴船まつり公式サイト(kibunematsuri.jp)は本稿時点で2025年(令和7年)の情報のみ掲載。真鶴町公式サイトで2026年7月24日(金)・25日(土)の開催を確認したが、独立した2件目のソースが得られていないため信頼度を低とし要確認とする。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_265",
       "name": "沼津夏まつり・狩野川花火大会",
       "alternate_names": [],
@@ -16795,6 +16735,299 @@
         {
           "url": "https://www.crossroadfukuoka.jp/event/13217",
           "site_name": "福岡県の観光/旅行情報サイト クロスロードふくおか（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_273",
+      "name": "しいば花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "宮崎県",
+      "city": "東臼杵郡椎葉村",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-11",
+      "date_note": "山の日開催。雨天の場合は順延。会場：椎葉中学校グラウンド一帯、耳川ダム湖（上椎葉ダム）上空で約800発打ち上げ。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "椎葉村観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "村主催イベント",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "宮崎県椎葉村で山の日に開催される花火大会。山あいのダム湖に打ち上げる花火が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.shiibakanko.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kanko-miyazaki.jp/event/2257",
+          "site_name": "宮崎県観光サイト（【2026】しいば花火大会）",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://www.shiibakanko.jp/",
+          "site_name": "椎葉村観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_274",
+      "name": "高城観音池まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "宮崎県",
+      "city": "都城市高城町",
+      "date_start": "2026-08-30",
+      "date_end": "2026-08-30",
+      "date_note": "毎年8月最終日曜日開催のルールに基づく（2026年の8月最終日曜日は8/30）。花火打ち上げ20:00〜20:30、約3000発。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "観音池まつり実行委員会（高城観光協会）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "地域まつり",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "都城市高城町の観音池公園で開催される夏まつり。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.miyakonojo.miyazaki.jp/site/kanko/2608.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.miyakonojo.miyazaki.jp/site/kanko/2608.html",
+          "site_name": "都城市公式サイト（毎年8月最終日曜日開催と記載、2026年個別明記なし）",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://www.jalan.net/",
+          "site_name": "じゃらんnet（2026-08-30開催と記載）",
+          "is_official": false,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/",
+          "site_name": "ジョルダン（2026-08-30開催と記載）",
+          "is_official": false,
+          "retrieved_date": "2026-07-15"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "都城市公式サイトは「毎年8月最終日曜日」という規則の記載のみで2026年の日付を数字で明記していない。複数の非公式サイトが2026-08-30(日)と一致して記載しており規則とも整合するが、公式一次情報での2026年個別明記が取れ次第requires_checkを解除する。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_275",
+      "name": "高津川花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "島根県",
+      "city": "益田市",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-22",
+      "date_note": "第1回（今年初開催）。14:00〜23:00、花火打ち上げ20:00〜20:40。雨天の場合8/23(日)に順延。第54回益田水郷祭・高津川流域マルシェ・高津川夜神楽と同時開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "高津川花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "新規イベント（第1回）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "島根県益田市の高津川河口河川敷で2026年に初開催される花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://takatsugawa.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://takatsugawa.jp/",
+          "site_name": "高津川花火大会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://www.city.masuda.lg.jp/",
+          "site_name": "益田市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://www.kankou-shimane.com/events/82796",
+          "site_name": "しまね観光ナビ（島根県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_276",
+      "name": "やすぎ月の輪まつり（月の輪神事）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "島根県",
+      "city": "安来市安来町",
+      "date_start": "2026-08-14",
+      "date_end": "2026-08-17",
+      "date_note": "本神事8/14(金)〜8/17(月)。関連花火大会は8/8(土)20:00頃。毎年8/14〜17の固定日程。出雲国風土記の毘売崎伝承にちなむ神事。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "やすぎ月の輪まつり実行委員会事務局（安来市役所観光推進課内）",
+      "genre": [
+        "神事",
+        "花火"
+      ],
+      "scale": "伝統神事",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "出雲国風土記の毘売崎伝承にちなむ、安来市安来町の伝統神事「月の輪神事」を中心とした祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://yasugi-kankou.com/yasugitsukinowafestival2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://yasugi-kankou.com/yasugitsukinowafestival2026/",
+          "site_name": "安来市観光ガイド公式サイト（2026年専用ページ）",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://www.kankou-shimane.com/events/43925",
+          "site_name": "しまね観光ナビ（島根県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_277",
+      "name": "北日本新聞納涼花火大会（富山会場）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "富山県",
+      "city": "富山市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第77回。花火打ち上げ19:40〜20:25。会場：神通川有沢橋下流（富山県富山市）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "北日本新聞社",
+      "genre": [
+        "花火"
+      ],
+      "scale": "新聞社主催の伝統花火大会",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "北日本新聞社主催、富山市の神通川河川敷で開催される花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.toyamashi-kankoukyoukai.jp/event/kitanihon-shinbun-hanabi/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.toyamashi-kankoukyoukai.jp/event/kitanihon-shinbun-hanabi/",
+          "site_name": "富山市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://www.info-toyama.com/events/10009",
+          "site_name": "とやま観光ナビ（富山県公式）",
           "is_official": true,
           "retrieved_date": "2026-07-15"
         }
