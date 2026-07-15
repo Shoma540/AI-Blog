@@ -293,6 +293,12 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
       "detail": "2026-06-30以降、48回連続で同一のAPI access blockedエラーが発生（本記録で49回目）。トークン更新では解消されない可能性が高く、Meta for Developers側でアプリの審査状態・利用制限・Instagramアカウント連携状態を確認する必要がある。"
+    },
+    {
+      "timestamp": "2026-07-15 08:12",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramメディア作成失敗: 400 OAuthException code=200 message=\"API access blocked.\"",
+      "detail": "2026-06-30 18:25から数えて50回連続（16日目）で同一のAPI access blockedエラーが継続。前回の再エスカレーション（2026-07-14 08:15）から丸1日経過しても状況変化がないため、本実行にて再エスカレーションを実施。ブログ更新（HTML生成・GitHub Push、新規1件）は正常に完了。新規追加：黒崎祇園山笠（festival_272、福岡県北九州市八幡西区、7/12・7/17〜20開催、国選択無形民俗文化財／福岡県指定無形民俗文化財、北九州市公式サイト・黒崎祇園山笠公式サイト・クロスロードふくおか（公式）の3ソース一致、信頼度：高）。requires_check中の宮崎神宮大祭（festival_059）・掛川祭（festival_179）を再検証したが、検索結果は依然として令和7年（2025年）の情報を提示しており2026年の一次情報は未発表と確認、状態維持。"
     }
   ]
 }
