@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15 12:30",
+  "last_updated": "2026-07-15 16:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -3786,17 +3786,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "organizer",
-        "sources",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "前回記録：2026-07-25 - 2026-07-26（誤り） → 訂正後：2026-07-24 - 2026-07-25（真鶴町公式サイト・観光協会で確認）"
@@ -11318,10 +11309,8 @@
       "trust_level": "低",
       "conflict_note": "確認できたソースは掛川市公式サイト1件のみ。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -16798,7 +16787,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -16860,7 +16849,7 @@
       "trust_level": "中",
       "conflict_note": "都城市公式サイトは「毎年8月最終日曜日」という規則の記載のみで2026年の日付を数字で明記していない。複数の非公式サイトが2026-08-30(日)と一致して記載しており規則とも整合するが、公式一次情報での2026年個別明記が取れ次第requires_checkを解除する。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -16922,7 +16911,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -16979,7 +16968,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -17029,6 +17018,70 @@
           "url": "https://www.info-toyama.com/events/10009",
           "site_name": "とやま観光ナビ（富山県公式）",
           "is_official": true,
+          "retrieved_date": "2026-07-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_278",
+      "name": "なかふらのラベンダーまつり＆花火大会",
+      "alternate_names": [
+        "中富良野花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "空知郡中富良野町",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第43回。悪天候時は花火大会のみ翌日（8月2日）に順延。",
+      "time_start": "17:00",
+      "time_end": "20:30",
+      "rain_policy": "花火大会のみ翌日（8/2）に順延",
+      "organizer": "なかふらのラベンダーまつり実行委員会事務局（中富良野町企画課）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "地域主催の花火大会（ラベンダーまつり同時開催）",
+      "is_free": false,
+      "price": "北星山ラベンダー園入場券3,000円/人、山頂駐車場付き入場券25,000円/台、臨時駐車場2,000〜2,500円（チケットぴあで5/29〜7/29販売）",
+      "ticket_url": "不明",
+      "history_years": 43,
+      "history_description": "中富良野町の北星山ラベンダー園・なかふらのフラワーパークで開催されるラベンダーまつりに合わせて行われる花火大会。2026年で43回目を迎える。",
+      "food_stalls": "出店・キッチンカーあり（15:00〜）、17:10〜ステージイベント",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明（交通規制実施予定）",
+      "official_url": "https://www.town.nakafurano.lg.jp/hotnews/detail/00003667.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.nakafurano.lg.jp/hotnews/detail/00003667.html",
+          "site_name": "中富良野町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://www.furanotourism.com/jp/spot/spot_D.php?id=461",
+          "site_name": "ふらの観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00729/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
           "retrieved_date": "2026-07-15"
         }
       ],
