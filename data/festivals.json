@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15 16:20",
+  "last_updated": "2026-07-15 17:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -17081,6 +17081,68 @@
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0101e00729/",
           "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_279",
+      "name": "南紀白浜花火フェスタ2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "和歌山県",
+      "city": "西牟婁郡白浜町",
+      "date_start": "2026-08-10",
+      "date_end": "2026-08-10",
+      "date_note": "予備日は2026年8月23日（日）同時刻。",
+      "time_start": "20:10",
+      "time_end": "20:40",
+      "rain_policy": "荒天時は予備日（8/23）に順延（判断基準の詳細記載なし）",
+      "organizer": "不明（問い合わせ先：南紀白浜観光協会）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "白良浜海水浴場。駐車場は旧南紀白浜空港跡地を利用（シャトルバス運行なし）。",
+      "official_url": "https://www.nankishirahama.jp/news/19125/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.nankishirahama.jp/news/19125/",
+          "site_name": "南紀白浜観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0730e466889/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3901010/",
+          "site_name": "ウェザーニュース 花火カレンダー",
           "is_official": false,
           "retrieved_date": "2026-07-15"
         }
