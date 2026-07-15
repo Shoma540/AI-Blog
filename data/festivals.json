@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14 18:11",
+  "last_updated": "2026-07-15 08:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -16675,7 +16675,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -16734,6 +16734,69 @@
           "site_name": "ファッションプレス",
           "is_official": false,
           "retrieved_date": "2026-07-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_272",
+      "name": "黒崎祇園山笠",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "北九州市八幡西区",
+      "date_start": "2026-07-12",
+      "date_end": "2026-07-20",
+      "date_note": "7/12(日)こども太鼓競演会、7/17(金)前夜祭（山笠競演会）、7/18(土)・19(日)山笠神事・街中巡行、7/20(月・祝)解散式（フィナーレ）",
+      "time_start": "18:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "黒崎祇園山笠保存振興会",
+      "genre": [
+        "山車",
+        "神事"
+      ],
+      "scale": "国選択無形民俗文化財／福岡県指定無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 400,
+      "history_description": "三社の氏子により約400年にわたり継承される祭り。関ヶ原の戦いに由来するとされる武者太鼓の伝統を取り入れ、かつては「けんか山笠」とも呼ばれた。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "黒崎地区（八幡西区）",
+      "official_url": "https://www.city.kitakyushu.lg.jp/yahatanishi/vw6200007.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kitakyushu.lg.jp/yahatanishi/vw6200007.html",
+          "site_name": "北九州市（八幡西区）公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://kurosakigion.com/",
+          "site_name": "黒崎祇園山笠 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
+        },
+        {
+          "url": "https://www.crossroadfukuoka.jp/event/13217",
+          "site_name": "福岡県の観光/旅行情報サイト クロスロードふくおか（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-15"
         }
       ],
       "trust_level": "高",
