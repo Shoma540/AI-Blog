@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16 12:13",
+  "last_updated": "2026-07-16 16:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -17342,6 +17342,69 @@
         {
           "url": "https://aichinow.pref.aichi.jp/events/detail/1115/",
           "site_name": "愛知県公式観光サイトAichi Now",
+          "is_official": true,
+          "retrieved_date": "2026-07-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_284",
+      "name": "きよたけ郷土祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "宮崎県",
+      "city": "宮崎市（清武町）",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "date_note": "第48回。会場は岡の下公園・岡多目的グラウンド。花火は7/19 21:00。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "きよたけ郷土祭り実行委員会",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料",
+      "ticket_url": "",
+      "history_years": 48,
+      "history_description": "不明",
+      "food_stalls": "露店が屋内27・屋外20、キッチンカー8台出店予定",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://kiyotakematsuri.sakura.ne.jp/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/kiyotakematsuri/"
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://kiyotakematsuri.sakura.ne.jp/info/",
+          "site_name": "きよたけ郷土祭り公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://www.miyazaki-city.tourism.or.jp/event/12450",
+          "site_name": "宮崎市観光サイト（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://www.kanko-miyazaki.jp/event/1840",
+          "site_name": "みやざき観光ナビ（公式）",
           "is_official": true,
           "retrieved_date": "2026-07-16"
         }
