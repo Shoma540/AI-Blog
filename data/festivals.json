@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16 17:12",
+  "last_updated": "2026-07-16 18:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -17413,6 +17413,214 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_285",
+      "name": "あしや花火大会",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "福岡県",
+      "city": "遠賀郡芦屋町",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "少雨決行・雨天順延なし",
+      "time_start": "20:00",
+      "time_end": "21:00",
+      "rain_policy": "少雨決行（雨天でも順延なし）",
+      "organizer": "あしや花火大会実行委員会（芦屋町観光協会内）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "遠賀川河口一帯で打ち上げられる福岡県芦屋町の花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR折尾駅から北九州市営バス(芦屋行き)で約25分、山鹿郵便局前停留所下車徒歩5分。車の場合は九州道鞍手ICから県道27号経由で約40分。",
+      "official_url": "https://www.town.ashiya.lg.jp/site/kanko/24391.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.ashiya.lg.jp/site/kanko/24391.html",
+          "site_name": "芦屋町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://ashikan.jp/event/post-4732/",
+          "site_name": "芦屋町観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://www.crossroadfukuoka.jp/event/13544",
+          "site_name": "クロスロードふくおか（福岡県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1040e00942/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_286",
+      "name": "神田明神納涼祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "date_start": "2026-08-06",
+      "date_end": "2026-08-09",
+      "date_note": "8/6は前夜祭。8/7アニソン盆踊り、8/8千代田区民踊連盟盆踊り、8/9浜町音頭保存会盆踊り。",
+      "time_start": "16:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "神田明神",
+      "genre": [
+        "盆踊り",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "神田明神で開催される納涼祭り。盆踊りのほか屋台やコラボ企画で賑わう。",
+      "food_stalls": "あり（絶品グルメ屋台等）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.nouryo-matsuri.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.nouryo-matsuri.com/",
+          "site_name": "神田明神納涼祭り公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://tokyofesta.com/23ku/30945/",
+          "site_name": "TOKYO FESTA",
+          "is_official": false,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/1508300/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://www.timeout.jp/tokyo/ja/things-to-do/kanda-myojin-noryo-festival",
+          "site_name": "Time Out Tokyo",
+          "is_official": false,
+          "retrieved_date": "2026-07-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_287",
+      "name": "羽田神社夏季例大祭（羽田まつり）",
+      "alternate_names": [
+        "羽田まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "大田区",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-26",
+      "date_note": "7/24 19:00本社神輿神霊入れ式、7/25 9:00例大祭式、7/26 本社神輿渡御（宮出し7:30〜・宮入り12:00過ぎ）、7/26 15:00-18:00町内神輿連合渡御（14町会14基）。",
+      "time_start": "07:30",
+      "time_end": "18:00",
+      "rain_policy": "不明",
+      "organizer": "羽田神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "羽田神社の夏季例大祭。「ヨコタ」と呼ばれる神輿を左右90度に倒し大きくローリングさせる独特の担ぎ方で知られる。担ぎ手約3000人、見物客3万人超。",
+      "food_stalls": "不明",
+      "crowd_level": "非常に混雑（見物客3万人超）",
+      "visitors": "3万人超",
+      "access": "不明",
+      "official_url": "https://www.hanedajinja.com/gyouji/info_reitaisai.htm",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/hndj_official/?hl=ja"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hanedajinja.com/gyouji/info_reitaisai.htm",
+          "site_name": "羽田神社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0313e71658/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_343877/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-07-16"
+        },
+        {
+          "url": "https://otakushoren.com/event/120779",
+          "site_name": "おーたふる（大田区商店街ナビ）",
+          "is_official": false,
+          "retrieved_date": "2026-07-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
