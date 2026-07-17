@@ -17626,6 +17626,263 @@
         "changed": false,
         "details": ""
       }
+    },
+    {
+      "id": "festival_288",
+      "name": "神楽坂まつり",
+      "alternate_names": [
+        "神楽坂ほおずき市",
+        "神楽坂阿波踊り",
+        "神楽坂盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "新宿区",
+      "date_start": "2026-07-22",
+      "date_end": "2026-07-25",
+      "date_note": "第一部ほおずき市は7月22日・23日(17:00〜21:00)、第二部阿波踊り大会は7月24日・25日(19:00〜21:00)。25日18:00〜19:00は子供阿波踊り大会。",
+      "time_start": "17:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "神楽坂通り商店会",
+      "genre": [
+        "踊り",
+        "神事"
+      ],
+      "scale": "その他（地域商店会主催・第52回）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 52,
+      "history_description": "神楽坂通り商店会が主催する夏祭りで、2026年で第52回を迎える。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京メトロ東西線「神楽坂駅」、JR・地下鉄「飯田橋駅」",
+      "official_url": "https://www.kagurazaka.in/kagurazaka_festival/52th/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kagurazaka.in/kagurazaka_festival/52th/",
+          "site_name": "神楽坂通り商店会",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://summer.walkerplus.com/odekake/detail_e/ar0313e71549/",
+          "site_name": "夏休みおでかけガイド2026(ウォーカープラス)",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://x.com/kagurazaka_6/status/2067528339074830638",
+          "site_name": "神楽坂通り商店会 公式X",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_289",
+      "name": "新橋こいち祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "港区",
+      "date_start": "2026-07-23",
+      "date_end": "2026-07-24",
+      "date_note": "第29回開催。",
+      "time_start": "15:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "新橋地区商店会",
+      "genre": [
+        "盆踊り",
+        "パレード"
+      ],
+      "scale": "その他（地域商店会主催・第29回）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 29,
+      "history_description": "新橋地区商店会が主催する夏祭りで、2026年で第29回を迎える。新橋駅前SL広場ほか複数会場で開催。",
+      "food_stalls": "露店・出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR・地下鉄「新橋駅」",
+      "official_url": "http://www.shinbashi.net/top/koichi/2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://www.shinbashi.net/top/koichi/2026/",
+          "site_name": "新橋地区商店会",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://summer.walkerplus.com/odekake/detail_e/ar0313e71383/",
+          "site_name": "夏休みおでかけガイド2026(ウォーカープラス)",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://tokyofesta.com/23ku/29820/",
+          "site_name": "東京フェスタ",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_290",
+      "name": "下北沢盆踊り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "世田谷区",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "2025年は8月開催だったが、2026年は7月開催に変更。",
+      "time_start": "13:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "しもきた商店街振興組合／下北沢東会・あずま通り商店街",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他（地域商店会主催）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "露店・かえっこバザールあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京王井の頭線・小田急線「下北沢駅」東口",
+      "official_url": "https://shimokita-info.com/news/shimokitazawa-bonodori2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://shimokita-info.com/news/shimokitazawa-bonodori2026/",
+          "site_name": "しもきた商店街振興組合",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://shimokitazawa-east.com/archives/8501",
+          "site_name": "下北沢東会・あずま通り商店街",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://www.shimokitazawa.info/news/2026/06/bonodori2026/",
+          "site_name": "しもブロ（下北沢ローカルメディア）",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：8月開催 → 今年：7月開催に変更"
+      }
+    },
+    {
+      "id": "festival_291",
+      "name": "妖怪盆踊り2026",
+      "alternate_names": [
+        "たちかわ妖怪盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "立川市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-12",
+      "date_note": "10月10日(土)・11日(日)・12日(月・祝)の3日間開催。チケットは7月2日よりイープラスにて販売開始。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "妖怪盆踊り実行委員会",
+      "genre": [
+        "盆踊り",
+        "パレード"
+      ],
+      "scale": "その他（商業施設主催イベント）",
+      "is_free": false,
+      "price": "有料（詳細はイープラスにて）",
+      "ticket_url": "https://spice.eplus.jp/articles/347074/amp",
+      "history_years": "不明",
+      "history_description": "GREEN SPRINGSで開催される妖怪をテーマにした盆踊りイベント。",
+      "food_stalls": "妖怪屋台村・キッチンカーあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "多摩モノレール「立川北駅」直結",
+      "official_url": "https://www.yokaibonodori.tokyo/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/yokaibonodori/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yokaibonodori.tokyo/",
+          "site_name": "妖怪盆踊り2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://greensprings.jp/information/10515/",
+          "site_name": "GREEN SPRINGS 公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://spice.eplus.jp/articles/347074/amp",
+          "site_name": "SPICE",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
     }
   ]
 }
