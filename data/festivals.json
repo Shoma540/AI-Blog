@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17 17:20",
+  "last_updated": "2026-07-17 17:35",
   "festivals": [
     {
       "id": "festival_001",
@@ -18072,6 +18072,136 @@
         {
           "url": "https://www.enjoytokyo.jp/event/2070587/",
           "site_name": "エンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_295",
+      "name": "すみだ錦糸町河内音頭大盆踊り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "墨田区",
+      "date_start": "2026-07-29",
+      "date_end": "2026-07-30",
+      "date_note": "第44回開催",
+      "time_start": "17:30",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "錦糸町商店街振興組合",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（一般的な盆踊り大会のため無料の可能性が高いが公式サイトでの明記未確認）",
+      "ticket_url": "不明",
+      "history_years": 44,
+      "history_description": "竪川親水公園特設会場（首都高速7号線高架下）で開催される河内音頭の大盆踊り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "錦糸町駅南口から徒歩約6分",
+      "official_url": "https://www.kinshicho-kawachiondo.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kinshicho-kawachiondo.jp/",
+          "site_name": "すみだ錦糸町河内音頭大盆踊り公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://www.sumidaevent.com/sumida-kinshicho-kawachiondo-bon-odori-2026/",
+          "site_name": "すみだイベント",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://www.sumida-note.com/event/kinshicho-kawachiondo-44/",
+          "site_name": "すみだノート",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://sumida.keizai.biz/headline/1848",
+          "site_name": "すみだ経済新聞",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_296",
+      "name": "新小岩納涼盆踊り大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "葛飾区",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "模擬店16:00〜20:30、盆踊り18:00〜20:30",
+      "time_start": "18:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "新小岩栄通り会（共催：新小岩商交会）",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（模擬店は有料の可能性、盆踊り参加自体は無料と推測されるが公式明記未確認）",
+      "ticket_url": "不明",
+      "history_years": 0,
+      "history_description": "町会・自治会・商店街・地域団体の協力による新小岩地域主体の盆踊り大会。",
+      "food_stalls": "焼きそば・フランクフルト・かき氷・ポップコーン・唐揚げなど多数の模擬店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "葛飾区新小岩2丁目25番地 葛飾区立小松南小学校 校庭",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://katsushika.goguynet.jp/2026/07/05/shinkoiwanoryobonodori-2026/",
+          "site_name": "号外NET 葛飾区",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://newscast.jp/news/5841842",
+          "site_name": "NEWSCAST（プレスリリース）",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://marche.portal-th.com/archives/25826",
+          "site_name": "全国イベント情報マイフ",
           "is_official": false,
           "retrieved_date": "2026-07-17"
         }
