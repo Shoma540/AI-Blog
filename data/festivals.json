@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17 08:13",
+  "last_updated": "2026-07-17 17:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -17687,7 +17687,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -17750,7 +17750,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -17812,7 +17812,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -17870,6 +17870,208 @@
         {
           "url": "https://spice.eplus.jp/articles/347074/amp",
           "site_name": "SPICE",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_292",
+      "name": "伊勢神宮奉納全国花火大会",
+      "alternate_names": [
+        "神宮奉納全国花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "伊勢市",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-18",
+      "date_note": "荒天の場合は2026年9月5日(土)に延期。",
+      "time_start": "19:20",
+      "time_end": "21:00",
+      "rain_policy": "荒天中止・約1か月半後の9月5日に延期",
+      "organizer": "伊勢神宮奉納全国花火大会実行委員会（伊勢市）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（日本三大競技花火大会の一つ）",
+      "is_free": true,
+      "price": "無料（一部有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": 74,
+      "history_description": "1953年(昭和28年)の第59回神宮式年遷宮を記念して始まった、神宮に花火を奉納する唯一無二の花火大会。約8,400発を打ち上げる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "三重県伊勢市 宮川河畔（度会橋上流）",
+      "official_url": "https://www.city.ise.mie.jp/hanabi/",
+      "sns_accounts": {},
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.ise.mie.jp/hanabi/",
+          "site_name": "伊勢市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://www.isejingu.or.jp/topics/mfxrkgq1.html",
+          "site_name": "伊勢神宮公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/report/1507",
+          "site_name": "観光三重（三重県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0624e00804/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_293",
+      "name": "横浜七夕祭り2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "横浜市西区",
+      "date_start": "2026-07-04",
+      "date_end": "2026-07-05",
+      "date_note": "今年で2回目の開催。",
+      "time_start": "10:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "株式会社八六商店（横浜七夕祭り実行委員会）",
+      "genre": [
+        "七夕"
+      ],
+      "scale": "その他（民間主催イベント）",
+      "is_free": true,
+      "price": "臨港パークエリアは入場無料。パシフィコ横浜Bホールは一般2,500円・子ども1,500円・未就学児無料。",
+      "ticket_url": "https://eplus.jp/sf/detail/4562150001-P0030001",
+      "history_years": 2,
+      "history_description": "横浜最大級を謳う七夕祭りで、臨港パーク・パシフィコ横浜を会場に開催。",
+      "food_stalls": "フードエリアあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "臨港パーク・パシフィコ横浜（横浜市西区）",
+      "official_url": "https://yokohama-tanabata.com/",
+      "sns_accounts": {},
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://yokohama-tanabata.com/",
+          "site_name": "横浜七夕祭り公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://www.welcome.city.yokohama.jp/eventinfo/ev_detail.php?bid=yw12451",
+          "site_name": "横浜市観光情報公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://www.kanagawa-kankou.or.jp/event/7116",
+          "site_name": "観光かながわNOW（神奈川県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2020551/",
+          "site_name": "エンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_294",
+      "name": "鷹巣花火大会",
+      "alternate_names": [
+        "第1回鷹巣花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福井県",
+      "city": "福井市",
+      "date_start": "2026-07-11",
+      "date_end": "2026-07-11",
+      "date_note": "荒天の場合は7月12日(日)または7月17日(金)に順延。今年が第1回の新規開催。",
+      "time_start": "19:30",
+      "time_end": "不明",
+      "rain_policy": "順延（7/12→7/17の順で順延）",
+      "organizer": "鷹巣観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（クラウドファンディングにより実現した第1回開催）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 1,
+      "history_description": "福井市・鷹巣海水浴場で初開催される花火大会。約2,000発（一尺玉7発）を打ち上げ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "鷹巣海水浴場（福井県福井市浜住町）",
+      "official_url": "https://fuku-iro.jp/event/detail_13955.html",
+      "sns_accounts": {},
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://fuku-iro.jp/event/detail_13955.html",
+          "site_name": "福いろ（福井市公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://www.fuku-e.com/event/detail_8273.html",
+          "site_name": "ふくいドットコム（福井県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Hokuriku/fukui/2026/2026-07-11_takanosu-hanabi-taikai.html",
+          "site_name": "花火に行こう",
+          "is_official": false,
+          "retrieved_date": "2026-07-17"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2070587/",
+          "site_name": "エンジョイ東京",
           "is_official": false,
           "retrieved_date": "2026-07-17"
         }
