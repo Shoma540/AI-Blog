@@ -190,33 +190,74 @@ footer {
   margin-top: 2rem;
 }
 
-/* 地図ページ */
-.map-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
-  gap: 0.6rem;
-  margin-bottom: 2rem;
+/* 地図ページ（地理配置グリッド） */
+.geo-map-wrap {
+  position: relative;
+  width: 100%;
+  overflow-x: auto;
+  padding: 1rem 0 2rem;
 }
-.map-pref-btn {
-  display: block;
+.geo-map {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(13, minmax(54px, 1fr));
+  grid-template-rows: repeat(12, 44px);
+  gap: 5px;
+  min-width: 720px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  /* 背景に薄い日本列島シルエット（インラインSVG） */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 120' preserveAspectRatio='none'%3E%3Cg fill='%23C0392B' fill-opacity='0.09'%3E%3Cellipse cx='116' cy='9' rx='9' ry='6'/%3E%3Cpath d='M96 20 Q106 28 105 44 Q102 58 92 64 L82 58 Q84 42 90 30 Z'/%3E%3Cpath d='M42 56 Q70 50 94 60 Q102 68 94 78 L58 80 Q46 72 40 64 Z'/%3E%3Cpath d='M16 76 Q30 72 38 80 L34 92 Q22 96 17 88 Z'/%3E%3Cellipse cx='11' cy='110' rx='6' ry='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+.geo-pref {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 0.6rem 0.4rem;
+  padding: 0.2rem;
   background: #fff;
-  border: 1.5px solid #ddd;
-  border-radius: 8px;
-  font-size: 0.85rem;
-  color: #333;
+  border: 1.5px solid #e0d8d0;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  line-height: 1.1;
+  color: #555;
   transition: all 0.15s;
 }
-.map-pref-btn:hover, .map-pref-btn.has-data {
+.geo-pref.has-data {
   background: #C0392B;
   border-color: #C0392B;
   color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(192,57,43,0.3);
 }
-.map-pref-btn.no-data {
-  opacity: 0.4;
+.geo-pref.has-data:hover {
+  background: #8b1a10;
+  transform: scale(1.08);
+  z-index: 2;
+}
+.geo-pref.no-data {
+  opacity: 0.5;
   pointer-events: none;
 }
+.map-legend {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+.legend-item { display: flex; align-items: center; gap: 0.4rem; }
+.legend-box {
+  width: 16px; height: 16px; border-radius: 4px; display: inline-block;
+}
+.legend-box.has-data { background: #C0392B; }
+.legend-box.no-data { background: #fff; border: 1.5px solid #e0d8d0; opacity: 0.5; }
 
 /* カレンダーページ */
 .month-tabs {
@@ -247,9 +288,539 @@ footer {
   .card-grid { grid-template-columns: 1fr; }
   nav { gap: 1rem; }
   .page-header { padding: 2rem 1rem 1.5rem; }
+  .geo-map-wrap { overflow-x: hidden; display: flex; justify-content: center; }
+  .geo-map {
+    min-width: 720px;
+    grid-template-columns: repeat(13, 54px);
+    grid-template-rows: repeat(12, 44px);
+    transform: scale(0.46);
+    transform-origin: top center;
+    margin-bottom: -1200px;
+  }
+  .geo-pref { font-size: 0.78rem; }
+  .geo-map-wrap::after {
+    content: "タップで各地域の祭りへ";
+    display: block; text-align: center; font-size: 0.75rem;
+    color: #999; margin-top: 0.5rem;
+  }
 }
 </style>
-  
+  <style>
+/* CSS Document */
+
+
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+/******* 地図成形 *******/
+#japan-map div div.area div {
+    border: 1px #ffffff solid;
+    text-align: center;
+    font-size: 14px;
+     display: flex;
+        display: -webkit-flex;
+     align-items: center; /* 縦方向中央揃え */
+         -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+     justify-content: center; /* 横方向中央揃え */
+         -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    border-radius: 6px;
+        -webkit-border-radius: 6px;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+#japan-map div div.area div:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+}
+#japan-map div div.area span.cell-wrap { display: contents; }
+
+#japan-map {
+    display: block;
+    width: 777px;
+    height: 482px;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#japan-map p.area-title {
+    display: none;
+}
+
+/* 北海道・東北 */
+
+#hokkaido-touhoku {
+    width: 136px;
+    display: block;
+    height: 265px;
+    position: absolute;
+    left: 638px;
+}
+
+
+#hokkaido {
+    width: 133px;
+    height: 70px;
+}
+#aomori {
+    width: 93px;
+    height: 43px;
+    left: 21px;
+    top: 96px;
+}
+#akita {
+    width: 67px;
+    height: 42px;
+    left: 3px;
+    top: 139px;
+
+}
+#iwate {
+    width: 67px;
+    height: 42px;
+    left: 70px;
+    top: 139px;
+}
+#yamagata {
+    width: 67px;
+    height: 42px;
+    top: 181px;
+    left: 3px;
+}
+#miyagi {
+    width: 67px;
+    height: 42px;
+    top: 181px;
+    left: 70px;
+}
+#fukushima {
+    width: 67px;
+    height: 42px;
+    top: 223px;
+    left: 70px;
+}
+
+/* 関東 */
+
+#kantou {
+    width: 158px;
+    display: block;
+    height: 174px;
+    position: absolute;
+    top: 265px;
+    left: 623px;
+    z-index: 2;
+}
+
+#ibaraki {
+    width: 52px;
+    height: 85px;
+    top: 0px;
+    left: 100px;
+}
+#tochigi {
+    width: 50px;
+    height: 42px;
+    top: 0px;
+    left: 50px;
+}
+#gunma {
+    width: 50px;
+    height: 42px;
+    top: 0px;
+    left: 0px;
+}
+#saitama {
+    width: 100px;
+    height: 43px;
+    top: 42px;
+    left: 0px;
+}
+#chiba {
+    width: 52px;
+    height: 84px;
+    top: 85px;
+    left: 100px;
+}
+#tokyo {
+    width: 100px;
+    height: 42px;
+    top: 85px;
+    left: 0px;
+}
+#kanagawa {
+    width: 67px;
+    height: 42px;
+    top: 127px;
+    left: 0px;
+}
+
+/* 中部 */
+
+#tyubu {
+    width: 270px;
+    height: 211px;
+    position: absolute;
+    left: 438px;
+    top: 223px;
+}
+
+
+#nigata {
+    width: 85px;
+    height: 42px;
+    left: 185px;
+}
+#toyama {
+    width: 67px;
+    height: 42px;
+    left: 118px;
+}
+#ishikawa {
+    width: 50px;
+    height: 57px;
+    left: 68px;
+}
+#fukui {
+    width: 68px;
+    height: 42px;
+    left: 0px;
+    z-index: 2;
+}
+#nagano {
+    width: 67px;
+    height: 85px;
+    left: 118px;
+    top: 42px
+}
+#yamanashi {
+    width: 67px;
+    height: 42px;
+    left: 118px;
+    top: 127px;
+}
+#gifu {
+    width: 50px;
+    height: 55px;
+    left: 68px;
+    top: 57px
+}
+#shizuoka {
+    width: 67px;
+    height: 42px;
+    left: 118px;
+    top: 169px;
+}
+#aichi {
+    width: 50px;
+    height: 57px;
+    top: 112px;
+    left: 68px;
+}
+
+/* 近畿 */
+
+#kinki {
+    width: 186px;
+    height: 211px;
+    position: absolute;
+    left: 320px;
+    top: 223px;
+}
+
+
+#kyoto {
+    width: 67px;
+    height: 84px;
+    left: 51px;
+}
+#shiga {
+    width: 68px;
+    height: 42px;
+    top: 42px;
+    left: 118px;
+}
+#osaka {
+    width: 67px;
+    height: 85px;
+    top: 84px;
+    left: 51px;
+}
+#nara {
+    width: 34px;
+    height: 85px;
+    top: 84px;
+    left: 118px;
+}
+#mie {
+    width: 34px;
+    height: 85px;
+    top: 84px;
+    left: 152px;
+}
+#wakayama {
+    width: 113px;
+    height: 42px;
+    top: 169px;
+    left: 61px;
+}
+#hyougo {
+    width: 51px;
+    height: 98px;
+    left: 0px;
+}
+
+/* 中国 */
+
+#tyugoku {
+    width: 151px;
+    height: 98px;
+    position: absolute;
+    left: 169px;
+    top: 223px;
+}
+
+#tottori {
+    width: 50px;
+    height: 49px;
+    left: 101px;
+}
+#okayama {
+    width: 50px;
+    height: 49px;
+    top: 49px;
+    left: 101px;
+}
+#shimane {
+    width: 51px;
+    height: 49px;
+    left: 50px;
+}
+#hiroshima {
+    width: 51px;
+    height: 49px;
+    top: 49px;
+    left: 50px;
+}
+#yamaguchi {
+    width: 50px;
+    height: 98px;
+    left: 0px;
+}
+
+/* 四国 */
+
+#shikoku {
+    width: 184px;
+    height: 84px;
+    position: absolute;
+    left: 169px;
+    top: 350px;
+}
+
+#kagawa {
+    width: 92px;
+    height: 42px;
+    right: 0px;
+}
+#ehime {
+    width: 92px;
+    height: 42px;
+    left: 0px;
+}
+#tokushima {
+    width: 92px;
+    height: 42px;
+    right: 0px;
+    top: 42px;
+}
+#kouchi {
+    width: 92px;
+    height: 42px;
+    left: 0px;
+    top: 42px;
+}
+
+/* 九州・沖縄 */
+
+#kyusyu {
+    width: 152px;
+    height: 247px;
+    position: absolute;
+    left: 0px;
+    top: 235px;
+}
+
+#fukuoka {
+    width: 50px;
+    height: 50px;
+    left: 101px;
+    top: 0px;
+}
+#saga {
+    width: 50px;
+    height: 50px;
+    left: 51px;
+    top: 0px;
+}
+#nagasaki {
+    width: 50px;
+    height: 50px;
+    left: 1px;
+    top: 0px;
+}
+#oita {
+    width: 50px;
+    height: 50px;
+    left: 101px;
+    top: 50px;
+}
+#kumamoto {
+    width: 50px;
+    height: 100px;
+    left: 51px;
+    top: 50px;
+}
+#miyazaki {
+    width: 50px;
+    height: 50px;
+    left: 101px;
+    top: 100px;
+}
+#kagoshima {
+    width: 68px;
+    height: 49px;
+    left: 83px;
+    top: 150px;
+}
+#okinawa {
+    width: 50px;
+    height: 50px;
+    left: 1px;
+    top: 197px;
+}
+
+
+/****************************************
+    レスポンシブ
+
+****************************************/
+@media screen and (max-width: 776px) {
+#japan-map {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+}
+#japan-map p.area-title {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    color: #000000;
+}
+#hokkaido-touhoku, #kantou, #tyubu, #kinki, #tyugoku, #shikoku, #kyusyu {
+    display: block;
+    position: static;
+    margin: 0 1em 0 1em;
+}
+#japan-map div div.area {
+    display: block;
+    position: relative;
+}
+
+#hokkaido-touhoku {
+    height: calc(265px + 4.5em);
+}
+#kantou {
+    height: calc(174px + 4.5em);
+}
+#tyubu {
+    height: calc(211px + 4.5em);
+}
+#kinki {
+    height: calc(211px + 4.5em);
+}
+#tyugoku {
+    height: calc(98px + 4.5em);
+}
+#shikoku {
+    height: calc(84px + 4.5em);
+}
+#kyusyu {
+    height: calc(247px + 4.5em);
+}
+
+} /* レスポンシブ max-776px */
+
+
+
+@media screen and (max-width: 500px) {
+#japan-map {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#hokkaido-touhoku, #kantou, #tyubu, #kinki, #tyugoku, #shikoku, #kyusyu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    position: static;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#japan-map div div.area {
+    font-size: 14px;
+     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#japan-map div div.area a,
+#japan-map div div.area span.cell-wrap {
+    height: auto;
+    width: 25%;
+    display: block;
+}
+#japan-map div div.area div {
+     display: block;
+    border-radius: 0px;
+    position: static;
+    height: auto;
+    font-size: 16px;
+    width: 100%;
+    padding: 0.5em 0.3em 0.5em 0.3em;
+}
+
+
+} /* レスポンシブ max-500px */
+
+/* 祭り情報の有無による色分け（朱／グレー） */
+#japan-map div div.area div.has-data {
+    background-color: #C0392B;
+    color: #ffffff;
+    cursor: pointer;
+}
+#japan-map div div.area div.no-data {
+    background-color: #e8e0d8;
+    color: #a89b8d;
+}
+#japan-map a { color: inherit; text-decoration: none; }
+#japan-map div div.area div.has-data:hover {
+    opacity: 0.75;
+}
+</style>
 </head>
 <body>
 <nav>
@@ -260,11 +831,14 @@ footer {
 </nav>
 <div class="page-header">
   <h1>地図から探す</h1>
-  <p>赤色の都道府県に祭り情報があります</p>
+  <p>色のついた地域に祭り情報があります（47地域）</p>
 </div>
 <div class="container">
-  <h2 class="section-title">都道府県一覧</h2>
-  <div class="map-grid"><a class="map-pref-btn has-data" href="prefecture/北海道.html">北海道</a><a class="map-pref-btn has-data" href="prefecture/青森県.html">青森県</a><a class="map-pref-btn has-data" href="prefecture/岩手県.html">岩手県</a><a class="map-pref-btn has-data" href="prefecture/宮城県.html">宮城県</a><a class="map-pref-btn has-data" href="prefecture/秋田県.html">秋田県</a><a class="map-pref-btn has-data" href="prefecture/山形県.html">山形県</a><a class="map-pref-btn has-data" href="prefecture/福島県.html">福島県</a><a class="map-pref-btn has-data" href="prefecture/茨城県.html">茨城県</a><a class="map-pref-btn has-data" href="prefecture/栃木県.html">栃木県</a><a class="map-pref-btn has-data" href="prefecture/群馬県.html">群馬県</a><a class="map-pref-btn has-data" href="prefecture/埼玉県.html">埼玉県</a><a class="map-pref-btn has-data" href="prefecture/千葉県.html">千葉県</a><a class="map-pref-btn has-data" href="prefecture/東京都.html">東京都</a><a class="map-pref-btn has-data" href="prefecture/神奈川県.html">神奈川県</a><a class="map-pref-btn has-data" href="prefecture/新潟県.html">新潟県</a><a class="map-pref-btn has-data" href="prefecture/富山県.html">富山県</a><a class="map-pref-btn has-data" href="prefecture/石川県.html">石川県</a><a class="map-pref-btn has-data" href="prefecture/福井県.html">福井県</a><a class="map-pref-btn has-data" href="prefecture/山梨県.html">山梨県</a><a class="map-pref-btn has-data" href="prefecture/長野県.html">長野県</a><a class="map-pref-btn has-data" href="prefecture/岐阜県.html">岐阜県</a><a class="map-pref-btn has-data" href="prefecture/静岡県.html">静岡県</a><a class="map-pref-btn has-data" href="prefecture/愛知県.html">愛知県</a><a class="map-pref-btn has-data" href="prefecture/三重県.html">三重県</a><a class="map-pref-btn has-data" href="prefecture/滋賀県.html">滋賀県</a><a class="map-pref-btn has-data" href="prefecture/京都府.html">京都府</a><a class="map-pref-btn has-data" href="prefecture/大阪府.html">大阪府</a><a class="map-pref-btn has-data" href="prefecture/兵庫県.html">兵庫県</a><a class="map-pref-btn has-data" href="prefecture/奈良県.html">奈良県</a><a class="map-pref-btn has-data" href="prefecture/和歌山県.html">和歌山県</a><a class="map-pref-btn has-data" href="prefecture/鳥取県.html">鳥取県</a><a class="map-pref-btn has-data" href="prefecture/島根県.html">島根県</a><a class="map-pref-btn has-data" href="prefecture/岡山県.html">岡山県</a><a class="map-pref-btn has-data" href="prefecture/広島県.html">広島県</a><a class="map-pref-btn has-data" href="prefecture/山口県.html">山口県</a><a class="map-pref-btn has-data" href="prefecture/徳島県.html">徳島県</a><a class="map-pref-btn has-data" href="prefecture/香川県.html">香川県</a><a class="map-pref-btn has-data" href="prefecture/愛媛県.html">愛媛県</a><a class="map-pref-btn has-data" href="prefecture/高知県.html">高知県</a><a class="map-pref-btn has-data" href="prefecture/福岡県.html">福岡県</a><a class="map-pref-btn has-data" href="prefecture/佐賀県.html">佐賀県</a><a class="map-pref-btn has-data" href="prefecture/長崎県.html">長崎県</a><a class="map-pref-btn has-data" href="prefecture/熊本県.html">熊本県</a><a class="map-pref-btn has-data" href="prefecture/大分県.html">大分県</a><a class="map-pref-btn has-data" href="prefecture/宮崎県.html">宮崎県</a><a class="map-pref-btn has-data" href="prefecture/鹿児島県.html">鹿児島県</a><a class="map-pref-btn has-data" href="prefecture/沖縄県.html">沖縄県</a></div>
+  <div id="japan-map" class="clearfix"><div id="hokkaido-touhoku" class="clearfix"><p class="area-title">北海道・東北</p><div class="area"><a href="prefecture/北海道.html"><div id="hokkaido" class="has-data"><p>北海道</p></div></a><a href="prefecture/青森県.html"><div id="aomori" class="has-data"><p>青森</p></div></a><a href="prefecture/秋田県.html"><div id="akita" class="has-data"><p>秋田</p></div></a><a href="prefecture/岩手県.html"><div id="iwate" class="has-data"><p>岩手</p></div></a><a href="prefecture/山形県.html"><div id="yamagata" class="has-data"><p>山形</p></div></a><a href="prefecture/宮城県.html"><div id="miyagi" class="has-data"><p>宮城</p></div></a><a href="prefecture/福島県.html"><div id="fukushima" class="has-data"><p>福島</p></div></a></div></div><div id="kantou" class="clearfix"><p class="area-title">関東</p><div class="area"><a href="prefecture/群馬県.html"><div id="gunma" class="has-data"><p>群馬</p></div></a><a href="prefecture/栃木県.html"><div id="tochigi" class="has-data"><p>栃木</p></div></a><a href="prefecture/茨城県.html"><div id="ibaraki" class="has-data"><p>茨城</p></div></a><a href="prefecture/埼玉県.html"><div id="saitama" class="has-data"><p>埼玉</p></div></a><a href="prefecture/千葉県.html"><div id="chiba" class="has-data"><p>千葉</p></div></a><a href="prefecture/東京都.html"><div id="tokyo" class="has-data"><p>東京</p></div></a><a href="prefecture/神奈川県.html"><div id="kanagawa" class="has-data"><p>神奈川</p></div></a></div></div><div id="tyubu" class="clearfix"><p class="area-title">中部</p><div class="area"><a href="prefecture/新潟県.html"><div id="nigata" class="has-data"><p>新潟</p></div></a><a href="prefecture/富山県.html"><div id="toyama" class="has-data"><p>富山</p></div></a><a href="prefecture/石川県.html"><div id="ishikawa" class="has-data"><p>石川</p></div></a><a href="prefecture/福井県.html"><div id="fukui" class="has-data"><p>福井</p></div></a><a href="prefecture/長野県.html"><div id="nagano" class="has-data"><p>長野</p></div></a><a href="prefecture/岐阜県.html"><div id="gifu" class="has-data"><p>岐阜</p></div></a><a href="prefecture/山梨県.html"><div id="yamanashi" class="has-data"><p>山梨</p></div></a><a href="prefecture/愛知県.html"><div id="aichi" class="has-data"><p>愛知</p></div></a><a href="prefecture/静岡県.html"><div id="shizuoka" class="has-data"><p>静岡</p></div></a></div></div><div id="kinki" class="clearfix"><p class="area-title">近畿</p><div class="area"><a href="prefecture/京都府.html"><div id="kyoto" class="has-data"><p>京都</p></div></a><a href="prefecture/滋賀県.html"><div id="shiga" class="has-data"><p>滋賀</p></div></a><a href="prefecture/大阪府.html"><div id="osaka" class="has-data"><p>大阪</p></div></a><a href="prefecture/奈良県.html"><div id="nara" class="has-data"><p>奈良</p></div></a><a href="prefecture/三重県.html"><div id="mie" class="has-data"><p>三重</p></div></a><a href="prefecture/和歌山県.html"><div id="wakayama" class="has-data"><p>和歌山</p></div></a><a href="prefecture/兵庫県.html"><div id="hyougo" class="has-data"><p>兵庫</p></div></a></div></div><div id="tyugoku" class="clearfix"><p class="area-title">中国</p><div class="area"><a href="prefecture/鳥取県.html"><div id="tottori" class="has-data"><p>鳥取</p></div></a><a href="prefecture/岡山県.html"><div id="okayama" class="has-data"><p>岡山</p></div></a><a href="prefecture/島根県.html"><div id="shimane" class="has-data"><p>島根</p></div></a><a href="prefecture/広島県.html"><div id="hiroshima" class="has-data"><p>広島</p></div></a><a href="prefecture/山口県.html"><div id="yamaguchi" class="has-data"><p>山口</p></div></a></div></div><div id="shikoku" class="clearfix"><p class="area-title">四国</p><div class="area"><a href="prefecture/香川県.html"><div id="kagawa" class="has-data"><p>香川</p></div></a><a href="prefecture/愛媛県.html"><div id="ehime" class="has-data"><p>愛媛</p></div></a><a href="prefecture/徳島県.html"><div id="tokushima" class="has-data"><p>徳島</p></div></a><a href="prefecture/高知県.html"><div id="kouchi" class="has-data"><p>高知</p></div></a></div></div><div id="kyusyu" class="clearfix"><p class="area-title">九州・沖縄</p><div class="area"><a href="prefecture/福岡県.html"><div id="fukuoka" class="has-data"><p>福岡</p></div></a><a href="prefecture/佐賀県.html"><div id="saga" class="has-data"><p>佐賀</p></div></a><a href="prefecture/長崎県.html"><div id="nagasaki" class="has-data"><p>長崎</p></div></a><a href="prefecture/大分県.html"><div id="oita" class="has-data"><p>大分</p></div></a><a href="prefecture/熊本県.html"><div id="kumamoto" class="has-data"><p>熊本</p></div></a><a href="prefecture/宮崎県.html"><div id="miyazaki" class="has-data"><p>宮崎</p></div></a><a href="prefecture/鹿児島県.html"><div id="kagoshima" class="has-data"><p>鹿児島</p></div></a><a href="prefecture/沖縄県.html"><div id="okinawa" class="has-data"><p>沖縄</p></div></a></div></div></div>
+  <div class="map-legend" style="display:flex;gap:1.5rem;justify-content:center;font-size:0.85rem;color:#555;margin-top:2rem;">
+    <span style="display:flex;align-items:center;gap:0.4rem;"><span style="width:16px;height:16px;border-radius:4px;background:#C0392B;"></span> 祭り情報あり</span>
+    <span style="display:flex;align-items:center;gap:0.4rem;"><span style="width:16px;height:16px;border-radius:4px;background:#e8e0d8;"></span> 情報なし</span>
+  </div>
 </div>
 <footer>最終更新: 2026-07-18 08:18</footer>
 </body>
