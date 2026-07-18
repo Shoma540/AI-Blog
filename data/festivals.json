@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18 08:18",
+  "last_updated": "2026-07-18 20:10",
   "festivals": [
     {
       "id": "festival_001",
@@ -11309,10 +11309,8 @@
       "trust_level": "低",
       "conflict_note": "確認できたソースは掛川市公式サイト1件のみ。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -15408,10 +15406,8 @@
       "trust_level": "中",
       "conflict_note": "2026年の具体的な日程を明記した一次情報（公式サイト等）が見つからず、地域ニュースサイト1件のみでの確認。新座市公式ページは文化財指定情報のみで日程記載なし。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -16550,13 +16546,8 @@
       "trust_level": "高",
       "conflict_note": "花火の打ち上げ時間は公式サイトでも「未定」表記。確認次第更新が必要",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "time_start",
-        "time_end",
-        "rain_policy"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -18280,7 +18271,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18343,7 +18334,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18405,7 +18396,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18465,7 +18456,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18527,7 +18518,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18589,7 +18580,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18651,7 +18642,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18713,7 +18704,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18773,7 +18764,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18834,7 +18825,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18896,7 +18887,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -18951,6 +18942,633 @@
         {
           "url": "https://www.hirado-net.com/lp_ag/natsumeguri/",
           "site_name": "平戸観光協会公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_309",
+      "name": "自由が丘納涼盆踊り大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "目黒区",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-20",
+      "date_note": "3日間開催（土・日・月祝）。",
+      "time_start": "18:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "自由が丘商店街振興組合（共催：自由が丘住区青少年委員会）",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "参加費無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "自由が丘駅前ロータリーの特設会場を盆踊り広場に開放する、夏の風物詩として定着したイベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "自由が丘駅前ロータリー特設会場",
+      "official_url": "https://www.jiyugaoka-abc.com/special/bonodori/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.jiyugaoka-abc.com/special/bonodori/",
+          "site_name": "自由が丘商店街振興組合（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://meguro.goguynet.jp/2026/07/14/jiyugaoka_bondance2026/",
+          "site_name": "号外NET 目黒区",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://tokyofesta.com/23ku/31825/",
+          "site_name": "TOKYO FESTA",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_310",
+      "name": "スターライトイリュージョン2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "和歌山県",
+      "city": "和歌山市",
+      "date_start": "2026-07-19",
+      "date_end": "2026-07-19",
+      "date_note": "荒天の場合は7/20(祝)に延期。7/19は通常の2倍の花火玉を使用する特別バージョン。",
+      "time_start": "19:45",
+      "time_end": "19:55",
+      "rain_policy": "荒天延期（7/20予備日）",
+      "organizer": "和歌山マリーナシティ（ポルトヨーロッパ）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（園内入場は別途）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "音楽に合わせて花火を打ち上げる音楽と花火のコラボレーションショー。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "和歌山マリーナシティ 西側防波堤",
+      "official_url": "https://www.marinacity.com/porto/event/event-150824/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.marinacity.com/porto/event/event-150824/",
+          "site_name": "ポルトヨーロッパ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0730e01013/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.wakayama-kanko.or.jp/events/detail_3192.html",
+          "site_name": "和歌山県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_311",
+      "name": "万博夏まつり2026",
+      "alternate_names": [
+        "令和の夏、昭和な夏"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "吹田市",
+      "date_start": "2026-07-24",
+      "date_end": "2026-09-23",
+      "date_note": "計27日間、7/24〜9/23の間の金土日祝を中心に開催（イルミナイト万博・夜市・花火広場など）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "万博記念公園",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料（公園入園料別途、詳細は公式サイト）",
+      "ticket_url": "https://banpakunatsumatsuri.jp/",
+      "history_years": "不明",
+      "history_description": "「令和の夏、昭和な夏」をテーマにした万博記念公園の夏イベント。イルミネーション、ビアガーデン、花火広場などで構成。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "万博記念公園",
+      "official_url": "https://www.banpakupark.com/banpaku-natsu-matsuri-2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.banpakupark.com/banpaku-natsu-matsuri-2026/",
+          "site_name": "万博記念公園（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://banpakunatsumatsuri.jp/",
+          "site_name": "万博夏まつり2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.expo70-park.jp/event/76512/",
+          "site_name": "万博記念公園（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_312",
+      "name": "津屋崎祇園山笠",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "福岡県",
+      "city": "福津市",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "date_note": "7/12にお宮入り。7/18裸参り、7/19追山（追山開始午前8時30分）。",
+      "time_start": "07:50",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "波折神社／津屋崎祇園山笠振興会",
+      "genre": [
+        "山車",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "津屋崎千軒の町並みを舞台に、三流れの山笠が波折神社に集い競い合う夏の伝統行事。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "福津市津屋崎地区",
+      "official_url": "https://dmofukutsu.com/topics/yamakasa2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://dmofukutsu.com/topics/yamakasa2026/",
+          "site_name": "FUKUTSU WAVE（福津市公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.crossroadfukuoka.jp/event/10497",
+          "site_name": "福岡県公式観光情報サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://munakata-fukutsu-koga.goguynet.jp/2026/07/17/tsuyazakigionyamakasa2026/",
+          "site_name": "号外NET 宗像・福津・古賀",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_313",
+      "name": "むろらん港まつり 室蘭民報社納涼花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "室蘭市",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-24",
+      "date_note": "第80回むろらん港まつり（7/24〜26開催）の初日夜に実施。",
+      "time_start": "19:30",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "むろらん港まつり実行委員会／室蘭民報社",
+      "genre": [
+        "花火"
+      ],
+      "scale": "約2,200発",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 80,
+      "history_description": "室蘭中央埠頭で行われる港まつりのメインイベントの一つ。総参加市民踊りや室蘭ねりこみなども同時開催。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "室蘭中央埠頭",
+      "official_url": "http://muro-kanko.com/event/port_festival.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.muroran.lg.jp/bbs/detail.html?content=3123",
+          "site_name": "室蘭市（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.muromin.jp/news.php?id=143877",
+          "site_name": "室蘭民報社 電子版",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00715/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_314",
+      "name": "かなやま湖湖水まつり花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "南富良野町",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "イベント自体は11:00〜20:45、花火は20:00〜。",
+      "time_start": "20:00",
+      "time_end": "20:45",
+      "rain_policy": "不明",
+      "organizer": "南富良野まちづくり観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "約2,000発",
+      "is_free": false,
+      "price": "観覧席1人5,000円（優先駐車場付き、無料観覧エリアの有無は不明）",
+      "ticket_url": "不明",
+      "history_years": 55,
+      "history_description": "かなやま湖畔キャンプ場で行われる、全長700mのナイアガラ花火が目玉の湖上花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "かなやま湖畔キャンプ場",
+      "official_url": "https://www.town.minamifurano.hokkaido.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.minamifurano.hokkaido.jp/%E7%AC%AC55%E5%9B%9E-%E3%81%8B%E3%81%AA%E3%82%84%E3%81%BE%E6%B9%96%E6%B9%96%E6%B0%B4%E3%81%BE%E3%81%A4%E3%82%8A-%E9%96%8B%E5%82%AC%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+          "site_name": "南富良野町（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.minamifurano.jp/information.html?id=d48b0be1353533abc8000384",
+          "site_name": "南富良野まちづくり観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.furanotourism.com/jp/spot/spot_S.php?kid3=77&sort=kana",
+          "site_name": "ふらの観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_315",
+      "name": "もんべつ港まつり オホーツク花火の祭典",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "紋別市",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-26",
+      "date_note": "第72回もんべつ港まつり。花火の具体的な日時は公式サイトで要確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "もんべつ港まつり実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 72,
+      "history_description": "紋別港から受ける恩恵に感謝する行事「港祭り」を前身とする紋別3大まつりの一つ。100を超える露店やステージイベントも開催。",
+      "food_stalls": "露店100以上",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "紋別港特設会場（駅前特設会場）",
+      "official_url": "https://tic.mombetsu.net/2026/07/%E7%AC%AC72%E5%9B%9E%E3%82%82%E3%82%93%E3%81%B9%E3%81%A4%E6%B8%AF%E3%81%BE%E3%81%A4%E3%82%8A%E3%81%AE%E3%81%8A%E3%81%97%E3%82%89%E3%81%9B/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tic.mombetsu.net/2026/07/%E7%AC%AC72%E5%9B%9E%E3%82%82%E3%82%93%E3%81%B9%E3%81%A4%E6%B8%AF%E3%81%BE%E3%81%A4%E3%82%8A%E3%81%AE%E3%81%8A%E3%81%97%E3%82%89%E3%81%9B/",
+          "site_name": "紋別観光案内所（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://mombetsu.jp/news/detail.html?content=1594",
+          "site_name": "紋別市（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://tic.mombetsu.net/port-fes/",
+          "site_name": "紋別観光案内所（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_316",
+      "name": "あばしりオホーツク夏まつり花火大会「網走花火」",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "網走市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "あばしりオホーツク夏まつり全体は7/23〜25開催。前夜祭23日、流氷踊り24日、音楽行進25日15:00〜。",
+      "time_start": "20:00",
+      "time_end": "20:45",
+      "rain_policy": "不明",
+      "organizer": "あばしりオホーツク夏まつり実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "12,000発超",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 78,
+      "history_description": "網走の夏を彩る花火大会。西防波堤・帽子岩から打ち上げる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "西防波堤・帽子岩（網走道の駅流氷街道網走の対岸）",
+      "official_url": "https://visit-abashiri.jp/en/event/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kanko-ch.com/abashiri-summerfestival",
+          "site_name": "網走市観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00756/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1001076/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_317",
+      "name": "おたる潮まつり 大花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "小樽市",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "おたる潮まつり全体は7/24〜26開催。大花火大会は最終日。",
+      "time_start": "20:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "おたる潮まつり実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 60,
+      "history_description": "小樽港第3号ふ頭基部から打ち上げる、おたる潮まつりを締めくくる花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "小樽港第3号ふ頭基部（JR小樽駅から徒歩10分）",
+      "official_url": "https://otaru.ushiomatsuri.net/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://otaru.ushiomatsuri.net/",
+          "site_name": "おたる潮まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00713/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1001123/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_318",
+      "name": "宇佐神宮 御神幸祭（夏越祭り）",
+      "alternate_names": [
+        "宇佐夏越祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大分県",
+      "city": "宇佐市",
+      "date_start": "2026-07-31",
+      "date_end": "2026-08-02",
+      "date_note": "7/31本殿祭・御発輦祭・菅貫神事、8/1流鏑馬神事、8/2御還幸祭・厄除花火大会。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "宇佐神宮",
+      "genre": [
+        "神事",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "神輿発祥の地とされる宇佐神宮で行われる夏越祭り。流鏑馬神事や厄除花火大会も開催される。",
+      "food_stalls": "仲見世前に屋台多数",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "宇佐神宮",
+      "official_url": "http://www.usajinguu.com/schedule/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://www.usajinguu.com/schedule/",
+          "site_name": "八幡総本宮 宇佐神宮（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.visit-oita.jp/events/detail/14018",
+          "site_name": "日本一の「おんせん県」大分県観光情報公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.city.usa.oita.jp/tourist/whatsnew/kakoshinchaku/21462.html",
+          "site_name": "宇佐市（公式）",
           "is_official": true,
           "retrieved_date": "2026-07-18"
         }
