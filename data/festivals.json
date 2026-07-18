@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18 21:15",
+  "last_updated": "2026-07-18 16:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -5254,12 +5254,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "visitors",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "例年：台船からの通常プログラムで開催 → 2026年：高波により台船出港断念、水中花火のみの規模縮小開催（開催自体は実施）。"
@@ -19351,10 +19347,10 @@
       "city": "紋別市",
       "date_start": "2026-07-24",
       "date_end": "2026-07-26",
-      "date_note": "第72回もんべつ港まつり。花火の具体的な日時は公式サイトで要確認。",
-      "time_start": "不明",
+      "date_note": "第72回もんべつ港まつり。花火大会は7/25(土)開催。",
+      "time_start": "20:00",
       "time_end": "不明",
-      "rain_policy": "不明",
+      "rain_policy": "不明（諸事情により時間・内容が変更となる場合あり、変更時は公式サイト・SNSで案内）",
       "organizer": "もんべつ港まつり実行委員会",
       "genre": [
         "花火"
@@ -19394,11 +19390,17 @@
           "retrieved_date": "2026-07-18"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "date_note",
+        "rain_policy",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -19645,7 +19647,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19711,6 +19713,257 @@
       ],
       "trust_level": "高",
       "conflict_note": "「柳まつり」は鳥取市の別の祭り（鳥取市観光サイト掲載）とは名称が類似するが無関係の別行事。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_321",
+      "name": "花火シンフォニア（横浜・八景島シーパラダイス）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "横浜市金沢区",
+      "date_start": "2026-07-18",
+      "date_end": "2026-11-22",
+      "date_note": "2026年5月30日〜2027年3月21日まで計19日程で開催される音と光のシンクロ花火ショー。2026年の開催日：5/30, 6/27, 7/18・19・25, 8/1・8・15・29, 9/19〜22, 10/10・11, 11/21・22。",
+      "time_start": "20:30",
+      "time_end": "20:40",
+      "rain_policy": "不明（荒天時は公式サイト・SNSで案内）",
+      "organizer": "横浜・八景島シーパラダイス",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（八景島内エリアは入場料あり）",
+      "ticket_url": "不明",
+      "history_years": 0,
+      "history_description": "デジタル制御で花火と音楽をコンマ1秒単位で同期させる、八景島シーパラダイスオリジナルの音と光のライブエンターテインメント花火ショー。10分間で約2,500発を打ち上げ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "横浜・八景島シーパラダイス ボードウォーク周辺",
+      "official_url": "https://www.kanagawa-kankou.or.jp/event/7114",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kanagawa-kankou.or.jp/event/7114",
+          "site_name": "観光かながわNOW（神奈川県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.welcome.city.yokohama.jp/eventinfo/ev_detail.php?bid=yw10485",
+          "site_name": "横浜市公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0314e01077/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_322",
+      "name": "ムーミン谷の湖上花火大会〜夏2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "飯能市",
+      "date_start": "2026-07-20",
+      "date_end": "2026-09-27",
+      "date_note": "ムーミンバレーパーク・メッツァビレッジで多数日程開催。7月：20日・26〜31日。8月：2〜7日・9日・13・14日・16〜23日・29・30日。9月：5・6・13・23・26・27日。",
+      "time_start": "19:30",
+      "time_end": "不明",
+      "rain_policy": "少雨決行、強風荒天中止。中止情報はメッツァ公式サイト・公式SNSで告知。",
+      "organizer": "ムーミンバレーパーク・メッツァビレッジ（メッツァ）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "パーク入園料（ナイトパス当日2,500円・前売2,300円）が必要",
+      "ticket_url": "https://metsa-hanno.com/event/45545/",
+      "history_years": 0,
+      "history_description": "ムーミンバレーパークのオリジナルソングに合わせて湖上から打ち上がる約5分間の花火ショー。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "ムーミンバレーパーク・メッツァビレッジ（飯能市）",
+      "official_url": "https://metsa-hanno.com/event/45545/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://metsa-hanno.com/event/45545/",
+          "site_name": "ムーミンバレーパーク・メッツァ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e516645/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/2001054/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_323",
+      "name": "第32回りんどう湖花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "那須郡那須町",
+      "date_start": "2026-07-19",
+      "date_end": "2026-09-21",
+      "date_note": "那須高原りんどう湖ファミリー牧場で複数日程開催。2026年：7/19、8/8・13・14・15・22、9/20・21。7・8月は19:30〜20:00、9月は19:00〜19:30。",
+      "time_start": "19:30",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "那須高原りんどう湖ファミリー牧場",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "牧場入園料が必要（観覧チケットは公式サイト参照）",
+      "ticket_url": "https://www.rindo.co.jp/news/209",
+      "history_years": 32,
+      "history_description": "那須高原りんどう湖ファミリー牧場が毎年夏から秋にかけて開催する花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "那須高原りんどう湖ファミリー牧場（那須郡那須町）",
+      "official_url": "https://www.rindo.co.jp/event/85",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.rindo.co.jp/event/85",
+          "site_name": "那須高原りんどう湖ファミリー牧場（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.nasukogen.org/calendar/detail.php?id=1667",
+          "site_name": "那須町観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0309e00579/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_324",
+      "name": "川下祭り・浜坂ふるさと夏まつり花火大会",
+      "alternate_names": [
+        "浜坂川下祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "美方郡新温泉町",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-20",
+      "date_note": "川下祭りは7/18(土)宵宮・7/19(日)本祭（神輿渡御）・7/20(月・祝)還御祭の3日間。花火大会本体は7/19(日)。",
+      "time_start": "20:00",
+      "time_end": "21:00",
+      "rain_policy": "荒天の場合は中止（順延なし）",
+      "organizer": "新温泉町浜坂ふるさと夏まつり花火大会実行委員会",
+      "genre": [
+        "花火",
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 0,
+      "history_description": "浜坂地区の川下祭り（神輿渡御）にあわせて開催される花火大会。約3,000発を打ち上げ、約100台の屋台が出店。",
+      "food_stalls": "屋台約100台",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "浜坂県民サンビーチ（美方郡新温泉町）",
+      "official_url": "https://town.shinonsen.hyogo.jp/page/?detail_mode=topics&mode=detail&page_id=6f8cbeac314c03b45ee8d5083e72db86",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://town.shinonsen.hyogo.jp/page/?detail_mode=topics&mode=detail&page_id=6f8cbeac314c03b45ee8d5083e72db86",
+          "site_name": "新温泉町（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.hamasaka.com/?cat=19",
+          "site_name": "浜坂観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://tottorizumu.com/hamasakahanabi2026/",
+          "site_name": "とっとリズム",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
