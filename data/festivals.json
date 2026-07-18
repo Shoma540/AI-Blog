@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18 20:10",
+  "last_updated": "2026-07-18 21:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -3789,8 +3789,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "前回記録：2026-07-25 - 2026-07-26（誤り） → 訂正後：2026-07-24 - 2026-07-25（真鶴町公式サイト・観光協会で確認）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -5202,7 +5202,7 @@
       "city": "鎌倉市",
       "date_start": "2026-07-10",
       "date_end": "2026-07-10",
-      "date_note": "予備日なし。雨天・荒天・高波の場合は中止。",
+      "date_note": "予備日なし。雨天・荒天・高波の場合は中止。2026年は台船の出港を断念したため通常プログラムを中止し、規模縮小（水中花火のみ、19:20頃から10〜15分程度）で実施された。",
       "time_start": "19:20",
       "time_end": "20:10",
       "rain_policy": "雨天・荒天・高波の場合は中止（予備日なし）",
@@ -5218,7 +5218,7 @@
       "history_description": "由比ヶ浜・材木座海岸で行われる鎌倉の夏の風物詩。水中花火が特徴。",
       "food_stalls": "不明",
       "crowd_level": "不明",
-      "visitors": "不明",
+      "visitors": "例年の見込みは約16万人。2026年は規模縮小下で約17万人が来場したと報じられた。",
       "access": "江ノ島電鉄由比ヶ浜駅・和田塚駅から徒歩5分、JR・江ノ島電鉄鎌倉駅から徒歩15分",
       "official_url": "https://www.trip-kamakura.com/subsite/detail.php?id=9",
       "sns_accounts": {
@@ -5227,32 +5227,42 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://hanabi.walkerplus.com/detail/ar0314e00875/",
-          "site_name": "ウォーカープラス 花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-07-03"
-        },
-        {
           "url": "https://www.trip-kamakura.com/subsite/detail.php?id=9",
-          "site_name": "鎌倉市観光協会公式",
+          "site_name": "鎌倉市観光協会（公式）",
           "is_official": true,
-          "retrieved_date": "2026-07-03"
+          "retrieved_date": "2026-07-18"
         },
         {
-          "url": "https://sorahanabi.com/kanagawa/kamakura/kamakura-hanabitaikai.html",
-          "site_name": "空花火2026",
+          "url": "https://www.trip-kamakura.com/association-news/detail.php?id=77",
+          "site_name": "鎌倉市観光協会 実施内容変更のお知らせ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.city.kamakura.kanagawa.jp/kankou/hanabitaikai.html",
+          "site_name": "鎌倉市（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://yakei-fan.com/magazine/fireworks/kanagawa/kamakura-hanabi2026news.html",
+          "site_name": "夜景FANマガジン",
           "is_official": false,
-          "retrieved_date": "2026-07-03"
+          "retrieved_date": "2026-07-18"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "visitors",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "例年：台船からの通常プログラムで開催 → 2026年：高波により台船出港断念、水中花火のみの規模縮小開催（開催自体は実施）。"
       }
     },
     {
@@ -11440,7 +11450,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "昨年：宵々山(10/23)を含む3日間表記 → 今年：2024年から宵々山廃止のため宵宮(10/24)・本祭巡行(10/25)の2日間に変更"
+        "details": ""
       }
     },
     {
@@ -11530,7 +11540,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "昨年：総おどりの具体的日程は例年変動 → 今年：総おどり8/14(金)御霊公園・広小路通り、市民総おどり大会8/25(火)福知山駅北口公園に確定"
+        "details": ""
       }
     },
     {
@@ -12389,7 +12399,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "昨年：2025年8月16日(土) → 今年：2026年8月22日(土)"
+        "details": ""
       }
     },
     {
@@ -15167,7 +15177,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "本祭（御神幸祭）は3年に一度。前回本祭は2023年、2026年は本祭年に該当（次回本祭は2029年見込み）。"
+        "details": ""
       }
     },
     {
@@ -16487,8 +16497,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：打ち上げ数約4000発 → 今年：5000発以上に拡大"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -17815,8 +17825,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：8月開催 → 今年：7月開催に変更"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -19011,7 +19021,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19073,7 +19083,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19138,7 +19148,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19201,7 +19211,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19263,7 +19273,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19325,7 +19335,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19387,7 +19397,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19449,7 +19459,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19511,7 +19521,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19575,6 +19585,132 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_319",
+      "name": "ふるさと宮まつり",
+      "alternate_names": [
+        "宇都宮ふるさと宮まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "宇都宮市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-02",
+      "date_note": "毎年8月第1土曜日・日曜日に開催。第51回。",
+      "time_start": "16:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "ふるさと宮まつり開催委員会（宇都宮観光コンベンション協会内）",
+      "genre": [
+        "神輿",
+        "パレード"
+      ],
+      "scale": "その他（栃木県最大級の夏祭り）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "「であいとふれあい」をテーマに、宇都宮市中心部の大通りを40基をこえる神輿が練り歩く、栃木県最大級規模の夏祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大通り（本町交差点〜上河原交差点）、サブ会場：オリオンスクエア、バンバひろば、オリオン通り、バンバ通り",
+      "official_url": "http://www.miyamatsuri.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tochigiji.or.jp/event/e43229",
+          "site_name": "とちぎ旅ネット（栃木県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.utsunomiya-cvb.org/event/detail_20002.html",
+          "site_name": "宇都宮観光ナビ（宇都宮観光コンベンション協会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_320",
+      "name": "豊岡柳まつり",
+      "alternate_names": [
+        "柳まつり",
+        "豊岡柳祭り"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "兵庫県",
+      "city": "豊岡市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-02",
+      "date_note": "8/1 柳の宮例大祭・神輿巡行・豊岡おどり。8/2 花火大会（円山川河川敷、荒天時は8/3に順延）・青年部フェスティバル。",
+      "time_start": "16:00",
+      "time_end": "22:00",
+      "rain_policy": "花火大会は荒天の場合8月3日に順延。",
+      "organizer": "柳まつり実行委員会（豊岡商工会議所ほか）",
+      "genre": [
+        "神輿",
+        "花火",
+        "踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "柳の宮神社の例大祭を中心に、神輿巡行・豊岡おどり・花火大会などが行われる豊岡市の夏祭り。かばん供養やとよおか七夕まつりも同時開催。",
+      "food_stalls": "柳の夜市（16:30〜21:30）ほか",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "柳の宮神社、豊岡駅前、円山川河川敷ほか市内中心部",
+      "official_url": "https://toyooka-tourism.com/event/yanagi_matsuri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://toyooka-tourism.com/event/yanagi_matsuri/",
+          "site_name": "豊岡市観光公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.storkcci.jp/yanagimaturi2026/",
+          "site_name": "豊岡商工会議所（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0728e00776/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "「柳まつり」は鳥取市の別の祭り（鳥取市観光サイト掲載）とは名称が類似するが無関係の別行事。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
