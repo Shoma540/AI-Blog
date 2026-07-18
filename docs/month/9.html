@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>9月の祭り情報 | 全国祭り情報</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
+  background: #FAF7F2;
+  color: #2c2c2c;
+  min-height: 100vh;
+}
+a { text-decoration: none; color: inherit; }
+
+/* ナビ */
+nav {
+  background: #C0392B;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 56px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+nav .logo {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+nav a {
+  color: rgba(255,255,255,0.85);
+  font-size: 0.9rem;
+  padding: 0.25rem 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+nav a:hover, nav a.active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* ヘッダー */
+.page-header {
+  background: linear-gradient(135deg, #C0392B 0%, #8b1a10 100%);
+  color: #fff;
+  padding: 3rem 1.5rem 2.5rem;
+  text-align: center;
+}
+.page-header h1 {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+.page-header p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* コンテナ */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* セクション見出し */
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #C0392B;
+  border-left: 4px solid #C0392B;
+  padding-left: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+/* カードグリッド */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+/* 祭りカード */
+.festival-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+.festival-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+}
+.card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  background: #f0ebe3;
+}
+.card-body {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.card-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.4;
+}
+.card-date {
+  font-size: 0.85rem;
+  color: #C0392B;
+  font-weight: 600;
+}
+.card-location {
+  font-size: 0.82rem;
+  color: #666;
+}
+.card-badges {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+.badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 0.18rem 0.5rem;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.badge-genre {
+  background: #f3e8e8;
+  color: #C0392B;
+}
+.badge-trust-高 { background: #e8f5e9; color: #2e7d32; }
+.badge-trust-中 { background: #fffde7; color: #f57f17; }
+.badge-trust-低 { background: #ffebee; color: #c62828; }
+.badge-check {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+/* バッジリンク（都道府県・月） */
+.badge-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.badge-link {
+  display: inline-block;
+  background: #fff;
+  border: 1.5px solid #ddd;
+  border-radius: 6px;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+  color: #333;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.badge-link:hover {
+  background: #C0392B;
+  border-color: #C0392B;
+  color: #fff;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.8rem;
+  color: #999;
+  border-top: 1px solid #e8e0d8;
+  margin-top: 2rem;
+}
+
+/* 地図ページ */
+.map-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+.map-pref-btn {
+  display: block;
+  text-align: center;
+  padding: 0.6rem 0.4rem;
+  background: #fff;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #333;
+  transition: all 0.15s;
+}
+.map-pref-btn:hover, .map-pref-btn.has-data {
+  background: #C0392B;
+  border-color: #C0392B;
+  color: #fff;
+}
+.map-pref-btn.no-data {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* カレンダーページ */
+.month-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.month-tab {
+  padding: 0.5rem 1.2rem;
+  background: #fff;
+  border: 1.5px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.15s;
+}
+.month-tab.active, .month-tab:hover {
+  background: #C0392B;
+  border-color: #C0392B;
+  color: #fff;
+}
+.month-section { display: none; }
+.month-section.active { display: block; }
+
+/* レスポンシブ */
+@media (max-width: 600px) {
+  .card-grid { grid-template-columns: 1fr; }
+  nav { gap: 1rem; }
+  .page-header { padding: 2rem 1rem 1.5rem; }
+}
+</style>
+  
+</head>
+<body>
+<nav>
+  <span class="logo">🎉 全国祭り情報</span>
+  <a href="../index.html">ホーム</a>
+  <a href="../map.html">地図</a>
+  <a href="../calendar.html">カレンダー</a>
+</nav>
+<div class="page-header">
+  <h1>9月の祭り情報</h1>
+  <p>15件の祭りが見つかりました</p>
+</div>
+<div class="container">
+  <div class="card-grid"><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/odori_ill.png" alt="おわら風の盆" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">おわら風の盆</div>
+    <div class="card-date">📅 9月1日 〜 9月3日</div>
+    <div class="card-location">📍 富山県 富山市八尾町</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">盆踊り</span><span class="badge badge-genre">民俗芸能</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="敦賀まつり（氣比神宮例祭・とうろう流しと大花火大会）" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">敦賀まつり（氣比神宮例祭・とうろう流しと大花火大会）</div>
+    <div class="card-date">📅 9月2日 〜 9月5日</div>
+    <div class="card-location">📍 福井県 敦賀市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">花火大会</span><span class="badge badge-genre">とうろう流し</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/odori_ill.png" alt="沖縄全島エイサーまつり" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">沖縄全島エイサーまつり</div>
+    <div class="card-date">📅 9月5日 〜 9月6日</div>
+    <div class="card-location">📍 沖縄県 沖縄市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">民俗芸能</span><span class="badge badge-genre">踊り</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/hanabi_ill.png" alt="第25回 久米島まつり" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">第25回 久米島まつり</div>
+    <div class="card-date">📅 9月5日 〜 9月6日</div>
+    <div class="card-location">📍 沖縄県 久米島町</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">花火</span><span class="badge badge-genre">エイサー</span>
+      <span class="badge badge-trust-中" style="background:#f9a8251a;color:#f9a825;">[信頼度:中]</span>
+      <span class="badge badge-check">⚠️ 要確認</span>
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="角館祭りのやま行事" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">角館祭りのやま行事</div>
+    <div class="card-date">📅 9月7日 〜 9月9日</div>
+    <div class="card-location">📍 秋田県 仙北市角館町</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">山車</span><span class="badge badge-genre">曳山</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="花巻まつり" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">花巻まつり</div>
+    <div class="card-date">📅 9月11日 〜 9月13日</div>
+    <div class="card-location">📍 岩手県 花巻市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">神輿</span><span class="badge badge-genre">鹿踊り</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/hanabi_ill.png" alt="片貝まつり（浅原神社秋季例大祭奉納大煙火）" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">片貝まつり（浅原神社秋季例大祭奉納大煙火）</div>
+    <div class="card-date">📅 9月11日 〜 9月12日</div>
+    <div class="card-location">📍 新潟県 小千谷市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">花火</span><span class="badge badge-genre">奉納煙火</span>
+      <span class="badge badge-trust-中" style="background:#f9a8251a;color:#f9a825;">[信頼度:中]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/mikoshi_ill.png" alt="牛嶋神社例大祭" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">牛嶋神社例大祭</div>
+    <div class="card-date">📅 9月19日 〜 9月20日</div>
+    <div class="card-location">📍 東京都 墨田区</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">神輿</span><span class="badge badge-genre">例大祭</span>
+      <span class="badge badge-trust-中" style="background:#f9a8251a;color:#f9a825;">[信頼度:中]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="岸和田だんじり祭（9月祭礼）" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">岸和田だんじり祭（9月祭礼）</div>
+    <div class="card-date">📅 9月19日 〜 9月20日</div>
+    <div class="card-location">📍 大阪府 岸和田市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">山車</span><span class="badge badge-genre">パレード</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="石岡のおまつり（常陸國總社宮例大祭）" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">石岡のおまつり（常陸國總社宮例大祭）</div>
+    <div class="card-date">📅 9月19日 〜 9月21日</div>
+    <div class="card-location">📍 茨城県 石岡市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">神輿</span><span class="badge badge-genre">山車</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/odori_ill.png" alt="会津まつり" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">会津まつり</div>
+    <div class="card-date">📅 9月19日 〜 9月21日</div>
+    <div class="card-location">📍 福島県 会津若松市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">行列</span><span class="badge badge-genre">パレード</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="小浜放生祭" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">小浜放生祭</div>
+    <div class="card-date">📅 9月19日 〜 9月20日</div>
+    <div class="card-location">📍 福井県 小浜市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">山車</span><span class="badge badge-genre">神輿</span>
+      <span class="badge badge-trust-中" style="background:#f9a8251a;color:#f9a825;">[信頼度:中]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/shinji_ill.png" alt="川内大綱引" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">川内大綱引</div>
+    <div class="card-date">📅 9月22日</div>
+    <div class="card-location">📍 鹿児島県 薩摩川内市（鳥追町）</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">綱引き</span><span class="badge badge-genre">神事</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/shinji_ill.png" alt="采女祭" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">采女祭</div>
+    <div class="card-date">📅 9月24日 〜 9月25日</div>
+    <div class="card-location">📍 奈良県 奈良市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">神事</span><span class="badge badge-genre">行列</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/hanabi_ill.png" alt="大洗海上花火大会（千櫓祭）" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">大洗海上花火大会（千櫓祭）</div>
+    <div class="card-date">📅 9月26日</div>
+    <div class="card-location">📍 茨城県 東茨城郡大洗町</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">花火</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div></div>
+  <a class="badge-link" href="../calendar.html">← カレンダーへ戻る</a>
+</div>
+<footer>最終更新: 2026-07-18 08:18</footer>
+</body>
+</html>

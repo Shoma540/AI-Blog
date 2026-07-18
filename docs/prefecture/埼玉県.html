@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>青森県の祭り情報 | 全国祭り情報</title>
+  <title>埼玉県の祭り情報 | 全国祭り情報</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -190,74 +190,33 @@ footer {
   margin-top: 2rem;
 }
 
-/* 地図ページ（地理配置グリッド） */
-.geo-map-wrap {
-  position: relative;
-  width: 100%;
-  overflow-x: auto;
-  padding: 1rem 0 2rem;
-}
-.geo-map {
-  position: relative;
+/* 地図ページ */
+.map-grid {
   display: grid;
-  grid-template-columns: repeat(13, minmax(54px, 1fr));
-  grid-template-rows: repeat(12, 44px);
-  gap: 5px;
-  min-width: 720px;
-  max-width: 900px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  /* 背景に薄い日本列島シルエット（インラインSVG） */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 120' preserveAspectRatio='none'%3E%3Cg fill='%23C0392B' fill-opacity='0.09'%3E%3Cellipse cx='116' cy='9' rx='9' ry='6'/%3E%3Cpath d='M96 20 Q106 28 105 44 Q102 58 92 64 L82 58 Q84 42 90 30 Z'/%3E%3Cpath d='M42 56 Q70 50 94 60 Q102 68 94 78 L58 80 Q46 72 40 64 Z'/%3E%3Cpath d='M16 76 Q30 72 38 80 L34 92 Q22 96 17 88 Z'/%3E%3Cellipse cx='11' cy='110' rx='6' ry='3'/%3E%3C/g%3E%3C/svg%3E");
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 2rem;
 }
-.geo-pref {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.map-pref-btn {
+  display: block;
   text-align: center;
-  padding: 0.2rem;
+  padding: 0.6rem 0.4rem;
   background: #fff;
-  border: 1.5px solid #e0d8d0;
-  border-radius: 6px;
-  font-size: 0.78rem;
-  line-height: 1.1;
-  color: #555;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #333;
   transition: all 0.15s;
 }
-.geo-pref.has-data {
+.map-pref-btn:hover, .map-pref-btn.has-data {
   background: #C0392B;
   border-color: #C0392B;
   color: #fff;
-  font-weight: 600;
-  box-shadow: 0 2px 6px rgba(192,57,43,0.3);
 }
-.geo-pref.has-data:hover {
-  background: #8b1a10;
-  transform: scale(1.08);
-  z-index: 2;
-}
-.geo-pref.no-data {
-  opacity: 0.5;
+.map-pref-btn.no-data {
+  opacity: 0.4;
   pointer-events: none;
 }
-.map-legend {
-  display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  margin-top: 1rem;
-  font-size: 0.85rem;
-  color: #666;
-}
-.legend-item { display: flex; align-items: center; gap: 0.4rem; }
-.legend-box {
-  width: 16px; height: 16px; border-radius: 4px; display: inline-block;
-}
-.legend-box.has-data { background: #C0392B; }
-.legend-box.no-data { background: #fff; border: 1.5px solid #e0d8d0; opacity: 0.5; }
 
 /* カレンダーページ */
 .month-tabs {
@@ -288,21 +247,6 @@ footer {
   .card-grid { grid-template-columns: 1fr; }
   nav { gap: 1rem; }
   .page-header { padding: 2rem 1rem 1.5rem; }
-  .geo-map-wrap { overflow-x: hidden; display: flex; justify-content: center; }
-  .geo-map {
-    min-width: 720px;
-    grid-template-columns: repeat(13, 54px);
-    grid-template-rows: repeat(12, 44px);
-    transform: scale(0.46);
-    transform-origin: top center;
-    margin-bottom: -1200px;
-  }
-  .geo-pref { font-size: 0.78rem; }
-  .geo-map-wrap::after {
-    content: "タップで各地域の祭りへ";
-    display: block; text-align: center; font-size: 0.75rem;
-    color: #999; margin-top: 0.5rem;
-  }
 }
 </style>
   
@@ -315,90 +259,138 @@ footer {
   <a href="../calendar.html">カレンダー</a>
 </nav>
 <div class="page-header">
-  <h1>青森県の祭り情報</h1>
-  <p>7件の祭りが見つかりました</p>
+  <h1>埼玉県の祭り情報</h1>
+  <p>11件の祭りが見つかりました</p>
 </div>
 <div class="container">
   <div class="card-grid"><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/default_ill.png" alt="黒石ねぷた祭り" loading="lazy">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/tanabata_ill.png" alt="川口七夕まつり" loading="lazy">
   <div class="card-body">
-    <div class="card-name">黒石ねぷた祭り</div>
-    <div class="card-date">📅 7月30日 〜 8月5日</div>
-    <div class="card-location">📍 青森県 黒石市</div>
+    <div class="card-name">川口七夕まつり</div>
+    <div class="card-date">📅 7月3日 〜 7月7日</div>
+    <div class="card-location">📍 埼玉県 川口市</div>
     <div class="card-badges">
-      <span class="badge badge-genre">ねぷた</span>
+      <span class="badge badge-genre">七夕</span>
       <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
       
     </div>
   </div>
 </div><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="八戸三社大祭" loading="lazy">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/mikoshi_ill.png" alt="与野夏祭り" loading="lazy">
   <div class="card-body">
-    <div class="card-name">八戸三社大祭</div>
-    <div class="card-date">📅 7月31日 〜 8月4日</div>
-    <div class="card-location">📍 青森県 八戸市</div>
+    <div class="card-name">与野夏祭り</div>
+    <div class="card-date">📅 7月18日 〜 7月19日</div>
+    <div class="card-location">📍 埼玉県 さいたま市中央区</div>
     <div class="card-badges">
-      <span class="badge badge-genre">山車</span><span class="badge badge-genre">神輿</span>
+      <span class="badge badge-genre">神輿</span>
       <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
       
     </div>
   </div>
 </div><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="弘前ねぷたまつり" loading="lazy">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/mikoshi_ill.png" alt="吉川八坂祭り" loading="lazy">
   <div class="card-body">
-    <div class="card-name">弘前ねぷたまつり</div>
-    <div class="card-date">📅 8月1日 〜 8月7日</div>
-    <div class="card-location">📍 青森県 弘前市</div>
+    <div class="card-name">吉川八坂祭り</div>
+    <div class="card-date">📅 7月18日 〜 7月19日</div>
+    <div class="card-location">📍 埼玉県 吉川市</div>
     <div class="card-badges">
-      <span class="badge badge-genre">ねぷた</span><span class="badge badge-genre">山車</span>
+      <span class="badge badge-genre">神輿</span>
       <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
       
     </div>
   </div>
 </div><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/nebuta_ill.png" alt="青森ねぶた祭" loading="lazy">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="熊谷うちわ祭" loading="lazy">
   <div class="card-body">
-    <div class="card-name">青森ねぶた祭</div>
-    <div class="card-date">📅 8月2日 〜 8月7日</div>
-    <div class="card-location">📍 青森県 青森市</div>
+    <div class="card-name">熊谷うちわ祭</div>
+    <div class="card-date">📅 7月20日 〜 7月22日</div>
+    <div class="card-location">📍 埼玉県 熊谷市</div>
     <div class="card-badges">
-      <span class="badge badge-genre">山車</span><span class="badge badge-genre">ねぶた</span>
+      <span class="badge badge-genre">山車</span><span class="badge badge-genre">屋台</span>
       <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
       
     </div>
   </div>
 </div><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/hanabi_ill.png" alt="五所川原花火大会" loading="lazy">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/mikoshi_ill.png" alt="大和田氷川神社はだか神輿" loading="lazy">
   <div class="card-body">
-    <div class="card-name">五所川原花火大会</div>
-    <div class="card-date">📅 8月3日</div>
-    <div class="card-location">📍 青森県 五所川原市</div>
+    <div class="card-name">大和田氷川神社はだか神輿</div>
+    <div class="card-date">📅 7月24日 〜 7月25日</div>
+    <div class="card-location">📍 埼玉県 新座市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">神輿</span>
+      <span class="badge badge-trust-中" style="background:#f9a8251a;color:#f9a825;">[信頼度:中]</span>
+      <span class="badge badge-check">⚠️ 要確認</span>
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/mikoshi_ill.png" alt="浦和まつりみこし渡御" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">浦和まつりみこし渡御</div>
+    <div class="card-date">📅 7月26日</div>
+    <div class="card-location">📍 埼玉県 さいたま市浦和区</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">神輿</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/default_ill.png" alt="鷲宮催馬楽神楽 夏越祭" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">鷲宮催馬楽神楽 夏越祭</div>
+    <div class="card-date">📅 7月31日</div>
+    <div class="card-location">📍 埼玉県 久喜市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">神楽</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/hanabi_ill.png" alt="戸田橋花火大会（市制施行60周年記念 第73回）" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">戸田橋花火大会（市制施行60周年記念 第73回）</div>
+    <div class="card-date">📅 8月1日</div>
+    <div class="card-location">📍 埼玉県 戸田市</div>
     <div class="card-badges">
       <span class="badge badge-genre">花火</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/hanabi_ill.png" alt="熊谷花火大会" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">熊谷花火大会</div>
+    <div class="card-date">📅 8月8日</div>
+    <div class="card-location">📍 埼玉県 熊谷市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">花火</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="川越まつり" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">川越まつり</div>
+    <div class="card-date">📅 10月17日 〜 10月18日</div>
+    <div class="card-location">📍 埼玉県 川越市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">山車</span><span class="badge badge-genre">屋台行事</span>
       <span class="badge badge-trust-中" style="background:#f9a8251a;color:#f9a825;">[信頼度:中]</span>
       
     </div>
   </div>
 </div><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="五所川原立佞武多" loading="lazy">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="秩父夜祭" loading="lazy">
   <div class="card-body">
-    <div class="card-name">五所川原立佞武多</div>
-    <div class="card-date">📅 8月4日 〜 8月8日</div>
-    <div class="card-location">📍 青森県 五所川原市</div>
+    <div class="card-name">秩父夜祭</div>
+    <div class="card-date">📅 12月2日 〜 12月3日</div>
+    <div class="card-location">📍 埼玉県 秩父市</div>
     <div class="card-badges">
-      <span class="badge badge-genre">山車</span><span class="badge badge-genre">ねぷた</span>
-      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
-      
-    </div>
-  </div>
-</div><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/odori_ill.png" alt="黒石よされ" loading="lazy">
-  <div class="card-body">
-    <div class="card-name">黒石よされ</div>
-    <div class="card-date">📅 8月15日 〜 8月16日</div>
-    <div class="card-location">📍 青森県 黒石市</div>
-    <div class="card-badges">
-      <span class="badge badge-genre">盆踊り</span><span class="badge badge-genre">流し踊り</span>
+      <span class="badge badge-genre">山車</span><span class="badge badge-genre">花火</span>
       <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
       
     </div>

@@ -53,7 +53,7 @@ def git_push():
         return False
     print(f"コミットしました: {message}")
 
-    push = run_git(['push', 'origin', 'main'])
+    push = run_git(['push', 'origin', 'HEAD:main'])
     if push.returncode != 0:
         print(f"git push 失敗: {push.stderr.strip()}")
         return False

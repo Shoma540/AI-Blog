@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>佐賀県の祭り情報 | 全国祭り情報</title>
+  <title>奈良県の祭り情報 | 全国祭り情報</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -190,74 +190,33 @@ footer {
   margin-top: 2rem;
 }
 
-/* 地図ページ（地理配置グリッド） */
-.geo-map-wrap {
-  position: relative;
-  width: 100%;
-  overflow-x: auto;
-  padding: 1rem 0 2rem;
-}
-.geo-map {
-  position: relative;
+/* 地図ページ */
+.map-grid {
   display: grid;
-  grid-template-columns: repeat(13, minmax(54px, 1fr));
-  grid-template-rows: repeat(12, 44px);
-  gap: 5px;
-  min-width: 720px;
-  max-width: 900px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  /* 背景に薄い日本列島シルエット（インラインSVG） */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 120' preserveAspectRatio='none'%3E%3Cg fill='%23C0392B' fill-opacity='0.09'%3E%3Cellipse cx='116' cy='9' rx='9' ry='6'/%3E%3Cpath d='M96 20 Q106 28 105 44 Q102 58 92 64 L82 58 Q84 42 90 30 Z'/%3E%3Cpath d='M42 56 Q70 50 94 60 Q102 68 94 78 L58 80 Q46 72 40 64 Z'/%3E%3Cpath d='M16 76 Q30 72 38 80 L34 92 Q22 96 17 88 Z'/%3E%3Cellipse cx='11' cy='110' rx='6' ry='3'/%3E%3C/g%3E%3C/svg%3E");
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 2rem;
 }
-.geo-pref {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.map-pref-btn {
+  display: block;
   text-align: center;
-  padding: 0.2rem;
+  padding: 0.6rem 0.4rem;
   background: #fff;
-  border: 1.5px solid #e0d8d0;
-  border-radius: 6px;
-  font-size: 0.78rem;
-  line-height: 1.1;
-  color: #555;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #333;
   transition: all 0.15s;
 }
-.geo-pref.has-data {
+.map-pref-btn:hover, .map-pref-btn.has-data {
   background: #C0392B;
   border-color: #C0392B;
   color: #fff;
-  font-weight: 600;
-  box-shadow: 0 2px 6px rgba(192,57,43,0.3);
 }
-.geo-pref.has-data:hover {
-  background: #8b1a10;
-  transform: scale(1.08);
-  z-index: 2;
-}
-.geo-pref.no-data {
-  opacity: 0.5;
+.map-pref-btn.no-data {
+  opacity: 0.4;
   pointer-events: none;
 }
-.map-legend {
-  display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  margin-top: 1rem;
-  font-size: 0.85rem;
-  color: #666;
-}
-.legend-item { display: flex; align-items: center; gap: 0.4rem; }
-.legend-box {
-  width: 16px; height: 16px; border-radius: 4px; display: inline-block;
-}
-.legend-box.has-data { background: #C0392B; }
-.legend-box.no-data { background: #fff; border: 1.5px solid #e0d8d0; opacity: 0.5; }
 
 /* カレンダーページ */
 .month-tabs {
@@ -288,21 +247,6 @@ footer {
   .card-grid { grid-template-columns: 1fr; }
   nav { gap: 1rem; }
   .page-header { padding: 2rem 1rem 1.5rem; }
-  .geo-map-wrap { overflow-x: hidden; display: flex; justify-content: center; }
-  .geo-map {
-    min-width: 720px;
-    grid-template-columns: repeat(13, 54px);
-    grid-template-rows: repeat(12, 44px);
-    transform: scale(0.46);
-    transform-origin: top center;
-    margin-bottom: -1200px;
-  }
-  .geo-pref { font-size: 0.78rem; }
-  .geo-map-wrap::after {
-    content: "タップで各地域の祭りへ";
-    display: block; text-align: center; font-size: 0.75rem;
-    color: #999; margin-top: 0.5rem;
-  }
 }
 </style>
   
@@ -315,66 +259,54 @@ footer {
   <a href="../calendar.html">カレンダー</a>
 </nav>
 <div class="page-header">
-  <h1>佐賀県の祭り情報</h1>
-  <p>5件の祭りが見つかりました</p>
+  <h1>奈良県の祭り情報</h1>
+  <p>4件の祭りが見つかりました</p>
 </div>
 <div class="container">
   <div class="card-grid"><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/hanabi_ill.png" alt="浜玉町花火大会" loading="lazy">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/shinji_ill.png" alt="東大寺 修二会（お水取り）" loading="lazy">
   <div class="card-body">
-    <div class="card-name">浜玉町花火大会</div>
-    <div class="card-date">📅 7月24日</div>
-    <div class="card-location">📍 佐賀県 唐津市浜玉町</div>
+    <div class="card-name">東大寺 修二会（お水取り）</div>
+    <div class="card-date">📅 3月1日 〜 3月14日</div>
+    <div class="card-location">📍 奈良県 奈良市</div>
     <div class="card-badges">
-      <span class="badge badge-genre">花火</span>
-      <span class="badge badge-trust-低" style="background:#c628281a;color:#c62828;">[信頼度:低]</span>
-      
-    </div>
-  </div>
-</div><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/odori_ill.png" alt="鹿島おどり（鹿島市民納涼花火大会）" loading="lazy">
-  <div class="card-body">
-    <div class="card-name">鹿島おどり（鹿島市民納涼花火大会）</div>
-    <div class="card-date">📅 8月7日 〜 8月8日</div>
-    <div class="card-location">📍 佐賀県 鹿島市</div>
-    <div class="card-badges">
-      <span class="badge badge-genre">盆踊り</span><span class="badge badge-genre">花火</span>
-      <span class="badge badge-trust-中" style="background:#f9a8251a;color:#f9a825;">[信頼度:中]</span>
-      
-    </div>
-  </div>
-</div><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/mikoshi_ill.png" alt="伊万里トンテントン祭り" loading="lazy">
-  <div class="card-body">
-    <div class="card-name">伊万里トンテントン祭り</div>
-    <div class="card-date">📅 10月24日 〜 10月25日</div>
-    <div class="card-location">📍 佐賀県 伊万里市</div>
-    <div class="card-badges">
-      <span class="badge badge-genre">神輿</span><span class="badge badge-genre">民俗芸能</span>
+      <span class="badge badge-genre">神事</span><span class="badge badge-genre">民俗芸能</span>
       <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
       
     </div>
   </div>
 </div><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/default_ill.png" alt="佐賀インターナショナルバルーンフェスタ" loading="lazy">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/shinji_ill.png" alt="金峯山寺蓮華会・蛙飛び行事" loading="lazy">
   <div class="card-body">
-    <div class="card-name">佐賀インターナショナルバルーンフェスタ</div>
-    <div class="card-date">📅 10月29日 〜 11月4日</div>
-    <div class="card-location">📍 佐賀県 佐賀市</div>
+    <div class="card-name">金峯山寺蓮華会・蛙飛び行事</div>
+    <div class="card-date">📅 7月7日</div>
+    <div class="card-location">📍 奈良県 吉野町</div>
     <div class="card-badges">
-      
+      <span class="badge badge-genre">神事</span><span class="badge badge-genre">民俗芸能</span>
       <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
       
     </div>
   </div>
 </div><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="唐津くんち" loading="lazy">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/shinji_ill.png" alt="春日大社 中元万燈籠" loading="lazy">
   <div class="card-body">
-    <div class="card-name">唐津くんち</div>
-    <div class="card-date">📅 11月2日 〜 11月4日</div>
-    <div class="card-location">📍 佐賀県 唐津市</div>
+    <div class="card-name">春日大社 中元万燈籠</div>
+    <div class="card-date">📅 8月14日 〜 8月15日</div>
+    <div class="card-location">📍 奈良県 奈良市</div>
     <div class="card-badges">
-      <span class="badge badge-genre">曳山</span><span class="badge badge-genre">神輿</span>
+      <span class="badge badge-genre">神事</span>
+      <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/shinji_ill.png" alt="采女祭" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">采女祭</div>
+    <div class="card-date">📅 9月24日 〜 9月25日</div>
+    <div class="card-location">📍 奈良県 奈良市</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">神事</span><span class="badge badge-genre">行列</span>
       <span class="badge badge-trust-高" style="background:#2e7d321a;color:#2e7d32;">[信頼度:高]</span>
       
     </div>
