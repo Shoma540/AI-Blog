@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18 17:18",
+  "last_updated": "2026-07-18 18:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -15412,11 +15412,8 @@
       "trust_level": "中",
       "conflict_note": "地域ニュースサイト(2026-07-04付)の日程(7/24宵宮・7/25本祭)について、曜日照合(2026年7/24は金曜・7/25は土曜)で矛盾がないことを確認したためrequires_checkを解除。ただし独立した一次公式ソースは依然1件のみのため信頼度は中を維持。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -16864,11 +16861,8 @@
       "trust_level": "中",
       "conflict_note": "都城市公式サイトの「毎年8月最終日曜日開催」ルールと、2026年8月30日(日)が実際に8月最終日曜日であることを曜日照合で確認。複数の非公式サイト(じゃらん・ジョルダン)の日付ともルールが整合するためrequires_checkを解除。2026年個別の公式告知は引き続き未確認。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -18845,16 +18839,8 @@
       "trust_level": "高",
       "conflict_note": "従来のDB名称「第25回久米島まつり」は2025年開催分の回次を2026年に誤って引き継いでいた可能性が高いため、回次表記を除いた名称に修正。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "alternate_names",
-        "date_note",
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -20011,7 +19997,7 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20075,7 +20061,7 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20137,7 +20123,7 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20195,7 +20181,7 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20251,7 +20237,7 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20315,7 +20301,7 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20373,7 +20359,7 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20406,6 +20392,534 @@
           "retrieved_date": "2026-07-18"
         }
       ]
+    },
+    {
+      "name": "河口湖湖上祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "南都留郡富士河口湖町",
+      "date_start": "2026-08-05",
+      "date_end": "2026-08-05",
+      "date_note": "冬花火とは別開催。荒天の場合は延期の可能性あり",
+      "time_start": "19:45",
+      "time_end": "20:40",
+      "rain_policy": "不明",
+      "organizer": "富士河口湖町（観光関連団体）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": 109,
+      "history_description": "1917年（大正6年）から続く、富士五湖の夏祭りの中でも最大規模の花火大会。富士山を背景にミュージカル花火など約1万発を打ち上げる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "富士急行河口湖駅から徒歩15分、中央道河口湖ICから車で約15分",
+      "official_url": "https://www.town.fujikawaguchiko.lg.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0419e00681/data.html",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://fujikawaguchiko-event.com/events/01HYHE4HYDDEQGTN3BZX5ZGZVS",
+          "site_name": "富士河口湖町イベント情報集約サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.fuji-net.co.jp/report/cat-tourism-event/2111/",
+          "site_name": "Fuji,CanGo",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "id": "festival_332",
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "name": "山中湖「報湖祭」花火大会",
+      "alternate_names": [
+        "報湖祭花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "南都留郡山中湖村",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "不明",
+      "time_start": "20:00",
+      "time_end": "20:45",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "山中湖畔で毎年行われる納涼花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tour.ne.jp/matome/articles/j519/",
+          "site_name": "トラベルコ",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "id": "festival_333",
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "name": "戸狩温泉夏祭り～ドラゴンナイトフェスティバル～",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "飯山市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "日程は変更の可能性あり",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "戸狩観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "戸狩温泉で行われる夏祭りで、花火や催し物が行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.instagram.com/togarikankokyokai/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/togarikankokyokai/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.jalan.net/kankou/spt_20213aa1030001318/event/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "id": "festival_334",
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "name": "平維盛夏祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "吉野郡野迫川村",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "不明",
+      "time_start": "20:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "平維盛の伝承にちなむとされる野迫川村の夏祭り。約3000発の花火を打ち上げる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tour.ne.jp/matome/articles/j521/",
+          "site_name": "トラベルコ",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "id": "festival_335",
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "name": "若桜町納涼花火大会（土用縁日）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "八頭郡若桜町",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-18",
+      "date_note": "不明",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "若桜町の土用縁日に合わせた納涼花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tottorizumu.com/tottori-hanabi2026/",
+          "site_name": "とっとりずむ",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "id": "festival_336",
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "name": "おかやま桃太郎まつり",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "岡山県",
+      "city": "岡山市",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-23",
+      "date_note": "「うらじゃ」（festival_045）と同時期・近接会場で開催される別イベント。演舞・パレードが中心。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "おかやま桃太郎まつり運営委員会",
+      "genre": [
+        "パレード",
+        "踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 26,
+      "history_description": "第26回。下石井公園・市役所筋などを会場に、演舞やパレード、フィナーレの総おどりが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://www.okayama-momotaro-fes.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://www.okayama-momotaro-fes.jp/",
+          "site_name": "おかやま桃太郎まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.okayama-kanko.jp/event/detail_12447.html",
+          "site_name": "岡山観光WEB",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://okayama-kanko.net/sightseeing/event/12600/",
+          "site_name": "OKAYAMA KANKO .net",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "id": "festival_337",
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "name": "観音寺市花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "観音寺市",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "date_note": "不明",
+      "time_start": "20:00",
+      "time_end": "20:15",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tour.ne.jp/matome/articles/j509/",
+          "site_name": "トラベルコ",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "id": "festival_338",
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "name": "善通寺市総踊り大会・花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "善通寺市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "25日は前夜祭(17:00〜21:00)、26日は総踊り大会・花火大会(17:00〜22:00)",
+      "time_start": "17:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "踊り",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tour.ne.jp/matome/articles/j509/",
+          "site_name": "トラベルコ",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "id": "festival_339",
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "name": "宿毛市花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "高知県",
+      "city": "宿毛市",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-18",
+      "date_note": "不明",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tour.ne.jp/matome/articles/j505/",
+          "site_name": "トラベルコ",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "id": "festival_340",
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "name": "南三陸町花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "本吉郡南三陸町",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "不明",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "約3000発の花火が打ち上げられる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tour.ne.jp/matome/articles/j498/",
+          "site_name": "トラベルコ",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "id": "festival_341",
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
     }
   ]
 }
