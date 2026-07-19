@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18 18:11",
+  "last_updated": "2026-07-19 09:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -20448,7 +20448,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_332",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20500,7 +20500,7 @@
       "conflict_note": "",
       "requires_check": true,
       "id": "festival_333",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20550,7 +20550,7 @@
       "conflict_note": "",
       "requires_check": true,
       "id": "festival_334",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20600,7 +20600,7 @@
       "conflict_note": "",
       "requires_check": true,
       "id": "festival_335",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20650,7 +20650,7 @@
       "conflict_note": "",
       "requires_check": true,
       "id": "festival_336",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20713,7 +20713,7 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_337",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20763,7 +20763,7 @@
       "conflict_note": "",
       "requires_check": true,
       "id": "festival_338",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20814,7 +20814,7 @@
       "conflict_note": "",
       "requires_check": true,
       "id": "festival_339",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20864,7 +20864,7 @@
       "conflict_note": "",
       "requires_check": true,
       "id": "festival_340",
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20914,6 +20914,246 @@
       "conflict_note": "",
       "requires_check": true,
       "id": "festival_341",
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_342",
+      "name": "東京高円寺阿波おどり",
+      "alternate_names": ["高円寺阿波おどり"],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "杉並区",
+      "date_start": "2026-08-29",
+      "date_end": "2026-08-30",
+      "date_note": "第67回。公式サイトに荒天時の中止・順延規定の明記は確認できず。",
+      "time_start": "17:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "第67回東京高円寺阿波おどり実行委員会・NPO法人東京高円寺阿波おどり振興協会（杉並区共催）",
+      "genre": ["盆踊り", "踊り", "パレード"],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（特別観覧席は有料）",
+      "ticket_url": "不明",
+      "history_years": "67回（第67回）",
+      "history_description": "1957年（昭和32年）に商店街の振興イベントとして始まったとされ、東京を代表する阿波おどりに発展。JR高円寺駅・東京メトロ丸ノ内線新高円寺駅周辺の8演舞場で「連」と呼ばれる踊り手グループが披露する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR中央線高円寺駅、東京メトロ丸ノ内線新高円寺駅周辺",
+      "official_url": "https://www.koenji-awaodori.com/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/tokyo_koenji_awaodori/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.koenji-awaodori.com/about/about01.html",
+          "site_name": "NPO法人東京高円寺阿波おどり振興協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://tokyofesta.com/23ku/29993/",
+          "site_name": "東京フェスタ",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.chuo-besthome.co.jp/local/koenji-awaodori/",
+          "site_name": "殖産ベスト（地域情報）",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_343",
+      "name": "川越百万灯夏まつり",
+      "alternate_names": ["百万灯夏まつり"],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "川越市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "第45回。荒天時の中止・延期日設定なし。",
+      "time_start": "16:00",
+      "time_end": "21:00",
+      "rain_policy": "荒天中止（延期日なし）",
+      "organizer": "川越百万灯夏まつり実行委員会（川越商工会議所）",
+      "genre": ["パレード", "屋台行事"],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "45回（第45回）",
+      "history_description": "小江戸川越の中心市街地を提灯の灯りで彩る夏まつり。本川越駅前から札の辻周辺の商店街で開催される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "西武新宿線本川越駅から徒歩3分、JR・東武東上線川越駅から徒歩10分、東武東上線川越市駅から徒歩5分",
+      "official_url": "https://www.kawagoe.or.jp/natsumatsuri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kawagoe.or.jp/natsumatsuri/",
+          "site_name": "川越商工会議所（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://mag.c-kawagoe.com/archives/14018",
+          "site_name": "川越観光・グルメ情報マガジン",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://kawagoe.fun/magazine/event/summer-festival/",
+          "site_name": "川越観光・食べ歩きマガジン",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_344",
+      "name": "立川まつり国営昭和記念公園花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "立川市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "会場運営（無料観覧エリア等）に大きな変更がある旨、公式サイトで案内。詳細は公式サイト要確認。",
+      "time_start": "19:15",
+      "time_end": "20:15",
+      "rain_policy": "不明（悪天候時は天気情報に注意し雨具持参を案内）",
+      "organizer": "立川まつり国営昭和記念公園花火大会実行委員会",
+      "genre": ["花火"],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（一部有料観覧エリアあり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "国営昭和記念公園「みんなの原っぱ」を主会場に、尺五寸玉や共演企画玉、ワイドスターマインなど約5000発を打ち上げる立川市の夏の花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR中央線立川駅・多摩モノレール立川北駅から徒歩圏内（国営昭和記念公園）",
+      "official_url": "https://hanabi.tokyo-tachikawa.org/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.tokyo-tachikawa.org/news/news-611/",
+          "site_name": "立川まつり国営昭和記念公園花火大会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://tokyo-tachikawa.org/event/13489/",
+          "site_name": "立川観光コンベンション協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://ticket.rakuten.co.jp/event/rtj2hnc/",
+          "site_name": "楽天チケット",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_345",
+      "name": "常総きぬ川花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "常総市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-12",
+      "date_note": "第59回。開催時間の詳細は公式サイトで随時発表予定（2026-07-19時点で公式サイトは「詳細が決まり次第」と案内、時間は外部サイト情報）。",
+      "time_start": "18:05",
+      "time_end": "19:45",
+      "rain_policy": "不明",
+      "organizer": "常総きぬ川花火大会実行委員会",
+      "genre": ["花火"],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": "59回（第59回）",
+      "history_description": "鬼怒川河畔（橋本運動公園）で開催される茨城県内屈指の花火大会。約2万2000発を打ち上げ予定で大会史上最多規模となる見込み。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約12万人以上（例年）",
+      "access": "関東鉄道常総線水海道駅から徒歩15分、常磐自動車道谷和原ICから車で約10分",
+      "official_url": "https://www.joso-hanabi.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.joso-hanabi.jp/",
+          "site_name": "常総きぬ川花火大会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0308e00248/data.html",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.cnplayguide.com/joso-hanabi/",
+          "site_name": "CNプレイガイド",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
