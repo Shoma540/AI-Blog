@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19 15:45",
+  "last_updated": "2026-07-19 16:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -21235,7 +21235,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21299,7 +21299,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21361,6 +21361,538 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_349",
+      "name": "キャンプ座間 日米友好盆踊りフェスティバル2026",
+      "alternate_names": [
+        "Camp Zama Bon Odori Festival"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "座間市（キャンプ座間）",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "在日米陸軍キャンプ座間内で開催される年次の日米友好盆踊りフェスティバル。基地内のため入場にIDが必要な場合あり。",
+      "time_start": "15:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "在日米陸軍キャンプ座間（MWR）",
+      "genre": [
+        "盆踊り",
+        "花火",
+        "基地開放イベント"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（事前登録不要、18歳以上は身分証提示）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "在日米陸軍キャンプ座間が主催する年次の日米友好盆踊り。基地を一般開放し、盆踊りと花火（20:45〜）を実施する恒例行事。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://zama.armymwr.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://zama.armymwr.com/",
+          "site_name": "Camp Zama MWR（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://event.exantenna.net/",
+          "site_name": "イベント情報サイト",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://ebina-zama-ayase.goguynet.jp/",
+          "site_name": "海老名座間座綾瀬地域ニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://partyanimalsjp.com/",
+          "site_name": "イベントまとめサイト",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_350",
+      "name": "第48回芦屋サマーカーニバル花火大会",
+      "alternate_names": [
+        "芦屋花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "芦屋市（潮芦屋ビーチ）",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "フェスティバル全体は13:00〜21:00、花火は19:45〜20:30（約6000発）。",
+      "time_start": "19:45",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "NPO法人芦屋市民まつり協議会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料。協賛観覧席チケット・市民広場入場券が必要で無料の立ち見エリアはない。",
+      "ticket_url": "https://l-tike.com/",
+      "history_years": "48回（第48回）",
+      "history_description": "芦屋市の夏の恒例行事。潮芦屋ビーチを会場に約6000発の花火を打ち上げる、チケット制の花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://ashiya-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ashiya-hanabi.com/",
+          "site_name": "芦屋サマーカーニバル花火大会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://l-tike.com/",
+          "site_name": "ローソンチケット",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_351",
+      "name": "第57回市民フェスタ高槻まつり2026",
+      "alternate_names": [
+        "高槻まつり"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "大阪府",
+      "city": "高槻市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-02",
+      "date_note": "高槻市公式サイトが「令和8年8月1日・2日」と明記。同振興会サイトには過去年度（8/2-3、8/5-6等）の告知ページが残存しており誤読の恐れがあるため、市公式情報を採用。パレードは17:00〜21:00。花火は本祭りに含まれず、別イベント「水都くらわんか花火大会」（9/20）が担当。",
+      "time_start": "14:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "高槻まつり振興会",
+      "genre": [
+        "パレード",
+        "盆踊り",
+        "縁日"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "57回（第57回）",
+      "history_description": "高槻城公園芸術文化劇場南館(トリシマホール)・桃園小学校・第一中学校・市道野見八幡線を会場に、パレードや高槻音頭の盆踊り、商店街の縁日などを行う高槻市の夏の市民まつり。",
+      "food_stalls": "商店街縁日にて出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.takatsuki.osaka.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.takatsuki.osaka.jp/",
+          "site_name": "高槻市（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://takatsuki-matsuri.org/",
+          "site_name": "高槻まつり振興会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://takatsuki2.jp/",
+          "site_name": "たかつき新聞（地域ニュース、2026-07-12）",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.takatsuki-kankou.org/",
+          "site_name": "高槻市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "⚠️矛盾（解消済み）: 振興会サイトに過去年度の異なる日程の告知ページが残存していたが、市公式サイトの明記（8/1・2）を正とした。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_352",
+      "name": "てんしば夏祭り2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "大阪市天王寺区（てんしば／天王寺公園エントランスエリア）",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-02",
+      "date_note": "日程は確定しているが、詳細プログラムは公式サイトで「追ってお知らせ」とされ未発表。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "近鉄不動産",
+      "genre": [
+        "夏祭り",
+        "屋台"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（過去開催では入場無料）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "天王寺公園エントランスエリア「てんしば」で開催される夏祭りイベント。例年は屋台や盆踊りが行われている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.tennoji-park.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tennoji-park.jp/",
+          "site_name": "てんしば（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://summer.walkerplus.com/",
+          "site_name": "夏祭り特集 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_353",
+      "name": "みなと舞鶴ちゃった花火大会2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "舞鶴市（東地区海岸）",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "約4000発を打ち上げ。",
+      "time_start": "19:30",
+      "time_end": "20:10",
+      "rain_policy": "不明",
+      "organizer": "舞鶴商工会議所",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料席なし）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "舞鶴市東地区海岸で開催される夏の花火大会。約4000発の花火が打ち上げられる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.maizuru.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.maizuru.or.jp/",
+          "site_name": "舞鶴商工会議所（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.kyoto-kankou.or.jp/",
+          "site_name": "京都府観光連盟",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_354",
+      "name": "海の京都 みやづBAY花火2026",
+      "alternate_names": [
+        "みやづ湾花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "宮津市（文珠天橋公園・天橋立）",
+      "date_start": "2026-07-18",
+      "date_end": "2026-08-08",
+      "date_note": "単発ではなく複数日開催される小規模花火の連続シリーズ（7/18、7/24、7/25、8/1、8/8）。各回75〜150発程度。荒天時は中止となる場合あり（公式サイト・SNSで告知）。",
+      "time_start": "20:30",
+      "time_end": "20:40",
+      "rain_policy": "荒天時中止（公式サイト・X（旧Twitter）で告知）",
+      "organizer": "天橋立観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "天橋立・文珠天橋公園を会場に、夏季の複数日程で小規模な花火を打ち上げる「海の京都」の観光振興イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.amanohashidate.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.amanohashidate.jp/",
+          "site_name": "天橋立観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.city.miyazu.kyoto.jp/",
+          "site_name": "宮津市（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_355",
+      "name": "あやべ水無月まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "綾部市（由良川河畔・並松町）",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "よさこいは15:30〜、献灯神事・万灯流しは19:30〜、花火は20:00〜20:40（約4000発）。",
+      "time_start": "20:00",
+      "time_end": "20:40",
+      "rain_policy": "不明",
+      "organizer": "あやべ水無月まつり実行委員会",
+      "genre": [
+        "花火",
+        "灯籠流し",
+        "よさこい"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料の見学エリアあり（有料の指定席・駐車場もあり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "由良川河畔で万灯流しと約4000発の花火を組み合わせて行われる綾部市の夏まつり。よさこい演舞も実施。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.ayabe.lg.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.ayabe.lg.jp/",
+          "site_name": "綾部市（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://ayabeminatsuki.org/",
+          "site_name": "あやべ水無月まつり（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_356",
+      "name": "間人みなと祭",
+      "alternate_names": [
+        "たいざみなと祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "京丹後市丹後町間人（間人漁港・丹後地域公民館周辺）",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "花火は20:30〜21:00（約800発）。",
+      "time_start": "10:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "間人漁港周辺で行われる港町の夏祭り。パレードと約800発の花火を実施。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.kyotango.gr.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kyotango.gr.jp/",
+          "site_name": "京丹後市観光公社（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
