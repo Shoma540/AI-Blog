@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19 09:13",
+  "last_updated": "2026-07-19 15:45",
   "festivals": [
     {
       "id": "festival_001",
@@ -20924,7 +20924,9 @@
     {
       "id": "festival_342",
       "name": "東京高円寺阿波おどり",
-      "alternate_names": ["高円寺阿波おどり"],
+      "alternate_names": [
+        "高円寺阿波おどり"
+      ],
       "similar_name_warning": false,
       "prefecture": "東京都",
       "city": "杉並区",
@@ -20935,7 +20937,11 @@
       "time_end": "20:00",
       "rain_policy": "不明",
       "organizer": "第67回東京高円寺阿波おどり実行委員会・NPO法人東京高円寺阿波おどり振興協会（杉並区共催）",
-      "genre": ["盆踊り", "踊り", "パレード"],
+      "genre": [
+        "盆踊り",
+        "踊り",
+        "パレード"
+      ],
       "scale": "その他",
       "is_free": true,
       "price": "見学無料（特別観覧席は有料）",
@@ -20974,7 +20980,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -20984,7 +20990,9 @@
     {
       "id": "festival_343",
       "name": "川越百万灯夏まつり",
-      "alternate_names": ["百万灯夏まつり"],
+      "alternate_names": [
+        "百万灯夏まつり"
+      ],
       "similar_name_warning": false,
       "prefecture": "埼玉県",
       "city": "川越市",
@@ -20995,7 +21003,10 @@
       "time_end": "21:00",
       "rain_policy": "荒天中止（延期日なし）",
       "organizer": "川越百万灯夏まつり実行委員会（川越商工会議所）",
-      "genre": ["パレード", "屋台行事"],
+      "genre": [
+        "パレード",
+        "屋台行事"
+      ],
       "scale": "その他",
       "is_free": true,
       "price": "見学無料",
@@ -21034,7 +21045,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21055,7 +21066,9 @@
       "time_end": "20:15",
       "rain_policy": "不明（悪天候時は天気情報に注意し雨具持参を案内）",
       "organizer": "立川まつり国営昭和記念公園花火大会実行委員会",
-      "genre": ["花火"],
+      "genre": [
+        "花火"
+      ],
       "scale": "その他",
       "is_free": true,
       "price": "見学無料（一部有料観覧エリアあり）",
@@ -21094,7 +21107,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21115,7 +21128,9 @@
       "time_end": "19:45",
       "rain_policy": "不明",
       "organizer": "常総きぬ川花火大会実行委員会",
-      "genre": ["花火"],
+      "genre": [
+        "花火"
+      ],
       "scale": "その他",
       "is_free": true,
       "price": "見学無料（有料観覧席あり）",
@@ -21148,6 +21163,200 @@
           "url": "https://www.cnplayguide.com/joso-hanabi/",
           "site_name": "CNプレイガイド",
           "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_346",
+      "name": "浜坂川下祭・浜坂ふるさと夏まつり花火大会",
+      "alternate_names": [
+        "川下祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "美方郡新温泉町",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-20",
+      "date_note": "但馬三大祭りの一つ。7/18宵宮（神輿行列町内巡行）、7/19本祭（神輿渡御・麒麟獅子舞・花火大会）、7/20は荒天時予備日。",
+      "time_start": "20:00",
+      "time_end": "21:00",
+      "rain_policy": "荒天の場合は花火大会中止（順延なし）。中止判断は19日15時頃に町内放送・公式サイト・SNSで案内。",
+      "organizer": "浜坂川下祭・浜坂ふるさと夏まつり実行委員会",
+      "genre": [
+        "神輿",
+        "花火",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "但馬三大祭りの一つとされる川下祭りと、浜坂ふるさと夏まつり花火大会（約3000発、屋台約100台）を組み合わせた夏祭り。",
+      "food_stalls": "屋台約100台出店予定",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR浜坂駅から徒歩約15分",
+      "official_url": "https://town.shinonsen.hyogo.jp/page/?detail_mode=topics&mode=detail&page_id=6f8cbeac314c03b45ee8d5083e72db86",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://town.shinonsen.hyogo.jp/page/?detail_mode=topics&mode=detail&page_id=6f8cbeac314c03b45ee8d5083e72db86",
+          "site_name": "新温泉町（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.torican.jp/festival/detail_1479.html",
+          "site_name": "鳥取市観光サイト（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3701002/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_347",
+      "name": "函館新聞社函館港花火大会",
+      "alternate_names": [
+        "函館港花火大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "北海道",
+      "city": "函館市",
+      "date_start": "2026-07-19",
+      "date_end": "2026-07-19",
+      "date_note": "第27回。海の日制定記念。荒天時は7/20（月・祝）へ延期。函館港まつり協賛の「道新花火大会」（8/1開催）とは別の花火大会のため要注意。",
+      "time_start": "19:45",
+      "time_end": "20:45",
+      "rain_policy": "荒天時は7/20へ延期",
+      "organizer": "函館新聞社",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "27回（第27回）",
+      "history_description": "函館三大花火の一つ。緑の島から打ち上げ、函館港周辺で観覧可能。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR函館駅から徒歩3分",
+      "official_url": "https://www.hakodate-minatomatsuri.org/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00720/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1001018/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.hakodate-minatomatsuri.org/",
+          "site_name": "函館港まつり（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_348",
+      "name": "佐土原夏祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "宮崎県",
+      "city": "宮崎市（佐土原町）",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "date_note": "上田島本町通り周辺で開催。開催中は一部区間が歩行者天国。",
+      "time_start": "17:30",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "佐土原夏祭り実行委員会",
+      "genre": [
+        "神輿",
+        "盆踊り",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "名物「いろは口説き」「ダンジリ喧嘩」で知られる宮崎市佐土原町の夏祭り。赤青のダンジリがぶつかり合う勇壮な祭り。",
+      "food_stalls": "出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.miyazaki-city.tourism.or.jp/event/13069",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.miyazaki-city.tourism.or.jp/event/13069",
+          "site_name": "宮崎市観光サイト（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.kanko-miyazaki.jp/event/2247",
+          "site_name": "みやざき観光ナビ（宮崎県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.sadowara-shokokai.jp/regional-promotion/event/",
+          "site_name": "佐土原町商工会",
+          "is_official": true,
           "retrieved_date": "2026-07-19"
         }
       ],
