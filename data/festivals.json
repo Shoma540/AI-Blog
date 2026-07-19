@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19 16:30",
+  "last_updated": "2026-07-19 17:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -21435,7 +21435,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21505,7 +21505,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21577,7 +21577,7 @@
       "trust_level": "高",
       "conflict_note": "⚠️矛盾（解消済み）: 振興会サイトに過去年度の異なる日程の告知ページが残存していたが、市公式サイトの明記（8/1・2）を正とした。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21634,7 +21634,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21702,7 +21702,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21766,7 +21766,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21836,7 +21836,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21893,6 +21893,201 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_357",
+      "name": "山口七夕ちょうちんまつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山口県",
+      "city": "山口市（中心商店街・パークロード周辺・大殿地区・湯田温泉）",
+      "date_start": "2026-08-06",
+      "date_end": "2026-08-07",
+      "date_note": "18:30〜21:30(予定)。日本三大火祭りの一つとされる。",
+      "time_start": "18:30",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "山口市ふるさとまつり実行委員会（事務局：山口商工会議所内）",
+      "genre": [
+        "伝統行事",
+        "灯籠",
+        "提灯"
+      ],
+      "scale": "その他（山口県を代表する3大夏祭りの一つ）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 600,
+      "history_description": "室町時代、大内盛見が先祖の冥福を祈るためお盆の夜に笹竹の高灯籠に灯をともしたのが始まりとされる。竹竿に蝋燭の灯をともした数万個の紅提灯が街を紅い光のトンネルで包む。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://y-chouchin.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://y-chouchin.jp/",
+          "site_name": "山口七夕ちょうちんまつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://yamaguchi-tourism.jp/event/detail_12272.html",
+          "site_name": "おいでませ山口へ（山口県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.furusato-tax.jp/feature/detail/35203/4058",
+          "site_name": "ふるさとチョイス",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_358",
+      "name": "住吉神社例大祭（佃祭）",
+      "alternate_names": [
+        "佃祭",
+        "住吉神社例祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "中央区佃",
+      "date_start": "2026-08-06",
+      "date_end": "2026-08-10",
+      "date_note": "2026年は3年に一度の本祭り。8/6御旅所大祭式、8/8獅子頭・町内神輿巡行、8/9宮神輿巡幸、8/10宮神輿巡幸・宮入り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "住吉神社（佃住吉講）",
+      "genre": [
+        "神輿",
+        "神事",
+        "船渡御"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "佃島の氏神である住吉神社の例大祭で「佃祭」とも呼ばれる。獅子頭の宮出しや宮神輿の渡御、神輿を船で運ぶ船渡御が見どころ。祭礼期間中に響く「佃ばやし」は江戸三大囃子の一つとされる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京メトロ有楽町線・都営大江戸線 月島駅6番出口から徒歩10分",
+      "official_url": "https://www.tsukudamatsuri.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tsukudamatsuri.com/",
+          "site_name": "住吉神社 佃祭り（中央区）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.chuo-kanko.or.jp/blogs/event/2606021657",
+          "site_name": "中央区観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.sumiyoshijinja.or.jp/information.html",
+          "site_name": "住吉神社オフィシャルサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_359",
+      "name": "村上大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "村上市",
+      "date_start": "2026-07-06",
+      "date_end": "2026-07-07",
+      "date_note": "7/6宵祭り（町内巡行）、7/7本祭り（おしゃぎり19台巡行）。露店開設は7/5〜7/8。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "村上大祭関係団体（村上市観光協会が案内）",
+      "genre": [
+        "山車",
+        "屋台",
+        "神事"
+      ],
+      "scale": "ユネスコ無形文化遺産「山・鉾・屋台行事」／重要無形民俗文化財",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "村上市街地一帯で行われる新潟三大高市の一つ。彫刻や漆塗りを施した「おしゃぎり」19台が市内を巡行する。2016年にユネスコ無形文化遺産「山・鉾・屋台行事」に登録。",
+      "food_stalls": "露店多数（7/5〜7/8開設）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://murakamitaisai.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://murakamitaisai.jp/",
+          "site_name": "村上大祭 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.sake3.com/murakamitaisai/",
+          "site_name": "村上市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://niigata-kankou.or.jp/event/13027",
+          "site_name": "にいがた観光ナビ（新潟県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
