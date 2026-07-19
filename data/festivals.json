@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19 17:12",
+  "last_updated": "2026-07-19 18:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -21959,7 +21959,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22026,7 +22026,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22090,6 +22090,174 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_360",
+      "name": "ぎふ長良川花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岐阜県",
+      "city": "岐阜市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "小雨決行。荒天・増水時は2026年8月22日(土)に延期（延期日での再延期なし）。第4回開催。",
+      "time_start": "19:30",
+      "time_end": "20:40",
+      "rain_policy": "小雨決行。荒天、増水時は2026年8月22日(土)に延期。",
+      "organizer": "ぎふ長良川花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料（有料観覧席あり、チケットぴあにて一般販売2026年7月8日開始）",
+      "ticket_url": "不明",
+      "history_years": 4,
+      "history_description": "岐阜市の長良川河畔（長良橋〜金華橋間）で行われる花火大会。例年の人出は約12万人、打ち上げ数は約1万発とされる、比較的新しい花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約12万人",
+      "access": "長良川河畔（長良橋〜金華橋間）、北岸が観覧エリア、南岸中州から打ち上げ",
+      "official_url": "https://nagara-hanabi.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://nagara-hanabi.jp/",
+          "site_name": "ぎふ長良川花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.gifucvb.or.jp/event/detail_summer.php?eid=00107&calendar_keisai=1",
+          "site_name": "岐阜観光コンベンション協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/ar0621/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_361",
+      "name": "唐招提寺 地蔵盆",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "奈良市五条町",
+      "date_start": "2026-08-23",
+      "date_end": "2026-08-24",
+      "date_note": "地蔵尊への灯籠供養行事。同日程で元興寺「地蔵会万灯供養」も開催（別の寺院・別行事）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "唐招提寺",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他（世界遺産境内行事）",
+      "is_free": true,
+      "price": "境内参拝は通常拝観料が必要な場合あり（詳細不明）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR奈良駅からバスで「唐招提寺」下車",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.nikkonara.jp/news/detail.php?id=166",
+          "site_name": "ホテル日航奈良",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://neonara.net/omatsuri/",
+          "site_name": "neoNARA 奈良観光サイト",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_362",
+      "name": "ふるさと大町納涼まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "大町町",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-13",
+      "date_note": "祭りの最後に花火（約1,100発）を打ち上げ。",
+      "time_start": "18:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "大町町（実行委員会、詳細不明）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大町町民グラウンド",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.asobo-saga.jp/events/",
+          "site_name": "佐賀県観光サイト あそぼーさが",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
