@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20 12:25",
+  "last_updated": "2026-07-20 16:25",
   "festivals": [
     {
       "id": "festival_001",
@@ -22387,7 +22387,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22453,7 +22453,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 2026年の具体的日付(9/19-21)は「敬老の日を含む土日月」という通例からの算出であり、2026年版として明記した一次情報源は未確認。歴史年数の表記に350年/400年/1100年超の揺れあり。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22510,7 +22510,7 @@
       "trust_level": "中",
       "conflict_note": "一部の民間サイト(jalan.net等)には2025年の日程(9/27-28)のまま更新されていない古い情報が残存。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22570,7 +22570,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 同協会サイト内の2024年アーカイブでは10/19-20の2日間開催・関船7隻となっており、開催日数・関船数は年により変動する可能性がある。2026年専用ページの情報を採用。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22635,7 +22635,7 @@
       "trust_level": "高",
       "conflict_note": "固定日祭事のため信頼度は高いが、「2026年」を明示した一次ソースは見つかっていない（例年通りという前提での確認）。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22699,7 +22699,7 @@
       "trust_level": "中",
       "conflict_note": "2026年固有の告知は見つからず、例年の固定日開催という前提。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22769,7 +22769,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22831,7 +22831,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 諏訪神社公式サイト自体は2026年の確定日程を明記していない（例年変わるため都度告知としている）。10/3-4は二次情報源が「10月第1土日」という通例から算出したもので、神社・市による2026年向けの公式発表は未確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22899,7 +22899,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -22970,7 +22970,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23038,7 +23038,7 @@
       "trust_level": "高",
       "conflict_note": "旧サイト(0845.boo.jp)と新サイト(suigun-matsuri.com)の2つの公式サイトが並存。日程自体は複数ソースで一致。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23103,7 +23103,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23176,7 +23176,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23235,7 +23235,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 2026年の開催そのものを明言した糸満市公式発表は未確認（2025年分は終了済みとして掲載）。9/25という日付は「旧暦8/15固定」というルールと暦変換から導いた推定日であり、市の正式告知ではない。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23301,7 +23301,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23363,6 +23363,131 @@
       ],
       "trust_level": "高",
       "conflict_note": "検索初期段階で「8月8-9日開催」「10月12日開催の第43回」という矛盾情報が出現したが、上田市公式・長野県公式観光サイトの2ソースが8月1日・第42回で一致したためそれらを採用。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_380",
+      "name": "2026おうら祭り",
+      "alternate_names": [
+        "おうら祭り花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "群馬県",
+      "city": "邑楽郡邑楽町",
+      "date_start": "2026-08-23",
+      "date_end": "2026-08-23",
+      "date_note": "第33回。雨天時は花火のみ翌8月24日(月)19:00に順延。邑楽町公式・ぐんラボ！・ウェザーニュース等で日程一致。",
+      "time_start": "13:00",
+      "time_end": "21:00",
+      "rain_policy": "花火のみ荒天順延（8/24 19:00〜）",
+      "organizer": "おうら祭り実行委員会",
+      "genre": [
+        "花火",
+        "パレード",
+        "屋台行事"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": 33,
+      "history_description": "邑楽町の夏を彩る祭り。花火大会（20:00〜20:30、おうら中央公園）のほか、おうら中央多目的広場で各種イベントを実施。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "おうら中央多目的広場・おうら中央公園（邑楽町役場南側、群馬県邑楽郡邑楽町大字中野2570-1）",
+      "official_url": "https://www.town.ora.gunma.jp/orabiyori/080/orahanabi.html",
+      "sns_accounts": {
+        "instagram": "",
+        "x": "https://x.com/Ora_Festival"
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.town.ora.gunma.jp/orabiyori/080/orahanabi.html",
+          "site_name": "邑楽日和（邑楽町公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-20"
+        },
+        {
+          "url": "https://www.gunlabo.net/event/event.shtml?id=722",
+          "site_name": "ぐんラボ！",
+          "is_official": false,
+          "retrieved_date": "2026-07-20"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/9010002/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_381",
+      "name": "磯部温泉大花火大会（第75回磯部温泉祭り）",
+      "alternate_names": [
+        "磯部温泉祭り花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "群馬県",
+      "city": "安中市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-17",
+      "date_note": "祭り自体は8/15〜17の3日間。大花火大会は初日8/15。磯部温泉公式・ウォーカープラス等で一致。",
+      "time_start": "19:30",
+      "time_end": "21:00",
+      "rain_policy": "天候等により中止・変更の場合あり（詳細は主催へ要確認）",
+      "organizer": "磯部温泉祭り実行委員会（磯部温泉組合）",
+      "genre": [
+        "花火",
+        "神輿",
+        "パレード"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "花火観覧無料",
+      "ticket_url": "",
+      "history_years": 75,
+      "history_description": "群馬県内最多クラスの規模とされる磯部温泉の花火大会。初日に子どもみこし・サンバパレード・大花火大会（約40分間）、2日目に温泉薬師灯籠流しと仕掛け花火、3日目に磯部温泉寄席を実施。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "碓氷川河川敷（群馬県安中市磯部温泉）",
+      "official_url": "https://www.isobeonsen.com/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.isobeonsen.com/%E7%AC%AC75%E5%9B%9E%E7%A3%AF%E9%83%A8%E6%B8%A9%E6%B3%89%E7%A5%AD%E3%82%8A%E9%96%8B%E5%82%AC%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+          "site_name": "磯部温泉 公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-20"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0310e513296/data.html",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-20"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
