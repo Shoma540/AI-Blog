@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21 08:12",
+  "last_updated": "2026-07-21 12:21",
   "festivals": [
     {
       "id": "festival_001",
@@ -5257,8 +5257,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "例年：台船からの通常プログラムで開催 → 2026年：高波により台船出港断念、水中花火のみの規模縮小開催（開催自体は実施）。"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -23490,6 +23490,471 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_382",
+      "name": "天草ほんどハイヤ祭り",
+      "alternate_names": [
+        "天草ほんど花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "熊本県",
+      "city": "天草市（本渡）",
+      "date_start": "2026-07-25",
+      "date_end": "2026-08-09",
+      "date_note": "第61回開催。花火大会は公式サイト（haiya.org）で2026年7月25日(土)20:20〜20:40と確認。踊りの競演・道中総踊りは8月9日(土)（踊りの競演13:00〜、道中総踊り18:30〜）。子ハイヤの正確な日付は情報源により7/25・7/26で揺れがあり要確認。⚠️矛盾：一部サイトでは花火大会・子ハイヤを7/26とする記載があるが、公式サイト（haiya.org/2026haiya/2026fireworks/）は7/25と明記しており、公式情報を優先した。",
+      "time_start": "13:00",
+      "time_end": "20:40",
+      "rain_policy": "花火大会は小雨決行、荒天中止",
+      "organizer": "天草ほんどハイヤ祭り実行委員会（本渡商工会議所内）",
+      "genre": [
+        "花火",
+        "踊り",
+        "パレード"
+      ],
+      "scale": "その他（県下最大級1.5尺玉、直径400m規模の花火大会を含む）",
+      "is_free": true,
+      "price": "見学無料（優待席は3万円以上協賛の企業等対象、当日会場での個人協賛者も案内あり）",
+      "ticket_url": "不明",
+      "history_years": 61,
+      "history_description": "熊本県天草市本渡地区で毎年夏に開催される祭り。ハイヤ節の総踊りや花火大会、踊りの競演などで構成され、2026年で第61回を迎える。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "本渡港一帯（熊本県天草市港町1-9）",
+      "official_url": "https://haiya.org/",
+      "sns_accounts": {
+        "instagram": "@amakusahaiya"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://haiya.org/",
+          "site_name": "第61回 天草ほんどハイヤ祭り 2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://haiya.org/2026haiya/2026fireworks/",
+          "site_name": "haiya.org 2026花火大会",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://fmk.fm/odekake/3502/",
+          "site_name": "FMKエフエム・クマモト おでかけ情報",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://kumamoto.guide/events/detail/7536",
+          "site_name": "熊本県観光サイト",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️矛盾：子ハイヤ・花火大会の日付について「7/25」（公式サイト）と「7/26」（一部まとめサイト）の間で情報が食い違っている。公式サイトの7/25を採用。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_383",
+      "name": "千鳥ヶ淵灯ろう流し",
+      "alternate_names": [
+        "皇居千鳥ヶ淵 灯ろう流し〜納涼の夕べ〜"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "date_start": "2026-07-22",
+      "date_end": "2026-07-23",
+      "date_note": "灯ろうの見頃は19:00〜20:00頃。",
+      "time_start": "19:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "千代田区観光協会",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他（約2,000個の灯ろうが濠に浮かぶ）",
+      "is_free": true,
+      "price": "見学無料（灯ろう・船上灯ろうは事前申込・購入制、料金は公式サイト要確認）",
+      "ticket_url": "https://visit-chiyoda.tokyo/floating.lantern/",
+      "history_years": "不明",
+      "history_description": "戦没者・物故者の慰霊と世界平和を祈念し、皇居のお濠（千鳥ヶ淵）に灯ろうを浮かべる納涼行事。千代田区観光協会主催で毎年夏に開催されている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "地下鉄九段下駅・半蔵門駅等から徒歩圏内（千鳥ヶ淵）",
+      "official_url": "https://visit-chiyoda.tokyo/floating.lantern/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://visit-chiyoda.tokyo/floating.lantern/",
+          "site_name": "Visit Chiyoda（千代田区観光協会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev091/index.html",
+          "site_name": "GO TOKYO（東京都公式観光サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.fashion-press.net/news/148330",
+          "site_name": "ファッションプレス",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_384",
+      "name": "富士河口湖灯籠流し",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "南都留郡富士河口湖町",
+      "date_start": "2026-08-16",
+      "date_end": "2026-08-16",
+      "date_note": "灯籠受付16:00〜19:00、式典（音楽と声明のセレモニー）18:30〜19:00、20:00終了。",
+      "time_start": "16:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "富士河口湖灯籠流し実行委員会",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他（1,200艘以上の灯籠が湖面に浮かぶ）",
+      "is_free": true,
+      "price": "灯籠の申し込み・参加は無料",
+      "ticket_url": "https://www.toronagashi.jp/",
+      "history_years": 45,
+      "history_description": "1981年より続くお盆の送り火行事。河口湖の湖面に1,200艘以上の灯籠を浮かべ、先祖の霊を送る河口湖の夏の風物詩。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "河口湖駅から河口湖周遊バス（レッドライン）で「河口湖自然生活館」下車。車は河口湖ICから約15分、駐車場470台。",
+      "official_url": "https://www.toronagashi.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.toronagashi.jp/",
+          "site_name": "富士河口湖灯籠流し2026公式Webサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.toronagashi.jp/history.html",
+          "site_name": "富士河口湖灯籠流し 開催概要",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.fujisan-net.jp/post_topics/3030957",
+          "site_name": "富士山NET",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_385",
+      "name": "佐波川灯籠流し",
+      "alternate_names": [
+        "防府灯籠流し"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山口県",
+      "city": "防府市",
+      "date_start": "2026-08-16",
+      "date_end": "2026-08-16",
+      "date_note": "灯籠受付17:00〜19:00、奉納演奏18:30〜、灯籠流し・花火打ち上げ・精霊船流し19:00〜。8/13〜16の月遅れ盆の送り火行事。",
+      "time_start": "17:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "防府市仏教会",
+      "genre": [
+        "神事",
+        "花火"
+      ],
+      "scale": "その他（花火は50〜100発程度）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "佐波川本橋の河原で毎年8月16日に行われる仏教行事。先祖の霊や豪雨犠牲者の供養のため市民が灯籠を川に流し、奉納演奏や鮎供養、花火打ち上げも行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "佐波川本橋河川敷（防府市）",
+      "official_url": "https://visit-hofu.jp/event/%E4%BD%90%E6%B3%A2%E5%B7%9D%E3%80%80%E7%81%AF%E7%B1%A0%E6%B5%81%E3%81%97/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://visit-hofu.jp/event/%E4%BD%90%E6%B3%A2%E5%B7%9D%E3%80%80%E7%81%AF%E7%B1%A0%E6%B5%81%E3%81%97/",
+          "site_name": "たびたびほうふ（防府市観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://yamaguchi-calendar.jp/event/20878/",
+          "site_name": "山口カレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://hofu-moola.com/7524/",
+          "site_name": "防府もーら",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_386",
+      "name": "厳島水中花火大会",
+      "alternate_names": [
+        "宮島水中花火大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "広島県",
+      "city": "廿日市市宮島町",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "【2026年は開催中止】主催者は公式サイトで「諸般の事情」により2026年の開催を見送ると発表。約50年続いた「宮島水中花火大会」は2021年に一旦終了、2025年10月18日に地元企業主体で「厳島水中花火大会」として6年ぶりに復活したが、その翌年である2026年は再び中止となった。直近開催（2025年）は10/18(土)18:15〜18:45。既存の宮島の神事「宮島管絃祭」（festival_046）とは別のイベントであるため要混同注意。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "厳島水中花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（2025年開催時は約2,500発）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "約50年続いた「宮島水中花火大会」を前身とし、2021年に安全確保の困難を理由に廿日市市が一旦打ち切りを発表。2025年10月に地元企業主体で「厳島水中花火大会」として6年ぶりに復活開催されたが、2026年は開催が見送られている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "宮島（厳島）沖",
+      "official_url": "https://hanabifes.com/itsukushima/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabifes.com/itsukushima/",
+          "site_name": "厳島水中花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://news.yahoo.co.jp/articles/2273ae49d487c76c0271e61f2cca4f45077f72f5",
+          "site_name": "広島テレビニュース（Yahoo!ニュース）",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://hiroshima.keizai.biz/headline/3498/",
+          "site_name": "広島経済新聞",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.chugoku-np.co.jp/articles/-/85935",
+          "site_name": "中国新聞デジタル",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_387",
+      "name": "呉海上花火大会",
+      "alternate_names": [
+        "呉の夏まつり海上花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "広島県",
+      "city": "呉市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "【2026年は中止（廃止）】2026年3月4日、呉市・呉商工会議所等でつくる呉まつり協会が中止を発表。物価高騰・人件費上昇等により従来形式での開催が困難になったことが理由。2025年（第76回呉の夏まつり／第48回呉海上花火大会）が直近開催で、約2,000発の花火が台船から打ち上げられ、海上自衛隊呉地方総監部の協力で自衛艦のイルミネーションと花火が共演する特色ある祭典だった。呉市は別形式での花火イベント開催を検討中とされる。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "呉まつり協会（呉市・呉商工会議所等）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（2025年開催時は約2,000発、来場者約10万人）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 48,
+      "history_description": "呉の夏の伝統納涼行事として48回開催された海上花火大会。海に設置した台船上から仕掛花火を打ち上げ、海上自衛隊呉地方総監部の協力による自衛艦のイルミネーションとの共演が特色だったが、2026年に中止（廃止）が決定した。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "呉市内海上（台船打ち上げ）",
+      "official_url": "https://kure-trip.jp/events/3",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kure-trip.jp/events/3",
+          "site_name": "くれとりっぷ（呉市公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.chugoku-np.co.jp/articles/-/796230",
+          "site_name": "中国新聞デジタル",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://yakei-fan.com/magazine/fireworks/hiroshima/kure-kaijou-hanabi2026cancel.html",
+          "site_name": "夜景FANマガジン",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://news.yahoo.co.jp/articles/8be08309de637f4443fee684c6054905c8603f55",
+          "site_name": "RCC中国放送（Yahoo!ニュース）",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_388",
+      "name": "諏訪湖サマーナイト花火",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "長野県",
+      "city": "諏訪市",
+      "date_start": "2026-07-24",
+      "date_end": "2026-08-23",
+      "date_note": "8月15日（諏訪湖祭湖上花火大会開催日）を除く毎日開催。1回あたり約10分間、約500発。既存収録の「諏訪湖祭湖上花火大会」（festival_220、8/15開催・約4万人規模の大規模大会）とは別の、上諏訪温泉旅館組合主催による連夜の小規模花火イベントであり、両者は混同されやすいため注意。",
+      "time_start": "20:30",
+      "time_end": "20:40",
+      "rain_policy": "不明",
+      "organizer": "サマーナイト花火実行委員会（諏訪湖温泉旅館組合）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（1回約500発の連夜開催）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "https://suwako-hanabi.com/smmr/",
+      "history_years": "不明",
+      "history_description": "上諏訪温泉旅館組合が主催し、夏季の毎晩（諏訪湖祭湖上花火大会当日を除く）約10分間・約500発を打ち上げる花火イベント。諏訪湖祭湖上花火大会や全国新作花火競技大会とは別に、宿泊客・観光客向けに毎夜開催される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "諏訪湖畔（諏訪市）",
+      "official_url": "https://suwako-hanabi.com/smmr/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://suwako-hanabi.com/smmr/overview/",
+          "site_name": "信州 諏訪湖の花火 公式サイト（サマーナイト花火概要）",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.suwako-onsen.com/blogs/news/%E8%AB%8F%E8%A8%AA%E6%B9%96%E3%82%B5%E3%83%9E%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%88%E8%8A%B1%E7%81%AB-%E9%96%8B%E5%82%AC%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85",
+          "site_name": "諏訪湖温泉旅館協同組合",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0420e00847/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
