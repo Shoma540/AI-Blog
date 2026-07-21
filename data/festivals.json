@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21 12:21",
+  "last_updated": "2026-07-21 16:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -12891,7 +12891,9 @@
     {
       "id": "festival_206",
       "name": "与那原大綱曳まつり",
-      "alternate_names": [],
+      "alternate_names": [
+        "与那原大綱曳"
+      ],
       "similar_name_warning": false,
       "prefecture": "沖縄県",
       "city": "与那原町",
@@ -12910,9 +12912,9 @@
       "is_free": true,
       "price": "無料",
       "ticket_url": "不明",
-      "history_years": 450,
-      "history_description": "不明",
-      "food_stalls": "不明",
+      "history_years": 440,
+      "history_description": "440年余りの伝統を誇る沖縄三大綱引きの一つ。長さ90m・重さ5トンを超える雄綱・雌綱を曳き合う。",
+      "food_stalls": "屋台あり",
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "不明",
@@ -12933,13 +12935,27 @@
           "site_name": "与那原町大綱曳まつり公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.okinawastory.jp/event/600021889",
+          "site_name": "沖縄観光情報WEBサイト おきなわ物語",
+          "is_official": true,
+          "retrieved_date": "2026-07-12"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "",
+      "trust_level": "高",
+      "conflict_note": "詳細な開催時間・場所・料金は町公式サイトで今後公開予定のため不明として記載",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "history_years",
+        "history_description",
+        "food_stalls",
+        "alternate_names",
+        "sources",
+        "trust_level",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -15473,71 +15489,6 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_252",
-      "name": "与那原大綱曳まつり",
-      "alternate_names": [
-        "与那原大綱曳"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "沖縄県",
-      "city": "与那原町",
-      "date_start": "2026-08-15",
-      "date_end": "2026-08-16",
-      "date_note": "大綱曳の実施は16日",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "与那原大綱曳まつり実行委員会",
-      "genre": [
-        "綱引き",
-        "花火"
-      ],
-      "scale": "沖縄三大綱引きの一つ",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": 440,
-      "history_description": "440年余りの伝統を誇る沖縄三大綱引きの一つ。長さ90m・重さ5トンを超える雄綱・雌綱を曳き合う。",
-      "food_stalls": "屋台あり",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.yonabaru.okinawa/ozunahiki2026/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.town.yonabaru.okinawa.jp/soshiki/6/8321.html",
-          "site_name": "与那原町ホームページ（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "url": "https://www.yonabaru.okinawa/ozunahiki2026/",
-          "site_name": "第44回与那原大綱曳まつり公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "url": "https://www.okinawastory.jp/event/600021889",
-          "site_name": "沖縄観光情報WEBサイト おきなわ物語",
-          "is_official": true,
-          "retrieved_date": "2026-07-12"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "詳細な開催時間・場所・料金は町公式サイトで今後公開予定のため不明として記載",
       "requires_check": false,
       "diff_status": "UNCHANGED",
       "updated_fields": [],
@@ -23561,7 +23512,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️矛盾：子ハイヤ・花火大会の日付について「7/25」（公式サイト）と「7/26」（一部まとめサイト）の間で情報が食い違っている。公式サイトの7/25を採用。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23625,7 +23576,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23687,7 +23638,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23752,7 +23703,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23822,7 +23773,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23892,7 +23843,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23952,6 +23903,184 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_389",
+      "name": "湯梨浜夏まつり 水郷祭",
+      "alternate_names": [
+        "水郷祭湖上大花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "東伯郡湯梨浜町",
+      "date_start": "2026-07-19",
+      "date_end": "2026-07-19",
+      "date_note": "17:30オープニングイベント開始、19:15神輿渡御、19:40灯ろう流し、19:45浪人おどり、20:30湖上大花火大会（約1,000発）。",
+      "time_start": "17:30",
+      "time_end": "20:50",
+      "rain_policy": "不明",
+      "organizer": "湯梨浜町役場 まちづくり企画課",
+      "genre": [
+        "花火",
+        "神輿",
+        "踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（有料席なし）",
+      "ticket_url": "不明",
+      "history_years": 400,
+      "history_description": "400年の伝統をもつ民俗芸能「浪人おどり」が披露される東郷湖畔の夏祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東郷湖畔公園",
+      "official_url": "https://www.yurihama.jp/site/matsuri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yurihama.jp/site/matsuri/",
+          "site_name": "湯梨浜町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://hanabi-navi.info/tottori/4575/",
+          "site_name": "花火大会ナビ",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/4001004/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_390",
+      "name": "白鳳祭",
+      "alternate_names": [
+        "火と食の祭 白鳳祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "東伯郡琴浦町",
+      "date_start": "2026-08-02",
+      "date_end": "2026-08-02",
+      "date_note": "検索エンジンのキャッシュ上では17:00〜20:30開催、花火は20:00開始と案内されていたが、公式ページへの直接アクセスができず未確認。日程・時間は要確認。",
+      "time_start": "17:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "琴浦町",
+      "genre": [
+        "花火",
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧席あり（スタンダード席5,000円/区画、プレミアム席8,000円/区画、先着70組限定）。無料エリアもあり。",
+      "ticket_url": "https://www.town.kotoura.tottori.jp/docs/2026051400024/",
+      "history_years": 32,
+      "history_description": "不明",
+      "food_stalls": "屋台出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東伯総合公園 多目的広場（琴浦町田越560）",
+      "official_url": "https://www.town.kotoura.tottori.jp/docs/2026051400024/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.kotoura.tottori.jp/docs/2026051400024/",
+          "site_name": "琴浦町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "公式ページに直接アクセスできず検索結果の要約のみで確認。要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_391",
+      "name": "四谷納涼踊り大会",
+      "alternate_names": [
+        "四谷三丁目盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "新宿区",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "date_note": "第26回。17時開始、納涼踊りは18時から。19日のみ抽選会あり。",
+      "time_start": "17:00",
+      "time_end": "21:00",
+      "rain_policy": "天候悪化時は中止または順延の可能性あり",
+      "organizer": "四谷三丁目商店街",
+      "genre": [
+        "盆踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": 26,
+      "history_description": "「地域みんなでつくる、四谷の夏祭り」として四谷三丁目商店街が開催する盆踊り大会。",
+      "food_stalls": "焼きそば、かき氷、ヨーヨー釣りなどの模擬店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "四谷ひろばグラウンド（旧四谷第四小学校、東京都新宿区四谷4-20）。丸ノ内線「四谷三丁目駅」2番出口より徒歩約5分。",
+      "official_url": "https://www.yotsuya3.jp/2026yotsuya-bon-odori/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yotsuya3.jp/2026yotsuya-bon-odori/",
+          "site_name": "四谷三丁目商店街公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://tokyofesta.com/tag/bonodori/",
+          "site_name": "東京フェスタ",
+          "is_official": false,
+          "retrieved_date": "2026-07-21"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
