@@ -389,6 +389,12 @@
       "step": "STEP10-1_fetch_analytics",
       "error": "fetch_analytics.py 実行時に未捕捉の例外でクラッシュ（ModuleNotFoundError: _cffi_backend / pyo3 panic）",
       "detail": "google-analytics-data未インストールのため1回目は失敗（終了コード1、スクリプト自身がerror_log.jsonに記録済み）。requirements.txtに従いpip install -r requirements.txtを実行して依存関係を導入したところ、cryptographyパッケージのRust拡張(_cffi_backend)がこのコンテナ環境で壊れており、google.auth.crypt.es のimport時にpyo3_runtime.PanicExceptionで未捕捉のままクラッシュ（終了コード1）。この2回目の失敗はスクリプト内のtry/exceptに到達する前のクラッシュのためスクリプト自身はerror_log.jsonに記録できず、ルーティン実行側でこのエントリを代わりに記録した。プロンプトの指示（fetch_analytics.pyが失敗した場合はSTEP10の残りを全てスキップしルーティン全体は正常終了とする）に従い、STEP10-2以降（学習記録読込・検証・改善実装・push）は全てスキップした。恒久対処にはコンテナ環境のPython cryptography/cffiパッケージの再インストール（apt/pip競合の解消）が必要と見られる。なお、GA4サービスアカウント認証情報（環境変数）が設定されているかどうかは今回未確認（ライブラリ層のクラッシュが先に発生したため）。"
+    },
+    {
+      "timestamp": "2026-07-21 08:13",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
     }
   ]
 }
