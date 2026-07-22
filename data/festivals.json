@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 21:20",
+  "last_updated": "2026-07-22 16:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -3574,12 +3574,8 @@
       "trust_level": "中",
       "conflict_note": "複数の情報源で「令和8年10月17日(土)・18日(日)」の開催予定が確認できたが、川越氷川神社・川越まつり実行委員会による一次公式発表の明記は未確認のため信頼度は中に留める。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "history_years",
-        "history_description",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：history_years=不明 → 今年：378（1648年創始、約380年の節目）"
@@ -20765,7 +20761,7 @@
       "time_start": "17:00",
       "time_end": "22:00",
       "rain_policy": "不明",
-      "organizer": "不明",
+      "organizer": "第60回善通寺まつり実行委員会",
       "genre": [
         "踊り",
         "花火"
@@ -20780,7 +20776,7 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "不明",
-      "official_url": "不明",
+      "official_url": "https://www.kukainavi.com/",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -20791,14 +20787,32 @@
           "site_name": "トラベルコ",
           "is_official": false,
           "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.kukainavi.com/event/entry-801.html",
+          "site_name": "善通寺市観光協会 空海NAVI（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0937e604607/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
+      "requires_check": false,
       "id": "festival_339",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "organizer",
+        "official_url",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -20856,15 +20870,17 @@
     },
     {
       "name": "南三陸町花火大会",
-      "alternate_names": [],
+      "alternate_names": [
+        "南三陸町志津川湾夏まつり花火大会"
+      ],
       "similar_name_warning": false,
       "prefecture": "宮城県",
       "city": "本吉郡南三陸町",
       "date_start": "2026-07-25",
       "date_end": "2026-07-25",
       "date_note": "不明",
-      "time_start": "不明",
-      "time_end": "不明",
+      "time_start": "20:00",
+      "time_end": "20:30",
       "rain_policy": "不明",
       "organizer": "不明",
       "genre": [
@@ -20891,14 +20907,27 @@
           "site_name": "トラベルコ",
           "is_official": false,
           "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://sorahanabi.com/miyagi",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
+      "requires_check": false,
       "id": "festival_341",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names",
+        "time_start",
+        "time_end",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25071,7 +25100,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25131,7 +25160,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25193,7 +25222,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25259,7 +25288,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25327,7 +25356,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25389,7 +25418,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25449,7 +25478,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25503,7 +25532,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25571,7 +25600,7 @@
       "trust_level": "中",
       "conflict_note": "2026年開催なしの一次情報（市公式サイト等）を直接確認できておらず、地域ブログ・SNS経由の情報に依存。2025年分の市公式発表は確認済み。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25631,7 +25660,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25693,7 +25722,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25755,7 +25784,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25817,7 +25846,7 @@
       "trust_level": "低",
       "conflict_note": "花火大会の2025年終了報道と、2026年開催を示すサイトが併存しており矛盾。十七夜祭本体は継続前提だが花火の有無は要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25865,7 +25894,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
