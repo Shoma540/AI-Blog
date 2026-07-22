@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21 18:20",
+  "last_updated": "2026-07-22 08:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -4990,15 +4990,8 @@
       "trust_level": "高",
       "conflict_note": "公式サイト・佐倉市公式ページとも2026年7月11日時点では2025年（令和7年10月10日〜12日）の情報のみ掲載。2026年日程は未発表のため要再確認。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：2025年10/10-12開催 → 今年：2026年10/10-12開催（例年通りのパターンを公式確認）"
@@ -20462,14 +20455,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_333",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "date_note",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -20574,15 +20561,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_335",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "date_note",
-        "history_years",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -20637,14 +20617,8 @@
       "conflict_note": "一部非公式サイトで7/19表記があったが、公式・報道機関の情報は7/18で一致するため7/18を採用。",
       "requires_check": false,
       "id": "festival_336",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "conflict_note",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -20762,15 +20736,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_338",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "date_note",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -20870,12 +20837,8 @@
       "conflict_note": "⚠️矛盾：今回の再調査で7/18開催の「宿毛市花火大会」に関する情報が一切見つからなかった。確認できたのは秋（10月11日予定）の「宿毛まつり」花火のみで別イベントの可能性が高い。データ自体の誤りの疑いがあるため次回以降も要確認。",
       "requires_check": true,
       "id": "festival_340",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "requires_check",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -23577,14 +23540,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24210,7 +24167,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -24266,7 +24223,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -24334,7 +24291,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -24396,7 +24353,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -24452,7 +24409,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -24520,7 +24477,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -24576,7 +24533,7 @@
       "trust_level": "中",
       "conflict_note": "8月分の開催日程は情報不足のため要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -24632,7 +24589,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -24694,7 +24651,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -24762,11 +24719,287 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_402",
+      "name": "名港水上芸術花火",
+      "alternate_names": [
+        "名古屋みなと祭 名港水上芸術花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "名古屋市港区",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "【2026年は中止】2026年はアジア・アジアパラ競技大会の選手村設営期間と会場が重なるため開催見送りが発表された。2027年は開催予定とされる。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "名古屋みなと祭協賛会（名古屋市港区）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 10,
+      "history_description": "名古屋港で開催される水上花火大会。2025年に10回記念大会を実施したが、2026年はアジア・アジアパラ競技大会選手村の設営期間と重なり中止となった。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "名古屋港ガーデンふ頭周辺",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_J0243.html",
+          "site_name": "花火大会2026（じょるだん）",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hanabi-navi.info/aichi/842/",
+          "site_name": "花火大会ナビ",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hare-hareblog.com/nagoya-port-2026/",
+          "site_name": "はれはれブログ",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://sorahanabi.com/aichi/nagoya/meiko-hanabi.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：2025年に第10回記念大会を開催 → 今年：2026年は中止（2027年開催予定）"
+      }
+    },
+    {
+      "id": "festival_403",
+      "name": "衣浦みなとまつり花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "碧南市・半田市・武豊町ほか衣浦港周辺",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "【2026年（令和8年度）は開催見送り】衣浦みなとまつり協賛会（関係市町・団体で構成）が、人件費・物価高騰等により十分な内容での開催が困難と判断し、開催を見送ると発表。次年度以降の開催は今後検討。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "衣浦みなとまつり協賛会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "衣浦港周辺の市町（碧南市・半田市・武豊町等）が合同で開催してきた花火大会。2026年度は費用面の事情により開催見送りとなった。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "衣浦港周辺",
+      "official_url": "https://www.city.hekinan.lg.jp/soshiki/kensetsu/doboku/minato_matsuri/24399.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.hekinan.lg.jp/soshiki/kensetsu/doboku/minato_matsuri/24399.html",
+          "site_name": "碧南市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://www.town.taketoyo.lg.jp/chousei/1001538/1002254/1003789/1004918.html",
+          "site_name": "武豊町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/1062/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hanabi-navi.info/aichi/5652/",
+          "site_name": "花火大会ナビ",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：開催 → 今年：人件費・物価高騰により開催見送り"
+      }
+    },
+    {
+      "id": "festival_404",
+      "name": "いせはら芸術花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "伊勢原市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "【2026年（第12回）は開催中止】実行委員会が、来場者の安全確保を最優先とし万全の安全体制での開催が困難と判断し中止を発表（2026年3月頃発表）。例年5月に伊勢原市総合運動公園で開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "いせはら芸術花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 11,
+      "history_description": "伊勢原市の初夏の風物詩として例年5月に開催されてきた花火大会。2025年（第11回）は雨天のため1日順延して開催されたが、2026年（第12回）は安全確保が困難として中止となった。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "伊勢原市総合運動公園",
+      "official_url": "http://www.isehara-fireworks.com/outline.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.townnews.co.jp/0405/2026/03/06/827588.html",
+          "site_name": "タウンニュース伊勢原版",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://yakei-fan.com/magazine/fireworks/kanagawa/isehara-hanabi2026cancel.html",
+          "site_name": "夜景FANマガジン",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hanabi-navi.info/kanagawa/942/",
+          "site_name": "花火大会ナビ",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "花火大会2026（じょるだん）",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：2025年5月18日に開催（雨天のため1日順延） → 今年：2026年（第12回）は安全確保困難のため中止"
+      }
+    },
+    {
+      "id": "festival_405",
+      "name": "YAMAZORA仙養ヶ原天空花火大会",
+      "alternate_names": [
+        "仙養ヶ原天空花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "広島県",
+      "city": "神石郡神石高原町",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "【2026年は開催中止】会場となる神石高原ティアガルテン仙養ヶ原一帯が、2026年8月4日〜10日開催の第19回日本スカウトジャンボリー会場となるため、同花火大会は2026年は中止。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "神石高原町（神石高原ティアガルテン）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "神石高原ティアガルテン仙養ヶ原一帯で開催される花火大会。2026年は同会場が第19回日本スカウトジャンボリー（8/4〜10）の会場として使用されるため中止となった。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "神石高原ティアガルテン（仙養ヶ原）",
+      "official_url": "https://jkougen.jp/kankou/gyoji-info/senyogahara-hanabi/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://jkougen.jp/kankou/gyoji-info/senyogahara-hanabi/",
+          "site_name": "神石高原町観光ナビ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://iraw.rcc.jp/topics/eb/articles/3674",
+          "site_name": "IRAW by RCC",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://www.japan47go.travel/ja/detail/65466083-3c04-45b2-9967-e04c475c8af2",
+          "site_name": "JAPAN 47 GO",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://19nsj.scout.or.jp/",
+          "site_name": "第19回日本スカウトジャンボリー公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：開催 → 今年：第19回日本スカウトジャンボリー会場使用のため中止"
       }
     }
   ]
