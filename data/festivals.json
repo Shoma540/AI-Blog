@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 16:20",
+  "last_updated": "2026-07-22 18:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -20805,14 +20805,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_339",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "organizer",
-        "official_url",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -20919,15 +20913,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_341",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "time_start",
-        "time_end",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -22265,13 +22252,29 @@
           "site_name": "佐賀県観光サイト あそぼーさが",
           "is_official": true,
           "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_346211/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hanabi.cloud/html/KyushuOkinawa/saga/2025/2025-08-13_furusato-oomachi-nouryou-matsuri.html",
+          "site_name": "花火に行こう",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24056,7 +24059,7 @@
       "city": "東伯郡琴浦町",
       "date_start": "2026-08-02",
       "date_end": "2026-08-02",
-      "date_note": "検索エンジンのキャッシュ上では17:00〜20:30開催、花火は20:00開始と案内されていたが、公式ページへの直接アクセスができず未確認。日程・時間は要確認。",
+      "date_note": "第32回。琴浦町公式サイト・とりネット（鳥取県公式）で日程・回数一致を確認。時間帯（17:00〜20:30、花火20:00〜）は琴浦町公式サイト記載のもの。",
       "time_start": "17:00",
       "time_end": "20:30",
       "rain_policy": "不明",
@@ -24086,13 +24089,25 @@
           "site_name": "琴浦町公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.pref.tottori.lg.jp/35291.htm",
+          "site_name": "とりネット（鳥取県公式サイト）中部地区イベント情報",
+          "is_official": true,
+          "retrieved_date": "2026-07-22"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "公式ページに直接アクセスできず検索結果の要約のみで確認。要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "date_note",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25889,12 +25904,87 @@
           "site_name": "花火大会2026（じょるだん）",
           "is_official": false,
           "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/cancelled/",
+          "site_name": "中止・非開催が決定した花火大会 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_420",
+      "name": "大曲の花火（全国花火競技大会）",
+      "alternate_names": [
+        "全国花火競技大会",
+        "大曲花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "秋田県",
+      "city": "大仙市",
+      "date_start": "2026-08-29",
+      "date_end": "2026-08-29",
+      "date_note": "第98回。日本三大花火大会の一つ。",
+      "time_start": "17:10",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "全国花火競技大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧席あり（詳細は公式サイト参照）",
+      "ticket_url": "https://www.omagari-hanabi.com/",
+      "history_years": 98,
+      "history_description": "全国から花火師が集まり、花火の形・色彩・独創性などを競う競技大会。日本三大花火大会の一つとして知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "非常に混雑",
+      "visitors": "不明",
+      "access": "秋田県大仙市大曲雄物川河畔（雄物川河川敷運動公園）",
+      "official_url": "https://www.omagari-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.omagari-hanabi.com/overview/summer",
+          "site_name": "大曲の花火 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0205e00654/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://jp.trip.com/blog/oomagari-hanabi/",
+          "site_name": "Trip.com",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
