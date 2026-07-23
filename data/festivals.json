@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 16:10",
+  "last_updated": "2026-07-23 17:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -1013,7 +1013,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "CONFLICT_RESOLVED",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19943,7 +19943,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "CONFLICT_RESOLVED",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -23807,7 +23807,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "CONFLICT_RESOLVED",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26059,7 +26059,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26122,7 +26122,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26177,6 +26177,71 @@
         {
           "url": "https://www.hankyu-travel.com/kokunai/event/takayama/",
           "site_name": "阪急交通社",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_427",
+      "name": "阿波おどり（徳島市阿波おどり）",
+      "alternate_names": [
+        "徳島阿波おどり",
+        "THE AWAODORI",
+        "徳島市阿波おどり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "徳島県",
+      "city": "徳島市",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-15",
+      "date_note": "8月11日（火・祝）は前夜祭、8月12日〜15日が本番演舞（有料・無料演舞場とも開催）",
+      "time_start": "18:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "阿波おどり未来へつなぐ実行委員会",
+      "genre": [
+        "踊り",
+        "民俗芸能"
+      ],
+      "scale": "その他（400年の歴史を持つ全国有数の盆踊り行事）",
+      "is_free": false,
+      "price": "有料演舞場（藍場浜演舞場・南内町演舞場・紺屋町演舞場等）は指定席制・価格変動制。無料演舞場（両国本町演舞場等）もあり",
+      "ticket_url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
+      "history_years": 400,
+      "history_description": "徳島藩祖・蜂須賀家政が天正14年（1586年）に徳島入りした頃から藍商人らにより盛んになったとされる。起源には徳島城築城起源説・盆踊り起源説・風流踊り起源説の3説がある。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
+          "site_name": "徳島市公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://www.awanavi.jp/archives/topics/74239",
+          "site_name": "阿波ナビ（徳島県観光情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://discoverjapan-web.com/article/94608",
+          "site_name": "Discover Japan",
           "is_official": false,
           "retrieved_date": "2026-07-23"
         }
