@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 18:14",
+  "last_updated": "2026-07-23 08:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -22269,12 +22269,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24100,14 +24096,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "date_note",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25915,12 +25905,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25984,6 +25970,122 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_421",
+      "name": "巣鴨盆踊り大会",
+      "alternate_names": [
+        "第46回巣鴨盆踊り大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "豊島区",
+      "date_start": "2026-07-17",
+      "date_end": "2026-07-19",
+      "date_note": "第46回。JR巣鴨駅南口ロータリー開催。とげぬき地蔵尊髙岩寺で行われる「巣鴨納涼盆踊り」とは別の祭りのため注意。",
+      "time_start": "18:00",
+      "time_end": "21:00",
+      "rain_policy": "19日が雨天の場合は翌日に順延",
+      "organizer": "巣鴨大鳥神社商店街",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 46,
+      "history_description": "JR巣鴨駅南口ロータリーで毎年開催される盆踊り大会。仰高小学校によるヨサコイソーランを皮切りに、東京音頭や炭坑節などの定番曲で盛り上がる。",
+      "food_stalls": "縁日コーナーあり（過去開催実績、2026年詳細不明）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR巣鴨駅南口直結",
+      "official_url": "http://suichishoutenkai.com/event/bonodori_2026",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ikebukuro-times.com/archives/sugamo-bonodori202607.html",
+          "site_name": "池袋タイムズ",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "http://suichishoutenkai.com/event/bonodori_2026",
+          "site_name": "巣鴨大鳥神社商店街",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://x.com/toshimakukanko/status/2071489526049210554",
+          "site_name": "豊島区観光協会（公式X）",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "「巣鴨納涼盆踊り（とげぬき地蔵尊髙岩寺・地蔵通り商店街主催）」という類似名の別イベントが同時期に存在するため要区別。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_422",
+      "name": "川崎大師子ども盆踊り大会",
+      "alternate_names": [
+        "川崎大師納涼盆踊り大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "川崎市川崎区",
+      "date_start": "2026-08-20",
+      "date_end": "2026-08-22",
+      "date_note": "開始・終了時刻の詳細は公式に要確認",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "川崎大師日曜教苑（日曜学校）",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "川崎大師境内・薬師殿やすらぎ広場で行われる盆踊り大会。やぐらを囲んで浴衣姿の親子連れが盆踊りを楽しむ、川崎大師日曜教苑主催の恒例行事。",
+      "food_stalls": "屋台が出店し、昔ながらの縁日の雰囲気を再現",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "神奈川県川崎市川崎区大師町4-48 川崎大師境内",
+      "official_url": "https://www.kawasakidaishi.com/event/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kawasakidaishi.com/event/",
+          "site_name": "川崎大師 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
