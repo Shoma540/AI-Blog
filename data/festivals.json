@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 08:12",
+  "last_updated": "2026-07-23 12:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -959,7 +959,8 @@
       "id": "festival_016",
       "name": "大曲の花火（全国花火競技大会）",
       "alternate_names": [
-        "全国花火競技大会"
+        "全国花火競技大会",
+        "大曲花火大会"
       ],
       "similar_name_warning": false,
       "prefecture": "秋田県",
@@ -977,11 +978,11 @@
       "scale": "その他",
       "is_free": true,
       "price": "見学無料（有料観覧席あり）",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
+      "ticket_url": "https://www.omagari-hanabi.com/",
+      "history_years": 98,
+      "history_description": "全国から花火師が集まり、花火の形・色彩・独創性などを競う競技大会。日本三大花火大会の一つとして知られる。",
       "food_stalls": "不明",
-      "crowd_level": "不明",
+      "crowd_level": "非常に混雑",
       "visitors": "不明",
       "access": "JR大曲駅から徒歩30分、秋田道大曲ICから約10分",
       "official_url": "https://www.omagari-hanabi.com/",
@@ -1001,12 +1002,18 @@
           "site_name": "ウォーカープラス 花火大会2026",
           "is_official": false,
           "retrieved_date": "2026-06-21"
+        },
+        {
+          "url": "https://jp.trip.com/blog/oomagari-hanabi/",
+          "site_name": "Trip.com",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
+      "diff_status": "CONFLICT_RESOLVED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -19868,7 +19875,9 @@
       "id": "festival_324",
       "name": "川下祭り・浜坂ふるさと夏まつり花火大会",
       "alternate_names": [
-        "浜坂川下祭"
+        "川下祭り",
+        "浜坂川下祭",
+        "浜坂川下祭・浜坂ふるさと夏まつり花火大会"
       ],
       "similar_name_warning": false,
       "prefecture": "兵庫県",
@@ -19917,12 +19926,24 @@
           "site_name": "とっとリズム",
           "is_official": false,
           "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.torican.jp/festival/detail_1479.html",
+          "site_name": "鳥取市観光サイト（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3701002/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-19"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
+      "diff_status": "CONFLICT_RESOLVED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -21161,72 +21182,6 @@
         {
           "url": "https://www.cnplayguide.com/joso-hanabi/",
           "site_name": "CNプレイガイド",
-          "is_official": false,
-          "retrieved_date": "2026-07-19"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_346",
-      "name": "浜坂川下祭・浜坂ふるさと夏まつり花火大会",
-      "alternate_names": [
-        "川下祭り"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "兵庫県",
-      "city": "美方郡新温泉町",
-      "date_start": "2026-07-18",
-      "date_end": "2026-07-20",
-      "date_note": "但馬三大祭りの一つ。7/18宵宮（神輿行列町内巡行）、7/19本祭（神輿渡御・麒麟獅子舞・花火大会）、7/20は荒天時予備日。",
-      "time_start": "20:00",
-      "time_end": "21:00",
-      "rain_policy": "荒天の場合は花火大会中止（順延なし）。中止判断は19日15時頃に町内放送・公式サイト・SNSで案内。",
-      "organizer": "浜坂川下祭・浜坂ふるさと夏まつり実行委員会",
-      "genre": [
-        "神輿",
-        "花火",
-        "民俗芸能"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "見学無料",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "但馬三大祭りの一つとされる川下祭りと、浜坂ふるさと夏まつり花火大会（約3000発、屋台約100台）を組み合わせた夏祭り。",
-      "food_stalls": "屋台約100台出店予定",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "JR浜坂駅から徒歩約15分",
-      "official_url": "https://town.shinonsen.hyogo.jp/page/?detail_mode=topics&mode=detail&page_id=6f8cbeac314c03b45ee8d5083e72db86",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://town.shinonsen.hyogo.jp/page/?detail_mode=topics&mode=detail&page_id=6f8cbeac314c03b45ee8d5083e72db86",
-          "site_name": "新温泉町（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-19"
-        },
-        {
-          "url": "https://www.torican.jp/festival/detail_1479.html",
-          "site_name": "鳥取市観光サイト（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-19"
-        },
-        {
-          "url": "https://weathernews.jp/hanabi/spot/3701002/",
-          "site_name": "ウェザーニュース",
           "is_official": false,
           "retrieved_date": "2026-07-19"
         }
@@ -23780,7 +23735,8 @@
       "id": "festival_386",
       "name": "厳島水中花火大会",
       "alternate_names": [
-        "宮島水中花火大会"
+        "宮島水中花火大会",
+        "宮島花火大会"
       ],
       "similar_name_warning": true,
       "prefecture": "広島県",
@@ -23834,12 +23790,24 @@
           "site_name": "中国新聞デジタル",
           "is_official": false,
           "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.chugoku-np.co.jp/articles/-/864333",
+          "site_name": "中国新聞デジタル",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://news.yahoo.co.jp/articles/efc8a4e0a9cf26a7a2501cc4a8125640386624e1",
+          "site_name": "Yahoo!ニュース(スポニチアネックス)",
+          "is_official": false,
+          "retrieved_date": "2026-07-22"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
+      "diff_status": "CONFLICT_RESOLVED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25369,68 +25337,6 @@
       }
     },
     {
-      "id": "festival_411",
-      "name": "厳島水中花火大会",
-      "alternate_names": [
-        "宮島花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "広島県",
-      "city": "廿日市市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "【2026年は開催せず】主催者が公式サイトで発表。理由は「諸般の事情」とされ詳細は非公開。2019年を最後に一時終了し2025年10月に6年ぶり開催されたばかりだった。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "厳島水中花火大会実行委員会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "世界遺産・厳島神社沖で行われる水中花火大会。2019年終了後、2025年10月に6年ぶりに再開されたが、2026年は開催が見送られた。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "宮島（厳島神社沖）",
-      "official_url": "https://hanabifes.com/itsukushima/",
-      "sns_accounts": {},
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://hanabifes.com/itsukushima/",
-          "site_name": "厳島水中花火大会公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://www.chugoku-np.co.jp/articles/-/864333",
-          "site_name": "中国新聞デジタル",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://news.yahoo.co.jp/articles/efc8a4e0a9cf26a7a2501cc4a8125640386624e1",
-          "site_name": "Yahoo!ニュース(スポニチアネックス)",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_412",
       "name": "ひがしまつやま花火大会",
       "alternate_names": [],
@@ -25913,71 +25819,6 @@
       }
     },
     {
-      "id": "festival_420",
-      "name": "大曲の花火（全国花火競技大会）",
-      "alternate_names": [
-        "全国花火競技大会",
-        "大曲花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "秋田県",
-      "city": "大仙市",
-      "date_start": "2026-08-29",
-      "date_end": "2026-08-29",
-      "date_note": "第98回。日本三大花火大会の一つ。",
-      "time_start": "17:10",
-      "time_end": "21:30",
-      "rain_policy": "不明",
-      "organizer": "全国花火競技大会実行委員会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": false,
-      "price": "有料観覧席あり（詳細は公式サイト参照）",
-      "ticket_url": "https://www.omagari-hanabi.com/",
-      "history_years": 98,
-      "history_description": "全国から花火師が集まり、花火の形・色彩・独創性などを競う競技大会。日本三大花火大会の一つとして知られる。",
-      "food_stalls": "不明",
-      "crowd_level": "非常に混雑",
-      "visitors": "不明",
-      "access": "秋田県大仙市大曲雄物川河畔（雄物川河川敷運動公園）",
-      "official_url": "https://www.omagari-hanabi.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.omagari-hanabi.com/overview/summer",
-          "site_name": "大曲の花火 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0205e00654/",
-          "site_name": "花火大会2026 - ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://jp.trip.com/blog/oomagari-hanabi/",
-          "site_name": "Trip.com",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_421",
       "name": "巣鴨盆踊り大会",
       "alternate_names": [
@@ -26086,6 +25927,76 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_423",
+      "name": "海洋博美ら海花火大会2026",
+      "alternate_names": [
+        "海洋博公園サマーフェスティバル2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "沖縄県",
+      "city": "国頭郡本部町",
+      "date_start": "2026-07-04",
+      "date_end": "2026-07-04",
+      "date_note": "海洋博公園開園50周年記念の花火大会。開場11:00、花火打ち上げ20:00〜21:00予定。",
+      "time_start": "20:00",
+      "time_end": "21:00",
+      "rain_policy": "荒天中止・順延なし。中止判断は当日8:30と11:00に発表。",
+      "organizer": "国営沖縄記念公園（海洋博公園）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧（前売券販売、未就学児は保護者膝上のみ無料）",
+      "ticket_url": "https://oki-park.jp/hanabi2026/",
+      "history_years": "不明",
+      "history_description": "海洋博公園開園50周年を記念して開催される、沖縄県内最大級（約1万発）の花火大会。会場はエメラルドビーチ。",
+      "food_stalls": "不明",
+      "crowd_level": "非常に混雑（例年実績 約2万4000人）",
+      "visitors": "約2万4000人（2025年実績）",
+      "access": "国営沖縄記念公園（海洋博公園）エメラルドビーチ、周辺道路混雑のためバスツアー利用推奨、有料臨時駐車場あり",
+      "official_url": "https://oki-park.jp/hanabi2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://oki-park.jp/hanabi2026/",
+          "site_name": "海洋博美ら海花火大会2026 公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1047e00709/data.html",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://www.okinawastory.jp/event/600021983",
+          "site_name": "沖縄観光情報WEBサイト おきなわ物語",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/news/jrd_260416_1.html",
+          "site_name": "じゃらんニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
