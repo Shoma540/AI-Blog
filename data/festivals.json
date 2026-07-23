@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 17:11",
+  "last_updated": "2026-07-23 18:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -26247,6 +26247,380 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_428",
+      "name": "塩田夏まつり",
+      "alternate_names": [
+        "第52回塩田夏まつり",
+        "塩田川河川敷周辺花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "嬉野市塩田町",
+      "date_start": "2026-08-16",
+      "date_end": "2026-08-16",
+      "date_note": "第52回開催。荒天時は2026年8月17日に順延。",
+      "time_start": "20:00",
+      "time_end": "不明",
+      "rain_policy": "順延（2026年8月17日）",
+      "organizer": "塩田夏まつり実行委員会",
+      "genre": [
+        "花火",
+        "夏まつり"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "キッチンカー・縁日屋台の出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "嬉野市社会文化会館リバティ周辺",
+      "official_url": "https://www.saga-s.co.jp/ud/odekake/687731e6a53aefc510000000",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1041e00557/",
+          "site_name": "ウォーカープラス 花火大会2025",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://www.saga-s.co.jp/ud/odekake/687731e6a53aefc510000000",
+          "site_name": "佐賀新聞 おでかけ情報",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://www.oomuraya.co.jp/kurashikanko/shiota-hanabi/",
+          "site_name": "嬉野温泉 暮らし観光案内所",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_429",
+      "name": "嬉野温泉夏まつり花火大会",
+      "alternate_names": [
+        "嬉野市花火大会",
+        "第48回嬉野温泉夏まつり花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "嬉野市",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-11",
+      "date_note": "16時よりステージイベント、20時〜20時45分に花火打ち上げ。",
+      "time_start": "20:00",
+      "time_end": "20:45",
+      "rain_policy": "不明",
+      "organizer": "嬉野温泉夏まつり実行委員会",
+      "genre": [
+        "花火",
+        "夏まつり"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "みゆき公園多目的広場（嬉野市）",
+      "official_url": "https://www.city.ureshino.lg.jp/shisei/keikaku/_28638/_30056.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.ureshino.lg.jp/shisei/keikaku/_28638/_30056.html",
+          "site_name": "嬉野市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1041e00282/",
+          "site_name": "ウォーカープラス 花火大会2025",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_346206/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_430",
+      "name": "太良町納涼夏まつり",
+      "alternate_names": [
+        "第34回太良町納涼夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "藤津郡太良町",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "第34回開催。荒天時は2026年7月27日に順延。",
+      "time_start": "17:00",
+      "time_end": "20:00",
+      "rain_policy": "順延（2026年7月27日）",
+      "organizer": "太良町納涼夏まつり実行委員会",
+      "genre": [
+        "花火",
+        "夏まつり"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "道越環境広場・道の駅太良（太良町）",
+      "official_url": "https://tara-kankou.jp/spot/32.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tara-kankou.jp/spot/32.html",
+          "site_name": "太良町観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1041e00376/map.html",
+          "site_name": "ウォーカープラス 花火大会",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_431",
+      "name": "たどつ港まつり花火大会",
+      "alternate_names": [
+        "第55回たどつ港まつり花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "仲多度郡多度津町",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第55回開催。荒天時は8月2日に順延、2日も荒天の場合は中止。",
+      "time_start": "20:00",
+      "time_end": "20:20",
+      "rain_policy": "順延（8月2日）、順延日も荒天の場合は中止",
+      "organizer": "たどつ港まつり実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "多度津港（香川県仲多度郡多度津町東浜）",
+      "official_url": "https://takamatsu.goguynet.jp/2026/07/16/tadotsuminatomatsuri-kagawa/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://takamatsu.goguynet.jp/2026/07/16/tadotsuminatomatsuri-kagawa/",
+          "site_name": "ごうやねっと",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0937e00112/data.html",
+          "site_name": "ウォーカープラス 花火大会2025",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2026947/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_432",
+      "name": "川辺祇園祭",
+      "alternate_names": [
+        "川辺祇園祭百年祭",
+        "川辺祇園祭・花火大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "鹿児島県",
+      "city": "南九州市",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-27",
+      "date_note": "2026年は100年目の節目で「川辺祇園祭百年祭」。ミュージック花火大会は7月26日、祇園祭本体は7月27日。検索元により9月開催との記述もあり日程に矛盾あり。",
+      "time_start": "16:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "川辺祇園祭実行委員会",
+      "genre": [
+        "花火",
+        "祇園祭"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 100,
+      "history_description": "2026年で100年目を迎える節目の祭りとされる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "かわなべ開運夢通り商店街・諏訪運動公園陸上競技場（南九州市）",
+      "official_url": "https://www.city.minamikyushu.lg.jp/soshikikarasagasu/shokokankoka/kankokoryu/3/1466.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.minamikyushu.lg.jp/soshikikarasagasu/shokokankoka/kankokoryu/3/1466.html",
+          "site_name": "南九州市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://www.kagoshima-kankou.com/event/20253",
+          "site_name": "鹿児島県観光サイト",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/5501030/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "⚠️ 矛盾：開催日について7月26〜27日とする情報源と9月19日とする情報源が混在。公式サイト記載の7月26〜27日を採用したが要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_433",
+      "name": "オホーツク収穫祭2026",
+      "alternate_names": [
+        "東京農業大学オホーツク収穫祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "網走市",
+      "date_start": "2026-10-11",
+      "date_end": "2026-10-12",
+      "date_note": "第38回開催。会場は東京農業大学北海道オホーツクキャンパス周辺と推定されるが公式サイトに明記なし。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "東京農業大学オホーツク収穫祭実行委員会",
+      "genre": [
+        "農祭り",
+        "収穫祭"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 38,
+      "history_description": "不明",
+      "food_stalls": "農大マルシェ等の出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.okhotsksyukakusai.info/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.okhotsksyukakusai.info/",
+          "site_name": "オホーツク収穫祭2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
