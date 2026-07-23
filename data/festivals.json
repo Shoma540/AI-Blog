@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 12:17",
+  "last_updated": "2026-07-23 16:10",
   "festivals": [
     {
       "id": "festival_001",
@@ -25875,7 +25875,7 @@
       "trust_level": "高",
       "conflict_note": "「巣鴨納涼盆踊り（とげぬき地蔵尊髙岩寺・地蔵通り商店街主催）」という類似名の別イベントが同時期に存在するため要区別。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25927,7 +25927,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -25990,6 +25990,193 @@
         {
           "url": "https://sp.jorudan.co.jp/hanabi/news/jrd_260416_1.html",
           "site_name": "じゃらんニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_424",
+      "name": "南紀白浜花火フェスタ2026",
+      "alternate_names": [
+        "白浜花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "和歌山県",
+      "city": "西牟婁郡白浜町",
+      "date_start": "2026-08-10",
+      "date_end": "2026-08-10",
+      "date_note": "同じ白良浜では2026-09-13に「秋の花火フェスタ」、7〜8月の毎週土曜に「メッセージ花火」も別途開催（本エントリとは別イベント）",
+      "time_start": "20:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "南紀白浜観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "白良浜（南紀白浜温泉）",
+      "official_url": "https://www.wakayama-kanko.or.jp/events/detail_4292.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.wakayama-kanko.or.jp/events/detail_4292.html",
+          "site_name": "和歌山県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3901010/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0730e466889/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_425",
+      "name": "大須夏まつり",
+      "alternate_names": [
+        "第75回大須夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "名古屋市中区",
+      "date_start": "2026-07-31",
+      "date_end": "2026-08-02",
+      "date_note": "7/31は前夜祭「特別盆踊り」、8/1・8/2が本祭",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "大須夏まつり実行委員会（大須商店街）",
+      "genre": [
+        "盆踊り",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 75,
+      "history_description": "第75回を数える名古屋・大須商店街の夏まつり",
+      "food_stalls": "商店街内に多数の屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "愛知県名古屋市中区大須2〜3丁目 大須商店街",
+      "official_url": "https://www.nagoya-info.jp/event/detail/116/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.nagoya-info.jp/event/detail/116/",
+          "site_name": "名古屋市観光情報「名古屋コンシェルジュ」",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0623e00205/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://hanabi-pia.com/events/6503/",
+          "site_name": "花火ぴあ",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_426",
+      "name": "秋の高山祭（八幡祭）",
+      "alternate_names": [
+        "高山祭 八幡祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "岐阜県",
+      "city": "高山市",
+      "date_start": "2026-10-09",
+      "date_end": "2026-10-10",
+      "date_note": "春の「高山祭（山王祭）」とは別の祭り（同市の秋の例祭）",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "櫻山八幡宮／高山市",
+      "genre": [
+        "屋台行事"
+      ],
+      "scale": "国指定重要無形民俗文化財・ユネスコ無形文化遺産",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "日本三大美祭のひとつとされる秋の例祭。11台の屋台がユネスコ無形文化遺産に登録されている",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "桜山八幡宮周辺",
+      "official_url": "https://www.kankou-gifu.jp/event/detail_1074.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.kankou-gifu.jp/event/detail_1074.html",
+          "site_name": "岐阜県観光公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000157.000124925.html",
+          "site_name": "高山市プレスリリース",
+          "is_official": true,
+          "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://www.hankyu-travel.com/kokunai/event/takayama/",
+          "site_name": "阪急交通社",
           "is_official": false,
           "retrieved_date": "2026-07-23"
         }
