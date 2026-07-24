@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24 12:20",
+  "last_updated": "2026-07-24 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -27053,6 +27053,126 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_440",
+      "name": "なら燈花会",
+      "alternate_names": [
+        "なら燈花会2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "奈良市",
+      "date_start": "2026-08-05",
+      "date_end": "2026-08-14",
+      "date_note": "奈良公園一帯（浮雲園地・浮見堂・猿沢池・興福寺・東大寺等）の9会場で開催。ろうそくの灯りが消えるほどの悪天候の場合は中止となることがある。",
+      "time_start": "19:00",
+      "time_end": "21:30",
+      "rain_policy": "小雨決行。ろうそくの火が消えてしまう場合は中止することがある。",
+      "organizer": "特定非営利活動法人 なら燈花会の会",
+      "genre": [
+        "灯籠",
+        "伝統行事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "世界遺産・奈良公園一帯にろうそくの灯りを並べる夏の風物詩。浮見堂そばの浮島では来場者が好きな場所にろうそくを灯す「一客一燈」の体験もできる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "公共交通機関の利用が推奨されている。専用駐車場・駐輪場なし。",
+      "official_url": "https://www.toukae.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.toukae.jp/",
+          "site_name": "なら燈花会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://narashikanko.or.jp/event/detail_10194.html",
+          "site_name": "奈良市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://yamatoji.nara-kankou.or.jp/02nature/07park/01north_area/narakoen/event/muxhbmvf07/",
+          "site_name": "あをによし なら旅ネット（奈良県観光公式サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_441",
+      "name": "大峯山洞川温泉行者まつり",
+      "alternate_names": [
+        "行者まつり",
+        "どろんこ祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "吉野郡天川村",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "例年8月2日・3日に洞川（どろがわ）地区一帯で開催されてきたが、2026年の公式日程は本調査時点（2026-07-24）で一次情報源（大峯山洞川温泉観光協会・天川村公式サイト）に未掲載のため確認できず。SNS等で2025年（令和7年）8月3日開催の投稿は見つかったが、これは前年の実績であり2026年の日程として扱わない。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "大峯山洞川温泉観光協会（問い合わせ先）",
+      "genre": [
+        "神事",
+        "民俗芸能",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（詳細不明）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "大峯山を開いた役行者（役小角）が流罪から赦免され洞川に戻った際の熱狂的な出迎えの様子を「鬼踊り」の行列で再現する祭り。例年、行列に続いて約200発規模の花火が打ち上げられる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://www.dorogawaonsen.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://www.dorogawaonsen.jp/",
+          "site_name": "大峯山洞川温泉観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "⚠️ 矛盾 2026年の公式日程未確認。web上には2025年8月3日開催の情報のみ見つかっており、2026年分と誤認しないよう注意。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
