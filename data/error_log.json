@@ -407,6 +407,12 @@
       "step": "fetch_analytics",
       "error": "GA4ライブラリ未インストール",
       "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-07-24 08:30",
+      "step": "STEP10-1_fetch_analytics",
+      "error": "GA4環境変数の中身が想定と異なりfetch_analytics.pyが未捕捉の例外でクラッシュ（AttributeError: 'int' object has no attribute 'keys'）",
+      "detail": "今回はまずpip install -r requirements.txtとcryptographyの再インストール（pip install --ignore-installed cryptography）でgoogle-analytics-dataのインポート自体は解消した（従来のpyo3_runtime.PanicExceptionは解消）。しかしGA4_SERVICE_ACCOUNT_JSON環境変数の中身を確認したところ、サービスアカウントJSON文字列ではなく9桁の数値'546141800'（恐らく本来GA4_PROPERTY_IDに入るべき値）が入っており、GA4_PROPERTY_IDには'{'の1文字のみが入っていた。GA4_PROPERTY_IDとGA4_SERVICE_ACCOUNT_JSONの中身が入れ替わっている、またはサービスアカウントJSONキーの中身がルーティンのカスタム環境変数に正しく保存されず先頭の'{'のみが切り詰められている可能性が高い。build_client内でjson.loads()がint型を返しfrom_service_account_infoのdata.keys()呼び出しでAttributeErrorとなり、スクリプト自身のtry/except（ImportError/ValueError/KeyErrorのみ捕捉）では捕捉できずクラッシュしたため、ルーティン実行側で本エントリを代わりに記録した。プロンプトの指示に従いSTEP10-2以降（学習記録読込・検証・改善実装・push）は全てスキップする。恒久対処にはルーティンのカスタム環境変数設定画面でGA4_PROPERTY_ID（9桁の数値プロパティID）とGA4_SERVICE_ACCOUNT_JSON（サービスアカウントJSONキーの中身全体、'{'から始まり'}'で終わる完全なJSON）を再設定する必要がある。ユーザーへの確認・通知が必要。"
     }
   ]
 }

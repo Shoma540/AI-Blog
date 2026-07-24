@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 18:20",
+  "last_updated": "2026-07-24 08:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -20497,7 +20497,7 @@
       "city": "飯山市",
       "date_start": "2026-07-25",
       "date_end": "2026-07-25",
-      "date_note": "日程は変更の可能性あり",
+      "date_note": "7/25開催で複数ソース一致。開催時間・花火の詳細打上数は情報不足。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -20526,14 +20526,25 @@
           "site_name": "じゃらんnet",
           "is_official": false,
           "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://arura-media.jp/event/45593/",
+          "site_name": "ARURA MEDIA",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
+      "requires_check": false,
       "id": "festival_334",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -20834,18 +20845,20 @@
       }
     },
     {
-      "name": "宿毛市花火大会",
-      "alternate_names": [],
+      "name": "やいとがわ納涼祭花火大会",
+      "alternate_names": [
+        "宿毛市花火大会"
+      ],
       "similar_name_warning": false,
       "prefecture": "高知県",
       "city": "宿毛市",
       "date_start": "2026-07-18",
       "date_end": "2026-07-18",
-      "date_note": "不明",
+      "date_note": "「やいとがわ納涼祭」の花火大会。宿毛市には別途10/11開催の「市民祭宿毛まつり花火大会」が存在し、両者は別イベント。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
-      "organizer": "不明",
+      "organizer": "やいとがわ納涼祭実行委員会",
       "genre": [
         "花火"
       ],
@@ -20854,8 +20867,8 @@
       "price": "不明",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
+      "history_description": "幡多地域で最も早い時期に開催される花火大会。会場の近さから花火を真下に近い距離で観覧できるのが特徴。",
+      "food_stalls": "たい焼き・焼きそば・ラーメン等、屋台約25店",
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "不明",
@@ -20866,18 +20879,41 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.tour.ne.jp/matome/articles/j505/",
-          "site_name": "トラベルコ",
+          "url": "https://www.kochinews.co.jp/article/detail/889017",
+          "site_name": "高知新聞",
           "is_official": false,
-          "retrieved_date": "2026-07-18"
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://sukumo-darumayuhi.jp/%E3%82%84%E3%81%84%E3%81%A8%E3%81%8C%E3%82%8F%E7%B4%8D%E6%B6%BC%E7%A5%AD",
+          "site_name": "すくも観光ナビ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://sorahanabi.com/kochi/sukumo/yaitogawa-hanabitaikai.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "⚠️矛盾：今回の再調査で7/18開催の「宿毛市花火大会」に関する情報が一切見つからなかった。確認できたのは秋（10月11日予定）の「宿毛まつり」花火のみで別イベントの可能性が高い。データ自体の誤りの疑いがあるため次回以降も要確認。",
-      "requires_check": true,
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "id": "festival_340",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "alternate_names",
+        "date_note",
+        "organizer",
+        "history_description",
+        "food_stalls",
+        "sources",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24503,9 +24539,9 @@
       "similar_name_warning": false,
       "prefecture": "北海道",
       "city": "登別市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "登別温泉の夏の演出花火。6・7・9月分の開催日は確認できたが8月分の具体的日程は検索結果に不掲載のため要確認。20:00〜20分程度。",
+      "date_start": "2026-07-30",
+      "date_end": "2026-09-24",
+      "date_note": "登別温泉「地獄谷展望台」での定期花火演出。2026年開催日：6月(1,4,8,11,15,18,22,25,29日)・7月(2,9,16,23,30日/木曜のみ)・9月(3,10,17,24日/木曜のみ)。8月の開催は無し。各回20:00〜20分程度。",
       "time_start": "20:00",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -24515,14 +24551,14 @@
       ],
       "scale": "その他",
       "is_free": true,
-      "price": "不明",
+      "price": "大人500円・小学生以下無料",
       "ticket_url": "不明",
       "history_years": "不明",
       "history_description": "不明",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "登別温泉",
+      "access": "登別市登別温泉町 地獄谷展望台",
       "official_url": "https://noboribetsu-spa.jp",
       "sns_accounts": {
         "instagram": "不明"
@@ -24540,13 +24576,29 @@
           "site_name": "北海道公式観光サイト",
           "is_official": true,
           "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.gutabi.jp/event/detail/799",
+          "site_name": "ぐうたび北海道",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "8月分の開催日程は情報不足のため要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "access",
+        "price",
+        "sources",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25211,7 +25263,7 @@
       "city": "須賀川市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "【2026年（第44回）は休止】資材費・人件費の高騰により事業費（約7〜8千万円）に対し市の補助等では赤字が見込まれるため休止を決定（4/22実行委員会）。運営体制を行政主導から民間主体へ見直し、来年度の再開を目指す。",
+      "date_note": "【2026年は中止】【2026年（第44回）は休止】資材費・人件費の高騰により事業費（約7〜8千万円）に対し市の補助等では赤字が見込まれるため休止を決定（4/22実行委員会）。運営体制を行政主導から民間主体へ見直し、来年度の再開を目指す。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -25256,13 +25308,25 @@
           "site_name": "阿武隈時報社",
           "is_official": false,
           "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/cancelled/",
+          "site_name": "ウォーカープラス（中止・非開催花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
         }
       ],
-      "trust_level": "高",
-      "conflict_note": "",
+      "trust_level": "中",
+      "conflict_note": "2026年開催は中止と確認（ウォーカープラス「中止・非開催が決定した花火大会」一覧に掲載）。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "requires_check",
+        "trust_level",
+        "conflict_note",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25405,7 +25469,7 @@
       "city": "上尾市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "【2026年は中止】荒川堤防工事のため中止と案内。",
+      "date_note": "【2026年は中止】【2026年は中止】荒川堤防工事のため中止と案内。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -25438,13 +25502,25 @@
           "site_name": "花火大会2026（じょるだん）",
           "is_official": false,
           "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/cancelled/",
+          "site_name": "ウォーカープラス（中止・非開催花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "",
+      "conflict_note": "2026年開催は中止と確認（ウォーカープラス「中止・非開催が決定した花火大会」一覧に掲載）。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "requires_check",
+        "trust_level",
+        "conflict_note",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25589,7 +25665,7 @@
       "city": "佐波郡玉村町",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "【令和8年度（2026年）は中止】物価高騰による経費増と、財源としていたふるさと創生基金の枯渇に加え、令和8年度は公共施設大規模改修事業等で町財政負担が大きいため中止。令和9年度（2027年・町政施行70周年）は記念大会として開催予定。",
+      "date_note": "【2026年は中止】【令和8年度（2026年）は中止】物価高騰による経費増と、財源としていたふるさと創生基金の枯渇に加え、令和8年度は公共施設大規模改修事業等で町財政負担が大きいため中止。令和9年度（2027年・町政施行70周年）は記念大会として開催予定。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -25628,13 +25704,25 @@
           "site_name": "花火大会2026（じょるだん）",
           "is_official": false,
           "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/cancelled/",
+          "site_name": "ウォーカープラス（中止・非開催花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "",
+      "conflict_note": "2026年開催は中止と確認（ウォーカープラス「中止・非開催が決定した花火大会」一覧に掲載）。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "requires_check",
+        "trust_level",
+        "conflict_note",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25773,7 +25861,7 @@
       "city": "串間市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "【2026年は中止】諸事情により中止と案内されている。詳細な公式発表は確認できず。",
+      "date_note": "【2026年は中止】【2026年は中止】諸事情により中止と案内されている。詳細な公式発表は確認できず。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -25806,13 +25894,25 @@
           "site_name": "中止・非開催が決定した花火大会 - ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-07-22"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/cancelled/",
+          "site_name": "ウォーカープラス（中止・非開催花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "",
+      "conflict_note": "2026年開催は中止と確認（ウォーカープラス「中止・非開催が決定した花火大会」一覧に掲載）。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "requires_check",
+        "trust_level",
+        "conflict_note",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26249,7 +26349,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26315,7 +26415,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26381,7 +26481,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26440,7 +26540,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26504,7 +26604,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26522,14 +26622,13 @@
       "prefecture": "鹿児島県",
       "city": "南九州市",
       "date_start": "2026-07-26",
-      "date_end": "2026-07-27",
-      "date_note": "2026年は100年目の節目で「川辺祇園祭百年祭」。ミュージック花火大会は7月26日、祇園祭本体は7月27日。検索元により9月開催との記述もあり日程に矛盾あり。",
+      "date_end": "2026-07-26",
+      "date_note": "川辺祇園祭本体は7月26日(日)16:00〜の単日開催。花火大会は別日程の9月19日(土)17:00〜20:30（諏訪運動公園陸上競技場）に開催され、祇園祭本体とは会場・日程が異なる別行事。",
       "time_start": "16:00",
       "time_end": "不明",
       "rain_policy": "不明",
       "organizer": "川辺祇園祭実行委員会",
       "genre": [
-        "花火",
         "祇園祭"
       ],
       "scale": "その他",
@@ -26541,7 +26640,7 @@
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "かわなべ開運夢通り商店街・諏訪運動公園陸上競技場（南九州市）",
+      "access": "かわなべ開運夢通り商店街（祭り会場）",
       "official_url": "https://www.city.minamikyushu.lg.jp/soshikikarasagasu/shokokankoka/kankokoryu/3/1466.html",
       "sns_accounts": {
         "instagram": "不明"
@@ -26557,8 +26656,8 @@
         {
           "url": "https://www.kagoshima-kankou.com/event/20253",
           "site_name": "鹿児島県観光サイト",
-          "is_official": false,
-          "retrieved_date": "2026-07-23"
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
         },
         {
           "url": "https://weathernews.jp/hanabi/spot/5501030/",
@@ -26567,11 +26666,20 @@
           "retrieved_date": "2026-07-23"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "⚠️ 矛盾：開催日について7月26〜27日とする情報源と9月19日とする情報源が混在。公式サイト記載の7月26〜27日を採用したが要確認。",
-      "requires_check": true,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_end",
+        "date_note",
+        "genre",
+        "access",
+        "sources",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26623,12 +26731,255 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
       }
+    },
+    {
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "date_note": "宵宮(7/24・西小早船海上渡御・貴船まつり宵宮コンサート)、本祭(7/25・東小早船海上渡御)。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "真鶴町・貴船まつり実行委員会",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "貴船神社例大祭。華やかな花飾り・吹き流しで飾られた小早船と神輿船を櫂伝馬で曳く海上渡御が特徴。平成8年に国の重要無形民俗文化財に指定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "真鶴港周辺",
+      "official_url": "https://kibunematsuri.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      },
+      "id": "festival_434",
+      "name": "真鶴貴船まつり",
+      "prefecture": "神奈川県",
+      "city": "真鶴町",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-25",
+      "genre": [
+        "神輿",
+        "山車"
+      ],
+      "scale": "国指定重要無形民俗文化財／日本三大船祭りの一つ",
+      "sources": [
+        {
+          "url": "https://kibunematsuri.jp/nittei.html",
+          "site_name": "真鶴貴船まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://www.town.manazuru.kanagawa.jp/soshiki/sangyoukankou/kanko/2258.html",
+          "site_name": "真鶴町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://www.manazuru.net/kibune2026/",
+          "site_name": "真鶴町観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        }
+      ],
+      "trust_level": "高"
+    },
+    {
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "date_note": "祭り自体は7/25(土)14:30〜21:00・7/26(日)10:00〜21:00。目玉の納涼花火大会は26日夜(19:30〜21:00予定)。",
+      "time_start": "19:30",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "蒲郡まつり実行委員会",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "第44回。直径90cmの正三尺玉を海上の台船から打ち上げるのが目玉で、開いたときの直径は約650mに達する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "竹島ふ頭",
+      "official_url": "https://gamagorimatsuri.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      },
+      "id": "festival_435",
+      "name": "蒲郡まつり納涼花火大会",
+      "prefecture": "愛知県",
+      "city": "蒲郡市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（太平洋岸最大級の正三尺玉）",
+      "sources": [
+        {
+          "url": "https://gamagorimatsuri.com/",
+          "site_name": "蒲郡まつり実行委員会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://www.city.gamagori.lg.jp/unit/kanko/gamamatsu.html",
+          "site_name": "蒲郡市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/1012/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        }
+      ],
+      "trust_level": "高"
+    },
+    {
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "date_note": "第71回。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "一宮七夕まつり協賛会",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "織物産業への感謝を込めた七夕まつり。「御衣奉献大行列」やコスプレパレードなど多彩な催しが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "本町通り・銀座通り〜真清田神社一帯（JR尾張一宮駅／名鉄名鉄一宮駅より徒歩約5分）",
+      "official_url": "https://www.138ss.com/tanabata/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      },
+      "id": "festival_436",
+      "name": "おりもの感謝祭 一宮七夕まつり",
+      "prefecture": "愛知県",
+      "city": "一宮市",
+      "date_start": "2026-07-23",
+      "date_end": "2026-07-26",
+      "genre": [
+        "七夕"
+      ],
+      "scale": "その他",
+      "sources": [
+        {
+          "url": "https://www.138ss.com/tanabata/",
+          "site_name": "一宮七夕まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://www.city.ichinomiya.aichi.jp/katsuryokusouzou/kankoukouryuu/1010115/1000007/1004933.html",
+          "site_name": "一宮市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/73/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        }
+      ],
+      "trust_level": "高"
+    },
+    {
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "date_note": "熱川の夏の風物詩。約700発を熱川海岸から打ち上げ。2026年の具体的な開催日は一次情報未確認（2025年は第56回開催）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "熱川の夏の風物詩として定期開催される海上花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "熱川海岸堤防（伊豆急行伊豆熱川駅から徒歩5分）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "conflict_note": "2026年の開催日を明記した一次情報（東伊豆町公式等）が見つからず、直近年の実績情報のみ確認できた状態。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      },
+      "id": "festival_437",
+      "name": "熱川温泉海上花火大会",
+      "prefecture": "静岡県",
+      "city": "東伊豆町",
+      "date_start": "不明",
+      "date_end": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "sources": [
+        {
+          "url": "https://www.at-s.com/event/article/festival/121868.html",
+          "site_name": "静岡新聞アットエス",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0622e00511/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
+        }
+      ],
+      "trust_level": "低"
     }
   ]
 }
