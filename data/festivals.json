@@ -26987,6 +26987,72 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_439",
+      "name": "住吉神社例大祭（佃祭）",
+      "alternate_names": [
+        "佃住吉神社例大祭",
+        "佃祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "中央区",
+      "date_start": "2026-08-06",
+      "date_end": "2026-08-10",
+      "date_note": "2026年は3年に一度の本祭り。8/6御旅所大祭式、8/8獅子頭・町内神輿巡行、8/9宮神輿巡幸（船渡御を含むとされる）、8/10宮神輿巡幸・宮入り。船渡御の具体的時刻は住吉神社公式サイトの詳細PDFのみに記載で本文からは未確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "住吉神社（佃住吉講）",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "中央区民文化財（佃囃子は江戸三大囃子の一つとされる）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "佃島の氏神である住吉神社の例大祭。3年に一度の本祭りでは八角神輿を船に乗せて佃・月島・晴海の氏子地域を巡る船渡御が行われる。祭礼で奏される佃囃子は江戸三大囃子の一つとされる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.sumiyoshijinja.or.jp/information.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sumiyoshijinja.or.jp/information.html",
+          "site_name": "住吉神社オフィシャルサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://www.chuo-kanko.or.jp/blogs/event/2606021657",
+          "site_name": "一般社団法人中央区観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://kaibutsu-blog.com/tsukuda-sumiyoshi-matsuri-2026/",
+          "site_name": "かいぶつくんブログ",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
