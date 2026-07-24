@@ -20538,13 +20538,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_334",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -20901,19 +20896,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_340",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "alternate_names",
-        "date_note",
-        "organizer",
-        "history_description",
-        "food_stalls",
-        "sources",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24587,18 +24571,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "access",
-        "price",
-        "sources",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25319,14 +25293,8 @@
       "trust_level": "中",
       "conflict_note": "2026年開催は中止と確認（ウォーカープラス「中止・非開催が決定した花火大会」一覧に掲載）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "requires_check",
-        "trust_level",
-        "conflict_note",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25513,14 +25481,8 @@
       "trust_level": "中",
       "conflict_note": "2026年開催は中止と確認（ウォーカープラス「中止・非開催が決定した花火大会」一覧に掲載）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "requires_check",
-        "trust_level",
-        "conflict_note",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25715,14 +25677,8 @@
       "trust_level": "中",
       "conflict_note": "2026年開催は中止と確認（ウォーカープラス「中止・非開催が決定した花火大会」一覧に掲載）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "requires_check",
-        "trust_level",
-        "conflict_note",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25905,14 +25861,8 @@
       "trust_level": "中",
       "conflict_note": "2026年開催は中止と確認（ウォーカープラス「中止・非開催が決定した花火大会」一覧に掲載）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "requires_check",
-        "trust_level",
-        "conflict_note",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26669,17 +26619,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_end",
-        "date_note",
-        "genre",
-        "access",
-        "sources",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26762,7 +26703,7 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26825,7 +26766,7 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26887,7 +26828,7 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -26949,7 +26890,7 @@
       "video_url": "不明",
       "conflict_note": "2026年の開催日を明記した一次情報（東伊豆町公式等）が見つからず、直近年の実績情報のみ確認できた状態。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
