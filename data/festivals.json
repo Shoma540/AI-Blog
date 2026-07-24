@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24 17:15",
+  "last_updated": "2026-07-24 18:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -21567,21 +21567,23 @@
       "city": "大阪市天王寺区（てんしば／天王寺公園エントランスエリア）",
       "date_start": "2026-08-01",
       "date_end": "2026-08-02",
-      "date_note": "日程は確定しているが、詳細プログラムは公式サイトで「追ってお知らせ」とされ未発表。",
+      "date_note": "公式サイト（てんしば）で日程・プログラム概要（盆踊り・和太鼓演奏・ゆかたアカペラ・縁日ブース・花火エリア・キッチンカー多数）を確認。開催時間は現時点で未発表。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
       "organizer": "近鉄不動産",
       "genre": [
         "夏祭り",
-        "屋台"
+        "屋台",
+        "盆踊り",
+        "花火"
       ],
       "scale": "その他",
       "is_free": true,
       "price": "不明（過去開催では入場無料）",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "天王寺公園エントランスエリア「てんしば」で開催される夏祭りイベント。例年は屋台や盆踊りが行われている。",
+      "history_description": "天王寺公園エントランスエリア「てんしば」で開催される夏祭りイベント。天神民謡による盆踊り、柴島高校和太鼓部の演奏、ゆかたアカペラ、縁日ブース、花火エリアなどが恒例のコンテンツ。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -21603,13 +21605,26 @@
           "site_name": "夏祭り特集 - ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.tennoji-park.jp/event",
+          "site_name": "てんしば イベント情報（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "history_description",
+        "genre",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27118,7 +27133,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -27173,7 +27188,7 @@
       "trust_level": "低",
       "conflict_note": "⚠️ 矛盾 2026年の公式日程未確認。web上には2025年8月3日開催の情報のみ見つかっており、2026年分と誤認しないよう注意。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
