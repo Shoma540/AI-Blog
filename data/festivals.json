@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24 08:30",
+  "last_updated": "2026-07-24 12:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -26980,6 +26980,78 @@
         }
       ],
       "trust_level": "低"
+    },
+    {
+      "id": "festival_438",
+      "name": "のおがた夏まつり",
+      "alternate_names": [
+        "直方夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "直方市",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "予備日なし。荒天等の場合は順延せず中止。",
+      "time_start": "15:00",
+      "time_end": "21:00",
+      "rain_policy": "雨天中止（順延なし）",
+      "organizer": "直方商工会議所（のおがた夏まつり実行委員会）",
+      "genre": [
+        "花火",
+        "山車",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料駐車場あり：事前予約3,000円、当日現金4,000円）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "直方市役所下の遠賀川河川敷で開催される直方市の夏まつり。JC MATSURI（ステージ・飲食店出店等）、直方追山笠の運行、花火大会（16号連発・仕掛花火）が行われる。",
+      "food_stalls": "飲食店21店舗が出店予定",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "各駅から徒歩15分程度。公共交通機関の利用が推奨されている。",
+      "official_url": "https://www.nogata-cci.or.jp/nogata_natsumatsuri_2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.nogata-cci.or.jp/nogata_natsumatsuri_2026/",
+          "site_name": "直方商工会議所（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1040e00933/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87499.html",
+          "site_name": "ジョルダン花火",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://sorahanabi.com/fukuoka/nogata",
+          "site_name": "空花火",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
     }
   ]
 }
