@@ -419,6 +419,12 @@
       "step": "STEP9_instagram_post",
       "error": "（解消）Instagram投稿が成功",
       "detail": "2026-06-30 18:25から2026-07-23 18:14まで41回連続で継続していた「API access blocked」エラー（OAuthException code=200）が、本実行では発生せず、Instagram投稿が正常に成功した（media作成・publish共に200応答）。トークン・アプリ側の状態がMeta側で復旧したと見られる。詳細な復旧理由は不明のためユーザーへ状況変化を通知する。"
+    },
+    {
+      "timestamp": "2026-07-25 08:13",
+      "step": "STEP10-1_fetch_analytics",
+      "error": "GA4環境変数の中身が想定と異なりfetch_analytics.pyが未捕捉の例外でクラッシュ（AttributeError: int object has no attribute keys）",
+      "detail": "GA4_SERVICE_ACCOUNT_JSON を json.loads した結果が dict ではなく int になっている（サービスアカウントJSON全体ではなく数値のような別の値が設定されている可能性）。cffi/_cffi_backend の欠落によるpyo3パニックは今回 pip install --user cffi で解消したが、この環境変数不整合は07-24から継続しておりスクリプト・環境変数の変更が禁止されているため routine からは修正不可。人間による GA4_SERVICE_ACCOUNT_JSON の再設定が必要。STEP10は今回スキップ。"
     }
   ]
 }
