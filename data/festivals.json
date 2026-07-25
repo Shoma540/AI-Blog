@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25 12:15",
+  "last_updated": "2026-07-25 16:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -27380,7 +27380,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -27444,6 +27444,144 @@
       ],
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 打ち上げ終了時刻について、walkerplus等では21:25とする情報もあり（本エントリは19:20〜21:10説を採用）。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_446",
+      "name": "やひこの火まつり（燈籠神事）",
+      "alternate_names": [
+        "弥彦燈籠まつり",
+        "弥彦燈籠まつり奉納花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "西蒲原郡弥彦村",
+      "date_start": "2026-07-12",
+      "date_end": "2026-07-26",
+      "date_note": "7月12日〜26日の約15日間にわたり舞童選定式・神輿祭など複数の神事が斎行される。中心行事の御神輿渡御・大燈籠巡行と奉納花火大会は7月25日夜、還御祭は7月26日。",
+      "time_start": "21:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "越後一宮 彌彦神社",
+      "genre": [
+        "神事",
+        "神輿",
+        "花火"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "彌彦神社に千年の昔から伝わる燈籠神事。五穀豊穣・疫疾退散を祈念する、一年で最も賑わいを見せる夏の祭典。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "新潟県西蒲原郡弥彦村弥彦2887-2 越後一宮彌彦神社周辺",
+      "official_url": "https://www.yahiko-jinjya.or.jp/event/summer/toroumatsuri.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yahiko-jinjya.or.jp/event/summer/toroumatsuri.html",
+          "site_name": "越後一宮 彌彦神社（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://www.e-yahiko.com/spot/tourou-fes/",
+          "site_name": "弥彦観光協会公式サイト／やひ恋",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://niigata-kankou.or.jp/event/2418",
+          "site_name": "新潟県観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_447",
+      "name": "綾渡の夜念仏と盆踊",
+      "alternate_names": [
+        "足助の夜念仏と盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "豊田市",
+      "date_start": "2026-08-10",
+      "date_end": "2026-08-15",
+      "date_note": "8月10日（月）は施餓鬼供養、8月15日（土）は観音供養として開催。夜念仏は午後7時頃、盆踊りは午後8時20分頃から午後9時30分頃終了予定。事前予約制の無料見学バスあり（受付は7月13日午前10時開始）。",
+      "time_start": "19:00",
+      "time_end": "21:30",
+      "rain_policy": "雨天中止の場合あり。前日または当日15時までに公式サイトで案内。",
+      "organizer": "豊田市足助観光協会／綾渡地区",
+      "genre": [
+        "盆踊り",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財（ユネスコ無形文化遺産「風流踊」の構成要素）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "平勝寺境内で行われる盆の行事。かつては三河山間部から岐阜県恵那市にかけて広く行われていたが、現在も伝わるのは綾渡の里のみ。2022年にユネスコ無形文化遺産「風流踊」の一つとして登録。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "平勝寺境内（豊田市綾渡町）。交通規制のため車での来場不可、香嵐渓周辺の有料駐車場を利用。無料見学バスは香嵐渓宮町駐車場発（事前予約制）。",
+      "official_url": "https://asuke.info/event/aug/entry-700.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://asuke.info/event/aug/entry-700.html",
+          "site_name": "豊田市足助観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://www.city.toyota.aichi.jp/sportsbunka/bunka/1009223/1009222/1052112.html",
+          "site_name": "豊田市（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://www.aichi-now.jp/spots/detail/1638/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://bunka.nii.ac.jp/heritages/detail/200306",
+          "site_name": "文化遺産オンライン（文化庁）",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
