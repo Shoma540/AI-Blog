@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25 16:20",
+  "last_updated": "2026-07-25 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -27577,6 +27577,132 @@
           "url": "https://bunka.nii.ac.jp/heritages/detail/200306",
           "site_name": "文化遺産オンライン（文化庁）",
           "is_official": true,
+          "retrieved_date": "2026-07-25"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_448",
+      "name": "桑名水郷花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "桑名市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
+      "date_note": "不明",
+      "time_start": "19:30",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（東海地区最大級の2尺玉花火を含む大会）",
+      "is_free": false,
+      "price": "全席有料（事前チケット購入制）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR・近鉄・養老鉄道桑名駅、三岐鉄道北勢線西桑名駅から徒歩20分。打ち上げ場所は揖斐川河畔（鍋屋堤）。",
+      "official_url": "https://kuwana-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kuwana-hanabi.com/",
+          "site_name": "桑名水郷花火大会2026（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/report/1484",
+          "site_name": "観光三重（三重県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0624e00834/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-25"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_449",
+      "name": "北國花火2026 復興支援大会in金沢大会",
+      "alternate_names": [
+        "北國花火2026金沢大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "本開催は7/25(土)。荒天の場合は7/26(日)に順延。姉妹大会として8/1(土)に川北大会（北國大花火 川北大会）が別途開催される。",
+      "time_start": "19:50",
+      "time_end": "不明",
+      "rain_policy": "荒天時は翌日（7/26）に順延",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（能登の復興支援を掲げる花火大会）",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "能登の復興支援を目的として金沢市で開催される花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "会場周辺に駐車場なし。JR金沢駅金沢港口（西口1番のりば）、県西部緑地公園内からシャトルバス運行。会場は石川県金沢市大豆田本町 犀川緑地周辺。",
+      "official_url": "https://www.hot-ishikawa.jp/event/detail_22544.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hot-ishikawa.jp/event/detail_22544.html",
+          "site_name": "ほっと石川旅ねっと（石川県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://www.kanazawa-kankoukyoukai.or.jp/event/detail_30343.html",
+          "site_name": "金沢観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0517e01101/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
           "retrieved_date": "2026-07-25"
         }
       ],
