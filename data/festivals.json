@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26 08:12",
+  "last_updated": "2026-07-26 12:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -26003,14 +26003,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27926,7 +27920,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -27990,7 +27984,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -28049,7 +28043,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -28101,6 +28095,137 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_456",
+      "name": "郡上おどり",
+      "alternate_names": [
+        "郡上踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岐阜県",
+      "city": "郡上市",
+      "date_start": "2026-07-11",
+      "date_end": "2026-09-05",
+      "date_note": "7月11日「おどり発祥祭」に始まり9月5日「おどり納め」まで全30夜。お盆の徹夜おどりは8月13日〜16日の4日間。",
+      "time_start": "20:00",
+      "time_end": "翌4:00〜5:00頃（徹夜おどり期間、日により異なる）",
+      "rain_policy": "不明",
+      "organizer": "郡上八幡観光協会（個別日程は各地区の神社・町内会が主催）",
+      "genre": [
+        "盆踊り",
+        "踊り"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "江戸時代から続くとされる盆踊りで、8月13日〜16日の徹夜おどりが特に有名。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.gujohachiman.com/kanko/odori_schedule.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.gujohachiman.com/kanko/odori_schedule.html",
+          "site_name": "郡上八幡観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-26"
+        },
+        {
+          "url": "https://tabitabigujo.com/event/%E9%83%A1%E4%B8%8A%E3%81%8A%E3%81%A9%E3%82%8A/",
+          "site_name": "TABITABI郡上",
+          "is_official": false,
+          "retrieved_date": "2026-07-26"
+        },
+        {
+          "url": "https://gujolife.com/event/2026%E5%B9%B4%E3%80%80%E9%83%A1%E4%B8%8A%E3%81%8A%E3%81%A9%E3%82%8A/",
+          "site_name": "郡上・ふるさと定住機構",
+          "is_official": false,
+          "retrieved_date": "2026-07-26"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_457",
+      "name": "徳島市阿波おどり",
+      "alternate_names": [
+        "阿波踊り",
+        "THE AWAODORI"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "徳島県",
+      "city": "徳島市",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-15",
+      "date_note": "8月11日はオープニング公演、メイン開催は8月12日〜15日。",
+      "time_start": "11:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "阿波おどり未来へつなぐ実行委員会",
+      "genre": [
+        "踊り",
+        "盆踊り"
+      ],
+      "scale": "その他（徳島市を代表する大規模な踊りの祭り）",
+      "is_free": false,
+      "price": "有料演舞場あり（あわぎんホール、藍場浜演舞場、南内町演舞場、紺屋町演舞場）／両国本町・新町橋演舞場は無料観覧可",
+      "ticket_url": "https://w.pia.jp/p/awaodori26aossr/",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.awaodorimirai.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.awaodorimirai.com/",
+          "site_name": "阿波おどり未来へつなぐ実行委員会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-26"
+        },
+        {
+          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
+          "site_name": "徳島市公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-26"
+        },
+        {
+          "url": "https://www.awanavi.jp/archives/event/1731",
+          "site_name": "徳島県観光情報サイト阿波ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-07-26"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
