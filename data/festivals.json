@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26 16:13",
+  "last_updated": "2026-07-26 17:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -192,79 +192,6 @@
           "site_name": "オマツリジャパン",
           "is_official": false,
           "retrieved_date": "2026-07-02"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_004",
-      "name": "阿波おどり",
-      "alternate_names": [
-        "THE AWAODORI",
-        "徳島市阿波おどり"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "徳島県",
-      "city": "徳島市",
-      "date_start": "2026-08-11",
-      "date_end": "2026-08-15",
-      "date_note": "8/11(火・祝)は屋内会場「匠の舞台 優りび」（アスティとくしま）、8/12(水)〜15(土)は「夢の舞台 祭りび」（あわぎんホール）および屋外有料演舞場（藍場浜・南内町・紺屋町）で開催。",
-      "time_start": "18:00",
-      "time_end": "22:00",
-      "rain_policy": "不明",
-      "organizer": "阿波おどり未来へつなぐ実行委員会（旧：徳島市阿波おどり実行委員会）",
-      "genre": [
-        "盆踊り",
-        "踊り",
-        "パレード"
-      ],
-      "scale": "その他",
-      "is_free": false,
-      "price": "屋外有料演舞場（藍場浜・南内町・紺屋町）SS席6,000円〜C席1,000円、南内町演舞場特別観覧席15,000円。屋内はあわぎんホールSS席4,500円〜A席2,800円、アスティとくしま特別指定席5,000円〜A席2,800円。無料演舞場（両国本町・新町橋等）もあり。",
-      "ticket_url": "https://www.awaodorimirai.com/",
-      "history_years": "不明",
-      "history_description": "「踊る阿呆に見る阿呆」の掛け声で知られる徳島の代表的な盆踊り。連（れん）と呼ばれる踊り集団が「ぞめき」のリズムに乗って市内を踊り歩く。徳島市阿波おどりは日本三大盆踊りの一つとされ、毎年多くの観光客を集める。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.awaodorimirai.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.awaodorimirai.com/",
-          "site_name": "The Awaodori",
-          "is_official": true,
-          "retrieved_date": "2026-06-21"
-        },
-        {
-          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
-          "site_name": "徳島市公式ウェブサイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-09"
-        },
-        {
-          "url": "https://www.nikkei.com/article/DGXZQOCC222AI0S5A221C2000000/",
-          "site_name": "日本経済新聞",
-          "is_official": false,
-          "retrieved_date": "2026-07-09"
-        },
-        {
-          "url": "https://www.awaodorimirai.com/2025-%E9%96%8B%E5%82%AC%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB",
-          "site_name": "The Awaodori（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-09"
         }
       ],
       "trust_level": "高",
@@ -662,10 +589,8 @@
       "trust_level": "高",
       "conflict_note": "重複データを統合（festival_445 を festival_010 に統合、ソース7件に）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "duplicate_merge"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -743,10 +668,8 @@
       "trust_level": "高",
       "conflict_note": "重複データを統合（festival_456 を festival_011 に統合、ソース5件に）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "duplicate_merge"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3710,7 +3633,7 @@
       "city": "宮崎市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "例祭は毎年10月26日固定、御神幸祭（神武さま）は例祭直後の土曜・日曜に実施（昭和46年以降のルール）。2025年実績は例祭10/26、御神幸行列11/1-2。このルールから2026年は10月末～11月初旬頃と推測されるが、令和8年度の正式日程は開催約1ヶ月前に発表予定のため2026-07-05時点では未発表。日付は不明のまま維持。",
+      "date_note": "宮崎商工会議所公式サイトに『例祭：例年10月26日固定、御神幸行列は例祭後の土曜日・日曜日』との開催パターン記載を確認。このルールを2026年カレンダーに当てはめると10/26(月)の次の土日は10/31(土)・11/1(日)となる推定だが、検索結果の多くは2025年の実績日（11/1土・11/2日）を2026年として誤表示しているため不採用。商工会議所ページ自身も『開催1ヶ月前頃に情報公開』としており2026年専用の確定告知は本稿時点で未発表。参考推定日: 2026-10-31〜2026-11-01（未確定）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -3771,8 +3694,10 @@
       "trust_level": "中",
       "conflict_note": "祭り自体の内容・主催は3ソース一致で確認できたが、2026年の具体的な開催日は本稿時点で未発表のため「不明」とした。要確認。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13481,10 +13406,8 @@
       "trust_level": "高",
       "conflict_note": "重複データを統合（festival_442 を festival_213 に統合、ソース7件に）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "duplicate_merge"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14159,10 +14082,8 @@
       "trust_level": "高",
       "conflict_note": "重複データを統合（festival_443 を festival_225 に統合、ソース6件に）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "duplicate_merge"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -15778,10 +15699,8 @@
       "trust_level": "高",
       "conflict_note": "重複データを統合（festival_424 を festival_255 に統合、ソース4件に）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "duplicate_merge"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -22098,10 +22017,8 @@
       "trust_level": "高",
       "conflict_note": "重複データを統合（festival_439 を festival_358 に統合、ソース4件に）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "duplicate_merge"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26298,71 +26215,6 @@
       }
     },
     {
-      "id": "festival_427",
-      "name": "阿波おどり（徳島市阿波おどり）",
-      "alternate_names": [
-        "徳島阿波おどり",
-        "THE AWAODORI",
-        "徳島市阿波おどり"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "徳島県",
-      "city": "徳島市",
-      "date_start": "2026-08-11",
-      "date_end": "2026-08-15",
-      "date_note": "8月11日（火・祝）は前夜祭、8月12日〜15日が本番演舞（有料・無料演舞場とも開催）",
-      "time_start": "18:00",
-      "time_end": "22:00",
-      "rain_policy": "不明",
-      "organizer": "阿波おどり未来へつなぐ実行委員会",
-      "genre": [
-        "踊り",
-        "民俗芸能"
-      ],
-      "scale": "その他（400年の歴史を持つ全国有数の盆踊り行事）",
-      "is_free": false,
-      "price": "有料演舞場（藍場浜演舞場・南内町演舞場・紺屋町演舞場等）は指定席制・価格変動制。無料演舞場（両国本町演舞場等）もあり",
-      "ticket_url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
-      "history_years": 400,
-      "history_description": "徳島藩祖・蜂須賀家政が天正14年（1586年）に徳島入りした頃から藍商人らにより盛んになったとされる。起源には徳島城築城起源説・盆踊り起源説・風流踊り起源説の3説がある。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/",
-      "sns_accounts": {},
-      "video_url": "",
-      "sources": [
-        {
-          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
-          "site_name": "徳島市公式ウェブサイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-23"
-        },
-        {
-          "url": "https://www.awanavi.jp/archives/topics/74239",
-          "site_name": "阿波ナビ（徳島県観光情報サイト）",
-          "is_official": true,
-          "retrieved_date": "2026-07-23"
-        },
-        {
-          "url": "https://discoverjapan-web.com/article/94608",
-          "site_name": "Discover Japan",
-          "is_official": false,
-          "retrieved_date": "2026-07-23"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_428",
       "name": "塩田夏まつり",
       "alternate_names": [
@@ -27187,6 +27039,7 @@
       "name": "徳島市阿波おどり",
       "alternate_names": [
         "THE AWAODORI",
+        "徳島阿波おどり",
         "阿波おどり",
         "阿波踊り"
       ],
@@ -27208,8 +27061,8 @@
       "is_free": false,
       "price": "有料演舞場あり（あわぎんホール、藍場浜演舞場、南内町演舞場、紺屋町演舞場）／両国本町・新町橋演舞場は無料観覧可",
       "ticket_url": "https://www.awanavi.jp/archives/topics/74239",
-      "history_years": "不明",
-      "history_description": "不明",
+      "history_years": 400,
+      "history_description": "「踊る阿呆に見る阿呆」の掛け声で知られる徳島の代表的な盆踊り。連（れん）と呼ばれる踊り集団が「ぞめき」のリズムに乗って市内を踊り歩く。徳島市阿波おどりは日本三大盆踊りの一つとされ、毎年多くの観光客を集める。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -27249,10 +27102,22 @@
           "site_name": "徳島県観光情報サイト阿波ナビ",
           "is_official": true,
           "retrieved_date": "2026-07-26"
+        },
+        {
+          "url": "https://www.awaodorimirai.com/2025-%E9%96%8B%E5%82%AC%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB",
+          "site_name": "The Awaodori（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-09"
+        },
+        {
+          "url": "https://discoverjapan-web.com/article/94608",
+          "site_name": "Discover Japan",
+          "is_official": false,
+          "retrieved_date": "2026-07-23"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "重複データを統合（festival_457 を festival_444 に統合、ソース5件に）",
+      "conflict_note": "重複データを統合（festival_004・festival_427 を festival_444 に統合、ソース7件に）",
       "requires_check": false,
       "diff_status": "UPDATED",
       "updated_fields": [
