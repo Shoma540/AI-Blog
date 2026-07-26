@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26 12:15",
+  "last_updated": "2026-07-26 16:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -583,14 +583,16 @@
       "id": "festival_010",
       "name": "長岡まつり大花火大会",
       "alternate_names": [
-        "長岡花火"
+        "長岡まつり",
+        "長岡花火",
+        "長岡花火大会"
       ],
       "similar_name_warning": false,
       "prefecture": "新潟県",
       "city": "長岡市",
       "date_start": "2026-08-02",
       "date_end": "2026-08-03",
-      "date_note": "打ち上げ場所は信濃川河川敷。",
+      "date_note": "毎年8月2日・3日開催の日本三大花火の一つ。",
       "time_start": "19:20",
       "time_end": "21:10",
       "rain_policy": "不明",
@@ -598,7 +600,7 @@
       "genre": [
         "花火"
       ],
-      "scale": "その他（国内最大級・約2万発）",
+      "scale": "その他（日本三大花火の一つとされる大規模な花火大会）",
       "is_free": true,
       "price": "見学無料（有料観覧席あり、市民先行4/10〜4/28・一般抽選5/25〜6/8は完売、公式再販売7/6〜）",
       "ticket_url": "https://www.nagaokahanabi.jp/schedule/",
@@ -607,8 +609,8 @@
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://nagaokamatsuri.com/",
+      "access": "信濃川河川敷（詳細アクセスは不明）",
+      "official_url": "https://www.nagaokahanabi.jp/",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -637,13 +639,33 @@
           "site_name": "長岡観光ナビ（公式）",
           "is_official": true,
           "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://www.nagaokahanabi.jp/",
+          "site_name": "長岡花火チケットセンター（長岡花火財団）",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://event.jreast.co.jp/pages/articles-nagaokamatsuri",
+          "site_name": "JR東日本",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0415e00665/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-25"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "重複データを統合（festival_445 を festival_010 に統合、ソース7件に）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "duplicate_merge"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -652,21 +674,24 @@
     {
       "id": "festival_011",
       "name": "郡上おどり",
-      "alternate_names": [],
+      "alternate_names": [
+        "郡上踊り"
+      ],
       "similar_name_warning": false,
       "prefecture": "岐阜県",
       "city": "郡上市",
       "date_start": "2026-07-11",
       "date_end": "2026-09-05",
-      "date_note": "7/11は発祥祭。盂蘭盆会・徹夜おどりは8/13〜16の4日間、20:00〜翌5:00。",
+      "date_note": "7月11日「おどり発祥祭」に始まり9月5日「おどり納め」まで全30夜。お盆の徹夜おどりは8月13日〜16日の4日間。",
       "time_start": "20:00",
-      "time_end": "不明",
+      "time_end": "翌4:00〜5:00頃（徹夜おどり期間、日により異なる）",
       "rain_policy": "不明",
-      "organizer": "郡上市",
+      "organizer": "郡上八幡観光協会（個別日程は各地区の神社・町内会が主催）",
       "genre": [
-        "盆踊り",
+        "民俗芸能",
         "流し踊り",
-        "民俗芸能"
+        "盆踊り",
+        "踊り"
       ],
       "scale": "ユネスコ無形文化遺産（2022年登録）",
       "is_free": true,
@@ -678,7 +703,7 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "不明",
-      "official_url": "https://www.city.gujo.gifu.jp/admin/info/4-20.html",
+      "official_url": "https://www.gujohachiman.com/kanko/odori_schedule.html",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -701,13 +726,27 @@
           "site_name": "文化遺産オンライン（文化庁）",
           "is_official": true,
           "retrieved_date": "2026-07-02"
+        },
+        {
+          "url": "https://www.gujohachiman.com/kanko/odori_schedule.html",
+          "site_name": "郡上八幡観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-26"
+        },
+        {
+          "url": "https://tabitabigujo.com/event/%E9%83%A1%E4%B8%8A%E3%81%8A%E3%81%A9%E3%82%8A/",
+          "site_name": "TABITABI郡上",
+          "is_official": false,
+          "retrieved_date": "2026-07-26"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "重複データを統合（festival_456 を festival_011 に統合、ソース5件に）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "duplicate_merge"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13359,18 +13398,22 @@
     {
       "id": "festival_213",
       "name": "北上・みちのく芸能まつり",
-      "alternate_names": [],
+      "alternate_names": [
+        "みちのく芸能まつり",
+        "北上夏まつり"
+      ],
       "similar_name_warning": false,
       "prefecture": "岩手県",
       "city": "北上市",
       "date_start": "2026-08-07",
       "date_end": "2026-08-09",
       "date_note": "毎年8月7日〜9日の3日間開催（2026年で第65回）。",
-      "time_start": "",
-      "time_end": "",
+      "time_start": "不明",
+      "time_end": "不明",
       "rain_policy": "不明",
       "organizer": "北上・みちのく芸能まつり実行委員会",
       "genre": [
+        "パレード",
         "民俗芸能",
         "盆踊り",
         "神輿",
@@ -13378,8 +13421,8 @@
       ],
       "scale": "その他",
       "is_free": true,
-      "price": "",
-      "ticket_url": "",
+      "price": "不明",
+      "ticket_url": "不明",
       "history_years": 65,
       "history_description": "1962年（昭和37年）に北上商業高等学校校庭で開催された「みちのく郷土芸能まつり」が第1回。1975年（第14回）より現称「北上・みちのく芸能まつり」に改称。1983年（第22回）から8月7〜9日の3日間開催に。鬼剣舞・神楽・鹿踊り・虎舞など100組超の郷土芸能団体が出演し、東北六大まつりの一つとされることもある。",
       "food_stalls": "不明",
@@ -13387,8 +13430,10 @@
       "visitors": "不明",
       "access": "不明",
       "official_url": "https://geinoumatsuri.com/",
-      "sns_accounts": {},
-      "video_url": "",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/geinoumatsuri/"
+      },
+      "video_url": "不明",
       "sources": [
         {
           "url": "https://geinoumatsuri.com/schedule/",
@@ -13413,13 +13458,33 @@
           "site_name": "東北観光推進機構",
           "is_official": false,
           "retrieved_date": "2026-07-07"
+        },
+        {
+          "url": "https://geinoumatsuri.com/",
+          "site_name": "北上・みちのく芸能まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0203e00647/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://www.tohokumatsuri.jp/cate_iwate/post-284/",
+          "site_name": "東北のまつり",
+          "is_official": false,
+          "retrieved_date": "2026-07-25"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "重複データを統合（festival_442 を festival_213 に統合、ソース7件に）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "duplicate_merge"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14020,6 +14085,7 @@
       "id": "festival_225",
       "name": "さっぽろ夏まつり",
       "alternate_names": [
+        "札幌夏まつり",
         "第73回さっぽろ夏まつり"
       ],
       "similar_name_warning": false,
@@ -14033,15 +14099,16 @@
       "rain_policy": "不明",
       "organizer": "さっぽろ夏まつり実行委員会（札幌市）",
       "genre": [
-        "盆踊り",
-        "パレード"
+        "パレード",
+        "民俗芸能",
+        "盆踊り"
       ],
       "scale": "その他",
       "is_free": true,
       "price": "ビアガーデンは有料、まつり自体の見学は無料",
       "ticket_url": "不明",
       "history_years": 73,
-      "history_description": "不明",
+      "history_description": "大通公園を中心に開催される札幌の夏の風物詩。ビアガーデン、すすきの祭り、北海盆踊り、狸まつりなどで構成される。",
       "food_stalls": "大通公園5丁目〜11丁目にビアガーデン各会場（サントリー・キリン・サッポロ・世界のビール広場・札幌ドイツ村）が出店",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -14075,13 +14142,27 @@
           "site_name": "ぐうたび北海道",
           "is_official": false,
           "retrieved_date": "2026-07-08"
+        },
+        {
+          "url": "https://www.sapporo.travel/summerfes/about/",
+          "site_name": "さっぽろ夏まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://www.hokkaido-np.co.jp/event/79737/",
+          "site_name": "北海道新聞",
+          "is_official": false,
+          "retrieved_date": "2026-07-25"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "重複データを統合（festival_443 を festival_225 に統合、ソース6件に）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "duplicate_merge"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -15639,7 +15720,9 @@
     {
       "id": "festival_255",
       "name": "南紀白浜花火フェスタ2026",
-      "alternate_names": [],
+      "alternate_names": [
+        "白浜花火大会"
+      ],
       "similar_name_warning": true,
       "prefecture": "和歌山県",
       "city": "西牟婁郡白浜町",
@@ -15649,7 +15732,7 @@
       "time_start": "20:10",
       "time_end": "20:40",
       "rain_policy": "荒天時は予備日（8/23）に順延と推定（公式サイトで要確認）",
-      "organizer": "不明",
+      "organizer": "南紀白浜観光協会",
       "genre": [
         "花火"
       ],
@@ -15663,10 +15746,8 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "白良浜海水浴場（駐車場は旧南紀白浜空港跡地。シャトルバス運行なし）",
-      "official_url": "https://www.nankishirahama.jp/news/19125/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
+      "official_url": "https://www.wakayama-kanko.or.jp/events/detail_4292.html",
+      "sns_accounts": {},
       "video_url": "不明",
       "sources": [
         {
@@ -15695,10 +15776,12 @@
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "重複データを統合（festival_424 を festival_255 に統合、ソース4件に）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "duplicate_merge"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -21952,6 +22035,7 @@
       "id": "festival_358",
       "name": "住吉神社例大祭（佃祭）",
       "alternate_names": [
+        "佃住吉神社例大祭",
         "佃祭",
         "住吉神社例祭"
       ],
@@ -21960,17 +22044,17 @@
       "city": "中央区佃",
       "date_start": "2026-08-06",
       "date_end": "2026-08-10",
-      "date_note": "2026年は3年に一度の本祭り。8/6御旅所大祭式、8/8獅子頭・町内神輿巡行、8/9宮神輿巡幸、8/10宮神輿巡幸・宮入り。",
+      "date_note": "2026年は3年に一度の本祭り。8/6御旅所大祭式、8/8獅子頭・町内神輿巡行、8/9宮神輿巡幸（船渡御を含むとされる）、8/10宮神輿巡幸・宮入り。船渡御の具体的時刻は住吉神社公式サイトの詳細PDFのみに記載で本文からは未確認。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
       "organizer": "住吉神社（佃住吉講）",
       "genre": [
-        "神輿",
         "神事",
+        "神輿",
         "船渡御"
       ],
-      "scale": "その他",
+      "scale": "中央区民文化財（佃囃子は江戸三大囃子の一つとされる）",
       "is_free": true,
       "price": "見学無料",
       "ticket_url": "不明",
@@ -21980,7 +22064,7 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "東京メトロ有楽町線・都営大江戸線 月島駅6番出口から徒歩10分",
-      "official_url": "https://www.tsukudamatsuri.com/",
+      "official_url": "https://www.sumiyoshijinja.or.jp/information.html",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -22003,13 +22087,21 @@
           "site_name": "住吉神社オフィシャルサイト",
           "is_official": true,
           "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://kaibutsu-blog.com/tsukuda-sumiyoshi-matsuri-2026/",
+          "site_name": "かいぶつくんブログ",
+          "is_official": false,
+          "retrieved_date": "2026-07-24"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "重複データを統合（festival_439 を festival_358 に統合、ソース4件に）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "duplicate_merge"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26081,68 +26173,6 @@
       }
     },
     {
-      "id": "festival_424",
-      "name": "南紀白浜花火フェスタ2026",
-      "alternate_names": [
-        "白浜花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "和歌山県",
-      "city": "西牟婁郡白浜町",
-      "date_start": "2026-08-10",
-      "date_end": "2026-08-10",
-      "date_note": "同じ白良浜では2026-09-13に「秋の花火フェスタ」、7〜8月の毎週土曜に「メッセージ花火」も別途開催（本エントリとは別イベント）",
-      "time_start": "20:00",
-      "time_end": "20:30",
-      "rain_policy": "不明",
-      "organizer": "南紀白浜観光協会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "",
-      "ticket_url": "",
-      "history_years": null,
-      "history_description": "",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "白良浜（南紀白浜温泉）",
-      "official_url": "https://www.wakayama-kanko.or.jp/events/detail_4292.html",
-      "sns_accounts": {},
-      "video_url": "",
-      "sources": [
-        {
-          "url": "https://www.wakayama-kanko.or.jp/events/detail_4292.html",
-          "site_name": "和歌山県公式観光サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-23"
-        },
-        {
-          "url": "https://weathernews.jp/hanabi/spot/3901010/",
-          "site_name": "ウェザーニュース",
-          "is_official": false,
-          "retrieved_date": "2026-07-23"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0730e466889/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-07-23"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_425",
       "name": "大須夏まつり",
       "alternate_names": [
@@ -27021,72 +27051,6 @@
       }
     },
     {
-      "id": "festival_439",
-      "name": "住吉神社例大祭（佃祭）",
-      "alternate_names": [
-        "佃住吉神社例大祭",
-        "佃祭"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "東京都",
-      "city": "中央区",
-      "date_start": "2026-08-06",
-      "date_end": "2026-08-10",
-      "date_note": "2026年は3年に一度の本祭り。8/6御旅所大祭式、8/8獅子頭・町内神輿巡行、8/9宮神輿巡幸（船渡御を含むとされる）、8/10宮神輿巡幸・宮入り。船渡御の具体的時刻は住吉神社公式サイトの詳細PDFのみに記載で本文からは未確認。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "住吉神社（佃住吉講）",
-      "genre": [
-        "神輿",
-        "神事"
-      ],
-      "scale": "中央区民文化財（佃囃子は江戸三大囃子の一つとされる）",
-      "is_free": true,
-      "price": "見学無料",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "佃島の氏神である住吉神社の例大祭。3年に一度の本祭りでは八角神輿を船に乗せて佃・月島・晴海の氏子地域を巡る船渡御が行われる。祭礼で奏される佃囃子は江戸三大囃子の一つとされる。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.sumiyoshijinja.or.jp/information.html",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.sumiyoshijinja.or.jp/information.html",
-          "site_name": "住吉神社オフィシャルサイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-24"
-        },
-        {
-          "url": "https://www.chuo-kanko.or.jp/blogs/event/2606021657",
-          "site_name": "一般社団法人中央区観光協会",
-          "is_official": true,
-          "retrieved_date": "2026-07-24"
-        },
-        {
-          "url": "https://kaibutsu-blog.com/tsukuda-sumiyoshi-matsuri-2026/",
-          "site_name": "かいぶつくんブログ",
-          "is_official": false,
-          "retrieved_date": "2026-07-24"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_440",
       "name": "なら燈花会",
       "alternate_names": [
@@ -27219,144 +27183,12 @@
       }
     },
     {
-      "id": "festival_442",
-      "name": "北上・みちのく芸能まつり",
-      "alternate_names": [
-        "北上夏まつり",
-        "みちのく芸能まつり"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "岩手県",
-      "city": "北上市",
-      "date_start": "2026-08-07",
-      "date_end": "2026-08-09",
-      "date_note": "第65回。トロッコ流しと花火の夕べ等の関連行事あり。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "北上・みちのく芸能まつり実行委員会",
-      "genre": [
-        "民俗芸能",
-        "パレード",
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": 65,
-      "history_description": "鬼剣舞など北上地域の郷土芸能を中心とした東北有数の芸能まつり。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://geinoumatsuri.com/",
-      "sns_accounts": {
-        "instagram": "https://www.instagram.com/geinoumatsuri/"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://geinoumatsuri.com/",
-          "site_name": "北上・みちのく芸能まつり公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-25"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0203e00647/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-07-25"
-        },
-        {
-          "url": "https://www.tohokumatsuri.jp/cate_iwate/post-284/",
-          "site_name": "東北のまつり",
-          "is_official": false,
-          "retrieved_date": "2026-07-25"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_443",
-      "name": "さっぽろ夏まつり",
-      "alternate_names": [
-        "札幌夏まつり"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "北海道",
-      "city": "札幌市",
-      "date_start": "2026-07-23",
-      "date_end": "2026-08-18",
-      "date_note": "第73回。大通ビアガーデン・すすきの祭り・北海盆踊り・狸まつり等の各行事から構成される。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "さっぽろ夏まつり実行委員会",
-      "genre": [
-        "盆踊り",
-        "パレード",
-        "民俗芸能"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "一部有料（ビアガーデン等）",
-      "ticket_url": "不明",
-      "history_years": 73,
-      "history_description": "大通公園を中心に開催される札幌の夏の風物詩。ビアガーデン、すすきの祭り、北海盆踊り、狸まつりなどで構成される。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.sapporo.travel/summerfes/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.sapporo.travel/summerfes/about/",
-          "site_name": "さっぽろ夏まつり公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-25"
-        },
-        {
-          "url": "https://www.gutabi.jp/event/detail/1544",
-          "site_name": "ぐうたび北海道",
-          "is_official": false,
-          "retrieved_date": "2026-07-25"
-        },
-        {
-          "url": "https://www.hokkaido-np.co.jp/event/79737/",
-          "site_name": "北海道新聞",
-          "is_official": false,
-          "retrieved_date": "2026-07-25"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_444",
       "name": "徳島市阿波おどり",
       "alternate_names": [
-        "阿波踊り",
-        "阿波おどり"
+        "THE AWAODORI",
+        "阿波おどり",
+        "阿波踊り"
       ],
       "similar_name_warning": false,
       "prefecture": "徳島県",
@@ -27374,7 +27206,7 @@
       ],
       "scale": "その他（日本三大盆踊りの一つとされる大規模な伝統行事）",
       "is_free": false,
-      "price": "有料演舞場あり（二部制：18:00〜19:40、20:20〜22:00）。無料演舞場・おどり広場も設置予定。",
+      "price": "有料演舞場あり（あわぎんホール、藍場浜演舞場、南内町演舞場、紺屋町演舞場）／両国本町・新町橋演舞場は無料観覧可",
       "ticket_url": "https://www.awanavi.jp/archives/topics/74239",
       "history_years": "不明",
       "history_description": "不明",
@@ -27405,78 +27237,27 @@
           "site_name": "日本経済新聞",
           "is_official": false,
           "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://www.awaodorimirai.com/",
+          "site_name": "阿波おどり未来へつなぐ実行委員会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-26"
+        },
+        {
+          "url": "https://www.awanavi.jp/archives/event/1731",
+          "site_name": "徳島県観光情報サイト阿波ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-07-26"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "重複データを統合（festival_457 を festival_444 に統合、ソース5件に）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_445",
-      "name": "長岡まつり大花火大会",
-      "alternate_names": [
-        "長岡花火大会",
-        "長岡まつり"
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "duplicate_merge"
       ],
-      "similar_name_warning": false,
-      "prefecture": "新潟県",
-      "city": "長岡市",
-      "date_start": "2026-08-02",
-      "date_end": "2026-08-03",
-      "date_note": "毎年8月2日・3日開催の日本三大花火の一つ。",
-      "time_start": "19:20",
-      "time_end": "21:10",
-      "rain_policy": "不明",
-      "organizer": "一般財団法人長岡花火財団",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他（日本三大花火の一つとされる大規模な花火大会）",
-      "is_free": false,
-      "price": "有料観覧席あり。一般販売(一次抽選)分は完売と報告あり。",
-      "ticket_url": "https://www.nagaokahanabi.jp/",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "信濃川河川敷（詳細アクセスは不明）",
-      "official_url": "https://www.nagaokahanabi.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.nagaokahanabi.jp/",
-          "site_name": "長岡花火チケットセンター（長岡花火財団）",
-          "is_official": true,
-          "retrieved_date": "2026-07-25"
-        },
-        {
-          "url": "https://event.jreast.co.jp/pages/articles-nagaokamatsuri",
-          "site_name": "JR東日本",
-          "is_official": true,
-          "retrieved_date": "2026-07-25"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0415e00665/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-07-25"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "⚠️ 矛盾: 打ち上げ終了時刻について、walkerplus等では21:25とする情報もあり（本エントリは19:20〜21:10説を採用）。",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28096,137 +27877,6 @@
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_456",
-      "name": "郡上おどり",
-      "alternate_names": [
-        "郡上踊り"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "岐阜県",
-      "city": "郡上市",
-      "date_start": "2026-07-11",
-      "date_end": "2026-09-05",
-      "date_note": "7月11日「おどり発祥祭」に始まり9月5日「おどり納め」まで全30夜。お盆の徹夜おどりは8月13日〜16日の4日間。",
-      "time_start": "20:00",
-      "time_end": "翌4:00〜5:00頃（徹夜おどり期間、日により異なる）",
-      "rain_policy": "不明",
-      "organizer": "郡上八幡観光協会（個別日程は各地区の神社・町内会が主催）",
-      "genre": [
-        "盆踊り",
-        "踊り"
-      ],
-      "scale": "国指定重要無形民俗文化財",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "江戸時代から続くとされる盆踊りで、8月13日〜16日の徹夜おどりが特に有名。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.gujohachiman.com/kanko/odori_schedule.html",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.gujohachiman.com/kanko/odori_schedule.html",
-          "site_name": "郡上八幡観光協会",
-          "is_official": true,
-          "retrieved_date": "2026-07-26"
-        },
-        {
-          "url": "https://tabitabigujo.com/event/%E9%83%A1%E4%B8%8A%E3%81%8A%E3%81%A9%E3%82%8A/",
-          "site_name": "TABITABI郡上",
-          "is_official": false,
-          "retrieved_date": "2026-07-26"
-        },
-        {
-          "url": "https://gujolife.com/event/2026%E5%B9%B4%E3%80%80%E9%83%A1%E4%B8%8A%E3%81%8A%E3%81%A9%E3%82%8A/",
-          "site_name": "郡上・ふるさと定住機構",
-          "is_official": false,
-          "retrieved_date": "2026-07-26"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_457",
-      "name": "徳島市阿波おどり",
-      "alternate_names": [
-        "阿波踊り",
-        "THE AWAODORI"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "徳島県",
-      "city": "徳島市",
-      "date_start": "2026-08-11",
-      "date_end": "2026-08-15",
-      "date_note": "8月11日はオープニング公演、メイン開催は8月12日〜15日。",
-      "time_start": "11:00",
-      "time_end": "22:00",
-      "rain_policy": "不明",
-      "organizer": "阿波おどり未来へつなぐ実行委員会",
-      "genre": [
-        "踊り",
-        "盆踊り"
-      ],
-      "scale": "その他（徳島市を代表する大規模な踊りの祭り）",
-      "is_free": false,
-      "price": "有料演舞場あり（あわぎんホール、藍場浜演舞場、南内町演舞場、紺屋町演舞場）／両国本町・新町橋演舞場は無料観覧可",
-      "ticket_url": "https://w.pia.jp/p/awaodori26aossr/",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.awaodorimirai.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.awaodorimirai.com/",
-          "site_name": "阿波おどり未来へつなぐ実行委員会 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-26"
-        },
-        {
-          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
-          "site_name": "徳島市公式ウェブサイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-26"
-        },
-        {
-          "url": "https://www.awanavi.jp/archives/event/1731",
-          "site_name": "徳島県観光情報サイト阿波ナビ",
-          "is_official": true,
-          "retrieved_date": "2026-07-26"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
