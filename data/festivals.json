@@ -3694,10 +3694,8 @@
       "trust_level": "中",
       "conflict_note": "祭り自体の内容・主催は3ソース一致で確認できたが、2026年の具体的な開催日は本稿時点で未発表のため「不明」とした。要確認。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27119,10 +27117,8 @@
       "trust_level": "高",
       "conflict_note": "重複データを統合（festival_004・festival_427 を festival_444 に統合、ソース7件に）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "duplicate_merge"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27742,6 +27738,58 @@
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_456",
+      "name": "遠野ホップ収穫祭",
+      "alternate_names": [
+        "遠野ホップ収穫祭2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "遠野市",
+      "date_start": "2026-08-21",
+      "date_end": "2026-08-23",
+      "date_note": "前夜祭：8/21(金)16:00〜21:00。メイン開催：8/22(土)10:00〜20:00、8/23(日)10:00〜17:00。",
+      "time_start": "10:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "遠野ホップ収穫祭実行委員会",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（記載なし）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "遠野産ホップの収穫を祝うビールの祭典。地元醸造所（遠野麦酒ZUMONA、遠野醸造）や大手ビールメーカーの限定ビールが提供される。",
+      "food_stalls": "30種類以上のビールが提供される。",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://tonojikan.jp/event/hop-harvest-festival/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tonojikan.jp/event/hop-harvest-festival/",
+          "site_name": "遠野時間（遠野市観光情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-26"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
