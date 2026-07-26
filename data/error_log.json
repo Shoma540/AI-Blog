@@ -425,6 +425,24 @@
       "step": "STEP10-1_fetch_analytics",
       "error": "GA4環境変数の中身が想定と異なりfetch_analytics.pyが未捕捉の例外でクラッシュ（AttributeError: int object has no attribute keys）",
       "detail": "GA4_SERVICE_ACCOUNT_JSON を json.loads した結果が dict ではなく int になっている（サービスアカウントJSON全体ではなく数値のような別の値が設定されている可能性）。cffi/_cffi_backend の欠落によるpyo3パニックは今回 pip install --user cffi で解消したが、この環境変数不整合は07-24から継続しておりスクリプト・環境変数の変更が禁止されているため routine からは修正不可。人間による GA4_SERVICE_ACCOUNT_JSON の再設定が必要。STEP10は今回スキップ。"
+    },
+    {
+      "timestamp": "2026-07-26 08:13",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-07-26 08:14",
+      "step": "STEP10-1_fetch_analytics",
+      "error": "GA4環境変数の中身が想定と異なりfetch_analytics.pyが未捕捉の例外でクラッシュ（AttributeError: int object has no attribute keys）",
+      "detail": "今回のコンテナは新規セッションのため google-analytics-data 未インストール状態から開始、pip install -r requirements.txt と pip install --user cffi でライブラリ側の問題（未インストール／_cffi_backend欠落によるpyo3パニック）は解消した。しかしその後も GA4_SERVICE_ACCOUNT_JSON を json.loads した結果が dict ではなく int になっており（07-24・07-25と完全に同一の症状）、from_service_account_infoが未捕捉のAttributeErrorでクラッシュする。3日連続（07-24・07-25・07-26）で同一の環境変数不整合が解消しておらず、スクリプト・環境変数の変更はroutineから禁止されているため修正不可。GA4_SERVICE_ACCOUNT_JSON にサービスアカウントJSON全体ではなく数値（GA4_PROPERTY_IDらしき値）が誤って設定されている可能性が高い。人間による環境変数の再設定が必要。STEP10は今回もスキップし、ユーザーへ通知する。"
+    },
+    {
+      "timestamp": "2026-07-26 08:13",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
     }
   ]
 }
