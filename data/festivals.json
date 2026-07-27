@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27 17:20",
+  "last_updated": "2026-07-27 18:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -15068,13 +15068,22 @@
           "site_name": "とりっぷ鳥取（鳥取県公式観光サイト）",
           "is_official": true,
           "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://sorahanabi.com/tottori/sakaiminato/minatomatsuri-hanabitaikai.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "⚠️ 矛盾: 「空花火2026」は7月26日開催と記載しているが、公式サイト（とりっぷ鳥取）およびウォーカープラスは8月9日としており、一致するソース数の多い8月9日を採用。",
+      "requires_check": true,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28067,7 +28076,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -28124,6 +28133,78 @@
         {
           "url": "https://www.asakusaevent.com/asakusa-samba-carnival-2026/",
           "site_name": "浅草イベント情報",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_462",
+      "name": "金武町青年エイサーまつり",
+      "alternate_names": [
+        "第24回金武町青年エイサーまつり",
+        "金武青年エイサーまつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "沖縄県",
+      "city": "国頭郡金武町",
+      "date_start": "2026-07-19",
+      "date_end": "2026-07-19",
+      "date_note": "第24回開催。",
+      "time_start": "17:30",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "金武町青年エイサーまつり実行委員会",
+      "genre": [
+        "民俗芸能",
+        "踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 24,
+      "history_description": "金武町内の青年会5団体に加え、沖縄市・名護市・うるま市などからゲスト青年会も参加して演舞を披露するエイサー祭り。屋台や花火も実施。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "金武地区公園（きんタームランド）沖縄県国頭郡金武町金武7758番地",
+      "official_url": "https://www.okinawastory.jp/event/600022602",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.okinawastory.jp/event/600022602",
+          "site_name": "おきなわ物語（沖縄観光情報WEBサイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://www.churatoku.net/info/0000968.aspx",
+          "site_name": "ちゅらとく",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://www.tabirai.net/sightseeing/column/0003458.aspx",
+          "site_name": "たびらい",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://okinawa-move.com/kincho-seinen-eisa-matsuri/",
+          "site_name": "おきなわムーブ",
           "is_official": false,
           "retrieved_date": "2026-07-27"
         }
