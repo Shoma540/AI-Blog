@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26 17:20",
+  "last_updated": "2026-07-27 08:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -27461,9 +27461,9 @@
       "city": "さいたま市見沼区",
       "date_start": "2026-08-07",
       "date_end": "2026-08-08",
-      "date_note": "初日16:00〜21:00（30周年記念イベント20:00〜）、2日目16:00〜21:30（ナイアガラ花火20:00〜）。",
+      "date_note": "前夜祭8/7(金)16:00〜21:00、本祭り8/8(土)16:00〜21:30。花火は8/8 20:10〜約30分間（30周年で例年よりパワーアップ）。",
       "time_start": "16:00",
-      "time_end": "21:30",
+      "time_end": "20:40",
       "rain_policy": "不明",
       "organizer": "東大宮盆踊り実行委員会",
       "genre": [
@@ -27480,7 +27480,7 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "東武アーバンパークライン 東大宮駅",
-      "official_url": "不明",
+      "official_url": "https://h-omiya-sf.org/",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -27491,13 +27491,26 @@
           "site_name": "リプロ マヴィ（さいたま市・埼玉県南部地域情報サイト）",
           "is_official": false,
           "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://h-omiya-sf.org/schedule/",
+          "site_name": "東大宮サマーフェスティバル公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "地域情報サイト1件のみでの確認。主催・公式サイトの一次情報は未確認のため要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "official_url",
+        "sources",
+        "time_end",
+        "date_note",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27703,10 +27716,10 @@
       "city": "大川市",
       "date_start": "2026-08-01",
       "date_end": "2026-08-01",
-      "date_note": "夏まつり本体は17:00〜21:10、花火は21:00〜21:10。2026年開催情報は非公式サイトのみで確認、公式（大川市・大川観光協会）ページでの2026年版一次情報は未確認のため要確認。",
+      "date_note": "夏まつり本体は17:00〜21:10、花火は21:00〜21:10（クロスロードふくおかでは17:30〜21:00・雨天中止と案内、時間はソースにより若干差異あり）。夜市・高邦会夏祭り・盆踊り大会の3イベントを統合した祭り。",
       "time_start": "17:00",
       "time_end": "21:10",
-      "rain_policy": "不明",
+      "rain_policy": "雨天中止",
       "organizer": "大川市民夏まつり実行委員会",
       "genre": [
         "花火"
@@ -27732,13 +27745,25 @@
           "site_name": "じゃらん花火大会2026",
           "is_official": false,
           "retrieved_date": "2026-07-26"
+        },
+        {
+          "url": "https://www.crossroadfukuoka.jp/event/11528",
+          "site_name": "クロスロードふくおか（福岡県観光情報サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "rain_policy",
+        "date_note",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27787,6 +27812,134 @@
         }
       ],
       "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_457",
+      "name": "第二回中目黒盆踊り大会2026",
+      "alternate_names": [
+        "中目黒盆踊り大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "目黒区",
+      "date_start": "2026-08-29",
+      "date_end": "2026-08-30",
+      "date_note": "開場13:00、盆踊り開始17:30、終了21:00。雨天中止。",
+      "time_start": "13:00",
+      "time_end": "21:00",
+      "rain_policy": "雨天中止",
+      "organizer": "中目黒盆踊り大会実行委員会（企画・運営：ナカメエリアマネジメント）",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": 2,
+      "history_description": "2025年に第1回が開催された新しい盆踊り大会。目黒川船入場「フナイリバ」を会場に地域住民が「おどる、つながる」をテーマに開催。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "目黒区中目黒1-11-18 フナイリバ",
+      "official_url": "https://nakamebonodori.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://nakamebonodori.jp/",
+          "site_name": "第二回中目黒盆踊り大会2026公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000010.000112994.html",
+          "site_name": "PR TIMES（ナカメエリアマネジメント プレスリリース）",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://meguro.goguynet.jp/2026/07/27/nakameguro_bonodori2026/",
+          "site_name": "号外NET 目黒区",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://www.tokyofes.info/2026/nakameguro-bon-odori-2026/",
+          "site_name": "TOKYOFES",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_458",
+      "name": "第7回渋谷盆踊り2026",
+      "alternate_names": [
+        "渋谷盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "交通規制16:30〜22:30、盆踊り大会18:00〜21:30（運営状況により前倒しの可能性あり）。荒天時は中止の場合あり。",
+      "time_start": "18:00",
+      "time_end": "21:30",
+      "rain_policy": "荒天時中止の場合あり",
+      "organizer": "渋谷道玄坂商店街振興組合（後援：渋谷区）",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": 7,
+      "history_description": "渋谷道玄坂商店街が主催する盆踊り大会。109イベントスペース、道玄坂、文化村通りを会場に開催。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "渋谷駅より道玄坂・文化村通り一帯",
+      "official_url": "https://shibuyadogenzaka.com/?p=9030",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://shibuyadogenzaka.com/?p=9030",
+          "site_name": "渋谷道玄坂公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://summer.walkerplus.com/odekake/detail_e/ar0313e557931/",
+          "site_name": "ウォーカープラス 夏休みおでかけガイド2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
