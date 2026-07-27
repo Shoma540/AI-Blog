@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27 16:20",
+  "last_updated": "2026-07-27 17:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -27995,6 +27995,143 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_460",
+      "name": "阿波おどり（徳島市）",
+      "alternate_names": [
+        "徳島阿波おどり",
+        "THE AWAODORI"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "徳島県",
+      "city": "徳島市",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-15",
+      "date_note": "8/11(火・祝)はオープニング公演（アスティとくしま）、8/12(水)〜15(土)がメイン公演。",
+      "time_start": "11:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "阿波おどり実行委員会（徳島市）",
+      "genre": [
+        "踊り",
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "徳島市を代表する夏まつり",
+      "is_free": false,
+      "price": "有料演舞場（あわぎんホール、藍場浜・南内町・紺屋町演舞場等）あり。両国本町演舞場・新町橋演舞場等の無料演舞場もあり。",
+      "ticket_url": "https://www.awaodorimirai.com/",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.awaodorimirai.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
+          "site_name": "徳島市公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://www.awaodorimirai.com/2025-%E9%96%8B%E5%82%AC%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB",
+          "site_name": "The Awaodori",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://www.awanavi.jp/archives/topics/74239",
+          "site_name": "阿波ナビ（徳島県観光情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://matcha-jp.com/jp/4169",
+          "site_name": "MATCHA",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_461",
+      "name": "浅草サンバカーニバル",
+      "alternate_names": [
+        "第41回浅草サンバカーニバル パレードコンテスト"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "台東区",
+      "date_start": "2026-08-29",
+      "date_end": "2026-08-29",
+      "date_note": "小雨決行",
+      "time_start": "13:00",
+      "time_end": "18:00",
+      "rain_policy": "小雨決行",
+      "organizer": "浅草サンバカーニバル実行委員会",
+      "genre": [
+        "パレード"
+      ],
+      "scale": "第41回",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 41,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "馬道通り〜雷門通り",
+      "official_url": "https://www.asakusa-samba.org/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.asakusa-samba.org/",
+          "site_name": "浅草サンバカーニバル実行委員会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2069254/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://www.asakusaevent.com/asakusa-samba-carnival-2026/",
+          "site_name": "浅草イベント情報",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
