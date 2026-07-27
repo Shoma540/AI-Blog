@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27 08:30",
+  "last_updated": "2026-07-27 12:24",
   "festivals": [
     {
       "id": "festival_001",
@@ -27502,15 +27502,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "official_url",
-        "sources",
-        "time_end",
-        "date_note",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27756,14 +27749,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "rain_policy",
-        "date_note",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27884,7 +27871,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -27940,6 +27927,71 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_459",
+      "name": "姥神大神宮渡御祭",
+      "alternate_names": [
+        "江差姥神大神宮渡御祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "檜山郡江差町",
+      "date_start": "2026-08-09",
+      "date_end": "2026-08-11",
+      "date_note": "8/9 御霊代奉遷祭・先導山車定之儀、8/10 本祭・下町巡行(11:00〜)、8/11 本祭・上町巡行(10:00〜)。",
+      "time_start": "10:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "江差町役場 追分観光課／姥神大神宮",
+      "genre": [
+        "山車",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財（江差の姥神大神宮渡御祭行事）／北海道遺産",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 380,
+      "history_description": "北海道最古の祭りとされ、380年の伝統を持つ。豪華な13台の山車（やま）が3日間にわたり町内を練り歩く。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://esashi.town/tourism/info/ubagami-togyosai/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://esashi.town/tourism/info/ubagami-togyosai/",
+          "site_name": "江差町観光情報（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://japan-heritage.bunka.go.jp/ja/news/353/",
+          "site_name": "日本遺産ポータルサイト（文化庁）",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://www.hokkaidoisan.org/esashi_ubagami.html",
+          "site_name": "北海道遺産構想推進協議会",
+          "is_official": true,
+          "retrieved_date": "2026-07-27"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
