@@ -443,6 +443,12 @@
       "step": "fetch_analytics",
       "error": "GA4ライブラリ未インストール",
       "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-07-27 08:18",
+      "step": "STEP10-1_fetch_analytics",
+      "error": "GA4環境変数の中身が想定と異なりfetch_analytics.pyが未捕捉の例外でクラッシュ（AttributeError: int object has no attribute keys）",
+      "detail": "2026-07-24・07-25・07-26に続き4日連続で同一の環境変数不整合が継続。pip install -r requirements.txt と pip install --user cffi でライブラリ側の問題（_cffi_backend欠落によるpyo3パニック）は今回も解消したが、GA4_SERVICE_ACCOUNT_JSON を json.loads した結果が dict ではなく int になっており、from_service_account_info呼び出し時に未捕捉のAttributeErrorでクラッシュする。GA4_SERVICE_ACCOUNT_JSON にサービスアカウントJSON全体ではなく数値（おそらくGA4_PROPERTY_IDの値）が誤って設定されている可能性が高い。スクリプト・環境変数の変更はroutineから禁止されているため修正不可。STEP10-2以降（学習記録読込・検証・改善実装・push）は全てスキップする。人間によるGA4_PROPERTY_ID / GA4_SERVICE_ACCOUNT_JSON環境変数の再設定が必要。4日間未解消のため本実行でユーザーへ再度プッシュ通知する。"
     }
   ]
 }
