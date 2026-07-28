@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28 17:30",
+  "last_updated": "2026-07-28 18:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -28593,7 +28593,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -28652,6 +28652,68 @@
       "trust_level": "低",
       "conflict_note": "⚠️矛盾：開催日が情報源により8月1日（ウォーカープラス等）と8月第1日曜＝8月2日（公式ページの案内文言から算出）とで一致しない。確定情報ではないため信頼度を上げていない。",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_470",
+      "name": "六本木ヒルズ盆踊り2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "港区",
+      "date_start": "2026-08-21",
+      "date_end": "2026-08-23",
+      "date_note": "21回目の開催。8月21日は前夜祭（盆踊りなし、楽劇のみ）。",
+      "time_start": "15:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "六本木ヒルズ自治会、森ビル株式会社",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 21,
+      "history_description": "20年以上続く夏の風物詩。六本木ヒルズオリジナル盆踊り曲「六本人音頭」に合わせて踊る、誰でも参加可能なイベント。",
+      "food_stalls": "グルメ屋台11店舗（六本木ヒルズアリーナ）、キッチンカー6店舗（けやき坂通り）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "六本木ヒルズアリーナ、六本木けやき坂通り",
+      "official_url": "https://www.roppongihills.com/events/2026/08/0598.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000406.000048109.html",
+          "site_name": "PR TIMES（森ビル株式会社）",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://news.cube-soft.jp/article/4081688",
+          "site_name": "Cube ニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://japan.storm.mg/articles/1151599",
+          "site_name": "風傳媒日本語版",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
