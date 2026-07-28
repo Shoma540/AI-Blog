@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28 21:30",
+  "last_updated": "2026-07-28 16:21",
   "festivals": [
     {
       "id": "festival_001",
@@ -2347,7 +2347,7 @@
       "price": "見学無料",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "不明",
+      "history_description": "からくり仕掛けの曳山（曳山13基）が巡行する大津三大祭りの一つ。国指定重要無形民俗文化財。2025年12月、ユネスコ無形文化遺産「山・鉾・屋台行事」の構成行事に新たに追加登録された。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -2363,13 +2363,22 @@
           "site_name": "大津祭曳山連盟公式",
           "is_official": true,
           "retrieved_date": "2026-06-30"
+        },
+        {
+          "url": "https://otsu.or.jp/event/otsumatsuri_festival25",
+          "site_name": "びわ湖大津観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "history_description",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14639,13 +14648,29 @@
           "site_name": "唐津観光協会（公式）",
           "is_official": true,
           "retrieved_date": "2026-07-10"
+        },
+        {
+          "url": "https://kbc.co.jp/wish/article/46758/",
+          "site_name": "KBC「ジモタイムズ」（開催報告）",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://sagatabi.jp/hamatama-hanabi-2026/",
+          "site_name": "佐賀たび",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "確認できたソースは唐津観光協会公式サイト1件のみ。",
+      "trust_level": "高",
+      "conflict_note": "開催報告記事（KBC）と唐津観光協会・佐賀たび等の複数ソースで2026-07-24開催が事後確認された。中止・順延の情報なし。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -15031,9 +15056,9 @@
       "similar_name_warning": false,
       "prefecture": "鳥取県",
       "city": "境港市",
-      "date_start": "2026-08-09",
-      "date_end": "2026-08-09",
-      "date_note": "",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "当初「8月9日」として記録していたが、一次ソース（空花火2026）の再確認により「8月9日は米子がいな祭花火大会」と明確に区別されており、みなと祭花火大会自体は7月26日開催と判明。日付を訂正。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -15074,13 +15099,25 @@
           "site_name": "空花火2026",
           "is_official": false,
           "retrieved_date": "2026-07-27"
+        },
+        {
+          "url": "https://sorahanabi.com/tottori/sakaiminato/minatomatsuri-hanabitaikai.html",
+          "site_name": "空花火2026（再確認）",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾: 「空花火2026」は7月26日開催と記載しているが、公式サイト（とりっぷ鳥取）およびウォーカープラスは8月9日としており、一致するソース数の多い8月9日を採用。",
+      "conflict_note": "訂正: 8月9日は別イベント（米子がいな祭花火大会）との混同だった可能性が高い。境港市公式または境港市観光協会の一次ソースでの最終確認は未取得のため信頼度は「中」を維持。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "date_end",
+        "date_note",
+        "date_start",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -22181,7 +22218,7 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "JR奈良駅からバスで「唐招提寺」下車",
-      "official_url": "不明",
+      "official_url": "http://yamatoji.nara-kankou.or.jp/01shaji/02tera/01north_area/toshodaiji/event/0000000013",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -22198,13 +22235,22 @@
           "site_name": "neoNARA 奈良観光サイト",
           "is_official": false,
           "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "http://yamatoji.nara-kankou.or.jp/01shaji/02tera/01north_area/toshodaiji/event/0000000013",
+          "site_name": "あをによしなら旅ネット（奈良県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
         }
       ],
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "official_url",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -22429,7 +22475,7 @@
       "price": "無料",
       "ticket_url": "",
       "history_years": null,
-      "history_description": "祭りの現行形式は350〜400年余りの歴史（表記に揺れあり）。中核をなす「林家舞楽」は1,100年超の伝統を持ち、日本四大舞楽の一つとして国の重要無形民俗文化財に指定されている（指定対象は林家舞楽）。",
+      "history_description": "祭りの中核をなす「林家舞楽」（大阪四天王寺系）は1,100年余りの伝統を持ち、日本四大舞楽の一つとして国の重要無形民俗文化財に指定されている。神輿渡御を伴う現行の祭礼形式は350年以上の歴史を持つ。（「400年」という表記が一部で見られるが出典を確認できず、公式情報に基づき上記の通り整理）",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -22460,8 +22506,10 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 2026年の具体的日付(9/19-21)は「敬老の日を含む土日月」という通例からの算出であり、2026年版として明記した一次情報源は未確認。歴史年数の表記に350年/400年/1100年超の揺れあり。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "history_description"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26581,11 +26629,14 @@
           "retrieved_date": "2026-07-23"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "",
+      "trust_level": "中",
+      "conflict_note": "東京農業大学公式サイトと収穫祭実行委員会公式サイトの2ソースで10/11-12開催が一致。ただし両者とも同一運営母体のため独立第三者ソースは手薄。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26781,16 +26832,16 @@
     {
       "alternate_names": [],
       "similar_name_warning": false,
-      "date_note": "熱川の夏の風物詩。約700発を熱川海岸から打ち上げ。2026年の具体的な開催日は一次情報未確認（2025年は第56回開催）。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_note": "第57回。2026年7月25日(土)18:30〜21:00、熱川海岸から約700〜800発を打ち上げ。",
+      "time_start": "18:30",
+      "time_end": "21:00",
       "rain_policy": "不明",
       "organizer": "不明",
       "is_free": true,
       "price": "不明",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "熱川の夏の風物詩として定期開催される海上花火大会。",
+      "history_description": "熱川の夏の風物詩として毎年開催される海上花火大会。2026年は第57回。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -26800,10 +26851,20 @@
         "instagram": "不明"
       },
       "video_url": "不明",
-      "conflict_note": "2026年の開催日を明記した一次情報（東伊豆町公式等）が見つからず、直近年の実績情報のみ確認できた状態。",
+      "conflict_note": "準公式（美伊豆B-Izu、熱川温泉旅館組合問合せ）と独立ポータル（いこーよ）の2ソースで日付・回数が一致。東伊豆町または旅館組合の直接公式発表ページは未確認のため信頼度は「中」。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "date_end",
+        "date_note",
+        "date_start",
+        "history_description",
+        "sources",
+        "time_end",
+        "time_start",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26812,8 +26873,8 @@
       "name": "熱川温泉海上花火大会",
       "prefecture": "静岡県",
       "city": "東伊豆町",
-      "date_start": "不明",
-      "date_end": "不明",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-25",
       "genre": [
         "花火"
       ],
@@ -26830,9 +26891,21 @@
           "site_name": "ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://b-izu.com/feature/post-26650/",
+          "site_name": "美伊豆 B-Izu（伊豆観光公式サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://iko-yo.net/events/571751",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
         }
       ],
-      "trust_level": "低"
+      "trust_level": "中"
     },
     {
       "id": "festival_438",
@@ -27052,7 +27125,7 @@
       "city": "徳島市",
       "date_start": "2026-08-11",
       "date_end": "2026-08-15",
-      "date_note": "8月11日(火・祝)は前夜祭「匠の舞台 優りび」。8月12日(水)〜15日(土)が本番「夢の舞台 祭りび」（選抜阿波おどり）。",
+      "date_note": "8月11日(火・祝)は前夜祭「匠の舞台 優りび」。8月12日(水)〜15日(土)が本番「夢の舞台 祭りび」（選抜阿波おどり）。開始時刻は会場種別により異なる: 屋外演舞場（Sansan藍場浜演舞場・あわぎん南内町演舞場等）は第1部18:00〜、屋内会場（アスティとくしま・あわぎんホール等）は第1部11:00〜。（前夜祭のみ 第一部12:00開始）",
       "time_start": "18:00",
       "time_end": "22:00",
       "rain_policy": "不明",
@@ -27127,10 +27200,14 @@
         }
       ],
       "trust_level": "高",
-      "conflict_note": "重複データを統合（festival_004・festival_427 を festival_444 に統合、ソース7件に）; 重複データを統合（festival_460『阿波おどり（徳島市）』を統合。開始時刻の記載に相違あり（18:00開始 と 11:00開始）→要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "解消済み: 開始時刻の相違（18:00開始／11:00開始）は誤りではなく、屋外演舞場と屋内会場の違いによるもの。徳島市公式サイトで確認済み。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "date_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27808,13 +27885,29 @@
           "site_name": "遠野時間（遠野市観光情報サイト）",
           "is_official": true,
           "retrieved_date": "2026-07-26"
+        },
+        {
+          "url": "https://japanhopcountry.com/news/1382/",
+          "site_name": "TONO Japan Hop Country公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://www.jreast.co.jp/press/2026/morioka_j/20260722_m03.pdf",
+          "site_name": "JR東日本盛岡支社プレスリリース",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "",
+      "trust_level": "高",
+      "conflict_note": "遠野市観光サイト・TONO Japan Hop Country公式・JR東日本盛岡支社プレスリリース（臨時快速列車運行、完全に独立した第三者機関）の3ソースで日付・時刻まで一致。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28278,7 +28371,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -28343,6 +28436,134 @@
           "url": "https://sp.jorudan.co.jp/hanabi/spot_87413.html",
           "site_name": "ジョルダン花火大会2026",
           "is_official": false,
+          "retrieved_date": "2026-07-28"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_466",
+      "name": "村上祭の屋台行事",
+      "alternate_names": [
+        "村上大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "村上市",
+      "date_start": "2026-07-06",
+      "date_end": "2026-07-07",
+      "date_note": "宵祭り7/6、本祭7/7開催（毎年固定日程）。西奈弥羽黒神社の例大祭に合わせ19台の「おしゃぎり」（漆塗り・彫刻を施した屋台）が市内を巡行。2026年開催分はすでに終了（新潟三大荒祭りの一つ）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "村上大祭実行委員会（西奈弥羽黒神社）",
+      "genre": [
+        "山車",
+        "屋台行事",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "見物無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "西奈弥羽黒神社の例大祭で、19台の漆塗り・彫刻が施された「おしゃぎり」（屋台）が村上市内を巡行する新潟三大荒祭りの一つ。2025年12月、ユネスコ無形文化遺産「山・鉾・屋台行事」の構成行事に新たに追加登録された。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://niigata-kankou.or.jp/event/13027",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://niigata-kankou.or.jp/event/13027",
+          "site_name": "新潟県観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E5%A4%A7%E7%A5%AD",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_467",
+      "name": "放生津八幡宮祭の曳山・築山行事",
+      "alternate_names": [
+        "放生津まつり",
+        "新湊曳山祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "富山県",
+      "city": "射水市",
+      "date_start": "2026-10-01",
+      "date_end": "2026-10-02",
+      "date_note": "例年9/30〜10/2にかけて開催。曳山巡行が10/1、築山行事が10/2。富山県内で最多の13基の曳山が特徴。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "放生津八幡宮／新湊曳山祭保存会",
+      "genre": [
+        "山車",
+        "曳山",
+        "屋台行事",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "見物無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "放生津八幡宮の例大祭で、富山県内最多の13基の曳山と築山行事が行われる。2021年に国の重要無形民俗文化財に指定され、2025年12月にユネスコ無形文化遺産「山・鉾・屋台行事」の構成行事として追加登録された。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.imizu.toyama.jp/event-topics/svTopiDtl.aspx?servno=31822",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.imizu.toyama.jp/event-topics/svTopiDtl.aspx?servno=31822",
+          "site_name": "射水市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://online.bunka.go.jp/heritages/detail/589090",
+          "site_name": "文化遺産オンライン（文化庁）",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://www.houjyoudu.com/",
+          "site_name": "放生津八幡宮公式",
+          "is_official": true,
           "retrieved_date": "2026-07-28"
         }
       ],
