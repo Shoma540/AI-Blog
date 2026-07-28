@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27 18:14",
+  "last_updated": "2026-07-28 17:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -15079,11 +15079,8 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 「空花火2026」は7月26日開催と記載しているが、公式サイト（とりっぷ鳥取）およびウォーカープラスは8月9日としており、一致するソース数の多い8月9日を採用。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27121,13 +27118,23 @@
           "site_name": "Discover Japan",
           "is_official": false,
           "retrieved_date": "2026-07-23"
+        },
+        {
+          "url": "https://matcha-jp.com/jp/4169",
+          "site_name": "MATCHA",
+          "is_official": false,
+          "retrieved_date": "2026-07-27"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "重複データを統合（festival_004・festival_427 を festival_444 に統合、ソース7件に）",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "重複データを統合（festival_004・festival_427 を festival_444 に統合、ソース7件に）; 重複データを統合（festival_460『阿波おどり（徳島市）』を統合。開始時刻の記載に相違あり（18:00開始 と 11:00開始）→要確認。",
+      "requires_check": true,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28011,79 +28018,6 @@
       }
     },
     {
-      "id": "festival_460",
-      "name": "阿波おどり（徳島市）",
-      "alternate_names": [
-        "徳島阿波おどり",
-        "THE AWAODORI"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "徳島県",
-      "city": "徳島市",
-      "date_start": "2026-08-11",
-      "date_end": "2026-08-15",
-      "date_note": "8/11(火・祝)はオープニング公演（アスティとくしま）、8/12(水)〜15(土)がメイン公演。",
-      "time_start": "11:00",
-      "time_end": "22:00",
-      "rain_policy": "不明",
-      "organizer": "阿波おどり実行委員会（徳島市）",
-      "genre": [
-        "踊り",
-        "パレード",
-        "民俗芸能"
-      ],
-      "scale": "徳島市を代表する夏まつり",
-      "is_free": false,
-      "price": "有料演舞場（あわぎんホール、藍場浜・南内町・紺屋町演舞場等）あり。両国本町演舞場・新町橋演舞場等の無料演舞場もあり。",
-      "ticket_url": "https://www.awaodorimirai.com/",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.awaodorimirai.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
-          "site_name": "徳島市公式ウェブサイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-27"
-        },
-        {
-          "url": "https://www.awaodorimirai.com/2025-%E9%96%8B%E5%82%AC%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB",
-          "site_name": "The Awaodori",
-          "is_official": true,
-          "retrieved_date": "2026-07-27"
-        },
-        {
-          "url": "https://www.awanavi.jp/archives/topics/74239",
-          "site_name": "阿波ナビ（徳島県観光情報サイト）",
-          "is_official": true,
-          "retrieved_date": "2026-07-27"
-        },
-        {
-          "url": "https://matcha-jp.com/jp/4169",
-          "site_name": "MATCHA",
-          "is_official": false,
-          "retrieved_date": "2026-07-27"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_461",
       "name": "浅草サンバカーニバル",
       "alternate_names": [
@@ -28207,6 +28141,71 @@
           "site_name": "おきなわムーブ",
           "is_official": false,
           "retrieved_date": "2026-07-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_463",
+      "name": "水郷大江夏まつり灯ろう流し花火大会",
+      "alternate_names": [
+        "大江町最上川河畔花火大会",
+        "第104回水郷大江夏まつり灯ろう流し花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "西村山郡大江町",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "第104回。荒天時は中止。",
+      "time_start": "19:00",
+      "time_end": "20:50",
+      "rain_policy": "雨天決行、荒天時は中止",
+      "organizer": "水郷大江夏まつり大会事務局（大江町地域振興課内）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "山形県内で最も古い歴史を持つ花火大会とされる",
+      "is_free": true,
+      "price": "見物無料（一部有料駐車場あり）",
+      "ticket_url": "不明",
+      "history_years": 104,
+      "history_description": "水難供養をルーツに始まったとされる、山形県内で最も古い歴史を持つ花火大会。最上川河畔で灯ろう流しとともに行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR左沢線左沢駅から徒歩5分。無料駐車場あり（約1500台）、一部有料あり、シャトルバス運行。",
+      "official_url": "https://yamagatakanko.com/festivals/detail_2990.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://yamagatakanko.com/festivals/detail_2990.html",
+          "site_name": "やまがたへの旅（山形県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0206e00658/data.html",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87149.html",
+          "site_name": "ジョルダン花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
         }
       ],
       "trust_level": "高",
