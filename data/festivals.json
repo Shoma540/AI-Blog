@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28 16:21",
+  "last_updated": "2026-07-28 17:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -2374,11 +2374,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "history_description",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14665,12 +14662,8 @@
       "trust_level": "高",
       "conflict_note": "開催報告記事（KBC）と唐津観光協会・佐賀たび等の複数ソースで2026-07-24開催が事後確認された。中止・順延の情報なし。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -15110,14 +15103,8 @@
       "trust_level": "中",
       "conflict_note": "訂正: 8月9日は別イベント（米子がいな祭花火大会）との混同だった可能性が高い。境港市公式または境港市観光協会の一次ソースでの最終確認は未取得のため信頼度は「中」を維持。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_end",
-        "date_note",
-        "date_start",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -22246,11 +22233,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "official_url",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -22506,10 +22490,8 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 2026年の具体的日付(9/19-21)は「敬老の日を含む土日月」という通例からの算出であり、2026年版として明記した一次情報源は未確認。歴史年数の表記に350年/400年/1100年超の揺れあり。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26632,11 +26614,8 @@
       "trust_level": "中",
       "conflict_note": "東京農業大学公式サイトと収穫祭実行委員会公式サイトの2ソースで10/11-12開催が一致。ただし両者とも同一運営母体のため独立第三者ソースは手薄。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26853,18 +26832,8 @@
       "video_url": "不明",
       "conflict_note": "準公式（美伊豆B-Izu、熱川温泉旅館組合問合せ）と独立ポータル（いこーよ）の2ソースで日付・回数が一致。東伊豆町または旅館組合の直接公式発表ページは未確認のため信頼度は「中」。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_end",
-        "date_note",
-        "date_start",
-        "history_description",
-        "sources",
-        "time_end",
-        "time_start",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27202,12 +27171,8 @@
       "trust_level": "高",
       "conflict_note": "解消済み: 開始時刻の相違（18:00開始／11:00開始）は誤りではなく、屋外演舞場と屋内会場の違いによるもの。徳島市公式サイトで確認済み。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27902,12 +27867,8 @@
       "trust_level": "高",
       "conflict_note": "遠野市観光サイト・TONO Japan Hop Country公式・JR東日本盛岡支社プレスリリース（臨時快速列車運行、完全に独立した第三者機関）の3ソースで日付・時刻まで一致。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28502,7 +28463,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -28570,6 +28531,127 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_468",
+      "name": "おおさき花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "大崎市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "",
+      "time_start": "19:30",
+      "time_end": "21:00",
+      "rain_policy": "荒天時中止",
+      "organizer": "一般社団法人おおさき青年会議所",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（事前予約不要）。協賛者向け有料観覧席は受付終了。",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "宮城県大崎市古川の江合川河川敷で開催される花火大会。約5000発を打ち上げ。",
+      "food_stalls": "あり（新設の飲食エリア「たからいち」を実施予定）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "宮城県大崎市古川渕尻地区 江合河川敷（打上）／古川福沼 江合土手上（観覧）",
+      "official_url": "https://osaki-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://osaki-hanabi.com/",
+          "site_name": "おおさき花火大会2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1301018/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Tohoku/miyagi/2026/2026-08-01_oosaki-hanabi-taikai.html",
+          "site_name": "花火に行こう",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_469",
+      "name": "まほろば夏まつり「まほろば夢花火」",
+      "alternate_names": [
+        "まほろば夢花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "黒川郡大和町",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "公式ページでは開催時期を「8月第1週の日曜日」と案内しているが、複数の花火大会情報サイトは2026年8月1日(土)と記載。2026年の8月第1日曜は8月2日であり、日付に⚠️矛盾あり。過去には8月4日開催の年もある。公式サイトでの最終確認が必要。",
+      "time_start": "19:30",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "まほろばまつり実行委員会（大和町商工観光課）",
+      "genre": [
+        "花火",
+        "屋台行事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "宮城県黒川郡大和町総合運動公園で開催される夏まつり。ステージイベントや屋台、車両展示に加え花火「まほろば夢花火」を実施。",
+      "food_stalls": "あり",
+      "crowd_level": "例年の人出 約1万人",
+      "visitors": "約1万人（例年）",
+      "access": "宮城県黒川郡大和町総合運動公園。仙台市地下鉄泉中央駅からタクシー約30分、東北道大和ICから約10分。",
+      "official_url": "https://www.town.taiwa.miyagi.jp/soshiki/shokokanko/shokokanko/379.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.taiwa.miyagi.jp/soshiki/shokokanko/shokokanko/379.html",
+          "site_name": "大和町公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0204e00031/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-28"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "⚠️矛盾：開催日が情報源により8月1日（ウォーカープラス等）と8月第1日曜＝8月2日（公式ページの案内文言から算出）とで一致しない。確定情報ではないため信頼度を上げていない。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
