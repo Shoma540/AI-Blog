@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29 12:17",
+  "last_updated": "2026-07-29 16:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -23814,7 +23814,7 @@
       "city": "廿日市市宮島町",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "【2026年は開催中止】主催者は公式サイトで「諸般の事情」により2026年の開催を見送ると発表。約50年続いた「宮島水中花火大会」は2021年に一旦終了、2025年10月18日に地元企業主体で「厳島水中花火大会」として6年ぶりに復活したが、その翌年である2026年は再び中止となった。直近開催（2025年）は10/18(土)18:15〜18:45。既存の宮島の神事「宮島管絃祭」（festival_046）とは別のイベントであるため要混同注意。",
+      "date_note": "2026年は諸般の事情により開催が見送られた。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -23840,52 +23840,24 @@
       "sources": [
         {
           "url": "https://hanabifes.com/itsukushima/",
-          "site_name": "厳島水中花火大会 公式サイト",
+          "site_name": "厳島水中花火大会 公式",
           "is_official": true,
-          "retrieved_date": "2026-07-21"
+          "retrieved_date": "2026-07-29"
         },
         {
-          "url": "https://news.yahoo.co.jp/articles/2273ae49d487c76c0271e61f2cca4f45077f72f5",
-          "site_name": "広島テレビニュース（Yahoo!ニュース）",
-          "is_official": false,
-          "retrieved_date": "2026-07-21"
-        },
-        {
-          "url": "https://hiroshima.keizai.biz/headline/3498/",
-          "site_name": "広島経済新聞",
-          "is_official": false,
-          "retrieved_date": "2026-07-21"
-        },
-        {
-          "url": "https://www.chugoku-np.co.jp/articles/-/85935",
-          "site_name": "中国新聞デジタル",
-          "is_official": false,
-          "retrieved_date": "2026-07-21"
-        },
-        {
-          "url": "https://www.chugoku-np.co.jp/articles/-/864333",
-          "site_name": "中国新聞デジタル",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://news.yahoo.co.jp/articles/efc8a4e0a9cf26a7a2501cc4a8125640386624e1",
-          "site_name": "Yahoo!ニュース(スポニチアネックス)",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://hanabi-compass.jp/festivals/miyajima-hanabi",
-          "site_name": "hanabi-compass",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%B3%B6%E6%B0%B4%E4%B8%AD%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A",
+          "site_name": "Wikipedia",
           "is_official": false,
           "retrieved_date": "2026-07-29"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "⚠️矛盾: 2026年の開催について「開催見送りが発表された」とする情報と「10/18開催予定」とする情報が併存。公式発表要確認。",
+      "conflict_note": "2026年開催見送り（複数ソースで確認）",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -23902,7 +23874,7 @@
       "city": "呉市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "【2026年は中止（廃止）】2026年3月4日、呉市・呉商工会議所等でつくる呉まつり協会が中止を発表。物価高騰・人件費上昇等により従来形式での開催が困難になったことが理由。2025年（第76回呉の夏まつり／第48回呉海上花火大会）が直近開催で、約2,000発の花火が台船から打ち上げられ、海上自衛隊呉地方総監部の協力で自衛艦のイルミネーションと花火が共演する特色ある祭典だった。呉市は別形式での花火イベント開催を検討中とされる。",
+      "date_note": "呉まつり協会が2026年3月4日の役員会で「呉海上花火大会」の廃止を決定（物価高騰などが理由）。代替イベントを2026年秋に他イベントと連携して開催する方向で検討中。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -23927,35 +23899,25 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://kure-trip.jp/events/3",
-          "site_name": "くれとりっぷ（呉市公式観光サイト）",
-          "is_official": true,
-          "retrieved_date": "2026-07-21"
-        },
-        {
           "url": "https://www.chugoku-np.co.jp/articles/-/796230",
           "site_name": "中国新聞デジタル",
           "is_official": false,
-          "retrieved_date": "2026-07-21"
+          "retrieved_date": "2026-07-29"
         },
         {
-          "url": "https://yakei-fan.com/magazine/fireworks/hiroshima/kure-kaijou-hanabi2026cancel.html",
-          "site_name": "夜景FANマガジン",
+          "url": "https://www.chugoku-np.co.jp/articles/-/845420",
+          "site_name": "中国新聞デジタル",
           "is_official": false,
-          "retrieved_date": "2026-07-21"
-        },
-        {
-          "url": "https://news.yahoo.co.jp/articles/8be08309de637f4443fee684c6054905c8603f55",
-          "site_name": "RCC中国放送（Yahoo!ニュース）",
-          "is_official": false,
-          "retrieved_date": "2026-07-21"
+          "retrieved_date": "2026-07-29"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "2026年は廃止・中止（地元紙で複数回報道）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24832,7 +24794,7 @@
       "city": "名古屋市港区",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "【2026年は中止】2026年はアジア・アジアパラ競技大会の選手村設営期間と会場が重なるため開催見送りが発表された。2027年は開催予定とされる。",
+      "date_note": "2026年はアジア・アジアパラ競技大会の選手村設営期間と重なるため開催を見送り。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -24858,34 +24820,18 @@
       "sources": [
         {
           "url": "https://sp.jorudan.co.jp/hanabi/spot_J0243.html",
-          "site_name": "花火大会2026（じょるだん）",
+          "site_name": "じゃらん花火大会2026",
           "is_official": false,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://hanabi-navi.info/aichi/842/",
-          "site_name": "花火大会ナビ",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://hare-hareblog.com/nagoya-port-2026/",
-          "site_name": "はれはれブログ",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://sorahanabi.com/aichi/nagoya/meiko-hanabi.html",
-          "site_name": "空花火2026",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
+          "retrieved_date": "2026-07-29"
         }
       ],
-      "trust_level": "高",
-      "conflict_note": "",
+      "trust_level": "中",
+      "conflict_note": "2026年開催見送り（単独ソース、要確認）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25104,12 +25050,12 @@
       "similar_name_warning": false,
       "prefecture": "千葉県",
       "city": "佐倉市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "【2026年は開催なし】例年の会場「佐倉ふるさと広場」の拡張整備工事のため使用できず、リニューアル完了後まで開催を延期。印旛沼湖畔でのクラウドファンディングによる復活企画も進行中。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "date_start": "2026-10-25",
+      "date_end": "2026-10-25",
+      "date_note": "第64回。開会式19:00〜、手筒花火19:05〜、打ち上げ19:20〜20:30。会場は市内10カ所程度（佐倉ふるさと広場での打ち上げなし）。小雨決行、荒天時は翌日順延。",
+      "time_start": "19:20",
+      "time_end": "20:30",
+      "rain_policy": "小雨決行、荒天の場合は翌日に順延",
       "organizer": "佐倉市民花火大会実行委員会",
       "genre": [
         "花火"
@@ -25129,35 +25075,36 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://maruchiba.jp/feature/detail_53.html",
-          "site_name": "ちば観光ナビ（千葉県公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-22"
-        },
-        {
           "url": "https://hanabi.walkerplus.com/detail/ar0312e00866/",
-          "site_name": "ウォーカープラス",
+          "site_name": "ウォーカープラス 花火大会2026",
           "is_official": false,
-          "retrieved_date": "2026-07-22"
+          "retrieved_date": "2026-07-29"
         },
         {
-          "url": "https://yakei-fan.com/magazine/fireworks/chiba/sakura-hanabi-festa-crowdfunding2026.html",
-          "site_name": "夜景FANマガジン",
+          "url": "https://hanabi-map.com/chiba/sakurashimin-hanabi/",
+          "site_name": "日本の花火大会MAP2026年度版",
           "is_official": false,
-          "retrieved_date": "2026-07-22"
+          "retrieved_date": "2026-07-29"
         },
         {
-          "url": "https://prtimes.jp/main/html/rd/p/000000446.000024449.html",
-          "site_name": "佐倉市プレスリリース(PR TIMES)",
-          "is_official": true,
-          "retrieved_date": "2026-07-22"
+          "url": "https://sakura-de-kurasu.com/seasonal/hanabi-matsuri-sakura/",
+          "site_name": "佐倉でくらす",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "time_start",
+        "time_end",
+        "rain_policy"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25232,9 +25179,9 @@
       "similar_name_warning": false,
       "prefecture": "石川県",
       "city": "輪島市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "【2026年も中止】令和6年能登半島地震・豪雨災害の影響により、輪島市民まつり2026本体は開催されるが、パレード・ドリル演奏・大花火大会などの夜間イベントは2025年に続き2026年も中止。",
+      "date_start": "2026-06-04",
+      "date_end": "2026-06-04",
+      "date_note": "「輪島市民まつり」（2026年5月31日〜6月7日）の一環として輪島マリンタウンで開催。1分間の打ち上げ数日本一（約500発/分）とされ、クライマックスは約20分間で計10,149発。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -25258,28 +25205,26 @@
       "sources": [
         {
           "url": "https://wajimacci.or.jp/fes/",
-          "site_name": "輪島市民まつり公式サイト",
+          "site_name": "輪島市民まつり実行委員会",
           "is_official": true,
-          "retrieved_date": "2026-07-22"
+          "retrieved_date": "2026-07-29"
         },
         {
-          "url": "https://notowajima.jp/info/wajimashiminmatsuri/",
-          "site_name": "能登輪島.jp",
+          "url": "https://news.tiiki.jp/articles/204",
+          "site_name": "tiiki news",
           "is_official": false,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
-          "site_name": "花火大会2026（じょるだん）",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
+          "retrieved_date": "2026-07-29"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25294,7 +25239,7 @@
       "city": "須賀川市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "【2026年は中止】【2026年（第44回）は休止】資材費・人件費の高騰により事業費（約7〜8千万円）に対し市の補助等では赤字が見込まれるため休止を決定（4/22実行委員会）。運営体制を行政主導から民間主体へ見直し、来年度の再開を目指す。",
+      "date_note": "第44回（令和7年）は2025年8月に開催済み。2026年度は休止が決定したと地元紙が報道（新体制への移行を検討中）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -25317,41 +25262,25 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.city.sukagawa.fukushima.jp/kanko_sukagawa/kanko_event/hanabitaikai/index.html",
-          "site_name": "須賀川市公式ホームページ",
-          "is_official": true,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://www.minpo.jp/articles/-/115846",
-          "site_name": "福島民報デジタル",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://abukumajiho.com/news/20260422_25939",
-          "site_name": "阿武隈時報社",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
-        },
-        {
           "url": "https://abukumajiho.com/news/20260423_25954",
           "site_name": "阿武隈時報社",
           "is_official": false,
-          "retrieved_date": "2026-07-22"
+          "retrieved_date": "2026-07-29"
         },
         {
-          "url": "https://hanabi.walkerplus.com/list/cancelled/",
-          "site_name": "ウォーカープラス（中止・非開催花火大会一覧）",
-          "is_official": false,
-          "retrieved_date": "2026-07-24"
+          "url": "https://www.city.sukagawa.fukushima.jp/kanko_sukagawa/event/hanabitaikai/index.html",
+          "site_name": "須賀川市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "2026年開催は中止と確認（ウォーカープラス「中止・非開催が決定した花火大会」一覧に掲載）。",
+      "conflict_note": "2026年度休止との報道あり（公式サイトは明確な告知未掲載のため要確認）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25628,7 +25557,7 @@
       "city": "新潟市南区",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "【2026年（令和8年）は中止】大凧合戦本体（6/4〜8開催）は例年通り実施されるが、夜間の花火大会のみ2026年は中止。",
+      "date_note": "大凧合戦本体は2026年6月4日(木)〜8日(月)開催（13:00〜18:00、最終日13:00〜17:30）だが、併催の花火大会は2026年は開催中止と発表されている。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -25652,28 +25581,24 @@
       "sources": [
         {
           "url": "https://niigata-kankou.or.jp/event/41553",
-          "site_name": "新潟県観光協会公式サイト",
+          "site_name": "新潟県観光協会（新潟県公式）",
           "is_official": true,
-          "retrieved_date": "2026-07-22"
+          "retrieved_date": "2026-07-29"
         },
         {
-          "url": "https://www.nvcb.or.jp/event/detail_1369.html",
-          "site_name": "新潟市観光ガイド（公式）",
+          "url": "https://www.nvcb.or.jp/event/detail_1098.html",
+          "site_name": "新潟市観光ガイド（新潟市公式）",
           "is_official": true,
-          "retrieved_date": "2026-07-22"
-        },
-        {
-          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
-          "site_name": "花火大会2026（じょるだん）",
-          "is_official": false,
-          "retrieved_date": "2026-07-22"
+          "retrieved_date": "2026-07-29"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "花火大会のみ2026年中止（大凧合戦本体は開催）",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -29883,7 +29808,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29947,7 +29872,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -30005,6 +29930,71 @@
         {
           "url": "https://www.nakano-kanko.com/event-info/event-3633/",
           "site_name": "中野区観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_494",
+      "name": "にっぽんど真ん中祭り",
+      "alternate_names": [
+        "どまつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "名古屋市",
+      "date_start": "2026-08-28",
+      "date_end": "2026-08-30",
+      "date_note": "市街地開催（久屋大通公園ほか名古屋市内16会場）。オンライン×リアル開催の「テレどまつり」は2026年11月25日〜29日に別途実施。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "公益財団法人にっぽんど真ん中祭り文化財団",
+      "genre": [
+        "踊り",
+        "パレード"
+      ],
+      "scale": "その他（民間主催の大規模市民参加型祭り、国内外から約200チームが参加）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 28,
+      "history_description": "1999年に始まった「よさこい」の自由な精神と鳴子を取り入れた踊りの祭り。名古屋発祥で第28回を迎える。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.domatsuri.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.domatsuri.com/",
+          "site_name": "公益財団法人にっぽんど真ん中祭り文化財団",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/53/",
+          "site_name": "愛知県公式観光サイトAichi Now",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://www.nagoya-info.jp/event/detail/103/",
+          "site_name": "名古屋市観光情報「名古屋コンシェルジュ」",
           "is_official": true,
           "retrieved_date": "2026-07-29"
         }
