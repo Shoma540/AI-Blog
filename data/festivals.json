@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29 16:14",
+  "last_updated": "2026-07-29 17:09",
   "festivals": [
     {
       "id": "festival_001",
@@ -7479,10 +7479,10 @@
       "city": "熊本市中央区",
       "date_start": "2026-07-31",
       "date_end": "2026-08-02",
-      "date_note": "メインイベント「おてもやん総おどり」は8/1(土)。",
+      "date_note": "【中止】2026年7月28日発生の令和8年熊本地震の影響により、火の国まつり運営委員会・熊本市が7月29日、7/31〜8/2予定の祭り・関連イベントの全面中止を発表。（当初日程は7/31〜8/2、メインイベント「おてもやん総おどり」は8/1予定だった）",
       "time_start": "不明",
       "time_end": "不明",
-      "rain_policy": "不明",
+      "rain_policy": "不明（今年は地震の影響により中止）",
       "organizer": "火の国まつり運営委員会・熊本市",
       "genre": [
         "総踊り",
@@ -7506,20 +7506,26 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://kumamoto-guide.jp/hinokunimatsuri/",
-          "site_name": "熊本市観光ガイド",
+          "url": "https://kumamoto-guide.jp/hinokunimatsuri/news/detail/1453",
+          "site_name": "火の国まつり公式（熊本市観光ガイド）",
           "is_official": true,
-          "retrieved_date": "2026-07-05"
+          "retrieved_date": "2026-07-29"
         },
         {
-          "url": "https://news.yahoo.co.jp/articles/4671ce265225d467817ab9d9277677c21f1b932f",
+          "url": "https://kumanichi.com/articles/2019486",
+          "site_name": "熊本日日新聞社",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://news.yahoo.co.jp/articles/b277b63f57573b2411dc5b93afe5b0aadb26e13e",
           "site_name": "熊本日日新聞（Yahoo!ニュース配信）",
           "is_official": false,
-          "retrieved_date": "2026-07-05"
+          "retrieved_date": "2026-07-29"
         },
         {
-          "url": "https://www.welcomekyushu.jp/event/?mode=detail&id=9999900063930",
-          "site_name": "九州旅ネット",
+          "url": "https://kumamoto-guide.jp/hinokunimatsuri/",
+          "site_name": "熊本市観光ガイド",
           "is_official": true,
           "retrieved_date": "2026-07-05"
         }
@@ -7528,11 +7534,15 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_117",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "rain_policy",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "今年：令和8年熊本地震（2026年7月28日発生）の影響により、7/31〜8/2開催予定だった祭り本体・関連イベントすべてが中止（例年は開催されている夏祭り）"
       }
     },
     {
@@ -23854,10 +23864,8 @@
       "trust_level": "高",
       "conflict_note": "2026年開催見送り（複数ソースで確認）",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -23914,10 +23922,8 @@
       "trust_level": "高",
       "conflict_note": "2026年は廃止・中止（地元紙で複数回報道）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24828,10 +24834,8 @@
       "trust_level": "中",
       "conflict_note": "2026年開催見送り（単独ソース、要確認）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25096,15 +25100,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "time_start",
-        "time_end",
-        "rain_policy"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25219,12 +25216,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25277,10 +25270,8 @@
       "trust_level": "中",
       "conflict_note": "2026年度休止との報道あり（公式サイトは明確な告知未掲載のため要確認）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25595,10 +25586,8 @@
       "trust_level": "高",
       "conflict_note": "花火大会のみ2026年中止（大凧合戦本体は開催）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30002,7 +29991,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
