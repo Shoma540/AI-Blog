@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29 08:20",
+  "last_updated": "2026-07-29 12:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -3552,8 +3552,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：history_years=不明 → 今年：378（1648年創始、約380年の節目）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -4974,8 +4974,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：2025年10/10-12開催 → 今年：2026年10/10-12開催（例年通りのパターンを公式確認）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -23884,10 +23884,8 @@
       "trust_level": "高",
       "conflict_note": "⚠️矛盾: 2026年の開催について「開催見送りが発表された」とする情報と「10/18開催予定」とする情報が併存。公式発表要確認。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24889,8 +24887,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：2025年に第10回記念大会を開催 → 今年：2026年は中止（2027年開催予定）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -24957,8 +24955,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：開催 → 今年：人件費・物価高騰により開催見送り"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -25025,8 +25023,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：2025年5月18日に開催（雨天のため1日順延） → 今年：2026年（第12回）は安全確保困難のため中止"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -25095,8 +25093,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：開催 → 今年：第19回日本スカウトジャンボリー会場使用のため中止"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -27084,8 +27082,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：2025年8月3日開催（実績） → 今年：2026年8月2日-3日開催で確定"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -28779,7 +28777,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️矛盾: 開催日程について検索結果間で「8/22-23」と「8/8-11」の不一致あり。商店街公式サイトの記載を優先。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -28829,7 +28827,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -28879,7 +28877,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -28930,7 +28928,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -28980,7 +28978,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29042,7 +29040,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29095,7 +29093,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29146,7 +29144,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29208,7 +29206,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29265,7 +29263,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29321,7 +29319,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29377,7 +29375,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29427,7 +29425,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29477,7 +29475,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29533,7 +29531,7 @@
       "trust_level": "低",
       "conflict_note": "開催有無が未確定（過去6年連続中止）。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29590,7 +29588,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29652,7 +29650,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29708,7 +29706,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29766,7 +29764,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -29815,6 +29813,198 @@
         {
           "url": "http://sagicho-hozonkai.moo.jp/",
           "site_name": "勝山左義長ばやし保存会",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_491",
+      "name": "須成祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "蟹江町",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-02",
+      "date_note": "8月第1土曜が宵祭、翌日曜が朝祭。7月〜10月にかけて関連神事が続くため「100日祭」とも呼ばれる。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "冨吉建速神社・八剱社（須成祭保存会）",
+      "genre": [
+        "船渡御",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財／ユネスコ無形文化遺産（山・鉾・屋台行事）",
+      "is_free": true,
+      "price": "観覧無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "冨吉建速神社・八剱社の祭礼。車楽船（だんじりぶね）による川祭と神葭（みよし）の神事の2部構成。2016年12月にユネスコ無形文化遺産「山・鉾・屋台行事」の一つとして登録。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.kaninavi.jp/html/sunari/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.kaninavi.jp/html/sunari/",
+          "site_name": "蟹江町観光協会 かにナビ",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/321/",
+          "site_name": "Aichi Now（愛知県観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E9%A0%88%E6%88%90%E7%A5%AD",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_492",
+      "name": "べっぷ火の海まつり 納涼花火大会",
+      "alternate_names": [
+        "べっぷ火の海まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大分県",
+      "city": "別府市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "花火大会は最終日26日に実施。祭り本体は25日・26日の2日間開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "別府市観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料（一部有料観覧席あり）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "別府湾沖から尺玉を含む大玉88連発とフィナーレの「黄金孔雀」など、8888発の花火を60分間打ち上げる別府市夏の納涼花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://beppu-event.jp/natsuyoi/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://beppu-event.jp/natsuyoi/",
+          "site_name": "別府市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1044e00990/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://hanabi-navi.info/oita/6265/",
+          "site_name": "花火大会ナビ",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_493",
+      "name": "中野駅前大盆踊り大会",
+      "alternate_names": [
+        "中野セントラルパーク盆踊り",
+        "盆ジョビ"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "中野区",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-02",
+      "date_note": "第14回開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "中野駅前大盆踊り大会実行委員会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": 14,
+      "history_description": "中野セントラルパークを会場に、中野音頭・東京音頭・炭坑節などを中野区民謡連盟の生演奏で楽しめる盆踊り大会。「盆ジョビ」「盆ディスコ」など趣向を凝らした演出でも知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://nakabon.jp/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://nakabon.jp/",
+          "site_name": "中野駅前大盆踊り大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://www.nakano-centralpark.jp/event_post/7323.html",
+          "site_name": "NAKANO CENTRAL PARK 公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3633/",
+          "site_name": "中野区観光協会",
           "is_official": true,
           "retrieved_date": "2026-07-29"
         }
