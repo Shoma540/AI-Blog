@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29 17:09",
+  "last_updated": "2026-07-29 18:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -7534,12 +7534,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_117",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "rain_policy",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "今年：令和8年熊本地震（2026年7月28日発生）の影響により、7/31〜8/2開催予定だった祭り本体・関連イベントすべてが中止（例年は開催されている夏祭り）"
@@ -29992,6 +29988,184 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_495",
+      "name": "恵庭三四会納涼花火大会",
+      "alternate_names": [
+        "恵庭花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "恵庭市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第49回開催。同日11:00より「三四会まつり」も開催。",
+      "time_start": "19:45",
+      "time_end": "20:35",
+      "rain_policy": "不明",
+      "organizer": "恵庭三四会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 49,
+      "history_description": "恵庭三四会が主催する納涼花火大会で、2026年で第49回を迎える。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR恵庭駅から徒歩15分（会場：桜町多目的広場）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1001052/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00717/data.html",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://www.gutabi.jp/event/detail/1063",
+          "site_name": "ぐうたび北海道",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_496",
+      "name": "ニセコ花火大会",
+      "alternate_names": [
+        "ニセコ町運動公園花火大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "北海道",
+      "city": "ニセコ町",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "会場はニセコ町運動公園。近隣のHANAZONOリゾート「HANAZONO夏花火」は別イベントのため要注意。",
+      "time_start": "19:45",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "例年約1万人が訪れるニセコ町の花火大会。約3000発を打ち上げ。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "約1万人",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sorahanabi.com/hokkaido",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/ar0101/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_497",
+      "name": "キラキラ☆フェスタあしべつ花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "芦別市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "日付不明。例年8月第1土曜日開催と紹介されているが、2026年の公式日程は検索時点で未確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "2014年より始まった芦別市のイベント。フィナーレに5,000発の花火とレーザー光線、音響が演出される。",
+      "food_stalls": "出店者による特産品等の展示・販売あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://go-to-ashibetsu.com/media/category/event",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e72834/data.html",
+          "site_name": "花火大会2025 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://go-to-ashibetsu.com/media/category/event",
+          "site_name": "芦別市観光総合ガイド「星の降る里あしべつ」",
+          "is_official": true,
+          "retrieved_date": "2026-07-29"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
