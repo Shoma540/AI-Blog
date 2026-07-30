@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29 18:20",
+  "last_updated": "2026-07-30 08:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -15305,64 +15305,6 @@
       }
     },
     {
-      "id": "festival_247",
-      "name": "中野駅前大盆踊り大会",
-      "alternate_names": [
-        "なかぼん"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "東京都",
-      "city": "中野区",
-      "date_start": "2026-08-01",
-      "date_end": "2026-08-02",
-      "date_note": "第14回開催",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "中野駅前大盆踊り大会実行委員会（中野区民謡連盟共催）",
-      "genre": [
-        "盆踊り"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "無料",
-      "ticket_url": "不明",
-      "history_years": 14,
-      "history_description": "中野セントラルパークで開催される盆踊り大会。",
-      "food_stalls": "屋台あり（募集制）",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "中野セントラルパーク",
-      "official_url": "https://nakabon.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://nakabon.jp/",
-          "site_name": "中野駅前大盆踊り大会2026公式ウェブサイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "url": "https://summer.walkerplus.com/odekake/list/sg0999/bonodori/",
-          "site_name": "夏休みおでかけガイド2026 ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-07-12"
-        }
-      ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_248",
       "name": "恵比寿駅前盆踊り大会",
       "alternate_names": [],
@@ -30051,7 +29993,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -30109,7 +30051,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -30165,6 +30107,65 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_498",
+      "name": "やっさ！今津！！2026",
+      "alternate_names": [
+        "近江今津ふるさと夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "滋賀県",
+      "city": "高島市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "",
+      "time_start": "16:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "近江今津ふるさと夏まつり実行委員会",
+      "genre": [
+        "花火",
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "高島市民会館駐車場・ピロティおよび今津浜湖岸を会場に、ステージイベント、ふれあい交流市、供養灯ろう・創作灯ろう点灯、高島音頭総おどり、打ち上げ花火などが行われる夏祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "高島市民会館駐車場（滋賀県高島市今津町中沼）",
+      "official_url": "https://takashima-kanko.jp/2026/06/_2018_1.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://takashima-kanko.jp/2026/06/_2018_1.html",
+          "site_name": "びわ湖高島観光ガイド",
+          "is_official": true,
+          "retrieved_date": "2026-07-30"
+        },
+        {
+          "url": "https://www.biwako-visitors.jp/event/detail/27427/",
+          "site_name": "滋賀県観光情報［公式観光サイト］",
+          "is_official": true,
+          "retrieved_date": "2026-07-30"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
