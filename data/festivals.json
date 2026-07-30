@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30 08:14",
+  "last_updated": "2026-07-30 12:18",
   "festivals": [
     {
       "id": "festival_001",
@@ -30160,6 +30160,70 @@
           "url": "https://www.biwako-visitors.jp/event/detail/27427/",
           "site_name": "滋賀県観光情報［公式観光サイト］",
           "is_official": true,
+          "retrieved_date": "2026-07-30"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_499",
+      "name": "大湊ネブタ",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "青森県",
+      "city": "むつ市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-09",
+      "date_note": "毎年8月上旬に開催。2026年で運行140周年。",
+      "time_start": "17:50",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "むつ市（大湊ネブタ運行委員会）",
+      "genre": [
+        "ねぶた",
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料",
+      "ticket_url": "不明",
+      "history_years": 140,
+      "history_description": "青森県むつ市大湊地区で毎年8月上旬に開催されるねぶた運行。運行140年以上の歴史を持ち、大湊地区の各町内会・団体が制作したねぶたが市内を練り歩く。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "むつ市大湊地区市内",
+      "official_url": "https://www.city.mutsu.lg.jp/bunka/information/kankou-oominatonebuta.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.mutsu.lg.jp/bunka/information/kankou-oominatonebuta.html",
+          "site_name": "むつ市 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-30"
+        },
+        {
+          "url": "https://aomori-tourism.com/event/detail_656.html",
+          "site_name": "Amazing AOMORI（青森県観光情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-30"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_342967/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
           "retrieved_date": "2026-07-30"
         }
       ],
