@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30 12:18",
+  "last_updated": "2026-07-30 16:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -30228,6 +30228,64 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_500",
+      "name": "イーハトーブフォーラム2026 光と音のページェント 花火ファンタジー",
+      "alternate_names": [
+        "花巻花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "花巻市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "北上川河川敷で開催。宮沢賢治の精神を次世代へ伝えることを目的とした「イーハトーブフォーラム」の一環。",
+      "time_start": "19:30",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "花巻商工会議所（イーハトーブフォーラム実行委員会）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料エリアあり／有料席あり（詳細は花巻商工会議所 0198-23-3381へ）",
+      "ticket_url": "不明",
+      "history_years": 0,
+      "history_description": "宮沢賢治の精神を称え、次世代の子どもたちへその心を伝えることを目的に開催される「イーハトーブフォーラム」の花火イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR新花巻駅から有料シャトルバス・タクシーで約15分／東北自動車道 花巻南ICから車で約10分",
+      "official_url": "https://www.pref.iwate.jp/event/moyooshi/1065424.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.pref.iwate.jp/event/moyooshi/1065424.html",
+          "site_name": "岩手県公式イベント情報",
+          "is_official": true,
+          "retrieved_date": "2026-07-30"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0203e00008/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-30"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
