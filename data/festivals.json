@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30 16:15",
+  "last_updated": "2026-07-30 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -28588,7 +28588,7 @@
       "city": "港区",
       "date_start": "2026-08-22",
       "date_end": "2026-08-23",
-      "date_note": "麻布十番商店街公式サイトの記載を採用。別ソースでは「8月8日〜11日」との記述もあり日程に揺れがあるため要再確認。",
+      "date_note": "麻布十番商店街公式サイトで8/22(土)-8/23(日)開催を確認（曜日照合済み）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -28624,13 +28624,23 @@
           "site_name": "港区観光協会",
           "is_official": true,
           "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://visit-minato-city.tokyo/ja-jp/events/3216",
+          "site_name": "港区観光協会（VISIT MINATO CITY）",
+          "is_official": true,
+          "retrieved_date": "2026-07-30"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️矛盾: 開催日程について検索結果間で「8/22-23」と「8/8-11」の不一致あり。商店街公式サイトの記載を優先。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "解消: 麻布十番商店街公式サイト（2026-07-30再確認）で「8月22日（土）と8月23日（日）の2日間開催」を再確認、曜日と2026年の実日付が一致。以前見られた「8/8〜11」という記述は別祭りとの混同または誤情報と判断し不採用。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28961,11 +28971,11 @@
       "city": "伊那市",
       "date_start": "2026-08-01",
       "date_end": "2026-08-11",
-      "date_note": "8/1と8/11（花火）の2つの日程情報あり。",
+      "date_note": "第69回伊那まつりは8/1(市民おどり)・8/11(サマーナイトエンジョイナ!!・花火約600発)の2日間開催。コロナ禍以降続いた1日開催から市民の要望を受けて6年ぶりに2日間開催に復活（伊那経済新聞2026-07-27付記事、伊那市公式サイトで一致確認）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
-      "organizer": "不明",
+      "organizer": "伊那まつり実行委員会",
       "genre": [
         "花火",
         "その他"
@@ -28980,24 +28990,38 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "不明",
-      "official_url": "不明",
+      "official_url": "https://www.inacity.jp/kankojoho/event_kanko/inamatsuri/dai69inamatsuri/index.html",
       "sns_accounts": {
         "instagram": "不明"
       },
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.tour.ne.jp/matome/articles/j504/",
-          "site_name": "トラベルコ",
+          "url": "https://www.inacity.jp/kankojoho/event_kanko/inamatsuri/dai69inamatsuri/index.html",
+          "site_name": "伊那市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-07-30"
+        },
+        {
+          "url": "https://ina.keizai.biz/headline/547/",
+          "site_name": "伊那経済新聞",
           "is_official": false,
-          "retrieved_date": "2026-07-29"
+          "retrieved_date": "2026-07-30"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "伊那市公式サイトの曜日表記（8/1を金曜、8/11を月曜）は2026年の実際の曜日（土・火）と不一致で前年ページ流用の可能性があるが、日付自体（8/1・8/11）は伊那経済新聞の2026年7月27日付記事と独立に一致するため採用。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "organizer",
+        "date_note",
+        "official_url",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30288,7 +30312,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
