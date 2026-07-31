@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31 12:21",
+  "last_updated": "2026-07-31 16:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -3181,7 +3181,7 @@
       "city": "山鹿市",
       "date_start": "2026-08-15",
       "date_end": "2026-08-16",
-      "date_note": "【一部中止】2026年7月28日発生の令和8年熊本地震の影響により、8/15の花火大会と8/16の千人灯籠踊りは中止。神事のみ規模を縮小して実施予定（熊本日日新聞2026-07-31付報道）。",
+      "date_note": "納涼花火大会・千人灯籠踊り・おまつり広場等は中止。大宮神社での神事および関連行事のみ規模を縮小して実施。令和8年熊本地震（2026-07-28発生）の影響により、実行委員会が余震による会場設営の危険性、災害対応での警備人員確保の困難、被災者への配慮から神事以外の中止を決定。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -3208,39 +3208,27 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://yamaga-tanbou.jp/",
-          "site_name": "山鹿市観光協会公式",
-          "is_official": true,
-          "retrieved_date": "2026-06-30"
-        },
-        {
           "url": "https://yamaga-tanbou.jp/info/18972/",
-          "site_name": "山鹿探訪なび（山鹿市観光協会公式）",
+          "site_name": "山鹿探訪（山鹿市観光協会公式）",
           "is_official": true,
-          "retrieved_date": "2026-07-05"
+          "retrieved_date": "2026-07-31"
         },
         {
-          "url": "https://kumamoto.guide/look/detail/551",
-          "site_name": "熊本県観光サイト（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-07-05"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar1043e00284/data.html",
-          "site_name": "ウォーカープラス 花火大会2026",
+          "url": "https://kumanichi.com/articles/2020291",
+          "site_name": "熊本日日新聞社",
           "is_official": false,
-          "retrieved_date": "2026-07-05"
+          "retrieved_date": "2026-07-31"
         },
         {
-          "url": "https://kumanichi.com/articles/2019486",
+          "url": "https://kumanichi.com/articles/2020363",
           "site_name": "熊本日日新聞社",
           "is_official": false,
           "retrieved_date": "2026-07-31"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "地震の影響による中止情報のため要フォロー（一次情報は報道、公式サイトの正式発表は本文未確認）。",
-      "requires_check": true,
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "UPDATED",
       "updated_fields": [
         "date_note",
@@ -3252,7 +3240,7 @@
       ],
       "year_comparison": {
         "changed": true,
-        "details": "今年：令和8年熊本地震の影響により花火大会・千人灯籠踊りが中止（例年は開催）"
+        "details": "昨年：例年通り花火大会・千人灯籠踊りを含めフル開催 → 今年：令和8年熊本地震の影響により神事以外は中止・規模縮小"
       }
     },
     {
@@ -11327,17 +11315,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "conflict_note",
-        "requires_check",
-        "trust_level",
-        "sources",
-        "year_comparison"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：10/10(金)〜12(日)という情報が混入していたが誤り → 今年：10/9(金)〜11(日)"
@@ -12428,7 +12407,7 @@
       "city": "久留米市（鳥栖市・みやき町にまたがる6会場）",
       "date_start": "2026-08-05",
       "date_end": "2026-08-05",
-      "date_note": "【中止】2026年7月28日発生の令和8年熊本地震の影響により、8/5開催予定だった第367回筑後川花火大会は中止（熊本日日新聞・西日本新聞等が2026-07-31に報道）。",
+      "date_note": "【中止】筑後川花火大会実行委員会が2026年7月31日、令和8年熊本地震（7/28発生）の影響により、8月5日開催予定だった第367回筑後川花火大会の中止を発表。警備を担う警察・消防が被災地対応中で、来場者の安全確保が困難なことと被災者支援優先が理由。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -12453,33 +12432,27 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://welcome-kurume.com/events/detail/ee39e5e5-fb6b-46b1-b16a-618264042dda",
-          "site_name": "久留米市公式観光サイト ほとめきの街",
+          "url": "https://x.com/welcome_kurume/status/2083093263905693955",
+          "site_name": "Welcome Kurume（久留米市観光関連公式X）",
           "is_official": true,
-          "retrieved_date": "2026-07-06"
+          "retrieved_date": "2026-07-31"
         },
         {
-          "url": "https://hanabi.walkerplus.com/detail/ar1040e01014/data.html",
-          "site_name": "ウォーカープラス花火大会2026",
+          "url": "https://www.saga-s.co.jp/articles/-/1762104",
+          "site_name": "佐賀新聞",
           "is_official": false,
-          "retrieved_date": "2026-07-06"
+          "retrieved_date": "2026-07-31"
         },
         {
-          "url": "https://sorahanabi.com/fukuoka/kurume/chikugogawa-hanabitaikai.html",
-          "site_name": "空花火2026",
-          "is_official": false,
-          "retrieved_date": "2026-07-06"
-        },
-        {
-          "url": "https://kumanichi.com/articles/2019486",
-          "site_name": "熊本日日新聞社",
+          "url": "https://www.nishinippon.co.jp/item/1522162/",
+          "site_name": "西日本新聞",
           "is_official": false,
           "retrieved_date": "2026-07-31"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "地震の影響による中止情報。実行委員会公式の中止告知本文は今回未確認のため要フォロー。",
-      "requires_check": true,
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "UPDATED",
       "updated_fields": [
         "date_note",
@@ -12491,7 +12464,7 @@
       ],
       "year_comparison": {
         "changed": true,
-        "details": "今年：令和8年熊本地震の影響により中止（例年は開催）"
+        "details": "昨年：通常開催 → 今年：令和8年熊本地震の影響により中止"
       }
     },
     {
@@ -23588,15 +23561,21 @@
           "site_name": "天草ほんどハイヤ祭り公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://haiya.org/",
+          "site_name": "第61回 天草ほんどハイヤ祭り 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "令和8年熊本地震（2026-07-28発生）の影響で一部行事に変更がある可能性を示す未確認情報あり。公式サイト（haiya.org）での正式な中止・変更告知は今回確認できず、次回実行時に再確認が必要。",
+      "conflict_note": "主要行事（本祭り 2026年7月25日）は令和8年熊本地震の発生（2026年7月28日）より前に終了済み。公式サイト（haiya.org）に地震を理由とした中止・変更の告知は今回確認できなかった。8月上旬まで続く関連行事の有無・扱いは次回実行時に再確認する。",
       "requires_check": true,
       "diff_status": "UPDATED",
       "updated_fields": [
         "conflict_note",
-        "requires_check"
+        "sources"
       ],
       "year_comparison": {
         "changed": false,
@@ -29067,14 +29046,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "requires_check",
-        "trust_level",
-        "sources",
-        "year_comparison"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30474,6 +30447,64 @@
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_502",
+      "name": "味方穀倉祭",
+      "alternate_names": [
+        "あじかた産業振興祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "新潟市南区",
+      "date_start": "2026-11-08",
+      "date_end": "2026-11-08",
+      "date_note": "毎年11月開催。旧・味方文化祭と旧・産業振興祭が統合された祭り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "味方穀倉祭実行委員会",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（物産販売は有料）",
+      "ticket_url": "不明",
+      "history_years": "6回目（現名称）",
+      "history_description": "味方地区の農産物・加工品の販売や、北海道様似町との文化交流、郷土芸能（神楽・穀倉太鼓）、地域住民による踊りなどが行われる地域の農業祭り。",
+      "food_stalls": "味方地区の特産品販売あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "味方体育館（新潟市南区味方2676）",
+      "official_url": "https://www.shironekankou.jp/ajikata-kokusoufes/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.shironekankou.jp/ajikata-kokusoufes/",
+          "site_name": "しろね観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://www.andkomachi.com/article/1143480",
+          "site_name": "&Komachi（新潟のタウン情報サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
