@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31 17:14",
+  "last_updated": "2026-07-31 18:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -30551,7 +30551,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -30610,7 +30610,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -30666,7 +30666,7 @@
       "trust_level": "低",
       "conflict_note": "公式サイト（中津祇園保存協議会）での中止告知は未確認。非公式ソースのみのため要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -30722,7 +30722,7 @@
       "trust_level": "低",
       "conflict_note": "2026年（第53回）の延期後の具体的な開催日が未確認。要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
