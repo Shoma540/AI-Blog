@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31 08:25",
+  "last_updated": "2026-07-31 12:21",
   "festivals": [
     {
       "id": "festival_001",
@@ -3181,7 +3181,7 @@
       "city": "山鹿市",
       "date_start": "2026-08-15",
       "date_end": "2026-08-16",
-      "date_note": "千人灯籠踊り本番は20:00〜21:00予定。市観光協会が2026-05-26付で公式更新済み。",
+      "date_note": "【一部中止】2026年7月28日発生の令和8年熊本地震の影響により、8/15の花火大会と8/16の千人灯籠踊りは中止。神事のみ規模を縮小して実施予定（熊本日日新聞2026-07-31付報道）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -3230,16 +3230,29 @@
           "site_name": "ウォーカープラス 花火大会2026",
           "is_official": false,
           "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://kumanichi.com/articles/2019486",
+          "site_name": "熊本日日新聞社",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
         }
       ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "地震の影響による中止情報のため要フォロー（一次情報は報道、公式サイトの正式発表は本文未確認）。",
+      "requires_check": true,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "conflict_note",
+        "requires_check",
+        "trust_level",
+        "sources",
+        "year_comparison"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "今年：令和8年熊本地震の影響により花火大会・千人灯籠踊りが中止（例年は開催）"
       }
     },
     {
@@ -11271,9 +11284,9 @@
       "similar_name_warning": false,
       "prefecture": "静岡県",
       "city": "掛川市",
-      "date_start": "2026-10-10",
-      "date_end": "2026-10-12",
-      "date_note": "2026年は3年周期の「小祭」の年にあたる可能性が中程度の信頼度で確認された（大祭は令和6年開催済、次回大祭は令和9年見込み）。具体的な開催日はまだ未発表。",
+      "date_start": "2026-10-09",
+      "date_end": "2026-10-11",
+      "date_note": "共同通信プレスリリース（2026-07-31付）で開催日「10月9日(金)〜11日(日)」と確認（曜日照合済み・整合）。従来登録していた10/10〜12は2025年情報の誤混入だったため訂正。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -11303,16 +11316,31 @@
           "site_name": "掛川市公式観光サイト",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://kyodo.co.jp/pr",
+          "site_name": "共同通信PRワイヤー",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "確認できたソースは掛川市公式サイト1件のみ。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "conflict_note",
+        "requires_check",
+        "trust_level",
+        "sources",
+        "year_comparison"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：10/10(金)〜12(日)という情報が混入していたが誤り → 今年：10/9(金)〜11(日)"
       }
     },
     {
@@ -12400,7 +12428,7 @@
       "city": "久留米市（鳥栖市・みやき町にまたがる6会場）",
       "date_start": "2026-08-05",
       "date_end": "2026-08-05",
-      "date_note": "雨天等の場合は8月7日(金)に順延。2026年で通算367回目。",
+      "date_note": "【中止】2026年7月28日発生の令和8年熊本地震の影響により、8/5開催予定だった第367回筑後川花火大会は中止（熊本日日新聞・西日本新聞等が2026-07-31に報道）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -12441,16 +12469,29 @@
           "site_name": "空花火2026",
           "is_official": false,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://kumanichi.com/articles/2019486",
+          "site_name": "熊本日日新聞社",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
         }
       ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "地震の影響による中止情報。実行委員会公式の中止告知本文は今回未確認のため要フォロー。",
+      "requires_check": true,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "conflict_note",
+        "requires_check",
+        "trust_level",
+        "sources",
+        "year_comparison"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "今年：令和8年熊本地震の影響により中止（例年は開催）"
       }
     },
     {
@@ -23550,10 +23591,13 @@
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "令和8年熊本地震（2026-07-28発生）の影響で一部行事に変更がある可能性を示す未確認情報あり。公式サイト（haiya.org）での正式な中止・変更告知は今回確認できず、次回実行時に再確認が必要。",
+      "requires_check": true,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28709,16 +28753,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "organizer",
-        "official_url",
-        "history_description",
-        "access",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28785,17 +28821,8 @@
       "trust_level": "高",
       "conflict_note": "一部の花火・イベントまとめサイトに旧年度の日程（8月2日～4日等）が残存しているが、蕨市観光協会・公式サイトでは2026年8月7日～9日と確認済み。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "organizer",
-        "official_url",
-        "time_start",
-        "time_end",
-        "conflict_note",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28857,18 +28884,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "organizer",
-        "official_url",
-        "time_start",
-        "time_end",
-        "access",
-        "history_description",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28923,18 +28940,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "time_start",
-        "time_end",
-        "organizer",
-        "history_description",
-        "history_years",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -29013,7 +29020,7 @@
       "city": "上越市",
       "date_start": "2026-07-23",
       "date_end": "2026-07-29",
-      "date_note": "高田祇園祭2026-07-23〜26、直江津祇園祭2026-07-26〜29。両者は別々の地区の祭りである可能性が高く、同一祭りか別祭りか要確認。",
+      "date_note": "第51回上越まつりとして、高田祇園祭2026-07-23(木)〜26(日)、直江津祇園祭2026-07-26(日)〜29(水)を上越観光Navi（上越市公式観光サイト）・ウォーカープラス・地域ニュース(goguynet.jp 2026-07-21付)の3ソースで確認（曜日照合済み・整合）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -29043,13 +29050,31 @@
           "site_name": "トラベルコ",
           "is_official": false,
           "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://www.joetsukankonavi.jp/",
+          "site_name": "上越観光Navi（上越市公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/",
+          "site_name": "ウォーカープラス 夏休みおでかけガイド2026",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "requires_check",
+        "trust_level",
+        "sources",
+        "year_comparison"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30448,7 +30473,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
