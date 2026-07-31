@@ -461,6 +461,12 @@
       "step": "STEP10-1_fetch_analytics",
       "error": "fetch_analytics.py が未捕捉の例外（cffi/cryptographyのpyo3パニック）でクラッシュ。加えて環境変数 GA4_PROPERTY_ID と GA4_SERVICE_ACCOUNT_JSON の中身が入れ替わっている（もしくは破損している）ことを直接確認した",
       "detail": "2026-07-24以降7日連続で同一問題が継続。今回、環境変数の中身を直接確認したところ原因を特定: GA4_SERVICE_ACCOUNT_JSON の値が '546141800'（9桁の数値、GA4プロパティIDと思われる）になっており、GA4_PROPERTY_ID の値が '{' の1文字のみ（サービスアカウントJSONの先頭が途中で切れたものと思われる）になっている。つまり2つの環境変数が入れ替わっている、または登録時にJSON全体が正しく保存されず先頭1文字だけがGA4_PROPERTY_IDに入ってしまっている可能性が高い。スクリプト・環境変数の変更はroutineの権限外（変更禁止対象）のため修正不可。人間による GA4_PROPERTY_ID（正しい数値プロパティID）と GA4_SERVICE_ACCOUNT_JSON（サービスアカウントJSON全体、改行含む）の再設定が必要。STEP10-2以降（学習記録読込・検証・改善実装・push）は全てスキップする。7日間未解消のため本実行でユーザーへ再度通知する。"
+    },
+    {
+      "timestamp": "2026-07-31 08:15",
+      "step": "STEP10-1_fetch_analytics",
+      "error": "fetch_analytics.py が未捕捉の例外（cffi/cryptographyのpyo3パニック）でクラッシュ。環境変数 GA4_PROPERTY_ID と GA4_SERVICE_ACCOUNT_JSON が引き続き入れ替わっている（もしくは破損している）ことを再確認した。",
+      "detail": "2026-07-20から本日まで12日連続で同一問題が継続（原因特定は2026-07-30）。環境変数を直接確認したところ、GA4_SERVICE_ACCOUNT_JSON の値が '546141800'（数値のみ、GA4プロパティIDと思われる）、GA4_PROPERTY_ID の値が '{' の1文字のみ（サービスアカウントJSONの先頭が途中で切れたものと思われる）のままで、前回（7/30）報告時点から変化なし。環境変数の変更はroutineの権限外（変更禁止対象）のため修正不可。人間による GA4_PROPERTY_ID（正しい数値プロパティID）と GA4_SERVICE_ACCOUNT_JSON（サービスアカウントJSON全体、改行含む）の再設定が必要。STEP10-2以降（学習記録読込・検証・改善実装・push）は全てスキップする。12日間未解消のため本実行でユーザーへ再度通知する。"
     }
   ]
 }
