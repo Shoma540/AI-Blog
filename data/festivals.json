@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31 16:15",
+  "last_updated": "2026-07-31 17:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -3229,15 +3229,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "conflict_note",
-        "requires_check",
-        "trust_level",
-        "sources",
-        "year_comparison"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：例年通り花火大会・千人灯籠踊りを含めフル開催 → 今年：令和8年熊本地震の影響により神事以外は中止・規模縮小"
@@ -12453,15 +12446,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "conflict_note",
-        "requires_check",
-        "trust_level",
-        "sources",
-        "year_comparison"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：通常開催 → 今年：令和8年熊本地震の影響により中止"
@@ -23572,11 +23558,8 @@
       "trust_level": "高",
       "conflict_note": "主要行事（本祭り 2026年7月25日）は令和8年熊本地震の発生（2026年7月28日）より前に終了済み。公式サイト（haiya.org）に地震を理由とした中止・変更の告知は今回確認できなかった。8月上旬まで続く関連行事の有無・扱いは次回実行時に再確認する。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30504,11 +30487,246 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_503",
+      "name": "湯河原温泉海上花火大会",
+      "alternate_names": [
+        "湯河原やっさまつり海上花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "足柄下郡湯河原町",
+      "date_start": "2026-08-23",
+      "date_end": "2026-08-23",
+      "date_note": "湯河原やっさまつりの一環。当初2026年8月3日(月)開催予定だったが、台風第13号の影響（強風）により8月23日(日)に延期された。",
+      "time_start": "20:00",
+      "time_end": "20:20",
+      "rain_policy": "延期（荒天のため8/3開催分は8/23に延期）",
+      "organizer": "湯河原温泉観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "湯河原やっさまつりのクライマックスとして、吉浜海水浴場沖から海上に約2,000発を打ち上げる海上花火大会。海面のスターマイン演出が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "吉浜海水浴場沖（湯河原町）",
+      "official_url": "https://www.yugawara.or.jp/event/8097/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yugawara.or.jp/event/8097/",
+          "site_name": "湯河原温泉 公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://www.shonan-sh.jp/events/yugawara-yassa-hanabi/",
+          "site_name": "とことこ湘南",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "ジョルダン（2026年中止・開催時期変更が決定した花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "当初日程：2026-08-03 → 延期後：2026-08-23（台風の影響）"
+      }
+    },
+    {
+      "id": "festival_504",
+      "name": "黒埼まつり花火大会",
+      "alternate_names": [
+        "黒埼まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "新潟市西区",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "【2026年は開催中止】新潟県公式観光情報サイトで「開催中止」と案内されている。詳細な中止理由の公式発表は確認できず。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "黒埼まつり実行委員会",
+      "genre": [
+        "花火",
+        "踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "39回（2025年時点）",
+      "history_description": "新潟市黒埼地区の夏祭り。過去にもスタッフ不足や財政上の理由で開催が危ぶまれた経緯がある。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://kurosakifes.fc2.page/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/kurosaki_fes/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://niigata-kankou.or.jp/event/2438",
+          "site_name": "新潟県公式観光情報サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "ジョルダン（2026年中止・開催時期変更が決定した花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "2025年：開催 → 2026年：開催中止"
+      }
+    },
+    {
+      "id": "festival_505",
+      "name": "中津祇園市民花火大会",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "大分県",
+      "city": "中津市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "【2026年は開催中止】中津祇園（本体、7/23〜26開催）に付随する花火大会のみが中止。5月18日の会議で、中核団体である中津商工会議所の会員減少により協賛金確保が困難として中止を決定したと報道されている。中津祇園本体（山車・神輿巡行等）は例年通り開催予定。公式サイトでの明確な告知は未確認のため信頼度は低とする。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "中津祇園市民花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "中津祇園（600年の歴史を持つ豊前三大祭の一つ）に合わせて開催されてきた市民花火大会。祭り本体（festival_232 中津祇園）とは別イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kicks-blog.com/entry/2026/05/26/155550",
+          "site_name": "雑記ブログ、ときどきAmazon",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "ジョルダン（2026年中止・開催時期変更が決定した花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "公式サイト（中津祇園保存協議会）での中止告知は未確認。非公式ソースのみのため要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "例年：花火大会あり → 2026年：花火大会中止（祇園本体は開催）"
+      }
+    },
+    {
+      "id": "festival_506",
+      "name": "御船があーっぱ祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "熊本県",
+      "city": "上益城郡御船町",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "ジョルダン「2026年中止・開催時期変更が決定した花火大会」一覧で第53回大会が延期（延期後の日程は未定）と案内されている。検索では2025年開催分（第52回、豪雨のため中止）の情報が中心で、2026年（第53回）の延期詳細を公式に確認できていない。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "御船町商工会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "53回",
+      "history_description": "御船町の夏祭り。カッパ伝説にちなむ「があーっぱ」の名を持つ地域の祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "御船町内",
+      "official_url": "https://www.town.mifune.kumamoto.jp/page8778.html?type=top",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "ジョルダン（2026年中止・開催時期変更が決定した花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://www.town.mifune.kumamoto.jp/page8778.html?type=top",
+          "site_name": "御船町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "2026年（第53回）の延期後の具体的な開催日が未確認。要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "例年8月中旬開催 → 2026年（第53回）は延期、日程未定"
       }
     }
   ]
