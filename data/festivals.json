@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30 18:12",
+  "last_updated": "2026-07-31 08:25",
   "festivals": [
     {
       "id": "festival_001",
@@ -25402,14 +25402,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "date_note",
-        "history_description",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "中止理由・休止期間を上尾市公式サイトで裏付け、信頼度を中→高に更新。"
@@ -28667,7 +28661,7 @@
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
-      "organizer": "不明",
+      "organizer": "一般社団法人上野観光連盟（共催：東京都・台東区）",
       "genre": [
         "その他"
       ],
@@ -28676,12 +28670,12 @@
       "price": "不明",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "不明",
+      "history_description": "上野恩賜公園不忍池周辺・水上音楽堂で開催される第75回江戸趣味納涼大会・うえの夏まつり。水上音楽堂でのステージイベントや屋台、猿回し、納涼ゆかた撮影会などが催される。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
-      "official_url": "不明",
+      "access": "上野恩賜公園不忍池周辺・水上音楽堂",
+      "official_url": "https://enjoy.ueno.or.jp/summer2026/",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -28692,13 +28686,39 @@
           "site_name": "トラベルコ",
           "is_official": false,
           "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://enjoy.ueno.or.jp/summer2026/",
+          "site_name": "うえの夏まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://t-navi.city.taito.lg.jp/event/1415",
+          "site_name": "台東区公式観光情報サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev057/index.html",
+          "site_name": "GO TOKYO（東京都公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "organizer",
+        "official_url",
+        "history_description",
+        "access",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28714,10 +28734,10 @@
       "date_start": "2026-08-07",
       "date_end": "2026-08-09",
       "date_note": "",
-      "time_start": "不明",
-      "time_end": "不明",
+      "time_start": "13:00",
+      "time_end": "21:00（9日は19:00）",
       "rain_policy": "不明",
-      "organizer": "不明",
+      "organizer": "わらび機まつり実行委員会（蕨市観光協会）",
       "genre": [
         "その他"
       ],
@@ -28731,7 +28751,7 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "不明",
-      "official_url": "不明",
+      "official_url": "https://hatamatsuri.com/",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -28742,13 +28762,40 @@
           "site_name": "トラベルコ",
           "is_official": false,
           "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://hatamatsuri.com/",
+          "site_name": "わらび機まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://www.warabi-kankokyokai.com/hata.html",
+          "site_name": "蕨市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://www.toretabi.jp/event/entry-13229.html",
+          "site_name": "トレたび",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "一部の花火・イベントまとめサイトに旧年度の日程（8月2日～4日等）が残存しているが、蕨市観光協会・公式サイトでは2026年8月7日～9日と確認済み。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "organizer",
+        "official_url",
+        "time_start",
+        "time_end",
+        "conflict_note",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28764,10 +28811,10 @@
       "date_start": "2026-08-15",
       "date_end": "2026-08-16",
       "date_note": "",
-      "time_start": "不明",
-      "time_end": "不明",
+      "time_start": "11:00",
+      "time_end": "20:00",
       "rain_policy": "不明",
-      "organizer": "不明",
+      "organizer": "千葉の親子三代夏祭り実行委員会（千葉市）",
       "genre": [
         "神輿",
         "その他"
@@ -28777,12 +28824,12 @@
       "price": "不明",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "不明",
+      "history_description": "千葉開府900年記念の第51回大会。例年のパレード・ステージ・みこし・山車・親子三代千葉おどりに加え、本祭り開始時間を2時間前倒しし、スカイランタンなどの記念イベントを実施予定。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
-      "official_url": "不明",
+      "access": "中央公園、栄町通り、千葉銀座通り、千葉中央一番街、通町公園ほか（JR千葉駅・京成千葉駅周辺）",
+      "official_url": "https://chibaoyakosandai.city.chiba.jp/",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -28793,13 +28840,35 @@
           "site_name": "ちば観光ナビ",
           "is_official": true,
           "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://chibaoyakosandai.city.chiba.jp/",
+          "site_name": "千葉の親子三代夏祭り公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://www.city.chiba.jp/900th/",
+          "site_name": "千葉市：千葉開府900年記念サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "organizer",
+        "official_url",
+        "time_start",
+        "time_end",
+        "access",
+        "history_description",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28814,11 +28883,11 @@
       "city": "結城市",
       "date_start": "2026-07-12",
       "date_end": "2026-07-19",
-      "date_note": "開始日が7/12か7/19かソース内で表現が曖昧なため要確認。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_note": "3日間の神事で構成：7/12(出御)10:00-22:00、7/15(中日)18:00-22:00、7/19(還御)10:00-21:30。開始日・終了日ともに公式情報で確認済み。",
+      "time_start": "10:00",
+      "time_end": "22:00",
       "rain_policy": "不明",
-      "organizer": "不明",
+      "organizer": "結城夏祭り実行委員会事務局（健田須賀神社）",
       "genre": [
         "その他"
       ],
@@ -28826,8 +28895,8 @@
       "is_free": true,
       "price": "不明",
       "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
+      "history_years": "約800年",
+      "history_description": "鎌倉時代から現在まで継承される結城市の夏祭り。健田須賀神社の神事として出御・中日・還御の3日間で行われる。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -28843,13 +28912,29 @@
           "site_name": "トラベルコ",
           "is_official": false,
           "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://tripre.jp/archives/40695",
+          "site_name": "とりぷれ",
+          "is_official": false,
+          "retrieved_date": "2026-07-31"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "time_start",
+        "time_end",
+        "organizer",
+        "history_description",
+        "history_years",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30313,6 +30398,57 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_501",
+      "name": "久世祭り（だんじり喧嘩）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岡山県",
+      "city": "真庭市",
+      "date_start": "2026-10-24",
+      "date_end": "2026-10-26",
+      "date_note": "10/24宵祭り、10/25本祭り（15:00-17:00五社御祭礼、19:30-22:19だんじり喧嘩）、10/26裏祭り（13:30-16:00だんじり御祭礼、18:00-21:15だんじり喧嘩）。",
+      "time_start": "15:00",
+      "time_end": "22:19",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "山車",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "岡山県真庭市久世地区の秋祭り。5基の御輿・だんじりがぶつかり合う「だんじり喧嘩」が名物。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.okayama-kanko.jp/event/12698",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.okayama-kanko.jp/event/12698",
+          "site_name": "岡山観光WEB（岡山県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-07-31"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
