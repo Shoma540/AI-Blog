@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01 17:09",
+  "last_updated": "2026-08-01 18:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -3794,10 +3794,8 @@
       "trust_level": "中",
       "conflict_note": "複数の情報源で「令和8年10月17日(土)・18日(日)」の開催予定が確認できたが、川越氷川神社・川越まつり実行委員会による一次公式発表の明記は未確認のため信頼度は中に留める。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24594,13 +24592,13 @@
       "similar_name_warning": false,
       "prefecture": "埼玉県",
       "city": "八潮市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "2025年は8/22-23実施。2026年は「実施予定」の告知のみで具体的日付が公式サイトで未確認。一部情報で8/28説もあるが裏付け取れず。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "八潮市観光協会（推定）",
+      "date_start": "2026-08-28",
+      "date_end": "2026-08-29",
+      "date_note": "2026年は8/28(金)開催、8/29(土)は予備日（8/28が荒天の場合順延）。予備日も荒天の場合は中止。",
+      "time_start": "16:30",
+      "time_end": "21:00",
+      "rain_policy": "荒天の場合は8/29に順延。予備日も荒天の場合は中止",
+      "organizer": "一般社団法人八潮市観光協会・八潮市商工観光課",
       "genre": [
         "盆踊り"
       ],
@@ -24631,13 +24629,27 @@
           "site_name": "東京フェスタ",
           "is_official": false,
           "retrieved_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.city.yashio.lg.jp/event/matsuri/yashioyoichi2026.html",
+          "site_name": "八潮市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-01"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "organizer"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30594,13 +30606,13 @@
       "similar_name_warning": false,
       "prefecture": "北海道",
       "city": "芦別市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "日付不明。例年8月第1土曜日開催と紹介されているが、2026年の公式日程は検索時点で未確認。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "不明",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "祭り全体17:00〜20:30、花火は20:00〜20:25（約5000発）。公式サイト（芦別市観光総合ガイド）での日程明記は未確認、ウェザーニュース花火カレンダーのみで確認したため要確認継続。",
+      "time_start": "17:00",
+      "time_end": "20:30",
+      "rain_policy": "雨天中止",
+      "organizer": "芦別商工会議所",
       "genre": [
         "花火"
       ],
@@ -30631,13 +30643,27 @@
           "site_name": "芦別市観光総合ガイド「星の降る里あしべつ」",
           "is_official": true,
           "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1001132/",
+          "site_name": "ウェザーニュース 花火カレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-08-01"
         }
       ],
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "organizer"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31065,7 +31091,7 @@
       "city": "中津市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "【2026年は開催中止】中津祇園（本体、7/23〜26開催）に付随する花火大会のみが中止。5月18日の会議で、中核団体である中津商工会議所の会員減少により協賛金確保が困難として中止を決定したと報道されている。中津祇園本体（山車・神輿巡行等）は例年通り開催予定。公式サイトでの明確な告知は未確認のため信頼度は低とする。",
+      "date_note": "【2026年は開催中止】中津祇園（本体、7/23〜26開催）に付随する花火大会のみが中止。中津祇園保存協議会公式サイト「令和8年度中津祇園の日程」で2026年の日程案内に花火大会の記載がないことを確認。5月18日の会議で、中核団体である中津商工会議所の会員減少により協賛金確保が困難として中止を決定したと報道されている（非公式ソース）。中津祇園本体（山車・神輿巡行等、7/23〜26）は例年通り開催。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -31100,13 +31126,22 @@
           "site_name": "ジョルダン（2026年中止・開催時期変更が決定した花火大会一覧）",
           "is_official": false,
           "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://nakatsu-gion.com/2026/03/2026nittei/",
+          "site_name": "中津祇園保存協議会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-01"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "公式サイト（中津祇園保存協議会）での中止告知は未確認。非公式ソースのみのため要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31121,7 +31156,7 @@
       "city": "上益城郡御船町",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "ジョルダン「2026年中止・開催時期変更が決定した花火大会」一覧で第53回大会が延期（延期後の日程は未定）と案内されている。検索では2025年開催分（第52回、豪雨のため中止）の情報が中心で、2026年（第53回）の延期詳細を公式に確認できていない。",
+      "date_note": "2026年（第53回）の開催日について情報源が矛盾。御船町公式サイトでは8/9(日)開催と案内される一方、じゃらん「2026年中止・開催時期変更が決定した花火大会」一覧では延期・日程未定と案内されている。会場は御船川河川敷（お祭り広場）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -31155,14 +31190,17 @@
           "url": "https://www.town.mifune.kumamoto.jp/page8778.html?type=top",
           "site_name": "御船町公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-07-31"
+          "retrieved_date": "2026-08-01"
         }
       ],
       "trust_level": "低",
-      "conflict_note": "2026年（第53回）の延期後の具体的な開催日が未確認。要確認。",
+      "conflict_note": "⚠️ 矛盾：御船町公式サイト（8/9開催）とじゃらん（延期・日程未定）で情報が食い違う。開催直前の公式サイト再確認が必要。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31710,7 +31748,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
