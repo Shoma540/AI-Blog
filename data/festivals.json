@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01 08:21",
+  "last_updated": "2026-08-01 12:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -150,13 +150,13 @@
       "similar_name_warning": false,
       "prefecture": "青森県",
       "city": "青森市",
-      "date_start": "2026-08-07",
+      "date_start": "2026-08-02",
       "date_end": "2026-08-07",
-      "date_note": "19:15〜、打ち上げ場所は青森港西防波堤・北防波堤。ねぶた祭最終日の夜間開催",
+      "date_note": "前夜祭は8月1日。ねぶた運行は8月2日〜7日。8月2・3日は子どもねぶた・大型ねぶたが19:00〜、8月4〜6日は大型ねぶたが18:45〜、8月7日は昼の運行13:00〜とフィナーレの花火大会（19:15〜21:00頃、青森港西・北防波堤）が行われる。",
       "time_start": "18:45",
       "time_end": "21:00",
       "rain_policy": "不明",
-      "organizer": "青森花火大会実行委員会（ねぶた祭協賛行事）",
+      "organizer": "青森ねぶた祭実行委員会",
       "genre": [
         "山車",
         "ねぶた",
@@ -170,12 +170,12 @@
       "price": "見学無料（有料観覧席あり）",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "青森ねぶた祭のフィナーレを飾る協賛花火大会。約1万発が打ち上げられ、大型スターマインや二尺玉が見どころ。有料席はS席5,500円、A席4,500円（無料観覧エリアもあり）。",
+      "history_description": "ねぶたと呼ばれる巨大な灯籠を乗せた山車が跳人（はねと）とともに市内を練り歩く東北三大祭りの一つ。国指定重要無形民俗文化財（1980年1月28日指定）。起源は諸説あるが、七夕行事の灯籠流しや眠り流しの習俗が変化したものと伝わる。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "青森市内中心部（新町通り、八甲通り、国道、平和公園通り、本町寺町通りなど）",
-      "official_url": "https://hanabi.walkerplus.com/detail/ar0202e00645/",
+      "official_url": "https://www.nebuta.jp/",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -238,13 +238,12 @@
         "date_start",
         "date_note",
         "organizer",
-        "is_free",
-        "official_url",
-        "history_description"
+        "history_description",
+        "official_url"
       ],
       "year_comparison": {
         "changed": true,
-        "details": "date_start: 前回2026-08-02 → 今回2026-08-07"
+        "details": "date_start: 前回2026-08-07(花火大会情報と混同した誤値) → 今回2026-08-02(祭り本体の正しい開始日に修正)"
       }
     },
     {
@@ -311,13 +310,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -380,12 +374,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -518,14 +508,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "is_free",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -672,14 +656,8 @@
       "trust_level": "高",
       "conflict_note": "重複データを統合（festival_445 を festival_010 に統合、ソース7件に）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "scale",
-        "is_free",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -763,13 +741,8 @@
       "trust_level": "高",
       "conflict_note": "重複データを統合（festival_456 を festival_011 に統合、ソース5件に）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -851,14 +824,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -982,14 +949,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1118,14 +1079,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "is_free",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1200,14 +1155,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1278,14 +1227,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1503,14 +1446,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1648,15 +1585,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "is_free",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1728,14 +1658,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "scale",
-        "is_free",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1811,17 +1735,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "organizer",
-        "official_url"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "date_start: 前回2026-08-01 → 今回2026-07-25; date_end: 前回2026-08-02 → 今回2026-07-25"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -2024,13 +1942,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -2423,14 +2336,8 @@
       "trust_level": "高",
       "conflict_note": "富士吉田市観光ガイド公式・山梨県観光公式サイトでも8/26・27の開催を確認し、信頼度を引き上げ。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -2948,11 +2855,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "scale"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3296,11 +3200,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "official_url"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3428,13 +3329,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "scale",
-        "is_free",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -3569,17 +3465,11 @@
       "trust_level": "高",
       "conflict_note": "2026年7月28日発生の令和8年熊本地震の影響で開催内容が変更・中止されている可能性。date_noteを参照。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：例年通り花火大会・千人灯籠踊りを含めフル開催 → 今年：令和8年熊本地震の影響により神事以外は中止・規模縮小"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -3832,17 +3722,11 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 旧情報(道ジュネー含む9/4〜9/6の3日間)と最新公式情報(9/5〜9/6の2日間)で開催日数が異なる。最新の公式発表を採用。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_note",
-        "scale",
-        "is_free",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "date_start: 前回2026-09-05 → 今回2026-09-04"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -3916,13 +3800,8 @@
       "trust_level": "高",
       "conflict_note": "複数の情報源で「令和8年10月17日(土)・18日(日)」の開催予定が確認できたが、川越氷川神社・川越まつり実行委員会による一次公式発表の明記は未確認のため信頼度は中に留める。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -4000,14 +3879,11 @@
       "trust_level": "高",
       "conflict_note": "（データ統合）festival_235として重複登録されていた同一祭りのエントリを統合（主催団体・公式サイトが一致のため同一祭りと判定）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_end",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "date_end: 前回2026-08-14 → 今回2026-08-15"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -6052,13 +5928,8 @@
       "trust_level": "高",
       "conflict_note": "青森ねぶた祭（festival_003）とは別の祭りで、弘前市が会場。ねぶたが立体人形型なのに対しねぷたは扇型が主体という違いがあり、主催団体・歴史も異なる。名称類似のため混同注意。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -6792,12 +6663,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_100",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -7967,14 +7834,11 @@
       "conflict_note": "2026年7月28日発生の令和8年熊本地震の影響で開催内容が変更・中止されている可能性。date_noteを参照。",
       "requires_check": true,
       "id": "festival_117",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "今年：令和8年熊本地震（2026年7月28日発生）の影響により、7/31〜8/2開催予定だった祭り本体・関連イベントすべてが中止（例年は開催されている夏祭り）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -8447,16 +8311,11 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_124",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_end",
-        "date_note",
-        "scale",
-        "official_url"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "date_end: 前回2026-08-23 → 今回2026-08-22"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -8597,12 +8456,8 @@
       "conflict_note": "",
       "requires_check": false,
       "id": "festival_126",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -8667,14 +8522,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "is_free",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -9268,13 +9117,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -10526,14 +10370,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -10781,13 +10619,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -10919,14 +10752,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "is_free",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -11861,8 +11688,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：10/10(金)〜12(日)という情報が混入していたが誤り → 今年：10/9(金)〜11(日)"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -13004,15 +12831,11 @@
       "trust_level": "高",
       "conflict_note": "2026年7月28日発生の令和8年熊本地震の影響で開催内容が変更・中止されている可能性。date_noteを参照。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：通常開催 → 今年：令和8年熊本地震の影響により中止"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -13381,13 +13204,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "is_free",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14451,12 +14269,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "official_url"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14823,11 +14637,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "scale"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -15024,12 +14835,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -21664,12 +21471,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -22525,11 +22328,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -22609,14 +22409,8 @@
       "trust_level": "高",
       "conflict_note": "重複データを統合（festival_439 を festival_358 に統合、ソース4件に）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26033,8 +25827,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "中止理由・休止期間を上尾市公式サイトで裏付け、信頼度を中→高に更新。"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -27675,15 +27469,8 @@
       "trust_level": "高",
       "conflict_note": "解消済み: 開始時刻の相違（18:00開始／11:00開始）は誤りではなく、屋外演舞場と屋内会場の違いによるもの。徳島市公式サイトで確認済み。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "is_free",
-        "official_url",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30129,13 +29916,8 @@
       "trust_level": "高",
       "conflict_note": "開催有無が未確定（過去6年連続中止）。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "organizer",
-        "scale",
-        "history_description"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31215,8 +30997,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "当初日程：2026-08-03 → 延期後：2026-08-23（台風の影響）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -31274,8 +31056,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "2025年：開催 → 2026年：開催中止"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -31330,8 +31112,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "例年：花火大会あり → 2026年：花火大会中止（祇園本体は開催）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -31386,8 +31168,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "例年8月中旬開催 → 2026年（第53回）は延期、日程未定"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -31448,7 +31230,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -31513,7 +31295,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -31579,7 +31361,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -31639,7 +31421,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -31690,7 +31472,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -31749,7 +31531,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -31809,7 +31591,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -31865,7 +31647,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
