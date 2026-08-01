@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01 12:15",
+  "last_updated": "2026-08-01 16:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -233,14 +233,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_note",
-        "organizer",
-        "history_description",
-        "official_url"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "date_start: 前回2026-08-07(花火大会情報と混同した誤値) → 今回2026-08-02(祭り本体の正しい開始日に修正)"
@@ -3463,10 +3457,13 @@
         }
       ],
       "trust_level": "高",
-      "conflict_note": "2026年7月28日発生の令和8年熊本地震の影響で開催内容が変更・中止されている可能性。date_noteを参照。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "令和8年熊本地震の影響により、8/15納涼花火大会・お祭り広場等は中止、千人灯籠踊り（8/16）は山鹿小学校グラウンドに規模縮小して実施、大宮神社の神事は実施と山鹿市・実行委員会が確定発表（R8.7.31）。確定情報のため要確認フラグを解除。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -7831,11 +7828,14 @@
         }
       ],
       "trust_level": "高",
-      "conflict_note": "2026年7月28日発生の令和8年熊本地震の影響で開催内容が変更・中止されている可能性。date_noteを参照。",
-      "requires_check": true,
+      "conflict_note": "令和8年熊本地震（2026/7/28発生）の影響により、2026/7/29付で火の国まつり運営委員会が関連イベントを含め全て中止と正式発表。確定情報のため要確認フラグを解除。",
+      "requires_check": false,
       "id": "festival_117",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12829,10 +12829,13 @@
         }
       ],
       "trust_level": "高",
-      "conflict_note": "2026年7月28日発生の令和8年熊本地震の影響で開催内容が変更・中止されている可能性。date_noteを参照。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "令和8年熊本地震の影響（警備要員が被災地対応中のため安全確保困難、被災者支援優先）により、筑後川花火大会実行委員会が2026/7/31付で開催中止を正式発表（久留米市公式サイト・公式X、西日本新聞等で確認）。確定情報のため要確認フラグを解除。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -23908,7 +23911,7 @@
       "city": "天草市（本渡）",
       "date_start": "2026-07-25",
       "date_end": "2026-08-09",
-      "date_note": "第61回開催。公式サイト（haiya.org）および複数メディアで花火大会は7/25(土)20:20開始と一致確認、矛盾は解消。踊りの競演・道中総踊りは8/9。",
+      "date_note": "第61回開催。本祭り（花火大会）は2026/7/25(土)20:20開始で予定通り実施済み（地震発生の7/28より前）。一方、8/1(土)開催予定だった「ハイヤ道中総踊り」および「天草屋台村」は、令和8年熊本地震の影響により実行委員会が中止を正式発表（公式サイトhaiya.orgで確認）。",
       "time_start": "13:00",
       "time_end": "20:40",
       "rain_policy": "花火大会は小雨決行、荒天中止",
@@ -23969,13 +23972,23 @@
           "site_name": "第61回 天草ほんどハイヤ祭り 公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://haiya.org/infomation/",
+          "site_name": "第61回 天草ほんどハイヤ祭り 公式サイト（新着情報）",
+          "is_official": true,
+          "retrieved_date": "2026-08-01"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "主要行事（本祭り 2026年7月25日）は令和8年熊本地震の発生（2026年7月28日）より前に終了済み。公式サイト（haiya.org）に地震を理由とした中止・変更の告知は今回確認できなかった。8月上旬まで続く関連行事の有無・扱いは次回実行時に再確認する。",
+      "conflict_note": "公式サイト（haiya.org）で確認したところ、8/1(土)開催予定の「ハイヤ道中総踊り」「天草屋台村」は地震の影響で中止と正式発表されていた。従来date_noteにあった「道中総踊りは8/9」の記載は誤りだったため訂正。他の関連行事の状況は今後も公式サイトで要確認。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
