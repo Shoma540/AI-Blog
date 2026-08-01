@@ -233,17 +233,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_note",
-        "organizer",
-        "history_description",
-        "official_url"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "date_start: 前回2026-08-07(花火大会情報と混同した誤値) → 今回2026-08-02(祭り本体の正しい開始日に修正)"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -3797,11 +3791,13 @@
           "retrieved_date": "2026-08-01"
         }
       ],
-      "trust_level": "高",
+      "trust_level": "中",
       "conflict_note": "複数の情報源で「令和8年10月17日(土)・18日(日)」の開催予定が確認できたが、川越氷川神社・川越まつり実行委員会による一次公式発表の明記は未確認のため信頼度は中に留める。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31648,6 +31644,73 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_515",
+      "name": "松前城下時代まつり",
+      "alternate_names": [
+        "松前城下時代まつり協賛 納涼花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "松前郡松前町",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "例年お盆期間の2日間開催。2025年（第40回）は8月13日・14日に開催。2026年は第41回の開催が松前町公式サイトで告知されているが、具体的な日程は未公表のため不明。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "松前城下時代まつり実行委員会（北海道まつまえ観光物産協会）",
+      "genre": [
+        "山車",
+        "パレード",
+        "盆踊り",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 41,
+      "history_description": "北海道唯一の城下町・松前町で開催される夏祭り。バイク武者軍団パレード、山車行列、大盆踊り大会、納涼花火大会などが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://travel-matsumae.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.matsumae.hokkaido.jp/koho/",
+          "site_name": "北海道松前町公式サイト（広報）",
+          "is_official": true,
+          "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://travel-matsumae.jp/",
+          "site_name": "松前町公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://hakodate-event.com/2025/08/archives/42955",
+          "site_name": "函館イベント情報局（2025年開催実績）",
+          "is_official": false,
+          "retrieved_date": "2026-08-01"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
