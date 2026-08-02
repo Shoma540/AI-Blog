@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02 17:11",
+  "last_updated": "2026-08-02 21:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -23902,7 +23902,7 @@
       "city": "天草市（本渡）",
       "date_start": "2026-07-25",
       "date_end": "2026-08-09",
-      "date_note": "第61回開催。公式サイト（haiya.org）および複数メディアで花火大会は7/25(土)20:20開始と一致確認、矛盾は解消。踊りの競演・道中総踊りは8/9。",
+      "date_note": "第61回開催。公式サイト（haiya.org）および複数メディアで花火大会は7/25(土)20:20開始と一致確認、矛盾は解消。踊りの競演・道中総踊りは8/9。 ／【8/2追記】公式サイト（haiya.org）にて、8/1(土)開催予定だった「ハイヤ道中総踊り」「天草屋台村」の中止を確認（7/28発生の地震による余震リスクを踏まえた安全確保のため）。7/25の花火大会・7/26の踊りの競演は地震発生前に実施済みのため対象外。",
       "time_start": "13:00",
       "time_end": "20:40",
       "rain_policy": "花火大会は小雨決行、荒天中止",
@@ -23963,13 +23963,23 @@
           "site_name": "第61回 天草ほんどハイヤ祭り 公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://haiya.org/infomation/",
+          "site_name": "第61回 天草ほんどハイヤ祭り 公式サイト お知らせ",
+          "is_official": true,
+          "retrieved_date": "2026-08-02"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "主要行事（本祭り 2026年7月25日）は令和8年熊本地震の発生（2026年7月28日）より前に終了済み。公式サイト（haiya.org）に地震を理由とした中止・変更の告知は今回確認できなかった。8月上旬まで続く関連行事の有無・扱いは次回実行時に再確認する。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "主要行事（花火大会7/25、踊りの競演7/26）は地震発生（7/28）前に終了済み。8/1予定の道中総踊り・天草屋台村は地震の影響で中止が確定（公式サイトで確認）。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31794,7 +31804,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
