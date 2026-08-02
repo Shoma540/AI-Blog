@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02 21:14",
+  "last_updated": "2026-08-02 16:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -12272,7 +12272,9 @@
     {
       "id": "festival_190",
       "name": "松山まつり（松山野球拳おどり）",
-      "alternate_names": [],
+      "alternate_names": [
+        "松山野球拳おどり"
+      ],
       "similar_name_warning": false,
       "prefecture": "愛媛県",
       "city": "松山市",
@@ -12315,13 +12317,22 @@
           "site_name": "ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/matsurievent/matsuri-summer.html",
+          "site_name": "松山市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-01"
         }
       ],
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "alternate_names"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -18753,7 +18764,9 @@
     {
       "id": "festival_300",
       "name": "第68回 川内川花火大会",
-      "alternate_names": [],
+      "alternate_names": [
+        "川内川花火大会"
+      ],
       "similar_name_warning": false,
       "prefecture": "鹿児島県",
       "city": "薩摩川内市",
@@ -18798,13 +18811,22 @@
           "site_name": "薩摩川内観光物産ガイドこころ",
           "is_official": false,
           "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.kagoshima-kankou.com/event/20352",
+          "site_name": "鹿児島県観光サイト",
+          "is_official": false,
+          "retrieved_date": "2026-07-26"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "alternate_names"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -23974,12 +23996,8 @@
       "trust_level": "高",
       "conflict_note": "主要行事（花火大会7/25、踊りの競演7/26）は地震発生（7/28）前に終了済み。8/1予定の道中総踊り・天草屋台村は地震の影響で中止が確定（公式サイトで確認）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25635,13 +25653,23 @@
           "site_name": "須賀川市公式ホームページ",
           "is_official": true,
           "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/cancelled/",
+          "site_name": "ウォーカープラス（2026年中止・非開催が決定した花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-08-02"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "2026年度休止との報道あり（公式サイトは明確な告知未掲載のため要確認）",
+      "trust_level": "高",
+      "conflict_note": "2026年度休止と確認。地元紙報道に加え、ウォーカープラス「2026年中止・非開催が決定した花火大会一覧」（2026-08-02取得）にも掲載されており、2ソース一致のため信頼度を中→高に更新。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27923,70 +27951,6 @@
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0311e00902/",
           "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-07-26"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_453",
-      "name": "川内川花火大会",
-      "alternate_names": [
-        "第68回川内川花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "鹿児島県",
-      "city": "薩摩川内市",
-      "date_start": "2026-08-16",
-      "date_end": "2026-08-16",
-      "date_note": "荒天時延期あり（延期日程は公式サイト要確認）。",
-      "time_start": "19:40",
-      "time_end": "20:30",
-      "rain_policy": "荒天延期",
-      "organizer": "川内川花火大会実行委員会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": 68,
-      "history_description": "薩摩川内市の川内川河川敷一帯で開催される第68回目の花火大会。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "川内川河川敷一帯（西開聞町〜大小路町）",
-      "official_url": "https://www.sendaihanabi.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "",
-      "sources": [
-        {
-          "url": "https://www.sendaihanabi.com/",
-          "site_name": "川内川花火大会 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-26"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar1046e00998/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-07-26"
-        },
-        {
-          "url": "https://www.kagoshima-kankou.com/event/20352",
-          "site_name": "鹿児島県観光サイト",
           "is_official": false,
           "retrieved_date": "2026-07-26"
         }
@@ -31492,65 +31456,6 @@
         }
       ],
       "trust_level": "低",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_512",
-      "name": "松山野球拳おどり",
-      "alternate_names": [
-        "第61回松山野球拳おどり"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "愛媛県",
-      "city": "松山市",
-      "date_start": "2026-08-07",
-      "date_end": "2026-08-09",
-      "date_note": "同時期に松山港まつり・三津浜花火大会（8/1）も開催",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "不明",
-      "genre": [
-        "盆踊り",
-        "パレード"
-      ],
-      "scale": "不明",
-      "is_free": "不明",
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://baseball-dance.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://baseball-dance.com/",
-          "site_name": "松山野球拳おどり公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-01"
-        },
-        {
-          "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/matsurievent/matsuri-summer.html",
-          "site_name": "松山市公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-01"
-        }
-      ],
-      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
