@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02 17:13",
+  "last_updated": "2026-08-02 18:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -3464,14 +3464,8 @@
       "trust_level": "高",
       "conflict_note": "令和8年熊本地震の影響により2026年は規模縮小が確定（山鹿探訪なび公式サイト「2026年山鹿灯籠まつり規模縮小のお知らせ」で確認）。納涼花火大会・お祭り広場は中止。大宮神社の神事は実施、千人灯籠踊りは8/16 20:00〜山鹿小学校グラウンドで限定実施（特別観覧席チケットあり）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "genre",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -7845,13 +7839,8 @@
       "conflict_note": "令和8年熊本地震の影響により2026年は全イベント中止が確定（熊本市観光ガイド公式お知らせ「令和8年熊本地震発生に伴うイベント等の中止のお知らせ」で確認）。",
       "requires_check": false,
       "id": "festival_117",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12861,13 +12850,8 @@
       "trust_level": "高",
       "conflict_note": "令和8年熊本地震の影響により2026年8月5日開催予定分は中止が確定（筑後川花火大会実行委員会・久留米市観光公式Xアカウント、西日本新聞・NHK等の複数報道で確認）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
