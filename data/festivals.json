@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02 16:12",
+  "last_updated": "2026-08-02 17:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -3395,7 +3395,7 @@
     },
     {
       "id": "festival_052",
-      "name": "山鹿灯籠まつり",
+      "name": "山鹿灯籠まつり【2026年規模縮小】",
       "alternate_names": [
         "千人灯籠踊り"
       ],
@@ -3412,7 +3412,6 @@
       "genre": [
         "踊り",
         "民俗芸能",
-        "花火",
         "神事"
       ],
       "scale": "不明（山鹿灯籠自体は熊本県指定重要無形民俗文化財）",
@@ -3454,13 +3453,25 @@
           "site_name": "ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://yamaga-tanbou.jp/info/18972/",
+          "site_name": "山鹿探訪なび（2026年山鹿灯籠まつり規模縮小のお知らせ）",
+          "is_official": true,
+          "retrieved_date": "2026-08-02"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "2026年7月28日発生の令和8年熊本地震の影響で開催内容が変更・中止されている可能性。date_noteを参照。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "令和8年熊本地震の影響により2026年は規模縮小が確定（山鹿探訪なび公式サイト「2026年山鹿灯籠まつり規模縮小のお知らせ」で確認）。納涼花火大会・お祭り広場は中止。大宮神社の神事は実施、千人灯籠踊りは8/16 20:00〜山鹿小学校グラウンドで限定実施（特別観覧席チケットあり）。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "genre",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -7751,7 +7762,7 @@
       }
     },
     {
-      "name": "火の国まつり",
+      "name": "火の国まつり【2026年中止】",
       "alternate_names": [
         "第49回火の国まつり"
       ],
@@ -7822,14 +7833,25 @@
           "site_name": "夏休みおでかけガイド2026",
           "is_official": false,
           "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://kumamoto-guide.jp/news/detail/1454",
+          "site_name": "熊本市観光ガイド（令和8年熊本地震発生に伴うイベント等の中止のお知らせ）",
+          "is_official": true,
+          "retrieved_date": "2026-08-02"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "2026年7月28日発生の令和8年熊本地震の影響で開催内容が変更・中止されている可能性。date_noteを参照。",
-      "requires_check": true,
+      "conflict_note": "令和8年熊本地震の影響により2026年は全イベント中止が確定（熊本市観光ガイド公式お知らせ「令和8年熊本地震発生に伴うイベント等の中止のお知らせ」で確認）。",
+      "requires_check": false,
       "id": "festival_117",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12328,11 +12350,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "alternate_names"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12775,7 +12794,7 @@
     },
     {
       "id": "festival_198",
-      "name": "筑後川花火大会",
+      "name": "筑後川花火大会【2026年中止】",
       "alternate_names": [
         "第367回筑後川花火大会"
       ],
@@ -12831,13 +12850,24 @@
           "site_name": "NHKニュース",
           "is_official": false,
           "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1040e01014/",
+          "site_name": "ウォーカープラス（第367回 筑後川花火大会【中止】）",
+          "is_official": false,
+          "retrieved_date": "2026-08-02"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "2026年7月28日発生の令和8年熊本地震の影響で開催内容が変更・中止されている可能性。date_noteを参照。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "令和8年熊本地震の影響により2026年8月5日開催予定分は中止が確定（筑後川花火大会実行委員会・久留米市観光公式Xアカウント、西日本新聞・NHK等の複数報道で確認）。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -18822,11 +18852,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "alternate_names"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25664,12 +25691,8 @@
       "trust_level": "高",
       "conflict_note": "2026年度休止と確認。地元紙報道に加え、ウォーカープラス「2026年中止・非開催が決定した花火大会一覧」（2026-08-02取得）にも掲載されており、2ソース一致のため信頼度を中→高に更新。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
