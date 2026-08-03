@@ -1,11 +1,15 @@
 import json
 import os
 from datetime import datetime
+from urllib.parse import quote
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
 DOCS_DIR = os.path.join(os.path.dirname(__file__), '..', 'docs')
 FESTIVALS_JSON = os.path.join(DATA_DIR, 'festivals.json')
 CONFIG_JSON = os.path.join(os.path.dirname(__file__), '..', 'config.json')
+
+# 公開URL。カスタムドメイン確定後は環境変数 SITE_URL で上書きできる（post_instagram.pyと同様の方式）。
+SITE_BASE_URL = os.environ.get('SITE_URL', 'https://shoma540.github.io/AI-Blog').rstrip('/')
 
 TRUST_COLORS = {'高': '#2e7d32', '中': '#f9a825', '低': '#c62828'}
 
@@ -1160,6 +1164,37 @@ def generate_month_pages(festivals, last_updated):
     print(f"月別ページを {len(months_data)} 件生成しました")
 
 
+def generate_sitemap(festivals, last_updated):
+    """検索エンジン向けの sitemap.xml を docs/ 直下に生成する"""
+    lastmod = (last_updated or '')[:10] or datetime.now().strftime('%Y-%m-%d')
+
+    paths = ['', 'calendar.html', 'map.html']
+    prefectures = sorted(set(f.get('prefecture', '') for f in festivals if f.get('prefecture')))
+    paths += [f'prefecture/{pref}.html' for pref in prefectures]
+
+    months = set()
+    for f in festivals:
+        try:
+            months.add(datetime.strptime(f.get('date_start', ''), '%Y-%m-%d').month)
+        except ValueError:
+            pass
+    paths += [f'month/{m}.html' for m in sorted(months)]
+
+    urls = '\n'.join(
+        f'  <url><loc>{SITE_BASE_URL}/{quote(path)}</loc><lastmod>{lastmod}</lastmod></url>'
+        for path in paths
+    )
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f'{urls}\n'
+        '</urlset>\n'
+    )
+    with open(os.path.join(DOCS_DIR, 'sitemap.xml'), 'w', encoding='utf-8') as f:
+        f.write(xml)
+    print(f"sitemap.xml を生成しました（{len(paths)}件のURL）")
+
+
 if __name__ == '__main__':
     data = load_data()
     festivals = data.get('festivals', [])
@@ -1169,4 +1204,5 @@ if __name__ == '__main__':
     generate_calendar(festivals, last_updated)
     generate_prefecture_pages(festivals, last_updated)
     generate_month_pages(festivals, last_updated)
+    generate_sitemap(festivals, last_updated)
     print("HTML生成完了")
