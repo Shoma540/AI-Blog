@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03 12:26",
+  "last_updated": "2026-08-04 01:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -3476,12 +3476,8 @@
       "trust_level": "高",
       "conflict_note": "令和8年熊本地震の影響により、当初は千人灯籠踊り（8/16）は限定実施予定と案内されていたが、2026年7月31日の実行委員会にて花火大会に加え千人灯籠踊り・お祭り広場も中止と正式決定（山鹿市公式サイト・熊本日日新聞で確認）。実施されるのは大宮神社の神事及び関連行事のみ。交通規制・臨時駐車場も設置なし。中止イベントの延期はなし。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "date_note",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：通常規模で花火大会・千人灯籠踊り・お祭り広場を開催 → 今年：熊本地震の影響で神事のみ実施、花火大会・千人灯籠踊り・お祭り広場は中止"
