@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03 17:15",
+  "last_updated": "2026-08-03 18:18",
   "festivals": [
     {
       "id": "festival_001",
@@ -3703,13 +3703,13 @@
           "url": "https://www.zentoeisa.com/",
           "site_name": "沖縄全島エイサーまつり実行委員会公式",
           "is_official": true,
-          "retrieved_date": "2026-08-01"
+          "retrieved_date": "2026-08-03"
         },
         {
           "url": "https://www.kozaweb.jp/events/show/24890",
           "site_name": "沖縄市観光ポータルKozaweb",
           "is_official": true,
-          "retrieved_date": "2026-08-01"
+          "retrieved_date": "2026-08-03"
         },
         {
           "url": "https://www.surairu-okinawa.com/zento-eisa",
@@ -3728,13 +3728,22 @@
           "site_name": "Wikipedia",
           "is_official": false,
           "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://rycom-familyresort.jp/news/okinawazentoeisa2026/",
+          "site_name": "ライカムファミリーリゾートホテル",
+          "is_official": false,
+          "retrieved_date": "2026-08-03"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "⚠️ 矛盾: 旧情報(道ジュネー含む9/4〜9/6の3日間)と最新公式情報(9/5〜9/6の2日間)で開催日数が異なる。最新の公式発表を採用。",
+      "conflict_note": "過去に「kozaweb記事により最新公式情報は9/5〜9/6の2日間」と誤って記録していたが、公式サイト(zentoeisa.com)で9/4(金・道じゅねー)・9/5(土・沖縄市青年まつり)・9/6(日・本祭)の3日間開催であることを再確認。kozaweb記事は中日・最終日のみを扱った個別記事であり、全日程を示すものではなかったため誤解が生じていた。日程は当初の9/4〜9/6の3日間で確定。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25517,13 +25526,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "前回：2026-10-25（開催予定） → 今回：中止（会場整備工事のため2029年頃まで延期）"
@@ -28901,14 +28905,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "前回：2026-08-01〜2026-08-01（開催予定） → 今回：中止（当日8/1に河川水位上昇のため中止発表、延期なし）"
