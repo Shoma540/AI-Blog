@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04 01:20",
+  "last_updated": "2026-08-03 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -25465,9 +25465,9 @@
       "similar_name_warning": false,
       "prefecture": "千葉県",
       "city": "佐倉市",
-      "date_start": "2026-10-25",
-      "date_end": "2026-10-25",
-      "date_note": "第64回。開会式19:00〜、手筒花火19:05〜、打ち上げ19:20〜20:30。会場は市内10カ所程度（佐倉ふるさと広場での打ち上げなし）。小雨決行、荒天時は翌日順延。",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "第64回。開会式19:00〜、手筒花火19:05〜、打ち上げ19:20〜20:30。会場は市内10カ所程度（佐倉ふるさと広場での打ち上げなし）。小雨決行、荒天時は翌日順延。 ／ 【2026年中止】会場の佐倉ふるさと広場拡張整備工事のため、リニューアル工事完了(2029年頃)まで開催を延期。",
       "time_start": "19:20",
       "time_end": "20:30",
       "rain_policy": "小雨決行、荒天の場合は翌日に順延",
@@ -25506,16 +25506,27 @@
           "site_name": "佐倉でくらす",
           "is_official": false,
           "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://www.city.sakura.lg.jp/soshiki/sakuranomiryoku/event_kanko/20430.html",
+          "site_name": "佐倉市公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-03"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "前回：2026-10-25（開催予定） → 今回：中止（会場整備工事のため2029年頃まで延期）"
       }
     },
     {
@@ -28836,9 +28847,9 @@
       "similar_name_warning": false,
       "prefecture": "宮城県",
       "city": "大崎市",
-      "date_start": "2026-08-01",
-      "date_end": "2026-08-01",
-      "date_note": "",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "【2026年中止】河川の水位上昇により打ち上げ場所の安全確保が困難と判断し、開催当日(8/1)17:15に中止を発表。延期の予定なし。",
       "time_start": "19:30",
       "time_end": "21:00",
       "rain_policy": "荒天時中止",
@@ -28879,16 +28890,28 @@
           "site_name": "花火に行こう",
           "is_official": false,
           "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://yakei-fan.com/magazine/fireworks/miyagi/osaki-hanabi2026cancel.html",
+          "site_name": "夜景FANマガジン",
+          "is_official": false,
+          "retrieved_date": "2026-08-03"
         }
       ],
-      "trust_level": "高",
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "前回：2026-08-01〜2026-08-01（開催予定） → 今回：中止（当日8/1に河川水位上昇のため中止発表、延期なし）"
       }
     },
     {
