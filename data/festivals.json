@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02 18:12",
+  "last_updated": "2026-08-03 08:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -3395,7 +3395,7 @@
     },
     {
       "id": "festival_052",
-      "name": "山鹿灯籠まつり【2026年規模縮小】",
+      "name": "山鹿灯籠まつり【2026年大幅縮小・神事のみ実施】",
       "alternate_names": [
         "千人灯籠踊り"
       ],
@@ -3404,7 +3404,7 @@
       "city": "山鹿市",
       "date_start": "2026-08-15",
       "date_end": "2026-08-16",
-      "date_note": "令和8年熊本地震のため規模縮小（R8.7.31更新）。納涼花火大会・お祭り広場等は中止。千人灯籠踊りは8/16 20:00-21:00に山鹿小学校グラウンドで実施予定、大宮神社の神事は実施",
+      "date_note": "令和8年熊本地震のため大幅縮小（R8.7.31決定）。納涼花火大会・千人灯籠踊り・お祭り広場は全て中止。大宮神社の神事及び関連行事のみ実施。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -3459,16 +3459,32 @@
           "site_name": "山鹿探訪なび（2026年山鹿灯籠まつり規模縮小のお知らせ）",
           "is_official": true,
           "retrieved_date": "2026-08-02"
+        },
+        {
+          "url": "https://www.city.yamaga.kumamoto.jp/kiji0033147/index.html",
+          "site_name": "山鹿市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-03"
+        },
+        {
+          "url": "https://news.yahoo.co.jp/articles/a5cc02f5a77f9264d9732fe0c14bba5e3ec63f7a",
+          "site_name": "Yahoo!ニュース（熊本日日新聞）",
+          "is_official": false,
+          "retrieved_date": "2026-08-03"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "令和8年熊本地震の影響により2026年は規模縮小が確定（山鹿探訪なび公式サイト「2026年山鹿灯籠まつり規模縮小のお知らせ」で確認）。納涼花火大会・お祭り広場は中止。大宮神社の神事は実施、千人灯籠踊りは8/16 20:00〜山鹿小学校グラウンドで限定実施（特別観覧席チケットあり）。",
+      "conflict_note": "令和8年熊本地震の影響により、当初は千人灯籠踊り（8/16）は限定実施予定と案内されていたが、2026年7月31日の実行委員会にて花火大会に加え千人灯籠踊り・お祭り広場も中止と正式決定（山鹿市公式サイト・熊本日日新聞で確認）。実施されるのは大宮神社の神事及び関連行事のみ。交通規制・臨時駐車場も設置なし。中止イベントの延期はなし。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "date_note",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：通常規模で花火大会・千人灯籠踊り・お祭り広場を開催 → 今年：熊本地震の影響で神事のみ実施、花火大会・千人灯籠踊り・お祭り広場は中止"
       }
     },
     {
