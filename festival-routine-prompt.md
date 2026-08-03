@@ -232,6 +232,38 @@ last_post.jsonのスキーマ：
 - 現在時刻が **08:00〜08:59 の場合のみ**、STEP 10 を実行する。
 - それ以外の時刻の回は、STEP 10 **全体をスキップ**してルーティンを終了する（部分的にも実行しない）。
 
+**実行の記録（発動条件を満たした場合、10-1より前に必ず実行）:**
+- `data/step10_heartbeat.json`（存在しない場合は `{"runs": []}` として新規作成）に、個別スクリプト
+  （`fetch_analytics.py`等）の例外処理に依存せずSTEP10の実行有無を必ず痕跡として残すため、
+  以下のスキーマで1エントリを追記する。追記は10-1を含むいずれのSTEP10処理よりも前に、
+  スクリプトの成否に関係なく必ず行う:
+  ```json
+  {
+    "runs": [
+      {
+        "date": "YYYY-MM-DD HH:MM",
+        "reached": "start",
+        "status": "running"
+      }
+    ]
+  }
+  ```
+- `reached` は STEP10の進行に応じて、新しいentryを追加するのではなく**この同じentryを**そのつど
+  上書き更新する: `start` → `10-1_fetch_analytics`（10-1: 閲覧データの取得） →
+  `10-4_analyzed`（10-4: 分析と改善案の立案） → `10-5_implemented`（10-5: 実装） →
+  `10-6_validated`（10-6: 検証） → `10-7_pushed`（10-7: Push） → `10-8_logged`（10-8: 学習記録の追記）。
+- `status` は `running` / `success` / `failed` / `skipped` のいずれかを、`reached` の更新と同時に
+  実態に合わせて設定する:
+  - 10-1（`fetch_analytics.py`実行）が失敗 → `reached: "10-1_fetch_analytics"`, `status: "failed"` で
+    確定し終了（STEP10の残りは全てスキップし、ルーティン全体は正常終了扱い）。
+  - 10-3のロールバック分岐（検証失敗によるrevert）に入り、今回の新規改善を行わず終了する場合
+    → `reached` はその時点の値のまま、`status: "skipped"` で確定。
+  - 10-6の検証で差し戻し（push見送り）→ `reached: "10-6_validated"`, `status: "failed"` で確定。
+  - 最後まで完走し10-8を完了 → `reached: "10-8_logged"`, `status: "success"` で確定。
+  - 上記以外の理由でSTEP10の処理を終了する場合も、その時点の `reached` のまま `status` を
+    `failed` か `skipped` のうち実態に近いほうで確定させる。
+- このファイルへの追記自体が失敗する状況（ディスク書き込み不可等）は想定しなくてよい。
+
 全体設計は `docs/plan.md` を参照。原則は「1回の実行で1改善・小さく確実に・効果を測ってから次へ」。
 
 ### 10-1: 閲覧データの取得

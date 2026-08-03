@@ -142,7 +142,7 @@ def main():
         print(f'[fetch_analytics] エラー: {msg}')
         append_error_log('GA4ライブラリ未インストール', msg)
         return 1
-    except (ValueError, KeyError) as e:
+    except (ValueError, KeyError, AttributeError, TypeError) as e:
         # JSONキーのパース失敗。キーの中身はログに出さない
         msg = f'GA4_SERVICE_ACCOUNT_JSON の形式が不正です（{type(e).__name__}）。サービスアカウントJSONの中身全体が設定されているか確認してください。'
         print(f'[fetch_analytics] エラー: {msg}')
