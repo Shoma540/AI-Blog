@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04 17:17",
+  "last_updated": "2026-08-04 18:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -3579,13 +3579,23 @@
           "site_name": "日本気象協会 tenki.jp（台風13号 最新情報）",
           "is_official": true,
           "retrieved_date": "2026-08-04"
+        },
+        {
+          "url": "https://www.city.oita.oita.jp/o154/maturi2026.html",
+          "site_name": "大分市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-04"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28037,8 +28047,8 @@
       "city": "南種子町",
       "date_start": "2026-08-09",
       "date_end": "2026-08-09",
-      "date_note": "町制施行70周年記念。同じ種子島内の中種子町「よいらーい（よいらーいき祭り）」とは別の祭りのため混同注意。 南種子町ロケット祭（8/9開催）は台風13号の進路（沖縄・奄美〜九州に接近予想）に近く、影響を受ける可能性がある。【8/4追記】大型で猛烈な勢力の台風13号が接近中で、8/7〜9頃に沖縄・奄美〜九州へ最接近する予報が出ている（気象庁・気象協会等）。本稿執筆時点で主催者からの中止・延期発表はないが、荒天により中止・延期となる可能性があるため、開催直前に公式サイト・SNSでの最新情報確認を推奨。",
-      "time_start": "20:35",
+      "date_note": "町制施行70周年記念。同じ種子島内の中種子町「よいらーい（よいらーいき祭り）」とは別の祭りのため混同注意。 南種子町ロケット祭（8/9開催）は台風13号の進路（沖縄・奄美〜九州に接近予想）に近く、影響を受ける可能性がある。【8/4追記】大型で猛烈な勢力の台風13号が接近中で、8/7〜9頃に沖縄・奄美〜九州へ最接近する予報が出ている（気象庁・気象協会等）。本稿執筆時点で主催者からの中止・延期発表はないが、荒天により中止・延期となる可能性があるため、開催直前に公式サイト・SNSでの最新情報確認を推奨。 花火打ち上げ20:35-21:15、約1万5000発。雨天時は翌日以降に延期（花火のみ）。",
+      "time_start": "13:00",
       "time_end": "21:15",
       "rain_policy": "不明",
       "organizer": "南種子町ロケット祭振興会（南種子町企画課内）",
@@ -28079,13 +28089,26 @@
           "site_name": "日本気象協会 tenki.jp（台風13号 最新情報）",
           "is_official": true,
           "retrieved_date": "2026-08-04"
+        },
+        {
+          "url": "http://www.town.minamitane.kagoshima.jp/industry/etc/27.html",
+          "site_name": "南種子町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-04"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "time_start",
+        "time_end",
+        "date_note",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31501,11 +31524,11 @@
       "prefecture": "広島県",
       "city": "広島市（中区）／福山市",
       "date_start": "2026-08-08",
-      "date_end": "2026-08-15",
+      "date_end": "2026-08-09",
       "date_note": "広島会場（ひろしまゲートパークプラザ）は8/8-9、17:00〜21:30予定。福山会場は8/13〜15（花火含む）",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "小雨決行（荒天等で予告なく変更・中止の可能性あり、公式サイト・SNSで要確認）",
+      "time_start": "17:00",
+      "time_end": "21:30",
+      "rain_policy": "小雨決行",
       "organizer": "中国新聞社",
       "genre": [
         "盆踊り",
@@ -31532,21 +31555,30 @@
           "site_name": "ひろしま盆ダンス公式サイト（中国新聞）",
           "is_official": true,
           "retrieved_date": "2026-08-04"
+        },
+        {
+          "url": "https://hiroshima-bon-dance.jp/",
+          "site_name": "ひろしま盆ダンス公式サイト（中国新聞）",
+          "is_official": true,
+          "retrieved_date": "2026-08-04"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
+      "requires_check": false,
       "diff_status": "UPDATED",
       "updated_fields": [
+        "date_end",
+        "time_start",
+        "time_end",
         "rain_policy",
+        "sources",
         "trust_level",
-        "requires_check",
-        "sources"
+        "requires_check"
       ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "開催期間：2026-08-08〜2026-08-15（訂正前） → 2026-08-08〜2026-08-09（公式サイトで確認）"
       }
     },
     {
@@ -31794,6 +31826,70 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_517",
+      "name": "勝毎花火大会",
+      "alternate_names": [
+        "十勝川花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "帯広市",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-13",
+      "date_note": "荒天の場合は8月14日（金）に順延。第74回開催。",
+      "time_start": "15:00",
+      "time_end": "21:00",
+      "rain_policy": "荒天順延（順延先も荒天の場合は十勝毎日新聞・公式サイト・SNS・メールで案内）",
+      "organizer": "十勝毎日新聞社",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明（有料席あり、公式サイトでチケット販売）",
+      "ticket_url": "https://www.e-tix.jp/hanabi/",
+      "history_years": 74,
+      "history_description": "十勝毎日新聞社主催の北海道有数の花火大会。帯広市の十勝川河川敷特設会場（十勝大橋下流400m付近）で開催。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "帯広市・十勝川河川敷特設会場（十勝大橋下流400m付近）",
+      "official_url": "https://kachimai-hanabi.com/",
+      "sns_accounts": {
+        "x": "https://x.com/kachimaihanabi"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kachimai-hanabi.com/pg.php?c=about_overview",
+          "site_name": "勝毎花火大会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-04"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e01041/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-04"
+        },
+        {
+          "url": "https://matoka-tokachi.jp/tokachi-hanabi2026/",
+          "site_name": "まとかとかち",
+          "is_official": false,
+          "retrieved_date": "2026-08-04"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
