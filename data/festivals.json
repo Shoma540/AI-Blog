@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04 08:24",
+  "last_updated": "2026-08-04 12:24",
   "festivals": [
     {
       "id": "festival_001",
@@ -3584,12 +3584,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -12942,12 +12938,8 @@
       "trust_level": "中",
       "conflict_note": "一般Web検索の要約では「8月8-9日」との情報もあったが、鹿島市公式サイトの「8月7-8日」を正として採用。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28074,12 +28066,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31224,15 +31212,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "sources",
-        "trust_level",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "前回：8/9(日)開催予定だが情報源間で矛盾（要確認） → 今回：令和8年熊本地震の影響により延期が確定。新日程は未定のため、開催直前に公式サイトでの再確認が必要。"
