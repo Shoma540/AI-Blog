@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04 12:24",
+  "last_updated": "2026-08-05 01:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -13073,14 +13073,14 @@
     },
     {
       "id": "festival_202",
-      "name": "TKU江津湖花火大会",
+      "name": "TKU江津湖花火大会【2026年中止】",
       "alternate_names": [],
       "similar_name_warning": false,
       "prefecture": "熊本県",
       "city": "熊本市東区（下江津湖周辺）",
       "date_start": "2026-08-29",
       "date_end": "2026-08-29",
-      "date_note": "「熊本地震から10年〜支えられた日々を、支え合う力に。」がテーマ。約10,000発。",
+      "date_note": "「熊本地震から10年〜支えられた日々を、支え合う力に。」がテーマで約10,000発を予定していたが、令和8年熊本地震（2026年7月28日発生）の被災状況を総合的に考慮し、2026年8月4日に熊本市・江津湖花火大会実行委員会が2026年開催の中止を発表。観覧ツアー等は全額返金。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -13121,16 +13121,39 @@
           "site_name": "熊本市イベント情報公式X",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://hanabi.kumamoto-guide.jp/topics/detail/1460.html",
+          "site_name": "再春館製薬所TKU江津湖花火大会 公式サイト（中止のお知らせ）",
+          "is_official": true,
+          "retrieved_date": "2026-08-04"
+        },
+        {
+          "url": "https://kumanichi.com/articles/2021707",
+          "site_name": "熊本日日新聞社",
+          "is_official": false,
+          "retrieved_date": "2026-08-04"
+        },
+        {
+          "url": "https://travel.watch.impress.co.jp/docs/news/2130441.html",
+          "site_name": "トラベル Watch",
+          "is_official": false,
+          "retrieved_date": "2026-08-04"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "令和8年熊本地震の影響により2026年8月29日開催予定分は中止が確定（熊本市公式・江津湖花火大会実行委員会公式サイト、熊本日日新聞、トラベルWatch等の複数報道で確認）。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "date_note",
+        "sources",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：通常開催（約10,000発）→ 今年：令和8年熊本地震の影響により中止"
       }
     },
     {
