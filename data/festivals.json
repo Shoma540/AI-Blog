@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05 21:30",
+  "last_updated": "2026-08-05 16:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -27488,7 +27488,7 @@
       "date_note": "8/11(火・祝)は「匠の舞台 優りび」、8/12(水)〜15(土)が有料演舞場・無料演舞場含む本番「夢の舞台 祭りび」",
       "time_start": "18:00",
       "time_end": "22:00",
-      "rain_policy": "不明",
+      "rain_policy": "雨天決行。台風や暴風雨などの悪天候の場合は中止・縮小開催の可能性があり、当日14時頃に公式サイトで発表される。",
       "organizer": "阿波おどり未来へつなぐ実行委員会",
       "genre": [
         "盆踊り",
@@ -27569,13 +27569,21 @@
           "site_name": "鳴門市公式観光サイト",
           "is_official": false,
           "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://touchthejapan.jp/2026/07/26/tokushima-awaodori-2026-schedule-yuuryouseki-niwakaren-yatai-parking-guide/",
+          "site_name": "touch the japan",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
         }
       ],
       "trust_level": "高",
       "conflict_note": "解消済み: 開始時刻の相違（18:00開始／11:00開始）は誤りではなく、屋外演舞場と屋内会場の違いによるもの。徳島市公式サイトで確認済み。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "rain_policy"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -32443,7 +32451,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -32508,7 +32516,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -32575,7 +32583,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -32632,6 +32640,72 @@
           "url": "https://www.kankou-gifu.jp/event/detail_6839.html",
           "site_name": "岐阜県観光公式サイト",
           "is_official": true,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_532",
+      "name": "原宿表参道元氣祭 スーパーよさこい",
+      "alternate_names": [
+        "明治神宮奉納 原宿表参道元氣祭 スーパーよさこい"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-08-29",
+      "date_end": "2026-08-30",
+      "date_note": "8月29日10:00〜19:30、8月30日10:00〜17:30（演舞時間は会場により異なる）。8月30日は表参道の交通規制が11:00〜16:30頃を予定。",
+      "time_start": "10:00",
+      "time_end": "19:30",
+      "rain_policy": "雨天決行",
+      "organizer": "商店街振興組合原宿表参道欅会",
+      "genre": [
+        "踊り",
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": 25,
+      "history_description": "2001年から続く、明治神宮に奉納するよさこい祭り。全国から集まったチームが原宿・表参道・代々木公園一帯で演舞を披露する。",
+      "food_stalls": "不明",
+      "crowd_level": "混雑",
+      "visitors": "不明",
+      "access": "JR山手線 原宿駅（表参道口）から徒歩1分。東京メトロ千代田線・副都心線 明治神宮前〈原宿〉駅（2番出口）から徒歩1分。東京メトロ 表参道駅（A1出口）から徒歩1分（30日のみ）。",
+      "official_url": "https://www.super-yosakoi.tokyo/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/super_yosakoi/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.super-yosakoi.tokyo/outline/",
+          "site_name": "原宿表参道元氣祭 スーパーよさこい 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev067/index.html",
+          "site_name": "GO TOKYO（東京都公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://www.yoyogikoen.info/harajuku-omotesando-genki-super-yosakoi-2026/",
+          "site_name": "代々木公園イベント＆フェス情報",
+          "is_official": false,
           "retrieved_date": "2026-08-05"
         }
       ],
