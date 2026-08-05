@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04 18:14",
+  "last_updated": "2026-08-05 08:24",
   "festivals": [
     {
       "id": "festival_001",
@@ -3590,12 +3590,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28100,15 +28096,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "time_start",
-        "time_end",
-        "date_note",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31566,16 +31555,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_end",
-        "time_start",
-        "time_end",
-        "rain_policy",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "開催期間：2026-08-08〜2026-08-15（訂正前） → 2026-08-08〜2026-08-09（公式サイトで確認）"
@@ -31889,6 +31870,514 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_518",
+      "name": "銚子みなとまつり みこしパレード",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "銚子市",
+      "date_start": "2026-08-09",
+      "date_end": "2026-08-09",
+      "date_note": "小雨決行。荒天の場合は2026-08-16に延期。両日とも荒天の場合は中止。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "小雨決行／荒天時は8/16に延期、両日荒天なら中止",
+      "organizer": "銚子市／銚子市観光協会",
+      "genre": [
+        "神輿",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.choshikanko.com/event/0381/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.choshikanko.com/event/0381/",
+          "site_name": "銚子市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://www.city.choshi.chiba.jp/event/page1103_00084.html",
+          "site_name": "銚子市公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_519",
+      "name": "藤崎八旛宮例大祭",
+      "alternate_names": [
+        "藤崎宮秋季例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "熊本県",
+      "city": "熊本市中央区",
+      "date_start": "2026-09-13",
+      "date_end": "2026-09-20",
+      "date_note": "境内神事は9/13以降予定通り実施。目玉行事の「神幸行列」（9/20予定）と「飾り馬飾り卸し」（9/18予定）は、2026年7月28日発生の令和8年熊本地震の影響で2026年8月4日付で中止を発表。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "藤崎八旛宮",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://fujisakigu.or.jp/reitaisai/info/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://fujisakigu.or.jp/reitaisai/info/",
+          "site_name": "藤崎八旛宮公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://kumanichi.com/articles/2021702",
+          "site_name": "熊本日日新聞",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "例年実施の神幸行列・飾り馬飾り卸しが、令和8年熊本地震の影響で2026年は中止。境内神事のみ実施。"
+      }
+    },
+    {
+      "id": "festival_520",
+      "name": "新野の盆踊り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "下伊那郡阿南町（新野地区）",
+      "date_start": "2026-08-14",
+      "date_end": "2026-08-16",
+      "date_note": "8/14夜〜8/16朝7時頃まで踊り続ける。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "阿南町／新野盆踊り保存会",
+      "genre": [
+        "盆踊り",
+        "民俗芸能"
+      ],
+      "scale": "国指定重要無形民俗文化財／ユネスコ無形文化遺産「風流踊」",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "三味線・笛・太鼓の鳴り物を一切使わず、音頭出しと踊り子の声のみで進行する素朴な盆踊り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://www.town.anan.nagano.jp/tourism/niino_bonodori/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://www.town.anan.nagano.jp/tourism/niino_bonodori/",
+          "site_name": "阿南町公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://online.bunka.go.jp/heritages/detail/204003",
+          "site_name": "文化遺産オンライン",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/新野の盆踊り",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_521",
+      "name": "鳥出神社の鯨船行事",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "四日市市（富田地区）",
+      "date_start": "2026-08-14",
+      "date_end": "2026-08-15",
+      "date_note": "14日は鎮火祭・町練り、15日は本練り（神社境内で奉納演技）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "鳥出神社／地元町内保存会",
+      "genre": [
+        "民俗芸能",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財／ユネスコ無形文化遺産「山・鉾・屋台行事」",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.yokkaichi.lg.jp/www/contents/1001000002537/index.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.yokkaichi.lg.jp/www/contents/1001000002537/index.html",
+          "site_name": "四日市市公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://kankomie.or.jp",
+          "site_name": "観光三重",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "四日市市内には別の「みふねまつり」（県・市指定の別の鯨船行事）もあり、混同に注意。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_522",
+      "name": "毛馬内の盆踊",
+      "alternate_names": [
+        "毛馬内盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "秋田県",
+      "city": "鹿角市",
+      "date_start": "2026-08-21",
+      "date_end": "2026-08-23",
+      "date_note": "",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "盆踊り",
+        "民俗芸能"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "秋田県三大盆踊りの一つ。大太鼓と笛の「大の坂」、唄のみの「甚句」で構成される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.kazuno.lg.jp/soshiki/shogaigakushu/bunkazai/gyomu/1/2/mukeiminzokubunkazai0512/kemanainobonodori/10609.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kazuno.lg.jp/soshiki/shogaigakushu/bunkazai/gyomu/1/2/mukeiminzokubunkazai0512/kemanainobonodori/10609.html",
+          "site_name": "鹿角市公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://online.bunka.go.jp/heritages/detail/161361",
+          "site_name": "文化遺産オンライン",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://iko-yo.net",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_523",
+      "name": "こうべ海の盆踊り2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "神戸市中央区（メリケンパーク）",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "1日のみ開催。",
+      "time_start": "18:00",
+      "time_end": "20:30",
+      "rain_policy": "小雨決行・荒天中止。当日12時頃に公式掲示板で発表。",
+      "organizer": "こうべ海の盆踊り実行委員会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（飲食・グッズ販売は別料金）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.kobe.lg.jp/d49614/kuyakusho/chuoku/keikaku/uminobon/top.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kobe.lg.jp/d49614/kuyakusho/chuoku/keikaku/uminobon/top.html",
+          "site_name": "神戸市公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_524",
+      "name": "名古屋城夏まつり 大盆踊り大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "名古屋市中区",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-16",
+      "date_note": "9日間連続開催。",
+      "time_start": "18:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "不明（名古屋城総合事務所と推定）",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "名古屋城入場料は別途、盆踊り自体の料金は不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "西之丸で開催、ライトアップされた天守を背景に踊る。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.nagoyajo.city.nagoya.jp/event/2026/07/20260708_4897.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.nagoyajo.city.nagoya.jp/event/2026/07/20260708_4897.html",
+          "site_name": "名古屋城公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_525",
+      "name": "日本ライン夏まつり ロングラン花火",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "犬山市（岐阜県各務原市との木曽川沿い一帯を含む）",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-10",
+      "date_note": "10日間連続開催、毎日20:00頃から約10分間・約300発。",
+      "time_start": "20:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://inuyama.gr.jp/event/detail/2/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://inuyama.gr.jp/event/detail/2/",
+          "site_name": "犬山観光ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_526",
+      "name": "教祖祭PL花火芸術",
+      "alternate_names": [
+        "PL花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "富田林市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "2020年〜2025年まで6年連続中止。一部メディアは「2026年8月1日開催予定」と記載しているが、主催のパーフェクト リバティー教団からの正式発表は2026年8月時点で確認できず、開催の有無自体が未確定。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "パーフェクト リバティー教団",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.expo2025.fun/events/pl-hanabi-2026/",
+          "site_name": "万博GO",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/教祖祭PL花火芸術",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "⚠️ 矛盾: 複数の二次情報サイトは「2026年8月1日開催予定」と記載する一方、他のソースは「事実上の休止状態が継続、正式発表なし」としている。開催可否は未確定。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
