@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05 17:20",
+  "last_updated": "2026-08-05 18:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -3479,8 +3479,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：通常規模で花火大会・千人灯籠踊り・お祭り広場を開催 → 今年：熊本地震の影響で神事のみ実施、花火大会・千人灯籠踊り・お祭り広場は中止"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -13153,8 +13153,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：通常開催（約10,000発）→ 今年：令和8年熊本地震の影響により中止"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -25562,8 +25562,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "前回：2026-10-25（開催予定） → 今回：中止（会場整備工事のため2029年頃まで延期）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -28959,8 +28959,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "前回：2026-08-01〜2026-08-01（開催予定） → 今回：中止（当日8/1に河川水位上昇のため中止発表、延期なし）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -29982,12 +29982,8 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 開催有無が未確定（過去6年連続中止）。一部メディアは「2026年8月1日開催予定」と記載しているが、主催のパーフェクト リバティー教団からの正式発表は2026年8月時点で確認できず、開催の有無自体が未確定。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31256,8 +31252,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "前回：8/9(日)開催予定だが情報源間で矛盾（要確認） → 今回：令和8年熊本地震の影響により延期が確定。新日程は未定のため、開催直前に公式サイトでの再確認が必要。"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -31569,8 +31565,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "開催期間：2026-08-08〜2026-08-15（訂正前） → 2026-08-08〜2026-08-09（公式サイトで確認）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -31999,8 +31995,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "例年実施の神幸行列・飾り馬飾り卸しが、令和8年熊本地震の影響で2026年は中止。境内神事のみ実施。"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -32226,13 +32222,22 @@
           "site_name": "神戸市公式",
           "is_official": true,
           "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://event.city.kobe.lg.jp/event/So0faP1azwKY7EuG7WaV",
+          "site_name": "おでかけKOBE（神戸市イベントサイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -32260,7 +32265,7 @@
       "price": "名古屋城入場料は別途、盆踊り自体の料金は不明",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "西之丸で開催、ライトアップされた天守を背景に踊る。",
+      "history_description": "西之丸で開催、ライトアップされた天守を背景に踊る。出演・協力は名古屋市地域女性団体連絡協議会（8/8・8/9）、日本民踊研究会（8/10〜8/16）。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -32276,13 +32281,23 @@
           "site_name": "名古屋城公式",
           "is_official": true,
           "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://www.city.nagoya.jp/houdou/3003942/3003946/3004982.html",
+          "site_name": "名古屋市公式ウェブサイト（報道発表）",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "history_description",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -32297,10 +32312,10 @@
       "city": "犬山市（岐阜県各務原市との木曽川沿い一帯を含む）",
       "date_start": "2026-08-01",
       "date_end": "2026-08-10",
-      "date_note": "10日間連続開催、毎日20:00頃から約10分間・約300発。",
+      "date_note": "10日間連続開催、毎日20:00頃から約10分間・約300発。10日間それぞれにテーマが設定され日替わりで花火の色や構成が変化する。",
       "time_start": "20:00",
       "time_end": "不明",
-      "rain_policy": "不明",
+      "rain_policy": "木曽川増水時は中止。",
       "organizer": "不明",
       "genre": [
         "花火"
@@ -32311,7 +32326,7 @@
       "ticket_url": "不明",
       "history_years": "不明",
       "history_description": "不明",
-      "food_stalls": "不明",
+      "food_stalls": "会場周辺の遊歩道でマルシェ開催。",
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "不明",
@@ -32326,13 +32341,31 @@
           "site_name": "犬山観光ナビ",
           "is_official": true,
           "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://www.kankou-gifu.jp/event/detail_7420.html",
+          "site_name": "岐阜県観光公式サイト「岐阜の旅ガイド」",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/1513/",
+          "site_name": "愛知県公式観光サイト Aichi Now",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "rain_policy",
+        "food_stalls",
+        "date_note",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
