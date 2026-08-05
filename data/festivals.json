@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05 08:24",
+  "last_updated": "2026-08-05 21:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -31927,7 +31927,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -31985,7 +31985,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -32048,7 +32048,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -32105,7 +32105,7 @@
       "trust_level": "中",
       "conflict_note": "四日市市内には別の「みふねまつり」（県・市指定の別の鯨船行事）もあり、混同に注意。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -32170,7 +32170,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -32220,7 +32220,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -32270,7 +32270,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -32320,7 +32320,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -32378,6 +32378,266 @@
       "trust_level": "低",
       "conflict_note": "⚠️ 矛盾: 複数の二次情報サイトは「2026年8月1日開催予定」と記載する一方、他のソースは「事実上の休止状態が継続、正式発表なし」としている。開催可否は未確定。",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_527",
+      "name": "時代祭",
+      "alternate_names": [
+        "時代祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "京都市",
+      "date_start": "2026-10-22",
+      "date_end": "2026-10-22",
+      "date_note": "雨天の場合は翌10月23日(金)に順延。",
+      "time_start": "12:00",
+      "time_end": "14:30",
+      "rain_policy": "雨天順延（翌日）",
+      "organizer": "平安講社（京都市・平安神宮）",
+      "genre": [
+        "パレード",
+        "神事"
+      ],
+      "scale": "京都三大祭の一つ",
+      "is_free": true,
+      "price": "沿道観覧は無料。京都御苑・御池通・平安神宮道に有料観覧席あり。",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "平安神宮創建・平安遷都1100年を記念し明治28年(1895年)に始まった祭列。維新勤王隊列から延暦時代まで各時代の風俗行列が京都御所から平安神宮まで練り歩く。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://ja.kyoto.travel/event/single.php?event_id=7049",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ja.kyoto.travel/event/single.php?event_id=7049",
+          "site_name": "京都市公式 京都観光Navi",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://kyototravel.info/jidaimaturi",
+          "site_name": "京都観光情報「そうだ京都、行こう」まとめサイト",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://www.kanko-ch.com/jidaisai/",
+          "site_name": "観光チャンネル",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_528",
+      "name": "鞍馬の火祭",
+      "alternate_names": [
+        "由岐神社鞍馬の火祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "京都市",
+      "date_start": "2026-10-22",
+      "date_end": "2026-10-22",
+      "date_note": "毎年10月22日固定開催（雨天決行・順延なし。荒天時は中止や式次第変更の可能性あり）。",
+      "time_start": "18:00",
+      "time_end": "24:00頃",
+      "rain_policy": "雨天決行（荒天時は中止の可能性あり）",
+      "organizer": "由岐神社",
+      "genre": [
+        "神事",
+        "パレード"
+      ],
+      "scale": "京都三大奇祭の一つ",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "天慶3年(940年)、御所に祀られていた由岐大明神を鞍馬へ遷した際、村人が松明を持って出迎えたことに由来する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "叡山電鉄「鞍馬」駅から徒歩6分",
+      "official_url": "https://ja.kyoto.travel/event/single.php?event_id=4978",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ja.kyoto.travel/event/single.php?event_id=4978",
+          "site_name": "京都市公式 京都観光Navi",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://e-kyoto.jp/yuki-jinja-kurama-no-himatsuri.html",
+          "site_name": "e-Kyoto",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://kyototravel.info/kuramanohimatsuri",
+          "site_name": "京都観光情報まとめサイト",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_529",
+      "name": "博多おくんち",
+      "alternate_names": [
+        "櫛田神社秋季大祭",
+        "櫛田神社上遷宮大祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "福岡県",
+      "city": "福岡市",
+      "date_start": "2026-10-23",
+      "date_end": "2026-10-24",
+      "date_note": "毎年10月23日(大祭)・24日(御神幸)固定開催。似た名称の「長崎くんち」「唐津くんち」とあわせ日本三大くんちと呼ばれるが別の祭り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "櫛田神社社務所",
+      "genre": [
+        "神輿",
+        "パレード",
+        "神事"
+      ],
+      "scale": "日本三大くんちの一つ",
+      "is_free": true,
+      "price": "観覧無料",
+      "ticket_url": "不明",
+      "history_years": "1200",
+      "history_description": "約1200年前から伝わる秋の実りに感謝する櫛田神社の秋季大祭。牛車に曳かれた神輿や稚児行列による御神幸パレードが博多の街を巡る。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "福岡市地下鉄七隈線「櫛田神社前駅」から徒歩2分",
+      "official_url": "https://yokanavi.com/events/239012",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/博多おくんち",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://yokanavi.com/events/239012",
+          "site_name": "福岡市観光情報サイト よかなび",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://www.nishinippon.co.jp/kyushu_event/21954/",
+          "site_name": "西日本新聞me",
+          "is_official": false,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_530",
+      "name": "竹鼻まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岐阜県",
+      "city": "羽島市",
+      "date_start": "2026-05-03",
+      "date_end": "2026-05-03",
+      "date_note": "荒天等の場合は翌5月4日(月・祝)に延期。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "荒天延期（翌日）",
+      "organizer": "竹鼻まつり振興会",
+      "genre": [
+        "山車",
+        "曳山"
+      ],
+      "scale": "岐阜県指定重要有形民俗文化財（山車13輌）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "天正9年(1581年)に城主不破源六が八劔神社を現在地に遷座したことに始まる祭礼。江戸時代から明治中期までは秋開催だったが、明治35年より春(5月)開催に変更された。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.hashima.lg.jp/5796.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.hashima.lg.jp/5796.html",
+          "site_name": "羽島市公式Webサイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://hashimakanko.jp/store/takehanamatsuri/",
+          "site_name": "羽島市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://www.kankou-gifu.jp/event/detail_6839.html",
+          "site_name": "岐阜県観光公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
