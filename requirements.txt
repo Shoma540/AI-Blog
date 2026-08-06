@@ -1,2 +1,4 @@
 requests>=2.31
 google-analytics-data>=0.18
+cffi
+cryptography
