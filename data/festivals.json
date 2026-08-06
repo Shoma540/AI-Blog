@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06 16:30",
+  "last_updated": "2026-08-06 17:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -32801,11 +32801,140 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：花火大会はまつり期間中に実施 → 今年：花火大会（10/10）はまつり期間（8/7-9）から切り離され単独開催"
+      }
+    },
+    {
+      "id": "festival_535",
+      "name": "伊予彩まつり",
+      "alternate_names": [
+        "伊予市民の夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "伊予市",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "7月25日(土)は伊予おどりパレード、26日(日)は伊予港岸壁周辺で花火大会（20:00〜21:00、約10,000発）",
+      "time_start": "20:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "伊予彩まつり実行委員会（伊予市観光物産協会ソレイユ内）",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料（有料観覧椅子席：前売2,000円・当日2,500円）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "伊予市の夏を彩る市民まつりで、2026年で第14回。伊予おどりパレードと港での花火大会が中心。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "伊予港岸壁周辺（愛媛県伊予市）",
+      "official_url": "https://iyokankou.jp/event/event-1006/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://iyokankou.jp/event/event-1006/",
+          "site_name": "伊予市観光公式Webサイト いよ観ネット伊予市版",
+          "is_official": true,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0938e00367/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/4601001/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_536",
+      "name": "にいはま納涼花火大会",
+      "alternate_names": [
+        "第69回にいはま納涼花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "新居浜市",
+      "date_start": "2026-07-31",
+      "date_end": "2026-07-31",
+      "date_note": "雨天の場合は2026年8月3日(月)に延期",
+      "time_start": "20:00",
+      "time_end": "21:00",
+      "rain_policy": "雨天順延（順延日：8月3日）",
+      "organizer": "新居浜商工会議所",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "2026年で第69回を数える新居浜市の夏の風物詩。長さ400m・高さ40mのナイアガラ大瀑布や記念花火が見どころ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "国領川河川敷（平形橋北側、愛媛県新居浜市）",
+      "official_url": "https://www.niicci.or.jp/hanabitaikai/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.niicci.or.jp/hanabitaikai/",
+          "site_name": "新居浜商工会議所",
+          "is_official": true,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0938e00626/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://life.city.niihama.ehime.jp/blog/13344/",
+          "site_name": "新居浜市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
