@@ -485,6 +485,12 @@
       "step": "fetch_analytics",
       "error": "fetch_analytics.py が未捕捉例外で終了コード1",
       "detail": "google-auth/cryptography の依存関係破損（'ModuleNotFoundError: cffi' に起因する pyo3 PanicException）でGA4クライアント構築に失敗。GA4認証情報自体の問題ではなく実行環境のPythonパッケージ不整合。STEP10以降はスキップ。"
+    },
+    {
+      "timestamp": "2026-08-06 08:21",
+      "step": "fetch_analytics",
+      "error": "fetch_analytics.py が未捕捉例外で終了コード1",
+      "detail": "google-auth/cryptography の依存関係破損（'ModuleNotFoundError: cffi' に起因する pyo3 PanicException）でGA4クライアント構築に失敗。GA4認証情報自体の問題ではなく実行環境のPythonパッケージ不整合（前日2026-08-05 08:20にも同一事象発生）。STEP10以降はスキップ。"
     }
   ]
 }
