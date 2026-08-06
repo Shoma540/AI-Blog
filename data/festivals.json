@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06 17:30",
+  "last_updated": "2026-08-06 18:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -12939,16 +12939,26 @@
           "site_name": "日本気象協会 tenki.jp（台風13号 最新情報）",
           "is_official": true,
           "retrieved_date": "2026-08-04"
+        },
+        {
+          "url": "https://www.saga-s.co.jp/articles/-/1753158",
+          "site_name": "佐賀新聞（さがから）",
+          "is_official": false,
+          "retrieved_date": "2026-08-06"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "一般Web検索の要約では「8月8-9日」との情報もあったが、鹿島市公式サイトの「8月7-8日」を正として採用。",
+      "trust_level": "高",
+      "conflict_note": "一般Web検索の要約では「8月8-9日」との情報もあったが、鹿島市公式サイト「かしまいろ」（8/7-8開催、花火は8/8）と佐賀新聞ニュース記事（2026年7月20日付、8/7-8開催・花火は8/8 21:20〜と明記）の2件が一致し、あそぼーさが（佐賀県観光サイト）とも整合。3ソース一致のため信頼度を「高」に更新。⚠️ ただし2026年8月7日時点の気象情報で台風13号が接近中、佐賀県は8/7に「外出を控えるべき危険な状況」、8/8も「危険」との予報が出ており、開催当日の中止・延期の可能性が残る。本稿執筆時点（8/6）で主催者からの中止発表は確認できず、直前の公式SNS・サイトでの最終確認を強く推奨。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "信頼度を中→高に更新。台風13号接近による開催リスクを追記。"
       }
     },
     {
@@ -29869,52 +29879,78 @@
     },
     {
       "id": "festival_484",
-      "name": "きうり封じ（石鎚神社）",
-      "alternate_names": [],
-      "similar_name_warning": false,
+      "name": "きうり封じ（世田薬師・栴檀寺）",
+      "alternate_names": [
+        "きゅうり封じ",
+        "きうり加持"
+      ],
+      "similar_name_warning": true,
       "prefecture": "愛媛県",
       "city": "西条市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "毎年土用丑の日に開催。2026年の具体的日付は検索結果に見当たらず。",
+      "date_start": "2026-07-26",
+      "date_end": "2026-07-26",
+      "date_note": "2026年の夏の土用丑の日（2026-07-26・日）に開催。前夜祭は7/25。従来「石鎚神社」開催として記録していたが、石鎚神社公式サイト（ishizuchisan.jp）の年間行事一覧にきうり封じの記載がなく、実際にはいよ観ネット掲載の同イベントは西条市内の世田薬師（栴檀寺）の行事と判明したため、主催・開催地情報を訂正した。石鎚神社も同名の行事を別途行っている可能性は排除できないが、本稿で確認できた一次情報は世田薬師のものである。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
-      "organizer": "不明",
+      "organizer": "世田薬師（栴檀寺）",
       "genre": [
-        "神事"
+        "神事",
+        "厄除け"
       ],
       "scale": "不明",
       "is_free": true,
       "price": "不明",
       "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
+      "history_years": "300数十年",
+      "history_description": "江戸時代より300数十年伝わる病気封じの秘法。夏の土用丑の日に「う」のつく「きうり」に自身の病気や災いを封じ込め祈祷する。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "不明",
-      "official_url": "https://ishizuchisan.jp/",
+      "official_url": "https://www.setayakushi.or.jp/",
       "sns_accounts": {
         "instagram": "不明"
       },
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://ishizuchisan.jp/",
-          "site_name": "石鎚神社（いよ観ネット経由）",
+          "url": "https://www.setayakushi.or.jp/",
+          "site_name": "世田薬師・栴檀寺 公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-07-29"
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://www.iyokannet.jp/event/2914",
+          "site_name": "いよ観ネット（愛媛県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-06"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "alternate_names",
+        "similar_name_warning",
+        "city",
+        "date_start",
+        "date_end",
+        "date_note",
+        "organizer",
+        "genre",
+        "history_years",
+        "history_description",
+        "official_url",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "石鎚神社への誤帰属を世田薬師（栴檀寺）に訂正し、2026年開催日(7/26)を確定。"
       }
     },
     {
@@ -31694,9 +31730,9 @@
       "similar_name_warning": false,
       "prefecture": "北海道",
       "city": "松前郡松前町",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "例年お盆期間の2日間開催。2025年（第40回）は8月13日・14日に開催。2026年は第41回の開催が松前町公式サイトで告知されているが、具体的な日程は未公表のため不明。",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-14",
+      "date_note": "ウォーカープラス「夏休みおでかけガイド2026」および日本二輪車普及安全協会関連記事により、2026年は8月13日(木)・14日(金)開催、初日にバイク武者軍団パレード（第41回）との情報を確認（2025年の第40回も同じ8/13-14開催であり、お盆期間の恒例日程と整合）。ただし松前町公式観光サイト（travel-matsumae.jp）のイベントページでは本稿時点で「詳細後日更新します」と未確定扱いのため、公式最終発表待ちで要確認を継続。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -31740,16 +31776,28 @@
           "site_name": "函館イベント情報局（2025年開催実績）",
           "is_official": false,
           "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://summer.walkerplus.com/odekake/list/ar0101/sg0999/08/",
+          "site_name": "ウォーカープラス 夏休みおでかけガイド2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-06"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "trust_level",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "2026年開催候補日(8/13-14)を追加。ただし公式未確定のため要確認継続。"
       }
     },
     {
@@ -32738,8 +32786,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：開催 → 今年：中止（令和8年熊本地震の影響）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -32804,8 +32852,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：花火大会はまつり期間中に実施 → 今年：花火大会（10/10）はまつり期間（8/7-9）から切り離され単独開催"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -32866,7 +32914,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -32924,6 +32972,205 @@
           "url": "https://life.city.niihama.ehime.jp/blog/13344/",
           "site_name": "新居浜市公式サイト",
           "is_official": true,
+          "retrieved_date": "2026-08-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_537",
+      "name": "木之本地蔵大縁日・木之本大花火大会",
+      "alternate_names": [
+        "木之本大花火大会",
+        "ふるさと夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "滋賀県",
+      "city": "長浜市",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-25",
+      "date_note": "木之本地蔵院一帯での大縁日は8/22(土)〜25(火)の4日間開催。木之本大花火大会は最終日8/25(火)夜に打ち上げ。",
+      "time_start": "09:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "長浜市／長浜・米原観光協会",
+      "genre": [
+        "花火",
+        "縁日",
+        "祭り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（有料観覧席の有無は不明）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "目の仏様として篤い信仰を集める木之本地蔵院の大縁日に合わせて開催されるふるさと夏まつり。門前の北国街道・地蔵坂沿いに約100店舗の露店が並び、期間中は約10万人が訪れるとされる。最終日には木之本大花火大会（約950発）が夜空を彩る。",
+      "food_stalls": "約100店舗の露店",
+      "crowd_level": "高（期間中約10万人）",
+      "visitors": "約10万人（期間中）",
+      "access": "JR木ノ本駅から徒歩、会場は湖北THGツインアリーナ（打ち上げ場所）",
+      "official_url": "https://kitabiwako.jp/fireworks",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kitabiwako.jp/fireworks",
+          "site_name": "長浜・米原・奥びわ湖を楽しむ観光情報サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://kitabiwako.jp/spot/spot_31222",
+          "site_name": "長浜・米原・奥びわ湖を楽しむ観光情報サイト（イベント詳細）",
+          "is_official": true,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0725e144875/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_538",
+      "name": "おおの城まつり",
+      "alternate_names": [
+        "越前おおのおどり",
+        "おおの城まつり大花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福井県",
+      "city": "大野市",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-16",
+      "date_note": "第59回。大花火大会は8/13(木)19:30〜20:30（荒天の場合8/14に延期）。越前おおのおどりは8/15(土)・16(日)19:00〜21:30。",
+      "time_start": "19:00",
+      "time_end": "21:30",
+      "rain_policy": "花火大会は荒天の場合8/14に延期",
+      "organizer": "大野商工会議所",
+      "genre": [
+        "花火",
+        "盆踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 59,
+      "history_description": "昭和43年(1968年)、亀山に越前大野城が再建されたことを機に始まった大野市最大の夏祭り。太鼓流し（奥越太鼓保存会による演奏パレード）に始まり、大花火大会（約2000〜3000発）、旧盆の15・16日に4つの伝統的な踊りを披露する越前おおのおどりでクライマックスを迎える。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "花火大会会場：本願清水（大野市中保）、おどり会場：六間通り（本町〜番場）",
+      "official_url": "https://www.ohnocci.or.jp/main-event/%E3%81%8A%E3%81%8A%E3%81%AE%E5%9F%8E%E3%81%BE%E3%81%A4%E3%82%8A/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.ohnocci.or.jp/main-event/%E3%81%8A%E3%81%8A%E3%81%AE%E5%9F%8E%E3%81%BE%E3%81%A4%E3%82%8A/",
+          "site_name": "大野商工会議所公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://www.fuku-e.com/event/detail_6130.html",
+          "site_name": "ふくいドットコム（福井県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0518e00071/",
+          "site_name": "ウォーカープラス（花火大会2026）",
+          "is_official": false,
+          "retrieved_date": "2026-08-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_539",
+      "name": "あわら湯かけまつり",
+      "alternate_names": [
+        "あわら温泉夏祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福井県",
+      "city": "あわら市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-09",
+      "date_note": "第21回。8/8(土)は湯かけ御輿、8/9(日)は民謡の夕べ・饅頭まき。8月8日・9日固定開催（「八」＝湧く・ワクワクの語呂合わせ）。",
+      "time_start": "13:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "あわら湯かけまつり実行委員会（あわら市商工会）",
+      "genre": [
+        "祭り",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（誰でも参加可）",
+      "ticket_url": "不明",
+      "history_years": 21,
+      "history_description": "2004年の芦原町・金津町合併によるあわら市誕生を機に、芦原温泉夏祭りを発展させ、芦原の象徴である温泉の湯と金津の祭りの象徴である花車を融合させた「温泉場らしい祭り」として2005年頃に始まった。神輿にあわら温泉の湯をかけ合う全国的にも珍しい奇祭として知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "えちぜん鉄道あわら湯のまち駅前、湯のまち広場",
+      "official_url": "https://awara.info/cat_event/awara-yukake-festival",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://awara.info/cat_event/awara-yukake-festival",
+          "site_name": "あわら市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://www.fuku-e.com/event/detail_5424.html",
+          "site_name": "ふくいドットコム（福井県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://news.mynavi.jp/article/20260730-4753565/",
+          "site_name": "マイナビニュース",
+          "is_official": false,
           "retrieved_date": "2026-08-06"
         }
       ],
