@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06 12:33",
+  "last_updated": "2026-08-06 16:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -32740,6 +32740,72 @@
       "year_comparison": {
         "changed": true,
         "details": "昨年：開催 → 今年：中止（令和8年熊本地震の影響）"
+      }
+    },
+    {
+      "id": "festival_534",
+      "name": "とまこまい港まつり",
+      "alternate_names": [
+        "苫小牧港まつり",
+        "第71回とまこまい港まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "苫小牧市",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-09",
+      "date_note": "7日12:00〜21:30、8日10:00〜21:30、9日10:00〜21:00。2026年から花火大会（とまみん苫小牧百年花火）はまつり期間から切り離され10月10日に単独開催。",
+      "time_start": "10:00",
+      "time_end": "21:30",
+      "rain_policy": "キラキラ公園会場は雨天決行・荒天中止",
+      "organizer": "とまこまい港まつり実行委員会",
+      "genre": [
+        "パレード",
+        "屋台行事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 71,
+      "history_description": "不明",
+      "food_stalls": "苫小牧中央公園に118店舗143区画の協賛店と8つのPRブースが出店予定。ホッキご飯など地元グルメあり。",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "メイン会場（苫小牧中央公園）はJR苫小牧駅から徒歩約10分。サブ会場（キラキラ公園）との間に約20分間隔の無料シャトルバスあり。無料臨時駐車場3カ所。",
+      "official_url": "https://www.city.tomakomai.hokkaido.jp/kankojoho/event/minatomatsuri",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hokkaido-np.co.jp/article/1270498",
+          "site_name": "北海道新聞デジタル",
+          "is_official": false,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://www.kanko-ch.com/tomakomai-minato-fes",
+          "site_name": "北海道観光のしおり",
+          "is_official": false,
+          "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00714/",
+          "site_name": "ウォーカープラス（とまみん苫小牧百年花火）",
+          "is_official": false,
+          "retrieved_date": "2026-08-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：花火大会はまつり期間中に実施 → 今年：花火大会（10/10）はまつり期間（8/7-9）から切り離され単独開催"
       }
     }
   ]
