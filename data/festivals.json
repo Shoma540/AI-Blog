@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07 17:20",
+  "last_updated": "2026-08-07 18:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -33415,7 +33415,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -33491,6 +33491,210 @@
       ],
       "trust_level": "高",
       "conflict_note": "打ち上げ発数について情報源により「約5,000発」「約4,000発（音楽・レーザー連動）」の表記ゆれあり",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_545",
+      "name": "南部の火祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "南巨摩郡南部町",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "祭りは18:30頃開始、花火打ち上げは20:15〜20:45（予定）。",
+      "time_start": "18:30",
+      "time_end": "20:45",
+      "rain_policy": "小雨決行、荒天時は当日協議のうえ中止",
+      "organizer": "南部町火祭り実行委員会（南部町産業振興課内）",
+      "genre": [
+        "神事",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "江戸時代から伝わる盆の送り火と川供養の奇祭。稲を病害虫から守る虫送りの意味も込められているとされる。「投げ松明」「大松明」に始まり灯篭流しが行われ、クライマックスには富士川両岸に並ぶ108個のかがり火「百八たい」が一斉点火される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "富士川河川敷 南部橋上下流（山梨県南巨摩郡南部町南部）",
+      "official_url": "https://www.town.nanbu.yamanashi.jp/kankou/omatsuri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.nanbu.yamanashi.jp/kankou/omatsuri/",
+          "site_name": "南部町ホームページ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0419e00079/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87303.html",
+          "site_name": "ジョルダン 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/2801014/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_546",
+      "name": "道頓堀盆おどりインターナショナル2026",
+      "alternate_names": [
+        "道頓堀川夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "大阪市中央区",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "2010年開始の「道頓堀川夏まつり」を前身とし、今回で15回目の開催。",
+      "time_start": "12:00",
+      "time_end": "21:00",
+      "rain_policy": "小雨決行",
+      "organizer": "道頓堀商店会",
+      "genre": [
+        "盆踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": "15",
+      "history_description": "2010年に「道頓堀川夏まつり」として始まり、今回で15回目。国際交流ステージやアイドルライブ、太刀舞・タヒチアンダンスなどの出演の後、18時から「夢州音頭」などにあわせた盆踊りが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "道頓堀川 戎橋下流 とんぼりリバーウォーク（大阪市中央区道頓堀）",
+      "official_url": "https://osaka-shotengai-info.com/event/dotonbori_r0808/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://osaka-shotengai-info.com/event/dotonbori_r0808/",
+          "site_name": "ええやん！大阪商店街（大阪府商店街魅力発見サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://namba.keizai.biz/headline/5907",
+          "site_name": "なんば経済新聞",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://summer.walkerplus.com/odekake/detail_e/ar0727e318070/data.html",
+          "site_name": "夏休みおでかけガイド2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年（2025年）：8月16日開催 → 今年：8月8日開催"
+      }
+    },
+    {
+      "id": "festival_547",
+      "name": "なとり夏まつり",
+      "alternate_names": [
+        "第41回なとり夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "名取市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "第41回開催。開会式16:00、模擬店営業16:00〜21:30、各種イベント16:00〜19:00、花火打ち上げ19:30〜20:30。",
+      "time_start": "16:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "第41回なとり夏まつり実行委員会（名取市観光物産協会内）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "41",
+      "history_description": "名取市震災メモリアル公園周辺で開催される夏まつりで、約1万発の花火が打ち上げられる。",
+      "food_stalls": "模擬店あり（16:00〜21:30）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "名取市震災メモリアル公園周辺（宮城県名取市）",
+      "official_url": "https://natori-matsuri.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://natori-matsuri.com/",
+          "site_name": "第41回なとり夏まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://www.city.natori.miyagi.jp/page/42609.html",
+          "site_name": "名取市公式ホームページ（商工観光課）",
+          "is_official": true,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0204e558991/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1301013/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
