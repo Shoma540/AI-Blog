@@ -427,12 +427,14 @@ def festival_card_html(f, img_path_prefix=""):
 </div>"""
 
 
-def html_page(title, body, nav=NAV_ROOT_HTML, extra_head=""):
+def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。"):
+    description = description.replace('"', '').replace('\n', ' ')
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{description}">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6NXKRMQDZ0"></script>
   <script>
@@ -478,7 +480,10 @@ def generate_index(festivals, last_updated):
 <footer>最終更新: {last_updated} &nbsp;|&nbsp; <a href="map.html">地図から探す</a> &nbsp;|&nbsp; <a href="calendar.html">カレンダーで見る</a></footer>"""
     os.makedirs(DOCS_DIR, exist_ok=True)
     with open(os.path.join(DOCS_DIR, 'index.html'), 'w', encoding='utf-8') as f:
-        f.write(html_page("全国祭り情報", body))
+        f.write(html_page(
+            "全国祭り情報", body,
+            description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。",
+        ))
     print("docs/index.html を生成しました")
 
 
@@ -1050,7 +1055,10 @@ def generate_map(festivals, last_updated):
 </div>
 <footer>最終更新: {last_updated}</footer>"""
     with open(os.path.join(DOCS_DIR, 'map.html'), 'w', encoding='utf-8') as f:
-        f.write(html_page("地図から探す", body, extra_head=map_css))
+        f.write(html_page(
+            "地図から探す", body, extra_head=map_css,
+            description="日本地図から都道府県別に全国の祭り・花火大会情報を探せます。",
+        ))
     print("docs/map.html を生成しました")
 
 
@@ -1071,7 +1079,10 @@ def generate_calendar(festivals, last_updated):
     if not months_data:
         body = '<div class="container"><p>データがありません</p></div>'
         with open(os.path.join(DOCS_DIR, 'calendar.html'), 'w', encoding='utf-8') as f:
-            f.write(html_page("カレンダー", body))
+            f.write(html_page(
+                "カレンダー", body,
+                description="月別カレンダーで全国の祭り・花火大会の開催時期をチェックできます。",
+            ))
         return
 
     sorted_months = sorted(months_data.keys())
@@ -1104,7 +1115,10 @@ function showMonth(m) {
 </div>
 <footer>最終更新: {last_updated}</footer>"""
     with open(os.path.join(DOCS_DIR, 'calendar.html'), 'w', encoding='utf-8') as f:
-        f.write(html_page("カレンダー", body, extra_head=js))
+        f.write(html_page(
+            "カレンダー", body, extra_head=js,
+            description="月別カレンダーで全国の祭り・花火大会の開催時期をチェックできます。",
+        ))
     print("docs/calendar.html を生成しました")
 
 
@@ -1129,7 +1143,10 @@ def generate_prefecture_pages(festivals, last_updated):
 <footer>最終更新: {last_updated}</footer>"""
         nav = NAV_HTML.replace('href="../', 'href="../')
         with open(os.path.join(out_dir, f'{pref}.html'), 'w', encoding='utf-8') as f:
-            f.write(html_page(f"{pref}の祭り情報", body, nav=nav))
+            f.write(html_page(
+                f"{pref}の祭り情報", body, nav=nav,
+                description=f"{pref}の祭り・花火大会情報を{len(pref_festivals)}件掲載。開催日程・場所・アクセスなど最新情報をまとめています。",
+            ))
     print(f"都道府県ページを {len(prefectures)} 件生成しました")
 
 
@@ -1160,7 +1177,10 @@ def generate_month_pages(festivals, last_updated):
 <footer>最終更新: {last_updated}</footer>"""
         nav = NAV_HTML
         with open(os.path.join(out_dir, f'{m}.html'), 'w', encoding='utf-8') as f:
-            f.write(html_page(f"{m}月の祭り情報", body, nav=nav))
+            f.write(html_page(
+                f"{m}月の祭り情報", body, nav=nav,
+                description=f"{m}月に開催される全国の祭り・花火大会を{len(fests)}件掲載。日程・場所など最新情報をまとめています。",
+            ))
     print(f"月別ページを {len(months_data)} 件生成しました")
 
 
