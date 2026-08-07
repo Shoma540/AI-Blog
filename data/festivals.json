@@ -12945,14 +12945,21 @@
           "site_name": "佐賀新聞（さがから）",
           "is_official": false,
           "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://tenki.jp/bousai/typhoon/2613/",
+          "site_name": "日本気象協会 tenki.jp（台風13号 最新位置・進路予想）",
+          "is_official": true,
+          "retrieved_date": "2026-08-07"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "一般Web検索の要約では「8月8-9日」との情報もあったが、鹿島市公式サイト「かしまいろ」（8/7-8開催、花火は8/8）と佐賀新聞ニュース記事（2026年7月20日付、8/7-8開催・花火は8/8 21:20〜と明記）の2件が一致し、あそぼーさが（佐賀県観光サイト）とも整合。3ソース一致のため信頼度を「高」に更新。⚠️ ただし2026年8月7日時点の気象情報で台風13号が接近中、佐賀県は8/7に「外出を控えるべき危険な状況」、8/8も「危険」との予報が出ており、開催当日の中止・延期の可能性が残る。本稿執筆時点（8/6）で主催者からの中止発表は確認できず、直前の公式SNS・サイトでの最終確認を強く推奨。【8/7 12:00時点追記】台風13号は与論島付近を西進中で、進路は沖縄・奄美中心。九州は暴風域には入らず強風・高波程度の見込みで、佐賀県鹿島市への直撃は回避される見通し。8/7 12時時点で主催者からの中止発表は確認できないが、直前まで公式サイト・SNSでの最終確認を推奨。",
+      "conflict_note": "一般Web検索の要約では「8月8-9日」との情報もあったが、鹿島市公式サイト「かしまいろ」（8/7-8開催、花火は8/8）と佐賀新聞ニュース記事（2026年7月20日付、8/7-8開催・花火は8/8 21:20〜と明記）の2件が一致し、あそぼーさが（佐賀県観光サイト）とも整合。3ソース一致のため信頼度を「高」に更新。⚠️ 2026年8月7日時点で台風13号が接近していたが、【8/7 15:00時点再追記】台風13号は8/7 15時現在、沖縄県名護市付近を西南西に進んでおり、8日15時には久米島の西北西約140km、9日15時には東シナ海へ進む見込み（日本気象協会）。九州・佐賀県は暴風域に入らない見通しで、鹿島市公式サイト「かしまいろ」8月イベントページ（8/7時点）にも本イベントの中止・延期告知は掲載されていない。台風の影響は沖縄・奄美地方が中心であり、鹿島おどり・花火大会への直接的な影響は限定的とみられるが、荒天リスクが完全に払拭されたわけではないため、当日の公式サイト・SNSでの最終確認は引き続き推奨。",
       "requires_check": true,
       "diff_status": "UPDATED",
       "updated_fields": [
-        "conflict_note"
+        "conflict_note",
+        "sources"
       ],
       "year_comparison": {
         "changed": false,
@@ -33158,6 +33165,70 @@
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_540",
+      "name": "小山の花火（おやまサマーフェスティバル）",
+      "alternate_names": [
+        "おやまサマーフェスティバル"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "小山市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "第74回。2025年より開催時期を夏から秋（10月第1土曜日）に変更。",
+      "time_start": "18:00",
+      "time_end": "19:00",
+      "rain_policy": "荒天時中止（順延日なし）",
+      "organizer": "小山市（問い合わせ：小山市商業観光課）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧席あり（詳細は準備中・小山市発表待ち）",
+      "ticket_url": "不明",
+      "history_years": 74,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR小山駅西口より徒歩約8分",
+      "official_url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
+          "site_name": "小山市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1801002/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年（2025年）：夏開催 → 今年（2026年）：10月3日（秋開催）に変更"
       }
     }
   ]
