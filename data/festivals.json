@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06 18:16",
+  "last_updated": "2026-08-07 08:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -12948,17 +12948,15 @@
         }
       ],
       "trust_level": "高",
-      "conflict_note": "一般Web検索の要約では「8月8-9日」との情報もあったが、鹿島市公式サイト「かしまいろ」（8/7-8開催、花火は8/8）と佐賀新聞ニュース記事（2026年7月20日付、8/7-8開催・花火は8/8 21:20〜と明記）の2件が一致し、あそぼーさが（佐賀県観光サイト）とも整合。3ソース一致のため信頼度を「高」に更新。⚠️ ただし2026年8月7日時点の気象情報で台風13号が接近中、佐賀県は8/7に「外出を控えるべき危険な状況」、8/8も「危険」との予報が出ており、開催当日の中止・延期の可能性が残る。本稿執筆時点（8/6）で主催者からの中止発表は確認できず、直前の公式SNS・サイトでの最終確認を強く推奨。",
+      "conflict_note": "一般Web検索の要約では「8月8-9日」との情報もあったが、鹿島市公式サイト「かしまいろ」（8/7-8開催、花火は8/8）と佐賀新聞ニュース記事（2026年7月20日付、8/7-8開催・花火は8/8 21:20〜と明記）の2件が一致し、あそぼーさが（佐賀県観光サイト）とも整合。3ソース一致のため信頼度を「高」に更新。⚠️ ただし2026年8月7日時点の気象情報で台風13号が接近中、佐賀県は8/7に「外出を控えるべき危険な状況」、8/8も「危険」との予報が出ており、開催当日の中止・延期の可能性が残る。本稿執筆時点（8/6）で主催者からの中止発表は確認できず、直前の公式SNS・サイトでの最終確認を強く推奨。【8/7 12:00時点追記】台風13号は与論島付近を西進中で、進路は沖縄・奄美中心。九州は暴風域には入らず強風・高波程度の見込みで、佐賀県鹿島市への直撃は回避される見通し。8/7 12時時点で主催者からの中止発表は確認できないが、直前まで公式サイト・SNSでの最終確認を推奨。",
       "requires_check": true,
       "diff_status": "UPDATED",
       "updated_fields": [
-        "trust_level",
-        "conflict_note",
-        "sources"
+        "conflict_note"
       ],
       "year_comparison": {
-        "changed": true,
-        "details": "信頼度を中→高に更新。台風13号接近による開催リスクを追記。"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -29930,24 +29928,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "alternate_names",
-        "similar_name_warning",
-        "city",
-        "date_start",
-        "date_end",
-        "date_note",
-        "organizer",
-        "genre",
-        "history_years",
-        "history_description",
-        "official_url",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "石鎚神社への誤帰属を世田薬師（栴檀寺）に訂正し、2026年開催日(7/26)を確定。"
@@ -31787,14 +31769,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "trust_level",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "2026年開催候補日(8/13-14)を追加。ただし公式未確定のため要確認継続。"
@@ -33045,7 +33021,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -33112,7 +33088,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -33177,7 +33153,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
