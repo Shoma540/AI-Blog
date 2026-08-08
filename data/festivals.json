@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08 17:17",
+  "last_updated": "2026-08-08 18:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -33903,7 +33903,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -33965,7 +33965,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -34031,6 +34031,146 @@
         {
           "url": "https://weathernews.jp/",
           "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_554",
+      "name": "とりで利根川大花火",
+      "alternate_names": [
+        "取手花火大会",
+        "とりで利根川花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "取手市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "第71回。荒天の場合は翌日に順延。19:50〜20:05頃はドローンショーも実施。",
+      "time_start": "19:00",
+      "time_end": "20:20",
+      "rain_policy": "荒天の場合翌日に順延",
+      "organizer": "取手市・取手市観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（約1万発）",
+      "is_free": true,
+      "price": "見学無料（有料観覧席＝さじき席あり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "昭和5年（1930年）、大利根橋の開通を記念して始まった伝統ある花火大会。利根川河川敷を舞台に開催され、2026年で第71回を迎える。",
+      "food_stalls": "不明",
+      "crowd_level": "混雑（例年約12万人来場）",
+      "visitors": "約12万人",
+      "access": "不明",
+      "official_url": "https://www.city.toride.ibaraki.jp/bunkakatsudo/kanko/tonegawahanabi/index.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.toride.ibaraki.jp/bunkakatsudo/kanko/tonegawahanabi/index.html",
+          "site_name": "取手市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://www.toride-kankou.net/page/page000028.html",
+          "site_name": "取手市観光協会公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0308e00914/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://sorahanabi.com/ibaraki/toride/toride-tonegawa-daihanabi.html",
+          "site_name": "そら花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_555",
+      "name": "砂川納涼花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "砂川市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "第54回。20:00より打ち上げ開始予定。",
+      "time_start": "20:00",
+      "time_end": "20:40",
+      "rain_policy": "不明",
+      "organizer": "砂川市・砂川観光協会",
+      "genre": [
+        "花火",
+        "盆踊り"
+      ],
+      "scale": "その他（約3000発）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "砂川オアシスパークで開催される納涼花火大会。花火のほか盆踊りやステージイベント、ビアガーデンも行われる。2026年で第54回。",
+      "food_stalls": "あり（ビアガーデン等）",
+      "crowd_level": "不明",
+      "visitors": "例年約1万5000人",
+      "access": "不明",
+      "official_url": "https://sunagawa-kankou.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sunagawa-kankou.com/update/",
+          "site_name": "砂川観光協会 すながわトリップ",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://yakei-fan.com/magazine/fireworks/hokkaido/sunagawa-hanabi2026.html",
+          "site_name": "夜景FANマガジン",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://kitahanabi.com/sunagawa/sunagawa-hanabitaikai.html",
+          "site_name": "北花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://sorahanabi.com/hokkaido/sunagawa/sunagawa-hanabitaikai.html",
+          "site_name": "そら花火",
           "is_official": false,
           "retrieved_date": "2026-08-08"
         }
