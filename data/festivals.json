@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08 16:16",
+  "last_updated": "2026-08-08 17:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -28129,16 +28129,8 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 延期の発表はジョルダン（花火大会2026）のみで確認。町公式サイトは本稿執筆時点でアクセス不可（503エラー）のため一次ソースでの直接確認ができていない。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "rain_policy",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年（第47回）：8月開催・延期なし → 今年（第48回）：台風13号のため8/9開催予定から延期（新日程未定）"
@@ -33842,6 +33834,211 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_551",
+      "name": "小樽高島花火",
+      "alternate_names": [
+        "小樽高島花火大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "北海道",
+      "city": "小樽市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "第2回開催（2025年に約6年ぶり復活）。おたる潮まつり大花火大会（festival_317）とは別の花火大会のため注意。",
+      "time_start": "20:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "小樽高島花火実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（約1万発）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "小樽市高島地区で行われる花火大会。約6年の中断を経て2025年に復活し、2026年で2回目の開催。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://takashima-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://takashima-hanabi.com/",
+          "site_name": "小樽高島花火 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://www.otaru-journal.com/2026/06/post-124957/",
+          "site_name": "おたるじゃーなる",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e604334/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://sorahanabi.com/hokkaido/otaru/otaru-takashima-hanabi.html",
+          "site_name": "そら花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_552",
+      "name": "根室かに祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "根室市",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-23",
+      "date_note": "1日目10:00〜16:00、2日目9:00〜15:00。例年より約1週間早い開催（北海道新聞報道）。",
+      "time_start": "10:00",
+      "time_end": "16:00",
+      "rain_policy": "不明",
+      "organizer": "根室市観光協会",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "入場無料（飲食・物産は有料）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "根室市特産のカニをはじめとする水産物・物産を楽しめる祭り。",
+      "food_stalls": "あり（カニ・水産物・物産販売）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://nemuro-kankou.com/event/event1583/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://nemuro-kankou.com/event/event1583/",
+          "site_name": "根室市観光協会 公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://www.jalan.net/",
+          "site_name": "じゃらん",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://japan47go.travel/",
+          "site_name": "日本47GO",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_553",
+      "name": "三原やっさ祭り",
+      "alternate_names": [
+        "やっさ花火フェスタ",
+        "2026やっさ花火フェスタ"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "広島県",
+      "city": "三原市",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-09",
+      "date_note": "第51回。花火（やっさ花火フェスタ）は8/9(日)20:00〜20:40。",
+      "time_start": "20:00",
+      "time_end": "20:40",
+      "rain_policy": "不明",
+      "organizer": "三原やっさ祭り実行委員会",
+      "genre": [
+        "踊り",
+        "パレード",
+        "花火"
+      ],
+      "scale": "その他（花火約8,000発）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "https://yassahanabi.official.ec/",
+      "history_years": "不明",
+      "history_description": "小早川隆景の三原城完成を祝ったのが起源とされる「やっさ踊り」を中心とした広島県三原市の夏祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://yassahanabi.official.ec/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://yassahanabi.official.ec/",
+          "site_name": "やっさ花火フェスタ 公式チケットサイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://www.tabetainjya.com/",
+          "site_name": "食べたいんジャー",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://weathernews.jp/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
