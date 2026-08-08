@@ -497,6 +497,12 @@
       "step": "STEP9_instagram_post",
       "error": "",
       "detail": "2026-06-30 18:25から続いていたInstagramメディア作成失敗（400 OAuthException code=200 \"API access blocked.\"）が本実行（2026-08-06 18:23）で解消し、Instagram投稿が成功した。約5週間・数十回連続で同一エラーが継続していたが、今回は使用画像odori_ill.pngで media作成・publishともに200応答、last_post.jsonのposted_to_instagramをtrueに更新済み。ユーザーには2026-07-05 12:14に本件をプッシュ通知でエスカレーション済みのため、今回の解消についてもプッシュ通知で報告する。ブログ更新（HTML生成・GitHub Push、新規3件：木之本地蔵大縁日・木之本大花火大会／おおの城まつり／あわら湯かけまつり、更新3件：鹿島おどり・きうり封じ（世田薬師・栴檀寺への訂正含む）・松前城下時代まつり）は正常に完了。現在時刻18:XX台のためSTEP10（サイト自動改善）は対象時間外（08:00-08:59のみ実行）としてスキップ。"
+    },
+    {
+      "timestamp": "2026-08-08 08:22",
+      "step": "fetch_analytics",
+      "error": "fetch_analytics.py が未捕捉例外(pyo3_runtime.PanicException)で終了コード1",
+      "detail": "google-auth/cryptography の依存関係破損（ModuleNotFoundError: _cffi_backend に起因するRustパニック）でGA4クライアント構築に失敗。requirements.txtには2026-08-06時点でcffi/cryptographyが追記済みだが、本実行環境には実際にはインストールされていない（pip show cffi で未検出）ため、コンテナのセットアップ手順でrequirements.txtが再インストールされていない可能性が高い。GA4認証情報自体の問題ではなく実行環境のPythonパッケージ不整合。この不具合は2026-07-20頃から継続しており、2026-08-04頃に一度ユーザーへプッシュ通知でエスカレーション済みだが未解消。STEP10-2以降（学習記録読込・検証・改善実装・push）は全てスキップする。"
     }
   ]
 }
