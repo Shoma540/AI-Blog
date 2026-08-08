@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08 12:21",
+  "last_updated": "2026-08-08 16:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -28068,12 +28068,12 @@
       "similar_name_warning": true,
       "prefecture": "鹿児島県",
       "city": "南種子町",
-      "date_start": "2026-08-09",
-      "date_end": "2026-08-09",
-      "date_note": "町制施行70周年記念。同じ種子島内の中種子町「よいらーい（よいらーいき祭り）」とは別の祭りのため混同注意。 南種子町ロケット祭（8/9開催）は台風13号の進路（沖縄・奄美〜九州に接近予想）に近く、影響を受ける可能性がある。【8/4追記】大型で猛烈な勢力の台風13号が接近中で、8/7〜9頃に沖縄・奄美〜九州へ最接近する予報が出ている（気象庁・気象協会等）。本稿執筆時点で主催者からの中止・延期発表はないが、荒天により中止・延期となる可能性があるため、開催直前に公式サイト・SNSでの最新情報確認を推奨。 花火打ち上げ20:35-21:15、約1万5000発。雨天時は翌日以降に延期（花火のみ）。",
+      "date_start": "延期",
+      "date_end": "延期",
+      "date_note": "町制施行70周年記念。同じ種子島内の中種子町「よいらーい（よいらーいき祭り）」とは別の祭りのため混同注意。台風13号の影響により、当初予定の2026年8月9日(日)開催から延期が正式発表された（南種子町ロケット祭振興会、2026-08-07時点）。延期後の新日程は本稿執筆時点で未定。花火打ち上げ20:35-21:15、約1万5000発（延期前の予定）。",
       "time_start": "13:00",
       "time_end": "21:15",
-      "rain_policy": "不明",
+      "rain_policy": "延期（台風13号のため延期。新日程未定）",
       "organizer": "南種子町ロケット祭振興会（南種子町企画課内）",
       "genre": [
         "花火",
@@ -28118,16 +28118,30 @@
           "site_name": "南種子町公式サイト",
           "is_official": true,
           "retrieved_date": "2026-08-04"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87578.html",
+          "site_name": "ジョルダン（花火大会2026、延期決定の記載）",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
         }
       ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾: 延期の発表はジョルダン（花火大会2026）のみで確認。町公式サイトは本稿執筆時点でアクセス不可（503エラー）のため一次ソースでの直接確認ができていない。",
+      "requires_check": true,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "rain_policy",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年（第47回）：8月開催・延期なし → 今年（第48回）：台風13号のため8/9開催予定から延期（新日程未定）"
       }
     },
     {
@@ -33827,7 +33841,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
