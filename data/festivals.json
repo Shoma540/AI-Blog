@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07 18:20",
+  "last_updated": "2026-08-08 17:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -15295,14 +15295,16 @@
     {
       "id": "festival_238",
       "name": "勝毎花火大会",
-      "alternate_names": [],
+      "alternate_names": [
+        "十勝川花火大会"
+      ],
       "similar_name_warning": false,
       "prefecture": "北海道",
       "city": "帯広市",
       "date_start": "2026-08-13",
       "date_end": "2026-08-13",
-      "date_note": "第74回開催。荒天の場合は8月14日（金）に順延。",
-      "time_start": "19:20",
+      "date_note": "第74回開催。荒天の場合は8月14日（金）に順延（順延先も荒天の場合は十勝毎日新聞・公式サイト・SNS・メールで案内）。会場開場15:00、打ち上げ19:20〜21:00。",
+      "time_start": "15:00",
       "time_end": "21:00",
       "rain_policy": "荒天順延（翌日）",
       "organizer": "十勝毎日新聞社・帯広市",
@@ -15310,8 +15312,8 @@
         "花火"
       ],
       "scale": "その他",
-      "is_free": true,
-      "price": "一部有料観覧席あり",
+      "is_free": "不明",
+      "price": "一部有料観覧席あり（公式サイトでチケット販売）",
       "ticket_url": "https://e-tix.jp/hanabi/",
       "history_years": 74,
       "history_description": "音楽・照明・花火が一体となったエンターテインメント性の高い演出が特徴で、道内でも人気の高い花火大会。フィナーレの錦冠花火（にしきかむろはなび）が代名詞。",
@@ -15321,7 +15323,8 @@
       "access": "帯広市・十勝川河川敷特設会場（十勝大橋下流400m付近）",
       "official_url": "https://kachimai-hanabi.com/",
       "sns_accounts": {
-        "instagram": "不明"
+        "instagram": "不明",
+        "x": "https://x.com/kachimaihanabi"
       },
       "video_url": "不明",
       "sources": [
@@ -15329,26 +15332,41 @@
           "url": "https://kachimai-hanabi.com/pg.php?c=about_overview",
           "site_name": "勝毎花火大会公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-07-11"
+          "retrieved_date": "2026-08-04"
         },
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0101e01041/",
-          "site_name": "ウォーカープラス",
+          "site_name": "ウォーカープラス 花火大会2026",
           "is_official": false,
-          "retrieved_date": "2026-07-11"
+          "retrieved_date": "2026-08-04"
         },
         {
           "url": "https://tokachibare.jp/event/xo_event-23481/",
           "site_name": "とかち晴れ",
           "is_official": false,
           "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://matoka-tokachi.jp/tokachi-hanabi2026/",
+          "site_name": "まとかとかち",
+          "is_official": false,
+          "retrieved_date": "2026-08-04"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "alternate_names",
+        "sns_accounts",
+        "date_note",
+        "time_start",
+        "time_end",
+        "is_free",
+        "price"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31849,70 +31867,6 @@
       }
     },
     {
-      "id": "festival_517",
-      "name": "勝毎花火大会",
-      "alternate_names": [
-        "十勝川花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "北海道",
-      "city": "帯広市",
-      "date_start": "2026-08-13",
-      "date_end": "2026-08-13",
-      "date_note": "荒天の場合は8月14日（金）に順延。第74回開催。",
-      "time_start": "15:00",
-      "time_end": "21:00",
-      "rain_policy": "荒天順延（順延先も荒天の場合は十勝毎日新聞・公式サイト・SNS・メールで案内）",
-      "organizer": "十勝毎日新聞社",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": "不明",
-      "price": "不明（有料席あり、公式サイトでチケット販売）",
-      "ticket_url": "https://www.e-tix.jp/hanabi/",
-      "history_years": 74,
-      "history_description": "十勝毎日新聞社主催の北海道有数の花火大会。帯広市の十勝川河川敷特設会場（十勝大橋下流400m付近）で開催。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "帯広市・十勝川河川敷特設会場（十勝大橋下流400m付近）",
-      "official_url": "https://kachimai-hanabi.com/",
-      "sns_accounts": {
-        "x": "https://x.com/kachimaihanabi"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://kachimai-hanabi.com/pg.php?c=about_overview",
-          "site_name": "勝毎花火大会公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-04"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0101e01041/",
-          "site_name": "ウォーカープラス 花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-08-04"
-        },
-        {
-          "url": "https://matoka-tokachi.jp/tokachi-hanabi2026/",
-          "site_name": "まとかとかち",
-          "is_official": false,
-          "retrieved_date": "2026-08-04"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_518",
       "name": "銚子みなとまつり みこしパレード",
       "alternate_names": [],
@@ -33561,7 +33515,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -33626,7 +33580,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -33695,6 +33649,122 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_548",
+      "name": "旗ケ岡盆踊り",
+      "alternate_names": [
+        "第39回旗ケ岡盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "品川区",
+      "date_start": "2026-07-24",
+      "date_end": "2026-07-24",
+      "date_note": "雨天の場合は7月25日（土）に延期。",
+      "time_start": "18:00",
+      "time_end": "20:00",
+      "rain_policy": "雨天延期（翌日）",
+      "organizer": "昭和医科大学",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 39,
+      "history_description": "昭和医科大学（旗の台キャンパス）が主催する地域交流イベント。和太鼓や盆踊り、縁日などを実施。",
+      "food_stalls": "縁日あり（詳細不明）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "昭和医科大学 旗の台キャンパス中庭（東京都品川区旗の台1-5-8）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://shinagawa.goguynet.jp/2026/07/04/shouwaikadaigaku/",
+          "site_name": "号外NET 品川区",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_549",
+      "name": "天妙国寺盆踊り",
+      "alternate_names": [
+        "品川第二地区区民まつり 天妙国寺盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "品川区",
+      "date_start": "2026-07-25",
+      "date_end": "2026-07-26",
+      "date_note": "品川区民まつり（品川第二地区）の一環として開催。",
+      "time_start": "17:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "品川第二地区区民まつり実行委員会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "品川区民まつりの一企画として天妙国寺境内で開催される盆踊り。露店・模擬店・子どもコーナーなどを併設。",
+      "food_stalls": "露店・模擬店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "天妙国寺（東京都品川区南品川2-8-23）",
+      "official_url": "https://shinagawa-kanko.or.jp/featured/kuminmatsuri2026/",
+      "sns_accounts": {
+        "x": "https://x.com/shinagawakanko"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://shinagawa-kanko.or.jp/featured/kuminmatsuri2026/",
+          "site_name": "しながわ観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://x.com/shinagawakanko/status/2080845256577405337",
+          "site_name": "しながわ観光協会 X",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://tennoznavi.canalside.or.jp/event/post-2167/",
+          "site_name": "TENNOZ NAVI",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "⚠️ 矛盾: 一部の非公式情報（Facebook投稿）では「7月26日・27日」開催との記載があったが、しながわ観光協会（公式・複数投稿）およびTENNOZ NAVIでは「7月25日・26日」と一致しているため、こちらを採用。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
