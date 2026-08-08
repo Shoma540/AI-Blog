@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08 17:20",
+  "last_updated": "2026-08-08 12:21",
   "festivals": [
     {
       "id": "festival_001",
@@ -15356,17 +15356,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "alternate_names",
-        "sns_accounts",
-        "date_note",
-        "time_start",
-        "time_end",
-        "is_free",
-        "price"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -33702,7 +33693,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -33765,6 +33756,76 @@
       ],
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 一部の非公式情報（Facebook投稿）では「7月26日・27日」開催との記載があったが、しながわ観光協会（公式・複数投稿）およびTENNOZ NAVIでは「7月25日・26日」と一致しているため、こちらを採用。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_550",
+      "name": "あきる野夏まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "あきる野市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第21回開催",
+      "time_start": "15:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "あきる野夏まつり実行委員会（あきる野青年会議所ほか）",
+      "genre": [
+        "神輿",
+        "流し踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 21,
+      "history_description": "JR五日市線秋川駅北口駅前大通り周辺で開催される、和太鼓・ソーラン・流し踊り・神輿が出る地域夏まつり。",
+      "food_stalls": "屋台約44区画出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR五日市線 秋川駅北口すぐ",
+      "official_url": "https://www.city.akiruno.tokyo.jp/0000018877.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.akiruno.tokyo.jp/0000018877.html",
+          "site_name": "あきる野市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://www.akirunokanko.com/?p=9253",
+          "site_name": "あきる野観光協会【公式】",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://www.akirunojc.gr.jp/%E3%81%82%E3%81%8D%E3%82%8B%E9%87%8E%E5%A4%8F%E3%81%BE%E3%81%A4%E3%82%8A/",
+          "site_name": "あきる野青年会議所",
+          "is_official": true,
+          "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://yotei-note.com/event/1543/",
+          "site_name": "イベント予定ノート",
+          "is_official": false,
+          "retrieved_date": "2026-08-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
