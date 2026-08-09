@@ -23,6 +23,18 @@
       "verify_after": "2026-08-10",
       "result": "",
       "commit": "0be2feb8632c6a530aa2ec592632688d6f990e37"
+    },
+    {
+      "date": "2026-08-09 08:20",
+      "analysis": "GA4スナップショット（過去7日間）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回(2026-08-07)のmeta description追加はverify_afterが2026-08-10でまだ効果測定時期に達していないため据え置き。generate_html.pyを確認したところ、構造化データ（JSON-LD）が全ページで未出力であり、plan.mdの「データ不十分期の改善テーマ」のうち唯一未着手だった項目だった。",
+      "action": "scripts/generate_html.py にevent_jsonld()関数を追加し、都道府県ページ（47ページ）に祭りごとのschema.org Event構造化データ（JSON-LD、name/startDate/endDate/location/description/url/organizer/offers）を出力するようにした。startDateが不正・欠落している祭りは対象外とし、他フィールドが「不明」の場合は該当プロパティを省略した。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "各祭りにEvent構造化データが付くことで、検索エンジンがイベント情報を正しく理解し、リッチリザルト（イベント情報の強調表示）や検索結果の視認性向上につながり、将来的なオーガニック検索流入の増加に寄与するはず。",
+      "verify_after": "2026-08-12",
+      "result": "",
+      "commit": "ee42c3de6f5dd4ed6bd98be83b885afb2866fcbb"
     }
   ]
 }
