@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09 12:23",
+  "last_updated": "2026-08-09 16:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -34307,11 +34307,140 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：開催時間について情報源により09:00〜12:30／18:00〜21:30と記載が分かれている。公式サイトに時間の明記がないため未確定。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_558",
+      "name": "笠間納涼盆踊り花火大会",
+      "alternate_names": [
+        "笠間納涼盆踊り花火大会2026",
+        "第5回笠間納涼盆踊り花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "笠間市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-10",
+      "date_note": "2026年は初の2日間開催。8月8日(土)「エンタメ祭」・8月10日(月)「納涼祭」の2日間で、間の8月9日(日)は開催なし。花火打ち上げは8日20:45～、10日21:00～。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "笠間納涼盆踊り花火大会実行委員会",
+      "genre": [
+        "花火",
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": 5,
+      "history_description": "笠間市・大池公園で開催される、盆踊り文化の継承と観光振興・地域経済活性化を目的とした笠間市最大級の夏イベント。2026年で第5回。",
+      "food_stalls": "あり（キッチンカー・地元飲食店の出店）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大池公園（笠間ポレポレシティ前）、茨城県笠間市赤坂20",
+      "official_url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=1152",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000010.000169739.html",
+          "site_name": "PR TIMES（株式会社ADACHI HOUSE プレスリリース）",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        },
+        {
+          "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=1152",
+          "site_name": "観光いばらき公式ホームページ",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        },
+        {
+          "url": "https://x.com/kasamanonatu",
+          "site_name": "笠間納涼盆踊り花火大会 公式X（Twitter）",
+          "is_official": true,
+          "retrieved_date": "2026-08-09"
+        },
+        {
+          "url": "https://trip.iko-yo.net/events/7941",
+          "site_name": "いこーよとりっぷ",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：2025年8月9日(土)の1日開催 → 今年：2026年8月8日(土)・10日(月)の2日間開催（初の2日間開催）"
+      }
+    },
+    {
+      "id": "festival_559",
+      "name": "しろさとふるさとまつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "東茨城郡城里町",
+      "date_start": "2026-08-09",
+      "date_end": "2026-08-09",
+      "date_note": "予備日は8月10日(月)。観光いばらき公式サイトで2026年開催日として8月9日(日)・予備日10日(月)と明記されているが、開催時間の2026年版の明記は確認できず。会場・時間は前年（2025年：18:00～20:30）実績を参考情報として記載。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "荒天の場合は予備日（8月10日）に順延",
+      "organizer": "しろさとふるさとまつり実行委員会",
+      "genre": [
+        "花火",
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "茨城県東茨城郡城里町の大桂公園（大桂大橋下）で開催される、那珂川対岸から打ち上げる花火（例年約860発）が特徴の地域夏まつり。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大桂公園（大桂大橋下）、茨城県東茨城郡城里町阿波山。常磐道水戸ICより車で約30分。駐車場約100台。",
+      "official_url": "https://www.town.shirosato.lg.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=721",
+          "site_name": "観光いばらき公式ホームページ",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        },
+        {
+          "url": "https://iko-yo.net/events/515214",
+          "site_name": "いこーよ（前年2025年実績の情報を含む）",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾：いこーよ掲載ページは2025年8月10日(日)・予備日11日(月)の情報のまま更新されておらず「終了」表記。観光いばらき公式ページの2026年8月9日(日)・予備日10日(月)を正としたが、2026年時点の開催時間・主催者の詳細は同ページに明記なく未確定。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：2025年8月10日(日)開催・予備日8月11日(月) → 今年：2026年8月9日(日)開催・予備日8月10日(月)（開催日は毎年8月第2日曜日固定のパターンとみられる）"
       }
     }
   ]
