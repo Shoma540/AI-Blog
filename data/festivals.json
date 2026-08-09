@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09 08:20",
+  "last_updated": "2026-08-09 12:23",
   "festivals": [
     {
       "id": "festival_001",
@@ -34109,7 +34109,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -34178,7 +34178,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -34236,6 +34236,76 @@
       ],
       "trust_level": "中",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_557",
+      "name": "南御堂盆おどり",
+      "alternate_names": [
+        "第60回南御堂盆おどり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "大阪市中央区",
+      "date_start": "2026-08-27",
+      "date_end": "2026-08-28",
+      "date_note": "第60回。公式サイト（minamimido.jp）の年間行事表で「8月27、28日」と案内。開催時間は公式サイトに記載なく、情報源間で09:00〜12:30／18:00〜21:30と記載が分かれる（下記矛盾参照）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "真宗大谷派 難波別院（南御堂）",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "真宗大谷派難波別院（南御堂、大阪市中央区）境内で毎年開催される盆踊り。2026年で第60回を数える、大阪を代表する盆踊りの一つ。多数の屋台が出るのが特徴。",
+      "food_stalls": "あり（屋台多数）",
+      "crowd_level": "不明",
+      "visitors": "不明（例年多数の参加者で賑わう）",
+      "access": "大阪メトロ「本町」駅から徒歩圏内（詳細不明）",
+      "official_url": "https://minamimido.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://minamimido.jp/",
+          "site_name": "南御堂・真宗大谷派難波別院（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-09"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_345238/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        },
+        {
+          "url": "https://osaka-chushin.jp/event/62390",
+          "site_name": "大阪中心 The Heart of Osaka（大阪市中央区地域ポータル、前回開催分）",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        },
+        {
+          "url": "https://www.icho.gr.jp/events/31668",
+          "site_name": "真宗大谷派大阪教区「銀杏通信」（前回開催分）",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾：開催時間について情報源により09:00〜12:30／18:00〜21:30と記載が分かれている。公式サイトに時間の明記がないため未確定。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
