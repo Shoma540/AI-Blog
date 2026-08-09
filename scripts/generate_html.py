@@ -427,6 +427,62 @@ def festival_card_html(f, img_path_prefix=""):
 </div>"""
 
 
+def event_jsonld(festivals):
+    """祭りリストから schema.org Event の構造化データ（JSON-LD）を生成する。
+    startDateが無い/不正な祭りは対象外（Eventの必須項目のため）。
+    """
+    events = []
+    for f in festivals:
+        date_start = f.get('date_start', '')
+        try:
+            datetime.strptime(date_start, '%Y-%m-%d')
+        except (ValueError, TypeError):
+            continue
+        pref = f.get('prefecture', '')
+        city = f.get('city', '')
+        event = {
+            "@type": "Event",
+            "name": f.get('name', ''),
+            "startDate": date_start,
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "location": {
+                "@type": "Place",
+                "name": f"{pref}{city}".strip(),
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressRegion": pref,
+                    "addressLocality": city,
+                    "addressCountry": "JP",
+                },
+            },
+        }
+        date_end = f.get('date_end', '')
+        if date_end and date_end != '不明':
+            try:
+                datetime.strptime(date_end, '%Y-%m-%d')
+                event["endDate"] = date_end
+            except ValueError:
+                pass
+        history_desc = f.get('history_description', '')
+        if history_desc and history_desc != '不明':
+            event["description"] = history_desc
+        official_url = f.get('official_url', '')
+        if official_url and official_url != '不明':
+            event["url"] = official_url
+        organizer = f.get('organizer', '')
+        if organizer and organizer != '不明':
+            event["organizer"] = {"@type": "Organization", "name": organizer}
+        if f.get('is_free') is True:
+            event["offers"] = {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}
+        events.append(event)
+    if not events:
+        return ""
+    payload = {"@context": "https://schema.org", "@graph": events}
+    json_str = json.dumps(payload, ensure_ascii=False).replace('</', '<\\/')
+    return f'<script type="application/ld+json">{json_str}</script>'
+
+
 def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。"):
     description = description.replace('"', '').replace('\n', ' ')
     return f"""<!DOCTYPE html>
@@ -1145,6 +1201,7 @@ def generate_prefecture_pages(festivals, last_updated):
         with open(os.path.join(out_dir, f'{pref}.html'), 'w', encoding='utf-8') as f:
             f.write(html_page(
                 f"{pref}の祭り情報", body, nav=nav,
+                extra_head=event_jsonld(pref_festivals),
                 description=f"{pref}の祭り・花火大会情報を{len(pref_festivals)}件掲載。開催日程・場所・アクセスなど最新情報をまとめています。",
             ))
     print(f"都道府県ページを {len(prefectures)} 件生成しました")
