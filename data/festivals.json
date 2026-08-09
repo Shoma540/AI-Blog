@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09 16:16",
+  "last_updated": "2026-08-09 17:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -34379,7 +34379,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -34436,11 +34436,132 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：いこーよ掲載ページは2025年8月10日(日)・予備日11日(月)の情報のまま更新されておらず「終了」表記。観光いばらき公式ページの2026年8月9日(日)・予備日10日(月)を正としたが、2026年時点の開催時間・主催者の詳細は同ページに明記なく未確定。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：2025年8月10日(日)開催・予備日8月11日(月) → 今年：2026年8月9日(日)開催・予備日8月10日(月)（開催日は毎年8月第2日曜日固定のパターンとみられる）"
+      }
+    },
+    {
+      "id": "festival_560",
+      "name": "上野ゐの市盆踊り",
+      "alternate_names": [
+        "ゐの市盆踊り",
+        "ゐの市盆踊り～不忍夢～"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "台東区",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-16",
+      "date_note": "会期中は毎日開催。",
+      "time_start": "12:00",
+      "time_end": "21:00",
+      "rain_policy": "荒天時は中止",
+      "organizer": "上野中通商店街振興組合",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "上野公園袴腰広場で毎年開催されている盆踊り。期間中は日替わりのステージ企画があり、8月15日には歌手・新浜レオンのミニLIVEやDJダイノジの出演が予定されている。祭りグルメの出店もある。",
+      "food_stalls": "祭りグルメの出店あり（詳細不明）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR上野駅 不忍口より徒歩3分、京成上野駅より徒歩1分",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.uenopark.info/2026/ueno-inoichi-bon-odori-2026/",
+          "site_name": "上野公園.info",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        },
+        {
+          "url": "https://tokyofesta.com/23ku/32423/",
+          "site_name": "東京フェスタ",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000038.000076698.html",
+          "site_name": "PR TIMES（NPO法人おりがみ 2025年リリース）",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 要確認：2025年に同会場（上野公園袴腰広場）で開催された「ゐの市盆踊り～不忍夢～」（主催：NPO法人おりがみ、学生との共創、2025年8月9日～11日）と名称が類似する。2026年は主催者が上野中通商店街振興組合に変わり、会期も8月7日～16日に拡大されているため、同一の祭りが主催者を変えて継続しているのか、名称を引き継いだ別企画なのかは確認できていない。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：「ゐの市盆踊り～不忍夢～」として主催NPO法人おりがみ・学生共創、2025年8月9日(土)～11日(月・祝)開催 → 今年：「上野ゐの市盆踊り」として主催上野中通商店街振興組合、2026年8月7日(金)～16日(日)に会期拡大（同一の祭りの継続か別企画かは未確認）"
+      }
+    },
+    {
+      "id": "festival_561",
+      "name": "十条駅前盆踊り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "北区",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-09",
+      "date_note": "王子神社例大祭にあわせた開催（2025年実績）。開始・終了時刻は複数ソースの一致が取れておらず、最新情報の確認が推奨される。",
+      "time_start": "18:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "十条仲原一丁目町会青少年部",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "JR十条駅北口駅前広場周辺で開催される地域の盆踊り。再開発の影響で開催されない時期があったが、近年再開している。",
+      "food_stalls": "ビール販売など出店あり（詳細不明）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR十条駅 北口すぐ",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://akabane-shinbun.com/archives/260187",
+          "site_name": "赤羽マガジン",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        },
+        {
+          "url": "https://kitaclip.tokyo.jp/archives/1616",
+          "site_name": "東京きたくりっぷ",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾：開催時刻について赤羽マガジンは18:30～20:30と報じるが、東京きたくりっぷは2026年の開始時刻・雨天時対応は最新情報の確認が必要と明記しており未確定。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明（例年8月上旬に開催される傾向だが、過去複数年は再開発等で中止・不開催の年もあった）"
       }
     }
   ]
