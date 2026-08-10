@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09 18:15",
+  "last_updated": "2026-08-10 08:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -34501,7 +34501,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 要確認：2025年に同会場（上野公園袴腰広場）で開催された「ゐの市盆踊り～不忍夢～」（主催：NPO法人おりがみ、学生との共創、2025年8月9日～11日）と名称が類似する。2026年は主催者が上野中通商店街振興組合に変わり、会期も8月7日～16日に拡大されているため、同一の祭りが主催者を変えて継続しているのか、名称を引き継いだ別企画なのかは確認できていない。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -34557,7 +34557,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：開催時刻について赤羽マガジンは18:30～20:30と報じるが、東京きたくりっぷは2026年の開始時刻・雨天時対応は最新情報の確認が必要と明記しており未確定。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -34623,7 +34623,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -34685,7 +34685,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -34745,6 +34745,118 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明"
+      }
+    },
+    {
+      "id": "festival_565",
+      "name": "勝毎花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "帯広市",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-13",
+      "date_note": "第74回開催。荒天の場合は8月14日(金)に順延。",
+      "time_start": "19:20",
+      "time_end": "21:00",
+      "rain_policy": "荒天順延（順延日：8月14日）",
+      "organizer": "十勝毎日新聞社",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧席あり（詳細は公式サイト参照）",
+      "ticket_url": "不明",
+      "history_years": 74,
+      "history_description": "十勝・帯広の夏を代表する花火大会。音楽や照明と花火を組み合わせた演出が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://kachimai-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kachimai-hanabi.com/pg.php?c=about_overview",
+          "site_name": "勝毎花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1001034/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e01041/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明"
+      }
+    },
+    {
+      "id": "festival_566",
+      "name": "函館八幡宮例祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "函館市",
+      "date_start": "2026-08-14",
+      "date_end": "2026-08-15",
+      "date_note": "2年に1度の神輿渡御の年。15日に神輿渡御・神輿石段かけのぼりを実施。",
+      "time_start": "18:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "函館八幡宮奉賛会・函館八幡宮瑞垣会",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 0,
+      "history_description": "函館八幡宮の例祭。14日宵宮祭、15日本祭・神輿渡御（10:30〜16:15）・神輿石段かけのぼり（17:00〜）。境内では祭り市も開催。",
+      "food_stalls": "祭り市あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/hakodate_hachimangu/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hakodate-event.com/2026/08/archives/48361",
+          "site_name": "函館イベント情報局",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
+        }
+      ],
+      "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "NEW",
