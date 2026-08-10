@@ -303,6 +303,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -506,8 +522,11 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   {extra_head}
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 {nav}
+<main id="main">
 {body}
+</main>
 </body>
 </html>"""
 

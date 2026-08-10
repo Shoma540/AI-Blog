@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -317,12 +333,14 @@ footer {
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "那智の扇祭り", "startDate": "2026-07-14", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "和歌山県那智勝浦町", "address": {"@type": "PostalAddress", "addressRegion": "和歌山県", "addressLocality": "那智勝浦町", "addressCountry": "JP"}}, "endDate": "2026-07-14", "description": "神武天皇東征の時代（約2700年前）に那智の滝を大己貴命の霊代として祀ったことに起源を持つと伝わる。熊野那智大社の御本社より十二体の扇神輿に神霊を遷して渡御し、那智の滝の神意を発揚する神事。渡御した扇神輿を大松明の炎で清める様から「那智の火祭り」とも称される。国指定重要無形民俗文化財。", "url": "https://kumanonachitaisha.or.jp/event/fan/", "organizer": {"@type": "Organization", "name": "熊野那智大社"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "スターライトイリュージョン2026", "startDate": "2026-07-19", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "和歌山県和歌山市", "address": {"@type": "PostalAddress", "addressRegion": "和歌山県", "addressLocality": "和歌山市", "addressCountry": "JP"}}, "endDate": "2026-07-19", "description": "音楽に合わせて花火を打ち上げる音楽と花火のコラボレーションショー。", "url": "https://www.marinacity.com/porto/event/event-150824/", "organizer": {"@type": "Organization", "name": "和歌山マリーナシティ（ポルトヨーロッパ）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "田辺祭", "startDate": "2026-07-24", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "和歌山県田辺市", "address": {"@type": "PostalAddress", "addressRegion": "和歌山県", "addressLocality": "田辺市", "addressCountry": "JP"}}, "endDate": "2026-07-25", "description": "世界遺産・闘鶏神社の例大祭。和歌祭・粉河祭と並ぶ紀州三大祭の一つ。和歌山県指定無形民俗文化財。", "url": "https://www.toukeijinja.or.jp/matsuri/", "organizer": {"@type": "Organization", "name": "鬪雞神社"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "和歌浦天満宮 夏祭", "startDate": "2026-07-24", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "和歌山県和歌山市", "address": {"@type": "PostalAddress", "addressRegion": "和歌山県", "addressLocality": "和歌山市", "addressCountry": "JP"}}, "endDate": "2026-07-25", "description": "和歌浦天満宮で毎年開催される夏祭り。", "url": "https://www.wakayama-kanko.or.jp/events/detail_3693.html", "organizer": {"@type": "Organization", "name": "和歌浦天満宮"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "港まつり花火大会", "startDate": "2026-07-25", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "和歌山県和歌山市", "address": {"@type": "PostalAddress", "addressRegion": "和歌山県", "addressLocality": "和歌山市", "addressCountry": "JP"}}, "endDate": "2026-07-25", "url": "https://www.w-hanabi.com/", "organizer": {"@type": "Organization", "name": "港まつり実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "南紀白浜花火フェスタ2026", "startDate": "2026-08-10", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "和歌山県西牟婁郡白浜町", "address": {"@type": "PostalAddress", "addressRegion": "和歌山県", "addressLocality": "西牟婁郡白浜町", "addressCountry": "JP"}}, "endDate": "2026-08-10", "description": "白良浜海水浴場で開催される花火大会。台船から約2,500発が打ち上げられる。", "url": "https://www.wakayama-kanko.or.jp/events/detail_4292.html", "organizer": {"@type": "Organization", "name": "南紀白浜観光協会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "熊野徐福万燈祭（第64回新宮花火大会）", "startDate": "2026-08-13", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "和歌山県新宮市", "address": {"@type": "PostalAddress", "addressRegion": "和歌山県", "addressLocality": "新宮市", "addressCountry": "JP"}}, "endDate": "2026-08-13", "url": "https://www.wakayama-kanko.or.jp/events/detail_3709.html", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "田辺花火大会（弁慶まつり同日開催）", "startDate": "2026-10-03", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "和歌山県田辺市", "address": {"@type": "PostalAddress", "addressRegion": "和歌山県", "addressLocality": "田辺市", "addressCountry": "JP"}}, "endDate": "2026-10-03", "url": "https://www.tanabe-kanko.jp/event/hanabi/", "organizer": {"@type": "Organization", "name": "田辺観光協会・田辺市"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "熊野速玉大社例大祭（御船祭）", "startDate": "2026-10-15", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "和歌山県新宮市", "address": {"@type": "PostalAddress", "addressRegion": "和歌山県", "addressLocality": "新宮市", "addressCountry": "JP"}}, "endDate": "2026-10-16", "url": "https://kumanohayatama.jp/?page_id=8", "organizer": {"@type": "Organization", "name": "熊野速玉大社"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}]}</script>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>和歌山県の祭り情報</h1>
   <p>9件の祭りが見つかりました</p>
@@ -440,5 +458,6 @@ footer {
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>

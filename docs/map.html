@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -832,12 +848,14 @@ footer {
 </style>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="index.html">ホーム</a>
   <a href="map.html">地図</a>
   <a href="calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>地図から探す</h1>
   <p>色のついた地域に祭り情報があります（47地域）</p>
@@ -850,5 +868,6 @@ footer {
   </div>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>

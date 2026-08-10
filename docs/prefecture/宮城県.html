@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -317,12 +333,14 @@ footer {
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "塩竈みなと祭 前夜祭花火大会", "startDate": "2026-07-19", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "宮城県塩竈市", "address": {"@type": "PostalAddress", "addressRegion": "宮城県", "addressLocality": "塩竈市", "addressCountry": "JP"}}, "endDate": "2026-07-19", "description": "日本三大船祭りの一つとされる塩竈みなと祭の前夜祭として行われる花火大会。志波彦神社・鹽竈神社の御神輿による海上渡御が本祭の見どころ。", "url": "https://shiogama-minatomatsuri.jp/fireworks/", "organizer": {"@type": "Organization", "name": "塩竈みなと祭協賛会（事務局：塩竈市商工観光課）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "南三陸町花火大会", "startDate": "2026-07-25", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "宮城県本吉郡南三陸町", "address": {"@type": "PostalAddress", "addressRegion": "宮城県", "addressLocality": "本吉郡南三陸町", "addressCountry": "JP"}}, "endDate": "2026-07-25", "description": "約3000発の花火が打ち上げられる。", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "石巻川開き祭り", "startDate": "2026-07-31", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "宮城県石巻市", "address": {"@type": "PostalAddress", "addressRegion": "宮城県", "addressLocality": "石巻市", "addressCountry": "JP"}}, "endDate": "2026-08-02", "url": "https://www.ishinomakikawabiraki.jp/", "organizer": {"@type": "Organization", "name": "石巻川開祭実行委員会"}}, {"@type": "Event", "name": "気仙沼みなとまつり", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "宮城県気仙沼市", "address": {"@type": "PostalAddress", "addressRegion": "宮城県", "addressLocality": "気仙沼市", "addressCountry": "JP"}}, "endDate": "2026-08-02", "description": "2026年で第74回を数える気仙沼市最大級の夏まつり。単純計算では1953年頃開始と推定されるが、公式サイトに創始年の明記はない。", "url": "https://kesennuma-kanko.jp/minatomatsuri2026/", "organizer": {"@type": "Organization", "name": "気仙沼みなとまつり委員会（気仙沼商工会議所内）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "まほろば夏まつり「まほろば夢花火」", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "宮城県黒川郡大和町", "address": {"@type": "PostalAddress", "addressRegion": "宮城県", "addressLocality": "黒川郡大和町", "addressCountry": "JP"}}, "endDate": "2026-08-01", "description": "宮城県黒川郡大和町総合運動公園で開催される夏まつり。ステージイベントや屋台、車両展示に加え花火「まほろば夢花火」を実施。", "url": "https://www.town.taiwa.miyagi.jp/soshiki/shokokanko/shokokanko/379.html", "organizer": {"@type": "Organization", "name": "まほろばまつり実行委員会（大和町商工観光課）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "仙台七夕花火祭", "startDate": "2026-08-05", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "宮城県仙台市青葉区", "address": {"@type": "PostalAddress", "addressRegion": "宮城県", "addressLocality": "仙台市青葉区", "addressCountry": "JP"}}, "endDate": "2026-08-05", "description": "1970年から続く仙台七夕まつりの開幕を飾る花火大会。西公園付近・広瀬川河川区域および川内地区で打ち上げ。", "url": "https://sendai-tanabatahanabi.com/", "organizer": {"@type": "Organization", "name": "公益社団法人仙台青年会議所"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "仙台七夕まつり", "startDate": "2026-08-06", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "宮城県仙台市", "address": {"@type": "PostalAddress", "addressRegion": "宮城県", "addressLocality": "仙台市", "addressCountry": "JP"}}, "endDate": "2026-08-08", "description": "伊達政宗の時代から続くとされる伝統行事で、日本古来の星祭りに豪華絢爛な七夕飾りが融合。中暦（旧暦の1ヶ月遅れ）を用い毎年8月6日〜8日に開催。毎年200万人以上が来場する東北三大祭りの一つ。", "url": "https://www.sendaitanabata.com/", "organizer": {"@type": "Organization", "name": "仙台七夕まつり協賛会（事務局：仙台商工会議所）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "なとり夏まつり", "startDate": "2026-08-08", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "宮城県名取市", "address": {"@type": "PostalAddress", "addressRegion": "宮城県", "addressLocality": "名取市", "addressCountry": "JP"}}, "endDate": "2026-08-08", "description": "名取市震災メモリアル公園周辺で開催される夏まつりで、約1万発の花火が打ち上げられる。", "url": "https://natori-matsuri.com/", "organizer": {"@type": "Organization", "name": "第41回なとり夏まつり実行委員会（名取市観光物産協会内）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}]}</script>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>宮城県の祭り情報</h1>
   <p>9件の祭りが見つかりました</p>
@@ -440,5 +458,6 @@ footer {
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>

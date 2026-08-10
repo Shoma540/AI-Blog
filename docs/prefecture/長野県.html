@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -317,12 +333,14 @@ footer {
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "諏訪湖サマーナイト花火", "startDate": "2026-07-24", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "長野県諏訪市", "address": {"@type": "PostalAddress", "addressRegion": "長野県", "addressLocality": "諏訪市", "addressCountry": "JP"}}, "endDate": "2026-08-23", "description": "上諏訪温泉旅館組合が主催し、夏季の毎晩（諏訪湖祭湖上花火大会当日を除く）約10分間・約500発を打ち上げる花火イベント。諏訪湖祭湖上花火大会や全国新作花火競技大会とは別に、宿泊客・観光客向けに毎夜開催される。", "url": "https://suwako-hanabi.com/smmr/", "organizer": {"@type": "Organization", "name": "サマーナイト花火実行委員会（諏訪湖温泉旅館組合）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "戸狩温泉夏祭り～ドラゴンナイトフェスティバル～", "startDate": "2026-07-25", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "長野県飯山市", "address": {"@type": "PostalAddress", "addressRegion": "長野県", "addressLocality": "飯山市", "addressCountry": "JP"}}, "endDate": "2026-07-25", "description": "戸狩温泉で行われる夏祭りで、花火や催し物が行われる。", "url": "https://www.instagram.com/togarikankokyokai/", "organizer": {"@type": "Organization", "name": "戸狩観光協会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "松本ぼんぼん", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "長野県松本市", "address": {"@type": "PostalAddress", "addressRegion": "長野県", "addressLocality": "松本市", "addressCountry": "JP"}}, "endDate": "2026-08-01", "description": "松本市中心街で開催される信州を代表する夏祭りの一つ。一般客の飛び入り参加も可能。", "url": "https://matsubon.com/", "organizer": {"@type": "Organization", "name": "松本ぼんぼん実行委員会（事務局：松本商工会議所地域振興部）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "長野びんずる", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "長野県長野市", "address": {"@type": "PostalAddress", "addressRegion": "長野県", "addressLocality": "長野市", "addressCountry": "JP"}}, "endDate": "2026-08-01", "url": "https://nagano-binzuru.jp/", "organizer": {"@type": "Organization", "name": "第56回長野びんずる実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "第42回真田まつり～2026夏の陣～", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "長野県上田市（真田町）", "address": {"@type": "PostalAddress", "addressRegion": "長野県", "addressLocality": "上田市（真田町）", "addressCountry": "JP"}}, "endDate": "2026-08-01", "description": "真田三代（真田氏）にちなむ地域の夏まつり。ステージイベントのほか、フィナーレに「真田三代花火」を実施。", "url": "https://www.city.ueda.nagano.jp/soshiki/ssangyo/2106.html", "organizer": {"@type": "Organization", "name": "上田市真田産業観光課（真田地域自治センター）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "伊那まつり", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "長野県伊那市", "address": {"@type": "PostalAddress", "addressRegion": "長野県", "addressLocality": "伊那市", "addressCountry": "JP"}}, "endDate": "2026-08-11", "url": "https://www.inacity.jp/kankojoho/event_kanko/inamatsuri/dai69inamatsuri/index.html", "organizer": {"@type": "Organization", "name": "伊那まつり実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "新野の盆踊り", "startDate": "2026-08-14", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "長野県下伊那郡阿南町（新野地区）", "address": {"@type": "PostalAddress", "addressRegion": "長野県", "addressLocality": "下伊那郡阿南町（新野地区）", "addressCountry": "JP"}}, "endDate": "2026-08-16", "description": "三味線・笛・太鼓の鳴り物を一切使わず、音頭出しと踊り子の声のみで進行する素朴な盆踊り。", "url": "http://www.town.anan.nagano.jp/tourism/niino_bonodori/", "organizer": {"@type": "Organization", "name": "阿南町／新野盆踊り保存会"}}, {"@type": "Event", "name": "諏訪湖祭湖上花火大会", "startDate": "2026-08-15", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "長野県諏訪市", "address": {"@type": "PostalAddress", "addressRegion": "長野県", "addressLocality": "諏訪市", "addressCountry": "JP"}}, "endDate": "2026-08-15", "url": "https://www.suwakanko.jp/story/hanabi-suwako/", "organizer": {"@type": "Organization", "name": "不明（諏訪市・諏訪観光協会関連）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "信州上田大花火大会（上田商工会議所創立130周年記念）", "startDate": "2026-08-29", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "長野県上田市", "address": {"@type": "PostalAddress", "addressRegion": "長野県", "addressLocality": "上田市", "addressCountry": "JP"}}, "endDate": "2026-08-29", "url": "https://www.ucci.or.jp/info/event/shinsyuuedadaihanabitaikai2026/", "organizer": {"@type": "Organization", "name": "上田商工会議所（信州上田大花火大会実行委員会）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}]}</script>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>長野県の祭り情報</h1>
   <p>9件の祭りが見つかりました</p>
@@ -440,5 +458,6 @@ footer {
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>
