@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -317,12 +333,14 @@ footer {
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "住吉だんじり祭り（東灘だんじりウィーク）", "startDate": "2026-05-04", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "兵庫県神戸市東灘区", "address": {"@type": "PostalAddress", "addressRegion": "兵庫県", "addressLocality": "神戸市東灘区", "addressCountry": "JP"}}, "endDate": "2026-05-05", "description": "本住吉神社の例祭。5月4日は各地区蔵出・町曳きと宮入、5日は渡御・稚児行列・地車宮出。", "url": "http://web.uhara-danjiri.jp/higashinada/", "organizer": {"@type": "Organization", "name": "東灘だんじり会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "姫路ゆかたまつり", "startDate": "2026-06-20", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "兵庫県姫路市", "address": {"@type": "PostalAddress", "addressRegion": "兵庫県", "addressLocality": "姫路市", "addressCountry": "JP"}}, "endDate": "2026-06-21", "description": "夏の訪れを告げる長壁神社の例祭。子どもゆかたパレードや城南公園での地域ふれあいステージなどを実施。", "url": "https://www.city.himeji.lg.jp/kanko/0000030686.html", "organizer": {"@type": "Organization", "name": "姫路ゆかたまつり振興協議会（事務局：姫路観光コンベンションビューロー）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "川下祭り・浜坂ふるさと夏まつり花火大会", "startDate": "2026-07-18", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "兵庫県美方郡新温泉町", "address": {"@type": "PostalAddress", "addressRegion": "兵庫県", "addressLocality": "美方郡新温泉町", "addressCountry": "JP"}}, "endDate": "2026-07-20", "description": "浜坂地区の川下祭り（神輿渡御）にあわせて開催される花火大会。約3,000発を打ち上げ、約100台の屋台が出店。", "url": "https://town.shinonsen.hyogo.jp/page/?detail_mode=topics&mode=detail&page_id=6f8cbeac314c03b45ee8d5083e72db86", "organizer": {"@type": "Organization", "name": "新温泉町浜坂ふるさと夏まつり花火大会実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "城崎温泉夢花火2026", "startDate": "2026-07-30", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "兵庫県豊岡市", "address": {"@type": "PostalAddress", "addressRegion": "兵庫県", "addressLocality": "豊岡市", "addressCountry": "JP"}}, "endDate": "2026-08-21", "url": "https://kinosaki-spa.gr.jp", "organizer": {"@type": "Organization", "name": "城崎温泉観光協会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "豊岡柳まつり", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "兵庫県豊岡市", "address": {"@type": "PostalAddress", "addressRegion": "兵庫県", "addressLocality": "豊岡市", "addressCountry": "JP"}}, "endDate": "2026-08-02", "description": "柳の宮神社の例大祭を中心に、神輿巡行・豊岡おどり・花火大会などが行われる豊岡市の夏祭り。かばん供養やとよおか七夕まつりも同時開催。", "url": "https://toyooka-tourism.com/event/yanagi_matsuri/", "organizer": {"@type": "Organization", "name": "柳まつり実行委員会（豊岡商工会議所ほか）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "第48回芦屋サマーカーニバル花火大会", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "兵庫県芦屋市（潮芦屋ビーチ）", "address": {"@type": "PostalAddress", "addressRegion": "兵庫県", "addressLocality": "芦屋市（潮芦屋ビーチ）", "addressCountry": "JP"}}, "endDate": "2026-08-01", "description": "芦屋市の夏の恒例行事。潮芦屋ビーチを会場に約6000発の花火を打ち上げる、チケット制の花火大会。", "url": "https://ashiya-hanabi.com/", "organizer": {"@type": "Organization", "name": "NPO法人芦屋市民まつり協議会"}}, {"@type": "Event", "name": "こうべ海の盆踊り2026", "startDate": "2026-08-15", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "兵庫県神戸市中央区（メリケンパーク）", "address": {"@type": "PostalAddress", "addressRegion": "兵庫県", "addressLocality": "神戸市中央区（メリケンパーク）", "addressCountry": "JP"}}, "endDate": "2026-08-15", "url": "https://www.city.kobe.lg.jp/d49614/kuyakusho/chuoku/keikaku/uminobon/top.html", "organizer": {"@type": "Organization", "name": "こうべ海の盆踊り実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "灘のけんか祭り", "startDate": "2026-10-14", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "兵庫県姫路市白浜町", "address": {"@type": "PostalAddress", "addressRegion": "兵庫県", "addressLocality": "姫路市白浜町", "addressCountry": "JP"}}, "endDate": "2026-10-15", "url": "https://web.pref.hyogo.lg.jp/archives/c492.html", "organizer": {"@type": "Organization", "name": "松原八幡神社／松原八幡神社氏子総代会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}]}</script>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>兵庫県の祭り情報</h1>
   <p>9件の祭りが見つかりました</p>
@@ -440,5 +458,6 @@ footer {
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>

@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -317,12 +333,14 @@ footer {
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "やいとがわ納涼祭花火大会", "startDate": "2026-07-18", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "高知県宿毛市", "address": {"@type": "PostalAddress", "addressRegion": "高知県", "addressLocality": "宿毛市", "addressCountry": "JP"}}, "endDate": "2026-07-18", "description": "幡多地域で最も早い時期に開催される花火大会。会場の近さから花火を真下に近い距離で観覧できるのが特徴。", "organizer": {"@type": "Organization", "name": "やいとがわ納涼祭実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "香南市みなこい港まつり", "startDate": "2026-07-26", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "高知県香南市", "address": {"@type": "PostalAddress", "addressRegion": "高知県", "addressLocality": "香南市", "addressCountry": "JP"}}, "endDate": "2026-07-26", "url": "https://www.city.kochi-konan.lg.jp/soshikikarasagasu/shokokankoka/kankojoho/1/10389.html", "organizer": {"@type": "Organization", "name": "香南市みなこい港まつり実行委員会（香南市共催）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "よさこい祭り", "startDate": "2026-08-09", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "高知県高知市", "address": {"@type": "PostalAddress", "addressRegion": "高知県", "addressLocality": "高知市", "addressCountry": "JP"}}, "endDate": "2026-08-12", "description": "不明（公式サイトに由来記載なし、確認できず）", "url": "http://www.cciweb.or.jp/kochi/yosakoiweb/", "organizer": {"@type": "Organization", "name": "よさこい祭振興会（総括）、高知市観光協会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "高知市納涼花火大会", "startDate": "2026-08-09", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "高知県高知市", "address": {"@type": "PostalAddress", "addressRegion": "高知県", "addressLocality": "高知市", "addressCountry": "JP"}}, "endDate": "2026-08-09", "description": "高知市鏡川河畔にて、高低差のある4カ所から打ち上げるスターマインや仕掛け花火が見どころ。", "url": "https://www.city.kochi.kochi.jp/site/kanko/hanabi.html", "organizer": {"@type": "Organization", "name": "高知市／公益社団法人高知市観光協会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "奥物部湖湖水祭", "startDate": "2026-08-14", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "高知県香美市", "address": {"@type": "PostalAddress", "addressRegion": "高知県", "addressLocality": "香美市", "addressCountry": "JP"}}, "endDate": "2026-08-14", "description": "奥物部湖の安定と上下流域の五穀豊穣を祈願し、地域住民の交流と誘客拡大を通じたまちの活性化を目的として開催。湖面を彩る約4000個の灯ろう流しと花火が幻想的な雰囲気を作り出す。ステージでは盆踊り（大杉音頭など）も披露される。", "url": "https://www.city.kami.lg.jp/soshiki/36/kosui.html", "organizer": {"@type": "Organization", "name": "香美市（奥物部湖湖水祭実行委員会）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "シーサイドギャラリー2026・夏", "startDate": "2026-08-15", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "高知県幡多郡黒潮町", "address": {"@type": "PostalAddress", "addressRegion": "高知県", "addressLocality": "幡多郡黒潮町", "addressCountry": "JP"}}, "endDate": "2026-08-15", "url": "https://kuroshio-kanko.net", "organizer": {"@type": "Organization", "name": "NPO砂浜美術館"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "しなね祭（志那祢祭）", "startDate": "2026-08-24", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "高知県高知市", "address": {"@type": "PostalAddress", "addressRegion": "高知県", "addressLocality": "高知市", "addressCountry": "JP"}}, "endDate": "2026-08-25", "description": "土佐神社最大の例祭で「土佐三大祭り」の一つ。460年余りの歴史を持つとされる。神楽・太鼓の奉納、24日夕刻からの忌火祭・夜店、25日本祭でのしなね祭・神幸祭（お成り）が行われる。", "url": "https://tosajinja.com/gyouji/", "organizer": {"@type": "Organization", "name": "土佐一ノ宮 土佐神社"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "蓮池太刀踊り（西宮八幡宮秋祭り）", "startDate": "2026-11-03", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "高知県土佐市蓮池", "address": {"@type": "PostalAddress", "addressRegion": "高知県", "addressLocality": "土佐市蓮池", "addressCountry": "JP"}}, "endDate": "2026-11-03", "description": "南北朝時代に大平氏が戦勝を祝って踊ったのが起源とされる。県指定無形民俗文化財。演目は11通り（えなぎなた、ごほう、くずし、車太刀等）で、太刀のほかザイ棒を用いる演目もある。", "url": "https://kochi-tabi.jp/search_spot_event.html?id=498", "organizer": {"@type": "Organization", "name": "蓮池太刀踊保存会／西ノ宮八幡宮"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}]}</script>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>高知県の祭り情報</h1>
   <p>8件の祭りが見つかりました</p>
@@ -428,5 +446,6 @@ footer {
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>

@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -317,12 +333,14 @@ footer {
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "香取神宮 御田植祭", "startDate": "2026-04-05", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "千葉県香取市", "address": {"@type": "PostalAddress", "addressRegion": "千葉県", "addressLocality": "香取市", "addressCountry": "JP"}}, "endDate": "2026-04-05", "description": "明徳年間(1390〜1394年)の記録が残る古い神事。耕田式（牛や農具を使った耕作の所作）と田植式（早乙女による田植え歌を伴う所作）からなる。", "url": "https://katori-jingu.or.jp/", "organizer": {"@type": "Organization", "name": "香取神宮"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "佐原の大祭（夏祭り）", "startDate": "2026-07-10", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "千葉県香取市", "address": {"@type": "PostalAddress", "addressRegion": "千葉県", "addressLocality": "香取市", "addressCountry": "JP"}}, "endDate": "2026-07-12", "description": "諏訪神社の秋祭りと合わせて「佐原の大祭」と呼ばれる。日本三大囃子の一つ「佐原囃子」に合わせ高さ約4mの大人形を飾った10台の山車が曳き廻される、関東三大山車祭りの一つ。", "url": "https://www.city.katori.lg.jp/", "organizer": {"@type": "Organization", "name": "八坂神社祇園祭（佐原の大祭夏祭り実行委員会）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "成田祇園祭", "startDate": "2026-07-10", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "千葉県成田市", "address": {"@type": "PostalAddress", "addressRegion": "千葉県", "addressLocality": "成田市", "addressCountry": "JP"}}, "endDate": "2026-07-12", "description": "成田山新勝寺の宗教行事「成田山祇園会」と地域夏祭りが一体化。10台の山車・屋台と1台の御輿が3日間表参道周辺を巡行。", "url": "https://www.nrtk.jp/enjoy/shikisaisai/gion-festival.html", "organizer": {"@type": "Organization", "name": "成田山交道会・花若連"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "南房総白浜海女まつり", "startDate": "2026-07-18", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "千葉県南房総市", "address": {"@type": "PostalAddress", "addressRegion": "千葉県", "addressLocality": "南房総市", "addressCountry": "JP"}}, "endDate": "2026-07-19", "url": "https://www.cm-boso.com/amamatsuri2026.html", "organizer": {"@type": "Organization", "name": "南房総市観光協会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "千葉開府900年記念 幕張ビーチ花火フェスタ2026（第48回千葉市民花火大会）", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "千葉県千葉市美浜区", "address": {"@type": "PostalAddress", "addressRegion": "千葉県", "addressLocality": "千葉市美浜区", "addressCountry": "JP"}}, "endDate": "2026-08-01", "description": "千葉開府900年を記念し、尺玉や海上花火など約24,000発を打ち上げる千葉市最大級の花火大会。例年の人出は約30万人。", "url": "https://chiba-hanabi.jp/", "organizer": {"@type": "Organization", "name": "千葉市民花火大会実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "八重垣神社祇園祭", "startDate": "2026-08-04", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "千葉県匝瑳市", "address": {"@type": "PostalAddress", "addressRegion": "千葉県", "addressLocality": "匝瑳市", "addressCountry": "JP"}}, "endDate": "2026-08-05", "description": "享禄3年（1530）に祭礼が始まったとされ、元禄10年（1697）頃に現在の形式が確立、正徳3年（1713）に神輿が担がれるようになった。女性だけで神輿を担ぐ「女神輿連合渡御」と、豪快に水をかける「水掛け渡御」が特徴。", "url": "https://www.city.sosa.lg.jp/page/page000941.html", "organizer": {"@type": "Organization", "name": "不明（問い合わせ窓口は匝瑳市観光協会）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "銚子みなとまつり みこしパレード", "startDate": "2026-08-09", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "千葉県銚子市", "address": {"@type": "PostalAddress", "addressRegion": "千葉県", "addressLocality": "銚子市", "addressCountry": "JP"}}, "endDate": "2026-08-09", "url": "https://www.choshikanko.com/event/0381/", "organizer": {"@type": "Organization", "name": "銚子市／銚子市観光協会"}}, {"@type": "Event", "name": "木更津港まつり花火大会", "startDate": "2026-08-15", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "千葉県木更津市", "address": {"@type": "PostalAddress", "addressRegion": "千葉県", "addressLocality": "木更津市", "addressCountry": "JP"}}, "endDate": "2026-08-15", "url": "https://www.city.kisarazu.lg.jp/soshiki/keizai/kankoshinko/2/2/14381.html", "organizer": {"@type": "Organization", "name": "木更津港まつり実行委員会（木更津市経済部観光振興課）"}}, {"@type": "Event", "name": "千葉の親子三代夏祭り（第51回、千葉開府900年記念）", "startDate": "2026-08-15", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "千葉県千葉市", "address": {"@type": "PostalAddress", "addressRegion": "千葉県", "addressLocality": "千葉市", "addressCountry": "JP"}}, "endDate": "2026-08-16", "description": "千葉開府900年記念の第51回大会。例年のパレード・ステージ・みこし・山車・親子三代千葉おどりに加え、本祭り開始時間を2時間前倒しし、スカイランタンなどの記念イベントを実施予定。", "url": "https://chibaoyakosandai.city.chiba.jp/", "organizer": {"@type": "Organization", "name": "千葉の親子三代夏祭り実行委員会（千葉市）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "佐倉の秋祭り", "startDate": "2026-10-10", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "千葉県佐倉市", "address": {"@type": "PostalAddress", "addressRegion": "千葉県", "addressLocality": "佐倉市", "addressCountry": "JP"}}, "endDate": "2026-10-12", "description": "江戸時代の麻賀多神社祭禮を母体とする五穀豊穣感謝祭。土井利勝の佐倉城築城後、麻賀多神社が佐倉藩総鎮守となり発展。約300年前には既に宮神輿の渡御が行われていたとされる。", "url": "https://www.sakura-maturi.jp/", "organizer": {"@type": "Organization", "name": "佐倉の秋祭り実行委員会（麻賀多神社・愛宕神社・神明神社・八幡神社の4社合同）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}]}</script>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>千葉県の祭り情報</h1>
   <p>11件の祭りが見つかりました</p>
@@ -464,5 +482,6 @@ footer {
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>

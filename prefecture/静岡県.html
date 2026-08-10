@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -317,12 +333,14 @@ footer {
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "静岡まつり（第70回）", "startDate": "2026-04-03", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "静岡県静岡市葵区", "address": {"@type": "PostalAddress", "addressRegion": "静岡県", "addressLocality": "静岡市葵区", "addressCountry": "JP"}}, "endDate": "2026-04-05", "url": "https://www.city.shizuoka.lg.jp/s9635/s013738.html", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "浜松まつり", "startDate": "2026-05-03", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "静岡県浜松市", "address": {"@type": "PostalAddress", "addressRegion": "静岡県", "addressLocality": "浜松市", "addressCountry": "JP"}}, "endDate": "2026-05-05", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "安倍川花火大会", "startDate": "2026-07-18", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "静岡県静岡市葵区", "address": {"@type": "PostalAddress", "addressRegion": "静岡県", "addressLocality": "静岡市葵区", "addressCountry": "JP"}}, "endDate": "2026-07-18", "description": "静岡市葵区の安倍川河川敷（田町三丁目付近）で開催される、静岡最大級とされる花火大会。第73回を迎える。", "url": "https://www.abekawa-hanabi.com/", "organizer": {"@type": "Organization", "name": "安倍川花火大会実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "熱海海上花火大会", "startDate": "2026-07-20", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "静岡県熱海市", "address": {"@type": "PostalAddress", "addressRegion": "静岡県", "addressLocality": "熱海市", "addressCountry": "JP"}}, "endDate": "2026-08-24", "url": "https://www.city.atami.lg.jp/", "organizer": {"@type": "Organization", "name": "熱海市"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "沼津夏まつり・狩野川花火大会", "startDate": "2026-07-25", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "静岡県沼津市", "address": {"@type": "PostalAddress", "addressRegion": "静岡県", "addressLocality": "沼津市", "addressCountry": "JP"}}, "endDate": "2026-07-26", "description": "1948年から続く沼津市の夏の風物詩。市街地での花火大会としては東海地方随一の規模。", "url": "https://numazukanko.jp/event/50051", "organizer": {"@type": "Organization", "name": "沼津夏まつり実行委員会（沼津市観光戦略課）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "熱川温泉海上花火大会", "startDate": "2026-07-25", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "静岡県東伊豆町", "address": {"@type": "PostalAddress", "addressRegion": "静岡県", "addressLocality": "東伊豆町", "addressCountry": "JP"}}, "endDate": "2026-07-25", "description": "熱川の夏の風物詩として毎年開催される海上花火大会。2026年は第57回。", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "富士まつり花火大会", "startDate": "2026-07-26", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "静岡県富士市", "address": {"@type": "PostalAddress", "addressRegion": "静岡県", "addressLocality": "富士市", "addressCountry": "JP"}}, "endDate": "2026-07-26", "description": "富士市制60周年記念として「過去から未来へ」をテーマに開催。市制施行後の各年代の音楽に合わせた花火演出。", "url": "https://www.city.fuji.shizuoka.jp/1035170000/miryoku/p007462.html", "organizer": {"@type": "Organization", "name": "富士まつり運営委員会（事務局：富士市交流観光課）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "三嶋大祭り", "startDate": "2026-08-15", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "静岡県三島市", "address": {"@type": "PostalAddress", "addressRegion": "静岡県", "addressLocality": "三島市", "addressCountry": "JP"}}, "endDate": "2026-08-17", "description": "三嶋大社を中心に行われる三島市最大の祭り。頼朝公旗揚げ行列では有名人が源頼朝役に扮する。", "url": "https://www.mishimataisha.or.jp/", "organizer": {"@type": "Organization", "name": "三嶋大社／三嶋大祭り実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "掛川祭", "startDate": "2026-10-09", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "静岡県掛川市", "address": {"@type": "PostalAddress", "addressRegion": "静岡県", "addressLocality": "掛川市", "addressCountry": "JP"}}, "endDate": "2026-10-11", "url": "https://www.city.kakegawa.shizuoka.jp/kanko/docs/7650.html", "organizer": {"@type": "Organization", "name": "掛川祭実行委員会（掛川市）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}]}</script>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>静岡県の祭り情報</h1>
   <p>9件の祭りが見つかりました</p>
@@ -440,5 +458,6 @@ footer {
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>

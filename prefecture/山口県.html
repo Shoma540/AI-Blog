@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -317,12 +333,14 @@ footer {
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "錦帯橋まつり", "startDate": "2026-04-29", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "山口県岩国市", "address": {"@type": "PostalAddress", "addressRegion": "山口県", "addressLocality": "岩国市", "addressCountry": "JP"}}, "endDate": "2026-04-29", "description": "錦帯橋周辺で参勤交代を再現した大名行列・奴道中、岩国藩鉄砲隊による火縄銃演武などが行われる観光行事。", "url": "https://iwakuni-kanko.jp/kintaikyomatsuri", "organizer": {"@type": "Organization", "name": "錦帯橋まつり実行委員会（岩国市観光協会内）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "山口祇園祭", "startDate": "2026-07-20", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "山口県山口市", "address": {"@type": "PostalAddress", "addressRegion": "山口県", "addressLocality": "山口市", "addressCountry": "JP"}}, "endDate": "2026-07-27", "url": "https://yamaguchi-tourism.jp/", "organizer": {"@type": "Organization", "name": "八坂神社／山口祇園祭保存会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "萩夏まつり", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "山口県萩市", "address": {"@type": "PostalAddress", "addressRegion": "山口県", "addressLocality": "萩市", "addressCountry": "JP"}}, "endDate": "2026-08-03", "description": "萩日本海大花火大会（約7,000発）に加え、県指定無形民俗文化財「御船謡」の奉納、住吉みこし・踊り車の市内巡行など萩の伝統行事を含む夏まつり。", "url": "https://yamaguchi-tourism.jp/event/detail_14001.html", "organizer": {"@type": "Organization", "name": "萩夏まつり実行委員会（萩商工会議所内）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "山口七夕ちょうちんまつり", "startDate": "2026-08-06", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "山口県山口市（中心商店街・パークロード周辺・大殿地区・湯田温泉）", "address": {"@type": "PostalAddress", "addressRegion": "山口県", "addressLocality": "山口市（中心商店街・パークロード周辺・大殿地区・湯田温泉）", "addressCountry": "JP"}}, "endDate": "2026-08-07", "description": "約600年前から続く伝統の祭りで、数万個の紅ちょうちんが街を彩る", "url": "https://y-chouchin.jp/", "organizer": {"@type": "Organization", "name": "山口市ふるさとまつり実行委員会（事務局：山口商工会議所内）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "関門海峡花火大会（下関会場）", "startDate": "2026-08-13", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "山口県下関市", "address": {"@type": "PostalAddress", "addressRegion": "山口県", "addressLocality": "下関市", "addressCountry": "JP"}}, "endDate": "2026-08-13", "description": "本州（下関市）と九州（北九州市門司区）の両岸から同時に花火を打ち上げる合同花火大会。", "url": "http://shimonoseki21c.jp/hanabi.html", "organizer": {"@type": "Organization", "name": "関門海峡花火大会実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "柳井金魚ちょうちん祭り", "startDate": "2026-08-13", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "山口県柳井市", "address": {"@type": "PostalAddress", "addressRegion": "山口県", "addressLocality": "柳井市", "addressCountry": "JP"}}, "endDate": "2026-08-13", "url": "https://www.city-yanai.jp/site/kanko/kingyomatsuri.html", "organizer": {"@type": "Organization", "name": "柳井金魚ちょうちん祭り協議会（柳井市商工観光課内）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "佐波川灯籠流し", "startDate": "2026-08-16", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "山口県防府市", "address": {"@type": "PostalAddress", "addressRegion": "山口県", "addressLocality": "防府市", "addressCountry": "JP"}}, "endDate": "2026-08-16", "description": "佐波川本橋の河原で毎年8月16日に行われる仏教行事。先祖の霊や豪雨犠牲者の供養のため市民が灯籠を川に流し、奉納演奏や鮎供養、花火打ち上げも行われる。", "url": "https://visit-hofu.jp/event/%E4%BD%90%E6%B3%A2%E5%B7%9D%E3%80%80%E7%81%AF%E7%B1%A0%E6%B5%81%E3%81%97/", "organizer": {"@type": "Organization", "name": "防府市仏教会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "馬関まつり（第49回）", "startDate": "2026-08-22", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "山口県下関市", "address": {"@type": "PostalAddress", "addressRegion": "山口県", "addressLocality": "下関市", "addressCountry": "JP"}}, "endDate": "2026-08-23", "url": "https://bakanmatsuri.com/", "organizer": {"@type": "Organization", "name": "馬関まつり実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}]}</script>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>山口県の祭り情報</h1>
   <p>9件の祭りが見つかりました</p>
@@ -440,5 +458,6 @@ footer {
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>

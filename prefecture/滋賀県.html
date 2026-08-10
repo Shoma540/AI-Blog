@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -317,12 +333,14 @@ footer {
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "山王祭（日吉大社）", "startDate": "2026-04-12", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "滋賀県大津市", "address": {"@type": "PostalAddress", "addressRegion": "滋賀県", "addressLocality": "大津市", "addressCountry": "JP"}}, "endDate": "2026-04-15", "description": "大山咋神と鴨玉依姫の結婚を再現する神事「花渡り式」や神輿渡御など、複数の神事から構成される日吉大社の祭礼。", "url": "https://hiyoshitaisha.jp/event/sannou/", "organizer": {"@type": "Organization", "name": "日吉大社"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "長浜曳山まつり", "startDate": "2026-04-13", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "滋賀県長浜市", "address": {"@type": "PostalAddress", "addressRegion": "滋賀県", "addressLocality": "長浜市", "addressCountry": "JP"}}, "endDate": "2026-04-16", "description": "天正2年(1574年)頃、豊臣秀吉が男子誕生を祝い砂金を振る舞ったのが起源。子ども歌舞伎が見どころ。", "url": "https://nagahama-hikiyama.or.jp/", "organizer": {"@type": "Organization", "name": "公益財団法人長浜曳山文化協会（長浜八幡宮祭礼）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "やっさ！今津！！2026", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "滋賀県高島市", "address": {"@type": "PostalAddress", "addressRegion": "滋賀県", "addressLocality": "高島市", "addressCountry": "JP"}}, "endDate": "2026-08-01", "description": "高島市民会館駐車場・ピロティおよび今津浜湖岸を会場に、ステージイベント、ふれあい交流市、供養灯ろう・創作灯ろう点灯、高島音頭総おどり、打ち上げ花火などが行われる夏祭り。", "url": "https://takashima-kanko.jp/2026/06/_2018_1.html", "organizer": {"@type": "Organization", "name": "近江今津ふるさと夏まつり実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "多賀大社 万灯祭", "startDate": "2026-08-03", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "滋賀県犬上郡多賀町", "address": {"@type": "PostalAddress", "addressRegion": "滋賀県", "addressLocality": "犬上郡多賀町", "addressCountry": "JP"}}, "endDate": "2026-08-05", "description": "祭神・伊邪那美大神への感謝と祖霊供養の祭り。境内に全国から寄せられた約1万灯の提灯が灯される、湖国の夏の風物詩。初日夕刻には杉坂山でご神火祭も行われる。", "url": "https://www.tagataisya.or.jp/event/mantou/", "organizer": {"@type": "Organization", "name": "多賀大社"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "びわ湖大花火大会", "startDate": "2026-08-06", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "滋賀県大津市", "address": {"@type": "PostalAddress", "addressRegion": "滋賀県", "addressLocality": "大津市", "addressCountry": "JP"}}, "endDate": "2026-08-06", "description": "琵琶湖畔（大津市）で開催される滋賀県最大級の花火大会。2026年は第40回記念大会。", "url": "https://www.biwako-visitors.jp/hanabi", "organizer": {"@type": "Organization", "name": "びわ湖大花火大会実行委員会（大津市）"}}, {"@type": "Event", "name": "建部大社 納涼船幸祭", "startDate": "2026-08-17", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "滋賀県大津市", "address": {"@type": "PostalAddress", "addressRegion": "滋賀県", "addressLocality": "大津市", "addressCountry": "JP"}}, "endDate": "2026-08-17", "url": "https://takebetaisha.jp/ceremony/", "organizer": {"@type": "Organization", "name": "建部大社"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "木之本地蔵大縁日・木之本大花火大会", "startDate": "2026-08-22", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "滋賀県長浜市", "address": {"@type": "PostalAddress", "addressRegion": "滋賀県", "addressLocality": "長浜市", "addressCountry": "JP"}}, "endDate": "2026-08-25", "description": "目の仏様として篤い信仰を集める木之本地蔵院の大縁日に合わせて開催されるふるさと夏まつり。門前の北国街道・地蔵坂沿いに約100店舗の露店が並び、期間中は約10万人が訪れるとされる。最終日には木之本大花火大会（約950発）が夜空を彩る。", "url": "https://kitabiwako.jp/fireworks", "organizer": {"@type": "Organization", "name": "長浜市／長浜・米原観光協会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "大津祭", "startDate": "2026-10-10", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "滋賀県大津市", "address": {"@type": "PostalAddress", "addressRegion": "滋賀県", "addressLocality": "大津市", "addressCountry": "JP"}}, "endDate": "2026-10-11", "description": "からくり仕掛けの曳山（曳山13基）が巡行する大津三大祭りの一つ。国指定重要無形民俗文化財。2025年12月、ユネスコ無形文化遺産「山・鉾・屋台行事」の構成行事に新たに追加登録された。", "url": "https://otsu-matsuri.jp/", "organizer": {"@type": "Organization", "name": "NPO法人大津祭曳山連盟"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}]}</script>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>滋賀県の祭り情報</h1>
   <p>8件の祭りが見つかりました</p>
@@ -428,5 +446,6 @@ footer {
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>

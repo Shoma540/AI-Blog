@@ -292,6 +292,22 @@ footer {
 .month-section { display: none; }
 .month-section.active { display: block; }
 
+/* スキップリンク（キーボード・スクリーンリーダー向け） */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #C0392B;
+  padding: 0.75rem 1.25rem;
+  z-index: 200;
+  font-weight: 700;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
@@ -317,12 +333,14 @@ footer {
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "伊勢神宮奉納全国花火大会", "startDate": "2026-07-18", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "三重県伊勢市", "address": {"@type": "PostalAddress", "addressRegion": "三重県", "addressLocality": "伊勢市", "addressCountry": "JP"}}, "endDate": "2026-07-18", "description": "1953年(昭和28年)の第59回神宮式年遷宮を記念して始まった、神宮に花火を奉納する唯一無二の花火大会。約8,400発を打ち上げる。", "url": "https://www.city.ise.mie.jp/hanabi/", "organizer": {"@type": "Organization", "name": "伊勢神宮奉納全国花火大会実行委員会（伊勢市）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "桑名水郷花火大会", "startDate": "2026-07-25", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "三重県桑名市", "address": {"@type": "PostalAddress", "addressRegion": "三重県", "addressLocality": "桑名市", "addressCountry": "JP"}}, "endDate": "2026-07-25", "url": "https://kuwana-hanabi.com/"}, {"@type": "Event", "name": "桑名石取祭", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "三重県桑名市", "address": {"@type": "PostalAddress", "addressRegion": "三重県", "addressLocality": "桑名市", "addressCountry": "JP"}}, "endDate": "2026-08-02", "url": "https://kuwana-ishidori.com/", "organizer": {"@type": "Organization", "name": "石取祭保存会／桑名宗社"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "久居花火大会", "startDate": "2026-08-01", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "三重県津市", "address": {"@type": "PostalAddress", "addressRegion": "三重県", "addressLocality": "津市", "addressCountry": "JP"}}, "endDate": "2026-08-01", "description": "陸上自衛隊久居駐屯地グラウンドで開催。観覧場所と打ち上げ場所が近く臨場感のある花火が特徴。2026年は昨年の4000発から5000発以上に規模拡大し、「歌える合唱花火」をテーマに音楽・プロジェクター演出と融合。", "url": "https://hisai-matsuri.jp/hanabi.html", "organizer": {"@type": "Organization", "name": "久居まつり実行委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "鳥出神社の鯨船行事", "startDate": "2026-08-14", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "三重県四日市市（富田地区）", "address": {"@type": "PostalAddress", "addressRegion": "三重県", "addressLocality": "四日市市（富田地区）", "addressCountry": "JP"}}, "endDate": "2026-08-15", "url": "https://www.city.yokkaichi.lg.jp/www/contents/1001000002537/index.html", "organizer": {"@type": "Organization", "name": "鳥出神社／地元町内保存会"}}, {"@type": "Event", "name": "熊野大花火大会", "startDate": "2026-08-17", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "三重県熊野市", "address": {"@type": "PostalAddress", "addressRegion": "三重県", "addressLocality": "熊野市", "addressCountry": "JP"}}, "endDate": "2026-08-17", "url": "https://www.kumano-kankou.info/kumano-fireworks/", "organizer": {"@type": "Organization", "name": "熊野市観光協会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "秋の四日市祭（諏訪神社例大祭）", "startDate": "2026-10-03", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "三重県四日市市", "address": {"@type": "PostalAddress", "addressRegion": "三重県", "addressLocality": "四日市市", "addressCountry": "JP"}}, "endDate": "2026-10-04", "description": "300年以上の伝統を持つ諏訪神社の例祭。大入道山車・菅公山車などが練り歩く。", "url": "https://www.suwajinjya.jp/matsuri/index.html", "organizer": {"@type": "Organization", "name": "諏訪神社／四日市祭礼委員会"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}, {"@type": "Event", "name": "上野天神祭", "startDate": "2026-10-23", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "三重県伊賀市", "address": {"@type": "PostalAddress", "addressRegion": "三重県", "addressLocality": "伊賀市", "addressCountry": "JP"}}, "endDate": "2026-10-25", "description": "江戸時代から続く伊賀最大の秋祭り。国指定重要無形民俗文化財、ユネスコ無形文化遺産「山・鉾・屋台行事」構成祭事の一つ。", "url": "https://www.ueno-tenjin-matsuri.com/", "organizer": {"@type": "Organization", "name": "上野天神祭地域振興実行委員会（事務局：上野商工会議所内）"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}]}</script>
 </head>
 <body>
+<a href="#main" class="skip-link">メインコンテンツへスキップ</a>
 <nav>
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>
+<main id="main">
 <div class="page-header">
   <h1>三重県の祭り情報</h1>
   <p>8件の祭りが見つかりました</p>
@@ -428,5 +446,6 @@ footer {
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
 <footer>最終更新: 2026-08-10 08:30</footer>
+</main>
 </body>
 </html>
