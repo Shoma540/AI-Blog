@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10 08:30",
+  "last_updated": "2026-08-10 12:45",
   "festivals": [
     {
       "id": "festival_001",
@@ -16055,7 +16055,9 @@
       "id": "festival_254",
       "name": "さかいで大橋まつり海上花火大会",
       "alternate_names": [
-        "第61回さかいで大橋まつり海上花火大会"
+        "第61回さかいで大橋まつり海上花火大会",
+        "さかいで大橋まつり花火大会",
+        "坂出港花火大会"
       ],
       "similar_name_warning": false,
       "prefecture": "香川県",
@@ -16077,7 +16079,7 @@
       "history_years": 61,
       "history_description": "ライトアップされた瀬戸大橋を背景に、坂出港沖合の台船から音楽連動・レーザー演出付きで打ち上げられる海上花火大会。",
       "food_stalls": "不明",
-      "crowd_level": "不明",
+      "crowd_level": "香川県内花火大会で人気3位との情報あり",
       "visitors": "約5万5000人（予想）",
       "access": "坂出港中央ふ頭（JR坂出駅から徒歩20分、瀬戸中央道坂出北ICから約5分）",
       "official_url": "https://sakaide-ohashi-matsuri.com/",
@@ -16103,16 +16105,51 @@
           "site_name": "ウェザーニュース 花火",
           "is_official": false,
           "retrieved_date": "2026-07-13"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_103818.html",
+          "site_name": "じゃらん花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/article/3046",
+          "site_name": "るるぶ&more",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/ar0937/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://kagawan.com/sakaide-ohashimatsuri-fireworks/",
+          "site_name": "カガワン",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
+        },
+        {
+          "url": "https://hanabi-navi.info/kagawa/4269/",
+          "site_name": "花火大会ナビ",
+          "is_official": false,
+          "retrieved_date": "2026-08-07"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "打ち上げ発数について情報源により「約5,000発」「約4,000発（音楽・レーザー連動）」の表記ゆれあり",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names",
+        "sources",
+        "conflict_note",
+        "crowd_level"
+      ],
       "year_comparison": {
         "changed": false,
-        "details": ""
+        "details": "重複登録されていたfestival_544を同一祭りと判定し統合"
       }
     },
     {
@@ -16805,7 +16842,7 @@
     },
     {
       "id": "festival_267",
-      "name": "三国花火",
+      "name": "三国花火【2026年中止】",
       "alternate_names": [
         "坂井市三国花火大会"
       ],
@@ -16814,10 +16851,10 @@
       "city": "坂井市",
       "date_start": "2026-08-11",
       "date_end": "2026-08-11",
-      "date_note": "第44回。荒天の場合は8/12に順延",
+      "date_note": "第44回。台風15号の接近に伴う強風・高波を考慮し、実行委員会が安全面から本来の開催予定日8月11日、予備日8月12日ともに中止を決定（2026-08-10発表）。",
       "time_start": "19:30",
       "time_end": "20:30",
-      "rain_policy": "雨天決行／荒天の場合8月12日に順延",
+      "rain_policy": "中止（予備日8/12も中止、順延なし）",
       "organizer": "三国花火実行委員会",
       "genre": [
         "花火"
@@ -16855,16 +16892,33 @@
           "site_name": "坂井市公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-14"
+        },
+        {
+          "url": "https://www.fukuishimbun.co.jp/articles/-/2672075",
+          "site_name": "福井新聞ONLINE",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/list/cancelled/",
+          "site_name": "ウォーカープラス 中止・非開催が決定した花火大会【全国】",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "date_note",
+        "rain_policy",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "例年開催 → 2026年は台風15号の影響で本大会・予備日ともに中止"
       }
     },
     {
@@ -31733,10 +31787,10 @@
       "city": "松前郡松前町",
       "date_start": "2026-08-13",
       "date_end": "2026-08-14",
-      "date_note": "ウォーカープラス「夏休みおでかけガイド2026」および日本二輪車普及安全協会関連記事により、2026年は8月13日(木)・14日(金)開催、初日にバイク武者軍団パレード（第41回）との情報を確認（2025年の第40回も同じ8/13-14開催であり、お盆期間の恒例日程と整合）。ただし松前町公式観光サイト（travel-matsumae.jp）のイベントページでは本稿時点で「詳細後日更新します」と未確定扱いのため、公式最終発表待ちで要確認を継続。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "date_note": "第41回。8月13日(木)13:00〜20:15（バイク武者軍団パレード等、荒天時パレード中止）、8月14日(金)13:00〜21:00（花火大会、荒天時順延）。函館イベント情報局およびウォーカープラス「夏休みおでかけガイド2026」の2ソースで日時が一致したため確定。",
+      "time_start": "13:00",
+      "time_end": "21:00",
+      "rain_policy": "13日パレードは悪天候時中止、14日花火大会は荒天時順延",
       "organizer": "松前城下時代まつり実行委員会（北海道まつまえ観光物産協会）",
       "genre": [
         "山車",
@@ -31783,16 +31837,30 @@
           "site_name": "ウォーカープラス 夏休みおでかけガイド2026",
           "is_official": false,
           "retrieved_date": "2026-08-06"
+        },
+        {
+          "url": "https://hakodate-event.com/2026/08/archives/48342",
+          "site_name": "函館イベント情報局",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "date_note",
+        "rain_policy",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": true,
-        "details": "2026年開催候補日(8/13-14)を追加。ただし公式未確定のため要確認継続。"
+        "details": "昨年（第40回）：8/13-14開催 → 今年（第41回）：同じく8/13-14開催、時間帯を新たに確認"
       }
     },
     {
@@ -33374,83 +33442,6 @@
       }
     },
     {
-      "id": "festival_544",
-      "name": "第61回さかいで大橋まつり海上花火大会",
-      "alternate_names": [
-        "さかいで大橋まつり花火大会",
-        "坂出港花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "香川県",
-      "city": "坂出市",
-      "date_start": "2026-08-11",
-      "date_end": "2026-08-11",
-      "date_note": "雨天翌日等への順延なし。荒天の場合は中止",
-      "time_start": "20:00",
-      "time_end": "20:30",
-      "rain_policy": "雨天決行、荒天中止（順延なし）",
-      "organizer": "さかいで祭り協議会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "見学無料（一部情報源では有料観覧席の可能性ありだが未確認のため不明）",
-      "ticket_url": "不明",
-      "history_years": "61",
-      "history_description": "第61回を数える坂出港の海上花火大会",
-      "food_stalls": "不明",
-      "crowd_level": "香川県内花火大会で人気3位との情報あり",
-      "visitors": "約55,000人",
-      "access": "坂出港。JR予讃線坂出駅から徒歩約20分、瀬戸中央自動車道坂出北ICから車で数分。会場駐車場なし",
-      "official_url": "不明",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://sp.jorudan.co.jp/hanabi/spot_103818.html",
-          "site_name": "じゃらん花火",
-          "is_official": false,
-          "retrieved_date": "2026-08-07"
-        },
-        {
-          "url": "https://rurubu.jp/andmore/article/3046",
-          "site_name": "るるぶ&more",
-          "is_official": false,
-          "retrieved_date": "2026-08-07"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/list/ar0937/",
-          "site_name": "ウォーカープラス花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-08-07"
-        },
-        {
-          "url": "https://kagawan.com/sakaide-ohashimatsuri-fireworks/",
-          "site_name": "カガワン",
-          "is_official": false,
-          "retrieved_date": "2026-08-07"
-        },
-        {
-          "url": "https://hanabi-navi.info/kagawa/4269/",
-          "site_name": "花火大会ナビ",
-          "is_official": false,
-          "retrieved_date": "2026-08-07"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "打ち上げ発数について情報源により「約5,000発」「約4,000発（音楽・レーザー連動）」の表記ゆれあり",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_545",
       "name": "南部の火祭り",
       "alternate_names": [],
@@ -34809,7 +34800,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -34859,7 +34850,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
