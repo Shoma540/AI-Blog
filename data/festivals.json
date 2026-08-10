@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10 12:45",
+  "last_updated": "2026-08-10 16:25",
   "festivals": [
     {
       "id": "festival_001",
@@ -16140,13 +16140,8 @@
       "trust_level": "高",
       "conflict_note": "打ち上げ発数について情報源により「約5,000発」「約4,000発（音楽・レーザー連動）」の表記ゆれあり",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "sources",
-        "conflict_note",
-        "crowd_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": "重複登録されていたfestival_544を同一祭りと判定し統合"
@@ -16909,13 +16904,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "date_note",
-        "rain_policy",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "例年開催 → 2026年は台風15号の影響で本大会・予備日ともに中止"
@@ -19084,16 +19074,31 @@
           "site_name": "ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.topics.or.jp/articles/-/1475395",
+          "site_name": "徳島新聞（topics.or.jp）",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://yakei-fan.com/magazine/fireworks/tokushima/naruto-hanabi2026cancel.html",
+          "site_name": "夜景FANマガジン",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "花火打ち上げ部分は台風13号の強風・会場工事の懸念により2026年は中止（ステージ・屋台は実施）。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "例年開催 → 2026年は花火打ち上げ部分のみ台風13号の影響で中止（ステージ等本体は実施）"
       }
     },
     {
@@ -22707,7 +22712,7 @@
       "city": "奈良市五条町",
       "date_start": "2026-08-23",
       "date_end": "2026-08-24",
-      "date_note": "地蔵尊への灯籠供養行事。同日程で元興寺「地蔵会万灯供養」も開催（別の寺院・別行事）。",
+      "date_note": "地蔵尊への灯籠供養行事。同日程で元興寺「地蔵会万灯供養」も開催（別の寺院・別行事）。奈良市観光協会公式サイトで2026/8/23(日)・24(月)の日程を確認（曜日照合済み）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -22748,13 +22753,24 @@
           "site_name": "あをによしなら旅ネット（奈良県公式観光サイト）",
           "is_official": true,
           "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://narashikanko.or.jp/event/detail_10307.html",
+          "site_name": "奈良市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "requires_check",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31848,16 +31864,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "date_note",
-        "rain_policy",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年（第40回）：8/13-14開催 → 今年（第41回）：同じく8/13-14開催、時間帯を新たに確認"
@@ -34855,6 +34863,227 @@
       "year_comparison": {
         "changed": false,
         "details": "不明"
+      }
+    },
+    {
+      "id": "festival_567",
+      "name": "太宰府天満宮 神幸式大祭・千灯明",
+      "alternate_names": [
+        "千灯明"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "太宰府市",
+      "date_start": "2026-09-21",
+      "date_end": "2026-09-25",
+      "date_note": "9/21〜25の夜間に千灯明（心字池・太鼓橋周辺の灯籠に明かりを灯す行事、20:00〜）を実施。神幸式大祭（例祭）本体は9/25 11:00〜。福岡県指定無形民俗文化財。",
+      "time_start": "11:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "太宰府天満宮",
+      "genre": [
+        "神事"
+      ],
+      "scale": "福岡県指定無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "西鉄太宰府駅から徒歩5分",
+      "official_url": "https://dazaifu.org/events/event3047/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://dazaifu.org/events/event3047/",
+          "site_name": "太宰府観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_568",
+      "name": "秋名アラセツ行事（ショチョガマ・平瀬マンカイ）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "大島郡龍郷町（秋名・幾里集落）",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "date_note": "旧暦8月最初の丙（ひのえ）の日に開催（2026年は9/19(土)）。早朝にショチョガマ、夕刻に平瀬マンカイを実施。国指定重要無形民俗文化財「奄美のアラセツ行事」の一つ。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "秋名・幾里集落（龍郷町）",
+      "genre": [
+        "民俗芸能",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.town.tatsugo.lg.jp/event/hirasemankai.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.tatsugo.lg.jp/event/hirasemankai.html",
+          "site_name": "龍郷町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://www.amami-tourism.org/event/25131/",
+          "site_name": "あまみの（奄美群島観光物産協会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_569",
+      "name": "酒田の花火2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "酒田市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-12",
+      "date_note": "打ち上げ約1万発、19:00〜20:00。テーマ「つなぐ絆、未来に響け一万発」。",
+      "time_start": "19:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "酒田の花火実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://sakata-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sakata-hanabi.com/",
+          "site_name": "酒田の花火 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0206e00028/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_570",
+      "name": "たるみずふれあいフェスタ2026夏祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "垂水市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "当初2026年8月8日(土)開催予定だったが、台風13号の影響により8月15日(土)に延期された。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "延期（台風のため8/8開催分は8/15に延期）",
+      "organizer": "垂水市",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://www.city.tarumizu.lg.jp/shokogyo/koi/miryoku/event/festa-enki.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://www.city.tarumizu.lg.jp/shokogyo/koi/miryoku/event/festa-enki.html",
+          "site_name": "垂水市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "ジョルダン（2026年中止・開催時期変更が決定した花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
