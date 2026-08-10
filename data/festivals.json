@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10 16:25",
+  "last_updated": "2026-08-10 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -19091,11 +19091,8 @@
       "trust_level": "高",
       "conflict_note": "花火打ち上げ部分は台風13号の強風・会場工事の懸念により2026年は中止（ステージ・屋台は実施）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "例年開催 → 2026年は花火打ち上げ部分のみ台風13号の影響で中止（ステージ等本体は実施）"
@@ -22764,13 +22761,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -34910,7 +34902,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -34967,7 +34959,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -35023,7 +35015,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -35077,6 +35069,69 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_571",
+      "name": "十和田市秋まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "青森県",
+      "city": "十和田市",
+      "date_start": "2026-09-04",
+      "date_end": "2026-09-06",
+      "date_note": "",
+      "time_start": "13:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "十和田商工会議所",
+      "genre": [
+        "山車",
+        "神輿",
+        "流し踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "幕末の三本木原開拓の時代から始まった豊作祈願の祭りに由来する。華やかなパレード、流し踊り、豪華な山車と太鼓車、南部駒踊やケンカ太鼓などの伝統芸能が見どころ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東北新幹線七戸十和田駅からバスで約40分、「十和田市中央」下車すぐ。百石道路下田百石ICより約20km。周辺有料駐車場あり（1回200円）。",
+      "official_url": "https://www.city.towada.lg.jp/kanko/event/2026matsuri.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.towada.lg.jp/kanko/event/2026matsuri.html",
+          "site_name": "十和田市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://aomori-tourism.com/event/detail_8957.html",
+          "site_name": "Amazing AOMORI（青森県観光情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://towakomyu.com/events/towada-city-autumn-festival/",
+          "site_name": "とわコミュ",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
