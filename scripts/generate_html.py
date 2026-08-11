@@ -499,14 +499,29 @@ def event_jsonld(festivals):
     return f'<script type="application/ld+json">{json_str}</script>'
 
 
-def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。"):
+def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path=""):
     description = description.replace('"', '').replace('\n', ' ')
+    full_title = f"{title} | 全国祭り情報"
+    canonical_url = f"{SITE_BASE_URL}/{quote(url_path)}" if url_path else f"{SITE_BASE_URL}/"
+    og_image = f"{IMAGE_BASE_URL.rstrip('/')}/{DEFAULT_IMAGE}"
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{description}">
+  <link rel="canonical" href="{canonical_url}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="全国祭り情報">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="{full_title}">
+  <meta property="og:description" content="{description}">
+  <meta property="og:url" content="{canonical_url}">
+  <meta property="og:image" content="{og_image}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{full_title}">
+  <meta name="twitter:description" content="{description}">
+  <meta name="twitter:image" content="{og_image}">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6NXKRMQDZ0"></script>
   <script>
@@ -515,7 +530,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
     gtag('js', new Date());
     gtag('config', 'G-6NXKRMQDZ0');
   </script>
-  <title>{title} | 全国祭り情報</title>
+  <title>{full_title}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
   <style>{COMMON_CSS}</style>
@@ -558,6 +573,7 @@ def generate_index(festivals, last_updated):
         f.write(html_page(
             "全国祭り情報", body,
             description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。",
+            url_path="",
         ))
     print("docs/index.html を生成しました")
 
@@ -1133,6 +1149,7 @@ def generate_map(festivals, last_updated):
         f.write(html_page(
             "地図から探す", body, extra_head=map_css,
             description="日本地図から都道府県別に全国の祭り・花火大会情報を探せます。",
+            url_path="map.html",
         ))
     print("docs/map.html を生成しました")
 
@@ -1157,6 +1174,7 @@ def generate_calendar(festivals, last_updated):
             f.write(html_page(
                 "カレンダー", body,
                 description="月別カレンダーで全国の祭り・花火大会の開催時期をチェックできます。",
+                url_path="calendar.html",
             ))
         return
 
@@ -1193,6 +1211,7 @@ function showMonth(m) {
         f.write(html_page(
             "カレンダー", body, extra_head=js,
             description="月別カレンダーで全国の祭り・花火大会の開催時期をチェックできます。",
+            url_path="calendar.html",
         ))
     print("docs/calendar.html を生成しました")
 
@@ -1222,6 +1241,7 @@ def generate_prefecture_pages(festivals, last_updated):
                 f"{pref}の祭り情報", body, nav=nav,
                 extra_head=event_jsonld(pref_festivals),
                 description=f"{pref}の祭り・花火大会情報を{len(pref_festivals)}件掲載。開催日程・場所・アクセスなど最新情報をまとめています。",
+                url_path=f"prefecture/{pref}.html",
             ))
     print(f"都道府県ページを {len(prefectures)} 件生成しました")
 
@@ -1256,6 +1276,7 @@ def generate_month_pages(festivals, last_updated):
             f.write(html_page(
                 f"{m}月の祭り情報", body, nav=nav,
                 description=f"{m}月に開催される全国の祭り・花火大会を{len(fests)}件掲載。日程・場所など最新情報をまとめています。",
+                url_path=f"month/{m}.html",
             ))
     print(f"月別ページを {len(months_data)} 件生成しました")
 
