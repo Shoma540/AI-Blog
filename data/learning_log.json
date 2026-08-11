@@ -47,6 +47,18 @@
       "verify_after": "2026-08-13",
       "result": "",
       "commit": "fd464e1dd996659029779b1ba4f317548ebccd2e"
+    },
+    {
+      "date": "2026-08-11 08:23",
+      "analysis": "GA4スナップショット（過去7日間）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回(2026-08-10)のアクセシビリティ改善はverify_afterが2026-08-13でまだ効果測定時期に達していないため据え置き。plan.mdの「データ不十分期の改善テーマ」（sitemap.xml・meta description・構造化データ・表示速度/アクセシビリティ）は4項目とも着手済みだが、generate_html.pyのhtml_page()を確認したところ、canonical URLタグとOGP（Open Graph）／Twitter Card メタタグが全61ページで未出力であることが判明。祭り情報はInstagramキャプションにSITE_URLを載せて投稿しており、LINE・X（Twitter）・Facebook等でリンクが共有された際にサムネイル・タイトル・説明文が正しく表示されない状態だった。また canonical タグが無いため、都道府県ページ等で検索エンジンに重複コンテンツと誤認識されるリスクもあった。",
+      "action": "scripts/generate_html.py のhtml_page()にurl_path引数を追加し、SITE_BASE_URLと組み合わせて全61ページ（index/map/calendar/都道府県47/月別11）に<link rel=\"canonical\">と、og:type/og:site_name/og:locale/og:title/og:description/og:url/og:imageのOGPタグ、twitter:card(summary_large_image)/twitter:title/twitter:description/twitter:imageのTwitter Cardタグを出力するようにした。画像はconfig.jsonのdefault_imageをog:image/twitter:imageとして使用。日本語を含む都道府県ページのURLはurllib.parse.quoteでパーセントエンコードし、sitemap.xmlと同じエンコード方式に統一。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "canonical URLにより検索エンジンの重複コンテンツ誤認識リスクが下がり、OGP/Twitter Cardタグにより、Instagram投稿のSITE_URLリンクがX/LINE/Facebook等でシェアされた際にタイトル・説明・画像付きのリッチなリンクプレビューが表示されるようになり、クリック率（ソーシャル経由の流入）向上に寄与するはず。",
+      "verify_after": "2026-08-14",
+      "result": "",
+      "commit": "adc6a9dc8272e1939eec95508691450d9a4691cf"
     }
   ]
 }
