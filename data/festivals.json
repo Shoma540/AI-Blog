@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11 08:21",
+  "last_updated": "2026-08-11 12:45",
   "festivals": [
     {
       "id": "festival_001",
@@ -21508,7 +21508,8 @@
       "id": "festival_342",
       "name": "東京高円寺阿波おどり",
       "alternate_names": [
-        "高円寺阿波おどり"
+        "高円寺阿波おどり",
+        "第67回東京高円寺阿波おどり"
       ],
       "similar_name_warning": false,
       "prefecture": "東京都",
@@ -21558,13 +21559,22 @@
           "site_name": "殖産ベスト（地域情報）",
           "is_official": false,
           "retrieved_date": "2026-07-19"
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev039/index.html",
+          "site_name": "東京の観光公式サイトGO TOKYO",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "同一性判定によりfestival_573（重複登録）を統合。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24394,14 +24404,8 @@
       "trust_level": "中",
       "conflict_note": "2026年開催見送り（複数ソースで確認）",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "date_note",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "2025年10月18日に第1回開催 → 2026年は開催見送り"
@@ -27567,7 +27571,8 @@
         "THE AWAODORI",
         "徳島阿波おどり",
         "阿波おどり",
-        "阿波踊り"
+        "阿波踊り",
+        "阿波おどり（徳島市）"
       ],
       "similar_name_warning": false,
       "prefecture": "徳島県",
@@ -27664,13 +27669,22 @@
           "site_name": "touch the japan",
           "is_official": false,
           "retrieved_date": "2026-08-05"
+        },
+        {
+          "url": "https://jp.trip.com/blog/tokushimaken-awaodori/",
+          "site_name": "Trip.com 旅行ガイド",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "解消済み: 開始時刻の相違（18:00開始／11:00開始）は誤りではなく、屋外演舞場と屋内会場の違いによるもの。徳島市公式サイトで確認済み。",
+      "conflict_note": "解消済み: 開始時刻の相違（18:00開始／11:00開始）は誤りではなく、屋外演舞場と屋内会場の違いによるもの。徳島市公式サイトで確認済み。 同一性判定によりfestival_572（阿波おどり（徳島市）表記）を統合。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28185,20 +28199,8 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 延期の発表はジョルダン（花火大会2026）のみで確認。町公式サイトは本稿執筆時点でアクセス不可（503エラー）のため一次ソースでの直接確認ができていない。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "time_start",
-        "time_end",
-        "rain_policy",
-        "access",
-        "official_url",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "日程「延期」表記で未確定 → 2026年8月9日開催と確定"
@@ -30081,15 +30083,8 @@
       "trust_level": "中",
       "conflict_note": "PL教団から教祖祭自体の概要公表も行われなくなっており、2026年開催の有無を判断できる一次情報は無い。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "date_note",
-        "conflict_note",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "例年8/1開催 → 2026年も7年連続で開催なし（休止継続）"
@@ -34801,16 +34796,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "time_start",
-        "time_end",
-        "access",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "日程・詳細不明 → 2026年は神輿石段かけのぼりを含む詳細スケジュールを確認（大神輿巡行あり）"
@@ -34873,19 +34860,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "time_start",
-        "time_end",
-        "organizer",
-        "official_url",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "日程不明・要確認 → 2026年は9/21〜25、千灯明は9/25と公式確定"
@@ -35124,131 +35100,64 @@
       }
     },
     {
-      "id": "festival_572",
-      "name": "阿波おどり（徳島市）",
+      "id": "festival_574",
+      "name": "おぢやまつり・大花火大会",
       "alternate_names": [
-        "徳島阿波おどり",
-        "THE AWAODORI"
+        "おぢやまつり大花火大会",
+        "小千谷まつり"
       ],
       "similar_name_warning": false,
-      "prefecture": "徳島県",
-      "city": "徳島市",
-      "date_start": "2026-08-11",
-      "date_end": "2026-08-15",
-      "date_note": "8/11(火・祝)はアスティとくしまでオープニング公演。8/12(水)〜15(土)が本番で、あわぎんホール・藍場浜演舞場など複数の有料・無料演舞場で開催。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "阿波おどり未来へつなぐ実行委員会／徳島市",
+      "prefecture": "新潟県",
+      "city": "小千谷市",
+      "date_start": "2026-08-21",
+      "date_end": "2026-08-23",
+      "date_note": "祭り全体は8/21(金)〜23(日)の3日間。大花火大会は8/22(土)19:30〜21:00（開場17:00）、荒天等の場合は8/23(日)同時間に順延。",
+      "time_start": "19:30",
+      "time_end": "21:00",
+      "rain_policy": "荒天等の場合は翌23日（日曜日）同時間に順延",
+      "organizer": "おぢやまつり実行委員会（小千谷観光協会内）",
       "genre": [
-        "踊り",
-        "民俗芸能"
+        "花火"
       ],
-      "scale": "その他（400年以上の歴史を持つ徳島市の代表的な祭り。国指定の確認できず）",
-      "is_free": true,
-      "price": "無料演舞場は見学無料。有料演舞場（アスティとくしま・あわぎんホール等）は有料席あり。",
-      "ticket_url": "https://www.awaodorimirai.com/",
-      "history_years": 400,
-      "history_description": "起源には諸説あり、1586年の徳島城完成を祝って踊りが許されたとする「城造り起源説」、盆踊りが変化したとする説、風流踊りに由来する説などが伝わる。",
+      "scale": "その他",
+      "is_free": "一部有料",
+      "price": "有料観覧席あり（信濃川旭橋下流左岸堤防階段席・ホントカ屋上階段席）。事前販売は終了、当日販売のみ予定。",
+      "ticket_url": "https://www.city.ojiya.niigata.jp/site/kanko/ojiyamatsuri.html",
+      "history_years": "不明",
+      "history_description": "不明",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.awaodorimirai.com/",
+      "access": "信濃川旭橋下流（新潟県小千谷市）",
+      "official_url": "https://www.city.ojiya.niigata.jp/site/kanko/ojiyamatsuri.html",
       "sns_accounts": {
         "instagram": "不明"
       },
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.awaodorimirai.com/",
-          "site_name": "阿波おどり公式WEBサイト",
+          "url": "https://www.city.ojiya.niigata.jp/site/kanko/ojiyamatsuri.html",
+          "site_name": "小千谷市公式ウェブサイト",
           "is_official": true,
-          "retrieved_date": "2026-08-10"
+          "retrieved_date": "2026-08-11"
         },
         {
-          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
-          "site_name": "徳島市公式ウェブサイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-10"
-        },
-        {
-          "url": "https://jp.trip.com/blog/tokushimaken-awaodori/",
-          "site_name": "Trip.com 旅行ガイド",
+          "url": "https://sorahanabi.com/niigata/ojiya/ojiyamatsuri-hanabitaikai.html",
+          "site_name": "空花火｜日本全国の花火大会情報",
           "is_official": false,
-          "retrieved_date": "2026-08-10"
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://025.teny.co.jp/odekake/event/natsu-matsuri-hanabi2026-ojiyamatsuri",
+          "site_name": "TeNYテレビ新潟",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "初回検索時の一部集約サイトで「8月14日開催」との誤情報が見られたが、小千谷市公式サイト・地元テレビ局等の複数ソースで8月22日（雨天順延23日）と確認済み。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_573",
-      "name": "東京高円寺阿波おどり",
-      "alternate_names": [
-        "高円寺阿波おどり",
-        "第67回東京高円寺阿波おどり"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "東京都",
-      "city": "杉並区高円寺",
-      "date_start": "2026-08-29",
-      "date_end": "2026-08-30",
-      "date_note": "第67回開催。徳島の阿波おどりとは別団体・別会場で開催される東京の派生イベント。",
-      "time_start": "17:00",
-      "time_end": "20:00",
-      "rain_policy": "不明",
-      "organizer": "第67回東京高円寺阿波おどり実行委員会／NPO法人東京高円寺阿波おどり振興協会",
-      "genre": [
-        "踊り",
-        "パレード"
-      ],
-      "scale": "その他（都内最大級の阿波おどりイベント。国指定の確認できず）",
-      "is_free": true,
-      "price": "沿道での見学は無料（有料観覧席の有無は不明）",
-      "ticket_url": "不明",
-      "history_years": 67,
-      "history_description": "1957年に高円寺パル商店街で街の賑わいを求めて始まり、その後隣接する商店街や周辺地域に拡大して今日に至る。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "JR「高円寺」駅・東京メトロ丸ノ内線「新高円寺」駅周辺9演舞場",
-      "official_url": "https://www.koenji-awaodori.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.koenji-awaodori.com/about/about01.html",
-          "site_name": "NPO法人東京高円寺阿波おどり振興協会（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-08-10"
-        },
-        {
-          "url": "https://www.gotokyo.org/jp/spot/ev039/index.html",
-          "site_name": "東京の観光公式サイトGO TOKYO",
-          "is_official": true,
-          "retrieved_date": "2026-08-10"
-        },
-        {
-          "url": "https://tokyofesta.com/23ku/29993/",
-          "site_name": "TOKYO Festa",
-          "is_official": false,
-          "retrieved_date": "2026-08-10"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
