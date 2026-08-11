@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11 16:26",
+  "last_updated": "2026-08-11 17:19",
   "festivals": [
     {
       "id": "festival_001",
@@ -7325,9 +7325,10 @@
     {
       "name": "米子がいな祭",
       "alternate_names": [
-        "第53回米子がいな祭"
+        "第53回米子がいな祭",
+        "みなと祭"
       ],
-      "similar_name_warning": false,
+      "similar_name_warning": true,
       "prefecture": "鳥取県",
       "city": "米子市",
       "date_start": "2026-08-07",
@@ -7375,14 +7376,26 @@
           "site_name": "花火大会2026 - ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "https://tottorizumu.com/202681-2/",
+          "site_name": "とっとりずむ",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
+      "conflict_note": "一部サイト（とっとりずむ）で「第81回みなと祭」（JR米子駅前・湊山公園周辺、8月7日〜9日）として紹介されており、日程・会場が本祭りと完全一致するため同一の祭りの別表記の可能性が高いと判断し別表記に追加。ただし米子市公式・実行委員会による名称対応の一次確認は未取得のため要確認フラグを維持。",
+      "requires_check": true,
       "id": "festival_110",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names",
+        "similar_name_warning",
+        "conflict_note",
+        "sources",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -16144,7 +16157,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "重複登録されていたfestival_544を同一祭りと判定し統合"
+        "details": ""
       }
     },
     {
@@ -16907,8 +16920,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "例年開催 → 2026年は台風15号の影響で本大会・予備日ともに中止"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -19094,8 +19107,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "例年開催 → 2026年は花火打ち上げ部分のみ台風13号の影響で中止（ステージ等本体は実施）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -24404,8 +24417,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "2025年10月18日に第1回開催 → 2026年は開催見送り"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -25643,18 +25656,11 @@
       "trust_level": "高",
       "conflict_note": "旧データは第64回（2025年10月25日開催済み）の詳細と2029年までの延期情報が同じdate_note内に混在し、2026年に開催されるかのように読める状態だった。佐倉市公式サイト（2026-08-11時点で最新更新2026-06-04）で「2029年まで延期」が明記されていることを確認し、2026年は開催なしと訂正した。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "trust_level",
-        "sources",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：2025年10月25日(土)に第64回を分散型（市内11か所）で開催 → 今年：2026年は開催なし（会場工事のため2029年まで延期）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -28197,8 +28203,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "日程「延期」表記で未確定 → 2026年8月9日開催と確定"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -30015,8 +30021,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "石鎚神社への誤帰属を世田薬師（栴檀寺）に訂正し、2026年開催日(7/26)を確定。"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -30081,8 +30087,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "例年8/1開催 → 2026年も7年連続で開催なし（休止継続）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -31856,8 +31862,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年（第40回）：8/13-14開催 → 今年（第41回）：同じく8/13-14開催、時間帯を新たに確認"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -33240,8 +33246,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年（2025年）：夏開催 → 今年（2026年）：10月3日（秋開催）に変更"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -33568,8 +33574,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年（2025年）：8月16日開催 → 今年：8月8日開催"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -34370,8 +34376,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：2025年8月9日(土)の1日開催 → 今年：2026年8月8日(土)・10日(月)の2日間開催（初の2日間開催）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -34427,8 +34433,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：2025年8月10日(日)開催・予備日8月11日(月) → 今年：2026年8月9日(日)開催・予備日8月10日(月)（開催日は毎年8月第2日曜日固定のパターンとみられる）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -34492,8 +34498,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：「ゐの市盆踊り～不忍夢～」として主催NPO法人おりがみ・学生共創、2025年8月9日(土)～11日(月・祝)開催 → 今年：「上野ゐの市盆踊り」として主催上野中通商店街振興組合、2026年8月7日(金)～16日(日)に会期拡大（同一の祭りの継続か別企画かは未確認）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -34549,7 +34555,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明（例年8月上旬に開催される傾向だが、過去複数年は再開発等で中止・不開催の年もあった）"
+        "details": ""
       }
     },
     {
@@ -34615,7 +34621,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明"
+        "details": ""
       }
     },
     {
@@ -34677,7 +34683,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明"
+        "details": ""
       }
     },
     {
@@ -34739,7 +34745,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "不明"
+        "details": ""
       }
     },
     {
@@ -34794,8 +34800,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "日程・詳細不明 → 2026年は神輿石段かけのぼりを含む詳細スケジュールを確認（大神輿巡行あり）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -34858,8 +34864,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "日程不明・要確認 → 2026年は9/21〜25、千灯明は9/25と公式確定"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -35153,6 +35159,336 @@
       "conflict_note": "初回検索時の一部集約サイトで「8月14日開催」との誤情報が見られたが、小千谷市公式サイト・地元テレビ局等の複数ソースで8月22日（雨天順延23日）と確認済み。",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_575",
+      "name": "盛岡花火の祭典",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "盛岡市",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-11",
+      "date_note": "小雨決行。荒天の場合は中止（順延なし）。台風等の影響で開催可否を当日判断する年もある。",
+      "time_start": "19:25",
+      "time_end": "20:25",
+      "rain_policy": "小雨決行／荒天中止（順延なし）",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧エリアあり（一般1,000円/前売800円、椅子席3,000円/前売2,500円など）。無料エリアもある模様だが要確認。",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR岩手飯岡駅から徒歩30分、シャトルバスあり",
+      "official_url": "https://hanabi.walkerplus.com/detail/ar0203e00646/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1201003/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0203e00646/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_576",
+      "name": "石鳥谷夢まつり花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "花巻市（石鳥谷町）",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-13",
+      "date_note": "花巻市内では8月8日開催の「イーハトーブフォーラム 光と音のページェント 花火ファンタジー」（festival_500）とは別のイベント。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大正橋公園（石鳥谷水辺プラザ）",
+      "official_url": "https://news.nsttv.com/mag/92384/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://news.nsttv.com/mag/92384/",
+          "site_name": "新潟ニュースNST（夏の花火大会2026特集）",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_577",
+      "name": "遠野納涼花火まつり",
+      "alternate_names": [
+        "第33回遠野納涼花火まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "遠野市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "小雨決行、荒天の場合は中止（延期なし）。",
+      "time_start": "19:00",
+      "time_end": "20:30",
+      "rain_policy": "小雨決行／荒天中止（延期なし）",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料",
+      "ticket_url": "不明",
+      "history_years": 33,
+      "history_description": "不明",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "例年約26,000人",
+      "access": "早瀬川緑地グラウンド周辺（臨時駐車場あり）",
+      "official_url": "https://www.pref.iwate.jp/event/moyooshi/1100854.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.pref.iwate.jp/event/moyooshi/1100854.html",
+          "site_name": "岩手県公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://hanamaki-kitakami-tono.goguynet.jp/2026/08/01/hanabitaikai-3/",
+          "site_name": "ぐぐいっと花巻・北上・遠野",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_578",
+      "name": "前沢夏まつり納涼花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "奥州市（前沢区）",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "奥州市内では8月22日開催の「奥州の花火大会」（一ノ沢ダム東特設会場）とは別のイベント。",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "例年約7,000人",
+      "access": "前沢いきいきスポーツランド",
+      "official_url": "https://hanabi.walkerplus.com/detail/ar0203e00018/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0203e00018/data.html",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_579",
+      "name": "奥州の花火大会",
+      "alternate_names": [
+        "第4回奥州の花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "奥州市",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-22",
+      "date_note": "",
+      "time_start": "19:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "一ノ沢ダム東特設会場",
+      "official_url": "https://www.city.oshu.iwate.jp/kanko/event/2/1680.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.oshu.iwate.jp/kanko/event/2/1680.html",
+          "site_name": "奥州市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20003565",
+          "site_name": "るるぶ&more.",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_580",
+      "name": "かわさき夏まつり花火大会「おらが自慢のでっかい花火」",
+      "alternate_names": [
+        "第54回かわさき夏まつり花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "一関市（川崎町）",
+      "date_start": "2026-08-16",
+      "date_end": "2026-08-16",
+      "date_note": "一関市内では8月7日〜9日開催の「一関夏まつり磐井川川開き花火大会」（festival_212）とは別のイベント。",
+      "time_start": "19:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "観覧エリア入場に協力金1人500円（小学生以上）。テント設営禁止。",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "約1万発。水中花火や2尺玉など。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "北上川河畔（北上大橋付近）",
+      "official_url": "https://ichibushin.com/%E7%AC%AC54%E5%9B%9E%E3%81%8B%E3%82%8F%E3%81%95%E3%81%8D%E5%A4%8F%E3%81%BE%E3%81%A4%E3%82%8A%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%EF%BD%9E%E3%81%8A%E3%82%89%E3%81%8C%E8%87%AA%E6%85%A2%E3%81%AE%E3%81%A7/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0203e00648/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://ichibushin.com/%E7%AC%AC54%E5%9B%9E%E3%81%8B%E3%82%8F%E3%81%95%E3%81%8D%E5%A4%8F%E3%81%BE%E3%81%A4%E3%82%8A%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%EF%BD%9E%E3%81%8A%E3%82%89%E3%81%8C%E8%87%AA%E6%85%A2%E3%81%AE%E3%81%A7/",
+          "site_name": "一関地方物産振興協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
