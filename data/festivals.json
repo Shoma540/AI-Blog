@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11 12:45",
+  "last_updated": "2026-08-11 16:26",
   "festivals": [
     {
       "id": "festival_001",
@@ -21570,11 +21570,8 @@
       "trust_level": "高",
       "conflict_note": "同一性判定によりfestival_573（重複登録）を統合。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -25602,7 +25599,7 @@
       "city": "佐倉市",
       "date_start": "不明",
       "date_end": "不明",
-      "date_note": "第64回。開会式19:00〜、手筒花火19:05〜、打ち上げ19:20〜20:30。会場は市内10カ所程度（佐倉ふるさと広場での打ち上げなし）。小雨決行、荒天時は翌日順延。 ／ 【2026年中止】会場の佐倉ふるさと広場拡張整備工事のため、リニューアル工事完了(2029年頃)まで開催を延期。",
+      "date_note": "2026年の開催なし。会場の佐倉ふるさと広場拡張整備工事のため、次回（第65回）は2029年まで延期（佐倉市公式サイト2026年6月4日更新分で確認、印旛沼湖畔でのリニューアル開催を予定）。直近の開催実績は第64回（令和7年＝2025年10月25日(土)、分散型・市内11か所同時打ち上げ、19:20〜20:30）。",
       "time_start": "19:20",
       "time_end": "20:30",
       "rain_policy": "小雨決行、荒天の場合は翌日に順延",
@@ -25625,38 +25622,39 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://hanabi.walkerplus.com/detail/ar0312e00866/",
-          "site_name": "ウォーカープラス 花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-07-29"
+          "url": "https://www.city.sakura.lg.jp/soshiki/sakuranomiryoku/event_kanko/20430.html",
+          "site_name": "佐倉市公式ウェブサイト（第65回佐倉市民花火大会）",
+          "is_official": true,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://www.furusato-tax.jp/gcf/4465",
+          "site_name": "ふるさとチョイス（佐倉市ガバメントクラウドファンディング・第64回佐倉市民花火大会）",
+          "is_official": true,
+          "retrieved_date": "2026-08-11"
         },
         {
           "url": "https://hanabi-map.com/chiba/sakurashimin-hanabi/",
           "site_name": "日本の花火大会MAP2026年度版",
           "is_official": false,
-          "retrieved_date": "2026-07-29"
-        },
-        {
-          "url": "https://sakura-de-kurasu.com/seasonal/hanabi-matsuri-sakura/",
-          "site_name": "佐倉でくらす",
-          "is_official": false,
-          "retrieved_date": "2026-07-29"
-        },
-        {
-          "url": "https://www.city.sakura.lg.jp/soshiki/sakuranomiryoku/event_kanko/20430.html",
-          "site_name": "佐倉市公式ウェブサイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-03"
+          "retrieved_date": "2026-08-11"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "旧データは第64回（2025年10月25日開催済み）の詳細と2029年までの延期情報が同じdate_note内に混在し、2026年に開催されるかのように読める状態だった。佐倉市公式サイト（2026-08-11時点で最新更新2026-06-04）で「2029年まで延期」が明記されていることを確認し、2026年は開催なしと訂正した。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "trust_level",
+        "sources",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：2025年10月25日(土)に第64回を分散型（市内11か所）で開催 → 今年：2026年は開催なし（会場工事のため2029年まで延期）"
       }
     },
     {
@@ -27680,11 +27678,8 @@
       "trust_level": "高",
       "conflict_note": "解消済み: 開始時刻の相違（18:00開始／11:00開始）は誤りではなく、屋外演舞場と屋内会場の違いによるもの。徳島市公式サイトで確認済み。 同一性判定によりfestival_572（阿波おどり（徳島市）表記）を統合。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -35157,7 +35152,7 @@
       "trust_level": "高",
       "conflict_note": "初回検索時の一部集約サイトで「8月14日開催」との誤情報が見られたが、小千谷市公式サイト・地元テレビ局等の複数ソースで8月22日（雨天順延23日）と確認済み。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
