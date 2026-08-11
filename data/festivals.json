@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11 17:19",
+  "last_updated": "2026-08-11 18:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -7388,14 +7388,8 @@
       "conflict_note": "一部サイト（とっとりずむ）で「第81回みなと祭」（JR米子駅前・湊山公園周辺、8月7日〜9日）として紹介されており、日程・会場が本祭りと完全一致するため同一の祭りの別表記の可能性が高いと判断し別表記に追加。ただし米子市公式・実行委員会による名称対応の一次確認は未取得のため要確認フラグを維持。",
       "requires_check": true,
       "id": "festival_110",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "similar_name_warning",
-        "conflict_note",
-        "sources",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -35214,7 +35208,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -35264,7 +35258,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -35322,7 +35316,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -35372,7 +35366,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -35430,7 +35424,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -35488,6 +35482,585 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_581",
+      "name": "あさか野夏まつり花火大会",
+      "alternate_names": [
+        "第55回あさか野夏まつり花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福島県",
+      "city": "郡山市",
+      "date_start": "2026-08-14",
+      "date_end": "2026-08-14",
+      "date_note": "",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 55,
+      "history_description": "郡山市カルチャーパーク付近で開催される花火大会。約7000発を打ち上げ、尺玉などを360度どこからでも眺められることが特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約3万5000人（予想）",
+      "access": "郡山市・カルチャーパーク付近",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/list/ar0207/scheduled/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/area/fukushima/",
+          "site_name": "ウェザーニュース 花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_582",
+      "name": "鮫川花火大会",
+      "alternate_names": [
+        "いわき市鮫川河川敷公園花火大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "福島県",
+      "city": "いわき市",
+      "date_start": "2026-08-29",
+      "date_end": "2026-08-29",
+      "date_note": "",
+      "time_start": "19:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 28,
+      "history_description": "いわき市・鮫川河川敷公園で開催される花火大会。約2000発。同市内で8月1日に開催される「いわき花火大会」（アクアマリンパーク、約1万2000発、festival_262）とは別の花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約2万人（予想）",
+      "access": "いわき市・鮫川河川敷公園",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/list/ar0207/scheduled/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/area/fukushima/",
+          "site_name": "ウェザーニュース 花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_583",
+      "name": "モビリティリゾートもてぎ 花火の祭典",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "芳賀郡茂木町",
+      "date_start": "2026-08-14",
+      "date_end": "2026-08-14",
+      "date_note": "",
+      "time_start": "19:20",
+      "time_end": "不明",
+      "rain_policy": "荒天時中止",
+      "organizer": "モビリティリゾートもてぎ",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "モビリティリゾートもてぎ",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tochinavi.net/feature/home.shtml?id=7353",
+          "site_name": "栃ナビ！栃木の花火&夏祭り特集2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/calendar/08/ar0309/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_584",
+      "name": "壬生ふるさとまつり花火大会",
+      "alternate_names": [
+        "壬生町花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "下都賀郡壬生町",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-22",
+      "date_note": "",
+      "time_start": "20:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "壬生町総合公園陸上競技場で開催。約2000発を打ち上げ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "壬生町総合公園陸上競技場",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tochinavi.net/feature/home.shtml?id=7353",
+          "site_name": "栃ナビ！栃木の花火&夏祭り特集2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/calendar/08/ar0309/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_585",
+      "name": "尊徳夏まつり ザ・ファイナル2026",
+      "alternate_names": [
+        "真岡市花火大会",
+        "尊徳夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "真岡市",
+      "date_start": "2026-08-29",
+      "date_end": "2026-08-29",
+      "date_note": "",
+      "time_start": "19:30",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "鬼怒川河川敷緑地公園で開催。約5000発を打ち上げ。名称に「ザ・ファイナル」とあり、今回で最終開催となる可能性があるため要確認。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "真岡市・鬼怒川河川敷緑地公園",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tochinavi.net/feature/home.shtml?id=7353",
+          "site_name": "栃ナビ！栃木の花火&夏祭り特集2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/calendar/08/ar0309/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_586",
+      "name": "第72回芦野聖天花火大会",
+      "alternate_names": [
+        "那須町花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "那須郡那須町",
+      "date_start": "2026-08-19",
+      "date_end": "2026-08-19",
+      "date_note": "",
+      "time_start": "19:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 72,
+      "history_description": "日本三所聖天のひとつ三光寺の縁日に合わせて開催される花火大会。仲町通りには約50店舗の露店が立ち並ぶ。",
+      "food_stalls": "仲町通りに約50店舗の露店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "那須町芦野・芦野御殿山",
+      "official_url": "https://www.nasukogen.org/calendar/detail.php?id=1671",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.nasukogen.org/calendar/detail.php?id=1671",
+          "site_name": "那須町観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://www.tochigiji.or.jp/event/e15806",
+          "site_name": "とちぎ旅ネット",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0309e00590/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_587",
+      "name": "第44回小豆島まつり",
+      "alternate_names": [
+        "小豆島まつり花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "小豆郡小豆島町",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "",
+      "time_start": "20:00",
+      "time_end": "20:45",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 44,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "内海総合運動公園",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/calendar/08/ar0937/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/kagawa.html",
+          "site_name": "じゃらん花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_588",
+      "name": "第55回三豊たくま港まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "三豊市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火",
+        "踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 55,
+      "history_description": "詫間港の開港を記念して始まった祭り。子ども総踊りや舞台ショーに続き、海上花火（約2000発）を打ち上げる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約3万人（予想）",
+      "access": "詫間港（三豊市詫間町）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/calendar/08/ar0937/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/kagawa.html",
+          "site_name": "じゃらん花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_589",
+      "name": "2026おいでまい祭り",
+      "alternate_names": [
+        "おいでまい祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "高松市牟礼町",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "花火は20:30から20分間で約1,600発を打ち上げ。",
+      "time_start": "17:00",
+      "time_end": "20:50",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火",
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "川東埋立地（高松市牟礼町大町）で開催。花火ショーのほか太鼓演奏、牟礼町出身の作曲家による新曲「おいでまい！ムーレ」のお披露目が行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "川東埋立地（高松市牟礼町大町）。ことでん志度線「塩屋」駅から徒歩10分、JR高徳線「讃岐牟礼」駅から徒歩15分。会場に駐車場なし。",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://weathernews.jp/hanabi/spot/4501003/",
+          "site_name": "ウェザーニュース 花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://www.coolkagawa.jp/news/entry-5811.html",
+          "site_name": "四国新聞社 COOL KAGAWA",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_590",
+      "name": "令和8年度 いなわしろ花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "福島県",
+      "city": "耶麻郡猪苗代町",
+      "date_start": "2026-08-16",
+      "date_end": "2026-08-16",
+      "date_note": "時間は予定。",
+      "time_start": "19:30",
+      "time_end": "20:15",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約4000人（予想）",
+      "access": "猪苗代町運動公園",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/list/ar0207/scheduled/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-11"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
