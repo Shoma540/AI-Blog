@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12 13:53",
+  "last_updated": "2026-08-12 16:28",
   "festivals": [
     {
       "id": "festival_001",
@@ -27019,8 +27019,8 @@
       "similar_name_warning": true,
       "prefecture": "岐阜県",
       "city": "高山市",
-      "date_start": "2026-04-14",
-      "date_end": "2026-04-15",
+      "date_start": "2026-10-09",
+      "date_end": "2026-10-10",
       "date_note": "日枝神社の例祭",
       "time_start": "",
       "time_end": "",
@@ -27066,16 +27066,25 @@
           "site_name": "季節お役立ち情報局",
           "is_official": false,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://www.kankou-gifu.jp/event/detail_1074.html",
+          "site_name": "岐阜県観光公式サイト（秋の高山祭）",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end"
+      ],
       "year_comparison": {
         "changed": true,
-        "details": "date_start: 2026-10-09 → 2026-04-14; date_end: 2026-10-10 → 2026-04-15"
+        "details": "データ誤り訂正：旧登録値「2026-04-14〜2026-04-15」（春の高山祭・山王祭の日付が誤って登録されていた）→ 正しい2026年開催日「2026-10-09〜2026-10-10」（岐阜県観光公式サイトで直接確認）"
       }
     },
     {
@@ -38637,7 +38646,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -38701,6 +38710,110 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾／要確認: 3市の名を冠しているが3市とも公式に関与を否定しており、消防等への許可申請も確認されていない。実体不明のまま中止となったイベントのため、実在の祭りとしての情報信頼性に注意。",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_633",
+      "name": "富山まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "富山県",
+      "city": "富山市",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "富山のよさこい祭り(9/26-27)、越中おわら節全国大会(9/26)などを併催",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "パレード",
+        "民俗芸能",
+        "踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.toyamashi-kankoukyoukai.jp/feature/toyama-matsuri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.toyamashi-kankoukyoukai.jp/feature/toyama-matsuri/",
+          "site_name": "富山市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_634",
+      "name": "おおたまつり（南会場）",
+      "alternate_names": [
+        "太田まつり"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "群馬県",
+      "city": "太田市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-13",
+      "date_note": "予定（変更の可能性あり、公式発表で要確認）",
+      "time_start": "16:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "太田市九合地区振興課",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "南一番街大通り",
+      "official_url": "https://www.city.ota.gunma.jp/page/1024861.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.ota.gunma.jp/page/1024861.html",
+          "site_name": "太田市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
