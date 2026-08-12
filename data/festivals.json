@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12 17:20",
+  "last_updated": "2026-08-12 18:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -38867,6 +38867,135 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_636",
+      "name": "菖蒲田海水浴場花火大会",
+      "alternate_names": [
+        "七ヶ浜復興花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "宮城郡七ヶ浜町",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "当初2026年8月11日(火・祝)開催予定だったが台風接近のため延期。予備日の8/12(水)も台風接近が見込まれるため、別日程での開催を検討中。新しい開催日は決定次第、七ヶ浜町から改めて発表予定。",
+      "time_start": "19:30",
+      "time_end": "不明",
+      "rain_policy": "天候不良の場合は翌日に順延の予定だったが、台風予報により順延日程も含めて延期が決定済み",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（詳細記載なし、無料観覧が基本）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "菖蒲田海水浴場",
+      "official_url": "https://www.shichigahama.com/benricho/oshirase/admin3-070-12753.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.shichigahama.com/benricho/oshirase/admin3-070-12753.html",
+          "site_name": "七ヶ浜町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://mykoho.jp/article/044041/8910669/8961801",
+          "site_name": "マイ広報紙（七ヶ浜町広報）",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://x.com/kikigaki7/status/1954410778934878312",
+          "site_name": "聞き書き七ヶ浜（X公式）",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_637",
+      "name": "おわせ港まつり",
+      "alternate_names": [
+        "尾鷲港まつり",
+        "第73回おわせ港まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "尾鷲市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "雨天順延は8/2(日)。2日も延期となる場合は翌週へ順延。",
+      "time_start": "09:00",
+      "time_end": "21:00",
+      "rain_policy": "雨天順延（8/2、さらに延期の場合は翌週）",
+      "organizer": "第73回おわせ港まつり実行委員会（事務局：尾鷲観光物産協会）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（記載なし、基本無料）",
+      "ticket_url": "不明",
+      "history_years": 73,
+      "history_description": "第73回を数える尾鷲港一帯の夏まつり。海上花火大会「尾鷲みなと夜市」を中心に開催。",
+      "food_stalls": "「尾鷲みなと夜市」として午前4:30〜花火終了まで13店舗が出店予定",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR尾鷲駅下車 徒歩約10分",
+      "official_url": "https://www.city.owase.lg.jp/owatabi/0000024838.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.owase.lg.jp/owatabi/0000024838.html",
+          "site_name": "尾鷲市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/event/43190",
+          "site_name": "観光三重（三重県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0624e00208/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
