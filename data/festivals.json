@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12 16:28",
+  "last_updated": "2026-08-12 17:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -27077,11 +27077,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "データ誤り訂正：旧登録値「2026-04-14〜2026-04-15」（春の高山祭・山王祭の日付が誤って登録されていた）→ 正しい2026年開催日「2026-10-09〜2026-10-10」（岐阜県観光公式サイトで直接確認）"
@@ -38762,7 +38759,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -38812,6 +38809,64 @@
         }
       ],
       "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_635",
+      "name": "四天王寺大盆踊り",
+      "alternate_names": [
+        "四天王寺盆踊り大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "大阪市天王寺区",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-12",
+      "date_note": "2夜連続開催",
+      "time_start": "18:30",
+      "time_end": "20:30",
+      "rain_policy": "小雨の場合は決行。気象警報発令時は中止。",
+      "organizer": "和宗総本山四天王寺",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.shitennoji.or.jp/%E6%97%A7%E6%AD%A3%E5%A4%A7%E9%BB%92%E5%A4%A9-%E7%A5%88%E7%A5%B7%E4%BC%9A/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.shitennoji.or.jp/%E6%97%A7%E6%AD%A3%E5%A4%A7%E9%BB%92%E5%A4%A9-%E7%A5%88%E7%A5%B7%E4%BC%9A/",
+          "site_name": "和宗総本山四天王寺 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://uemachiweb.com/news/8-11-12-%E5%9B%9B%E5%A4%A9%E7%8E%8B%E5%AF%BA-%E5%A4%A7%E7%9B%86%E8%B8%8A%E3%82%8A2026/",
+          "site_name": "うえまち新聞web",
+          "is_official": false,
+          "retrieved_date": "2026-08-12"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
