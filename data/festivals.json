@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12 18:20",
+  "last_updated": "2026-08-13 08:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -38998,6 +38998,198 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_638",
+      "name": "忍野八海祭り",
+      "alternate_names": [
+        "第49回忍野八海祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "南都留郡忍野村",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "",
+      "time_start": "10:00",
+      "time_end": "20:45",
+      "rain_policy": "小雨決行（荒天時は中止・順延の可能性あり、詳細は公式に要確認）",
+      "organizer": "忍野八海祭り実行委員会",
+      "genre": [
+        "花火",
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（一部有料観覧エリアの可能性あり、詳細不明）",
+      "ticket_url": "不明",
+      "history_years": 49,
+      "history_description": "忍野村の鎮守「八大龍王」に感謝を捧げる祭り。花火（音楽花火・レーザー・八字焼・ナイアガラ等）、盆踊り、太鼓演奏などが行われる。",
+      "food_stalls": "屋台あり（詳細不明）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "富士急行富士山駅から富士急バス内野行きで約25分「忍野村役場」下車徒歩5分",
+      "official_url": "https://oshino-navi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0419e00582/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://yakei-fan.com/magazine/fireworks/yamanashi/oshino-hanabi2026.html",
+          "site_name": "夜景FANマガジン",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://oshino-navi.com/",
+          "site_name": "忍野村観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_639",
+      "name": "おおむら夏越花火大会",
+      "alternate_names": [
+        "おおむら夏越まつり（宵まつり）",
+        "第74回おおむら夏越花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "長崎県",
+      "city": "大村市",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "長崎空港最終便離発着後の21時30分頃打上げ予定",
+      "time_start": "21:30",
+      "time_end": "22:00",
+      "rain_policy": "荒天時中止（詳細は公式に要確認）",
+      "organizer": "一般社団法人大村市観光コンベンション協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（記載なし、基本無料）",
+      "ticket_url": "不明",
+      "history_years": 74,
+      "history_description": "第74回を数える大村湾畔の花火大会。おおむら夏越まつり「宵まつり」として開催。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "ボートレース大村周辺（大村湾）",
+      "official_url": "https://www.omura-nagoshi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://www.city.omura.nagasaki.jp/kouhou/event/202608/0801.html",
+          "site_name": "大村市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://www.omura-nagoshi.com/",
+          "site_name": "おおむら夏越まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://www.nagasaki-tabinet.com/event/60561",
+          "site_name": "ながさき旅ネット（長崎県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_640",
+      "name": "対馬厳原港まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長崎県",
+      "city": "対馬市（厳原町）",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-02",
+      "date_note": "毎年8月第1週の土日開催。花火は8月2日21:00〜21:30予定。一部サイトに2025年開催時点の記載が残るため日程は公式で要確認。",
+      "time_start": "21:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "対馬厳原港まつり振興会（対馬市商工会青年部厳原支部）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（記載なし、基本無料）",
+      "ticket_url": "不明",
+      "history_years": 0,
+      "history_description": "厳原港一帯で開催される夏まつり。花火大会は約3,500発を打ち上げ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "厳原港周辺",
+      "official_url": "https://www.city.tsushima.nagasaki.jp/calendar.html",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/izuharaminatomatsuri/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://weathernews.jp/hanabi/spot/5101029/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_295726/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://www.nagasaki-tabinet.com/islands/events/50799",
+          "site_name": "ながさき旅ネット（長崎県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾：一部情報源（jorudan・walkerplus）に2025年開催時点のページが残存しており、2026年の日程確定情報は公式カレンダーで要確認。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
