@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13 08:30",
+  "last_updated": "2026-08-13 16:50",
   "festivals": [
     {
       "id": "festival_001",
@@ -39256,7 +39256,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -39313,6 +39313,136 @@
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0420e00799/data.html",
           "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_643",
+      "name": "上総十二社祭り",
+      "alternate_names": [
+        "上総十二社まつり",
+        "裸祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "長生郡一宮町",
+      "date_start": "2026-09-08",
+      "date_end": "2026-09-14",
+      "date_note": "例大祭は9月13日。神輿・神職馬・奉行馬が釣ヶ崎海岸に集結し、一斉差し上げ・鳥居くぐりを行う。",
+      "time_start": "14:35",
+      "time_end": "16:00",
+      "rain_policy": "不明",
+      "organizer": "玉前神社・上総十二社祭り関係団体",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "千葉県指定無形民俗文化財",
+      "is_free": true,
+      "price": "無料（見学）",
+      "ticket_url": "不明",
+      "history_years": 1219,
+      "history_description": "大同2年(807)に始まったと伝えられる玉前神社の例大祭。神輿を担ぐ姿が裸に近いことから「裸祭り」として親しまれ、平成15年(2003)に千葉県指定無形民俗文化財となった。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "釣ヶ崎海岸・玉前神社周辺（JR上総一ノ宮駅）",
+      "official_url": "https://www.town.ichinomiya.chiba.jp/event/9/31.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.ichinomiya.chiba.jp/event/9/31.html",
+          "site_name": "一宮町役場",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://maruchiba.jp/event/detail_10861.html",
+          "site_name": "ちば観光ナビ（千葉県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kyouiku/bunkazai/bunkazai/p321-060.html",
+          "site_name": "千葉県",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_644",
+      "name": "東京 星空と光の夏祭り",
+      "alternate_names": [
+        "ほしひか"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "立川市・昭島市",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-16",
+      "date_note": "国営昭和記念公園「みんなの原っぱ」で初開催の9日間限定ナイトイベント。西立川口ゲートからのみ入退場可。",
+      "time_start": "17:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "株式会社レッドクリフ",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料（詳細は公式サイト参照）",
+      "ticket_url": "https://hoshihika-fes.redcliff-inc.co.jp/",
+      "history_years": 0,
+      "history_description": "国営昭和記念公園で初開催の体験型ナイトエンターテインメント。500機のドローンによる「星空ドローンシアター」、音楽に合わせた花火ショー、参加型のランタンなどで構成される。",
+      "food_stalls": "キッチンカーあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "国営昭和記念公園 西立川口ゲート（JR西立川駅）",
+      "official_url": "https://hoshihika-fes.redcliff-inc.co.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hoshihika-fes.redcliff-inc.co.jp/",
+          "site_name": "東京 星空と光の夏祭り 2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000167.000087924.html",
+          "site_name": "PR TIMES（株式会社レッドクリフ プレスリリース）",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://spice.eplus.jp/articles/347906",
+          "site_name": "SPICE",
           "is_official": false,
           "retrieved_date": "2026-08-13"
         }
