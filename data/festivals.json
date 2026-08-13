@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13 17:40",
+  "last_updated": "2026-08-13 18:25",
   "festivals": [
     {
       "id": "festival_001",
@@ -39386,7 +39386,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -39450,7 +39450,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -39517,7 +39517,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -39578,7 +39578,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -39644,6 +39644,106 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_648",
+      "name": "鎌ケ谷花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "鎌ケ谷市",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-11",
+      "date_note": "台風15号の接近に伴い、約1500発を予定していた花火大会の開催が中止となった。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "荒天時中止（今回は台風接近のため中止決定）",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://news.yahoo.co.jp/articles/0e8d51f6efff6a91e43baeb4c154e048826cae50",
+          "site_name": "テレビ朝日ANN（Yahoo!ニュース）",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_649",
+      "name": "垂水市錦江湾花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "垂水市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "台風15号の影響で当初日程から順延となり、8月15日開催予定と報じられている（アグリゲーターサイトの情報のみで公式発表未確認のため要確認）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/typh.html",
+          "site_name": "Jorudan 花火大会 台風情報まとめ",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
