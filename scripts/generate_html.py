@@ -1312,6 +1312,18 @@ def generate_sitemap(festivals, last_updated):
     print(f"sitemap.xml を生成しました（{len(paths)}件のURL）")
 
 
+def generate_robots_txt():
+    """検索エンジンのクローラー向けに robots.txt を docs/ 直下に生成する"""
+    content = (
+        'User-agent: *\n'
+        'Allow: /\n'
+        f'Sitemap: {SITE_BASE_URL}/sitemap.xml\n'
+    )
+    with open(os.path.join(DOCS_DIR, 'robots.txt'), 'w', encoding='utf-8') as f:
+        f.write(content)
+    print("robots.txt を生成しました")
+
+
 if __name__ == '__main__':
     data = load_data()
     festivals = data.get('festivals', [])
@@ -1322,4 +1334,5 @@ if __name__ == '__main__':
     generate_prefecture_pages(festivals, last_updated)
     generate_month_pages(festivals, last_updated)
     generate_sitemap(festivals, last_updated)
+    generate_robots_txt()
     print("HTML生成完了")
