@@ -70,7 +70,7 @@
       "hypothesis": "robots.txtでクロール許可とsitemap.xmlの場所を明示することで、検索エンジンのクローラーがサイト構造をより確実に発見・巡回できるようになり、sitemap.xml単独の場合より安定したインデックス登録につながるはず。",
       "verify_after": "2026-08-16",
       "result": "",
-      "commit": "PENDING"
+      "commit": "9124b2a6e739b194828c98573a7df2d3a480e0f3"
     }
   ]
 }
