@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13 16:50",
+  "last_updated": "2026-08-13 17:40",
   "festivals": [
     {
       "id": "festival_001",
@@ -39444,6 +39444,200 @@
           "url": "https://spice.eplus.jp/articles/347906",
           "site_name": "SPICE",
           "is_official": false,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_645",
+      "name": "安房国司祭（やわたんまち）",
+      "alternate_names": [
+        "鶴谷八幡宮例大祭",
+        "やわたんまち"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "館山市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "毎年9月の敬老の日前の土・日曜に開催。初日は10社の神輿による六所祭、2日目は館山市北条地区の5基の山車と御船が参加し、お浜出の神事と神輿還御でクライマックスを迎える。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "鶴谷八幡宮",
+      "genre": [
+        "神輿",
+        "山車",
+        "神事"
+      ],
+      "scale": "県指定（千葉県指定無形民俗文化財）",
+      "is_free": true,
+      "price": "不明（見物は無料と思われるが公式記載なし）",
+      "ticket_url": "不明",
+      "history_years": 1000,
+      "history_description": "鶴谷八幡宮は古く安房国の総社とされ、国司自らが祭りを執り行ったことから「安房国司祭」と呼ばれる。千年以上の伝統を持つ安房地方最大の祭りで、例年約10万人の人出で賑わう。",
+      "food_stalls": "不明",
+      "crowd_level": "高（例年約10万人）",
+      "visitors": "約10万人",
+      "access": "不明",
+      "official_url": "https://www.tsurugayahachimangu.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tsurugayahachimangu.com/%E4%BE%8B%E5%A4%A7%E7%A5%AD",
+          "site_name": "鶴谷八幡宮 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://www.city.tateyama.chiba.jp/minato/page100195.html",
+          "site_name": "館山市役所",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://maruchiba.jp/event/detail_10864.html",
+          "site_name": "ちば観光ナビ（千葉県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_646",
+      "name": "根津神社 例大祭",
+      "alternate_names": [
+        "根津権現祭",
+        "根津神社例祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "文京区",
+      "date_start": "2026-09-21",
+      "date_end": "2026-09-27",
+      "date_note": "例祭式は9月21日（月・祝）。例大祭神賑行事は9月26日・27日。神幸祭（宮神輿渡御）は9月27日9時出御～16時還御で、4年に一度の巡行にあたる。",
+      "time_start": "09:00",
+      "time_end": "16:00",
+      "rain_policy": "不明",
+      "organizer": "根津神社",
+      "genre": [
+        "神輿",
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 1900,
+      "history_description": "日本武尊が創祀したと伝わる古社で、伝承では約1900年の歴史を持つ。現在の社殿は宝永3年(1706)、甲府藩主徳川綱豊（後の6代将軍家宣）が屋敷地を献納し造営されたもので、社殿7棟は国の重要文化財に指定されている。東京十社の一社。",
+      "food_stalls": "境内に露店出店予定",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京都文京区根津1-28-9",
+      "official_url": "https://nedujinja.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://nedujinja.or.jp/2026/08/07/%E4%BB%A4%E5%92%8C%E4%BA%94%E5%B9%B4%E3%80%80%E4%BE%8B%E5%A4%A7%E7%A5%AD-2-3/",
+          "site_name": "根津神社 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%A0%B9%E6%B4%A5%E7%A5%9E%E7%A4%BE",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_647",
+      "name": "渋谷金王八幡宮例大祭",
+      "alternate_names": [
+        "金王八幡宮例大祭",
+        "渋谷氷川神社連合渡御"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "9月18日夕方～各町会で御霊入れ、19日18時～宵宮、20日12時～13時30分に渡御開始（109前まで）、14時～14時30分に式典・14町会神輿連合渡御、19時に還御。",
+      "time_start": "12:00",
+      "time_end": "19:00",
+      "rain_policy": "不明",
+      "organizer": "渋谷金王八幡宮例大祭実行委員会",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 934,
+      "history_description": "寛治6年(1092)、源義家が河崎基家の崇拝する八幡神への加護に感謝し渋谷城内に勧請したのが始まりとされる。基家の子・重家が渋谷姓を賜り「渋谷」の地名発祥となったとされ、渋谷金王丸の名から金王八幡宮と称されるようになった。14基の神輿による連合渡御は数百年続く伝統行事。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://shibuyamatsuri.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://shibuyamatsuri.com/",
+          "site_name": "令和8年渋谷金王八幡宮例大祭 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://shibuyadogenzaka.com/?p=7236",
+          "site_name": "渋谷道玄坂公式サイト",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://www.konno-hachimangu.jp/nenkangyouzi.html",
+          "site_name": "金王八幡宮 公式サイト",
+          "is_official": true,
           "retrieved_date": "2026-08-13"
         }
       ],
