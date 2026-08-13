@@ -38933,7 +38933,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -38998,7 +38998,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -39063,7 +39063,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -39128,7 +39128,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -39190,6 +39190,136 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：一部情報源（jorudan・walkerplus）に2025年開催時点のページが残存しており、2026年の日程確定情報は公式カレンダーで要確認。",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_641",
+      "name": "阿波おどり",
+      "alternate_names": [
+        "徳島市阿波おどり",
+        "THE AWAODORI"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "徳島県",
+      "city": "徳島市",
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-15",
+      "date_note": "8/11はオープニング公演（アスティとくしま）、8/12〜15が演舞場での本番",
+      "time_start": "18:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "阿波おどり未来へつなぐ実行委員会、徳島市",
+      "genre": [
+        "踊り",
+        "パレード"
+      ],
+      "scale": "四国三大祭りの一つ",
+      "is_free": false,
+      "price": "有料演舞場・桟敷席あり（価格変動制、詳細は公式サイト参照）。無料演舞場も一部あり",
+      "ticket_url": "https://www.awaodori-kaikan.jp/",
+      "history_years": "不明",
+      "history_description": "徳島市を中心に400年以上続くと伝わる盆踊り。「踊る阿呆に見る阿呆」の掛け声で知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "高（例年多数の観光客が来場）",
+      "visitors": "不明",
+      "access": "JR徳島駅周辺",
+      "official_url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
+          "site_name": "徳島市公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://www.awanavi.jp/archives/topics/74239",
+          "site_name": "徳島県観光情報サイト阿波ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://www.awaodori-kaikan.jp/",
+          "site_name": "阿波おどり会館",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_642",
+      "name": "諏訪湖祭湖上花火大会",
+      "alternate_names": [
+        "諏訪湖花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "諏訪市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "第78回",
+      "time_start": "19:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "諏訪湖祭実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "県内有数規模の花火大会",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": 78,
+      "history_description": "諏訪湖畔で毎年開催される花火大会。2026年で第78回を迎える。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR上諏訪駅周辺・諏訪湖畔",
+      "official_url": "https://www.suwakanko.jp/story/hanabi-suwako/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.suwakanko.jp/story/hanabi-suwako/",
+          "site_name": "諏訪観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://event.jreast.co.jp/pages/articles-suwako-hanabi",
+          "site_name": "JR東日本イベント情報",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0420e00799/data.html",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
