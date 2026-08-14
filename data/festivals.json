@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13 18:25",
+  "last_updated": "2026-08-14 08:40",
   "festivals": [
     {
       "id": "festival_001",
@@ -39694,7 +39694,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -39744,6 +39744,142 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_650",
+      "name": "第40回宮ヶ瀬ふるさとまつり",
+      "alternate_names": [
+        "清川村制70周年記念事業 第40回 宮ヶ瀬ふるさとまつり",
+        "宮ヶ瀬ふるさとまつり花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "愛甲郡清川村",
+      "date_start": "2026-08-12",
+      "date_end": "2026-08-16",
+      "date_note": "花火打ち上げは8/12(水)・15(土)・16(日)の3日間、19:30頃から約5分間。祭り本体は11:00〜21:00開催。清川村制70周年記念事業。",
+      "time_start": "11:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "宮ヶ瀬水の郷観光協同組合／清川村",
+      "genre": [
+        "花火",
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 40,
+      "history_description": "宮ヶ瀬湖畔で開催される清川村の夏祭り。熱気球体験、水鉄砲バトル、マスつかみ、風鈴市など家族向け催しと花火打ち上げが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "宮ヶ瀬湖畔園地周辺",
+      "official_url": "https://www.town.kiyokawa.kanagawa.jp/soshiki/sangyokanko/event/4201.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.kiyokawa.kanagawa.jp/soshiki/sangyokanko/event/4201.html",
+          "site_name": "清川村公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0314e00928/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://www.suigen.jp/events/669",
+          "site_name": "神奈川やまなみ五湖navi",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_651",
+      "name": "第8回シタマチ.ふるさと盆踊り大会",
+      "alternate_names": [
+        "シタマチふるさと盆踊り大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "台東区",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-16",
+      "date_note": "11:00〜20:30開催。入場無料。ステージ出演者は日替わり。",
+      "time_start": "11:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 8,
+      "history_description": "昭和100年記念をテーマに、盆踊りとレトロ縁日、屋台、ステージ演芸を行う台東区おかちまちパンダ広場の夏祭り。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "おかちまちパンダ広場（JR御徒町駅周辺）",
+      "official_url": "https://ueno.or.jp/event/%E3%82%B7%E3%82%BF%E3%83%9E%E3%83%81-%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%9B%86%E8%B8%8A%E3%82%8A%E5%A4%A7%E4%BC%9A-2/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ueno.or.jp/event/%E3%82%B7%E3%82%BF%E3%83%9E%E3%83%81-%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%9B%86%E8%B8%8A%E3%82%8A%E5%A4%A7%E4%BC%9A-2/",
+          "site_name": "ススメ観光連盟（上野観光連盟広報部）",
+          "is_official": true,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://taito.goguynet.jp/2026/08/12/bonodori-5/",
+          "site_name": "号外NET 台東区",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://tokyofesta.com/23ku/32449/",
+          "site_name": "東京フェスタ",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://www.tokyofes.info/2026/shitamachi-furusato-bonodori-2026/",
+          "site_name": "東京フェス.info",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
