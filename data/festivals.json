@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14 15:10",
+  "last_updated": "2026-08-14 16:50",
   "festivals": [
     {
       "id": "festival_001",
@@ -39958,7 +39958,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -40028,6 +40028,62 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_654",
+      "name": "忍川とうろう流し",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "行田市",
+      "date_start": "2026-08-16",
+      "date_end": "2026-08-16",
+      "date_note": "",
+      "time_start": "18:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "行田おもてなし観光局",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "小型とうろう1基1,000円（当日申込可）、大型とうろう1基2,500円（事前申込）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "盆前に逝去した人の遺族が故人の霊を弔うための行事。忍川（翔栄橋付近）でとうろうを流す。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "行田市駅北側 忍川（翔栄橋付近）。忍川北側駐車場（旧メセナ行田館）利用可",
+      "official_url": "https://www.gyoda-kankoukyoukai.jp/32722",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.gyoda-kankoukyoukai.jp/32722",
+          "site_name": "行田たびナビ（行田市観光ガイド公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://saitama-city-marathon.jp/2026/08/12/gyoudasi-161/",
+          "site_name": "さいたま市マラソン情報サイト（地域情報記事）",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
