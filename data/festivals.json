@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14 08:40",
+  "last_updated": "2026-08-14 15:10",
   "festivals": [
     {
       "id": "festival_001",
@@ -39810,7 +39810,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -39873,6 +39873,156 @@
         {
           "url": "https://www.tokyofes.info/2026/shitamachi-furusato-bonodori-2026/",
           "site_name": "東京フェス.info",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_652",
+      "name": "鳥取市河原町あゆ祭",
+      "alternate_names": [
+        "河原町あゆ祭",
+        "あゆ祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "鳥取市河原町",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "date_note": "第44回。少雨決行・荒天中止。",
+      "time_start": "15:30",
+      "time_end": "21:00",
+      "rain_policy": "少雨決行・荒天中止",
+      "organizer": "あゆ祭企画実行委員会事務局（鳥取市河原町総合支所 産業建設課内）",
+      "genre": [
+        "花火",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 44,
+      "history_description": "江戸時代から鮎漁が盛んで「あゆの町」として知られる鳥取市河原町で、鮎の豊漁を願うと同時に地域をPRする目的で開催される夏祭り。子どもによる鮎太鼓・鮎踊りのステージや鮎つかみ、約3,000発の花火が行われる。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "千代川袋河原広場（鳥取県鳥取市河原町袋河原680-1201）。鳥取自動車道河原ICから車で約7分、JR鳥取駅から車で約20分、駐車場あり",
+      "official_url": "https://www.torican.jp/festival/detail_1088.html",
+      "sns_accounts": {
+        "instagram": "鳥取市河原町総合支所公式Instagram"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.torican.jp/festival/detail_1088.html",
+          "site_name": "鳥取市観光サイト（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/4001011/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://iko-yo.net/events/587325",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0831e314304/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://tottorizumu.com/ayu-matsuri/",
+          "site_name": "とっとりずむ",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_653",
+      "name": "多久山笠",
+      "alternate_names": [
+        "多久の夏祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "多久市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-16",
+      "date_note": "第75回。人形山・提灯山の巡行と花火大会。",
+      "time_start": "17:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "多久山笠委員会",
+      "genre": [
+        "山車",
+        "神輿",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 75,
+      "history_description": "「家族みんなで楽しむ、多久の夏祭り」として親しまれる伝統行事。華やかな人形山の巡行と提灯山の豪快な回転が特徴で、16日には約1,000発の花火が打ち上げられる。",
+      "food_stalls": "露店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "佐賀県多久市北多久町大字小侍5769付近（JR多久駅すぐ）。多久市商工会駐車場ほか複数の駐車場あり",
+      "official_url": "https://www.asobo-saga.jp/events/detail/33a722c0-2338-4fde-b401-83cdc5d4acd0",
+      "sns_accounts": {
+        "instagram": "@yamakasa.taku"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.asobo-saga.jp/events/detail/33a722c0-2338-4fde-b401-83cdc5d4acd0",
+          "site_name": "佐賀県観光サイト あそぼーさが（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://www.saga-s.co.jp/articles/-/1768218",
+          "site_name": "佐賀新聞",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://omatsurijapan.com/search/m/2948/",
+          "site_name": "おまつりジャパン",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://www.fukuoka-support.net/event-saga/08yamakasa-taku.html",
+          "site_name": "ふくおかサポートねっと",
           "is_official": false,
           "retrieved_date": "2026-08-14"
         }
