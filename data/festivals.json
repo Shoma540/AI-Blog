@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14 16:50",
+  "last_updated": "2026-08-14 17:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -3621,13 +3621,21 @@
           "site_name": "Yahoo!ニュース（熊本日日新聞）",
           "is_official": false,
           "retrieved_date": "2026-08-03"
+        },
+        {
+          "url": "https://senkyo-news.jp/yamaga-toro-matsuri/",
+          "site_name": "地域イベントニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "令和8年熊本地震の影響により、当初は千人灯籠踊り（8/16）は限定実施予定と案内されていたが、2026年7月31日の実行委員会にて花火大会に加え千人灯籠踊り・お祭り広場も中止と正式決定（山鹿市公式サイト・熊本日日新聞で確認）。実施されるのは大宮神社の神事及び関連行事のみ。交通規制・臨時駐車場も設置なし。中止イベントの延期はなし。",
+      "conflict_note": "令和8年熊本地震の影響により、当初は千人灯籠踊り（8/16）は限定実施予定と案内されていたが、2026年7月31日の実行委員会にて花火大会に加え千人灯籠踊り・お祭り広場も中止と正式決定（山鹿市公式サイト・熊本日日新聞で確認）。実施されるのは大宮神社の神事及び関連行事のみ。交通規制・臨時駐車場も設置なし。中止イベントの延期はなし。 重複登録されていたfestival_620（同一祭り）をfestival_052に統合し削除。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -35731,8 +35739,8 @@
       "date_note": "奥州市内では8月22日開催の「奥州の花火大会」（一ノ沢ダム東特設会場）とは別のイベント。",
       "time_start": "19:30",
       "time_end": "20:30",
-      "rain_policy": "不明",
-      "organizer": "不明",
+      "rain_policy": "雨天の場合は翌日に延期",
+      "organizer": "奥州市観光物産協会前沢支部（前沢商工会内）",
       "genre": [
         "花火"
       ],
@@ -35741,10 +35749,10 @@
       "price": "不明",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "不明",
+      "history_description": "毎年盆の終わりに行われ、厄年連による踊りの披露のほか、町内の各種団体による出店も多数出店する。",
       "food_stalls": "不明",
       "crowd_level": "不明",
-      "visitors": "例年約7,000人",
+      "visitors": "不明",
       "access": "前沢いきいきスポーツランド",
       "official_url": "https://hanabi.walkerplus.com/detail/ar0203e00018/",
       "sns_accounts": {
@@ -35753,17 +35761,43 @@
       "video_url": "不明",
       "sources": [
         {
+          "url": "https://iwatetabi.jp/events/7753/",
+          "site_name": "いわての旅（岩手県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-14"
+        },
+        {
           "url": "https://hanabi.walkerplus.com/detail/ar0203e00018/data.html",
           "site_name": "ウォーカープラス",
           "is_official": false,
-          "retrieved_date": "2026-08-12"
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87122.html",
+          "site_name": "ジョルダン花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://www.japan47go.travel/ja/detail/df287857-57dd-49e0-b1dd-9d10b3410642",
+          "site_name": "JAPAN 47 GO",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "rain_policy",
+        "organizer",
+        "history_description",
+        "visitors",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -36416,18 +36450,20 @@
     },
     {
       "id": "festival_590",
-      "name": "令和8年度 いなわしろ花火大会",
-      "alternate_names": [],
+      "name": "猪苗代町合併70周年記念 いなわしろ花火大会",
+      "alternate_names": [
+        "いなわしろ花火大会"
+      ],
       "similar_name_warning": false,
       "prefecture": "福島県",
       "city": "耶麻郡猪苗代町",
       "date_start": "2026-08-16",
       "date_end": "2026-08-16",
       "date_note": "時間は予定。",
-      "time_start": "19:30",
+      "time_start": "15:00",
       "time_end": "20:15",
       "rain_policy": "不明",
-      "organizer": "不明",
+      "organizer": "猪苗代観光協会",
       "genre": [
         "花火"
       ],
@@ -36436,29 +36472,52 @@
       "price": "不明",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "不明",
+      "history_description": "猪苗代町合併70周年を記念して開催される、約2,000発の花火とステージイベント・屋台が並ぶ夏の花火大会。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "約4000人（予想）",
-      "access": "猪苗代町運動公園",
-      "official_url": "不明",
+      "access": "猪苗代町スポーツパーク（耶麻郡猪苗代町中川原）",
+      "official_url": "https://www.bandaisan.or.jp/firework2026/",
       "sns_accounts": {
         "instagram": "不明"
       },
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://hanabi.walkerplus.com/list/ar0207/scheduled/",
-          "site_name": "ウォーカープラス 花火大会2026",
+          "url": "https://www.bandaisan.or.jp/news/news-19968/",
+          "site_name": "猪苗代観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_343330/",
+          "site_name": "じゃらんnet",
           "is_official": false,
-          "retrieved_date": "2026-08-11"
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://hanabi-pia.com/events/6096/",
+          "site_name": "花火ぴあ",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "alternate_names",
+        "time_start",
+        "organizer",
+        "history_description",
+        "access",
+        "official_url",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -37988,63 +38047,6 @@
           "url": "https://www.ekingura.com/festival/",
           "site_name": "絵金蔵公式",
           "is_official": true,
-          "retrieved_date": "2026-08-12"
-        }
-      ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_620",
-      "name": "山鹿灯籠まつり",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "prefecture": "熊本県",
-      "city": "山鹿市",
-      "date_start": "2026-08-16",
-      "date_end": "2026-08-16",
-      "date_note": "2026年8月16日(日)開催。ただし2026年は例年行われる花火大会・千人灯籠踊り・フェスティバル広場が規模縮小・中止となる旨、公式サイトで告知されている点に注意。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "山鹿市、山鹿灯籠まつり振興会",
-      "genre": [
-        "灯籠踊り",
-        "花火（例年）"
-      ],
-      "scale": "その他（山鹿灯籠は国指定伝統的工芸品）",
-      "is_free": null,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": null,
-      "history_description": "和紙で作られた金灯籠を頭に載せた女性たちが優雅に踊る「千人灯籠踊り」が名物の熊本県山鹿市の夏祭り。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "山鹿小学校グラウンド（山鹿市）",
-      "official_url": "https://yamaga-tanbou.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://yamaga-tanbou.jp/info/18972/",
-          "site_name": "山鹿探訪公式",
-          "is_official": true,
-          "retrieved_date": "2026-08-12"
-        },
-        {
-          "url": "https://senkyo-news.jp/yamaga-toro-matsuri/",
-          "site_name": "地域イベントニュース",
-          "is_official": false,
           "retrieved_date": "2026-08-12"
         }
       ],
@@ -39703,49 +39705,87 @@
     },
     {
       "id": "festival_649",
-      "name": "垂水市錦江湾花火大会",
-      "alternate_names": [],
+      "name": "たるみずふれあいフェスタ夏祭り",
+      "alternate_names": [
+        "垂水市錦江湾花火大会（誤称・DB内旧表記）"
+      ],
       "similar_name_warning": false,
       "prefecture": "鹿児島県",
       "city": "垂水市",
-      "date_start": "2026-08-15",
-      "date_end": "2026-08-15",
-      "date_note": "台風15号の影響で当初日程から順延となり、8月15日開催予定と報じられている（アグリゲーターサイトの情報のみで公式発表未確認のため要確認）。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "不明",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "date_note": "打上日は2026年8月8日(土)。雨天の場合は8月15日(土)に順延。",
+      "time_start": "20:00",
+      "time_end": "20:30",
+      "rain_policy": "雨天時は8月15日(土)に順延",
+      "organizer": "たるみずふれあいフェスタ夏祭り実行委員会（垂水市商工会）",
       "genre": [
         "花火"
       ],
       "scale": "その他",
-      "is_free": true,
-      "price": "不明",
+      "is_free": false,
+      "price": "有料席あり（前売券1,000円、当日券1,200円）",
       "ticket_url": "不明",
       "history_years": "不明",
       "history_description": "不明",
       "food_stalls": "不明",
       "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "不明",
+      "visitors": "例年約50,000人",
+      "access": "旧垂水港特設会場（鹿児島県垂水市錦江町35-2）",
+      "official_url": "https://www.city.tarumizu.lg.jp/shokogyo/koi/miryoku/event/festa.html",
       "sns_accounts": {
         "instagram": "不明"
       },
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://sp.jorudan.co.jp/hanabi/typh.html",
-          "site_name": "Jorudan 花火大会 台風情報まとめ",
+          "url": "https://www.city.tarumizu.lg.jp/shokogyo/koi/miryoku/event/festa.html",
+          "site_name": "垂水市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://www.kagoshima-kankou.com/event/20321",
+          "site_name": "鹿児島県観光サイト（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1046e00495/data.html",
+          "site_name": "ウォーカープラス",
           "is_official": false,
-          "retrieved_date": "2026-08-13"
+          "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/5501051/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-14"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "旧DBでは「垂水市錦江湾花火大会」という祭り名で登録されていたが、公式サイト等で照合した結果、実際の正式名称は「たるみずふれあいフェスタ夏祭り」であることが判明したため訂正。かごしま錦江湾サマーナイト大花火大会（鹿児島市開催、別festival）とは別イベント。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "alternate_names",
+        "date_start",
+        "date_note",
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "organizer",
+        "is_free",
+        "price",
+        "visitors",
+        "access",
+        "official_url",
+        "sources",
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40086,7 +40126,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
