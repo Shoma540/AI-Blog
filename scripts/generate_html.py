@@ -3,6 +3,12 @@ import os
 from datetime import datetime
 from urllib.parse import quote
 
+# ページタブ・ブックマーク表示用のfavicon（絵文字のインラインSVG、外部ファイル不要）
+FAVICON_HREF = "data:image/svg+xml," + quote(
+    "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>"
+    "<text y='.9em' font-size='90'>🎉</text></svg>"
+)
+
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
 DOCS_DIR = os.path.join(os.path.dirname(__file__), '..', 'docs')
 FESTIVALS_JSON = os.path.join(DATA_DIR, 'festivals.json')
@@ -531,6 +537,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
     gtag('config', 'G-6NXKRMQDZ0');
   </script>
   <title>{full_title}</title>
+  <link rel="icon" href="{FAVICON_HREF}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
   <style>{COMMON_CSS}</style>
