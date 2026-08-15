@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15 16:14",
+  "last_updated": "2026-08-15 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -1118,10 +1118,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -28067,11 +28065,8 @@
       "trust_level": "高",
       "conflict_note": "解消済み: 開始時刻の相違（18:00開始／11:00開始）は誤りではなく、屋外演舞場と屋内会場の違いによるもの。徳島市公式サイトで確認済み。 同一性判定によりfestival_572（阿波おどり（徳島市）表記）を統合。 2026-08-15の実行でfestival_641（表記「阿波おどり」、同一日程・同一主催・同一公式サイト）が重複登録されていることを検知し、本エントリ（festival_444）に統合・削除した。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40422,6 +40417,72 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_662",
+      "name": "第5回全国花火師競技大会 にし阿波の花火",
+      "alternate_names": [
+        "にし阿波の花火",
+        "にし阿波の花火2026",
+        "全国花火師競技大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "徳島県",
+      "city": "三好市（美馬市・三好市にまたがる会場）",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
+      "date_note": "第5回。徳島県西部健康防災公園（三好市三野健康防災公園／美馬市美馬河川敷公園）にて開催。ステージイベント11:00〜17:00、花火19:00〜21:00。",
+      "time_start": "19:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（西日本最大級・約2万発以上の花火師競技大会）",
+      "is_free": "不明",
+      "price": "有料観覧席あり（詳細不明）",
+      "ticket_url": "不明",
+      "history_years": 5,
+      "history_description": "全国の花火師が技を競う競技大会形式の花火大会。西日本最大級規模とされる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR江口駅から徒歩約30分／徳島自動車道 美馬ICから車で約10分",
+      "official_url": "https://nishi-awa.jp/contents/3843/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/nishiawa_no_hanabi/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://nishi-awa.jp/contents/3843/",
+          "site_name": "にし阿波～剣山・吉野川観光圏公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://www.miyoshi.i-tokushima.jp/docs/6057395.html",
+          "site_name": "三好市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0936e357466/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
