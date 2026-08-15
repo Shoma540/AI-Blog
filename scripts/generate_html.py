@@ -505,6 +505,29 @@ def event_jsonld(festivals):
     return f'<script type="application/ld+json">{json_str}</script>'
 
 
+def breadcrumb_jsonld(items):
+    """(name, url) のリストから schema.org BreadcrumbList の構造化データ（JSON-LD）を生成する。
+    検索結果にパンくずリストを表示させ、ページの階層関係を伝える。
+    """
+    if not items:
+        return ""
+    payload = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": i + 1,
+                "name": name,
+                "item": url,
+            }
+            for i, (name, url) in enumerate(items)
+        ],
+    }
+    json_str = json.dumps(payload, ensure_ascii=False).replace('</', '<\\/')
+    return f'<script type="application/ld+json">{json_str}</script>'
+
+
 def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path=""):
     description = description.replace('"', '').replace('\n', ' ')
     full_title = f"{title} | 全国祭り情報"
@@ -1244,9 +1267,13 @@ def generate_prefecture_pages(festivals, last_updated):
 <footer>最終更新: {last_updated}</footer>"""
         nav = NAV_HTML.replace('href="../', 'href="../')
         with open(os.path.join(out_dir, f'{pref}.html'), 'w', encoding='utf-8') as f:
+            breadcrumb = breadcrumb_jsonld([
+                ("全国祭り情報", f"{SITE_BASE_URL}/"),
+                (f"{pref}の祭り情報", f"{SITE_BASE_URL}/prefecture/{quote(pref)}.html"),
+            ])
             f.write(html_page(
                 f"{pref}の祭り情報", body, nav=nav,
-                extra_head=event_jsonld(pref_festivals),
+                extra_head=event_jsonld(pref_festivals) + breadcrumb,
                 description=f"{pref}の祭り・花火大会情報を{len(pref_festivals)}件掲載。開催日程・場所・アクセスなど最新情報をまとめています。",
                 url_path=f"prefecture/{pref}.html",
             ))
@@ -1279,9 +1306,15 @@ def generate_month_pages(festivals, last_updated):
 </div>
 <footer>最終更新: {last_updated}</footer>"""
         nav = NAV_HTML
+        breadcrumb = breadcrumb_jsonld([
+            ("全国祭り情報", f"{SITE_BASE_URL}/"),
+            ("カレンダー", f"{SITE_BASE_URL}/calendar.html"),
+            (f"{m}月の祭り情報", f"{SITE_BASE_URL}/month/{m}.html"),
+        ])
         with open(os.path.join(out_dir, f'{m}.html'), 'w', encoding='utf-8') as f:
             f.write(html_page(
                 f"{m}月の祭り情報", body, nav=nav,
+                extra_head=breadcrumb,
                 description=f"{m}月に開催される全国の祭り・花火大会を{len(fests)}件掲載。日程・場所など最新情報をまとめています。",
                 url_path=f"month/{m}.html",
             ))
