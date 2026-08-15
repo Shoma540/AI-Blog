@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15 12:30",
+  "last_updated": "2026-08-15 16:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -28056,13 +28056,22 @@
           "site_name": "徳島県公式",
           "is_official": true,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://www.awaodori-kaikan.jp/",
+          "site_name": "阿波おどり会館",
+          "is_official": true,
+          "retrieved_date": "2026-08-13"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "解消済み: 開始時刻の相違（18:00開始／11:00開始）は誤りではなく、屋外演舞場と屋内会場の違いによるもの。徳島市公式サイトで確認済み。 同一性判定によりfestival_572（阿波おどり（徳島市）表記）を統合。",
+      "conflict_note": "解消済み: 開始時刻の相違（18:00開始／11:00開始）は誤りではなく、屋外演舞場と屋内会場の違いによるもの。徳島市公式サイトで確認済み。 同一性判定によりfestival_572（阿波おどり（徳島市）表記）を統合。 2026-08-15の実行でfestival_641（表記「阿波おどり」、同一日程・同一主催・同一公式サイト）が重複登録されていることを検知し、本エントリ（festival_444）に統合・削除した。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -39117,72 +39126,6 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：一部情報源（jorudan・walkerplus）に2025年開催時点のページが残存しており、2026年の日程確定情報は公式カレンダーで要確認。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_641",
-      "name": "阿波おどり",
-      "alternate_names": [
-        "徳島市阿波おどり",
-        "THE AWAODORI"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "徳島県",
-      "city": "徳島市",
-      "date_start": "2026-08-11",
-      "date_end": "2026-08-15",
-      "date_note": "8/11はオープニング公演（アスティとくしま）、8/12〜15が演舞場での本番",
-      "time_start": "18:00",
-      "time_end": "22:00",
-      "rain_policy": "不明",
-      "organizer": "阿波おどり未来へつなぐ実行委員会、徳島市",
-      "genre": [
-        "踊り",
-        "パレード"
-      ],
-      "scale": "四国三大祭りの一つ",
-      "is_free": false,
-      "price": "有料演舞場・桟敷席あり（価格変動制、詳細は公式サイト参照）。無料演舞場も一部あり",
-      "ticket_url": "https://www.awaodori-kaikan.jp/",
-      "history_years": "不明",
-      "history_description": "徳島市を中心に400年以上続くと伝わる盆踊り。「踊る阿呆に見る阿呆」の掛け声で知られる。",
-      "food_stalls": "不明",
-      "crowd_level": "高（例年多数の観光客が来場）",
-      "visitors": "不明",
-      "access": "JR徳島駅周辺",
-      "official_url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.city.tokushima.tokushima.jp/kankou/awaodori/2026awaodorisenkou.html",
-          "site_name": "徳島市公式ウェブサイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-13"
-        },
-        {
-          "url": "https://www.awanavi.jp/archives/topics/74239",
-          "site_name": "徳島県観光情報サイト阿波ナビ",
-          "is_official": true,
-          "retrieved_date": "2026-08-13"
-        },
-        {
-          "url": "https://www.awaodori-kaikan.jp/",
-          "site_name": "阿波おどり会館",
-          "is_official": true,
-          "retrieved_date": "2026-08-13"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
