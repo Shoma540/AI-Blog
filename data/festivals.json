@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15 08:20",
+  "last_updated": "2026-08-15 12:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -768,7 +768,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-07-11 → 2026-08-13; date_end: 2026-09-05 → 2026-08-16"
       }
     },
@@ -1056,7 +1056,10 @@
         "全国花火競技大会",
         "大曲花火大会",
         "大曲の花火",
-        "Omagari Hanabi"
+        "Omagari Hanabi",
+        "大曲花火",
+        "大曲の花火 夏の章",
+        "全国花火競技大会「大曲の花火」"
       ],
       "similar_name_warning": false,
       "prefecture": "秋田県",
@@ -1115,8 +1118,10 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -1426,7 +1431,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-08-15 → 2026-08-14; date_end: 2026-08-16 → 2026-08-18"
       }
     },
@@ -1804,7 +1809,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-07-25 → 2026-08-01; date_end: 2026-07-25 → 2026-08-02"
       }
     },
@@ -1875,7 +1880,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-10-16 → 2026-05-17; date_end: 2026-10-17 → 2026-05-18"
       }
     },
@@ -3632,10 +3637,8 @@
       "trust_level": "高",
       "conflict_note": "令和8年熊本地震の影響により、当初は千人灯籠踊り（8/16）は限定実施予定と案内されていたが、2026年7月31日の実行委員会にて花火大会に加え千人灯籠踊り・お祭り広場も中止と正式決定（山鹿市公式サイト・熊本日日新聞で確認）。実施されるのは大宮神社の神事及び関連行事のみ。交通規制・臨時駐車場も設置なし。中止イベントの延期はなし。 重複登録されていたfestival_620（同一祭り）をfestival_052に統合し削除。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -4185,7 +4188,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 不明 → 2026-11-01; date_end: 不明 → 2026-11-02"
       }
     },
@@ -8628,7 +8631,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_end: 2026-08-22 → 2026-08-23"
       }
     },
@@ -9365,7 +9368,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-10-29 → 2026-10-30; date_end: 2026-11-04 → 2026-11-03"
       }
     },
@@ -9910,7 +9913,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-10-03 → 2026-10-04; date_end: 2026-10-05 → 2026-10-06"
       }
     },
@@ -18113,7 +18116,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-07-20 → 2026-07-31"
       }
     },
@@ -20366,7 +20369,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-07-26 → 2026-07-24"
       }
     },
@@ -22922,7 +22925,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-08-06 → 2026-08-08"
       }
     },
@@ -27088,7 +27091,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "データ誤り訂正：旧登録値「2026-04-14〜2026-04-15」（春の高山祭・山王祭の日付が誤って登録されていた）→ 正しい2026年開催日「2026-10-09〜2026-10-10」（岐阜県観光公式サイトで直接確認）"
       }
     },
@@ -29241,7 +29244,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-08-13 → 2026-08-12"
       }
     },
@@ -30718,7 +30721,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-10-10 → 2026-09-19; date_end: 2026-10-11 → 2026-09-20"
       }
     },
@@ -32443,7 +32446,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "date_start: 2026-09-13 → 2026-09-20"
       }
     },
@@ -35788,16 +35791,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "rain_policy",
-        "organizer",
-        "history_description",
-        "visitors",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -36505,76 +36500,6 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "alternate_names",
-        "time_start",
-        "organizer",
-        "history_description",
-        "access",
-        "official_url",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_591",
-      "name": "全国花火競技大会「大曲の花火」",
-      "alternate_names": [
-        "大曲花火",
-        "大曲の花火 夏の章"
-      ],
-      "similar_name_warning": true,
-      "prefecture": "秋田県",
-      "city": "大仙市",
-      "date_start": "2026-08-29",
-      "date_end": "2026-08-29",
-      "date_note": "第98回。昼花火17:10-18:00、夜花火19:00-21:30",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "大曲花火倶楽部（大曲商工会議所内実行組織、要確認）",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他（日本三大花火大会の一つとされる、日本一の花火競技大会）",
-      "is_free": false,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": 98,
-      "history_description": "1910年（明治43年）に旧制大曲中学校の余興として始まった花火大会が起源とされる、全国の花火師が技を競う競技会。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "JR大曲駅から徒歩、大曲の花火公園（雄物川河畔）",
-      "official_url": "https://www.omagari-hanabi.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.omagari-hanabi.com/overview/summer",
-          "site_name": "大曲の花火公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-12"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0205e00654/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-08-12"
-        }
-      ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": true,
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
@@ -39766,26 +39691,8 @@
       "trust_level": "高",
       "conflict_note": "旧DBでは「垂水市錦江湾花火大会」という祭り名で登録されていたが、公式サイト等で照合した結果、実際の正式名称は「たるみずふれあいフェスタ夏祭り」であることが判明したため訂正。かごしま錦江湾サマーナイト大花火大会（鹿児島市開催、別festival）とは別イベント。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "alternate_names",
-        "date_start",
-        "date_note",
-        "time_start",
-        "time_end",
-        "rain_policy",
-        "organizer",
-        "is_free",
-        "price",
-        "visitors",
-        "access",
-        "official_url",
-        "sources",
-        "trust_level",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40190,7 +40097,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -40256,7 +40163,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -40322,7 +40229,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -40386,7 +40293,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -40450,7 +40357,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -40515,6 +40422,63 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_661",
+      "name": "うと地蔵まつり",
+      "alternate_names": [
+        "宇土地蔵まつり",
+        "令和8年うと地蔵まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "熊本県",
+      "city": "宇土市",
+      "date_start": "延期",
+      "date_end": "延期",
+      "date_note": "令和8年熊本地震の影響により延期。本来は2026年8月23日（日）・24日（月）開催予定だった。延期は中止ではなく、新日程は今後の安全面・関係機関との調整を踏まえて検討中（2026年8月15日時点で未定）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "うと地蔵まつり実行委員会（宇土市経済部商工観光課内）",
+      "genre": [],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.uto.lg.jp/article/view/1095/16383.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.uto.lg.jp/article/view/1095/16383.html",
+          "site_name": "宇土市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://kumanichi.com/articles/2019298",
+          "site_name": "熊本日日新聞社（随時更新：熊本でイベントの中止・延期相次ぐ 2026年熊本地震）",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
