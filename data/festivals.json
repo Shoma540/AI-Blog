@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15 17:15",
+  "last_updated": "2026-08-15 18:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -40477,6 +40477,71 @@
           "url": "https://hanabi.walkerplus.com/detail/ar0936e357466/",
           "site_name": "花火大会2026 ウォーカープラス",
           "is_official": false,
+          "retrieved_date": "2026-08-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_663",
+      "name": "さっぽろオータムフェスト",
+      "alternate_names": [
+        "札幌オータムフェスト"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市中央区",
+      "date_start": "2026-09-11",
+      "date_end": "2026-10-03",
+      "date_note": "大通公園の大通西4丁目～11丁目に複数のテーマエリアを設置して開催",
+      "time_start": "10:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "さっぽろオータムフェスト実行委員会（札幌観光協会）",
+      "genre": [
+        "グルメ",
+        "パレード"
+      ],
+      "scale": "その他（国内最大級のグルメイベント）",
+      "is_free": true,
+      "price": "入場無料（飲食は有料）",
+      "ticket_url": "不明",
+      "history_years": 17,
+      "history_description": "北海道・札幌の食をテーマに道内各地の旬の食材やご当地グルメを集めた、国内最大級規模のグルメイベント。例年約200万人が来場。",
+      "food_stalls": "道内各地のご当地グルメ・旬の食材を扱う多数の飲食ブースあり",
+      "crowd_level": "不明",
+      "visitors": "約200万人（例年）",
+      "access": "地下鉄大通駅・すすきの駅ほか直結",
+      "official_url": "https://www.sapporo.travel/autumnfest/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sapporo.travel/autumnfest/news/detail/744/",
+          "site_name": "札幌観光協会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0101e589901/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://www.visit-hokkaido.jp/event/detail_11012.html",
+          "site_name": "HOKKAIDO LOVE!（北海道観光振興機構）",
+          "is_official": true,
           "retrieved_date": "2026-08-15"
         }
       ],
