@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14 17:30",
+  "last_updated": "2026-08-15 08:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -40127,6 +40127,395 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_655",
+      "name": "八千代ふるさと親子祭",
+      "alternate_names": [
+        "八千代ふるさと祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "八千代市",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-22",
+      "date_note": "第52回。祭り16:00〜20:00、花火打ち上げ19:00〜20:00（約5,000発）。会場は県立八千代広域公園周辺。",
+      "time_start": "16:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "八千代ふるさと親子祭実行委員会（事務局：八千代商工会議所）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 52,
+      "history_description": "八千代市の夏を彩る親子祭。県立八千代広域公園周辺で開催され、約5,000発の花火が打ち上げられる。",
+      "food_stalls": "屋台・キッチンカーあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東葉高速鉄道村上駅から徒歩10分、または八千代中央駅から徒歩15分",
+      "official_url": "https://www.city.yachiyo.lg.jp/site/kankou/81492.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.yachiyo.lg.jp/site/kankou/81492.html",
+          "site_name": "八千代市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0312e00921/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://sorahanabi.com/chiba/yachiyo/yachiyo-furusato-hanabitaikai.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_656",
+      "name": "指宿温泉祭",
+      "alternate_names": [
+        "第79回指宿温泉祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "指宿市",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "第79回。1日目(9/26)15:30〜21:00 ハンヤ踊り・市民芸能・ゲストライブ等、2日目(9/27)12:00〜21:00 神輿渡御・市民芸能・花火大会（19:30〜、約5,000発、2尺玉あり）",
+      "time_start": "15:30",
+      "time_end": "21:00",
+      "rain_policy": "不明（悪天候時の対応は公式サイト参照）",
+      "organizer": "指宿温泉祭実行委員会（指宿市観光協会）",
+      "genre": [
+        "神輿",
+        "花火",
+        "踊り"
+      ],
+      "scale": "その他（湯の恵みに感謝する指宿最大級の祭り）",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 79,
+      "history_description": "温泉の恵みに感謝する指宿市最大の祭り。ハンヤ踊りや神輿渡御、花火大会などが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "セントラルパーク指宿及び周辺",
+      "official_url": "https://visit-ibusuki.com/info/764/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://visit-ibusuki.com/info/764/",
+          "site_name": "指宿市観光協会公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://www.city.ibusuki.lg.jp/main/event/calendar/kanko/page030153.html",
+          "site_name": "指宿市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://www.kagoshima-kankou.com/event/20322",
+          "site_name": "鹿児島県観光サイト かごしまの旅",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_657",
+      "name": "筥崎宮放生会",
+      "alternate_names": [
+        "筥崎宮仲秋大祭",
+        "放生会（ほうじょうや）"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "福岡市東区",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-18",
+      "date_note": "博多三大祭りの一つ。2026年は偶数年のため御神幸（御神輿行列）はなし（次回は2027年予定）。参道に約500軒の露店が並ぶ。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "筥崎宮",
+      "genre": [
+        "神事",
+        "屋台行事"
+      ],
+      "scale": "その他（博多三大祭りの一つ）",
+      "is_free": true,
+      "price": "参拝無料（露店の飲食等は有料）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "筥崎宮の仲秋大祭。博多三大祭りの一つとされ、生き物の霊を慰め殺生を戒める神事に由来する。奇数年には御神幸（御神輿行列）が行われる。",
+      "food_stalls": "参道に約500軒の露店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://hakozakigu.or.jp/2026/08/01/1061/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hakozakigu.or.jp/2026/08/01/1061/",
+          "site_name": "筥崎宮公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://www.i-fukuoka.jp/leisure/seasons/houjyouya/houjyouya.html",
+          "site_name": "とくなび福岡",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://da-inn.com/hukuokahoujyouya-15710/",
+          "site_name": "季節お役立ち情報局",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_658",
+      "name": "北海道芸術花火2026",
+      "alternate_names": [
+        "北海道芸術花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市東区",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-05",
+      "date_note": "モエレ沼公園で開催。荒天時の対応は公式サイト参照。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "北海道芸術花火実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "プレミアム席10,000円、芝エリア6,000円、芝自由エリア3,000円（未就学児は保護者膝上で無料）※早割あり",
+      "ticket_url": "https://www.moere.jp/",
+      "history_years": "不明",
+      "history_description": "モエレ沼公園の広大な敷地を活かした花火ショー。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "モエレ沼公園（札幌市東区モエレ沼公園1-1）",
+      "official_url": "https://www.moere.jp/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/moerehanabi/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.moere.jp/",
+          "site_name": "北海道芸術花火2026公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://www.sapporo.travel/event/event-list/moere-fireworks/",
+          "site_name": "ようこそさっぽろ（札幌市観光協会）",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e05892/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_659",
+      "name": "釧路大漁どんぱく花火大会",
+      "alternate_names": [
+        "釧路大漁どんぱく〜道新・光と音のファンタジー〜"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "釧路市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-13",
+      "date_note": "第23回。祭り全体は9/12-13の2日間、花火大会は9/12(土)19:00〜19:50予定（19:30頃に三尺玉打ち上げ）",
+      "time_start": "19:00",
+      "time_end": "19:50",
+      "rain_policy": "不明",
+      "organizer": "釧路大漁どんぱく連絡協議会（事務局：釧路観光コンベンション協会）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（道東最大級の花火大会）",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 23,
+      "history_description": "釧路川河口付近で行われる道東最大級の花火大会。開花直径約600メートルの三尺玉が目玉。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "釧路川河口付近（幣舞橋下流）、JR釧路駅から徒歩約15分",
+      "official_url": "https://ja.kushiro-lakeakan.com/donpaku/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ja.kushiro-lakeakan.com/donpaku/",
+          "site_name": "釧路大漁どんぱく公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1001113/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00342/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_660",
+      "name": "本別きらめきタウンフェスティバル東十勝花火大会",
+      "alternate_names": [
+        "東十勝花火大会",
+        "本別きらめきタウンフェスティバル"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "中川郡本別町",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "第30回。9/5(土)11:00〜21:00（花火大会19:30〜20:30、利別川河川広場、約6,000発）、9/6(日)9:30〜16:30",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "本別きらめきタウンフェスティバル実行委員会（本別町）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 30,
+      "history_description": "本別町の秋の一大イベント。利別川河川広場での花火大会のほか、2日目にはポニーばんばレースや歌謡ショーなどが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "利別川河川広場（本別町）",
+      "official_url": "https://www.town.honbetsu.hokkaido.jp/kirameki/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.honbetsu.hokkaido.jp/kirameki/",
+          "site_name": "本別町公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0101e00127/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/1001120/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
