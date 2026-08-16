@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16 12:21",
+  "last_updated": "2026-08-16 16:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -40743,6 +40743,263 @@
         "changed": false,
         "details": ""
       }
+    },
+    {
+      "id": "festival_667",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "date_note": "バルーン競技期間は10/30(金)〜11/3(火・祝)。公式練習・表彰式を含む全体日程は10/29(木)〜11/4(水)。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "佐賀インターナショナルバルーンフェスタ実行委員会",
+      "is_free": true,
+      "price": "観覧無料（一部有料エリアあり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "嘉瀬川河川敷を会場に開催されるアジア最大級の熱気球の祭典。第39回パシフィック・カップ、熱気球ホンダグランプリ第3戦、バルーンファンタジア2026などが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "嘉瀬川河川敷",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      },
+      "name": "佐賀インターナショナルバルーンフェスタ",
+      "prefecture": "佐賀県",
+      "city": "佐賀市",
+      "date_start": "2026-10-30",
+      "date_end": "2026-11-03",
+      "genre": [
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "official_url": "https://www.sibf.jp/2026/outline/",
+      "sources": [
+        {
+          "url": "https://www.sibf.jp/2026/outline/",
+          "site_name": "佐賀インターナショナルバルーンフェスタ【公式】",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://www.sibf.jp/news/2026/20260311a.html",
+          "site_name": "佐賀インターナショナルバルーンフェスタ【公式】ニュース",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://www.city.saga.lg.jp/kanko/event/4346.html",
+          "site_name": "佐賀市【公式】",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        }
+      ],
+      "trust_level": "高"
+    },
+    {
+      "id": "festival_668",
+      "alternate_names": [
+        "さかいふるさと祭り 利根川大花火大会"
+      ],
+      "similar_name_warning": false,
+      "date_note": "第39回。セレモニー18:00、打ち上げ18:30開始、荒天中止（延期なし）。開場13:00。",
+      "time_start": "18:30",
+      "time_end": "不明",
+      "rain_policy": "荒天中止（延期なし）",
+      "organizer": "さかいふるさと祭り実行委員会（境町）",
+      "is_free": true,
+      "price": "観覧無料（一部有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": 39,
+      "history_description": "境町の利根川河川敷を会場に、茨城県内を代表する花火師4社による花火が打ち上げられる日本最大級の花火大会の一つ。打ち上げ数約3万発、打ち上げ時間約120分。例年約30万人が来場する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約30万人（例年）",
+      "access": "境町 利根川河川敷",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      },
+      "name": "利根川大花火大会",
+      "prefecture": "茨城県",
+      "city": "猿島郡境町",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "official_url": "https://www.sakai-hanabi.com/",
+      "sources": [
+        {
+          "url": "https://www.sakai-hanabi.com/",
+          "site_name": "第39回利根川大花火大会【公式】（境町）",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000154.000056181.html",
+          "site_name": "境町役場 プレスリリース（PR TIMES）",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=728",
+          "site_name": "観光いばらき【公式】",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        }
+      ],
+      "trust_level": "高"
+    },
+    {
+      "id": "festival_669",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "date_note": "第20回。2年に一度の開催。",
+      "time_start": "19:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "is_free": true,
+      "price": "観覧無料",
+      "ticket_url": "不明",
+      "history_years": 40,
+      "history_description": "那珂川のほとりで40年続く伝統の花火大会で、2年に一度開催。約2時間にわたりスターマイン・創作花火が那珂川の夜空を彩る。屋台・キッチンカーの出店もある。",
+      "food_stalls": "屋台・キッチンカー出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "那珂川河畔運動公園（JR黒磯駅から徒歩22分）",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "conflict_note": "公式サイト未確認のため要確認",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      },
+      "name": "那須野ふるさと花火大会",
+      "prefecture": "栃木県",
+      "city": "那須塩原市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "official_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tochigiji.or.jp/event/e15672",
+          "site_name": "とちぎ旅ネット",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0309e509319/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Kanto/tochigi/2026/2026-09-19_nasuno-furusato-hanabi-taikai.html",
+          "site_name": "花火に行こう",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        }
+      ],
+      "trust_level": "高"
+    },
+    {
+      "id": "festival_670",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "date_note": "第14回。",
+      "time_start": "19:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "is_free": true,
+      "price": "観覧無料",
+      "ticket_url": "不明",
+      "history_years": 14,
+      "history_description": "沼田市運動公園を会場に、約45分間で1万発以上の花火を打ち上げる花火大会。毎年5万人以上が来場する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "5万人以上（例年）",
+      "access": "沼田市運動公園（JR沼田駅から徒歩25分）",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "conflict_note": "公式サイト未確認のため要確認",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      },
+      "name": "沼田花火大会",
+      "prefecture": "群馬県",
+      "city": "沼田市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-12",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "official_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0310e40188/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://sustabi.com/service/numata-hanabi/",
+          "site_name": "サスタビ",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://www.gunlabo.net/event/event.shtml?id=911",
+          "site_name": "ぐんラボ！",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Kanto/gunma/2026/2026-09-12_numata-hanabi-taikai.html",
+          "site_name": "花火に行こう",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        }
+      ],
+      "trust_level": "高"
     }
   ]
 }
