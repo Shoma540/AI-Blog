@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15 18:20",
+  "last_updated": "2026-08-16 08:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -40543,6 +40543,195 @@
           "site_name": "HOKKAIDO LOVE!（北海道観光振興機構）",
           "is_official": true,
           "retrieved_date": "2026-08-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_664",
+      "name": "王の字火まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "大分県",
+      "city": "臼杵市",
+      "date_start": "2026-09-11",
+      "date_end": "2026-09-13",
+      "date_note": "八朔（旧暦8月1日）から3日間開催。点火は最終日夜。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "臼杵市観光協会",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他（約300年続く伝統行事）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 300,
+      "history_description": "約300年前、望月地域で起きた大火災を機に、住民が山頂に祠を建て火伏せを祈願したのが始まりとされる。立石山の山腹に1.5m四方の穴を「王」の字型に51個掘り、麦わらを積んで一斉点火する火伏せ祈願の伝統行事。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.usuki.oita.jp/docs/2014020300161/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.usuki.oita.jp/docs/2014020300161/",
+          "site_name": "臼杵市役所",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://www.usuki-kanko.com/archives/20638",
+          "site_name": "臼杵市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://www.visit-oita.jp/events/detail/14149",
+          "site_name": "大分県観光情報公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_665",
+      "name": "長浜・北びわ湖大花火大会（長浜の陣）",
+      "alternate_names": [
+        "北びわ湖大花火大会 長浜の陣"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "滋賀県",
+      "city": "長浜市",
+      "date_start": "2026-09-16",
+      "date_end": "2026-09-18",
+      "date_note": "3日間連続開催。荒天時は中止・順延の場合あり。同名の「余呉の陣」は別会場・別日程の別イベント。",
+      "time_start": "20:00",
+      "time_end": "20:20",
+      "rain_policy": "荒天時中止（詳細は公式サイト要確認）",
+      "organizer": "長浜市・長浜米原観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料（有料席あり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "琵琶湖畔の豊公園を会場に開催される北びわ湖エリアの花火大会。JR長浜駅から徒歩圏内でアクセスしやすい。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR長浜駅から徒歩約8分",
+      "official_url": "https://kitabiwako.jp/fireworks",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kitabiwako.jp/fireworks",
+          "site_name": "長浜・米原・奥びわ湖観光情報サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0725e00792/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3401015/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_666",
+      "name": "鳥取三十二万石お城まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "鳥取市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-04",
+      "date_note": "前夜祭：10/3(土) 16:00〜20:00。本祭：10/4(日) 10:00〜15:00。",
+      "time_start": "16:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "鳥取三十二万石お城まつり実行委員会",
+      "genre": [
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "鳥取城跡・久松公園を会場に、時代行列や火縄銃鉄砲隊演舞など城下町鳥取の歴史を体感できる祭り。前夜祭ではドローンショーやステージイベントも行われる。",
+      "food_stalls": "出展ブースあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "鳥取城跡・久松公園",
+      "official_url": "https://www.torican.jp/feature/oshiromatsuri",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.torican.jp/feature/oshiromatsuri",
+          "site_name": "鳥取市観光サイト【公式】",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://www.torican.jp/festival/detail_1093.html",
+          "site_name": "鳥取市観光サイト【公式】",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://www.nnn.co.jp/ud/event/6a5f22a2126217783e000040",
+          "site_name": "日本海新聞 NetNihonkai",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
         }
       ],
       "trust_level": "高",

@@ -562,6 +562,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <title>{full_title}</title>
   <link rel="icon" href="{FAVICON_HREF}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
   <style>{COMMON_CSS}</style>
   {extra_head}
