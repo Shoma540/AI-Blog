@@ -95,6 +95,18 @@
       "verify_after": "2026-08-18",
       "result": "",
       "commit": "5300ef1762ccd5dc5334684de30c30ba02e2568b"
+    },
+    {
+      "date": "2026-08-16 08:20",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-16 08:15取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回(2026-08-13 robots.txt)はverify_after到来（2026-08-16）につき本実行冒頭で効果測定し「変化なし」を記録した（アクセス自体が発生していないため）。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。plan.mdの「表示速度・アクセシビリティの改善」テーマに関連し、generate_html.pyのhtml_page()を確認したところ、Google Fontsの読み込みで<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">のみが出力されており、実際にフォントファイル本体を配信するhttps://fonts.gstatic.comへのpreconnect（crossorigin付き）が欠けていた。Google Fonts公式が推奨する2つ目のpreconnectが無いため、フォントリクエストの往復（DNS解決・TCP・TLSハンドシェイク）が最適化されていない状態だった。",
+      "action": "scripts/generate_html.py のhtml_page()の<head>に<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>を追加した。全61ページ共通テンプレートのため、index/map/calendar/都道府県47/月別11の計61ページ全てに適用される。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "fonts.gstatic.comへのpreconnectを追加することで、フォントファイル取得時の接続確立（DNS・TCP・TLS）が事前に完了し、Webフォント表示までの待ち時間（レンダリングブロック）がわずかに短縮されるはず。GA4のセッション数だけでは直接測定できない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認で経過観察する。",
+      "verify_after": "2026-08-19",
+      "result": "",
+      "commit": "8ad87369aa1bfb871fc01f818fe4293d44cee141"
     }
   ]
 }
