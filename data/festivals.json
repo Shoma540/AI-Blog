@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17 02:20",
+  "last_updated": "2026-08-16 18:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -1881,10 +1881,8 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 既存レコードの日程(05-17〜05-18)は実際には「春季例大祭」の日程であり、祭り名の「秋季」と矛盾している。秋季大祭は10/16(流鏑馬)・10/17(渡御祭・百物揃千人武者行列)。 名称と日付の不一致のため要確認フラグ。既存レコードは日付訂正せず、要確認のみ付与（名称の対象祭事を誤認している可能性）。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -9371,8 +9369,10 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -13506,63 +13506,6 @@
       }
     },
     {
-      "id": "festival_203",
-      "name": "べっぷ火の海まつり",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "prefecture": "大分県",
-      "city": "別府市",
-      "date_start": "2026-07-25",
-      "date_end": "2026-07-26",
-      "date_note": "最終日26日20時8分8秒から「納涼花火大会」で8,888発を打ち上げ。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "べっぷ火の海まつり実行委員会",
-      "genre": [
-        "花火",
-        "パレード"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "無料",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://beppu-event.jp/natsuyoi/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://beppu-event.jp/natsuyoi/",
-          "site_name": "別府市観光協会公式イベントサイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-06"
-        },
-        {
-          "url": "https://www.visit-oita.jp/events/detail/14003",
-          "site_name": "大分県公式観光サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-06"
-        }
-      ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_204",
       "name": "みやざき納涼花火大会",
       "alternate_names": [
@@ -14685,13 +14628,21 @@
           "site_name": "JR East Event",
           "is_official": false,
           "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0420e00799/data.html",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-13"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -20902,68 +20853,6 @@
     {
       "alternate_names": [],
       "similar_name_warning": false,
-      "date_note": "約1万発+ドローンショー",
-      "time_start": "19:00",
-      "time_end": "20:20",
-      "rain_policy": "不明",
-      "scale": "その他",
-      "is_free": true,
-      "price": "",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "取手市の利根川河川敷で開催される花火大会。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      },
-      "id": "festival_326",
-      "name": "とりで利根川大花火",
-      "prefecture": "茨城県",
-      "city": "取手市",
-      "date_start": "2026-08-08",
-      "date_end": "2026-08-08",
-      "organizer": "取手市/取手市観光協会",
-      "genre": [
-        "花火"
-      ],
-      "official_url": "https://www.city.toride.ibaraki.jp/sanshin/bunkakatsudo/kanko/oshirase/71kaihanabi.html",
-      "trust_level": "高",
-      "sources": [
-        {
-          "url": "https://www.city.toride.ibaraki.jp/sanshin/bunkakatsudo/kanko/oshirase/71kaihanabi.html",
-          "site_name": "取手市公式",
-          "is_official": true,
-          "retrieved_date": "2026-07-18"
-        },
-        {
-          "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=720",
-          "site_name": "観光いばらき公式",
-          "is_official": true,
-          "retrieved_date": "2026-07-18"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-07-18"
-        }
-      ]
-    },
-    {
-      "alternate_names": [],
-      "similar_name_warning": false,
       "date_note": "会場：古河ゴルフリンクス",
       "time_start": "19:20",
       "time_end": "20:30",
@@ -25879,12 +25768,8 @@
       "trust_level": "高",
       "conflict_note": "2026年中止。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26013,12 +25898,8 @@
       "trust_level": "高",
       "conflict_note": "2029年まで延期。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26083,12 +25964,8 @@
       "trust_level": "高",
       "conflict_note": "2026年は中止。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26209,12 +26086,8 @@
       "trust_level": "高",
       "conflict_note": "2026年は中止。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26347,12 +26220,8 @@
       "trust_level": "中",
       "conflict_note": "2026年開催見送り。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26417,12 +26286,8 @@
       "trust_level": "高",
       "conflict_note": "2026年も休止中。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26501,12 +26366,8 @@
       "trust_level": "中",
       "conflict_note": "確定情報ではないため要確認フラグを立てる。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30910,9 +30771,10 @@
     },
     {
       "id": "festival_492",
-      "name": "べっぷ火の海まつり 納涼花火大会",
+      "name": "べっぷ火の海まつり",
       "alternate_names": [
-        "べっぷ火の海まつり"
+        "べっぷ火の海まつり",
+        "べっぷ火の海まつり 納涼花火大会"
       ],
       "similar_name_warning": false,
       "prefecture": "大分県",
@@ -30925,6 +30787,7 @@
       "rain_policy": "不明",
       "organizer": "べっぷ火の海まつり実行委員会",
       "genre": [
+        "パレード",
         "花火"
       ],
       "scale": "その他",
@@ -30960,13 +30823,24 @@
           "site_name": "花火大会ナビ",
           "is_official": false,
           "retrieved_date": "2026-07-29"
+        },
+        {
+          "url": "https://www.visit-oita.jp/events/detail/14003",
+          "site_name": "大分県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-06"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "alternate_names",
+        "genre",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -34442,12 +34316,8 @@
       "trust_level": "高",
       "conflict_note": "既存日程と一致。3ソースで裏付け、trust_levelを高へ更新。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -34585,13 +34455,33 @@
           "site_name": "そら花火",
           "is_official": false,
           "retrieved_date": "2026-08-08"
+        },
+        {
+          "url": "https://www.city.toride.ibaraki.jp/sanshin/bunkakatsudo/kanko/oshirase/71kaihanabi.html",
+          "site_name": "取手市公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=720",
+          "site_name": "観光いばらき公式",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-07-18"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -36889,12 +36779,8 @@
       "trust_level": "高",
       "conflict_note": "既存日程と完全一致。公式協会サイトで確認、trust_levelを高へ更新。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -38026,15 +37912,8 @@
       "trust_level": "高",
       "conflict_note": "既存レコードの日付(7/25)は別祭り「北条秋祭り（風早の火事まつり、10月開催）」との混同の可能性が高い。日付訂正。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_end",
-        "date_note",
-        "date_start",
-        "official_url",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "前回：2026-07-25〜2026-07-25 → 今回：2026-05-03〜2026-05-04"
@@ -39232,70 +39111,6 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：一部情報源（jorudan・walkerplus）に2025年開催時点のページが残存しており、2026年の日程確定情報は公式カレンダーで要確認。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_642",
-      "name": "諏訪湖祭湖上花火大会",
-      "alternate_names": [
-        "諏訪湖花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "長野県",
-      "city": "諏訪市",
-      "date_start": "2026-08-15",
-      "date_end": "2026-08-15",
-      "date_note": "第78回",
-      "time_start": "19:00",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "諏訪湖祭実行委員会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "県内有数規模の花火大会",
-      "is_free": true,
-      "price": "見学無料（有料観覧席あり）",
-      "ticket_url": "不明",
-      "history_years": 78,
-      "history_description": "諏訪湖畔で毎年開催される花火大会。2026年で第78回を迎える。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "JR上諏訪駅周辺・諏訪湖畔",
-      "official_url": "https://www.suwakanko.jp/story/hanabi-suwako/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.suwakanko.jp/story/hanabi-suwako/",
-          "site_name": "諏訪観光協会公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-13"
-        },
-        {
-          "url": "https://event.jreast.co.jp/pages/articles-suwako-hanabi",
-          "site_name": "JR東日本イベント情報",
-          "is_official": false,
-          "retrieved_date": "2026-08-13"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0420e00799/data.html",
-          "site_name": "ウォーカープラス花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-08-13"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
@@ -40856,69 +40671,6 @@
       }
     },
     {
-      "id": "festival_667",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "date_note": "バルーン競技期間は10/30(金)〜11/3(火・祝)。公式練習・表彰式を含む全体日程は10/29(木)〜11/4(水)。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "佐賀インターナショナルバルーンフェスタ実行委員会",
-      "is_free": true,
-      "price": "観覧無料（一部有料エリアあり）",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "嘉瀬川河川敷を会場に開催されるアジア最大級の熱気球の祭典。第39回パシフィック・カップ、熱気球ホンダグランプリ第3戦、バルーンファンタジア2026などが行われる。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "嘉瀬川河川敷",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      },
-      "name": "佐賀インターナショナルバルーンフェスタ",
-      "prefecture": "佐賀県",
-      "city": "佐賀市",
-      "date_start": "2026-10-30",
-      "date_end": "2026-11-03",
-      "genre": [
-        "パレード",
-        "民俗芸能"
-      ],
-      "scale": "その他",
-      "official_url": "https://www.sibf.jp/2026/outline/",
-      "sources": [
-        {
-          "url": "https://www.sibf.jp/2026/outline/",
-          "site_name": "佐賀インターナショナルバルーンフェスタ【公式】",
-          "is_official": true,
-          "retrieved_date": "2026-08-16"
-        },
-        {
-          "url": "https://www.sibf.jp/news/2026/20260311a.html",
-          "site_name": "佐賀インターナショナルバルーンフェスタ【公式】ニュース",
-          "is_official": true,
-          "retrieved_date": "2026-08-16"
-        },
-        {
-          "url": "https://www.city.saga.lg.jp/kanko/event/4346.html",
-          "site_name": "佐賀市【公式】",
-          "is_official": true,
-          "retrieved_date": "2026-08-16"
-        }
-      ],
-      "trust_level": "高"
-    },
-    {
       "id": "festival_668",
       "alternate_names": [
         "さかいふるさと祭り 利根川大花火大会"
@@ -41170,7 +40922,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41235,7 +40987,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41292,7 +41044,7 @@
       ],
       "trust_level": "低",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41358,7 +41110,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41424,7 +41176,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41488,7 +41240,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41547,7 +41299,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41607,7 +41359,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41668,7 +41420,7 @@
       ],
       "trust_level": "中",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41729,7 +41481,7 @@
       ],
       "trust_level": "中",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41789,7 +41541,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41848,7 +41600,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41908,7 +41660,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -41967,7 +41719,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42024,7 +41776,7 @@
       ],
       "trust_level": "中",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42082,7 +41834,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42148,7 +41900,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42206,7 +41958,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42262,7 +42014,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42321,7 +42073,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42378,7 +42130,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42436,7 +42188,7 @@
       ],
       "trust_level": "中",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42495,7 +42247,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42559,7 +42311,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42617,7 +42369,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42677,7 +42429,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42737,7 +42489,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42797,7 +42549,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42857,7 +42609,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42917,7 +42669,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -42976,7 +42728,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43028,7 +42780,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43085,7 +42837,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43144,7 +42896,7 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43203,7 +42955,7 @@
       ],
       "trust_level": "中",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43255,6 +43007,224 @@
       ],
       "trust_level": "中",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_668",
+      "name": "備中たかはし納涼花火",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岡山県",
+      "city": "高梁市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "date_note": "雨天順延時は9/26または9/27に延期の可能性あり。2026年開催日は情報源により9/19説と9/20説が混在しており要確認（9/20は前年2025年の開催日と一致するため誤情報混入の可能性あり）。",
+      "time_start": "18:00",
+      "time_end": "21:00",
+      "rain_policy": "雨天順延",
+      "organizer": "高梁青年会議所",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "屋台あり（ビンゴ大会・ステージイベントも実施）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "ききょう緑地公園（高梁市落合町近似）",
+      "official_url": "https://takahasikanko.or.jp/modules/event/index.php?content_id=459",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://takahasikanko.or.jp/modules/event/index.php?content_id=459",
+          "site_name": "高梁観光情報｜備中たかはし",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "2026年の開催日について情報源間で9/19と9/20の記載が混在。要公式サイトでの最終確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_669",
+      "name": "アイエスツール花火大会",
+      "alternate_names": [
+        "アイエスツール花火大会in白石島"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岡山県",
+      "city": "笠岡市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "date_note": "白石島海水浴場を会場に開催。過去は10月中旬開催（2024年10/12、2025年10/11）。2026年日程は単一ソースのみで確認、要公式情報確認。",
+      "time_start": "19:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "株式会社アイエスツール",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（約7000発規模、例年）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "地引き網や歌謡ショー、屋台も出る笠岡市白石島の花火大会。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "白石島海水浴場（岡山県笠岡市）",
+      "official_url": "https://istool.jp/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/reel/DPsR5R4E1B3/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sorahanabi.com/okayama/kasaoka/istool-hanabitaikai.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://bin-navi.com/town-news/59928/",
+          "site_name": "びんなび",
+          "is_official": false,
+          "retrieved_date": "2026-08-16"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_670",
+      "name": "越前かにまつり2026",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "福井県",
+      "city": "越前町",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-22",
+      "date_note": "開催日は11/14(土)・15(日)、21(土)・22(日)の2週末4日間。各日9:00〜15:00。同じ道の駅越前で開催される「越前かに感謝祭」（2026年3月開催）とは別のイベントなので混同注意。",
+      "time_start": "09:00",
+      "time_end": "15:00",
+      "rain_policy": "不明",
+      "organizer": "越前かにまつり実行委員会（越前町観光連盟内）",
+      "genre": [
+        "グルメ",
+        "物産展"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "越前がに・セイコガニ等は販売（有料）、入場は無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "越前がに・セイコガニ・セイコガニ汁・海鮮焼きなどの海鮮グルメ",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "道の駅 越前（福井県丹生郡越前町厨71-335-1）",
+      "official_url": "https://www.town-echizen.jp/event/detail.php?id=422",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town-echizen.jp/event/detail.php?id=422",
+          "site_name": "えちぜん観光ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://www.fuku-e.com/event/detail_5236.html",
+          "site_name": "【公式】福井県 観光/旅行サイト ふくいドットコム",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_671",
+      "name": "ふるさと時代祭り（八朔祭）",
+      "alternate_names": [
+        "第42回ふるさと時代祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "都留市",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "9/5(土)宵祭り、9/6(日)本祭り。単一ソースのみで確認、要追加確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "山車",
+        "時代祭り"
+      ],
+      "scale": "都留市の秋の風物詩",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://festival.tsuru-kankou.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://festival.tsuru-kankou.com/",
+          "site_name": "ふるさと時代祭り（八朔祭）公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-16"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
