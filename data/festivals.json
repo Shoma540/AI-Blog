@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17 13:01",
+  "last_updated": "2026-08-17 16:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -43343,7 +43343,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 2026年開催の公式発表未確認。例年日程（10月19日・20日）からの推定のため要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43414,7 +43414,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43472,6 +43472,138 @@
         {
           "url": "https://tokyofesta.com/23ku/30742/",
           "site_name": "東京フェスタ",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_711",
+      "name": "安房国司祭 鶴谷八幡宮例大祭（やわたんまち）",
+      "alternate_names": [
+        "安房八幡祭",
+        "やわたんまち",
+        "鶴谷八幡宮例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "館山市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "敬老の日前の土曜・日曜に開催。初日に10社の神輿が御仮屋へ渡御、2日目に北条地区の山車・御船が参加。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "鶴谷八幡宮",
+      "genre": [
+        "神輿",
+        "山車"
+      ],
+      "scale": "千葉県指定無形民俗文化財",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "安房国司祭と呼ばれ、安房国十カ社の神輿が鶴谷八幡宮に集まる安房地域最大規模の例大祭。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.tsurugayahachimangu.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.tateyama.chiba.jp/minato/page100195.html",
+          "site_name": "館山市役所",
+          "is_official": true,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://maruchiba.jp/event/detail_10864.html",
+          "site_name": "千葉県公式観光サイト ちば観光ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://www.tsurugayahachimangu.com/%E4%BE%8B%E5%A4%A7%E7%A5%AD",
+          "site_name": "鶴谷八幡宮 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_712",
+      "name": "第52回八千代ふるさと親子祭",
+      "alternate_names": [
+        "八千代ふるさと祭り",
+        "八千代ふるさと親子祭花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "八千代市",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-22",
+      "date_note": "祭り本体は16:00開始、花火打ち上げは19:00〜20:00予定",
+      "time_start": "16:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "八千代ふるさと親子祭実行委員会（八千代市観光推進室内）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料（有料席あり：Sマス席3万円、Sテーブル席3万円、A席3万円、B席3000円、C席2500円）",
+      "ticket_url": "不明",
+      "history_years": 52,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "例年約18万人が来場",
+      "visitors": "約18万人",
+      "access": "東葉高速鉄道 八千代中央駅または村上駅から徒歩15分",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://yachiyo-narashino.goguynet.jp/2026/08/12/dai52yachiyofurusatooyakomatsuri/",
+          "site_name": "号外NET 八千代・習志野",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0312e00921/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87232.html",
+          "site_name": "ジョルダン 花火大会",
           "is_official": false,
           "retrieved_date": "2026-08-17"
         }
