@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17 17:13",
+  "last_updated": "2026-08-17 18:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -43677,7 +43677,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 開催時間について公式イベントページは11:00〜21:00と記載する一方、他サイトの要約では12:00〜21:00とする情報もあり。主催団体名についても公式サイト内で「倶知安観光協会」と「ひらふ祭り実行委員会」の両方の記載が見られる。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
