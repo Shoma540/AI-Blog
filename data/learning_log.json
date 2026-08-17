@@ -107,6 +107,18 @@
       "verify_after": "2026-08-19",
       "result": "",
       "commit": "8ad87369aa1bfb871fc01f818fe4293d44cee141"
+    },
+    {
+      "date": "2026-08-17 08:35",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-17 08:24取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回(2026-08-14 favicon追加)はverify_after到来（2026-08-17）につき本実行冒頭で効果測定し「変化なし」を記録した（アクセス自体が発生していないため）。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。plan.mdの「構造化データ(JSON-LD, Eventスキーマ)の追加」は都道府県ページのEventスキーマ(2026-08-09)・都道府県/月別ページのBreadcrumbList(2026-08-15)は着手済みだが、サイト全体を代表するトップページ(index.html)にはWebSite/Organizationの構造化データが無く、検索エンジンにサイト名・運営主体を明示できていない欠落があった。",
+      "action": "scripts/generate_html.py にwebsite_jsonld()関数を追加し、docs/index.html（トップページ）にschema.org WebSiteおよびOrganizationのJSON-LD（name/url/inLanguage）を出力するようにした。generate_index()のhtml_page()呼び出しにextra_head引数として渡す形で追加し、他ページのテンプレートには影響しない。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "トップページにWebSite/Organizationの構造化データが付くことで、検索エンジンがサイト全体の名称・運営主体をより正確に理解し、検索結果でのサイト名表示の安定化に寄与するはず。GA4のセッション数だけでは直接測定できない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認（JSON-LDのパース可否等）で経過観察する。",
+      "verify_after": "2026-08-20",
+      "result": "",
+      "commit": "7afaa3bf50743b9393a5f3f88b4cee42bc32fc4a"
     }
   ]
 }
