@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17 08:30",
+  "last_updated": "2026-08-17 13:01",
   "festivals": [
     {
       "id": "festival_001",
@@ -43272,6 +43272,206 @@
         {
           "url": "https://sorahanabi.com/kagoshima/shibushi/shibushi-minatomatsuri-hanabitaikai.html",
           "site_name": "空花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_708",
+      "name": "勝山喧嘩だんじり祭",
+      "alternate_names": [
+        "勝山喧嘩だんじり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岡山県",
+      "city": "真庭市勝山",
+      "date_start": "2026-10-19",
+      "date_end": "2026-10-20",
+      "date_note": "例年10月19日・20日開催。2026年の公式発表は現時点で未確認のため例年日程からの推定。19日は御祭礼11:30～・喧嘩だんじり18:30～、20日はだんじり御祭礼13:00～・喧嘩だんじり18:00～。",
+      "time_start": "11:30",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "勝山観光協会",
+      "genre": [
+        "山車"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "城下町として知られる真庭市勝山の町並み保存地区で、高田神社・高応神社・一宮神社・鈴神社・玉雲宮の秋祭りとして行われる。「おいさぁ！」の掛け声とともに9台のだんじりが正面からぶつかり合う勇壮な祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "中国勝山駅から勝山町並み保存地区周辺",
+      "official_url": "https://www.maniwa.or.jp/web/?c=event-2&pk=490",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.maniwa.or.jp/web/?c=event-2&pk=490",
+          "site_name": "真庭観光WEB（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://www.okayama-kanko.jp/spot/detail_12692.html",
+          "site_name": "岡山観光WEB（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0833e512893/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 2026年開催の公式発表未確認。例年日程（10月19日・20日）からの推定のため要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_709",
+      "name": "渋なんまつり2026",
+      "alternate_names": [
+        "渋なんまつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-09-13",
+      "date_end": "2026-09-13",
+      "date_note": "渋谷氷川神社例大祭と同日連動開催。",
+      "time_start": "11:00",
+      "time_end": "18:00",
+      "rain_policy": "雨天決行／荒天中止",
+      "organizer": "株式会社グローバルエージェンツ（協業：東急株式会社／東急プロパティマネジメント株式会社）",
+      "genre": [
+        "パレード",
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料（ワークショップ参加・店舗購入は別途有料）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "渋谷氷川神社例大祭と連動する地域祭。無料人力車の運行、ダンスパーティ、マーケット、ワークショップ、暖簾・大型提灯の装飾など渋谷の街を彩るコンテンツを展開する。",
+      "food_stalls": "キッチンカーエリアあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR「渋谷」駅新南口より徒歩8分（渋谷ブリッジ、東京都渋谷区東1丁目29-1）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/shibunanmatsuri/"
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000523.000007264.html",
+          "site_name": "PR TIMES（主催者プレスリリース）",
+          "is_official": true,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://iflyer.tv/article/2026/07/30/shibunanmatsuri2026/",
+          "site_name": "iFLYER",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://tokyofesta.com/23ku/32618/",
+          "site_name": "東京フェスタ",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/656130/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_710",
+      "name": "SHIBUYA MIYASHITA PARK BON DANCE 2026",
+      "alternate_names": [
+        "渋谷宮下パーク盆ダンス",
+        "宮下公園盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "",
+      "time_start": "13:00",
+      "time_end": "21:00",
+      "rain_policy": "雨天中止（公式Instagramでアナウンス）",
+      "organizer": "明治通り宮下パーク商店会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "伝統的な盆踊りと様々なダンスミュージックをMIXし、渋谷のカルチャーと日本の伝統的な祭りの融合を目指すイベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "MIYASHITA PARK 4階 渋谷区立宮下公園 芝生ひろば",
+      "official_url": "https://miyashita-bondance.jp/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://miyashita-bondance.jp/",
+          "site_name": "BON DANCE 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2006840/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://tokyofesta.com/23ku/30742/",
+          "site_name": "東京フェスタ",
           "is_official": false,
           "retrieved_date": "2026-08-17"
         }
