@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16 18:14",
+  "last_updated": "2026-08-17 08:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -9369,10 +9369,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -14639,10 +14637,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30834,13 +30830,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "name",
-        "alternate_names",
-        "genre",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -34478,10 +34469,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43057,7 +43046,7 @@
       "trust_level": "低",
       "conflict_note": "2026年の開催日について情報源間で9/19と9/20の記載が混在。要公式サイトでの最終確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43115,7 +43104,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43172,7 +43161,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43225,6 +43214,71 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_707",
+      "name": "志布志みなとまつり",
+      "alternate_names": [
+        "志布志みなとまつり花火大会",
+        "2026志布志みなとまつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "志布志市志布志町志布志",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-12",
+      "date_note": "",
+      "time_start": "19:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "志布志みなとまつり実行委員会（志布志市商工会）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "",
+      "food_stalls": "屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR志布志駅から徒歩約7分／東九州自動車道 曽於弥五郎ICから車で約25分",
+      "official_url": "https://www.kagoshima-kankou.com/event/20257",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.kagoshima-kankou.com/event/20257",
+          "site_name": "鹿児島県観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1046e00971/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://sorahanabi.com/kagoshima/shibushi/shibushi-minatomatsuri-hanabitaikai.html",
+          "site_name": "空花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
