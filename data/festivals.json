@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17 16:17",
+  "last_updated": "2026-08-17 17:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -43546,7 +43546,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43611,6 +43611,72 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_713",
+      "name": "ひらふ祭り2026",
+      "alternate_names": [
+        "Hirafu-Festival",
+        "ひらふ祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "虻田郡倶知安町",
+      "date_start": "2026-08-28",
+      "date_end": "2026-08-29",
+      "date_note": "28日は前夜祭、29日が本祭。本祭は「2026 UCI GRAN FONDO WORLD CHAMPIONSHIPS」と同日開催",
+      "time_start": "11:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "一般社団法人倶知安観光協会（一部情報源は「ひらふ祭り実行委員会」と記載、⚠️矛盾）",
+      "genre": [
+        "花火",
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（公式サイトに入場料の記載なし）",
+      "ticket_url": "不明",
+      "history_years": 0,
+      "history_description": "不明",
+      "food_stalls": "「ニセコグルメカーニバル」として約40軒の飲食店が多国籍グルメを出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "スカイリゾートシャトルが便利。会場はサンスポーツランドくっちゃん（倶知安町字樺山41番地5）",
+      "official_url": "https://niseko.co.jp/hirafu-matsuri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://niseko.co.jp/events/hirafumatsuri2026/",
+          "site_name": "JAPAN NISEKO KUTCHAN（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://niseko.co.jp/topics/2026/05/28/8304/",
+          "site_name": "JAPAN NISEKO KUTCHAN 出店者募集ページ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://www.nisekoareaguide.com/ja/events/hirafu-matsuri",
+          "site_name": "Niseko Area Guide",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾: 開催時間について公式イベントページは11:00〜21:00と記載する一方、他サイトの要約では12:00〜21:00とする情報もあり。主催団体名についても公式サイト内で「倶知安観光協会」と「ひらふ祭り実行委員会」の両方の記載が見られる。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
