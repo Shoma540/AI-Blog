@@ -528,6 +528,30 @@ def breadcrumb_jsonld(items):
     return f'<script type="application/ld+json">{json_str}</script>'
 
 
+def website_jsonld():
+    """トップページ用 schema.org WebSite / Organization の構造化データ（JSON-LD）を生成する。
+    検索エンジンにサイト全体の名称・運営主体を明示し、検索結果でのサイト名表示等を助ける。
+    """
+    payload = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "name": "全国祭り情報",
+                "url": f"{SITE_BASE_URL}/",
+                "inLanguage": "ja",
+            },
+            {
+                "@type": "Organization",
+                "name": "全国祭り情報",
+                "url": f"{SITE_BASE_URL}/",
+            },
+        ],
+    }
+    json_str = json.dumps(payload, ensure_ascii=False).replace('</', '<\\/')
+    return f'<script type="application/ld+json">{json_str}</script>'
+
+
 def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path=""):
     description = description.replace('"', '').replace('\n', ' ')
     full_title = f"{title} | 全国祭り情報"
@@ -603,6 +627,7 @@ def generate_index(festivals, last_updated):
     with open(os.path.join(DOCS_DIR, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(html_page(
             "全国祭り情報", body,
+            extra_head=website_jsonld(),
             description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。",
             url_path="",
         ))
