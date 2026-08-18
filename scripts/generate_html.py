@@ -68,7 +68,7 @@ nav a {
   border-bottom: 2px solid transparent;
   transition: color 0.2s, border-color 0.2s;
 }
-nav a:hover, nav a.active {
+nav a:hover, nav a.active, nav a[aria-current="page"] {
   color: #fff;
   border-bottom-color: #fff;
 }
@@ -556,6 +556,9 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
     description = description.replace('"', '').replace('\n', ' ')
     full_title = f"{title} | 全国祭り情報"
     canonical_url = f"{SITE_BASE_URL}/{quote(url_path)}" if url_path else f"{SITE_BASE_URL}/"
+    current_nav_href = {'': 'index.html', 'map.html': 'map.html', 'calendar.html': 'calendar.html'}.get(url_path)
+    if current_nav_href:
+        nav = nav.replace(f'href="{current_nav_href}"', f'href="{current_nav_href}" aria-current="page"')
     og_image = f"{IMAGE_BASE_URL.rstrip('/')}/{DEFAULT_IMAGE}"
     return f"""<!DOCTYPE html>
 <html lang="ja">

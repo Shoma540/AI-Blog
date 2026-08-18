@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17 18:13",
+  "last_updated": "2026-08-18 08:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -43678,6 +43678,135 @@
       "conflict_note": "⚠️ 矛盾: 開催時間について公式イベントページは11:00〜21:00と記載する一方、他サイトの要約では12:00〜21:00とする情報もあり。主催団体名についても公式サイト内で「倶知安観光協会」と「ひらふ祭り実行委員会」の両方の記載が見られる。",
       "requires_check": true,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_714",
+      "name": "鳴門市阿波おどり",
+      "alternate_names": [
+        "鳴門の夏まつり"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "徳島県",
+      "city": "鳴門市",
+      "date_start": "2026-08-09",
+      "date_end": "2026-08-11",
+      "date_note": "8月9日(日)・10日(月)・11日(火・祝)の3日間開催。9日10:00〜10:20には鳴門公園千畳敷展望台にて「初おどり」も実施。",
+      "time_start": "19:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "鳴門市・鳴門商工会議所・鳴門市うずしお観光協会（運営：鳴門阿波おどり実行委員会）",
+      "genre": [
+        "踊り",
+        "パレード"
+      ],
+      "scale": "不明",
+      "is_free": false,
+      "price": "前売券900円・当日券1200円（自由席）",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR鳴門駅周辺特設演舞場",
+      "official_url": "https://www.narutocci.or.jp/awaodori/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.narutocci.or.jp/awaodori/",
+          "site_name": "鳴門市阿波おどり 鳴門の夏まつり2026公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://www.awanavi.jp/archives/event/65185",
+          "site_name": "阿波ナビ（徳島県観光情報サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://naruto-tourism.jp/jp/25132",
+          "site_name": "鳴門市公式観光サイト〜NARUTO〜",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_715",
+      "name": "柿崎納涼花火大会",
+      "alternate_names": [
+        "第59回柿崎納涼花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "上越市（柿崎区）",
+      "date_start": "2026-08-13",
+      "date_end": "2026-08-13",
+      "date_note": "⚠️矛盾：複数のソース（ウェザーニュース、じゃらん）は当初日程を8月13日(木)とし、台風15号の影響で延期になったと報じているが、延期後の新日程は情報不明。一方、にいがた観光ナビ（新潟県公式）は8月11日(火・祝)開催と案内しており日付が一致しない。最新の公式発表を要確認。",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "雨天の場合は翌日以降に順延",
+      "organizer": "柿崎観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 59,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "例年約7000人",
+      "access": "JR信越本線「柿崎駅」より徒歩約5分／北陸自動車道「柿崎IC」より車で約5分",
+      "official_url": "http://www.kakizakikanko.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://weathernews.jp/hanabi/spot/2401015/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "じゃらん花火大会2026（中止・延期情報）",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://niigata-kankou.or.jp/event/3250",
+          "site_name": "にいがた観光ナビ（新潟県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "開催日について、にいがた観光ナビは8月11日、ウェザーニュース・じゃらんは8月13日（台風延期・新日程不明）と表記が分かれている。",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
