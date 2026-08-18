@@ -4018,14 +4018,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "conflict_note",
-        "requires_check",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26380,13 +26374,8 @@
       "trust_level": "高",
       "conflict_note": "jorudanの「2026年中止・非開催花火大会」一覧に「京都・保津川花火大会」が中止として掲載されていることを確認（2026-08-18）。ただし亀岡市・主催者による公式中止告知ページ自体は本調査時点で未確認。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -36134,17 +36123,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "time_start",
-        "time_end",
-        "date_note",
-        "rain_policy",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -37886,8 +37866,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "前回：2026-07-25〜2026-07-25 → 今回：2026-05-03〜2026-05-04"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -38541,12 +38521,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -39548,17 +39524,8 @@
       "trust_level": "高",
       "conflict_note": "旧DBでは「垂水市錦江湾花火大会」の名称でも登録され、さらに本来同一祭りである「たるみずふれあいフェスタ2026夏祭り」(id festival_570)として重複登録されていたため、本サイクルで1件に統合。日程は延期後の8/15を採用。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "rain_policy",
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40351,12 +40318,8 @@
       "trust_level": "高",
       "conflict_note": "宇土市公式サイトで延期の正式発表を確認（2026-08-18）。「開催時期、内容及び会場につきましては、現時点では未定です」と明記されており、新日程は本調査時点でも未確定。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40770,16 +40733,8 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "conflict_note",
-        "requires_check",
-        "time_start",
-        "time_end",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40852,16 +40807,8 @@
       "video_url": "不明",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "conflict_note",
-        "requires_check",
-        "date_note",
-        "time_start",
-        "time_end",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40968,10 +40915,8 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "id"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43111,20 +43056,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "id",
-        "date_start",
-        "date_end",
-        "time_start",
-        "time_end",
-        "trust_level",
-        "conflict_note",
-        "requires_check",
-        "rain_policy",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43181,10 +43114,8 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "id"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43240,10 +43171,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "id"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43295,10 +43224,8 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "id"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43766,16 +43693,8 @@
       "trust_level": "高",
       "conflict_note": "ニセコ観光公式サイト(niseko.co.jp)の2026年イベントページで前夜祭8/28・本祭8/29とも11:00〜21:00、主催「一般社団法人倶知安観光協会」と確認（2026-08-18）。以前見られた12:00表記や「ひらふ祭り実行委員会」表記は、実行委員会が運営主体として併記されていたことによるものと判断。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "organizer",
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43839,7 +43758,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -43909,16 +43828,8 @@
       "trust_level": "高",
       "conflict_note": "「2026年中止・開催時期変更が決定した花火大会」一覧(jorudan)が「柿崎納涼花火大会→8月13日(木)、台風15号の影響」と明記しており、ウェザーニュース・じゃらんの当初報道（8/11→台風延期で8/13）と一致。にいがた観光ナビ側の掲載（8/11）は台風による変更後の更新が反映されていなかった可能性が高いと判断し、8/13を採用。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43983,7 +43894,7 @@
       "trust_level": "高",
       "conflict_note": "神社ごとに祭礼日が異なり(10/14-17に分散)、単一の「開催日」として一元化しにくいため、代表として最も規模の大きい伊曽乃神社祭礼を含む全体期間(10/14-17)をdate_start/date_endとした。データベース内の既存祭りとの重複（岸和田だんじり祭など）とは主催・地域が異なる別祭りであることを確認済み。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
