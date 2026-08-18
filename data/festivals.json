@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18 17:18",
+  "last_updated": "2026-08-18 18:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -23666,13 +23666,8 @@
       "trust_level": "高",
       "conflict_note": "従来、10/3-4は「10月第1土日」という通例からの推定日程だったが、三重県観光連盟公式サイト「観光三重」に2026年10月3日(土)～4日(日)予定と明記されていることを確認（サイト内表記に軽微な年号タイプミスあり）。諏訪神社公式サイト自体は例年通り開催間近の告知待ちで確定日程は未掲載のまま。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": "日程自体の変更はなし。2026年10月3日(土)～4日(日)の推定日程が観光三重（三重県観光連盟公式）により裏付けられた。"
@@ -43970,6 +43965,136 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_723",
+      "name": "たるみずふれあいフェスタ夏祭り（垂水港まつり花火大会）",
+      "alternate_names": [
+        "垂水港まつり花火大会",
+        "たるみずふれあいフェスタ"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "垂水市",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "台風13号の影響により8月8日(土)から8月15日(土)に延期",
+      "time_start": "16:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "旧垂水港特設会場",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1046e00495/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/5501051/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "ジョルダン 花火大会2026 中止・延期情報",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "2026年：台風13号の影響で8月8日→8月15日に延期"
+      }
+    },
+    {
+      "id": "festival_724",
+      "name": "猿追い祭",
+      "alternate_names": [
+        "片品の猿追い祭",
+        "片品の猿祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "群馬県",
+      "city": "利根郡片品村",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "毎年旧暦9月中の申(さる)の日に花咲地区で開催。2026年の具体的な西暦日程は情報源に明記なし。日付不明のため信頼度を上げず要確認とする。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "武尊山の白い猿が作物を荒らしたという由来があり、東西に分かれて赤飯を投げ合う行事。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.vill.katashina.gunma.jp/syoukai/bunkazai/2016-0509-1437-38.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.vill.katashina.gunma.jp/syoukai/bunkazai/2016-0509-1437-38.html",
+          "site_name": "片品村役場公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://online.bunka.go.jp/heritages/detail/215179",
+          "site_name": "文化遺産オンライン（文化庁）",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://oze-katashina.info/blog/623/",
+          "site_name": "かたしないろ（片品村観光協会）",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
