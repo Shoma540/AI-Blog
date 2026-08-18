@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18 08:14",
+  "last_updated": "2026-08-18 12:22",
   "festivals": [
     {
       "id": "festival_001",
@@ -3952,7 +3952,7 @@
       "city": "川越市",
       "date_start": "2026-10-17",
       "date_end": "2026-10-18",
-      "date_note": "10月第3土日開催",
+      "date_note": "10月第3土日開催。川越まつり公式サイト(kawagoematsuri.jp)にて「令和8年10月17日（土）、18日（日）開催予定」と一次公式発表を確認（2026-08-18時点）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -4007,13 +4007,25 @@
           "site_name": "川越まつり会館",
           "is_official": true,
           "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://kawagoematsuri.jp/",
+          "site_name": "川越まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "複数の情報源で「令和8年10月17日(土)・18日(日)」の開催予定が確認できたが、川越氷川神社・川越まつり実行委員会による一次公式発表の明記は未確認のため信頼度は中に留める。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "conflict_note",
+        "requires_check",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26357,13 +26369,24 @@
           "site_name": "京都新聞",
           "is_official": false,
           "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "花火大会2026（じゃらん系）中止・延期一覧",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "確定情報ではないため要確認フラグを立てる。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "jorudanの「2026年中止・非開催花火大会」一覧に「京都・保津川花火大会」が中止として掲載されていることを確認（2026-08-18）。ただし亀岡市・主催者による公式中止告知ページ自体は本調査時点で未確認。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -35348,62 +35371,6 @@
       }
     },
     {
-      "id": "festival_570",
-      "name": "たるみずふれあいフェスタ2026夏祭り",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "prefecture": "鹿児島県",
-      "city": "垂水市",
-      "date_start": "2026-08-15",
-      "date_end": "2026-08-15",
-      "date_note": "当初2026年8月8日(土)開催予定だったが、台風13号の影響により8月15日(土)に延期された。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "延期（台風のため8/8開催分は8/15に延期）",
-      "organizer": "垂水市",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "http://www.city.tarumizu.lg.jp/shokogyo/koi/miryoku/event/festa-enki.html",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "http://www.city.tarumizu.lg.jp/shokogyo/koi/miryoku/event/festa-enki.html",
-          "site_name": "垂水市公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-10"
-        },
-        {
-          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
-          "site_name": "ジョルダン（2026年中止・開催時期変更が決定した花火大会一覧）",
-          "is_official": false,
-          "retrieved_date": "2026-08-10"
-        }
-      ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_571",
       "name": "十和田市秋まつり",
       "alternate_names": [],
@@ -36121,10 +36088,10 @@
       "city": "真岡市",
       "date_start": "2026-08-29",
       "date_end": "2026-08-29",
-      "date_note": "",
-      "time_start": "19:30",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "date_note": "真岡市公式サイトで確認：8/29(土)16:30〜20:20頃（郷土芸能大会16:30〜、ふれあい広場17:00〜、オープニング18:00〜、盆踊り18:30〜、大花火大会19:30〜20:20頃、約5000発）。荒天の場合9/5(土)同時刻に延期。",
+      "time_start": "16:30",
+      "time_end": "20:20",
+      "rain_policy": "荒天の場合9月5日(土)同時刻に延期",
       "organizer": "不明",
       "genre": [
         "花火"
@@ -36156,13 +36123,28 @@
           "site_name": "ウォーカープラス 花火大会2026",
           "is_official": false,
           "retrieved_date": "2026-08-11"
+        },
+        {
+          "url": "https://www.city.moka.lg.jp/kakuka/shokokanko/event/20664.html",
+          "site_name": "真岡市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "time_start",
+        "time_end",
+        "date_note",
+        "rain_policy",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -38548,13 +38530,23 @@
           "site_name": "福井新聞ONLINE",
           "is_official": false,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "花火大会2026（じゃらん系）中止・延期一覧",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -39490,12 +39482,12 @@
       "similar_name_warning": false,
       "prefecture": "鹿児島県",
       "city": "垂水市",
-      "date_start": "2026-08-08",
-      "date_end": "2026-08-08",
-      "date_note": "打上日は2026年8月8日(土)。雨天の場合は8月15日(土)に順延。",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "date_note": "当初2026年8月8日(土)開催予定だったが、台風13号の影響により垂水市が延期を発表（垂水市公式サイトの延期告知ページ「festa-enki.html」で確認）、8月15日(土)に延期された。ジョルダン「2026年開催時期変更花火大会」一覧でも同日程で確認（2会場一致）。なお通常イベントページ「festa.html」は延期告知反映前の内容が残っていた可能性がある。",
       "time_start": "20:00",
       "time_end": "20:30",
-      "rain_policy": "雨天時は8月15日(土)に順延",
+      "rain_policy": "台風13号のため8/8→8/15に延期。8/15開催分がさらに荒天の場合の順延規定は未確認。",
       "organizer": "たるみずふれあいフェスタ夏祭り実行委員会（垂水市商工会）",
       "genre": [
         "花火"
@@ -39539,13 +39531,34 @@
           "site_name": "ウェザーニュース",
           "is_official": false,
           "retrieved_date": "2026-08-14"
+        },
+        {
+          "url": "http://www.city.tarumizu.lg.jp/shokogyo/koi/miryoku/event/festa-enki.html",
+          "site_name": "垂水市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "ジョルダン（2026年中止・開催時期変更が決定した花火大会一覧）",
+          "is_official": false,
+          "retrieved_date": "2026-08-10"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "旧DBでは「垂水市錦江湾花火大会」という祭り名で登録されていたが、公式サイト等で照合した結果、実際の正式名称は「たるみずふれあいフェスタ夏祭り」であることが判明したため訂正。かごしま錦江湾サマーナイト大花火大会（鹿児島市開催、別festival）とは別イベント。",
+      "conflict_note": "旧DBでは「垂水市錦江湾花火大会」の名称でも登録され、さらに本来同一祭りである「たるみずふれあいフェスタ2026夏祭り」(id festival_570)として重複登録されていたため、本サイクルで1件に統合。日程は延期後の8/15を採用。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "rain_policy",
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40327,13 +40340,23 @@
           "site_name": "熊本日日新聞社（随時更新：熊本でイベントの中止・延期相次ぐ 2026年熊本地震）",
           "is_official": false,
           "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://www.city.uto.lg.jp/article/view/1095/16383.html",
+          "site_name": "宇土市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "",
+      "trust_level": "高",
+      "conflict_note": "宇土市公式サイトで延期の正式発表を確認（2026-08-18）。「開催時期、内容及び会場につきましては、現時点では未定です」と明記されており、新日程は本調査時点でも未確定。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40727,7 +40750,7 @@
       "id": "festival_669",
       "alternate_names": [],
       "similar_name_warning": false,
-      "date_note": "第20回。2年に一度の開催。",
+      "date_note": "2年に一度の開催、第20回。複数の独立情報源（ウォーカープラス、hanabi.cloud、とちぎびより）が2026年9月19日(土)19:00〜21:00・那珂川河畔運動公園・約2万発で一致。",
       "time_start": "19:00",
       "time_end": "21:00",
       "rain_policy": "不明",
@@ -40745,10 +40768,18 @@
         "instagram": "不明"
       },
       "video_url": "不明",
-      "conflict_note": "公式サイト未確認のため要確認",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "conflict_note",
+        "requires_check",
+        "time_start",
+        "time_end",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40781,6 +40812,18 @@
           "site_name": "花火に行こう",
           "is_official": false,
           "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0309e509319/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://oyama-navi.com/nasunofurusato-hanabi2026",
+          "site_name": "とちぎびより",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
         }
       ],
       "trust_level": "高"
@@ -40789,9 +40832,9 @@
       "id": "festival_670",
       "alternate_names": [],
       "similar_name_warning": false,
-      "date_note": "第14回。",
+      "date_note": "第14回。沼田花火大会公式サイト(numatahanabi.com)で「2026年9月12(土)」開催を確認（2026-08-18）。沼田市運動公園、開場16:00、打ち上げ19:00〜19:45。",
       "time_start": "19:00",
-      "time_end": "20:00",
+      "time_end": "19:45",
       "rain_policy": "不明",
       "organizer": "不明",
       "is_free": true,
@@ -40807,10 +40850,18 @@
         "instagram": "不明"
       },
       "video_url": "不明",
-      "conflict_note": "公式サイト未確認のため要確認",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "conflict_note",
+        "requires_check",
+        "date_note",
+        "time_start",
+        "time_end",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -40849,6 +40900,12 @@
           "site_name": "花火に行こう",
           "is_official": false,
           "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://numatahanabi.com/",
+          "site_name": "沼田花火大会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
         }
       ],
       "trust_level": "高"
@@ -40881,7 +40938,7 @@
       },
       "video_url": "不明",
       "conflict_note": "",
-      "id": "festival_671",
+      "id": "festival_719",
       "name": "HBA Special Night 道新・秋華火",
       "prefecture": "北海道",
       "city": "札幌市豊平区",
@@ -40911,8 +40968,10 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "id"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43004,7 +43063,7 @@
       }
     },
     {
-      "id": "festival_668",
+      "id": "festival_716",
       "name": "備中たかはし納涼花火",
       "alternate_names": [],
       "similar_name_warning": false,
@@ -43012,10 +43071,10 @@
       "city": "高梁市",
       "date_start": "2026-09-19",
       "date_end": "2026-09-19",
-      "date_note": "雨天順延時は9/26または9/27に延期の可能性あり。2026年開催日は情報源により9/19説と9/20説が混在しており要確認（9/20は前年2025年の開催日と一致するため誤情報混入の可能性あり）。",
+      "date_note": "高梁観光情報公式サイトで「2026年9月19日（土）18:00〜21:00ごろ　※雨天順延時　9月20日（日）」と確認（2026-08-18）。従来「9/20説」として参照されていた情報は2025年開催分（2025年は9/20が土曜日）の情報が混入したものと判明。2026年の正しい開催日は9/19(土)。",
       "time_start": "18:00",
       "time_end": "21:00",
-      "rain_policy": "雨天順延",
+      "rain_policy": "雨天順延時は9月20日(日)に延期",
       "organizer": "高梁青年会議所",
       "genre": [
         "花火"
@@ -43041,20 +43100,38 @@
           "site_name": "高梁観光情報｜備中たかはし",
           "is_official": true,
           "retrieved_date": "2026-08-16"
+        },
+        {
+          "url": "https://takahasikanko.or.jp/modules/event/index.php?content_id=459",
+          "site_name": "高梁観光情報（高梁市観光協会）公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "2026年の開催日について情報源間で9/19と9/20の記載が混在。要公式サイトでの最終確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "id",
+        "date_start",
+        "date_end",
+        "time_start",
+        "time_end",
+        "trust_level",
+        "conflict_note",
+        "requires_check",
+        "rain_policy",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
       }
     },
     {
-      "id": "festival_669",
+      "id": "festival_717",
       "name": "アイエスツール花火大会",
       "alternate_names": [
         "アイエスツール花火大会in白石島"
@@ -43104,15 +43181,17 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "id"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
       }
     },
     {
-      "id": "festival_670",
+      "id": "festival_718",
       "name": "越前かにまつり2026",
       "alternate_names": [],
       "similar_name_warning": true,
@@ -43161,15 +43240,17 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "id"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
       }
     },
     {
-      "id": "festival_671",
+      "id": "festival_720",
       "name": "ふるさと時代祭り（八朔祭）",
       "alternate_names": [
         "第42回ふるさと時代祭り"
@@ -43214,8 +43295,10 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "id"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43634,7 +43717,7 @@
       "time_start": "11:00",
       "time_end": "21:00",
       "rain_policy": "不明",
-      "organizer": "一般社団法人倶知安観光協会（一部情報源は「ひらふ祭り実行委員会」と記載、⚠️矛盾）",
+      "organizer": "一般社団法人倶知安観光協会（ひらふ祭り実行委員会が運営に関与）",
       "genre": [
         "花火",
         "その他"
@@ -43672,13 +43755,27 @@
           "site_name": "Niseko Area Guide",
           "is_official": false,
           "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://niseko.co.jp/events/hirafumatsuri2026/",
+          "site_name": "JAPAN NISEKO KUTCHAN（ニセコ観光公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾: 開催時間について公式イベントページは11:00〜21:00と記載する一方、他サイトの要約では12:00〜21:00とする情報もあり。主催団体名についても公式サイト内で「倶知安観光協会」と「ひらふ祭り実行委員会」の両方の記載が見られる。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "ニセコ観光公式サイト(niseko.co.jp)の2026年イベントページで前夜祭8/28・本祭8/29とも11:00〜21:00、主催「一般社団法人倶知安観光協会」と確認（2026-08-18）。以前見られた12:00表記や「ひらふ祭り実行委員会」表記は、実行委員会が運営主体として併記されていたことによるものと判断。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "organizer",
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43760,7 +43857,7 @@
       "city": "上越市（柿崎区）",
       "date_start": "2026-08-13",
       "date_end": "2026-08-13",
-      "date_note": "⚠️矛盾：複数のソース（ウェザーニュース、じゃらん）は当初日程を8月13日(木)とし、台風15号の影響で延期になったと報じているが、延期後の新日程は情報不明。一方、にいがた観光ナビ（新潟県公式）は8月11日(火・祝)開催と案内しており日付が一致しない。最新の公式発表を要確認。",
+      "date_note": "当初2026年8月11日(火・祝)開催予定だったが、台風15号の影響により8月13日(木)19:30〜20:30に延期（3ソース一致）。",
       "time_start": "19:30",
       "time_end": "20:30",
       "rain_policy": "雨天の場合は翌日以降に順延",
@@ -43801,11 +43898,91 @@
           "site_name": "にいがた観光ナビ（新潟県公式）",
           "is_official": true,
           "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
+          "site_name": "花火大会2026（じゃらん系）中止・延期一覧",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "開催日について、にいがた観光ナビは8月11日、ウェザーニュース・じゃらんは8月13日（台風延期・新日程不明）と表記が分かれている。",
-      "requires_check": true,
+      "trust_level": "高",
+      "conflict_note": "「2026年中止・開催時期変更が決定した花火大会」一覧(jorudan)が「柿崎納涼花火大会→8月13日(木)、台風15号の影響」と明記しており、ウェザーニュース・じゃらんの当初報道（8/11→台風延期で8/13）と一致。にいがた観光ナビ側の掲載（8/11）は台風による変更後の更新が反映されていなかった可能性が高いと判断し、8/13を採用。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "date_note",
+        "sources"
+      ],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_721",
+      "name": "西条まつり",
+      "alternate_names": [
+        "西条祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "西条市",
+      "date_start": "2026-10-14",
+      "date_end": "2026-10-17",
+      "date_note": "西条市内4神社の祭礼が連続して行われる総称。嘉母神社祭礼・石岡神社祭礼は10/14-15、伊曽乃神社祭礼（最大規模、だんじり・みこし約80台が加茂川に入る「川入り」で有名）は10/15-16、飯積神社祭礼は10/16-17。「川入り」は10/16夕刻。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "西条市（各神社氏子・だんじり関係団体）、(一社)西条市観光物産協会",
+      "genre": [
+        "だんじり",
+        "神輿",
+        "神事"
+      ],
+      "scale": "愛媛県を代表する大規模祭礼（だんじり・みこし合計約150台奉納）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "伊曽乃神社・石岡神社・嘉母神社・飯積神社という西条市内4つの神社の秋季例大祭が連続して行われる祭礼群の総称。だんじり・みこしが加茂川に入る「川入り」が最大の見どころ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR伊予西条駅下車",
+      "official_url": "https://www.iyokannet.jp/event/2552",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.iyokannet.jp/event/2552",
+          "site_name": "いよ観ネット（愛媛県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://ehime.travel/articles/saijo-event-map/",
+          "site_name": "まちかど愛媛",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://shikoku-tourism.com/feature/saijo_matsuri/saijo_matsuri",
+          "site_name": "四国ツーリズム創造機構",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "神社ごとに祭礼日が異なり(10/14-17に分散)、単一の「開催日」として一元化しにくいため、代表として最も規模の大きい伊曽乃神社祭礼を含む全体期間(10/14-17)をdate_start/date_endとした。データベース内の既存祭りとの重複（岸和田だんじり祭など）とは主催・地域が異なる別祭りであることを確認済み。",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
