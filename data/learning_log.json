@@ -119,6 +119,18 @@
       "verify_after": "2026-08-20",
       "result": "",
       "commit": "7afaa3bf50743b9393a5f3f88b4cee42bc32fc4a"
+    },
+    {
+      "date": "2026-08-18 08:16",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-18 08:14取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回(2026-08-15)のBreadcrumbList JSON-LD追加はverify_after到来（2026-08-18）につき本実行冒頭で効果測定し「変化なし」を記録した（アクセス自体が発生していないため）。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。plan.mdの「データ不十分期の改善テーマ」4項目は着手済みだが、generate_html.pyのCSSにnav a:hover, nav a.activeという未使用の現在地スタイルが既に定義されていた一方、html_page()が出力するnav要素側は常に静的な文字列でaria-current属性もactiveクラスも一切付与しておらず、index/map/calendarページを開いても現在地がナビゲーション上で視覚的・プログラム的に示されない状態だった。",
+      "action": "scripts/generate_html.py のhtml_page()に、url_pathから現在ページ（index.html/map.html/calendar.html）を判定し、該当するnavリンクにaria-current=\"page\"属性を付与する処理を追加した。あわせてCOMMON_CSSのセレクタをnav a:hover, nav a.active, nav a[aria-current=\"page\"]に拡張し、既存の未使用スタイルを活用する形で現在地を視覚的にも示すようにした。都道府県・月別ページのnavにはこの3リンクへの一致がないため影響なし。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "aria-current=\"page\"により、スクリーンリーダー・キーボード利用者が現在どのページを閲覧しているかナビゲーション上で認識できるようになり、また視覚的なハイライトによって晴眼ユーザーの現在地把握も改善するはず。アクセシビリティ面の改善であり、GA4のセッション数だけでは直接効果を測定できない性質のため、validate_site.pyでの構造維持確認を中心に経過観察する。",
+      "verify_after": "2026-08-21",
+      "result": "",
+      "commit": "97d9e47d31aee4de84852fbfb7d140260922571"
     }
   ]
 }
