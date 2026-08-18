@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18 12:22",
+  "last_updated": "2026-08-18 17:18",
   "festivals": [
     {
       "id": "festival_001",
@@ -23655,16 +23655,27 @@
           "site_name": "四日市観光協会",
           "is_official": true,
           "retrieved_date": "2026-07-20"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/event/31529",
+          "site_name": "観光三重（公益社団法人三重県観光連盟公式サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾: 諏訪神社公式サイト自体は2026年の確定日程を明記していない（例年変わるため都度告知としている）。10/3-4は二次情報源が「10月第1土日」という通例から算出したもので、神社・市による2026年向けの公式発表は未確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "従来、10/3-4は「10月第1土日」という通例からの推定日程だったが、三重県観光連盟公式サイト「観光三重」に2026年10月3日(土)～4日(日)予定と明記されていることを確認（サイト内表記に軽微な年号タイプミスあり）。諏訪神社公式サイト自体は例年通り開催間近の告知待ちで確定日程は未掲載のまま。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
-        "details": ""
+        "details": "日程自体の変更はなし。2026年10月3日(土)～4日(日)の推定日程が観光三重（三重県観光連盟公式）により裏付けられた。"
       }
     },
     {
@@ -43895,6 +43906,71 @@
       "conflict_note": "神社ごとに祭礼日が異なり(10/14-17に分散)、単一の「開催日」として一元化しにくいため、代表として最も規模の大きい伊曽乃神社祭礼を含む全体期間(10/14-17)をdate_start/date_endとした。データベース内の既存祭りとの重複（岸和田だんじり祭など）とは主催・地域が異なる別祭りであることを確認済み。",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_722",
+      "name": "諸鈍シバヤ",
+      "alternate_names": [
+        "諸鈍しばや"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "大島郡瀬戸内町",
+      "date_start": "2026-10-19",
+      "date_end": "2026-10-19",
+      "date_note": "旧暦9月9日に奉納される行事。2026年は10月19日（月）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "瀬戸内町（社会教育課図書館・郷土館）／諸鈍集落",
+      "genre": [
+        "民俗芸能",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": 800,
+      "history_description": "源平合戦に敗れた平資盛一行が奄美大島加計呂麻島の諸鈍集落に落ち延び、地元住民との交流の中で伝えたのが始まりとされる約800年の歴史を持つ伝統芸能。紙製の仮面と笠を着けた男性演者が、三味線伴奏に合わせて即興的な狂言・人形劇風の演目を演じる。現在11演目が伝承されている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "古仁屋からフェリーで生間港まで約20分、下船後バスで約5分。",
+      "official_url": "https://www.town.setouchi.lg.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kagoshima-kankou.com/event/12450",
+          "site_name": "鹿児島県観光サイト かごしまの旅（鹿児島県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://www.amami-tourism.org/event/25133/",
+          "site_name": "あまみの（奄美観光物産協会公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar1046e478060/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
