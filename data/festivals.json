@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19 17:24",
+  "last_updated": "2026-08-19 16:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -23670,7 +23670,7 @@
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
-        "details": "日程自体の変更はなし。2026年10月3日(土)～4日(日)の推定日程が観光三重（三重県観光連盟公式）により裏付けられた。"
+        "details": ""
       }
     },
     {
@@ -30609,9 +30609,9 @@
       "similar_name_warning": false,
       "prefecture": "大阪府",
       "city": "岸和田市",
-      "date_start": "2026-09-19",
-      "date_end": "2026-09-20",
-      "date_note": "9月祭礼9/19-20。10月祭礼は10/10-11",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "試験曳き10/4。宵宮10/10、本宮（やりまわし）10/11。9月祭礼（9/19-20）とは別日程。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -30636,32 +30636,43 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.city.kishiwada.lg.jp/site/danjiri/",
-          "site_name": "岸和田市公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-29"
+          "url": "https://rurubu.jp/andmore/spot/20003275",
+          "site_name": "るるぶ&more.",
+          "is_official": false,
+          "retrieved_date": "2026-08-19"
         },
         {
-          "url": "https://www.expo2025.fun/events/kishiwada-danjiri-2026/",
-          "site_name": "万博GO",
+          "url": "https://osaka-info.jp/event/kishiwadadanjirimaturi/",
+          "site_name": "大阪観光局公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://da-inn.com/kisiwadadanjiri-15939/",
+          "site_name": "季節お役立ち情報局",
           "is_official": false,
-          "retrieved_date": "2026-07-29"
+          "retrieved_date": "2026-08-19"
         },
         {
           "url": "https://www.city.kishiwada.lg.jp/adv/ba.php?id=184",
           "site_name": "岸和田市公式ウェブサイト",
           "is_official": true,
-          "retrieved_date": "2026-08-12"
+          "retrieved_date": "2026-07-29"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "日程データ誤り修正：2026-09-19〜2026-09-20（9月祭礼と同日で誤登録）→ 正しくは2026-10-10〜2026-10-11（10月祭礼）"
       }
     },
     {
@@ -44033,8 +44044,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "2026年：台風13号の影響で8月8日→8月15日に延期"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -44168,7 +44179,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44238,7 +44249,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44292,7 +44303,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44358,7 +44369,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44422,7 +44433,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44483,7 +44494,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44548,7 +44559,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44614,7 +44625,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44674,7 +44685,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44732,7 +44743,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44791,7 +44802,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44858,7 +44869,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44926,7 +44937,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -44992,7 +45003,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45051,7 +45062,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45111,7 +45122,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45177,7 +45188,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45243,7 +45254,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45304,7 +45315,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45370,7 +45381,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45437,7 +45448,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45503,7 +45514,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45563,7 +45574,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45630,7 +45641,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45696,7 +45707,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45763,7 +45774,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45829,7 +45840,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45895,7 +45906,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -45962,7 +45973,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46015,7 +46026,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46075,7 +46086,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46137,7 +46148,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46203,7 +46214,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46264,7 +46275,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46316,7 +46327,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46383,7 +46394,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46442,7 +46453,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46494,6 +46505,141 @@
       ],
       "trust_level": "低",
       "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_763",
+      "name": "よさこい高知文化祭2026（第41回国民文化祭・第26回全国障害者芸術・文化祭）",
+      "alternate_names": [
+        "国民文化祭2026",
+        "全国障害者芸術・文化祭2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "高知県",
+      "city": "高知県内各地",
+      "date_start": "2026-10-25",
+      "date_end": "2026-12-06",
+      "date_note": "会期43日間。開会式・関連事業は会場ごとに日程が分かれる。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明（屋内会場が中心の見込み）",
+      "organizer": "第41回国民文化祭・第26回全国障害者芸術・文化祭高知県実行委員会",
+      "genre": [
+        "その他"
+      ],
+      "scale": "国民文化祭（文化庁・高知県主催の全国規模の文化の祭典）",
+      "is_free": false,
+      "price": "事業により異なる（不明）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "全国の文化活動を発表・共演・交流する「文化の国体」と呼ばれる国民文化祭と、障害者芸術・文化祭を統一開催。高知県では初開催で、来場100万人規模を見込む。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "100万人規模を見込む（主催者発表）",
+      "access": "不明",
+      "official_url": "https://yosakoi-kochi-bunkasai2026.pref.kochi.lg.jp/index.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://yosakoi-kochi-bunkasai2026.pref.kochi.lg.jp/about.html",
+          "site_name": "よさこい高知文化祭2026 公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://www.city.kochi.kochi.jp/site/yosakoi-bunkasai2026/",
+          "site_name": "高知市公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://www.city.tosa.lg.jp/life/detail.php?hdnKey=5810",
+          "site_name": "土佐市公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://news.yahoo.co.jp/expert/articles/4d25cdd621a7b4150074d6ddf09929ff145c2f66",
+          "site_name": "Yahoo!ニュース エキスパート",
+          "is_official": false,
+          "retrieved_date": "2026-08-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_764",
+      "name": "長野えびす講煙火大会",
+      "alternate_names": [
+        "第120回長野えびす講煙火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "長野市",
+      "date_start": "2026-11-23",
+      "date_end": "2026-11-23",
+      "date_note": "一部サイトでは2026年開催日を「未定」と表記しており、正式発表前の情報の可能性がある。18時打上げ開始との情報あり。",
+      "time_start": "18:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "長野えびす講煙火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（全国でも珍しい11月開催の大規模花火大会）",
+      "is_free": true,
+      "price": "見学無料（有料観覧席の可能性あり・不明）",
+      "ticket_url": "不明",
+      "history_years": 120,
+      "history_description": "長野市の秋の風物詩として毎年11月に開催される花火大会。今回で第120回。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "会場：長野大橋西側 犀川第2緑地（情報あり・要確認）",
+      "official_url": "https://www.nagano-ebisukou.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.nagano-ebisukou.jp/",
+          "site_name": "長野えびす講煙火大会 公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0420e01112/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://hanabi-navi.info/nagano/4331/",
+          "site_name": "花火大会ナビ",
+          "is_official": false,
+          "retrieved_date": "2026-08-19"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾：開催日について「2026年11月23日」とする情報源と「2026年未定」とする情報源が併存。公式サイトでの最終確認を推奨。",
       "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
