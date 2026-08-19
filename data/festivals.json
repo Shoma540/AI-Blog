@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19 16:16",
+  "last_updated": "2026-08-19 17:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -30663,13 +30663,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "日程データ誤り修正：2026-09-19〜2026-09-20（9月祭礼と同日で誤登録）→ 正しくは2026-10-10〜2026-10-11（10月祭礼）"
@@ -46577,7 +46572,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46641,7 +46636,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：開催日について「2026年11月23日」とする情報源と「2026年未定」とする情報源が併存。公式サイトでの最終確認を推奨。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
