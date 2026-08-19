@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19 17:11",
+  "last_updated": "2026-08-20 03:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -4250,20 +4250,28 @@
           "url": "https://www.town.manazuru.kanagawa.jp/soshiki/sangyoukankou/kanko/2258.html",
           "site_name": "真鶴町公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-07-15"
+          "retrieved_date": "2026-07-24"
         },
         {
           "url": "https://www.manazuru.net/kibune2026/",
-          "site_name": "真鶴町観光協会（「令和8年貴船まつり」ページ）",
+          "site_name": "真鶴町観光協会",
           "is_official": true,
-          "retrieved_date": "2026-07-15"
+          "retrieved_date": "2026-07-24"
+        },
+        {
+          "url": "https://kibunematsuri.jp/nittei.html",
+          "site_name": "真鶴貴船まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-24"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "CONFLICT_RESOLVED",
+      "updated_fields": [
+        "重複データ統合(festival_434を統合)"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27404,69 +27412,6 @@
     {
       "alternate_names": [],
       "similar_name_warning": false,
-      "date_note": "宵宮(7/24・西小早船海上渡御・貴船まつり宵宮コンサート)、本祭(7/25・東小早船海上渡御)。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "真鶴町・貴船まつり実行委員会",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "貴船神社例大祭。華やかな花飾り・吹き流しで飾られた小早船と神輿船を櫂伝馬で曳く海上渡御が特徴。平成8年に国の重要無形民俗文化財に指定。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "真鶴港周辺",
-      "official_url": "https://kibunematsuri.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      },
-      "id": "festival_434",
-      "name": "真鶴貴船まつり",
-      "prefecture": "神奈川県",
-      "city": "真鶴町",
-      "date_start": "2026-07-24",
-      "date_end": "2026-07-25",
-      "genre": [
-        "神輿",
-        "山車"
-      ],
-      "scale": "国指定重要無形民俗文化財／日本三大船祭りの一つ",
-      "sources": [
-        {
-          "url": "https://kibunematsuri.jp/nittei.html",
-          "site_name": "真鶴貴船まつり公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-24"
-        },
-        {
-          "url": "https://www.town.manazuru.kanagawa.jp/soshiki/sangyoukankou/kanko/2258.html",
-          "site_name": "真鶴町公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-24"
-        },
-        {
-          "url": "https://www.manazuru.net/kibune2026/",
-          "site_name": "真鶴町観光協会",
-          "is_official": true,
-          "retrieved_date": "2026-07-24"
-        }
-      ],
-      "trust_level": "高"
-    },
-    {
-      "alternate_names": [],
-      "similar_name_warning": false,
       "date_note": "祭り自体は7/25(土)14:30〜21:00・7/26(日)10:00〜21:00。目玉の納涼花火大会は26日夜(19:30〜21:00予定)。",
       "time_start": "19:30",
       "time_end": "21:00",
@@ -29569,8 +29514,11 @@
     },
     {
       "id": "festival_472",
-      "name": "うえの夏まつり",
-      "alternate_names": [],
+      "name": "江戸趣味納涼大会・うえの夏まつり",
+      "alternate_names": [
+        "うえの夏まつり",
+        "第75回江戸趣味納涼大会・うえの夏まつり"
+      ],
       "similar_name_warning": false,
       "prefecture": "東京都",
       "city": "台東区",
@@ -29582,13 +29530,14 @@
       "rain_policy": "不明",
       "organizer": "一般社団法人上野観光連盟（共催：東京都・台東区）",
       "genre": [
-        "その他"
+        "その他",
+        "盆踊り"
       ],
       "scale": "不明",
       "is_free": true,
       "price": "不明",
       "ticket_url": "不明",
-      "history_years": "不明",
+      "history_years": 75,
       "history_description": "上野恩賜公園不忍池周辺・水上音楽堂で開催される第75回江戸趣味納涼大会・うえの夏まつり。水上音楽堂でのステージイベントや屋台、猿回し、納涼ゆかた撮影会などが催される。",
       "food_stalls": "不明",
       "crowd_level": "不明",
@@ -29608,9 +29557,9 @@
         },
         {
           "url": "https://enjoy.ueno.or.jp/summer2026/",
-          "site_name": "うえの夏まつり公式サイト",
+          "site_name": "うえの夏まつり2026 公式サイト（上野観光連盟）",
           "is_official": true,
-          "retrieved_date": "2026-07-31"
+          "retrieved_date": "2026-08-09"
         },
         {
           "url": "https://t-navi.city.taito.lg.jp/event/1415",
@@ -29623,13 +29572,23 @@
           "site_name": "GO TOKYO（東京都公式観光サイト）",
           "is_official": true,
           "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://www.uenopark.info/2026/ueno-summer-festival-2026-edoshumi-noryo-taikai/",
+          "site_name": "上野公園.info",
+          "is_official": false,
+          "retrieved_date": "2026-08-09"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "CONFLICT_RESOLVED",
+      "updated_fields": [
+        "名称統合(festival_556を統合)",
+        "genre",
+        "history_years"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -34570,65 +34529,6 @@
       }
     },
     {
-      "id": "festival_556",
-      "name": "江戸趣味納涼大会・うえの夏まつり",
-      "alternate_names": [
-        "うえの夏まつり",
-        "第75回江戸趣味納涼大会・うえの夏まつり"
-      ],
-      "similar_name_warning": true,
-      "prefecture": "東京都",
-      "city": "台東区",
-      "date_start": "2026-07-10",
-      "date_end": "2026-08-11",
-      "date_note": "催しにより日程・時間が異なる（上野之縁日、骨董市、水上音楽堂公演、ゆかた撮影会など）。上野公園周辺には同時期に別主催の類似イベント（盆踊り等）も複数開催されるため、名称が似た他イベントと混同しないよう注意。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "一般社団法人 上野観光連盟",
-      "genre": [
-        "盆踊り"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "催しにより異なる（縁日・スタンプラリー等は参加無料、ゆかた撮影会や一部音楽堂公演は有料）",
-      "ticket_url": "不明",
-      "history_years": 75,
-      "history_description": "江戸趣味納涼大会として75回を数える、上野公園不忍池周辺で行われる伝統的な夏まつり。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://enjoy.ueno.or.jp/summer2026/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://enjoy.ueno.or.jp/summer2026/",
-          "site_name": "うえの夏まつり2026 公式サイト（上野観光連盟）",
-          "is_official": true,
-          "retrieved_date": "2026-08-09"
-        },
-        {
-          "url": "https://www.uenopark.info/2026/ueno-summer-festival-2026-edoshumi-noryo-taikai/",
-          "site_name": "上野公園.info",
-          "is_official": false,
-          "retrieved_date": "2026-08-09"
-        }
-      ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_557",
       "name": "南御堂盆おどり",
       "alternate_names": [
@@ -39222,7 +39122,9 @@
       "name": "安房国司祭（やわたんまち）",
       "alternate_names": [
         "鶴谷八幡宮例大祭",
-        "やわたんまち"
+        "やわたんまち",
+        "安房国司祭 鶴谷八幡宮例大祭（やわたんまち）",
+        "安房八幡祭"
       ],
       "similar_name_warning": false,
       "prefecture": "千葉県",
@@ -39259,26 +39161,28 @@
           "url": "https://www.tsurugayahachimangu.com/%E4%BE%8B%E5%A4%A7%E7%A5%AD",
           "site_name": "鶴谷八幡宮 公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-08-13"
+          "retrieved_date": "2026-08-17"
         },
         {
           "url": "https://www.city.tateyama.chiba.jp/minato/page100195.html",
           "site_name": "館山市役所",
           "is_official": true,
-          "retrieved_date": "2026-08-13"
+          "retrieved_date": "2026-08-17"
         },
         {
           "url": "https://maruchiba.jp/event/detail_10864.html",
-          "site_name": "ちば観光ナビ（千葉県公式観光サイト）",
+          "site_name": "千葉県公式観光サイト ちば観光ナビ",
           "is_official": true,
-          "retrieved_date": "2026-08-13"
+          "retrieved_date": "2026-08-17"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "CONFLICT_RESOLVED",
+      "updated_fields": [
+        "重複データ統合(festival_711を統合)"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43509,73 +43413,6 @@
       }
     },
     {
-      "id": "festival_711",
-      "name": "安房国司祭 鶴谷八幡宮例大祭（やわたんまち）",
-      "alternate_names": [
-        "安房八幡祭",
-        "やわたんまち",
-        "鶴谷八幡宮例大祭"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "千葉県",
-      "city": "館山市",
-      "date_start": "2026-09-19",
-      "date_end": "2026-09-20",
-      "date_note": "敬老の日前の土曜・日曜に開催。初日に10社の神輿が御仮屋へ渡御、2日目に北条地区の山車・御船が参加。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "鶴谷八幡宮",
-      "genre": [
-        "神輿",
-        "山車"
-      ],
-      "scale": "千葉県指定無形民俗文化財",
-      "is_free": true,
-      "price": "見学無料",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "安房国司祭と呼ばれ、安房国十カ社の神輿が鶴谷八幡宮に集まる安房地域最大規模の例大祭。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://www.tsurugayahachimangu.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.city.tateyama.chiba.jp/minato/page100195.html",
-          "site_name": "館山市役所",
-          "is_official": true,
-          "retrieved_date": "2026-08-17"
-        },
-        {
-          "url": "https://maruchiba.jp/event/detail_10864.html",
-          "site_name": "千葉県公式観光サイト ちば観光ナビ",
-          "is_official": true,
-          "retrieved_date": "2026-08-17"
-        },
-        {
-          "url": "https://www.tsurugayahachimangu.com/%E4%BE%8B%E5%A4%A7%E7%A5%AD",
-          "site_name": "鶴谷八幡宮 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-17"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_712",
       "name": "第52回八千代ふるさと親子祭",
       "alternate_names": [
@@ -46637,6 +46474,70 @@
       "conflict_note": "⚠️ 矛盾：開催日について「2026年11月23日」とする情報源と「2026年未定」とする情報源が併存。公式サイトでの最終確認を推奨。",
       "requires_check": true,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_765",
+      "name": "第5回水都くらわんか花火大会",
+      "alternate_names": [
+        "水都くらわんか花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "枚方市・高槻市",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-20",
+      "date_note": "淀川河川公園枚方地区（枚方会場）・大塚地区（高槻会場）の2会場で開催。",
+      "time_start": "19:10",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "水都くらわんか花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "有料観覧席あり（詳細はeplus等チケットサイト参照）。一般河川敷からの無料観覧も可能とみられるが公式記載未確認。",
+      "ticket_url": "https://eplus.jp/sf/word/0000159802",
+      "history_years": 5,
+      "history_description": "「百年続く花火大会」を理念に掲げ、枚方市・高槻市・交野市で前年に生まれた子どもの数と慰霊100発を合わせた4877発を打ち上げるのが特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "枚方会場：京阪本線枚方市駅から徒歩10分。高槻会場：京阪京都線高槻市駅からバスで北大塚停留所下車、徒歩15分。",
+      "official_url": "https://kitabiwako.jp/fireworks",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0727e474856/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://hirairo.com/see/suito-kurawanka-hanabi2026-71268",
+          "site_name": "ひらいろ（枚方市観光情報誌）",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www2.myjcom.jp/special/jch/matsuri_hanabi/osaka/suitokurawanka_hanabi.shtml",
+          "site_name": "J:COM 祭り花火特集",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
