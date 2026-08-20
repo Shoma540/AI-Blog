@@ -343,6 +343,15 @@ footer {
     color: #999; margin-top: 0.5rem;
   }
 }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .festival-card:hover { transform: none; }
+}
 </style>
   <style>
 /* CSS Document */
@@ -881,7 +890,7 @@ footer {
     <span style="display:flex;align-items:center;gap:0.4rem;"><span style="width:16px;height:16px;border-radius:4px;background:#e8e0d8;"></span> 情報なし</span>
   </div>
 </div>
-<footer>最終更新: 2026-08-20 03:14</footer>
+<footer>最終更新: 2026-08-20 08:17</footer>
 </main>
 </body>
 </html>
