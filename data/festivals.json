@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20 08:17",
+  "last_updated": "2026-08-20 12:28",
   "festivals": [
     {
       "id": "festival_001",
@@ -7586,10 +7586,9 @@
     {
       "name": "米子がいな祭",
       "alternate_names": [
-        "第53回米子がいな祭",
-        "みなと祭"
+        "第53回米子がいな祭"
       ],
-      "similar_name_warning": true,
+      "similar_name_warning": false,
       "prefecture": "鳥取県",
       "city": "米子市",
       "date_start": "2026-08-07",
@@ -7646,11 +7645,16 @@
         }
       ],
       "trust_level": "高",
-      "conflict_note": "一部サイト（とっとりずむ）で「第81回みなと祭」（JR米子駅前・湊山公園周辺、8月7日〜9日）として紹介されており、日程・会場が本祭りと完全一致するため同一の祭りの別表記の可能性が高いと判断し別表記に追加。ただし米子市公式・実行委員会による名称対応の一次確認は未取得のため要確認フラグを維持。",
-      "requires_check": true,
+      "conflict_note": "訂正: 以前「みなと祭（第81回）」を本祭りと同一の別表記として記録していたが、本日の再確認で「第81回みなと祭」は境港市開催（7月25-26日、花火は7月26日）の別イベント（festival_242）であり、米子がいな祭（米子市・8月7-9日開催）とは開催地・日程とも異なる別の祭りであることが判明したため、「みなと祭」を別表記から削除し、混同注記を解消する。",
+      "requires_check": false,
       "id": "festival_110",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names",
+        "similar_name_warning",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -15906,13 +15910,36 @@
           "site_name": "空花火2026（再確認）",
           "is_official": false,
           "retrieved_date": "2026-07-28"
+        },
+        {
+          "url": "https://tottorizumu.com/81-minatomaturi/",
+          "site_name": "とっとりずむ",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://tottori-eventnavi.jp/events/1073",
+          "site_name": "とっとりイベントナビ",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87666.html",
+          "site_name": "ジョルダン花火情報",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "訂正: 8月9日は別イベント（米子がいな祭花火大会）との混同だった可能性が高い。境港市公式または境港市観光協会の一次ソースでの最終確認は未取得のため信頼度は「中」を維持。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "当初「8月9日」として記録していたが、一次ソース（空花火2026）の再確認により「8月9日は米子がいな祭花火大会」と明確に区別されており、みなと祭花火大会自体は7月26日開催と判明し訂正済み。本日、とっとりずむ・とっとりイベントナビ・ジョルダンの3件以上が独立に7月26日開催で一致し、米子がいな祭（festival_110、米子市・8月7-9日）とは開催地（境港市）・日程とも別イベントであることを再確認できたため、信頼度を「高」に引き上げ、要確認フラグを解除する。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "conflict_note",
+        "requires_check",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -46593,7 +46620,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46661,7 +46688,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46718,6 +46745,382 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_769",
+      "name": "大曲の花火 －秋の章－",
+      "alternate_names": [
+        "大曲の花火 秋の章",
+        "大曲花火芸術祭 秋の章"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "秋田県",
+      "city": "大仙市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "荒天の場合は10/4(日)または10/10(土)に延期予定。開場15:00〜。8月開催の「大曲の花火（全国花火競技大会／夏の章、festival_016）」とは別日程の秋開催イベント。",
+      "time_start": "18:00",
+      "time_end": "19:30",
+      "rain_policy": "荒天延期（10/4または10/10）",
+      "organizer": "大曲商工会議所・大仙市",
+      "genre": [
+        "花火"
+      ],
+      "scale": "打上数約8,000発",
+      "is_free": false,
+      "price": "有料観覧席あり（詳細はチケット案内ページ参照、9/7発売開始）",
+      "ticket_url": "https://www.omagari-hanabi.com/overview/autumn/",
+      "history_years": "不明",
+      "history_description": "「創造花火」発祥の地・大曲で開催される花火芸術祭。オープニング花火、若手花火師プロデュース、芸術花火、フィナーレ花火（10号玉100連発）、ドローンショーなどを実施予定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.omagari-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.omagari-hanabi.com/overview/autumn/",
+          "site_name": "大曲の花火 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.tohokumatsuri.jp/cate_akita/post-2838/",
+          "site_name": "東北のまつり",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0205e367495/data.html",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_770",
+      "name": "多賀大社 九月古例祭",
+      "alternate_names": [
+        "九月古例祭",
+        "これいさい"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "滋賀県",
+      "city": "犬上郡多賀町",
+      "date_start": "2026-09-09",
+      "date_end": "2026-09-09",
+      "date_note": "重陽の節句（9月9日）に毎年斎行される固定日程の祭事。4月の「古例大祭（多賀まつり）」（festival_372とは別の万灯祭とも異なる）とは別の祭事。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "多賀大社",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "重陽の節句に斎行される九月古例祭。式中、町内の青年二人による豊凶を占う「古知古知（こちこち）相撲」が執り行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.tagataisya.or.jp/event/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tagataisya.or.jp/event/%E4%B9%9D%E6%9C%88%E5%8F%A4%E4%BE%8B%E7%A5%AD%EF%BC%88%E3%81%93%E3%82%8C%E3%81%84%E3%81%95%E3%81%84%EF%BC%89/",
+          "site_name": "多賀大社 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://ekitan.com/event/evid-30aa2825fd9f7e6f6299845c3a08cb6d",
+          "site_name": "駅探",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "既存の「多賀大社 万灯祭」（festival_372、8/3-5）や「古例大祭（多賀まつり）」（例年4月）とは別の祭事。名称類似のため混同注意。2026年固有の時間等の一次確認は未取得。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_771",
+      "name": "あつぎ鮎まつり",
+      "alternate_names": [
+        "第80回あつぎ鮎まつり",
+        "あつぎ鮎まつり大花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "厚木市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "第80回。大花火大会は10/10(土)のみ実施。荒天中止の場合は延期なし。",
+      "time_start": "17:40",
+      "time_end": "19:00",
+      "rain_policy": "中止の場合、延期なし",
+      "organizer": "あつぎ鮎まつり実行委員会（厚木市商業観光課）",
+      "genre": [
+        "花火",
+        "屋台"
+      ],
+      "scale": "県下最大級、打上数約1万発",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": 80,
+      "history_description": "相模川三川合流点で行われる花火大会を中心に、厚木中央公園や中央通りなど市内各所で催しが行われる厚木市最大級の祭り。",
+      "food_stalls": "屋台多数",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "相模川三川合流点周辺",
+      "official_url": "https://www.atsugi-kankou.jp/site/ayu-festival/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.atsugi-kankou.jp/site/ayu-festival/",
+          "site_name": "厚木市観光協会 あつぎ観光なび（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/2301034/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0314e00243/data.html",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "花火打上時間は公式サイトで「17:40〜19:00」、ウォーカープラス等では「19:00〜20:10」との記載もあり時間表記に差異あり。公式サイトの時間を採用。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_772",
+      "name": "吉祥寺秋まつり（武蔵野八幡宮例大祭）",
+      "alternate_names": [
+        "第54回吉祥寺秋まつり",
+        "武蔵野八幡宮例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "武蔵野市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-13",
+      "date_note": "第54回。武蔵野八幡宮の例大祭本体は9/15(火)14時頃〜別途開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "吉祥寺秋まつり実行委員会",
+      "genre": [
+        "神輿",
+        "山車",
+        "縁日"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 54,
+      "history_description": "武蔵野八幡宮を中心に、吉祥寺の7つの商店街それぞれから神輿・山車が出て、複数の神輿が集結する神輿連合渡御が最大の見どころ。縁日や夜店も多数出店する。",
+      "food_stalls": "縁日・夜店多数",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "吉祥寺駅周辺（コピス前、サンロード、吉祥寺マルイ前等）",
+      "official_url": "https://musashino-kanko.com/musashino-event/kichijoji-akimatsuri2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://musashino-kanko.com/musashino-event/kichijoji-akimatsuri2026/",
+          "site_name": "武蔵野市観光機構（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.chuo-besthome.co.jp/local/kichijyoji-autumn-festival/",
+          "site_name": "殖産ベスト地域情報",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://locapop.jp/event/tokyo-kichijoji-aki-matsuri-2026/",
+          "site_name": "LOCAPOP",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_773",
+      "name": "建水分神社秋まつり",
+      "alternate_names": [
+        "建水分神社秋祭り",
+        "建水分神社御神輿渡御祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "南河内郡千早赤阪村",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "例年10月第3土曜日開催の伝統から2026年は10/17(土)前後と推定されるが、村・神社による2026年分の一次公式発表は本稿時点で未確認のため日程は「不明」のまま記録。千早赤阪村・富田林市・河南町の氏子地区から約20台の地車（だんじり）が参加。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "建水分神社",
+      "genre": [
+        "だんじり",
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "御神霊を御旅所（日之前）へ渡御する祭礼。千早赤阪村・富田林市・河南町の氏子地区から約20台の地車（だんじり）が集まり、若者衆による「にわか」が奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://takemikumari.sakura.ne.jp/sairei.htm",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://minakawa-trip.jp/b-c_featured/b-c_event/2497/",
+          "site_name": "みなかわとりっぷ",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20000137",
+          "site_name": "るるぶ&more.",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "開催日は例年パターン（10月第3土曜）からの推定のみで、2026年の一次確認は未取得。要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_774",
+      "name": "二荒山神社菊水祭",
+      "alternate_names": [
+        "菊水祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "宇都宮市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "例年10月最終土曜・日曜開催（2025年は10/25-26）。2026年の具体的日程は本稿時点で一次ソース未確認のため「不明」のまま記録。10/21の秋山祭に続く行事。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "雨天の場合、流鏑馬・みこし渡御が中止となる年あり",
+      "organizer": "二荒山神社",
+      "genre": [
+        "神輿",
+        "流鏑馬"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "二荒山神社の祭神・豊城入彦命が神輿に乗り宇都宮の街を渡御する鳳輦渡御と流鏑馬神事が行われる。数年おきに山車・屋台が渡御に供奉する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://futaarayamajinja.jp/nenkan/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.utsunomiya-cvb.org/event/detail_20021.html",
+          "site_name": "宇都宮観光コンベンション協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.tochigiji.or.jp/event/e39456",
+          "site_name": "とちぎ旅ネット",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "2026年の具体的開催日は一次ソース未確認。要確認。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
