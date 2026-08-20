@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20 12:28",
+  "last_updated": "2026-08-21 06:19",
   "festivals": [
     {
       "id": "festival_001",
@@ -7648,13 +7648,8 @@
       "conflict_note": "訂正: 以前「みなと祭（第81回）」を本祭りと同一の別表記として記録していたが、本日の再確認で「第81回みなと祭」は境港市開催（7月25-26日、花火は7月26日）の別イベント（festival_242）であり、米子がいな祭（米子市・8月7-9日開催）とは開催地・日程とも異なる別の祭りであることが判明したため、「みなと祭」を別表記から削除し、混同注記を解消する。",
       "requires_check": false,
       "id": "festival_110",
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "similar_name_warning",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -15933,13 +15928,8 @@
       "trust_level": "高",
       "conflict_note": "当初「8月9日」として記録していたが、一次ソース（空花火2026）の再確認により「8月9日は米子がいな祭花火大会」と明確に区別されており、みなと祭花火大会自体は7月26日開催と判明し訂正済み。本日、とっとりずむ・とっとりイベントナビ・ジョルダンの3件以上が独立に7月26日開催で一致し、米子がいな祭（festival_110、米子市・8月7-9日）とは開催地（境港市）・日程とも別イベントであることを再確認できたため、信頼度を「高」に引き上げ、要確認フラグを解除する。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "conflict_note",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -46810,7 +46800,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46869,7 +46859,7 @@
       "trust_level": "中",
       "conflict_note": "既存の「多賀大社 万灯祭」（festival_372、8/3-5）や「古例大祭（多賀まつり）」（例年4月）とは別の祭事。名称類似のため混同注意。2026年固有の時間等の一次確認は未取得。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -46935,7 +46925,7 @@
       "trust_level": "高",
       "conflict_note": "花火打上時間は公式サイトで「17:40〜19:00」、ウォーカープラス等では「19:00〜20:10」との記載もあり時間表記に差異あり。公式サイトの時間を採用。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -47002,7 +46992,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -47062,7 +47052,7 @@
       "trust_level": "低",
       "conflict_note": "開催日は例年パターン（10月第3土曜）からの推定のみで、2026年の一次確認は未取得。要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -47121,6 +47111,130 @@
       "trust_level": "低",
       "conflict_note": "2026年の具体的開催日は一次ソース未確認。要確認。",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_775",
+      "name": "雷門盆踊り～夢灯篭～",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "台東区",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-05",
+      "date_note": "並木通り界隈（雷門前）にて開催。盆踊りは30分ごとの3部制。",
+      "time_start": "17:30",
+      "time_end": "20:00",
+      "rain_policy": "雨天決行／荒天の場合は中止（自衛隊音楽隊の演奏は小雨でも中止の場合あり）",
+      "organizer": "雷門一之宮商店会・雷門東部商店会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "浅草・雷門前の並木通りで地元商店会が主催する盆踊り。秋田県湯沢市の絵灯籠が展示されるほか、自衛隊車両展示や地元警察・消防のPRブースも出る。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "浅草・雷門前",
+      "official_url": "https://www.kaminari-bonodori.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kaminari-bonodori.com/",
+          "site_name": "雷門盆踊り～夢灯篭～公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2000501/",
+          "site_name": "エンジョイ・トーキョー",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_343895/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_776",
+      "name": "住吉大社 観月祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "大阪市（住吉区）",
+      "date_start": "2026-09-25",
+      "date_end": "2026-09-25",
+      "date_note": "中秋の名月の日に開催。反橋の真中より名月が上る様子を鑑賞する神事。",
+      "time_start": "18:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "住吉大社",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "中秋の名月の日に行われる特殊神事。第一本宮にて祭典が執り行われ、反橋の真中より名月が上る中、和歌の披講・俳句の朗詠・舞楽・子どもたちによる住吉踊が奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "住吉大社（第一本宮～反橋）",
+      "official_url": "https://www.sumiyoshitaisha.net/events/special.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sumiyoshitaisha.net/events/special.html",
+          "site_name": "住吉大社公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.nao.ac.jp/astro/sky/2026/09-topics03.html",
+          "site_name": "国立天文台（中秋の名月2026年9月25日の確認）",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0727e492105/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
