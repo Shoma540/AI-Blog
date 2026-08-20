@@ -503,6 +503,12 @@
       "step": "fetch_analytics",
       "error": "fetch_analytics.py が未捕捉例外(pyo3_runtime.PanicException)で終了コード1",
       "detail": "google-auth/cryptography の依存関係破損（ModuleNotFoundError: _cffi_backend に起因するRustパニック）でGA4クライアント構築に失敗。requirements.txtには2026-08-06時点でcffi/cryptographyが追記済みだが、本実行環境には実際にはインストールされていない（pip show cffi で未検出）ため、コンテナのセットアップ手順でrequirements.txtが再インストールされていない可能性が高い。GA4認証情報自体の問題ではなく実行環境のPythonパッケージ不整合。この不具合は2026-07-20頃から継続しており、2026-08-04頃に一度ユーザーへプッシュ通知でエスカレーション済みだが未解消。STEP10-2以降（学習記録読込・検証・改善実装・push）は全てスキップする。"
+    },
+    {
+      "timestamp": "2026-08-20 08:19",
+      "step": "post_instagram",
+      "error": "Instagramアクセストークンの有効期限切れ",
+      "detail": "The token has expired on Wednesday, 19-Aug-26 19:50:36 PDT. INSTAGRAM_ACCESS_TOKENの再発行・Routineのカスタム環境変数への再登録が必要。"
     }
   ]
 }

@@ -131,6 +131,18 @@
       "verify_after": "2026-08-21",
       "result": "",
       "commit": "97d9e47d31aee4de84852fbfb7d140260922571"
+    },
+    {
+      "date": "2026-08-20 08:20",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-20 08:16取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回(2026-08-16 preconnect)・前々回(2026-08-17 WebSite/Organization JSON-LD)の改善はいずれもverify_afterが到来（2026-08-19/2026-08-20）していたため本実行冒頭で効果測定し、両方とも「変化なし」を記録した（アクセス自体が発生していないため）。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。plan.mdの「表示速度・アクセシビリティの改善」テーマに関連し、generate_html.pyのCOMMON_CSSを確認したところ、.festival-cardのホバー時transform、ナビゲーションリンク・ボタン・地図SVGパスのtransitionなど複数箇所でアニメーションが定義されている一方、prefers-reduced-motionメディアクエリが一切無く、前庭障害等でアニメーションによる不快感を感じるユーザー（OSの「動きを減らす」設定を有効にしている利用者）に対する配慮が欠けていた（WCAG 2.3.3 相当の欠落）。",
+      "action": "scripts/generate_html.py のCOMMON_CSS末尾に @media (prefers-reduced-motion: reduce) ブロックを追加し、全アニメーション・トランジションのdurationを実質0にする（*, *::before, *::after に animation-duration/transition-duration: 0.001ms !important 等を適用）とともに、.festival-card:hoverのtransformも無効化するようにした。COMMON_CSSは全61ページ共通スタイルのため、サイト全体に適用される。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "OSレベルで「動きを減らす」設定を有効にしているユーザーがサイトを閲覧した際、カードホバーやナビゲーションのアニメーションが自動的に無効化され、不快感やめまい等の副作用を避けられるようになるはず。アクセシビリティ面の改善であり、GA4のセッション数だけでは直接効果を測定できない性質のため、次回以降もvalidate_site.pyでの構造維持確認（CSS構文含む全HTMLパース）を中心に経過観察する。",
+      "verify_after": "2026-08-23",
+      "result": "",
+      "commit": "6b666773e0c006b0688c1d3bd1e8fa674e9c36c1"
     }
   ]
 }
