@@ -346,6 +346,15 @@ footer {
     color: #999; margin-top: 0.5rem;
   }
 }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .festival-card:hover { transform: none; }
+}
 """
 
 NAV_HTML = """<nav>

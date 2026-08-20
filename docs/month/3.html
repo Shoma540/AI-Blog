@@ -343,6 +343,15 @@ footer {
     color: #999; margin-top: 0.5rem;
   }
 }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .festival-card:hover { transform: none; }
+}
 </style>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "全国祭り情報", "item": "https://shoma540.github.io/AI-Blog/"}, {"@type": "ListItem", "position": 2, "name": "カレンダー", "item": "https://shoma540.github.io/AI-Blog/calendar.html"}, {"@type": "ListItem", "position": 3, "name": "3月の祭り情報", "item": "https://shoma540.github.io/AI-Blog/month/3.html"}]}</script>
 </head>
@@ -375,7 +384,7 @@ footer {
 </div></div>
   <a class="badge-link" href="../calendar.html">← カレンダーへ戻る</a>
 </div>
-<footer>最終更新: 2026-08-20 03:14</footer>
+<footer>最終更新: 2026-08-20 08:17</footer>
 </main>
 </body>
 </html>

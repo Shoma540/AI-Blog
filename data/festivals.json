@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20 03:14",
+  "last_updated": "2026-08-20 08:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -4268,10 +4268,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "CONFLICT_RESOLVED",
-      "updated_fields": [
-        "重複データ統合(festival_434を統合)"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -29583,12 +29581,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "CONFLICT_RESOLVED",
-      "updated_fields": [
-        "名称統合(festival_556を統合)",
-        "genre",
-        "history_years"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -30625,8 +30619,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "日程データ誤り修正：2026-09-19〜2026-09-20（9月祭礼と同日で誤登録）→ 正しくは2026-10-10〜2026-10-11（10月祭礼）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -39179,10 +39173,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "CONFLICT_RESOLVED",
-      "updated_fields": [
-        "重複データ統合(festival_711を統合)"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -46535,6 +46527,195 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_766",
+      "name": "姫路みなと祭海上花火大会2026",
+      "alternate_names": [
+        "姫路みなと祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "姫路市",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-20",
+      "date_note": "荒天の場合は中止。姫路みなと祭の一環として開催される海上花火大会。過去最多となる10,000発超を打ち上げ予定。",
+      "time_start": "19:40",
+      "time_end": "20:50",
+      "rain_policy": "荒天時は中止",
+      "organizer": "姫路みなと祭実行委員会／姫路市",
+      "genre": [
+        "花火"
+      ],
+      "scale": "不明（兵庫県下最大規模とされる）",
+      "is_free": false,
+      "price": "有料観覧チケットあり（2026年6月18日から販売開始）",
+      "ticket_url": "https://himeji-minatohanabi.com/",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "姫路港（飾磨地区）",
+      "official_url": "https://himeji-minatohanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://himeji-minatohanabi.com/",
+          "site_name": "姫路みなと祭海上花火大会2026公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.city.himeji.lg.jp/shisei/0000033517.html",
+          "site_name": "姫路市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.himeji-kanko.jp/event/1932/",
+          "site_name": "姫路観光ナビ ひめのみち（姫路市公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_767",
+      "name": "わっしょい百万夏まつり",
+      "alternate_names": [
+        "第39回わっしょい百万夏まつり",
+        "WASSHOI FIREWORKS 2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "北九州市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "小倉北区の小文字通り・小倉城周辺・勝山公園などで開催。2日目20:20〜20:30にWASSHOI FIREWORKS 2026（花火）実施。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "わっしょい百万夏まつり振興会／北九州市",
+      "genre": [
+        "パレード",
+        "花火",
+        "よさこい",
+        "祭り踊り"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.wasshoi.info/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.kitakyushu.lg.jp/contents/v29200043.html",
+          "site_name": "北九州市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.wasshoi.info/",
+          "site_name": "わっしょい百万夏まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1040e439846/data.html",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_768",
+      "name": "十万石まつり",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "石川県",
+      "city": "加賀市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-13",
+      "date_note": "例年9月第2土曜とその翌日曜に開催。1日目10:00〜21:00頃、2日目10:00〜19:30頃。会場は加賀市役所前広場（大聖寺南町）。",
+      "time_start": "10:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "十万石まつり実行委員会",
+      "genre": [
+        "祭り",
+        "パレード"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "旧大聖寺藩十万石の城下町を舞台にした加賀市大聖寺地区の祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.tabimati.net/event/detail_356.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hot-ishikawa.jp/event/detail_17087.html",
+          "site_name": "ほっと石川旅ねっと（石川県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://www.tabimati.net/event/detail_356.html",
+          "site_name": "加賀温泉郷公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-20"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
