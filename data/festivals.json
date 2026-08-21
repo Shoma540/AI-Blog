@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21 17:14",
+  "last_updated": "2026-08-21 18:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -47555,7 +47555,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -47614,7 +47614,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -47680,7 +47680,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -47741,6 +47741,141 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 開催日程が情報源により9/12-15、9/13-16、9/14-20など一致しない",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_785",
+      "name": "メッツァの北欧花火2026",
+      "alternate_names": [
+        "メッツァビレッジ花火大会",
+        "ムーミン谷の湖上花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "飯能市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-22",
+      "date_note": "2026年は7/18,19,25、8/1,8-12,15、9/12、9/19-22に開催（日により異なる）。今回記録分は直近の9/12・9/19-22。",
+      "time_start": "19:00",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "メッツァビレッジ入場料が必要（詳細は公式サイト参照）",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://metsa-hanno.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e471906/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_J0319.html",
+          "site_name": "ジョルダン花火",
+          "is_official": false,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://metsa-hanno.com/event/42944/",
+          "site_name": "メッツァ公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_786",
+      "name": "横浜ナイトフラワーズ",
+      "alternate_names": [
+        "横浜ナイトフラワーズ×横浜グリーンエクスポ"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "横浜市中区",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-20",
+      "date_note": "2026年度は年間約30日程度開催。6/13、7/4・7・18、8/9、9/5・20など（10月以降は8月頃発表予定）。今回記録分は直近の9/5・9/20。",
+      "time_start": "19:00",
+      "time_end": "19:05",
+      "rain_policy": "雨天中止。実施可否は当日14:00・18:00に公式サイトで発表",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "GREEN×EXPO 2027開催に合わせて横浜の街を盛り上げる企画として実施。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.yokohama-nightflowers.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yokohama-nightflowers.com/",
+          "site_name": "横浜ナイトフラワーズ公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0314e541039/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/9009973/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://www.welcome.city.yokohama.jp/eventinfo/ev_detail.php?bid=yw11005",
+          "site_name": "横浜市観光情報公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
