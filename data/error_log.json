@@ -527,6 +527,12 @@
       "step": "post_instagram",
       "error": "Instagramアクセストークンの有効期限切れ",
       "detail": "The token has expired on Wednesday, 19-Aug-26 19:50:36 PDT. The current time is Friday, 21-Aug-26 05:29:03 PDT.（400 OAuthException code=190）。2026-08-20 08:19から継続し丸2日以上未解消（本実行は現在時刻12時台のため無条件投稿を試みたが失敗）。INSTAGRAM_ACCESS_TOKENの再発行・Routineのカスタム環境変数への再登録が必要（人手対応待ち）。ブログ更新（HTML生成・新規2件：高砂神社秋祭り／巾着田曼珠沙華まつり、更新1件：第5回水都くらわんか花火大会の公式URL・雨天情報訂正、GitHub Push）は正常完了。"
+    },
+    {
+      "timestamp": "2026-08-21 17:14",
+      "step": "post_instagram",
+      "error": "Instagramアクセストークンの有効期限切れ",
+      "detail": "The token has expired on Wednesday, 19-Aug-26 19:50:36 PDT. The current time is Friday, 21-Aug-26 10:15:15 PDT.（400 OAuthException code=190）。2026-08-20 08:19から継続し丸2日以上未解消。INSTAGRAM_ACCESS_TOKENの再発行・Routineのカスタム環境変数への再登録が必要（人手対応待ち）。ブログ更新（HTML生成・新規4件：ふるさと想い出花火／青島神社奉納花火／賀来神社仲秋祭／柞原八幡宮仲秋祭、GitHub Push）は正常完了。"
     }
   ]
 }
