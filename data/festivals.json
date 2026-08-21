@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21 08:19",
+  "last_updated": "2026-08-21 12:35",
   "festivals": [
     {
       "id": "festival_001",
@@ -46503,7 +46503,7 @@
       "date_note": "淀川河川公園枚方地区（枚方会場）・大塚地区（高槻会場）の2会場で開催。",
       "time_start": "19:10",
       "time_end": "20:00",
-      "rain_policy": "不明",
+      "rain_policy": "雨天決行・荒天中止（強風・河川増水等により中止/内容変更の場合あり、公式サイト・SNSで告知）",
       "organizer": "水都くらわんか花火大会実行委員会",
       "genre": [
         "花火"
@@ -46518,7 +46518,7 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "枚方会場：京阪本線枚方市駅から徒歩10分。高槻会場：京阪京都線高槻市駅からバスで北大塚停留所下車、徒歩15分。",
-      "official_url": "https://kitabiwako.jp/fireworks",
+      "official_url": "https://suito-kurawanka.jp/56hanabi",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -46541,13 +46541,22 @@
           "site_name": "J:COM 祭り花火特集",
           "is_official": false,
           "retrieved_date": "2026-08-20"
+        },
+        {
+          "url": "https://suito-kurawanka.jp/56hanabi",
+          "site_name": "水都くらわんか花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "official_url",
+        "rain_policy"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -47173,7 +47182,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -47235,7 +47244,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -47299,7 +47308,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -47352,6 +47361,141 @@
           "url": "https://kurumefan.com/jyugoya-ootsunahhiki2025",
           "site_name": "久留米ファン",
           "is_official": false,
+          "retrieved_date": "2026-08-21"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_779",
+      "name": "高砂神社秋祭り",
+      "alternate_names": [
+        "高砂神社秋季例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "高砂市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "毎年10月10日・11日開催（固定日程）。船渡御は3年に1度の神事で、2026年が実施年かは公式未確認のため要確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "高砂神社",
+      "genre": [
+        "神輿",
+        "船渡御",
+        "屋台"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "播州三大祭の一つとされ、江戸期の『播州名所巡覧図絵』にも記載がある由緒ある祭り。8台の屋台によるお囃子行列と、3年に1度行われる船渡御（堀川周辺で神輿を船に乗せて渡す神事）が見どころ。",
+      "food_stalls": "屋台あり（詳細不明）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.takasago.lg.jp/soshikikarasagasu/citypromotionshitsu/kanko_tokusan/5/3259.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.takasago.lg.jp/soshikikarasagasu/citypromotionshitsu/kanko_tokusan/5/3259.html",
+          "site_name": "高砂市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://www.takasago-tavb.com/event/autumn/",
+          "site_name": "高砂市観光交流ビューロー公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://www.mlit.go.jp/tagengo-db/R5-00226.html",
+          "site_name": "国土交通省 地域観光資源多言語解説文データベース",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://www.kobe-np.co.jp/news/touban/202510/0019578077.shtml",
+          "site_name": "神戸新聞NEXT",
+          "is_official": false,
+          "retrieved_date": "2026-08-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_780",
+      "name": "巾着田曼珠沙華まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "日高市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "2026年の公式日程は検索時点（2026-08-21）で未発表。昨年（2025年）は9月19日～10月8日、午前9時～午後4時30分に開催。日程確定次第、要更新。",
+      "time_start": "09:00",
+      "time_end": "16:30",
+      "rain_policy": "不明",
+      "organizer": "日高市観光協会・日高市商工会",
+      "genre": [
+        "花",
+        "自然"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "群生地入場料500円（中学生以下無料）※2025年実績。見頃終了後は無料化。2026年料金は未確認。",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "巾着田曼珠沙華公園に約500万本の曼珠沙華（彼岸花）が咲く、日本最大級の群生地として知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "西武秩父線高麗駅から徒歩約15分。無料シャトルバスの運行あり。",
+      "official_url": "https://kinchakuda.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.hidaka.lg.jp/soshiki/shiminseikatsu/sangyoshinko/shokokanko/kanko/eventmaturi/33383.html",
+          "site_name": "日高市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://hidakashikankou.gr.jp/manjushage/index.html",
+          "site_name": "日高市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://kinchakuda.com/event/",
+          "site_name": "巾着田公式サイト",
+          "is_official": true,
           "retrieved_date": "2026-08-21"
         }
       ],
