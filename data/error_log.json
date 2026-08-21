@@ -515,6 +515,12 @@
       "step": "post_instagram",
       "error": "Instagramアクセストークンの有効期限切れ",
       "detail": "本実行（12:00台）でも同一のトークン期限切れが継続。The token has expired on Wednesday, 19-Aug-26 19:50:36 PDT. The current time is Thursday, 20-Aug-26 05:29:49 PDT.（400 OAuthException code=190）。08:19時点から未解消。INSTAGRAM_ACCESS_TOKENの再発行・Routineのカスタム環境変数への再登録が必要（人手対応待ち）。ブログ更新（HTML生成・新規6件・更新2件・GitHub Push）は正常完了。"
+    },
+    {
+      "timestamp": "2026-08-21 08:19",
+      "step": "post_instagram",
+      "error": "Instagramアクセストークンの有効期限切れ",
+      "detail": "The token has expired on Wednesday, 19-Aug-26 19:50:36 PDT. The current time is Friday, 21-Aug-26 01:19:57 PDT.（400 OAuthException code=190）。2026-08-20 08:19時点から継続、本実行でも未解消。INSTAGRAM_ACCESS_TOKENの再発行・Routineのカスタム環境変数への再登録が必要（人手対応待ち、既知の問題としてエスカレーション済み）。ブログ更新（HTML生成・新規4件・更新0件・GitHub Push）は正常完了。"
     }
   ]
 }

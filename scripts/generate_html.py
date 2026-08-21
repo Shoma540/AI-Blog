@@ -504,6 +504,7 @@ def event_jsonld(festivals):
         organizer = f.get('organizer', '')
         if organizer and organizer != '不明':
             event["organizer"] = {"@type": "Organization", "name": organizer}
+        event["image"] = get_image_url(f)
         if f.get('is_free') is True:
             event["offers"] = {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}
         events.append(event)
