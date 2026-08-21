@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21 16:15",
+  "last_updated": "2026-08-21 17:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -47500,6 +47500,248 @@
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_781",
+      "name": "ふるさと想い出花火",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山口県",
+      "city": "防府市",
+      "date_start": "2026-10-24",
+      "date_end": "2026-10-24",
+      "date_note": "",
+      "time_start": "19:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "ふるさと想い出花火実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "花火を通して親子や家族、地域住民同士の交流・ふれあいを図り、家族や社会の連帯感や絆を深めることを目的とした花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "三田尻港（道の駅潮彩市場防府側）",
+      "official_url": "http://www.fo-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://visit-hofu.jp/event/%E3%80%90%E9%96%8B%E5%82%AC%E6%97%A5%E6%9C%AA%E5%AE%9A%E3%80%91%E7%AC%AC12%E5%9B%9E%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E6%83%B3%E3%81%84%E5%87%BA%E8%8A%B1%E7%81%AB/",
+          "site_name": "たびたびほうふ（防府市公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://sorahanabi.com/yamaguchi/hofu",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-21"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_782",
+      "name": "青島神社奉納花火",
+      "alternate_names": [
+        "青島神社奉納花火まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮崎県",
+      "city": "宮崎市",
+      "date_start": "2026-10-11",
+      "date_end": "2026-10-11",
+      "date_note": "第3回開催。開催時間・打ち上げ場所は公式発表待ちのため未確定（2024年の第1回実績値を参考情報として記載、2026年時点で確定ではない）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "青島神社奉納花火まつり事務局",
+      "genre": [
+        "花火",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 3,
+      "history_description": "彦火々出見命・豊玉姫命を祀る青島神社への奉納花火。2024年の第1回実績では海上から約5,000発が打ち上げられた。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "青島（宮崎市青島）。2024年実績：青島参道南広場、青島フィッシャーマンズ様横広場",
+      "official_url": "https://aoshima-navi.jp/news/202610aoshimahanabi03/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://aoshima-navi.jp/news/202610aoshimahanabi03/",
+          "site_name": "青島ナビ（宮崎市青島観光イベント情報）",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://hanabi-banduke.com/event/2939.html",
+          "site_name": "花火番付.com",
+          "is_official": false,
+          "retrieved_date": "2026-08-21"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_783",
+      "name": "賀来神社仲秋祭（賀来の市）",
+      "alternate_names": [
+        "賀来の市",
+        "賀来神社仲秋祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大分県",
+      "city": "大分市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "例年9月1日～7日に開催される大分県内で最も早い秋祭り。ただし2026年の具体的な西暦日程が情報源に明記されておらず確定できないため、日付は不明として記録する。奉納花火は例年6日に実施。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "秋季の祭事として大分県下で最も早く開催される祭り。氏子による神楽・舞の奉納が行われ、境内に露店が立ち並ぶ。卯年・酉年には柞原八幡宮の主神が大名行列をなして賀来神社へ渡御する「賀来の大名行列」が行われ、その年は祭期間が11日間となる（次回は2032年）。",
+      "food_stalls": "露店多数（社寺境内）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR賀来駅から徒歩約15分（運行本数が少ないため事前に時刻確認が必要）",
+      "official_url": "https://www.city.oita.oita.jp/o157/akiibe.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.visit-oita.jp/events/detail/14119",
+          "site_name": "日本一の「おんせん県」大分県の観光情報公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://www.city.oita.oita.jp/o157/akiibe.html",
+          "site_name": "大分市公式サイト（秋の行事）",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://www.nippon-matsuri.net/report/kaku/",
+          "site_name": "NPO日本の祭りネットワーク",
+          "is_official": false,
+          "retrieved_date": "2026-08-21"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_784",
+      "name": "柞原八幡宮仲秋祭（浜の市）",
+      "alternate_names": [
+        "浜の市",
+        "柞原八幡宮仲秋祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大分県",
+      "city": "大分市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "公式サイトでは「九月中旬」「九月十四日～九月二十日」と説明される一方、観光サイトの過去実績は年により9月12日～15日など幅がある。2026年の具体的な西暦日程が情報源間で一致せず確定できないため、日付は不明として記録する。奉納花火は例年13日前後・西大分港で実施。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "柞原八幡宮",
+      "genre": [
+        "神事",
+        "神輿",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "放生会神事を起源とし、鎌倉時代初期に大友能直が豊後国守護となった頃に始まったと伝わる。神輿三基が御旅所の仮宮へ渡御し、江戸時代には西日本三大市の一つに数えられた「浜の市」が境内に立つ。名物は「しきし餅」「一文人形」。",
+      "food_stalls": "境内に「浜の市」と呼ばれる市が立つ",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大分市生石（西大分港周辺）",
+      "official_url": "https://oita-yusuhara.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://oita-yusuhara.com/event/%E4%BB%B2%E7%A7%8B%E7%A5%AD%EF%BC%88%E4%B9%9D%E6%9C%88%E5%8D%81%E5%9B%9B%E6%97%A5%EF%BD%9E%E4%B9%9D%E6%9C%88%E4%BA%8C%E5%8D%81%E6%97%A5%EF%BC%89/",
+          "site_name": "柞原八幡宮公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://www.visit-oita.jp/events/detail/14121",
+          "site_name": "日本一の「おんせん県」大分県の観光情報公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-21"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾: 開催日程が情報源により9/12-15、9/13-16、9/14-20など一致しない",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
