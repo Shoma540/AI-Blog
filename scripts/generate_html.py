@@ -1353,7 +1353,7 @@ def generate_month_pages(festivals, last_updated):
         with open(os.path.join(out_dir, f'{m}.html'), 'w', encoding='utf-8') as f:
             f.write(html_page(
                 f"{m}月の祭り情報", body, nav=nav,
-                extra_head=breadcrumb,
+                extra_head=event_jsonld(sorted_fests) + breadcrumb,
                 description=f"{m}月に開催される全国の祭り・花火大会を{len(fests)}件掲載。日程・場所など最新情報をまとめています。",
                 url_path=f"month/{m}.html",
             ))
