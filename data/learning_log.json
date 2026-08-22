@@ -155,6 +155,18 @@
       "verify_after": "2026-08-24",
       "result": "",
       "commit": "13fbdeb175ba5a42bf72e95812800aa0125841b4"
+    },
+    {
+      "date": "2026-08-22 08:14",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-22 08:12取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回2件（2026-08-20 prefers-reduced-motion、2026-08-21 EventのimageプロパティのJSON-LD追加）のverify_afterはそれぞれ2026-08-23・2026-08-24でまだ到来していないため、本実行では効果測定は行わなかった。validate_site.pyは全項目通過し、直近の改善によるサイト破損は無し。plan.mdの「構造化データ(JSON-LD, Event スキーマ)の追加」テーマに関連し、event_jsonld()の適用状況を確認したところ、都道府県別ページ（docs/prefecture/*.html）とトップページ相当の各ジャンルには構造化データが行き渡っている一方、月別ページ（docs/month/*.html）だけはBreadcrumbListのみでEvent構造化データが一切埋め込まれておらず、その月に開催される祭りがGoogleのイベントリッチリザルト対象から漏れる状態になっていた。",
+      "action": "scripts/generate_html.py のgenerate_month_pages()で、html_page()呼び出し時のextra_headをbreadcrumbのみからevent_jsonld(sorted_fests) + breadcrumbに変更し、都道府県ページと同様にその月の祭り一覧をEvent構造化データとして埋め込むようにした。event_jsonld()自体の変更は行っておらず、既存関数の再利用のみ。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "月別ページにもEvent構造化データが加わることで、都道府県ページ同様にGoogleのイベントリッチリザルト（検索結果でのイベントカード表示）の対象となる祭りが増え、将来的に月別ページ経由の検索流入・クリック率向上につながる可能性がある。効果はSearch Console/検索結果への露出が発生してから測定可能になる性質であり、GA4のセッション数だけでは直接検出できないため、当面はvalidate_site.pyでの構造維持確認（全61ページのHTML/JSON-LDパース含む）を中心に経過観察する。",
+      "verify_after": "2026-08-25",
+      "result": "",
+      "commit": "2403cf35a1718051a8b02f7cf91c04ffcc9515c0"
     }
   ]
 }
