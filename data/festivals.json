@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21 18:11",
+  "last_updated": "2026-08-22 17:10",
   "festivals": [
     {
       "id": "festival_001",
@@ -47806,7 +47806,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -47871,6 +47871,75 @@
           "site_name": "横浜市観光情報公式サイト",
           "is_official": true,
           "retrieved_date": "2026-08-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_787",
+      "name": "荘内大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "鶴岡市",
+      "date_start": "2026-10-06",
+      "date_end": "2026-10-06",
+      "date_note": "御旅所祭・奉納行事14:00〜、大名行列15:00鶴岡公園北広場発",
+      "time_start": "14:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "荘内神社",
+      "genre": [
+        "神事",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "明治10年の荘内神社創建の際、旧藩主酒井家を慕う市民の手により、かつての参勤交代を再現する形で始まった。鶴岡は徳川四天王の一、酒井家が治めた荘内藩14万石の城下町。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "鶴岡公園周辺",
+      "official_url": "https://jinjahan.com/gyoji/shonaitaisai/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://jinjahan.com/gyoji/shonaitaisai/",
+          "site_name": "荘内神社",
+          "is_official": true,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://www.tsuruokakanko.com/spot/226",
+          "site_name": "つるおか観光ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://yamagatakanko.com/festivals/detail_3179.html",
+          "site_name": "やまがたへの旅（山形県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://www.tohokumatsuri.jp/cate_yamagata/post-531/",
+          "site_name": "東北のまつり",
+          "is_official": false,
+          "retrieved_date": "2026-08-22"
         }
       ],
       "trust_level": "高",
