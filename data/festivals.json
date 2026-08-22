@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22 17:10",
+  "last_updated": "2026-08-22 21:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -3045,14 +3045,17 @@
     },
     {
       "id": "festival_045",
-      "name": "うらじゃ",
-      "alternate_names": [],
+      "name": "うらじゃ（おかやま桃太郎まつり）",
+      "alternate_names": [
+        "おかやま桃太郎まつり",
+        "おかやま桃太郎まつり（うらじゃ）"
+      ],
       "similar_name_warning": false,
       "prefecture": "岡山県",
       "city": "岡山市",
       "date_start": "2026-08-22",
       "date_end": "2026-08-23",
-      "date_note": "第31回。",
+      "date_note": "第31回。岡山県下最大級の夏まつり。「おかやま桃太郎まつり」として長年開催されてきたが、近年は目玉行事の総踊り「うらじゃ」が祭り全体の呼称としても定着し、公式サイト（uraja.jp）では「第31回うらじゃ（おかやま桃太郎まつり）」として一体的に告知されている。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -3100,13 +3103,48 @@
           "site_name": "TSCテレビせとうち ニュース",
           "is_official": false,
           "retrieved_date": "2026-07-05"
+        },
+        {
+          "url": "http://www.okayama-momotaro-fes.jp/",
+          "site_name": "おかやま桃太郎まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://www.okayama-kanko.jp/event/detail_12447.html",
+          "site_name": "岡山観光WEB",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://okayama-kanko.net/sightseeing/event/12600/",
+          "site_name": "OKAYAMA KANKO .net",
+          "is_official": true,
+          "retrieved_date": "2026-07-18"
+        },
+        {
+          "url": "https://uraja.jp/information/information_4698/",
+          "site_name": "うらじゃ公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://www.okayama-kanko.jp/event/detail_12447.html",
+          "site_name": "岡山観光WEB公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-01"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "alternate_names",
+        "name",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -19680,7 +19718,7 @@
       "city": "阿蘇市",
       "date_start": "2026-08-22",
       "date_end": "2026-08-22",
-      "date_note": "荒天時は8/24 20時に延期予定",
+      "date_note": "荒天時は8/24 20時に延期予定 2026年は花火大会を中止し、祭り本体のみ開催。",
       "time_start": "15:00",
       "time_end": "20:30",
       "rain_policy": "8/24に延期",
@@ -19722,10 +19760,13 @@
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "令和8年熊本地震の影響により、追悼・支援の観点から2026年は花火の打ち上げを見合わせて開催（祭り本体・義援金箱設置・被災地物産販売は実施）。道の駅 阿蘇公式サイトで確認。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -21449,69 +21490,6 @@
       "conflict_note": "一部非公式サイトで7/19表記があったが、公式・報道機関の情報は7/18で一致するため7/18を採用。",
       "requires_check": false,
       "id": "festival_336",
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "name": "おかやま桃太郎まつり",
-      "alternate_names": [],
-      "similar_name_warning": true,
-      "prefecture": "岡山県",
-      "city": "岡山市",
-      "date_start": "2026-08-22",
-      "date_end": "2026-08-23",
-      "date_note": "「うらじゃ」（festival_045）と同時期・近接会場で開催される別イベント。演舞・パレードが中心。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "おかやま桃太郎まつり運営委員会",
-      "genre": [
-        "パレード",
-        "踊り"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": 26,
-      "history_description": "第26回。下石井公園・市役所筋などを会場に、演舞やパレード、フィナーレの総おどりが行われる。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "http://www.okayama-momotaro-fes.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "http://www.okayama-momotaro-fes.jp/",
-          "site_name": "おかやま桃太郎まつり公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-07-18"
-        },
-        {
-          "url": "https://www.okayama-kanko.jp/event/detail_12447.html",
-          "site_name": "岡山観光WEB",
-          "is_official": true,
-          "retrieved_date": "2026-07-18"
-        },
-        {
-          "url": "https://okayama-kanko.net/sightseeing/event/12600/",
-          "site_name": "OKAYAMA KANKO .net",
-          "is_official": true,
-          "retrieved_date": "2026-07-18"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "id": "festival_337",
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
@@ -31879,66 +31857,6 @@
       }
     },
     {
-      "id": "festival_510",
-      "name": "おかやま桃太郎まつり（うらじゃ）",
-      "alternate_names": [
-        "うらじゃ",
-        "第31回うらじゃ"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "岡山県",
-      "city": "岡山市",
-      "date_start": "2026-08-22",
-      "date_end": "2026-08-23",
-      "date_note": "8月22日(土)・23日(日)開催。公式サイトで確定情報として告知。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "おかやま桃太郎まつり実行委員会",
-      "genre": [
-        "踊り",
-        "パレード"
-      ],
-      "scale": "不明（岡山県下最大級の夏まつりと紹介される）",
-      "is_free": "不明",
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "不明",
-      "official_url": "https://uraja.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://uraja.jp/information/information_4698/",
-          "site_name": "うらじゃ公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-01"
-        },
-        {
-          "url": "https://www.okayama-kanko.jp/event/detail_12447.html",
-          "site_name": "岡山観光WEB公式",
-          "is_official": true,
-          "retrieved_date": "2026-08-01"
-        }
-      ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_511",
       "name": "ひろしま盆ダンス",
       "alternate_names": [],
@@ -39800,7 +39718,7 @@
     },
     {
       "id": "festival_655",
-      "name": "八千代ふるさと親子祭",
+      "name": "八千代ふるさと親子祭（第52回）【2026年中止】",
       "alternate_names": [
         "八千代ふるさと祭"
       ],
@@ -39809,7 +39727,7 @@
       "city": "八千代市",
       "date_start": "2026-08-22",
       "date_end": "2026-08-22",
-      "date_note": "第52回。祭り16:00〜20:00、花火打ち上げ19:00〜20:00（約5,000発）。会場は県立八千代広域公園周辺。",
+      "date_note": "第52回。当初予定は祭り16:00〜20:00・花火打ち上げ19:00〜20:00（約5,000発、荒天時は中止で順延なし）だったが、2026年8月22日は大雨のため中止となった。",
       "time_start": "16:00",
       "time_end": "20:00",
       "rain_policy": "不明",
@@ -39850,13 +39768,36 @@
           "site_name": "空花火2026",
           "is_official": false,
           "retrieved_date": "2026-08-15"
+        },
+        {
+          "url": "https://yachiyo-narashino.goguynet.jp/2026/08/12/dai52yachiyofurusatooyakomatsuri/",
+          "site_name": "号外NET 八千代・習志野",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0312e00921/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87232.html",
+          "site_name": "ジョルダン 花火大会",
+          "is_official": false,
+          "retrieved_date": "2026-08-17"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "2026年8月22日、大雨の影響により中止（順延なし）。花火打ち上げ・祭り本体とも中止。ジョルダン花火大会2026中止・延期情報ページで確認。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "date_note",
+        "name",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43407,71 +43348,6 @@
         {
           "url": "https://tokyofesta.com/23ku/30742/",
           "site_name": "東京フェスタ",
-          "is_official": false,
-          "retrieved_date": "2026-08-17"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_712",
-      "name": "第52回八千代ふるさと親子祭",
-      "alternate_names": [
-        "八千代ふるさと祭り",
-        "八千代ふるさと親子祭花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "千葉県",
-      "city": "八千代市",
-      "date_start": "2026-08-22",
-      "date_end": "2026-08-22",
-      "date_note": "祭り本体は16:00開始、花火打ち上げは19:00〜20:00予定",
-      "time_start": "16:00",
-      "time_end": "20:00",
-      "rain_policy": "不明",
-      "organizer": "八千代ふるさと親子祭実行委員会（八千代市観光推進室内）",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "観覧無料（有料席あり：Sマス席3万円、Sテーブル席3万円、A席3万円、B席3000円、C席2500円）",
-      "ticket_url": "不明",
-      "history_years": 52,
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "例年約18万人が来場",
-      "visitors": "約18万人",
-      "access": "東葉高速鉄道 八千代中央駅または村上駅から徒歩15分",
-      "official_url": "不明",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://yachiyo-narashino.goguynet.jp/2026/08/12/dai52yachiyofurusatooyakomatsuri/",
-          "site_name": "号外NET 八千代・習志野",
-          "is_official": false,
-          "retrieved_date": "2026-08-17"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0312e00921/",
-          "site_name": "花火大会2026 ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-08-17"
-        },
-        {
-          "url": "https://sp.jorudan.co.jp/hanabi/spot_87232.html",
-          "site_name": "ジョルダン 花火大会",
           "is_official": false,
           "retrieved_date": "2026-08-17"
         }
