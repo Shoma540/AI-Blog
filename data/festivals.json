@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22 17:11",
+  "last_updated": "2026-08-22 18:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -37002,20 +37002,20 @@
       "city": "相模原市中央区",
       "date_start": "2026-09-05",
       "date_end": "2026-09-05",
-      "date_note": "19:00-20:15、荒天・増水時は翌9/6に順延",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "date_note": "19:00〜20:15、荒天・相模川増水時は翌9/6(日)に順延",
+      "time_start": "19:00",
+      "time_end": "20:15",
+      "rain_policy": "荒天・増水時は翌日に順延",
       "organizer": "相模原納涼花火大会実行委員会",
       "genre": [
         "花火"
       ],
       "scale": "その他",
-      "is_free": null,
-      "price": "不明",
+      "is_free": true,
+      "price": "無料（一部有料協賛席あり）",
       "ticket_url": "不明",
       "history_years": 53,
-      "history_description": "相模川高田橋上流の河川敷を会場に行われる花火大会",
+      "history_description": "相模川高田橋上流の河川敷を会場に行われる花火大会。第53回。約8,000発を打ち上げ予定。協賛エリア入場開始は13:00から。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -37030,14 +37030,35 @@
           "url": "https://sagamiharahanabi.com/",
           "site_name": "相模原納涼花火大会公式",
           "is_official": true,
-          "retrieved_date": "2026-08-12"
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0314e00862/data.html",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://www.e-sagamihara.com/event/event-5619/",
+          "site_name": "相模原市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-22"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "is_free",
+        "price",
+        "history_description",
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -47938,7 +47959,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -47999,6 +48020,72 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_791",
+      "name": "大師夏まつり（西新井大師）",
+      "alternate_names": [
+        "西新井大師盆踊り",
+        "第31回大師夏まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "足立区",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-23",
+      "date_note": "第31回。8/22(土)は荒天のためプログラムを一部変更し、盆踊り・子供盆踊りは中止（阿波流し踊り・演舞は実施）。8/23(日)は天候回復が見込まれ、盆踊り・子供盆踊りを予定通り実施予定。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "荒天時は種目により一部中止（盆踊り等）、他種目は実施",
+      "organizer": "大師夏まつり実行委員会（西新井大師）",
+      "genre": [
+        "盆踊り",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 31,
+      "history_description": "西新井大師境内で毎年開催される夏まつり。盆踊り・子供盆踊りのほか、粋西連による阿波踊り流し演舞なども行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東武大師線「大師前」駅から徒歩",
+      "official_url": "https://daishi-natsumatsuri.jimdofree.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://daishi-natsumatsuri.jimdofree.com/",
+          "site_name": "大師夏まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://adachi.goguynet.jp/2026/08/19/daishi-natsumatsuri/",
+          "site_name": "号外NET 足立区",
+          "is_official": false,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://www.iwafu.com/jp/events/1153279",
+          "site_name": "iwafu（日本期間限定文化旅行ガイド）",
+          "is_official": false,
+          "retrieved_date": "2026-08-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "8/22は荒天のため盆踊り・子供盆踊りが中止となったが、8/23は予定通り実施見込み（公式サイト・地域メディア複数で確認）。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
