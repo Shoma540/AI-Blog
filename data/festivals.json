@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22 16:15",
+  "last_updated": "2026-08-22 17:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -47871,6 +47871,134 @@
       ],
       "trust_level": "高",
       "conflict_note": "区役所公式Xでは当日朝に「本日開催」と告知していたが、その後悪天候のため中止に切り替わった。区公式サイトおよび中止速報記事の複数ソースで中止を確認。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_789",
+      "name": "北澤八幡神社例大祭",
+      "alternate_names": [
+        "北澤八幡秋まつり",
+        "下北沢秋まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "世田谷区",
+      "date_start": "2026-09-06",
+      "date_end": "2026-09-07",
+      "date_note": "9/6(土)宵宮、9/7(日)例大祭。会場は北澤八幡神社（世田谷区代沢3-25-3）。",
+      "time_start": "10:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "北澤八幡神社／北澤八幡秋まつり実行委員会（各町会睦会）",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（見学）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "下北沢周辺の鎮守・北澤八幡神社の例大祭。本宮では8つの睦会から集まる20数基の神輿・太鼓が連合で宮入りする。子供神輿宮入りは9/7正午、神輿宮入りは同日午後1時から。",
+      "food_stalls": "あり（縁日、両日とも開催）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "小田急線・京王井の頭線 下北沢駅から徒歩",
+      "official_url": "https://kitazawamatsuri.wixsite.com/kitazawahachiman",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kitazawamatsuri.wixsite.com/kitazawahachiman/kitazawahachiman",
+          "site_name": "北澤八幡秋まつり実行委員会サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0313e311875/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://www.shimokitazawa.info/news/2025/08/r7kitazawahachimanakimatsuri/",
+          "site_name": "しもブロ（下北沢ローカルメディア）",
+          "is_official": false,
+          "retrieved_date": "2026-08-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_790",
+      "name": "成田山みたま祭り盆踊り大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "成田市",
+      "date_start": "2026-08-23",
+      "date_end": "2026-08-24",
+      "date_note": "雨天の場合は8/25(火)に順延。",
+      "time_start": "18:30",
+      "time_end": "21:00",
+      "rain_policy": "雨天順延（8/25に順延）",
+      "organizer": "成田山弘恵会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "成田山弘恵会田町駐車場で開催される盆踊り大会。初日18:30から戦没者慰霊・新盆精霊・先祖供養の法要が成田山の僧侶により執り行われた後、盆踊りが行われる。年により20時過ぎに打ち上げ花火も上がる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京成成田駅から徒歩",
+      "official_url": "http://www.nrtk.jp/enjoy/shikisaisai/mitama-festival.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://www.nrtk.jp/enjoy/shikisaisai/mitama-festival.html",
+          "site_name": "FEEL成田 成田市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://chiba-style.com/event/9739/",
+          "site_name": "ちばスタイル",
+          "is_official": false,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2070990/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-08-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
