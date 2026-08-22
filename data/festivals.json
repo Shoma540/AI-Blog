@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22 21:20",
+  "last_updated": "2026-08-22 16:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -3138,13 +3138,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "alternate_names",
-        "name",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -19762,11 +19757,8 @@
       "trust_level": "高",
       "conflict_note": "令和8年熊本地震の影響により、追悼・支援の観点から2026年は花火の打ち上げを見合わせて開催（祭り本体・義援金箱設置・被災地物産販売は実施）。道の駅 阿蘇公式サイトで確認。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -39791,13 +39783,8 @@
       "trust_level": "高",
       "conflict_note": "2026年8月22日、大雨の影響により中止（順延なし）。花火打ち上げ・祭り本体とも中止。ジョルダン花火大会2026中止・延期情報ページで確認。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note",
-        "name",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -47820,6 +47807,70 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_788",
+      "name": "金沢まつり花火大会【2026年中止】",
+      "alternate_names": [
+        "第52回金沢まつり花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "横浜市金沢区",
+      "date_start": "2026-08-22",
+      "date_end": "2026-08-22",
+      "date_note": "2026年8月22日(土)19:00〜20:00に開催予定だったが、悪天候（台風の影響）のため当日中止が決定した。",
+      "time_start": "19:00",
+      "time_end": "20:00",
+      "rain_policy": "小雨決行、荒天時中止",
+      "organizer": "金沢まつり実行委員会（横浜市金沢区）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 52,
+      "history_description": "横浜市金沢区の海の公園で開催される花火大会。第52回。約3,500発を打ち上げ予定だった。模擬店（12:00〜20:00予定）もあり。",
+      "food_stalls": "あり（模擬店 12:00〜20:00予定）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "シーサイドライン「海の公園南口」または「海の公園柴口」駅すぐ",
+      "official_url": "https://www.city.yokohama.lg.jp/kanazawa/kurashi/kyodo_manabi/kyodo_shien/chiiki/kanazawamaturi/maturi2026/hanabi.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.yokohama.lg.jp/kanazawa/kurashi/kyodo_manabi/kyodo_shien/chiiki/kanazawamaturi/maturi2026/hanabi.html",
+          "site_name": "横浜市金沢区役所（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://x.com/yokohama_KNZW/status/2090952088071082449",
+          "site_name": "横浜市金沢区役所 公式X（開催告知）",
+          "is_official": true,
+          "retrieved_date": "2026-08-22"
+        },
+        {
+          "url": "https://yakei-fan.com/magazine/fireworks/kanagawa/yokohama-kanazawa-hanabi2026cancel.html",
+          "site_name": "夜景FANマガジン（中止速報）",
+          "is_official": false,
+          "retrieved_date": "2026-08-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "区役所公式Xでは当日朝に「本日開催」と告知していたが、その後悪天候のため中止に切り替わった。区公式サイトおよび中止速報記事の複数ソースで中止を確認。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
