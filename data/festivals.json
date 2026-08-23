@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23 16:15",
+  "last_updated": "2026-08-23 17:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -6445,13 +6445,8 @@
       "trust_level": "高",
       "conflict_note": "時間帯（19日06:00-22:00頃・20日09:00-22:00頃）は非公式サイト2件が一致するが、岸和田市公式ページには明記が無いため参考値。国指定重要無形民俗文化財としての指定有無は今回の調査で確認できず、「その他」区分とした。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -38101,13 +38096,28 @@
           "site_name": "GO TOKYO",
           "is_official": true,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://www.on-japan.jp/home/eventinfo/matsuri-info/",
+          "site_name": "NPO法人 日本お祭り推進協会リアルジャパン'オン",
+          "is_official": false,
+          "retrieved_date": "2026-08-23"
+        },
+        {
+          "url": "https://sumidoko.com/events/4g6zjfnrnb3xomgnrwj6f4/",
+          "site_name": "すみどこ（墨田区地域情報サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-08-23"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -47144,7 +47154,7 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
+        "changed": false,
         "details": "昨年（第35回）：2025年8月22日～23日 → 今年（第36回）：2026年8月21日～22日"
       }
     },
@@ -48168,6 +48178,63 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_794",
+      "name": "赤坂氷川祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "港区",
+      "date_start": "2026-09-11",
+      "date_end": "2026-09-15",
+      "date_note": "宵宮巡行9/11(金)18-21時、子供巡行9/12(土)13-16時、神幸祭9/13(日)8-19時、例祭9/15(火)10時斎行（一般参列不可）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "赤坂氷川神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他（赤坂氷川神社例大祭）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "赤坂氷川神社の例大祭。",
+      "food_stalls": "露店が9/11〜13の15時〜21時に境内で営業予定。あわせて赤坂名店街も9/12〜13に開催。",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.akasakahikawa.or.jp/hikawasai-r08/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.akasakahikawa.or.jp/hikawasai-r08/",
+          "site_name": "赤坂氷川神社 公式サイト（令和八年 赤坂氷川祭）",
+          "is_official": true,
+          "retrieved_date": "2026-08-23"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/664391/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-08-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
