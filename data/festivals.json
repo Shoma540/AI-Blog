@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23 08:11",
+  "last_updated": "2026-08-23 12:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -39300,7 +39300,10 @@
       "id": "festival_649",
       "name": "たるみずふれあいフェスタ夏祭り",
       "alternate_names": [
-        "垂水市錦江湾花火大会（誤称・DB内旧表記）"
+        "垂水市錦江湾花火大会（誤称・DB内旧表記）",
+        "垂水港まつり花火大会",
+        "たるみずふれあいフェスタ",
+        "たるみずふれあいフェスタ夏祭り（垂水港まつり花火大会）"
       ],
       "similar_name_warning": false,
       "prefecture": "鹿児島県",
@@ -39366,13 +39369,23 @@
           "site_name": "ジョルダン（2026年中止・開催時期変更が決定した花火大会一覧）",
           "is_official": false,
           "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1046e00495/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "旧DBでは「垂水市錦江湾花火大会」の名称でも登録され、さらに本来同一祭りである「たるみずふれあいフェスタ2026夏祭り」(id festival_570)として重複登録されていたため、本サイクルで1件に統合。日程は延期後の8/15を採用。",
+      "conflict_note": "旧DBでは「垂水市錦江湾花火大会」の名称でも登録され、さらに本来同一祭りである「たるみずふれあいフェスタ2026夏祭り」(id festival_570)として重複登録されていたため、本サイクルで1件に統合。日程は延期後の8/15を採用。2026-08-23の実行でfestival_723（表記「たるみずふれあいフェスタ夏祭り（垂水港まつり花火大会）」、同一日程(8/15)・同一会場（旧垂水港特設会場）・台風13号延期の同一経緯）が重複登録されていることを検知し、本エントリ（festival_649）に統合・削除した。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "alternate_names",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43685,71 +43698,6 @@
         {
           "url": "https://www.walkerplus.com/event/ar1046e478060/",
           "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-08-18"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_723",
-      "name": "たるみずふれあいフェスタ夏祭り（垂水港まつり花火大会）",
-      "alternate_names": [
-        "垂水港まつり花火大会",
-        "たるみずふれあいフェスタ"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "鹿児島県",
-      "city": "垂水市",
-      "date_start": "2026-08-15",
-      "date_end": "2026-08-15",
-      "date_note": "台風13号の影響により8月8日(土)から8月15日(土)に延期",
-      "time_start": "16:00",
-      "time_end": "21:00",
-      "rain_policy": "不明",
-      "organizer": "不明",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "旧垂水港特設会場",
-      "official_url": "不明",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar1046e00495/",
-          "site_name": "ウォーカープラス 花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-08-18"
-        },
-        {
-          "url": "https://weathernews.jp/hanabi/spot/5501051/",
-          "site_name": "ウェザーニュース",
-          "is_official": false,
-          "retrieved_date": "2026-08-18"
-        },
-        {
-          "url": "https://sp.jorudan.co.jp/hanabi/delay.html",
-          "site_name": "ジョルダン 花火大会2026 中止・延期情報",
           "is_official": false,
           "retrieved_date": "2026-08-18"
         }
@@ -48143,7 +48091,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -48206,7 +48154,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
