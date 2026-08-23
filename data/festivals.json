@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22 18:15",
+  "last_updated": "2026-08-23 08:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -37048,17 +37048,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "rain_policy",
-        "is_free",
-        "price",
-        "history_description",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -48086,6 +48077,134 @@
       ],
       "trust_level": "高",
       "conflict_note": "8/22は荒天のため盆踊り・子供盆踊りが中止となったが、8/23は予定通り実施見込み（公式サイト・地域メディア複数で確認）。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_792",
+      "name": "白鳥おどり",
+      "alternate_names": [
+        "白鳥おどり・徹夜おどり"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "岐阜県",
+      "city": "郡上市白鳥町",
+      "date_start": "2026-07-09",
+      "date_end": "2026-09-20",
+      "date_note": "7/9〜9/20の期間中、計20夜にわたり開催。うち国指定重要無形民俗文化財「白鳥の拝殿踊り」は7/9・8/16・8/17・8/20・9/20の5日間。郡上おどり（郡上市八幡町）とは開催地・主催が異なる別の盆踊りのため類似名注意。",
+      "time_start": "20:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "白鳥観光協会",
+      "genre": [
+        "盆踊り",
+        "民俗芸能"
+      ],
+      "scale": "国指定重要無形民俗文化財（白鳥の拝殿踊り）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "郡上市白鳥町一帯で開催される盆踊り。うち拝殿踊りは国の重要無形民俗文化財に指定されている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "白鳥町市街地一帯",
+      "official_url": "https://www.kankou-gifu.jp/event/detail_1329.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kankou-gifu.jp/event/detail_1329.html",
+          "site_name": "岐阜県観光公式サイト「岐阜の旅ガイド」",
+          "is_official": true,
+          "retrieved_date": "2026-08-23"
+        },
+        {
+          "url": "https://gujolife.com/event/%E4%BB%A4%E5%92%8C8%E5%B9%B4%E7%99%BD%E9%B3%A5%E3%81%8A%E3%81%A9%E3%82%8A%E3%83%BB%E7%99%BD%E9%B3%A5%E3%81%AE%E6%8B%9D%E6%AE%BF%E8%B8%8A%E3%82%8A/",
+          "site_name": "gujolife.com",
+          "is_official": false,
+          "retrieved_date": "2026-08-23"
+        },
+        {
+          "url": "https://www.kanko-ch.com/%E7%99%BD%E9%B3%A5%E3%81%8A%E3%81%A9%E3%82%8A/",
+          "site_name": "観光チャンネル",
+          "is_official": false,
+          "retrieved_date": "2026-08-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_793",
+      "name": "勝浦大漁まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "勝浦市",
+      "date_start": "2026-09-18",
+      "date_end": "2026-09-21",
+      "date_note": "最終日（9/21）に勝浦漁港で神輿を船から船へ渡す「神輿の船渡し」が行われる。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "勝浦大漁まつり実行委員会",
+      "genre": [
+        "神輿",
+        "山車"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "勝浦漁港・遠見岬神社・川津神社周辺で行われる秋祭り。神輿の一斉担ぎ、江戸後期の屋台・山車の曳き回し、お囃子の競演が見どころ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "勝浦漁港・遠見岬神社・川津神社・勝浦中央商店街ほか",
+      "official_url": "https://www.katsuura-kankou.net/festival/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://maruchiba.jp/event/detail_13173.html",
+          "site_name": "千葉県公式観光サイト ちば観光ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-08-23"
+        },
+        {
+          "url": "https://www.katsuura-kankou.net/festival/",
+          "site_name": "勝浦市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-23"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0312e600650/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
