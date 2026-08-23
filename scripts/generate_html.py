@@ -1214,9 +1214,13 @@ def generate_map(festivals, last_updated):
   </div>
 </div>
 <footer>最終更新: {last_updated}</footer>"""
+    breadcrumb = breadcrumb_jsonld([
+        ("全国祭り情報", f"{SITE_BASE_URL}/"),
+        ("地図から探す", f"{SITE_BASE_URL}/map.html"),
+    ])
     with open(os.path.join(DOCS_DIR, 'map.html'), 'w', encoding='utf-8') as f:
         f.write(html_page(
-            "地図から探す", body, extra_head=map_css,
+            "地図から探す", body, extra_head=map_css + breadcrumb,
             description="日本地図から都道府県別に全国の祭り・花火大会情報を探せます。",
             url_path="map.html",
         ))
@@ -1237,11 +1241,16 @@ def generate_calendar(festivals, last_updated):
         except:
             pass
 
+    calendar_breadcrumb = breadcrumb_jsonld([
+        ("全国祭り情報", f"{SITE_BASE_URL}/"),
+        ("カレンダー", f"{SITE_BASE_URL}/calendar.html"),
+    ])
+
     if not months_data:
         body = '<div class="container"><p>データがありません</p></div>'
         with open(os.path.join(DOCS_DIR, 'calendar.html'), 'w', encoding='utf-8') as f:
             f.write(html_page(
-                "カレンダー", body,
+                "カレンダー", body, extra_head=calendar_breadcrumb,
                 description="月別カレンダーで全国の祭り・花火大会の開催時期をチェックできます。",
                 url_path="calendar.html",
             ))
@@ -1278,7 +1287,7 @@ function showMonth(m) {
 <footer>最終更新: {last_updated}</footer>"""
     with open(os.path.join(DOCS_DIR, 'calendar.html'), 'w', encoding='utf-8') as f:
         f.write(html_page(
-            "カレンダー", body, extra_head=js,
+            "カレンダー", body, extra_head=js + calendar_breadcrumb,
             description="月別カレンダーで全国の祭り・花火大会の開催時期をチェックできます。",
             url_path="calendar.html",
         ))
