@@ -167,6 +167,18 @@
       "verify_after": "2026-08-25",
       "result": "",
       "commit": "2403cf35a1718051a8b02f7cf91c04ffcc9515c0"
+    },
+    {
+      "date": "2026-08-23 08:13",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-23取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回(2026-08-20 prefers-reduced-motion)はverify_after到来（2026-08-23）につき本実行冒頭で効果測定し「変化なし」を記録した（アクセス自体が発生していないため）。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。plan.mdの「構造化データ(JSON-LD, Event スキーマ)の追加」テーマに関連し、breadcrumb_jsonld()の適用状況を確認したところ、都道府県ページ・月別ページには2026-08-15にBreadcrumbListを導入済みだが、calendar.html・map.htmlの2ページだけは構造化データが一切埋め込まれておらず（BreadcrumbList・Eventいずれも無し）、検索エンジンにこれらのページの階層関係が伝わらない状態だった。",
+      "action": "scripts/generate_html.py のgenerate_calendar()・generate_map()に、既存のbreadcrumb_jsonld()関数を再利用してBreadcrumbList構造化データ（ホーム→カレンダー／ホーム→地図から探す）を追加した。generate_calendar()はmonths_dataが空の分岐（データ無し表示）にも同様に適用。event_jsonld()等の新規関数追加は行わず、既存関数の呼び出し追加のみ。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "calendar.html・map.htmlにもBreadcrumbListが付くことで、サイト内の全61ページで構造化データによる階層関係の明示が一貫するようになり、検索結果でのパンくず表示・クローラーのサイト構造理解がサイト全体で均質化するはず。GA4のセッション数だけでは直接測定できない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認（JSON-LDのパース可否等）を中心に経過観察する。",
+      "verify_after": "2026-08-26",
+      "result": "",
+      "commit": "60033ea9032e300dde139bdf8d9f0645bef4db5d"
     }
   ]
 }
