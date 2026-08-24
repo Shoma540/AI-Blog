@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23 18:10",
+  "last_updated": "2026-08-24 08:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -48236,6 +48236,141 @@
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_795",
+      "name": "伊達神社例大祭",
+      "alternate_names": [
+        "伊達神社例祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "伊達市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-13",
+      "date_note": "12日は宵宮祭、13日は神幸祭。神幸発御式は午前8時、午前9時から市内をお神輿が巡行。",
+      "time_start": "08:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "伊達神社",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "伊達市総鎮守・伊達神社の例大祭。宵宮祭と神幸祭の二日間にわたり執り行われる伊達市最大級の伝統行事。神幸祭では神輿が市内を巡行し、特設会場では吹奏楽演奏・仙台神楽・もちまき大会等が行われ、境内前には露店が並ぶ。",
+      "food_stalls": "境内前の通りに露店多数",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "伊達神社（北海道伊達市末永町）",
+      "official_url": "https://www.datejinja.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.datejinja.com/blank-7",
+          "site_name": "伊達神社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-24"
+        },
+        {
+          "url": "https://www.city.date.hokkaido.jp/eventcal/calendar/",
+          "site_name": "北海道伊達市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-24"
+        },
+        {
+          "url": "https://kt-hub.com/64255/datejinja-2026/",
+          "site_name": "来たHUB",
+          "is_official": false,
+          "retrieved_date": "2026-08-24"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "昨年データ不明"
+      }
+    },
+    {
+      "id": "festival_796",
+      "name": "千住の秋祭り",
+      "alternate_names": [
+        "千住祭",
+        "北千住秋祭り"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "足立区",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-13",
+      "date_note": "12日夕方が宵宮（千住本町五町会連合宵宮17:45出発式、千住祭連絡会宵宮18:00出発式）、13日が千住祭連絡会連合渡御（神輿8基）。夏に開催される素盞雄神社天王祭とは別の秋の祭礼。",
+      "time_start": "17:45",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "千住祭連絡会・千住本町五町会ほか各町会",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "足立区・千住地区で秋に行われる祭礼。旧日光街道沿いの千住一〜五丁目や大正通り沿いの町会などが宵宮・本祭で神輿・山車を繰り出す。2026年は宵宮に2つの連合渡御、本祭に神輿8基の連合渡御が予定される。",
+      "food_stalls": "商店街沿いに露店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "北千住駅周辺（旧日光街道・大正通り一帯）",
+      "official_url": "https://www.senjujinja926.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/hakubutsukan/chiikibunka/hakubutsukan/manabu-akimatsuri.html",
+          "site_name": "足立区公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-24"
+        },
+        {
+          "url": "https://www.senjujinja926.com/%E7%A5%AD-%E5%B9%B4%E9%96%93%E8%A1%8C%E4%BA%8B",
+          "site_name": "千住神社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-24"
+        },
+        {
+          "url": "https://adachi.keizai.biz/headline/623/",
+          "site_name": "北千住経済新聞",
+          "is_official": false,
+          "retrieved_date": "2026-08-24"
+        },
+        {
+          "url": "https://kitasen.com/entry/kitasenju-autumn-festival-2026",
+          "site_name": "北千住案内所",
+          "is_official": false,
+          "retrieved_date": "2026-08-24"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "昨年データ不明"
       }
     }
   ]
