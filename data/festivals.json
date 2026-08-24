@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24 08:15",
+  "last_updated": "2026-08-24 12:35",
   "festivals": [
     {
       "id": "festival_001",
@@ -1820,10 +1820,10 @@
       "similar_name_warning": false,
       "prefecture": "栃木県",
       "city": "日光市",
-      "date_start": "2026-05-17",
-      "date_end": "2026-05-18",
-      "date_note": "5/17流鏑馬、5/18百物揃千人武者行列",
-      "time_start": "11:00",
+      "date_start": "2026-10-16",
+      "date_end": "2026-10-17",
+      "date_note": "10/16(金) 13:00頃 流鏑馬神事、10/17(土) 11:00頃 百物揃千人武者行列(渡御祭)・12:00御旅所祭・13:00頃還御。5/17-18は規模の大きい春季例大祭（別イベント）で、当レコードは名称通り秋季大祭の日程に訂正。",
+      "time_start": "13:00",
       "time_end": "13:00",
       "rain_policy": "不明",
       "organizer": "日光東照宮",
@@ -1857,13 +1857,13 @@
           "url": "https://www.nikko-kankou.org/event/506",
           "site_name": "日光市公式観光サイト 日光旅ナビ",
           "is_official": true,
-          "retrieved_date": "2026-07-03"
+          "retrieved_date": "2026-08-24"
         },
         {
           "url": "https://www.tochigiji.or.jp/event/e15021",
           "site_name": "とちぎ旅ネット（栃木県公式観光サイト）",
           "is_official": true,
-          "retrieved_date": "2026-07-03"
+          "retrieved_date": "2026-08-24"
         },
         {
           "url": "https://www.nikko-kankou.org/event/27",
@@ -1875,17 +1875,25 @@
           "url": "https://www.nikko-kankou.org/public/event/506",
           "site_name": "日光旅ナビ",
           "is_official": true,
-          "retrieved_date": "2026-08-17"
+          "retrieved_date": "2026-08-24"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "⚠️ 矛盾: 既存レコードの日程(05-17〜05-18)は実際には「春季例大祭」の日程であり、祭り名の「秋季」と矛盾している。秋季大祭は10/16(流鏑馬)・10/17(渡御祭・百物揃千人武者行列)。 名称と日付の不一致のため要確認フラグ。既存レコードは日付訂正せず、要確認のみ付与（名称の対象祭事を誤認している可能性）。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "time_start",
+        "time_end",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "訂正: 誤って春季例大祭の日程(2026-05-17〜2026-05-18)を記録していたため、祭り名「秋季例大祭」と一致する秋季大祭の日程(2026-10-16〜2026-10-17)に修正。"
       }
     },
     {
@@ -48295,7 +48303,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -48366,7 +48374,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
