@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24 12:35",
+  "last_updated": "2026-08-24 16:24",
   "festivals": [
     {
       "id": "festival_001",
@@ -48375,6 +48375,133 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "昨年データ不明"
+      }
+    },
+    {
+      "id": "festival_797",
+      "name": "登米秋まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "登米市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "9月19日(土)は宵祭り、9月20日(日)は本祭り。例年9月第3日曜日を本祭りとする慣例に基づく。",
+      "time_start": "16:00",
+      "time_end": "19:00",
+      "rain_policy": "不明",
+      "organizer": "登米秋まつり協賛会",
+      "genre": [
+        "山車",
+        "神輿"
+      ],
+      "scale": "県指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 350,
+      "history_description": "延宝3年(1675年)から350余年にわたり受け継がれてきた登米地区の伝統行事。「とよま型」と呼ばれる町内会手作りの山車が「とよま囃子」とともに町内を練り歩き、本祭りでは神輿渡御や甲冑姿の武者行列も行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "髙倉勝子美術館前観光駐車場（登米市登米町寺池桜小路地内）ほか、仙台銀行角～三日町交差点周辺",
+      "official_url": "https://www.tome-city.com/pages/410/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.tome-city.com/pages/410/",
+          "site_name": "登米市観光物産協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-24"
+        },
+        {
+          "url": "https://www.city.tome.miyagi.jp/toyoma-simin/toyomaakimaturi20250813.html",
+          "site_name": "登米市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-24"
+        },
+        {
+          "url": "https://www.miyagi-kankou.or.jp/kakikomi/detail.php?id=5854",
+          "site_name": "宮城まるごと探訪（宮城県観光連盟）",
+          "is_official": true,
+          "retrieved_date": "2026-08-24"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "昨年（2025年）は9月20日(土)宵祭り・9月21日(日)本祭りで開催。日程は例年9月第3日曜日基準で毎年変動。"
+      }
+    },
+    {
+      "id": "festival_798",
+      "name": "大門曳山まつり",
+      "alternate_names": [
+        "大門神社・枇杷首神社秋季例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "富山県",
+      "city": "射水市",
+      "date_start": "2026-10-11",
+      "date_end": "2026-10-11",
+      "date_note": "毎年10月第2日曜日に開催。",
+      "time_start": "10:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "射水市観光協会",
+      "genre": [
+        "曳山"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（記載なし、無料の可能性が高い）",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "明治初期（明治5年前後）に始まったと伝わる大門神社・枇杷首神社の秋季例大祭。田町・中町・西町・枇杷首の4基の曳山が、昼は花笠を飾った花山として、夜は提灯山として町内を練り歩く。西町・中町・田町の曳山が大門神社を出発し大門大橋を渡って枇杷首の曳山と合流、橋を往復する光景が見どころ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "あいの風とやま鉄道「越中大門駅」から徒歩約12分／北陸自動車道「小杉IC」から車で約12分、大門総合会館臨時駐車場利用",
+      "official_url": "https://www.imizu-kanko.jp/hikiyama/daimon/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.imizu-kanko.jp/hikiyama/daimon/",
+          "site_name": "射水市公式観光サイト きららか射水観光NAVI",
+          "is_official": true,
+          "retrieved_date": "2026-08-24"
+        },
+        {
+          "url": "https://www.takaoka.or.jp/event/detail_3941.html",
+          "site_name": "高岡観光ナビ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-24"
+        },
+        {
+          "url": "https://www.info-toyama.com/events/20063",
+          "site_name": "とやま観光ナビ（富山県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-24"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
