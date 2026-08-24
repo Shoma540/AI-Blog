@@ -636,11 +636,17 @@ def generate_index(festivals, last_updated):
   <div class="badge-links">{pref_links}</div>
 </div>
 <footer>最終更新: {last_updated} &nbsp;|&nbsp; <a href="map.html">地図から探す</a> &nbsp;|&nbsp; <a href="calendar.html">カレンダーで見る</a></footer>"""
+    today_str = datetime.now().strftime('%Y-%m-%d')
+    upcoming_festivals = [
+        f for f in sorted_festivals
+        if f.get('date_start') and f.get('date_start') >= today_str
+    ][:30]
+
     os.makedirs(DOCS_DIR, exist_ok=True)
     with open(os.path.join(DOCS_DIR, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(html_page(
             "全国祭り情報", body,
-            extra_head=website_jsonld(),
+            extra_head=website_jsonld() + event_jsonld(upcoming_festivals),
             description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。",
             url_path="",
         ))
