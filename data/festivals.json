@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24 17:25",
+  "last_updated": "2026-08-25 03:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -11302,13 +11302,22 @@
           "site_name": "観光いばらき公式",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.town.oarai.lg.jp/chouseijouhou/daisukidesuooaraikihukinfurusatonouzei/32261/",
+          "site_name": "大洗町公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-25"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "開催曜日の表記に情報源間で「土」「日」の揺れがあり要再確認（日付自体は9/26で一致）。",
+      "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "CONFLICT_RESOLVED",
+      "updated_fields": [
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -48553,6 +48562,76 @@
           "site_name": "九州TV",
           "is_official": false,
           "retrieved_date": "2026-08-24"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_800",
+      "name": "宮地嶽神社秋季大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "福津市",
+      "date_start": "2026-09-21",
+      "date_end": "2026-09-23",
+      "date_note": "9月21日(月・祝)正午：御神幸行列「お下り」／9月22日(火)20:00：開運花火大会／9月23日(水・祝)13:00：御神幸行列「お上り」",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "宮地嶽神社",
+      "genre": [
+        "神事",
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 700,
+      "history_description": "大神様が氏子域の実りをご視察なさる御神幸が中心の、宮地嶽神社最大の祭典。700年程続く祭事と伝わる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.miyajidake.or.jp/event/syuki",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.miyajidake.or.jp/event/syuki",
+          "site_name": "宮地嶽神社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-25"
+        },
+        {
+          "url": "https://www.miyajidake.or.jp/news/festival/%E7%A7%8B%E5%AD%A3%E5%A4%A7%E7%A5%AD%E5%82%AC%E4%BA%8B%E6%97%A5%E7%A8%8B",
+          "site_name": "宮地嶽神社公式サイト（秋季大祭催事日程）",
+          "is_official": true,
+          "retrieved_date": "2026-08-25"
+        },
+        {
+          "url": "https://kbc.co.jp/wish/article/43191/",
+          "site_name": "ジモタイムズ・九州朝日放送(KBC)",
+          "is_official": false,
+          "retrieved_date": "2026-08-25"
+        },
+        {
+          "url": "https://www.crossroadfukuoka.jp/event/13359",
+          "site_name": "クロスロードふくおか",
+          "is_official": false,
+          "retrieved_date": "2026-08-25"
         }
       ],
       "trust_level": "高",
