@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25 17:20",
+  "last_updated": "2026-08-25 18:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -48698,7 +48698,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -48758,6 +48758,78 @@
         {
           "url": "https://blog.kanko.jp/kyoto-sightseeing/event10/zuiki-festival",
           "site_name": "京都観光旅行ガイド（blog.kanko.jp）",
+          "is_official": false,
+          "retrieved_date": "2026-08-25"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_803",
+      "name": "大槌まつり",
+      "alternate_names": [
+        "大槌祭り",
+        "大槌稲荷神社例大祭・小鎚神社例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "上閉伊郡大槌町",
+      "date_start": "2026-09-18",
+      "date_end": "2026-09-20",
+      "date_note": "9/18 大槌稲荷神社宵宮祭、9/19 大槌稲荷神社祭典神輿渡御（曳舟祭り・大槌川渡御）と小鎚神社宵宮祭、9/20 小鎚神社祭典神輿渡御（小鎚川水垢離）。二つの神社の例大祭が重なる3日間。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "大槌稲荷神社・小鎚神社（大槌まつり実行委員会）",
+      "genre": [
+        "神輿",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見物無料（詳細は公式情報を要確認）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "大槌稲荷神社・小鎚神社の合同例大祭で、神輿渡御に大神楽・鹿子踊・虎舞・七福神・手踊りなどの郷土芸能が連なる。虎舞は江戸時代中期に廻船の乗組員が近松門左衛門の浄瑠璃『国姓爺合戦』の虎退治の場に感動し創作したと伝わり、鹿子踊は元禄年間に房州の踊りを習い覚えたのが起源とされる。2011年の東日本大震災で被災し7年間途絶えたが、犠牲者の冥福と復興への願いを込めて2018年に復活した。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "三陸鉄道リアス線「大槌駅」から徒歩圏内",
+      "official_url": "https://otsuchi-ta.com/event-info/?p=11160",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://otsuchi-ta.com/event-info/?p=11160",
+          "site_name": "大槌町観光交流協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-25"
+        },
+        {
+          "url": "https://iwatetabi.jp/events/8260/",
+          "site_name": "いわての旅（岩手県観光ポータル）",
+          "is_official": true,
+          "retrieved_date": "2026-08-25"
+        },
+        {
+          "url": "https://www.iwate-np.co.jp/article/2025/9/20/186767",
+          "site_name": "岩手日報ONLINE",
+          "is_official": false,
+          "retrieved_date": "2026-08-25"
+        },
+        {
+          "url": "https://matsurito.jp/matsuri/otsuchimatsuri/index.html",
+          "site_name": "まつりと",
           "is_official": false,
           "retrieved_date": "2026-08-25"
         }
