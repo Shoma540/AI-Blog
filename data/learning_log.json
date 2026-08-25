@@ -165,7 +165,7 @@
       ],
       "hypothesis": "月別ページにもEvent構造化データが加わることで、都道府県ページ同様にGoogleのイベントリッチリザルト（検索結果でのイベントカード表示）の対象となる祭りが増え、将来的に月別ページ経由の検索流入・クリック率向上につながる可能性がある。効果はSearch Console/検索結果への露出が発生してから測定可能になる性質であり、GA4のセッション数だけでは直接検出できないため、当面はvalidate_site.pyでの構造維持確認（全61ページのHTML/JSON-LDパース含む）を中心に経過観察する。",
       "verify_after": "2026-08-25",
-      "result": "",
+      "result": "変化なし: 2026-08-25 08:17時点のGA4スナップショット（過去7日間）もセッション0件・ページビュー0件のまま。月別ページへのEvent構造化データ追加によるイベントリッチリザルト表示・検索流入への効果は、アクセス自体が発生していないため測定不能。validate_site.pyは全項目通過しサイト破損は無し。Search Console等でインデックス状況が確認できるようになった時点で改めて評価する。",
       "commit": "2403cf35a1718051a8b02f7cf91c04ffcc9515c0"
     },
     {
@@ -191,6 +191,18 @@
       "verify_after": "2026-08-27",
       "result": "",
       "commit": "3e3a8c2dba455db65e74cea3208ba672229f2750"
+    },
+    {
+      "date": "2026-08-25 08:19",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-25 08:17取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。validate_site.pyは全項目通過し、直近の改善（2026-08-23 calendar/map BreadcrumbList、2026-08-24 トップページEvent JSON-LD）によるサイト破損は無し。plan.mdの「表示速度・アクセシビリティの改善」テーマに関連し、html_page()のOGP出力を確認したところ、og:image は全61ページで出力済み（2026-08-11導入）だが、og:image:width / og:image:height / og:image:type が一切出力されておらず、SNS側のクローラーが実画像を取得するまでプレビューの寸法を確定できない状態だった。assets/images配下の画像ファイルを確認したところ、拡張子は.pngだが実体は全21ファイルともJPEG形式・928x1152ピクセルで統一されていることを確認した。",
+      "action": "scripts/generate_html.py のhtml_page()で、og:imageタグの直後にog:image:type(image/jpeg)・og:image:width(928)・og:image:height(1152)のメタタグを追加した。og:imageは常にDEFAULT_IMAGE（default_ill.png、928x1152のJPEG）を指すため、全ページ共通の固定値として安全に追加できることを画像ファイルの実測で確認した上で実装。html_page()は全61ページ共通テンプレートのため、index/map/calendar/都道府県47/月別11の計61ページ全てに適用される。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "og:image:width/height/typeが加わることで、X（Twitter）・LINE・Facebook等のSNSクローラーが画像を実際に取得しなくてもプレビューのレイアウトを事前に確定できるようになり、リンクシェア時のプレビュー表示の安定性・信頼性が向上するはず。GA4のセッション数だけでは直接測定できない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認（全61ページのメタタグ出力確認含む）を中心に経過観察する。",
+      "verify_after": "2026-08-28",
+      "result": "",
+      "commit": "69ad9f8eaf66dd40f9114701760751702f49db34"
     }
   ]
 }
