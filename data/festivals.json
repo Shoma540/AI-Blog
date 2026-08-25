@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25 12:34",
+  "last_updated": "2026-08-25 16:19",
   "festivals": [
     {
       "id": "festival_001",
@@ -48635,6 +48635,70 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_801",
+      "name": "能取湖さんご草まつり",
+      "alternate_names": [
+        "能取湖さんご草祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "網走市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-13",
+      "date_note": "例年9月中旬、サンゴ草(アッケシソウ)が最も赤く色づく時期に開催",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "網走市観光協会",
+      "genre": [
+        "民俗芸能"
+      ],
+      "scale": "その他（国内最大級のサンゴ草群落地でのイベント）",
+      "is_free": true,
+      "price": "入場無料（飲食・物販は有料）",
+      "ticket_url": "不明",
+      "history_years": 60,
+      "history_description": "能取湖畔に自生する日本最大規模のサンゴ草(アッケシソウ)群落を鑑賞するイベント。2026年で第60回。地元産のホタテ・つぶなどオホーツクの海産物販売や、よさこいソーラン祭りオホーツク支部大会も行われる。",
+      "food_stalls": "地元産ホタテ・つぶなどオホーツクの海産物の販売あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR網走駅からバス、能取湖畔",
+      "official_url": "https://visit-abashiri.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://visit-abashiri.jp/en/event/f86b09a13428a753067ba34dbc54f3886cb149af.html",
+          "site_name": "網走市観光協会（おいしいまち網走）",
+          "is_official": true,
+          "retrieved_date": "2026-08-25"
+        },
+        {
+          "url": "https://www.visit-hokkaido.jp/spot/detail_10264.html",
+          "site_name": "北海道観光・旅行情報サイト HOKKAIDO LOVE!",
+          "is_official": true,
+          "retrieved_date": "2026-08-25"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0101e361914/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-25"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
