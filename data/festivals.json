@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25 03:20",
+  "last_updated": "2026-08-25 08:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -11313,11 +11313,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "CONFLICT_RESOLVED",
-      "updated_fields": [
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -48637,7 +48634,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
