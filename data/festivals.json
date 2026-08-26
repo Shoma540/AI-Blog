@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27 01:30",
+  "last_updated": "2026-08-27 02:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -48965,7 +48965,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -49027,6 +49027,193 @@
       "trust_level": "高",
       "conflict_note": "一部サイト（るるぶ&more.）は「第53回」と記載しているが、公式サイトでは「第54回」としており前年ページの可能性が高いため公式表記を採用した。",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_807",
+      "name": "大阪芸術花火2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "泉佐野市",
+      "date_start": "2026-10-31",
+      "date_end": "2026-10-31",
+      "date_note": "開場14:00、花火打上げ18:00〜（予定）",
+      "time_start": "14:00",
+      "time_end": "不明",
+      "rain_policy": "雨天決行・荒天中止",
+      "organizer": "大阪芸術花火開催委員会（一般社団法人大阪ブランディング）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "全席有料制（ビーチイス席6,000円〜プライベートバンガロー150,000円など。無料観覧エリアなし、公式サイト参照）",
+      "ticket_url": "https://www.osakafireworks.com/",
+      "history_years": 5,
+      "history_description": "花火エンターテインメント「芸術花火」シリーズの一つとして、りんくう公園マーブルビーチで開催される全席有料制の花火大会。2026年で5回目の開催。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約24,000人（予定）",
+      "access": "JR・南海りんくうタウン駅から徒歩10分（りんくう公園マーブルビーチ、大阪府泉佐野市りんくう往来南7-1）",
+      "official_url": "https://www.osakafireworks.com/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/osakahanabi/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.osakafireworks.com/",
+          "site_name": "大阪芸術花火2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://osaka.style/news/pressrelease/70688/",
+          "site_name": "Osaka Style（プレスリリース）",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0727e512991/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_808",
+      "name": "滑川のネブタ流し",
+      "alternate_names": [
+        "なめりかわのねぶたながし"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "富山県",
+      "city": "滑川市",
+      "date_start": "2026-07-31",
+      "date_end": "2026-07-31",
+      "date_note": "毎年7月31日固定開催（夏越の節供の行事）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "滑川市（地元町内会・保存会）",
+      "genre": [
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": "不明",
+      "history_description": "青竹を芯に藁と筵で作った巨大な松明「ネブタ」を各町内で練り歩いた後、和田の浜（中川原海岸）に据え付け、日没後に火を点けて沖に流す神事。「夏越の節供」にあたり、けがれ・疫病・睡魔を海に流す禊の行事とされ、1999年（平成11年）12月21日に国の重要無形民俗文化財に指定された。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "あいの風とやま鉄道・富山地方鉄道 滑川駅から徒歩8分（和田の浜海岸、ほたるいかミュージアム裏）",
+      "official_url": "https://www.city.namerikawa.toyama.jp/soshiki/22/2/594.html",
+      "sns_accounts": {},
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.namerikawa.toyama.jp/soshiki/22/2/594.html",
+          "site_name": "滑川市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://bunka.nii.ac.jp/heritages/detail/159928",
+          "site_name": "文化遺産オンライン（文化庁）",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://kunishitei.bunka.go.jp/bsys/maindetails/302/715",
+          "site_name": "国指定文化財等データベース（文化庁）",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_809",
+      "name": "海南神社 夏例大祭",
+      "alternate_names": [
+        "三崎の海南神社例祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "三浦市",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "date_note": "海の日（7月第3月曜）直前の土曜・日曜に開催。2026年の海の日は7月20日のため、その前の土日程での開催予定。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "海南神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "市指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": "不明",
+      "history_description": "江戸時代から続く海南神社の夏の例大祭。明治中期頃までは船渡御（海上渡御）であったが、その後陸上渡御に変わった。三浦半島の総鎮守として、五穀豊穣・大漁などを祈願する祭礼。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京急線 三崎口駅からバス「三崎港」下車すぐ（海南神社、三浦市三崎）",
+      "official_url": "https://www.city.miura.kanagawa.jp/soshiki/bunkasportska/bunkasportska_bunka/shiteibunkazai_soshiki/1337.html",
+      "sns_accounts": {},
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.miura.kanagawa.jp/soshiki/bunkasportska/bunkasportska_bunka/shiteibunkazai_soshiki/1337.html",
+          "site_name": "三浦市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://www.kanagawa-kankou.or.jp/spot/424",
+          "site_name": "観光かながわNOW",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://yokosuka.goguynet.jp/2025/07/16/kainanjinjyanatsureitaisai2025/",
+          "site_name": "横須賀・三浦半島の情報サイト",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "2026年の具体的な開催日は例年の開催パターン（海の日直前の土日）からの推定を含み、公式発表による確定告知は未確認のため信頼度を中とした。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
