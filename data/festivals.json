@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27 02:15",
+  "last_updated": "2026-08-27 03:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -49214,6 +49214,132 @@
       "trust_level": "中",
       "conflict_note": "2026年の具体的な開催日は例年の開催パターン（海の日直前の土日）からの推定を含み、公式発表による確定告知は未確認のため信頼度を中とした。",
       "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_810",
+      "name": "やつしろ全国花火競技大会",
+      "alternate_names": [
+        "第39回やつしろ全国花火競技大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "熊本県",
+      "city": "八代市",
+      "date_start": "中止",
+      "date_end": "",
+      "date_note": "2026年8月開催予定だったが、地震の影響により中止と公式発表（2026年8月7日・9日付）。一部旅行・イベント情報サイトでは10月17日開催と案内されているが、公式サイトの発表と食い違っており最新情報でない可能性が高い。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "八代市経済文化交流部 観光振興課（やつしろ全国花火競技大会実行委員会事務局）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧席・駐車場あり（中止に伴い返金対応中）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "八代市球磨川河川緑地（新萩原橋上流）付近",
+      "official_url": "https://www.8246hanabi.com/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.8246hanabi.com/",
+          "site_name": "やつしろ全国花火競技大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://kumamoto.guide/events/detail/7783",
+          "site_name": "くまもとよかとこ ぐるっと肥後めぐり（※中止表記あり）",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1043e01051/",
+          "site_name": "ウォーカープラス（10月17日開催と案内。公式発表と不一致の可能性）",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "⚠️ 矛盾：公式サイトは2026年開催中止（地震の影響）と発表しているが、ウォーカープラス等一部サイトは10月17日開催予定と案内している。公式発表を優先。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "例年8月開催 → 2026年は地震の影響により中止（公式発表）"
+      }
+    },
+    {
+      "id": "festival_811",
+      "name": "豊橋炎の祭典",
+      "alternate_names": [
+        "第31回豊橋炎の祭典"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "愛知県",
+      "city": "豊橋市",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-07",
+      "date_note": "「豊橋祇園祭（手筒花火発祥の祭）」とは別の祭りのため注意。",
+      "time_start": "17:30",
+      "time_end": "19:00",
+      "rain_policy": "不明（荒天時対応は公式サイト「大切なご案内」参照）",
+      "organizer": "豊橋炎の祭典実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "全席有料（事前購入制、詳細は公式サイト参照）",
+      "ticket_url": "https://tezutsuhanabi.com/",
+      "history_years": 31,
+      "history_description": "1996年の第1回開催から続く、三河地方発祥の伝統的な手筒花火を中心とした祭典。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "豊橋市総合スポーツ公園 かもめ広場少年サッカー場",
+      "official_url": "https://tezutsuhanabi.com/",
+      "sns_accounts": {
+        "facebook": "豊橋商工会議所"
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://tezutsuhanabi.com/",
+          "site_name": "豊橋炎の祭典 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/3102/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0623e01068/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
