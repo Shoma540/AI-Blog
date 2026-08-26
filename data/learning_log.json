@@ -203,6 +203,18 @@
       "verify_after": "2026-08-28",
       "result": "",
       "commit": "69ad9f8eaf66dd40f9114701760751702f49db34"
+    },
+    {
+      "date": "2026-08-26 08:21",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-26 08:18取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回(2026-08-23 08:13 calendar/map BreadcrumbList追加)はverify_after到来（2026-08-26）につき本実行冒頭で効果測定し「変化なし」を記録した（アクセス自体が発生していないため）。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。plan.mdの「表示速度・アクセシビリティの改善」テーマに関連し、festival_card_html()のimg要素を確認したところ、index.html/prefecture別/月別の全カード画像に一律loading=\"lazy\"が付与されており、各ページの最初（＝ファーストビューに表示され、LCP候補となる）のカード画像までもが遅延読み込み対象になっていた。Web Vitals上、LCP要素へのloading=\"lazy\"適用は表示完了を遅らせる既知のアンチパターン。",
+      "action": "scripts/generate_html.py のfestival_card_html()にindex引数を追加し、各ページ（index/prefecture/month、およびcalendar.htmlの初期表示タブ）で先頭（index==0）のカードのみloading=\"eager\" fetchpriority=\"high\"を付与し、2枚目以降は従来通りloading=\"lazy\"のままとした。calendar.htmlは非表示の月タブの1枚目まではeagerにせず、初期表示される最初のタブのみ対象とした。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "各ページのファーストビューに表示される最初のカード画像がlazy読み込みされなくなることで、LCP（Largest Contentful Paint）の描画開始が早まり、表示速度指標が改善するはず。2枚目以降は引き続きlazyのままのため、全体の初期読み込み負荷は増えない。効果はLighthouse等の実測やGA4のアクセスが増えてから測定可能になる性質のため、当面はvalidate_site.pyでの構造維持確認（生成HTMLのパース可否・各ページの先頭カードがeagerになっているか）を中心に経過観察する。",
+      "verify_after": "2026-08-29",
+      "result": "",
+      "commit": "f8cfacdcd926fec6c663688ae0fb7e20d42a2d0a"
     }
   ]
 }
