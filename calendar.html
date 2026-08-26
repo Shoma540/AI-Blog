@@ -381,7 +381,7 @@ function showMonth(m) {
 <div class="container">
   <div class="month-tabs"><button class="month-tab active" onclick="showMonth(2)">2月</button><button class="month-tab" onclick="showMonth(3)">3月</button><button class="month-tab" onclick="showMonth(4)">4月</button><button class="month-tab" onclick="showMonth(5)">5月</button><button class="month-tab" onclick="showMonth(6)">6月</button><button class="month-tab" onclick="showMonth(7)">7月</button><button class="month-tab" onclick="showMonth(8)">8月</button><button class="month-tab" onclick="showMonth(9)">9月</button><button class="month-tab" onclick="showMonth(10)">10月</button><button class="month-tab" onclick="showMonth(11)">11月</button><button class="month-tab" onclick="showMonth(12)">12月</button></div>
   <div class="month-section active" id="month-2"><div class="card-grid"><div class="festival-card">
-  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/odori_ill.png" alt="さっぽろ雪まつり" loading="lazy">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/odori_ill.png" alt="さっぽろ雪まつり" loading="eager" fetchpriority="high">
   <div class="card-body">
     <div class="card-name">さっぽろ雪まつり</div>
     <div class="card-date">📅 2月4日 〜 2月11日</div>
@@ -6249,6 +6249,18 @@ function showMonth(m) {
     </div>
   </div>
 </div><div class="festival-card">
+  <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/bon_ill.png" alt="京橋盆踊り2026" loading="lazy">
+  <div class="card-body">
+    <div class="card-name">京橋盆踊り2026</div>
+    <div class="card-date">📅 8月28日 〜 8月29日</div>
+    <div class="card-location">📍 東京都 中央区</div>
+    <div class="card-badges">
+      <span class="badge badge-genre">盆踊り</span>
+      <span class="badge badge-trust-中" style="background:#f9a8251a;color:#f9a825;">[信頼度:中]</span>
+      
+    </div>
+  </div>
+</div><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/hanabi_ill.png" alt="大曲の花火（全国花火競技大会）" loading="lazy">
   <div class="card-body">
     <div class="card-name">大曲の花火（全国花火競技大会）</div>
@@ -8914,7 +8926,7 @@ function showMonth(m) {
   </div>
 </div></div></div>
 </div>
-<footer>最終更新: 2026-08-25 18:14</footer>
+<footer>最終更新: 2026-08-26 08:18</footer>
 </main>
 </body>
 </html>
