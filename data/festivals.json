@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26 08:18",
+  "last_updated": "2026-08-26 21:55",
   "festivals": [
     {
       "id": "festival_001",
@@ -48891,6 +48891,78 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_805",
+      "name": "芝大神宮だらだら祭り",
+      "alternate_names": [
+        "太良太良まつり",
+        "生姜祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "港区",
+      "date_start": "2026-09-11",
+      "date_end": "2026-09-21",
+      "date_note": "11日間の長期例祭。例祭は9/16、敬老祭・氏子各町神輿連合渡御は9/20",
+      "time_start": "10:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "芝大神宮",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "江戸時代の慶長年間、伊勢参りが流行した際に代替として芝神明（芝大神宮）への参詣が盛んになり、農民が秋の収穫期に参詣できるよう祭礼期間を11日間に延ばしたのが由来とされる。かつて生姜市が立ったことから「生姜祭り」とも呼ばれた。",
+      "food_stalls": "期間中、境内や周辺に屋台が多数出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京都港区芝大門1-12-7",
+      "official_url": "https://www.shibadaijingu.com/matsuri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.shibadaijingu.com/matsuri/",
+          "site_name": "芝大神宮公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-26"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/361877/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-08-26"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0313e564184/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-26"
+        },
+        {
+          "url": "https://senkyo-news.jp/shiba-daijingu-daradara-matsuri/",
+          "site_name": "地域イベントニュース",
+          "is_official": false,
+          "retrieved_date": "2026-08-26"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
