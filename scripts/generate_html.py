@@ -428,7 +428,7 @@ def format_date(date_str):
         return date_str
 
 
-def festival_card_html(f, img_path_prefix=""):
+def festival_card_html(f, img_path_prefix="", index=None):
     trust = f.get('trust_level', '低')
     trust_color = TRUST_COLORS.get(trust, '#999')
     check_badge = '<span class="badge badge-check">⚠️ 要確認</span>' if f.get('requires_check') else ''
@@ -443,8 +443,9 @@ def festival_card_html(f, img_path_prefix=""):
     city = f.get('city', '')
     location = f"{pref} {city}".strip()
     img_url = get_image_url(f)
+    img_attrs = 'loading="eager" fetchpriority="high"' if index == 0 else 'loading="lazy"'
     return f"""<div class="festival-card">
-  <img class="card-img" src="{img_url}" alt="{f.get('name','')}" loading="lazy">
+  <img class="card-img" src="{img_url}" alt="{f.get('name','')}" {img_attrs}>
   <div class="card-body">
     <div class="card-name">{f.get('name','')}</div>
     <div class="card-date">📅 {date_label}</div>
@@ -623,7 +624,7 @@ def generate_index(festivals, last_updated):
         festivals,
         key=lambda f: f.get('date_start') or '9999'
     )
-    cards = ''.join(festival_card_html(f) for f in sorted_festivals)
+    cards = ''.join(festival_card_html(f, index=i) for i, f in enumerate(sorted_festivals))
     pref_links = ''.join(
         f'<a class="badge-link" href="prefecture/{p}.html">{p}</a>'
         for p in sorted(set(f.get('prefecture','') for f in festivals if f.get('prefecture')))
@@ -1272,7 +1273,11 @@ def generate_calendar(festivals, last_updated):
     )
     sections = ''
     for i, m in enumerate(sorted_months):
-        cards = ''.join(festival_card_html(f) for f in sorted(months_data[m], key=lambda x: x.get('date_start','')))
+        month_fests = sorted(months_data[m], key=lambda x: x.get('date_start',''))
+        if i == 0:
+            cards = ''.join(festival_card_html(f, index=j) for j, f in enumerate(month_fests))
+        else:
+            cards = ''.join(festival_card_html(f) for f in month_fests)
         active = ' active' if i == 0 else ''
         sections += f'<div class="month-section{active}" id="month-{m}"><div class="card-grid">{cards}</div></div>'
 
@@ -1312,7 +1317,7 @@ def generate_prefecture_pages(festivals, last_updated):
             [f for f in festivals if f.get('prefecture') == pref],
             key=lambda x: x.get('date_start') or '9999'
         )
-        cards = ''.join(festival_card_html(f) for f in pref_festivals)
+        cards = ''.join(festival_card_html(f, index=i) for i, f in enumerate(pref_festivals))
         body = f"""<div class="page-header">
   <h1>{pref}の祭り情報</h1>
   <p>{len(pref_festivals)}件の祭りが見つかりました</p>
@@ -1352,7 +1357,7 @@ def generate_month_pages(festivals, last_updated):
             pass
     for m, fests in months_data.items():
         sorted_fests = sorted(fests, key=lambda x: x.get('date_start',''))
-        cards = ''.join(festival_card_html(f) for f in sorted_fests)
+        cards = ''.join(festival_card_html(f, index=i) for i, f in enumerate(sorted_fests))
         body = f"""<div class="page-header">
   <h1>{m}月の祭り情報</h1>
   <p>{len(fests)}件の祭りが見つかりました</p>

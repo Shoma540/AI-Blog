@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25 18:14",
+  "last_updated": "2026-08-26 08:18",
   "festivals": [
     {
       "id": "festival_001",
@@ -48835,6 +48835,62 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_804",
+      "name": "京橋盆踊り2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "中央区",
+      "date_start": "2026-08-28",
+      "date_end": "2026-08-29",
+      "date_note": "毎年8月終わりに開催",
+      "time_start": "18:30",
+      "time_end": "20:30",
+      "rain_policy": "小雨決行、荒天中止",
+      "organizer": "京橋一の部連合町会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "屋台・縁日ブースあり（28日は17:00〜、29日は15:00〜）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京橋エドグラン 京橋中央ひろば（ガレリア）、中央区京橋2-2-1",
+      "official_url": "https://www.edogrand.tokyo/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.chuo-kanko.or.jp/blogs/event/20260729",
+          "site_name": "一般社団法人中央区観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-26"
+        },
+        {
+          "url": "https://www.edogrand.tokyo/",
+          "site_name": "京橋エドグラン公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-26"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
