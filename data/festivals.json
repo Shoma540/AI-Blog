@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26 21:55",
+  "last_updated": "2026-08-27 01:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -48964,6 +48964,68 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_806",
+      "name": "本場大館きりたんぽまつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "秋田県",
+      "city": "大館市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "両日とも10:00〜17:00開催",
+      "time_start": "10:00",
+      "time_end": "17:00",
+      "rain_policy": "屋内（ドーム施設）開催のため荒天でも実施",
+      "organizer": "大館食の祭典協議会",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "前売共通券1,000円（1,100円分・入浴割引券付き、当日券は別途）",
+      "ticket_url": "https://odate-foodfes.com/",
+      "history_years": "不明",
+      "history_description": "秋田県大館市の郷土料理「きりたんぽ」の本場で開催される食の祭典。会場をニプロハチ公ドームに移し、本場のきりたんぽ鍋のほか大館産食材を使った料理が並ぶ。2026年で第54回を迎える。",
+      "food_stalls": "きりたんぽ鍋をはじめ大館産食材を使った飲食ブースが多数出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "秋田県大館市上代野字稲荷台1-1 ニプロハチ公ドーム",
+      "official_url": "https://odate-foodfes.com/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/odatefoodfes/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://odate-foodfes.com/",
+          "site_name": "大館食の祭典協議会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://visitakita.com/tourist-guide/event21/",
+          "site_name": "秋田犬ツーリズム",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://akitanote.jp/detail.html?id=2373",
+          "site_name": "あきたノート",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "一部サイト（るるぶ&more.）は「第53回」と記載しているが、公式サイトでは「第54回」としており前年ページの可能性が高いため公式表記を採用した。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
