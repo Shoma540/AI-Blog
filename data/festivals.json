@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27 16:13",
+  "last_updated": "2026-08-27 17:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -35166,21 +35166,21 @@
       "date_note": "打ち上げ約1万発、19:00〜20:00。テーマ「つなぐ絆、未来に響け一万発」。",
       "time_start": "19:00",
       "time_end": "20:00",
-      "rain_policy": "不明",
+      "rain_policy": "雨天決行。荒天時は中止とし、順延なし",
       "organizer": "酒田の花火実行委員会",
       "genre": [
         "花火"
       ],
       "scale": "その他",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
+      "is_free": false,
+      "price": "有料観覧席あり（A・C・D席、フリーエリア、堤防席等 2,000円〜5,000円、学生割引あり）",
+      "ticket_url": "https://l-tike.com/event/mevent/?mid=758869",
       "history_years": "不明",
       "history_description": "不明",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "最上川河畔（山形県道7号・国道112号出羽大橋の間）、酒田市",
       "official_url": "https://sakata-hanabi.com/",
       "sns_accounts": {
         "instagram": "不明"
@@ -35198,13 +35198,25 @@
           "site_name": "ウォーカープラス 花火大会2026",
           "is_official": false,
           "retrieved_date": "2026-08-10"
+        },
+        {
+          "url": "https://www.tabix.co.jp/domestic/special/season/fireworks/sakata/",
+          "site_name": "旅っくす",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "rain_policy",
+        "price",
+        "ticket_url",
+        "access",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -38356,7 +38368,7 @@
       "city": "江東区",
       "date_start": "2026-08-11",
       "date_end": "2026-08-11",
-      "date_note": "台風15号の関東地方上陸予報を受け、2026年8月11日午前11時過ぎに開催中止が発表された（完全中止・延期なし）。",
+      "date_note": "台風15号の関東地方上陸予報を受け、2026年8月11日午前11時過ぎに開催中止が発表された（完全中止・延期なし）。 2026年8月11日開催予定だったが、台風15号の接近に伴い開催中止が発表された（開催準備・撤収の安全確保が困難と判断）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "台風接近等の悪天候時は中止（今回は中止決定）",
@@ -38397,13 +38409,28 @@
           "site_name": "花火大会2026（じゃらん系）中止・延期一覧",
           "is_official": false,
           "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://toyosu.tokyo/news/typhoon-no15-2026/",
+          "site_name": "とよすと",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://yakei-fan.com/magazine/fireworks/tokyo/koto-hanabi2026cancel.html",
+          "site_name": "夜景FANマガジン",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "2026年は台風15号の影響により中止（8/11開催予定だった）。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -49418,68 +49445,6 @@
       }
     },
     {
-      "id": "festival_813",
-      "name": "酒田の花火2026「つなぐ絆、未来に響け一万発」",
-      "alternate_names": [
-        "酒田の花火"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "山形県",
-      "city": "酒田市",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "date_note": "会場開場16:00、打ち上げ19:00〜20:00",
-      "time_start": "19:00",
-      "time_end": "20:00",
-      "rain_policy": "雨天決行。荒天時は中止とし、順延なし",
-      "organizer": "酒田の花火2026実行委員会（酒田商工会議所内）",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": false,
-      "price": "有料観覧席あり（A・C・D席、フリーエリア、堤防席等 2,000円〜5,000円、学生割引あり）",
-      "ticket_url": "https://l-tike.com/event/mevent/?mid=758869",
-      "history_years": null,
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "最上川河畔（山形県道7号・国道112号出羽大橋の間）、酒田市",
-      "official_url": "https://sakata-hanabi.com/",
-      "sns_accounts": {},
-      "video_url": "",
-      "sources": [
-        {
-          "url": "https://sakata-hanabi.com/",
-          "site_name": "酒田の花火2026 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-27"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0206e00028/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-08-27"
-        },
-        {
-          "url": "https://www.tabix.co.jp/domestic/special/season/fireworks/sakata/",
-          "site_name": "旅っくす",
-          "is_official": false,
-          "retrieved_date": "2026-08-27"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_814",
       "name": "令和8年度小松基地航空祭",
       "alternate_names": [
@@ -49534,7 +49499,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -49597,7 +49562,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -49657,7 +49622,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
