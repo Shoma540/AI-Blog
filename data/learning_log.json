@@ -215,6 +215,18 @@
       "verify_after": "2026-08-29",
       "result": "",
       "commit": "f8cfacdcd926fec6c663688ae0fb7e20d42a2d0a"
+    },
+    {
+      "date": "2026-08-27 08:18",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-27 08:15取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回(2026-08-24 08:16 トップページEvent JSON-LD追加、commit 3e3a8c2)はverify_after到来（2026-08-27）につき本実行冒頭で効果測定し「変化なし」を記録した（アクセス自体が発生していないため）。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。plan.mdの「表示速度・アクセシビリティの改善」テーマに関連し、docs/calendar.htmlの月別タブUI（generate_calendar()のmonth-tab/month-section）を確認したところ、見た目はタブ切り替えUIだがrole=\"tablist\"/role=\"tab\"/role=\"tabpanel\"等のARIA属性が一切付与されておらず、aria-selectedによる選択状態の通知やaria-controls/aria-labelledbyによる紐付けも無かったため、スクリーンリーダー利用者にはこれが「タブ切り替えで表示内容が変わるUI」であることが伝わらない状態だった。",
+      "action": "scripts/generate_html.py のgenerate_calendar()で、タブ群のコンテナにrole=\"tablist\" aria-label=\"開催月で絞り込む\"を、各タブボタンにid/role=\"tab\"/aria-selected/aria-controls/tabindexを、各パネルにrole=\"tabpanel\"/aria-labelledby/tabindex=\"0\"（非表示パネルにはhidden属性）を付与した。showMonth()のJSも、タブ切り替え時にaria-selected・tabIndex・hidden属性を連動して更新するよう修正した。表示ロジック自体（.activeクラスによるdisplay切り替え）は変更しておらず、既存の見た目は維持している。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "calendar.htmlの月別タブがスクリーンリーダーに「タブリスト」として認識されるようになり、現在選択中の月がaria-selectedで通知され、キーボード操作時にもtabindexで適切なフォーカス順序（選択中タブのみ0、他は-1）になることで、視覚に頼らずにこのページを使えるようになるはず。アクセシビリティ面の改善であり、GA4のセッション数だけでは直接効果を測定できない性質のため、次回以降もvalidate_site.pyでの構造維持確認（生成HTMLのパース可否・ARIA属性の出力確認）を中心に経過観察する。",
+      "verify_after": "2026-08-30",
+      "result": "",
+      "commit": "db15dbe41a080a22a6883a395d58fc6f695b2767"
     }
   ]
 }
