@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27 03:12",
+  "last_updated": "2026-08-27 08:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -37031,7 +37031,7 @@
       "scale": "その他",
       "is_free": true,
       "price": "無料（一部有料協賛席あり）",
-      "ticket_url": "不明",
+      "ticket_url": "https://sagamiharahanabi.com/ticket/",
       "history_years": 53,
       "history_description": "相模川高田橋上流の河川敷を会場に行われる花火大会。第53回。約8,000発を打ち上げ予定。協賛エリア入場開始は13:00から。",
       "food_stalls": "不明",
@@ -37048,26 +37048,35 @@
           "url": "https://sagamiharahanabi.com/",
           "site_name": "相模原納涼花火大会公式",
           "is_official": true,
-          "retrieved_date": "2026-08-22"
+          "retrieved_date": "2026-08-27"
         },
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0314e00862/data.html",
           "site_name": "ウォーカープラス 花火大会2026",
           "is_official": false,
-          "retrieved_date": "2026-08-22"
+          "retrieved_date": "2026-08-27"
         },
         {
           "url": "https://www.e-sagamihara.com/event/event-5619/",
           "site_name": "相模原市観光協会公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-08-22"
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://sagamiharahanabi.com/ticket/",
+          "site_name": "相模原納涼花火大会公式（チケット販売ページ）",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "ticket_url",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -49276,7 +49285,7 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾：公式サイトは2026年開催中止（地震の影響）と発表しているが、ウォーカープラス等一部サイトは10月17日開催予定と案内している。公式発表を優先。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -49340,6 +49349,70 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_812",
+      "name": "諏訪神社秋季例大祭（下仁田秋まつり）",
+      "alternate_names": [
+        "下仁田秋祭り",
+        "下仁田諏訪神社秋季例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "群馬県",
+      "city": "甘楽郡下仁田町",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "天保年間から続く例大祭で例年10月中旬開催とされるが、2026年の具体的日程は下仁田町公式サイト等で確認できず（複数ソースで確認できたのは令和7年度＝2025年の開催実績まで）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "諏訪神社秋季例大祭実行委員会（下仁田町観光協会）",
+      "genre": [
+        "山車",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "天保年間から続くとされる諏訪神社の秋季例大祭。町内七地区が山車・御囃子を繰り出し競り合う「下仁田秋まつり」として親しまれている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "諏訪神社（群馬県甘楽郡下仁田町）周辺",
+      "official_url": "https://www.town.shimonita.lg.jp/m04/m06/m01/index.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.town.shimonita.lg.jp/m04/m06/m01/index.html",
+          "site_name": "下仁田町ホームページ（下仁田秋まつり）",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://kanko.shimonita.jp/info/1533/",
+          "site_name": "下仁田町観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://gunma-kanko.jp/features/381",
+          "site_name": "心にググっと観光ぐんま",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {

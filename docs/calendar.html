@@ -358,10 +358,14 @@ footer {
 </style>
   <script>
 function showMonth(m) {
-  document.querySelectorAll('.month-section').forEach(el => el.classList.remove('active'));
-  document.querySelectorAll('.month-tab').forEach(el => el.classList.remove('active'));
-  document.getElementById('month-' + m).classList.add('active');
+  document.querySelectorAll('.month-section').forEach(el => { el.classList.remove('active'); el.hidden = true; });
+  document.querySelectorAll('.month-tab').forEach(el => { el.classList.remove('active'); el.setAttribute('aria-selected', 'false'); el.tabIndex = -1; });
+  const panel = document.getElementById('month-' + m);
+  panel.classList.add('active');
+  panel.hidden = false;
   event.target.classList.add('active');
+  event.target.setAttribute('aria-selected', 'true');
+  event.target.tabIndex = 0;
 }
 </script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "全国祭り情報", "item": "https://shoma540.github.io/AI-Blog/"}, {"@type": "ListItem", "position": 2, "name": "カレンダー", "item": "https://shoma540.github.io/AI-Blog/calendar.html"}]}</script>
 </head>
@@ -379,8 +383,8 @@ function showMonth(m) {
   <p>開催月を選んで祭りを探す</p>
 </div>
 <div class="container">
-  <div class="month-tabs"><button class="month-tab active" onclick="showMonth(2)">2月</button><button class="month-tab" onclick="showMonth(3)">3月</button><button class="month-tab" onclick="showMonth(4)">4月</button><button class="month-tab" onclick="showMonth(5)">5月</button><button class="month-tab" onclick="showMonth(6)">6月</button><button class="month-tab" onclick="showMonth(7)">7月</button><button class="month-tab" onclick="showMonth(8)">8月</button><button class="month-tab" onclick="showMonth(9)">9月</button><button class="month-tab" onclick="showMonth(10)">10月</button><button class="month-tab" onclick="showMonth(11)">11月</button><button class="month-tab" onclick="showMonth(12)">12月</button></div>
-  <div class="month-section active" id="month-2"><div class="card-grid"><div class="festival-card">
+  <div class="month-tabs" role="tablist" aria-label="開催月で絞り込む"><button class="month-tab active" id="tab-2" role="tab" aria-selected="true" aria-controls="month-2" tabindex="0" onclick="showMonth(2)">2月</button><button class="month-tab" id="tab-3" role="tab" aria-selected="false" aria-controls="month-3" tabindex="-1" onclick="showMonth(3)">3月</button><button class="month-tab" id="tab-4" role="tab" aria-selected="false" aria-controls="month-4" tabindex="-1" onclick="showMonth(4)">4月</button><button class="month-tab" id="tab-5" role="tab" aria-selected="false" aria-controls="month-5" tabindex="-1" onclick="showMonth(5)">5月</button><button class="month-tab" id="tab-6" role="tab" aria-selected="false" aria-controls="month-6" tabindex="-1" onclick="showMonth(6)">6月</button><button class="month-tab" id="tab-7" role="tab" aria-selected="false" aria-controls="month-7" tabindex="-1" onclick="showMonth(7)">7月</button><button class="month-tab" id="tab-8" role="tab" aria-selected="false" aria-controls="month-8" tabindex="-1" onclick="showMonth(8)">8月</button><button class="month-tab" id="tab-9" role="tab" aria-selected="false" aria-controls="month-9" tabindex="-1" onclick="showMonth(9)">9月</button><button class="month-tab" id="tab-10" role="tab" aria-selected="false" aria-controls="month-10" tabindex="-1" onclick="showMonth(10)">10月</button><button class="month-tab" id="tab-11" role="tab" aria-selected="false" aria-controls="month-11" tabindex="-1" onclick="showMonth(11)">11月</button><button class="month-tab" id="tab-12" role="tab" aria-selected="false" aria-controls="month-12" tabindex="-1" onclick="showMonth(12)">12月</button></div>
+  <div class="month-section active" id="month-2" role="tabpanel" aria-labelledby="tab-2" tabindex="0"><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/odori_ill.png" alt="さっぽろ雪まつり" loading="eager" fetchpriority="high">
   <div class="card-body">
     <div class="card-name">さっぽろ雪まつり</div>
@@ -452,7 +456,7 @@ function showMonth(m) {
       
     </div>
   </div>
-</div></div></div><div class="month-section" id="month-3"><div class="card-grid"><div class="festival-card">
+</div></div></div><div class="month-section" id="month-3" role="tabpanel" aria-labelledby="tab-3" tabindex="0" hidden><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/shinji_ill.png" alt="東大寺 修二会（お水取り）" loading="lazy">
   <div class="card-body">
     <div class="card-name">東大寺 修二会（お水取り）</div>
@@ -464,7 +468,7 @@ function showMonth(m) {
       
     </div>
   </div>
-</div></div></div><div class="month-section" id="month-4"><div class="card-grid"><div class="festival-card">
+</div></div></div><div class="month-section" id="month-4" role="tabpanel" aria-labelledby="tab-4" tabindex="0" hidden><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="日立風流物（日立さくらまつり）" loading="lazy">
   <div class="card-body">
     <div class="card-name">日立風流物（日立さくらまつり）</div>
@@ -692,7 +696,7 @@ function showMonth(m) {
       
     </div>
   </div>
-</div></div></div><div class="month-section" id="month-5"><div class="card-grid"><div class="festival-card">
+</div></div></div><div class="month-section" id="month-5" role="tabpanel" aria-labelledby="tab-5" tabindex="0" hidden><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="青柏祭の曳山行事" loading="lazy">
   <div class="card-body">
     <div class="card-name">青柏祭の曳山行事</div>
@@ -932,7 +936,7 @@ function showMonth(m) {
       
     </div>
   </div>
-</div></div></div><div class="month-section" id="month-6"><div class="card-grid"><div class="festival-card">
+</div></div></div><div class="month-section" id="month-6" role="tabpanel" aria-labelledby="tab-6" tabindex="0" hidden><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/hanabi_ill.png" alt="横浜開港祭" loading="lazy">
   <div class="card-body">
     <div class="card-name">横浜開港祭</div>
@@ -1088,7 +1092,7 @@ function showMonth(m) {
       
     </div>
   </div>
-</div></div></div><div class="month-section" id="month-7"><div class="card-grid"><div class="festival-card">
+</div></div></div><div class="month-section" id="month-7" role="tabpanel" aria-labelledby="tab-7" tabindex="0" hidden><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="祇園祭" loading="lazy">
   <div class="card-body">
     <div class="card-name">祇園祭</div>
@@ -3080,7 +3084,7 @@ function showMonth(m) {
       
     </div>
   </div>
-</div></div></div><div class="month-section" id="month-8"><div class="card-grid"><div class="festival-card">
+</div></div></div><div class="month-section" id="month-8" role="tabpanel" aria-labelledby="tab-8" tabindex="0" hidden><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/odori_ill.png" alt="盛岡さんさ踊り" loading="lazy">
   <div class="card-body">
     <div class="card-name">盛岡さんさ踊り</div>
@@ -6500,7 +6504,7 @@ function showMonth(m) {
       
     </div>
   </div>
-</div></div></div><div class="month-section" id="month-9"><div class="card-grid"><div class="festival-card">
+</div></div></div><div class="month-section" id="month-9" role="tabpanel" aria-labelledby="tab-9" tabindex="0" hidden><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/odori_ill.png" alt="おわら風の盆" loading="lazy">
   <div class="card-body">
     <div class="card-name">おわら風の盆</div>
@@ -7604,7 +7608,7 @@ function showMonth(m) {
       
     </div>
   </div>
-</div></div></div><div class="month-section" id="month-10"><div class="card-grid"><div class="festival-card">
+</div></div></div><div class="month-section" id="month-10" role="tabpanel" aria-labelledby="tab-10" tabindex="0" hidden><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="放生津八幡宮祭の曳山・築山行事" loading="lazy">
   <div class="card-body">
     <div class="card-name">放生津八幡宮祭の曳山・築山行事</div>
@@ -8708,7 +8712,7 @@ function showMonth(m) {
       
     </div>
   </div>
-</div></div></div><div class="month-section" id="month-11"><div class="card-grid"><div class="festival-card">
+</div></div></div><div class="month-section" id="month-11" role="tabpanel" aria-labelledby="tab-11" tabindex="0" hidden><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/mikoshi_ill.png" alt="宮崎神宮大祭（神武さま）" loading="lazy">
   <div class="card-body">
     <div class="card-name">宮崎神宮大祭（神武さま）</div>
@@ -8972,7 +8976,7 @@ function showMonth(m) {
       <span class="badge badge-check">⚠️ 要確認</span>
     </div>
   </div>
-</div></div></div><div class="month-section" id="month-12"><div class="card-grid"><div class="festival-card">
+</div></div></div><div class="month-section" id="month-12" role="tabpanel" aria-labelledby="tab-12" tabindex="0" hidden><div class="card-grid"><div class="festival-card">
   <img class="card-img" src="https://raw.githubusercontent.com/Shoma540/AI-Blog/main/assets/images/dashi_ill.png" alt="秩父夜祭" loading="lazy">
   <div class="card-body">
     <div class="card-name">秩父夜祭</div>
@@ -8998,7 +9002,7 @@ function showMonth(m) {
   </div>
 </div></div></div>
 </div>
-<footer>最終更新: 2026-08-27 03:12</footer>
+<footer>最終更新: 2026-08-27 08:15</footer>
 </main>
 </body>
 </html>

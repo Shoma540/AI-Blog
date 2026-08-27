@@ -1268,7 +1268,9 @@ def generate_calendar(festivals, last_updated):
 
     sorted_months = sorted(months_data.keys())
     tabs = ''.join(
-        f'<button class="month-tab{" active" if i==0 else ""}" onclick="showMonth({m})">{m}月</button>'
+        f'<button class="month-tab{" active" if i==0 else ""}" id="tab-{m}" role="tab" '
+        f'aria-selected="{"true" if i==0 else "false"}" aria-controls="month-{m}" '
+        f'tabindex="{0 if i==0 else -1}" onclick="showMonth({m})">{m}月</button>'
         for i, m in enumerate(sorted_months)
     )
     sections = ''
@@ -1279,14 +1281,22 @@ def generate_calendar(festivals, last_updated):
         else:
             cards = ''.join(festival_card_html(f) for f in month_fests)
         active = ' active' if i == 0 else ''
-        sections += f'<div class="month-section{active}" id="month-{m}"><div class="card-grid">{cards}</div></div>'
+        hidden_attr = '' if i == 0 else ' hidden'
+        sections += (
+            f'<div class="month-section{active}" id="month-{m}" role="tabpanel" '
+            f'aria-labelledby="tab-{m}" tabindex="0"{hidden_attr}><div class="card-grid">{cards}</div></div>'
+        )
 
     js = """<script>
 function showMonth(m) {
-  document.querySelectorAll('.month-section').forEach(el => el.classList.remove('active'));
-  document.querySelectorAll('.month-tab').forEach(el => el.classList.remove('active'));
-  document.getElementById('month-' + m).classList.add('active');
+  document.querySelectorAll('.month-section').forEach(el => { el.classList.remove('active'); el.hidden = true; });
+  document.querySelectorAll('.month-tab').forEach(el => { el.classList.remove('active'); el.setAttribute('aria-selected', 'false'); el.tabIndex = -1; });
+  const panel = document.getElementById('month-' + m);
+  panel.classList.add('active');
+  panel.hidden = false;
   event.target.classList.add('active');
+  event.target.setAttribute('aria-selected', 'true');
+  event.target.tabIndex = 0;
 }
 </script>"""
 
@@ -1295,7 +1305,7 @@ function showMonth(m) {
   <p>開催月を選んで祭りを探す</p>
 </div>
 <div class="container">
-  <div class="month-tabs">{tabs}</div>
+  <div class="month-tabs" role="tablist" aria-label="開催月で絞り込む">{tabs}</div>
   {sections}
 </div>
 <footer>最終更新: {last_updated}</footer>"""
