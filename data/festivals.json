@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27 12:46",
+  "last_updated": "2026-08-27 16:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -49597,6 +49597,66 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_816",
+      "name": "堂ヶ島夕映えの花火",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "静岡県",
+      "city": "賀茂郡西伊豆町",
+      "date_start": "2026-09-26",
+      "date_end": "2026-10-04",
+      "date_note": "2026年9月26日(土)・27日(日)、10月3日(土)・4日(日)の計4日間開催。各日17:45〜約10分間。",
+      "time_start": "17:45",
+      "time_end": "17:55",
+      "rain_policy": "不明",
+      "organizer": "一般社団法人西伊豆町観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明（観覧無料と紹介する記事もあるが公式サイトに明記なし）",
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": "不明",
+      "history_description": "夕陽日本一とされる西伊豆町・堂ヶ島温泉郷で、日没後のマジックアワーと呼ばれる美しい夕景をバックに約10分間に凝縮して打ち上げる花火イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "伊豆箱根鉄道修善寺駅から東海バス松崎行きで約90分「堂ヶ島」下車すぐ。車は新東名長泉沼津ICから伊豆中央道・修善寺道路経由で約90分。堂ヶ島公園・サンセットプラザ堂ヶ島（第2・第3駐車場）・旧らんの里駐車場に計約200台分の駐車場あり。",
+      "official_url": "https://www.nishiizu-kankou.com/event/sunsethanabi",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.nishiizu-kankou.com/event/sunsethanabi",
+          "site_name": "西伊豆町観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://shimoda.keizai.biz/headline/879/",
+          "site_name": "伊豆下田経済新聞",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0622e469847/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
