@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27 08:15",
+  "last_updated": "2026-08-27 12:46",
   "festivals": [
     {
       "id": "festival_001",
@@ -37072,11 +37072,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "ticket_url",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -49411,6 +49408,193 @@
         }
       ],
       "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_813",
+      "name": "酒田の花火2026「つなぐ絆、未来に響け一万発」",
+      "alternate_names": [
+        "酒田の花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "酒田市",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-12",
+      "date_note": "会場開場16:00、打ち上げ19:00〜20:00",
+      "time_start": "19:00",
+      "time_end": "20:00",
+      "rain_policy": "雨天決行。荒天時は中止とし、順延なし",
+      "organizer": "酒田の花火2026実行委員会（酒田商工会議所内）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧席あり（A・C・D席、フリーエリア、堤防席等 2,000円〜5,000円、学生割引あり）",
+      "ticket_url": "https://l-tike.com/event/mevent/?mid=758869",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "最上川河畔（山形県道7号・国道112号出羽大橋の間）、酒田市",
+      "official_url": "https://sakata-hanabi.com/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://sakata-hanabi.com/",
+          "site_name": "酒田の花火2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0206e00028/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://www.tabix.co.jp/domestic/special/season/fireworks/sakata/",
+          "site_name": "旅っくす",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_814",
+      "name": "令和8年度小松基地航空祭",
+      "alternate_names": [
+        "小松基地航空祭2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "石川県",
+      "city": "小松市",
+      "date_start": "2026-09-27",
+      "date_end": "2026-09-27",
+      "date_note": "航空自衛隊が2026年3月3日に発表した年度スケジュールに基づく",
+      "time_start": "08:30",
+      "time_end": "15:00",
+      "rain_policy": "天候の状況等によりイベントの中止や内容が変更となる場合がある",
+      "organizer": "航空自衛隊小松基地",
+      "genre": [
+        "基地開放イベント"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料（事前申込不要）",
+      "ticket_url": "",
+      "history_years": "不明",
+      "history_description": "ブルーインパルスの飛行展示、航空機地上展示、装備品展示等を行う航空自衛隊小松基地の基地開放イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "航空自衛隊小松基地（石川県小松市向本折町戊267）。駐車場に限りがあり、シャトルバス・公共交通機関の利用が推奨されている。",
+      "official_url": "https://www.mod.go.jp/asdf/event/cat-kouku/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.mod.go.jp/asdf/event/cat-kouku/",
+          "site_name": "防衛省 航空自衛隊 イベント情報（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://rikuzi-chousadan.com/2014karenda/2026info/asdf20260927komatsuairfes.html",
+          "site_name": "陸自調査団",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://dc.watch.impress.co.jp/docs/news/event/2090127.html",
+          "site_name": "Impress Watch（2026年度ブルーインパルス・航空祭スケジュール発表記事）",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_815",
+      "name": "入間航空祭2026",
+      "alternate_names": [
+        "入間基地航空祭",
+        "エアフェスタ入間"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "狭山市",
+      "date_start": "2026-11-03",
+      "date_end": "2026-11-03",
+      "date_note": "航空自衛隊が2026年3月3日に発表した年度スケジュールに基づく。一般公開時間は例年ベースで、正式な当日案内は公式サイトで別途確認が必要。",
+      "time_start": "08:00",
+      "time_end": "13:00",
+      "rain_policy": "天候の状況等によりイベントの中止や内容が変更となる場合がある",
+      "organizer": "航空自衛隊入間基地",
+      "genre": [
+        "基地開放イベント"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料（事前申込不要）",
+      "ticket_url": "",
+      "history_years": "不明",
+      "history_description": "ブルーインパルスの飛行展示等を行う航空自衛隊入間基地の基地開放イベント。例年多くの来場者で賑わう。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "航空自衛隊入間基地（埼玉県狭山市稲荷山2-3）。基地内駐車場はなく、公共交通機関または徒歩での来場が推奨されている。",
+      "official_url": "https://www.mod.go.jp/asdf/event/cat-kouku/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.mod.go.jp/asdf/event/cat-kouku/",
+          "site_name": "防衛省 航空自衛隊 イベント情報（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://rikuzi-chousadan.com/2014karenda/2026info/asdf20261103irumaairfes.html",
+          "site_name": "陸自調査団",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://dc.watch.impress.co.jp/docs/news/event/2090127.html",
+          "site_name": "Impress Watch（2026年度ブルーインパルス・航空祭スケジュール発表記事）",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "NEW",
