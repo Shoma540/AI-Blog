@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27 17:13",
+  "last_updated": "2026-08-27 18:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -35209,14 +35209,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "rain_policy",
-        "price",
-        "ticket_url",
-        "access",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -38426,11 +38420,8 @@
       "trust_level": "高",
       "conflict_note": "2026年は台風15号の影響により中止（8/11開催予定だった）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -49623,6 +49614,69 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_817",
+      "name": "第102回飯塚花火大会",
+      "alternate_names": [
+        "飯塚納涼花火大会",
+        "飯塚花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "飯塚市",
+      "date_start": "2026-09-25",
+      "date_end": "2026-09-25",
+      "date_note": "荒天の場合は2026年9月28日(月)に順延。",
+      "time_start": "20:00",
+      "time_end": "21:30",
+      "rain_policy": "予備日順延（9/28）",
+      "organizer": "飯塚商工会議所、飯塚観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明（第102回開催）",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "例年約10万人の人出",
+      "visitors": "約10万人",
+      "access": "JR福北ゆたか線新飯塚駅から徒歩5分、飯塚バスセンターから徒歩1分",
+      "official_url": "https://www.city.iizuka.lg.jp/soshiki/18/1016.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.iizuka.lg.jp/soshiki/18/1016.html",
+          "site_name": "飯塚市（商工観光課）公式",
+          "is_official": true,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1040e00281/",
+          "site_name": "ウォーカープラス花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/4901008/",
+          "site_name": "ウェザーニュース花火カレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-08-27"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
