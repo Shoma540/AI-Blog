@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28 16:16",
+  "last_updated": "2026-08-28 17:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -5676,12 +5676,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50010,7 +50006,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -50064,6 +50060,70 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_824",
+      "name": "利根川大花火大会",
+      "alternate_names": [
+        "さかいふるさと祭り 利根川大花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "猿島郡境町",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "date_note": "第39回。開会式18:00、打ち上げ開始18:30、約120分間",
+      "time_start": "18:30",
+      "time_end": "20:30",
+      "rain_policy": "荒天中止（順延なし）",
+      "organizer": "第39回利根川大花火大会実行委員会（境町）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧席あり（一般向けチケット7/15より販売）",
+      "ticket_url": "https://www.sakai-hanabi.com/",
+      "history_years": 39,
+      "history_description": "さかいふるさと祭りの一環として利根川河川敷で行われる花火大会。山崎煙火製造所・野村花火工業・紅屋青木煙火店・マルゴーの4社が参加。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "利根川河川敷（茨城県猿島郡境町）",
+      "official_url": "https://www.sakai-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sakai-hanabi.com/",
+          "site_name": "第39回利根川大花火大会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-28"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000154.000056181.html",
+          "site_name": "境町役場 プレスリリース（PR TIMES）",
+          "is_official": true,
+          "retrieved_date": "2026-08-28"
+        },
+        {
+          "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=728",
+          "site_name": "観光いばらき公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-28"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
