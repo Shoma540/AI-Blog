@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28 12:36",
+  "last_updated": "2026-08-28 16:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -5609,7 +5609,8 @@
       "id": "festival_080",
       "name": "牛嶋神社例大祭",
       "alternate_names": [
-        "若宮大神輿連合宮入り"
+        "若宮大神輿連合宮入り",
+        "牛嶋神社祭礼"
       ],
       "similar_name_warning": false,
       "prefecture": "東京都",
@@ -5658,13 +5659,29 @@
           "site_name": "亀沢三丁目町会",
           "is_official": false,
           "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/story/guide/the-best-festivals-in-tokyo-and-japan/index.html",
+          "site_name": "GO TOKYO",
+          "is_official": true,
+          "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://www.on-japan.jp/home/eventinfo/matsuri-info/",
+          "site_name": "NPO法人 日本お祭り推進協会リアルジャパン'オン",
+          "is_official": false,
+          "retrieved_date": "2026-08-23"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names",
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24105,14 +24122,8 @@
       "trust_level": "高",
       "conflict_note": "糸満市公式サイトによる2026年開催の直接告知（新規ページ）は本サイクル時点で未確認だが、日付そのものは3件の独立ソース（旧暦換算・MATCHA・沖縄ナビ）が一致しているため矛盾ではなく参考情報として記載。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "date_note",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -38119,68 +38130,6 @@
       }
     },
     {
-      "id": "festival_626",
-      "name": "牛嶋神社祭礼",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "prefecture": "東京都",
-      "city": "墨田区向島",
-      "date_start": "2026-09-19",
-      "date_end": "2026-09-20",
-      "date_note": "若宮近隣町会による大神輿連合宮入り",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "牛嶋神社",
-      "genre": [
-        "神輿"
-      ],
-      "scale": "不明",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": null,
-      "history_description": "隅田公園近くの牛嶋神社の祭礼",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "墨田区向島、隅田公園周辺",
-      "official_url": "不明",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.gotokyo.org/jp/story/guide/the-best-festivals-in-tokyo-and-japan/index.html",
-          "site_name": "GO TOKYO",
-          "is_official": true,
-          "retrieved_date": "2026-08-12"
-        },
-        {
-          "url": "https://www.on-japan.jp/home/eventinfo/matsuri-info/",
-          "site_name": "NPO法人 日本お祭り推進協会リアルジャパン'オン",
-          "is_official": false,
-          "retrieved_date": "2026-08-23"
-        },
-        {
-          "url": "https://sumidoko.com/events/4g6zjfnrnb3xomgnrwj6f4/",
-          "site_name": "すみどこ（墨田区地域情報サイト）",
-          "is_official": false,
-          "retrieved_date": "2026-08-23"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_627",
       "name": "東京農業大学収穫祭",
       "alternate_names": [
@@ -46168,14 +46117,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "date_note",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50000,6 +49943,130 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_822",
+      "name": "南魚沼収穫祭2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "南魚沼市",
+      "date_start": "2026-10-17",
+      "date_end": "2026-10-17",
+      "date_note": "2026年で5周年を迎えるローカルカルチャーフェスティバル。雨天決行、荒天時中止の可能性あり。",
+      "time_start": "11:00",
+      "time_end": "21:00",
+      "rain_policy": "雨天決行（荒天時は中止の可能性あり）",
+      "organizer": "南魚沼収穫祭実行委員会",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "一般 8,900円、プレミアム 15,000円、魚沼U25割 7,900円、中高生割 6,900円、子供 1,500円（税込・ゴンドラ乗車代込み）",
+      "ticket_url": "https://ticketme.io/event/group/4c90eb73-4133-428c-b266-c12f601bafd8/df0b2937-2fa1-476b-90ad-870eb037dd04",
+      "history_years": 5,
+      "history_description": "米農家が地元の食文化・音楽・アートを発信するために始めたローカルカルチャーフェスティバル。2026年で5周年。",
+      "food_stalls": "地元の食文化を感じるフード・地酒の出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "ザ・ヴェランダ石打丸山（新潟県南魚沼市石打1699）",
+      "official_url": "https://shukakusai.net/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://shukakusai.net/",
+          "site_name": "南魚沼収穫祭 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-28"
+        },
+        {
+          "url": "https://ishiuchi.or.jp/green/news-list",
+          "site_name": "ザ・ヴェランダ石打丸山 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-28"
+        },
+        {
+          "url": "https://festival-life.com/festival/minamiuonuma_shukakusai_2026",
+          "site_name": "Festival Life",
+          "is_official": false,
+          "retrieved_date": "2026-08-28"
+        },
+        {
+          "url": "https://ticketme.io/event/ticket/4c90eb73-4133-428c-b266-c12f601bafd8/912d3f18-d911-48b4-8043-46acfa85cd29",
+          "site_name": "TicketMe",
+          "is_official": false,
+          "retrieved_date": "2026-08-28"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_823",
+      "name": "秋の収穫祭（下田農業ふれあい館）",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "千葉県",
+      "city": "千葉市若葉区",
+      "date_start": "2026-10-04",
+      "date_end": "2026-10-04",
+      "date_note": "事前申込制の収穫体験イベント。定員約100名、中学生以下は保護者同伴必須。",
+      "time_start": "10:00",
+      "time_end": "12:00",
+      "rain_policy": "不明",
+      "organizer": "下田農業ふれあい館",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "1口 4,000円（さつまいも5株・落花生5株の収穫体験）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "千葉市若葉区の下田農業ふれあい館で行われるさつまいも・落花生の収穫体験イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "千葉モノレール千城台駅から「下田農業ふれあい館」下車、または「御成台車庫」下車徒歩約5分",
+      "official_url": "https://www.chibacity-ta.or.jp/events/event/akinosyukakusai_2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.chibacity-ta.or.jp/events/event/akinosyukakusai_2026/",
+          "site_name": "千葉市観光ガイド",
+          "is_official": true,
+          "retrieved_date": "2026-08-28"
+        },
+        {
+          "url": "https://maruchiba.jp/event/detail_14053.html",
+          "site_name": "ちば観光ナビ（千葉県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-28"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
