@@ -227,6 +227,18 @@
       "verify_after": "2026-08-30",
       "result": "",
       "commit": "db15dbe41a080a22a6883a395d58fc6f695b2767"
+    },
+    {
+      "date": "2026-08-28 08:24",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-28 08:23取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。validate_site.pyは全項目通過し、直近の改善（2026-08-25 og:image寸法メタタグ、2026-08-26 festival_card_html index引数、2026-08-27 calendarタブrole属性）によるサイト破損は無し。plan.mdの「表示速度・アクセシビリティの改善」テーマに関連し、festival_card_html()の<img class=\"card-img\">タグを確認したところ、loading属性・fetchpriority属性は既に導入済み（2026年8月以前）だが、width/height属性（またはaspect-ratio指定）が一切出力されておらず、ブラウザが画像を読み込むまでカードの高さを確定できずCLS（レイアウトシフト）が発生しうる状態だった。assets/images配下の全21画像は2026-08-25の調査で928x1152ピクセルに統一されていることが確認済みのため、この値を使えば安全に固定できると判断した。",
+      "action": "scripts/generate_html.py の festival_card_html() で、<img class=\"card-img\">タグに width=\"928\" height=\"1152\" 属性を追加した。CSS側では .card-img に width:100%; height:160px; object-fit:cover; が指定されており実際の表示サイズはCSSが優先されるため、HTML属性の追加は表示崩れを起こさず、ブラウザに正しいアスペクト比のみを伝える安全な変更であることをCOMMON_CSSの内容とvalidate_site.py通過で確認した。festival_card_html()はindex.html・都道府県47ページ・月別11ページ全てで使われる共通関数のため、全ページの祭りカード画像に適用される。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "width/height属性の追加により、ブラウザがCSS読み込み前でも画像の正しいアスペクト比を把握できるようになり、画像読み込み時のレイアウトシフト（CLS）が抑制され、体感の表示安定性が向上するはず。GA4のセッション数だけでは直接測定できない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認（全61ページでのwidth/height属性出力確認含む）を中心に経過観察する。",
+      "verify_after": "2026-08-31",
+      "result": "",
+      "commit": "9d443b0d6b391b8c60a5ef6e350429aded8ab977"
     }
   ]
 }
