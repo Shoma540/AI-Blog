@@ -201,7 +201,7 @@
       ],
       "hypothesis": "og:image:width/height/typeが加わることで、X（Twitter）・LINE・Facebook等のSNSクローラーが画像を実際に取得しなくてもプレビューのレイアウトを事前に確定できるようになり、リンクシェア時のプレビュー表示の安定性・信頼性が向上するはず。GA4のセッション数だけでは直接測定できない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認（全61ページのメタタグ出力確認含む）を中心に経過観察する。",
       "verify_after": "2026-08-28",
-      "result": "",
+      "result": "変化なし: 2026-08-28時点でもGA4セッション0件が継続しサイト訪問ベースでの効果測定は不可（データ不十分期）。ただし構造面はvalidate_site.py全項目通過に加え、全61ページ（index/map/calendar/都道府県47/月別11）でog:image:type=image/jpeg・og:image:width=928・og:image:height=1152のメタタグ出力を目視確認し、破損・欠落なく維持されていることを確認した。",
       "commit": "69ad9f8eaf66dd40f9114701760751702f49db34"
     },
     {

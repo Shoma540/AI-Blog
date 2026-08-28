@@ -445,7 +445,7 @@ def festival_card_html(f, img_path_prefix="", index=None):
     img_url = get_image_url(f)
     img_attrs = 'loading="eager" fetchpriority="high"' if index == 0 else 'loading="lazy"'
     return f"""<div class="festival-card">
-  <img class="card-img" src="{img_url}" alt="{f.get('name','')}" {img_attrs}>
+  <img class="card-img" src="{img_url}" alt="{f.get('name','')}" width="928" height="1152" {img_attrs}>
   <div class="card-body">
     <div class="card-name">{f.get('name','')}</div>
     <div class="card-date">📅 {date_label}</div>
