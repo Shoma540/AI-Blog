@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28 09:05",
+  "last_updated": "2026-08-28 12:36",
   "festivals": [
     {
       "id": "festival_001",
@@ -11637,13 +11637,8 @@
       "trust_level": "高",
       "conflict_note": "一部メディア（PR TIMES過去記事）に「9/12,13」との異なる表記もあったが、公式サイトの最新情報（9/11,12）を優先。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "time_start",
-        "time_end",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -24057,7 +24052,7 @@
       "city": "糸満市",
       "date_start": "2026-09-25",
       "date_end": "2026-09-25",
-      "date_note": "旧暦8月15日のジューグヤ(十五夜)に開催される行事。2026年の旧暦8/15＝新暦9月25日(金)。糸満市公式で確認できた最新告知は「令和7年度(2025年10月6日開催、終了済み)」であり、2026年分の市公式発表は本調査時点で未掲載。",
+      "date_note": "旧暦8月15日のジューグヤ(十五夜)に開催される行事。2026年の旧暦8/15＝新暦9月25日(金)。複数の独立した観光メディア（MATCHA・沖縄ナビ、いずれも2026年8月時点で公開）が2026年9月25日開催を明記。糸満市公式サイトは2025年度実施報告が最新掲載のままだが、日付自体は旧暦固定ルールと複数メディアの記述が一致。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -24093,13 +24088,31 @@
           "site_name": "いとまん観光なび（糸満市公式、2025年度実施報告ページ）",
           "is_official": true,
           "retrieved_date": "2026-07-20"
+        },
+        {
+          "url": "https://locally.matcha-jp.com/jp/27485",
+          "site_name": "MATCHA",
+          "is_official": false,
+          "retrieved_date": "2026-08-28"
+        },
+        {
+          "url": "https://okinawa-navi.jp/magazine/okinawa-september-event-2026/",
+          "site_name": "沖縄ナビ",
+          "is_official": false,
+          "retrieved_date": "2026-08-28"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾: 2026年の開催そのものを明言した糸満市公式発表は未確認（2025年分は終了済みとして掲載）。9/25という日付は「旧暦8/15固定」というルールと暦変換から導いた推定日であり、市の正式告知ではない。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "糸満市公式サイトによる2026年開催の直接告知（新規ページ）は本サイクル時点で未確認だが、日付そのものは3件の独立ソース（旧暦換算・MATCHA・沖縄ナビ）が一致しているため矛盾ではなく参考情報として記載。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "date_note",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -36552,12 +36565,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43197,13 +43206,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -46109,7 +46113,7 @@
       "city": "上益城郡山都町",
       "date_start": "2026-09-05",
       "date_end": "2026-09-06",
-      "date_note": "毎年9月第1土・日曜開催が通例。2026年は9月5日(土)・6日(日)と推定されるが、公式サイトは2024年情報のみ掲載で2026年の公式確定発表は未確認。",
+      "date_note": "令和8年（2026年）9月5日(土)・6日(日)の2日間開催。山都町公式サイト（商工観光課、交通規制告知ページ）で本年度日程として明記されており確定。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -46153,14 +46157,24 @@
           "site_name": "たびらい熊本",
           "is_official": false,
           "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://www.town.kumamoto-yamato.lg.jp/kankou/kiji0039249/index.html",
+          "site_name": "山都町公式サイト（商工観光課・交通規制告知）",
+          "is_official": true,
+          "retrieved_date": "2026-08-28"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "一部の検索結果で「2026年9月7日(土)・8日(日)」との表記が見られたが、公式サイト(hassaku-festival.com)を確認したところ当該表記は2024年開催分の情報であることが判明。2026年の実際の曜日を確認すると9/7は月曜日、9/8は火曜日であり土日にならないため誤り。例年「9月第1土・日曜開催」であることから2026年は9/5(土)・9/6(日)が濃厚だが、山都町の2026年向け公式発表（商工観光課掲載の記事）は本サイクル時点で日付本文まで確認できておらず、確定情報ではない。",
-      "requires_check": true,
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "UPDATED",
       "updated_fields": [
-        "conflict_note"
+        "sources",
+        "date_note",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
       ],
       "year_comparison": {
         "changed": false,
@@ -49797,7 +49811,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -49867,7 +49881,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -49926,7 +49940,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -49985,7 +49999,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
