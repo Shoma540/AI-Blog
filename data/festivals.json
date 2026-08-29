@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29 08:20",
+  "last_updated": "2026-08-29 12:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -47230,7 +47230,7 @@
           "url": "https://welcome-kurume.com/events/detail/2189e25b-05d3-4cde-bf7d-f2a5b6f70a88",
           "site_name": "久留米公式観光サイト ほとめきの街",
           "is_official": true,
-          "retrieved_date": "2026-08-21"
+          "retrieved_date": "2026-08-29"
         },
         {
           "url": "https://kurumefan.com/jyugoya-ootsunahhiki2025",
@@ -47241,9 +47241,11 @@
       ],
       "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50185,6 +50187,133 @@
           "url": "https://hanabi.walkerplus.com/detail/ar0518e00073/",
           "site_name": "花火大会2026 ウォーカープラス",
           "is_official": false,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_826",
+      "name": "みなとHANABI2026-神戸を彩る5日間-",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "神戸市中央区",
+      "date_start": "2026-10-19",
+      "date_end": "2026-10-23",
+      "date_note": "5日間連続開催、各日18:30〜18:50の20分間打ち上げ",
+      "time_start": "18:30",
+      "time_end": "18:50",
+      "rain_policy": "雨天決行・荒天中止（中止時は公式サイトで通知）",
+      "organizer": "「こうべ みなとの夜」実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "メリケンパークは無料観覧。新港第一突堤の有料指定席は2,200円/席（別途手数料）",
+      "ticket_url": "https://kobe-minatonoyoru.com/",
+      "history_years": 0,
+      "history_description": "神戸港を舞台に、音楽とシンクロした花火ショーと静寂の中で打ち上がる花火ショーを毎日展開する5日間連続の花火イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "神戸市営地下鉄海岸線「みなと元町駅」、バスはポートループ・シティループ利用可",
+      "official_url": "https://event.city.kobe.lg.jp/event/xM4ni1305TW879D75Bm5",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://event.city.kobe.lg.jp/event/xM4ni1305TW879D75Bm5",
+          "site_name": "神戸市イベントサイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://kobe-minatonoyoru.com/news/minatohanabi2026/",
+          "site_name": "こうべみなとの夜",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0728e00764/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_827",
+      "name": "利根川大花火大会",
+      "alternate_names": [
+        "第39回利根川大花火大会",
+        "境町花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "猿島郡境町",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "date_note": "荒天中止・延期なし。会場13時開場、セレモニー18:00、打ち上げ18:30〜約120分間",
+      "time_start": "18:30",
+      "time_end": "20:30",
+      "rain_policy": "荒天中止（延期なし）",
+      "organizer": "境町観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料エリアあり（有料席は公式サイトのチケット情報参照）",
+      "ticket_url": "https://www.sakai-hanabi.com/",
+      "history_years": 39,
+      "history_description": "国内最大級となる約3万発を打ち上げる利根川河川敷の花火大会。山﨑煙火製造所・野村花火工業・紅屋青木煙火店・マルゴーの4社が競演する。",
+      "food_stalls": "不明",
+      "crowd_level": "約30万人の人出が予想される",
+      "visitors": "約30万人（予想）",
+      "access": "さかいリバーサイドパーク（茨城県猿島郡境町）",
+      "official_url": "https://www.sakai-hanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sakai-hanabi.com/",
+          "site_name": "【公式】茨城県境町 第39回利根川大花火大会",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0308e01044/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://www.ibarakiguide.jp/special/hanabi.html",
+          "site_name": "観光いばらき公式ホームページ",
+          "is_official": true,
           "retrieved_date": "2026-08-29"
         }
       ],
