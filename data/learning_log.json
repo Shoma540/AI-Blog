@@ -239,6 +239,18 @@
       "verify_after": "2026-08-31",
       "result": "",
       "commit": "9d443b0d6b391b8c60a5ef6e350429aded8ab977"
+    },
+    {
+      "date": "2026-08-29 08:16",
+      "analysis": "GA4スナップショット（2026-08-29 08:12取得、過去7日間）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。前回改善（2026-08-26、festival_card_html()のLCP画像eager化）はvalidate_site.py全項目通過を確認し「変化なし」を記録（アクセス自体が発生していないため測定不能）。過去の学習記録を確認したところ、title/meta description/構造化データ/表示速度/アクセシビリティ関連の改善は多数実施済みだが、都道府県ページ・月別ページのtitle/h1/meta descriptionに年（西暦）が含まれておらず、「〇〇県 祭り 2026年」「9月 祭り 2026年」のような年を含む検索クエリに対してタイトルの一致度が低い状態だった。",
+      "action": "scripts/generate_html.py の generate_prefecture_pages() と generate_month_pages() で、datetime.now().year から取得した年を都道府県ページ・月別ページの<title>・<h1>・meta descriptionに「【{年}年】」の形で追加した（例：「福井県の祭り情報【2026年】」「9月の祭り情報【2026年】」）。ハードコードではなく実行時の年を使うため、年をまたいでも自動的に更新される。トップページ（index.html）や既存のbreadcrumb表記（パンくずリストのラベル）は変更対象外とした。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "都道府県・月別ページのタイトルとdescriptionに年を含めることで、年を含む検索クエリとの一致度が上がり、検索結果での表示・クリック率が改善するはず。効果はGA4のオーガニック流入・ページビューが増えてから測定可能になる性質のため、当面はvalidate_site.pyでの構造維持確認と、生成HTMLのtitle/h1/descriptionに年が正しく反映されているかを中心に経過観察する。",
+      "verify_after": "2026-09-01",
+      "result": "",
+      "commit": "797e42083258157093478d59897909d387521cbc"
     }
   ]
 }
