@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28 18:14",
+  "last_updated": "2026-08-29 08:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -50127,6 +50127,71 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_825",
+      "name": "若狭おおいのスーパー大火勢",
+      "alternate_names": [
+        "おおいのスーパー大火勢"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福井県",
+      "city": "大飯郡おおい町",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-05",
+      "date_note": "第32回開催。大火勢会場15:00〜、メインイベント16:50〜20:00、大火勢点火19:00〜、花火19:30〜20:00。",
+      "time_start": "15:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "スーパー大火勢実行委員会",
+      "genre": [
+        "花火",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "松明席3,000円／花火席2,000円／太鼓席2,000円／芝生席1,000円",
+      "ticket_url": "https://www.wakasa-ohi.co.jp/sp-ogase/",
+      "history_years": 32,
+      "history_description": "巨大な松明（大火勢）に点火し燃え上がらせる勇壮な火祭りで、花火も打ち上げられる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "道の駅うみんぴあ大飯（福井県大飯郡おおい町成海1-1-2）",
+      "official_url": "https://www.wakasa-ohi.co.jp/sp-ogase/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.wakasa-ohi.co.jp/sp-ogase/",
+          "site_name": "若狭おおいのスーパー大火勢 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://www.fuku-e.com/event/detail_6273.html",
+          "site_name": "ふくいドットコム（福井県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0518e00073/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
