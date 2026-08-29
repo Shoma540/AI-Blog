@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29 16:13",
+  "last_updated": "2026-08-29 17:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -40561,70 +40561,6 @@
       }
     },
     {
-      "id": "festival_668",
-      "alternate_names": [
-        "さかいふるさと祭り 利根川大花火大会"
-      ],
-      "similar_name_warning": false,
-      "date_note": "第39回。セレモニー18:00、打ち上げ18:30開始、荒天中止（延期なし）。開場13:00。",
-      "time_start": "18:30",
-      "time_end": "不明",
-      "rain_policy": "荒天中止（延期なし）",
-      "organizer": "さかいふるさと祭り実行委員会（境町）",
-      "is_free": true,
-      "price": "観覧無料（一部有料観覧席あり）",
-      "ticket_url": "不明",
-      "history_years": 39,
-      "history_description": "境町の利根川河川敷を会場に、茨城県内を代表する花火師4社による花火が打ち上げられる日本最大級の花火大会の一つ。打ち上げ数約3万発、打ち上げ時間約120分。例年約30万人が来場する。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "約30万人（例年）",
-      "access": "境町 利根川河川敷",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      },
-      "name": "利根川大花火大会",
-      "prefecture": "茨城県",
-      "city": "猿島郡境町",
-      "date_start": "2026-09-19",
-      "date_end": "2026-09-19",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "official_url": "https://www.sakai-hanabi.com/",
-      "sources": [
-        {
-          "url": "https://www.sakai-hanabi.com/",
-          "site_name": "第39回利根川大花火大会【公式】（境町）",
-          "is_official": true,
-          "retrieved_date": "2026-08-16"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000000154.000056181.html",
-          "site_name": "境町役場 プレスリリース（PR TIMES）",
-          "is_official": true,
-          "retrieved_date": "2026-08-16"
-        },
-        {
-          "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=728",
-          "site_name": "観光いばらき【公式】",
-          "is_official": true,
-          "retrieved_date": "2026-08-16"
-        }
-      ],
-      "trust_level": "高"
-    },
-    {
       "id": "festival_669",
       "alternate_names": [],
       "similar_name_warning": false,
@@ -50393,6 +50329,241 @@
           "url": "https://www.tif.ne.jp/jp/entry/article.html?event=6809",
           "site_name": "ふくしまの旅",
           "is_official": false,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_829",
+      "name": "秋のおかやま桃太郎まつり（集え！岡山城）",
+      "alternate_names": [
+        "集え！岡山城"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "岡山県",
+      "city": "岡山市北区丸の内",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "毎年10月に岡山城一帯で開催される秋の恒例行事。8月開催の夏まつり「うらじゃ（おかやま桃太郎まつり）」（festival_045）とは名称が似ているが開催時期・内容が異なる別イベント。",
+      "time_start": "10:00",
+      "time_end": "17:00",
+      "rain_policy": "不明",
+      "organizer": "岡山市観光推進課",
+      "genre": [
+        "民俗芸能",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料（一部実費）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "「郷土の食と芸能と歴史の祭典」をテーマに岡山城一帯（烏城公園）で開催される秋祭り。地元グルメの出店、芸能・歴史のステージ、こども広場、武将隊のステージパフォーマンスなどが行われる。",
+      "food_stalls": "地元グルメの出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR岡山駅から路面電車で約5分「城下」下車、徒歩約10分。山陽自動車道岡山ICから車で約20分。",
+      "official_url": "https://www.okayama-kanko.jp/event/12444",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.okayama-kanko.jp/event/12444",
+          "site_name": "岡山観光WEB【公式】",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://okayama-kanko.net/sightseeing/event/11135/",
+          "site_name": "OKAYAMA KANKO .net（岡山市公式観光情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_830",
+      "name": "お祝い夢花火",
+      "alternate_names": [
+        "第29回お祝い夢花火",
+        "埴生漁港花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山口県",
+      "city": "山陽小野田市埴生",
+      "date_start": "2026-10-24",
+      "date_end": "2026-10-24",
+      "date_note": "第29回。荒天時の順延等は要公式確認。",
+      "time_start": "18:15",
+      "time_end": "20:15",
+      "rain_policy": "不明",
+      "organizer": "不明（実行委員会形式と推定、要確認）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料観覧エリアあり／有料観覧席あり（5枚セット12,000円～20枚セット100,000円）",
+      "ticket_url": "https://yamaguchi-tourism.jp/blog/detail_357.html",
+      "history_years": 29,
+      "history_description": "山陽小野田市の埴生漁港で開催される花火大会。尺玉をはじめとした大玉花火、ミュージック花火、メッセージ花火などが打ち上げられ、漁港の水面に映る花火が特徴。約4000発。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR埴生駅から徒歩15分。山陽自動車道埴生ICから車で約5分。開場17:00。",
+      "official_url": "https://yamaguchi-tourism.jp/blog/detail_357.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://yamaguchi-tourism.jp/blog/detail_357.html",
+          "site_name": "おいでませ山口へ【公式】山口県観光/旅行サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0835e564643/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_831",
+      "name": "肉と焼酎のふるさと・みやこんじょ花火大会",
+      "alternate_names": [
+        "みやこんじょ花火大会",
+        "都城焼肉カーニバル花火大会"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "宮崎県",
+      "city": "都城市高城町石山",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "date_note": "雨天時は10/11(日)・10/12(月・祝)に順延。同じ観音池公園で8月開催の「高城観音池まつり」（festival_274、8/30・約3000発・無料）とは別の秋開催イベント（都城観光協会主催・有料の焼肉カーニバル同時開催・約12,900発）。",
+      "time_start": "19:30",
+      "time_end": "20:30",
+      "rain_policy": "雨天順延（10/11→10/12の順）",
+      "organizer": "（一社）都城観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "前売券3,000円（税込）／当日券3,500円（税込）、肉パック(250g)引換付き",
+      "ticket_url": "https://www.kanko-miyazaki.jp/event/1953",
+      "history_years": "不明",
+      "history_description": "都城市高城町の観音池公園自由広場で「焼肉カーニバル」と同時開催される花火大会。都城が「肉と焼酎のふるさと」を掲げるPRイベントの一環で、音楽に合わせた花火など約12,900発が打ち上げられる。",
+      "food_stalls": "焼肉カーニバル（肉パック引換）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "観音池公園自由広場（宮崎県都城市高城町石山4195）",
+      "official_url": "https://www.kanko-miyazaki.jp/event/1953",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kanko-miyazaki.jp/event/1953",
+          "site_name": "みやざき観光ナビ【公式】宮崎県観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87559.html",
+          "site_name": "ジョルダン花火大会",
+          "is_official": false,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_832",
+      "name": "萩・魚まつり",
+      "alternate_names": [
+        "萩・しろ魚まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山口県",
+      "city": "萩市椿東",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "日付不明：例年10月の第2日曜開催（第27回は2025年10月12日）。2026年は第28回にあたると推測されるが、公式サイトに2026年分の日程掲載が確認できず、開催日は未確定として扱う。",
+      "time_start": "9:30",
+      "time_end": "15:00",
+      "rain_policy": "不明",
+      "organizer": "萩市水産課 水産振興係",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（一部有料の飲食物あり）",
+      "ticket_url": "不明",
+      "history_years": 27,
+      "history_description": "萩漁港で水揚げされた活魚・鮮魚・水産加工品の即売のほか、さざえのつぼ焼き無料試食、寿司や唐揚げの販売、魚のつかみ取りなど、県北部地区最大規模のグルメイベント。例年2万5000人以上が来場。",
+      "food_stalls": "鮮魚即売、ふぐ鍋、さざえのつぼ焼き、寿司、唐揚げ",
+      "crowd_level": "例年2万5000人以上",
+      "visitors": "例年2万5000人以上",
+      "access": "山口県漁協萩地方卸売市場・道の駅「萩しーまーと」（萩市椿東北前小畑4160-61）。萩循環まぁーるバス東回り「萩しーまーと」バス停から徒歩1分。",
+      "official_url": "https://hagi-gochi.jp/news/sakanamaturi-27",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hagi-gochi.jp/news/sakanamaturi-27",
+          "site_name": "萩GoChi はぎのごちそう（第27回=2025年開催案内）",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://yamaguchi-tourism.jp/event/detail_14364.html",
+          "site_name": "おいでませ山口へ【公式】（第26回情報、2026年分未更新）",
+          "is_official": true,
           "retrieved_date": "2026-08-29"
         }
       ],
