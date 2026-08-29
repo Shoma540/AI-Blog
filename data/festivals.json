@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29 12:16",
+  "last_updated": "2026-08-29 16:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -47242,10 +47242,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50075,7 +50073,9 @@
       "id": "festival_824",
       "name": "利根川大花火大会",
       "alternate_names": [
-        "さかいふるさと祭り 利根川大花火大会"
+        "さかいふるさと祭り 利根川大花火大会",
+        "境町花火大会",
+        "第39回利根川大花火大会"
       ],
       "similar_name_warning": false,
       "prefecture": "茨城県",
@@ -50091,15 +50091,15 @@
         "花火"
       ],
       "scale": "その他",
-      "is_free": false,
-      "price": "有料観覧席あり（一般向けチケット7/15より販売）",
+      "is_free": true,
+      "price": "無料エリアあり／有料観覧席あり（詳細は公式サイト参照）",
       "ticket_url": "https://www.sakai-hanabi.com/",
       "history_years": 39,
-      "history_description": "さかいふるさと祭りの一環として利根川河川敷で行われる花火大会。山崎煙火製造所・野村花火工業・紅屋青木煙火店・マルゴーの4社が参加。",
+      "history_description": "国内最大級となる約3万発を打ち上げる利根川河川敷の花火大会。山﨑煙火製造所・野村花火工業・紅屋青木煙火店・マルゴーの4社が競演する。",
       "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "利根川河川敷（茨城県猿島郡境町）",
+      "crowd_level": "約30万人の人出が予想される",
+      "visitors": "約30万人（予想）",
+      "access": "さかいリバーサイドパーク（茨城県猿島郡境町）",
       "official_url": "https://www.sakai-hanabi.com/",
       "sns_accounts": {
         "instagram": "不明"
@@ -50123,13 +50123,31 @@
           "site_name": "観光いばらき公式ホームページ",
           "is_official": true,
           "retrieved_date": "2026-08-28"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0308e01044/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://www.ibarakiguide.jp/special/hanabi.html",
+          "site_name": "観光いばらき公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "⚠️ 矛盾: 情報源により「有料」「無料エリアあり」の表記が分かれるため、無料エリアと有料席が併存する構成として統合。詳細は公式サイトで要確認。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "CONFLICT_RESOLVED",
+      "updated_fields": [
+        "is_free",
+        "price",
+        "sources",
+        "alternate_names",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50255,7 +50273,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -50264,62 +50282,123 @@
     },
     {
       "id": "festival_827",
-      "name": "利根川大花火大会",
+      "name": "花火動乱蜂",
       "alternate_names": [
-        "第39回利根川大花火大会",
-        "境町花火大会"
+        "蜂が巣祭り",
+        "花火奉納蜂の巣"
       ],
       "similar_name_warning": false,
-      "prefecture": "茨城県",
-      "city": "猿島郡境町",
-      "date_start": "2026-09-19",
-      "date_end": "2026-09-19",
-      "date_note": "荒天中止・延期なし。会場13時開場、セレモニー18:00、打ち上げ18:30〜約120分間",
-      "time_start": "18:30",
-      "time_end": "20:30",
-      "rain_policy": "荒天中止（延期なし）",
-      "organizer": "境町観光協会",
+      "prefecture": "福岡県",
+      "city": "久留米市山川町",
+      "date_start": "2026-09-15",
+      "date_end": "2026-09-15",
+      "date_note": "毎年9月15日固定で開催",
+      "time_start": "19:30",
+      "time_end": "20:10",
+      "rain_policy": "雨天の場合、花火奉納は順延（順延日未定）",
+      "organizer": "久留米観光コンベンション国際交流協会",
       "genre": [
+        "神事",
         "花火"
       ],
-      "scale": "その他",
+      "scale": "県指定",
       "is_free": true,
-      "price": "無料エリアあり（有料席は公式サイトのチケット情報参照）",
-      "ticket_url": "https://www.sakai-hanabi.com/",
-      "history_years": 39,
-      "history_description": "国内最大級となる約3万発を打ち上げる利根川河川敷の花火大会。山﨑煙火製造所・野村花火工業・紅屋青木煙火店・マルゴーの4社が競演する。",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 360,
+      "history_description": "約360年前から伝わる福岡県指定無形民俗文化財の神事。火薬を詰めた直径約2.5m・高さ約4mの「蜂の巣」に点火し、大音響とともに火花が夜空に舞う。名称は蜂の巣をつついた際に蜂が怒り狂って飛び散る様子に由来する。",
       "food_stalls": "不明",
-      "crowd_level": "約30万人の人出が予想される",
-      "visitors": "約30万人（予想）",
-      "access": "さかいリバーサイドパーク（茨城県猿島郡境町）",
-      "official_url": "https://www.sakai-hanabi.com/",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "王子若宮八幡宮（福岡県久留米市山川町本村区・王子池周辺）。JR久大本線御井駅から徒歩15分。西鉄久留米駅より西鉄バス20・25番「追分」バス停下車、徒歩10分。",
+      "official_url": "https://welcome-kurume.com/events/detail/7195837d-f1d1-4aea-9959-3b95e9691cfb",
       "sns_accounts": {
         "instagram": "不明"
       },
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.sakai-hanabi.com/",
-          "site_name": "【公式】茨城県境町 第39回利根川大花火大会",
+          "url": "https://welcome-kurume.com/events/detail/7195837d-f1d1-4aea-9959-3b95e9691cfb",
+          "site_name": "久留米市公式観光サイト ほとめきの街",
           "is_official": true,
           "retrieved_date": "2026-08-29"
         },
         {
-          "url": "https://hanabi.walkerplus.com/detail/ar0308e01044/",
-          "site_name": "ウォーカープラス",
+          "url": "https://www.crossroadfukuoka.jp/feature/september",
+          "site_name": "旅の特集（福岡県9月イベントまとめ）",
           "is_official": false,
           "retrieved_date": "2026-08-29"
         },
         {
-          "url": "https://www.ibarakiguide.jp/special/hanabi.html",
-          "site_name": "観光いばらき公式ホームページ",
-          "is_official": true,
+          "url": "https://www.crossroadfukuoka.jp/event/13347",
+          "site_name": "クロスロードふくおか イベント情報",
+          "is_official": false,
           "retrieved_date": "2026-08-29"
         }
       ],
-      "trust_level": "高",
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_828",
+      "name": "古殿八幡神社例大祭",
+      "alternate_names": [
+        "古殿八幡神社笠懸流鏑馬",
+        "やぶさめフェア"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福島県",
+      "city": "石川郡古殿町",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "日付不明：例年「10月の第2日曜とその前日」開催とされ、2026年は10/10(土)・10/11(日)と推定されるが、町公式サイトに2026年分の日程掲載はまだ確認できていないため要確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "古殿町（問い合わせ：古殿町産業振興課）",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "県指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 800,
+      "history_description": "康平7年(1064年)、源頼義が古殿八幡神社創建を記念して奉納したことに始まるとされる、鎌倉時代から伝わる笠懸・流鏑馬神事。福島県指定重要無形民俗文化財。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "古殿八幡神社（福島県石川郡古殿町）",
+      "official_url": "https://www.town.furudono.fukushima.jp/kanko-dentou-bunka/see/event/hachiman/249",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.furudono.fukushima.jp/kanko-dentou-bunka/see/event/hachiman/249",
+          "site_name": "古殿町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://www.tif.ne.jp/jp/entry/article.html?event=6809",
+          "site_name": "ふくしまの旅",
+          "is_official": false,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
