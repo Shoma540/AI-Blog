@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29 17:12",
+  "last_updated": "2026-08-29 18:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -47264,9 +47264,9 @@
       "similar_name_warning": false,
       "prefecture": "埼玉県",
       "city": "日高市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "2026年の公式日程は検索時点（2026-08-21）で未発表。昨年（2025年）は9月19日～10月8日、午前9時～午後4時30分に開催。日程確定次第、要更新。",
+      "date_start": "2026-09-21",
+      "date_end": "2026-10-06",
+      "date_note": "日高市公式サイト（更新日2026-08-28）にて2026年（令和8年）の正式日程が公開され、9/21(月・祝)～10/6(火)と確定。時間は9:00～16:30。",
       "time_start": "09:00",
       "time_end": "16:30",
       "rain_policy": "不明",
@@ -47308,16 +47308,28 @@
           "site_name": "巾着田公式サイト",
           "is_official": true,
           "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://www.city.hidaka.lg.jp/soshiki/shiminseikatsu/sangyoshinko/shokokanko/kanko/eventmaturi/33383.html",
+          "site_name": "日高市公式サイト（2026年更新版）",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "requires_check",
+        "trust_level"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：2025年9月19日～10月8日 → 今年：2026年9月21日～10月6日"
       }
     },
     {
@@ -50275,7 +50287,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -50335,7 +50347,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -50394,7 +50406,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -50453,7 +50465,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -50512,7 +50524,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -50570,6 +50582,170 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_833",
+      "name": "しばた曼珠沙華まつり",
+      "alternate_names": [
+        "第14回しばた曼珠沙華まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "柴田町",
+      "date_start": "2026-09-19",
+      "date_end": "2026-10-04",
+      "date_note": "第14回。開花状況により変更の可能性あり。",
+      "time_start": "09:00",
+      "time_end": "16:00",
+      "rain_policy": "不明",
+      "organizer": "柴田町役場商工観光課／柴田町観光物産協会",
+      "genre": [
+        "花",
+        "自然"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料（一部イベントプログラムは有料）",
+      "ticket_url": "不明",
+      "history_years": 14,
+      "history_description": "船岡城址公園を約55万本の曼珠沙華（ヒガンバナ）が彩る「花のまち柴田」の初秋イベント。",
+      "food_stalls": "キッチンカー出店あり（10:00～16:00）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "船岡城址公園（宮城県柴田郡柴田町）",
+      "official_url": "https://www.skbk.or.jp/cms/event/manjusyage.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.skbk.or.jp/cms/event/manjusyage.html",
+          "site_name": "柴田町観光物産協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_834",
+      "name": "幸手権現堂の曼珠沙華まつり",
+      "alternate_names": [
+        "曼珠沙華まつり（権現堂）"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "埼玉県",
+      "city": "幸手市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-10-04",
+      "date_note": "開花状況により変更の可能性あり。他地域の曼珠沙華まつり（巾着田・しばた等）とは別の祭りのため注意。",
+      "time_start": "08:30",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "幸手市観光協会",
+      "genre": [
+        "花",
+        "自然"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料入園",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "権現堂堤に約300万本の曼珠沙華（彼岸花）が咲く関東有数の群生地。夜間ライトアップも実施。",
+      "food_stalls": "キッチンカー・マルシェ出店予定",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "権現堂堤（埼玉県幸手市）",
+      "official_url": "https://www.satte-k.com/event/manjyusyage/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.satte-k.com/event/manjyusyage/",
+          "site_name": "幸手市観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_835",
+      "name": "佐久高原コスモスまつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "佐久市",
+      "date_start": "2026-09-06",
+      "date_end": "2026-09-23",
+      "date_note": "国道254号沿い「佐久高原コスモス街道」（内山地区）にて開催。開会式は9/6 9時～10時。",
+      "time_start": "09:00",
+      "time_end": "15:00",
+      "rain_policy": "不明",
+      "organizer": "佐久市観光協会",
+      "genre": [
+        "花",
+        "農祭り",
+        "自然"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "市花「コスモス」が国道254号沿いに咲き誇り、沿道の休憩所では地元農産物の直売も行われる佐久市内山地区の初秋イベント。",
+      "food_stalls": "農産物直売所あり（9:00～15:00）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "国道254号沿い「佐久高原コスモス街道」（長野県佐久市内山地区）",
+      "official_url": "https://www.city.saku.nagano.jp/kanko/kanko/townguide/event/kosumosumatsuri.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.saku.nagano.jp/kanko/kanko/townguide/event/kosumosumatsuri.html",
+          "site_name": "佐久市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://www.sakukankou.jp/event/710/",
+          "site_name": "佐久市観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-29"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
