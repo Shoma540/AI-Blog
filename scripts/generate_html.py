@@ -1321,6 +1321,7 @@ function showMonth(m) {
 def generate_prefecture_pages(festivals, last_updated):
     out_dir = os.path.join(DOCS_DIR, 'prefecture')
     os.makedirs(out_dir, exist_ok=True)
+    current_year = datetime.now().year
     prefectures = set(f.get('prefecture','') for f in festivals if f.get('prefecture'))
     for pref in prefectures:
         pref_festivals = sorted(
@@ -1328,8 +1329,9 @@ def generate_prefecture_pages(festivals, last_updated):
             key=lambda x: x.get('date_start') or '9999'
         )
         cards = ''.join(festival_card_html(f, index=i) for i, f in enumerate(pref_festivals))
+        page_title = f"{pref}の祭り情報【{current_year}年】"
         body = f"""<div class="page-header">
-  <h1>{pref}の祭り情報</h1>
+  <h1>{page_title}</h1>
   <p>{len(pref_festivals)}件の祭りが見つかりました</p>
 </div>
 <div class="container">
@@ -1344,9 +1346,9 @@ def generate_prefecture_pages(festivals, last_updated):
                 (f"{pref}の祭り情報", f"{SITE_BASE_URL}/prefecture/{quote(pref)}.html"),
             ])
             f.write(html_page(
-                f"{pref}の祭り情報", body, nav=nav,
+                page_title, body, nav=nav,
                 extra_head=event_jsonld(pref_festivals) + breadcrumb,
-                description=f"{pref}の祭り・花火大会情報を{len(pref_festivals)}件掲載。開催日程・場所・アクセスなど最新情報をまとめています。",
+                description=f"{pref}の祭り・花火大会情報【{current_year}年】を{len(pref_festivals)}件掲載。開催日程・場所・アクセスなど最新情報をまとめています。",
                 url_path=f"prefecture/{pref}.html",
             ))
     print(f"都道府県ページを {len(prefectures)} 件生成しました")
@@ -1355,6 +1357,7 @@ def generate_prefecture_pages(festivals, last_updated):
 def generate_month_pages(festivals, last_updated):
     out_dir = os.path.join(DOCS_DIR, 'month')
     os.makedirs(out_dir, exist_ok=True)
+    current_year = datetime.now().year
     months_data = {}
     for f in festivals:
         ds = f.get('date_start', '')
@@ -1368,8 +1371,9 @@ def generate_month_pages(festivals, last_updated):
     for m, fests in months_data.items():
         sorted_fests = sorted(fests, key=lambda x: x.get('date_start',''))
         cards = ''.join(festival_card_html(f, index=i) for i, f in enumerate(sorted_fests))
+        page_title = f"{m}月の祭り情報【{current_year}年】"
         body = f"""<div class="page-header">
-  <h1>{m}月の祭り情報</h1>
+  <h1>{page_title}</h1>
   <p>{len(fests)}件の祭りが見つかりました</p>
 </div>
 <div class="container">
@@ -1385,9 +1389,9 @@ def generate_month_pages(festivals, last_updated):
         ])
         with open(os.path.join(out_dir, f'{m}.html'), 'w', encoding='utf-8') as f:
             f.write(html_page(
-                f"{m}月の祭り情報", body, nav=nav,
+                page_title, body, nav=nav,
                 extra_head=event_jsonld(sorted_fests) + breadcrumb,
-                description=f"{m}月に開催される全国の祭り・花火大会を{len(fests)}件掲載。日程・場所など最新情報をまとめています。",
+                description=f"{m}月に開催される全国の祭り・花火大会【{current_year}年】を{len(fests)}件掲載。日程・場所など最新情報をまとめています。",
                 url_path=f"month/{m}.html",
             ))
     print(f"月別ページを {len(months_data)} 件生成しました")
