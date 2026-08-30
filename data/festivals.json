@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30 17:12",
+  "last_updated": "2026-08-30 18:10",
   "festivals": [
     {
       "id": "festival_001",
@@ -50972,7 +50972,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -51037,6 +51037,73 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_841",
+      "name": "金王八幡宮例大祭",
+      "alternate_names": [
+        "渋谷金王八幡宮例大祭",
+        "金王八幡宮祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "宵宮9/19(土)18:00〜、本祭・神輿連合渡御9/20(日)。神社公式サイトの年間行事ページでは例大祭本義の日を9/14と案内しているが、氏子14町会による神輿連合渡御などの「にぎわい行事」は例年、直近の週末に実施される。2026年（令和8年）はにぎわい行事公式サイトが9/19・20開催として案内している。",
+      "time_start": "12:00",
+      "time_end": "19:00",
+      "rain_policy": "不明",
+      "organizer": "金王八幡宮／渋谷金王八幡宮例大祭奉賛会",
+      "genre": [
+        "神輿",
+        "神事",
+        "縁日"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 930,
+      "history_description": "青山・渋谷の総鎮守として930年以上の歴史を持つ金王八幡宮の例大祭。氏子14町会の神輿が渋谷・青山地域を練り歩き、日曜午後には渋谷109前や青山通りで神輿連合渡御が行われる。境内では里神楽の奉納や子供縁日、露店の出店もある。",
+      "food_stalls": "境内・周辺に露店が出店。子供縁日・未来縁日も開催",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR・東京メトロ・東急ほか「渋谷駅」より徒歩5分（東京都渋谷区渋谷3-5-12）",
+      "official_url": "https://www.konno-hachimangu.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.konno-hachimangu.jp/nenkangyouzi.html",
+          "site_name": "金王八幡宮公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-30"
+        },
+        {
+          "url": "https://shibuyamatsuri.com/",
+          "site_name": "令和8年渋谷金王八幡宮例大祭ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-08-30"
+        },
+        {
+          "url": "https://kt-hub.com/64984/konnouhachimanguu-2026/",
+          "site_name": "来たHUB",
+          "is_official": false,
+          "retrieved_date": "2026-08-30"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾：神社公式サイトの年間行事ページは例大祭日を9/14と案内する一方、2026年のにぎわい行事（神輿連合渡御）公式サイトは9/19・20開催と案内。両サイトで表記に差異があるため要確認。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
