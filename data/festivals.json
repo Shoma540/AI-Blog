@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29 18:11",
+  "last_updated": "2026-08-30 08:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -12374,25 +12374,25 @@
       "city": "奈良市",
       "date_start": "2026-09-24",
       "date_end": "2026-09-25",
-      "date_note": "旧暦8月15日「中秋の名月」の日に開催される慣例。2026年の中秋の名月は9月25日(金)のため、24日宵宮祭・25日例祭と推定。公式サイトに2026年分の明記なし。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_note": "旧暦8月15日「中秋の名月」の日に開催。奈良市観光協会公式特集ページにて2026年の日程・時間が正式に公開（宵宮祭9/24, 例祭9/25）。",
+      "time_start": "17:00",
+      "time_end": "19:10",
       "rain_policy": "不明",
-      "organizer": "采女神社（春日大社末社）／奈良市観光協会",
+      "organizer": "采女祭保存会（奈良市観光協会内）",
       "genre": [
         "神事",
         "行列"
       ],
       "scale": "不明",
       "is_free": true,
-      "price": "無料",
+      "price": "無料（お稚児さん参加は別途1名7,000円）",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "不明",
+      "history_description": "平安時代の歌物語『大和物語』に記された伝説に基づく。奈良時代、帝に仕えた美しい采女が寵愛を失い猿沢池に身を投じ、帝が采女の霊を慰めるため社を建てさせたとされ、以後、入水した采女の霊を鎮め人々の幸せを祈る例祭として継続されている。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "猿沢池畔（采女神社）",
       "official_url": "https://narashikanko.or.jp/event/detail_10201.html",
       "sns_accounts": {
         "instagram": "不明"
@@ -12422,13 +12422,27 @@
           "site_name": "奈良市観光協会公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-11"
+        },
+        {
+          "url": "https://narashikanko.or.jp/feature/unemematsuri",
+          "site_name": "奈良市観光協会公式サイト（采女祭特集ページ）",
+          "is_official": true,
+          "retrieved_date": "2026-08-30"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "time_start",
+        "time_end",
+        "organizer",
+        "history_description",
+        "price",
+        "access"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -47319,14 +47333,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "requires_check",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：2025年9月19日～10月8日 → 今年：2026年9月21日～10月6日"
@@ -50088,14 +50096,8 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 情報源により「有料」「無料エリアあり」の表記が分かれるため、無料エリアと有料席が併存する構成として統合。詳細は公式サイトで要確認。",
       "requires_check": false,
-      "diff_status": "CONFLICT_RESOLVED",
-      "updated_fields": [
-        "is_free",
-        "price",
-        "sources",
-        "alternate_names",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50635,7 +50637,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -50688,7 +50690,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -50746,6 +50748,58 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_836",
+      "name": "ますだ秋まつり（秋の花火っていいよねぇ）",
+      "alternate_names": [
+        "秋の花火っていいよねぇ"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "島根県",
+      "city": "益田市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "date_note": "益田市立益田小学校校庭で開催。時間・雨天時対応は情報源により記載なく不明。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "益田市立益田小学校（島根県益田市）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ekitan.com/event/city-32204",
+          "site_name": "駅探イベント情報（益田市）",
+          "is_official": false,
+          "retrieved_date": "2026-08-30"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
