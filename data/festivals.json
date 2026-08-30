@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30 16:11",
+  "last_updated": "2026-08-30 17:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -50852,7 +50852,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -50910,6 +50910,133 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_839",
+      "name": "宇倍神社例大祭・御幸祭",
+      "alternate_names": [
+        "宇倍神社例大祭",
+        "御幸祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "鳥取市",
+      "date_start": "2026-04-19",
+      "date_end": "2026-04-21",
+      "date_note": "毎年4/20宵宮・4/21例祭が基本で、御幸祭は4/21に近い土曜または日曜に実施。2026年は御幸祭4/19(日)、宵宮4/20(月)、例祭4/21(火)として案内されていた（既に開催済みの回だが、恒例行事として記録）。",
+      "time_start": "08:15",
+      "time_end": "不明",
+      "rain_policy": "時間は目安であり、雨天時に変更される場合がある",
+      "organizer": "宇倍神社",
+      "genre": [
+        "神輿",
+        "神事",
+        "民俗芸能",
+        "パレード"
+      ],
+      "scale": "国指定重要無形民俗文化財（麒麟獅子舞）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 350,
+      "history_description": "因幡国一の宮・宇倍神社の例大祭。約350年の伝統を受け継ぐ麒麟獅子舞（一本角が特徴）が奉納される。御幸祭では全国屈指と言われる大神輿の渡御に加え、鳥取藩参勤交代を再現した武者行列や巫女の舞が行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR鳥取駅から車で約15分／バスで約15分「宮ノ下」下車徒歩約7分。無料駐車場あり（普通車117台・バス6台）",
+      "official_url": "https://www.ubejinja.or.jp/new-sampai/omatsuri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.ubejinja.or.jp/new-sampai/omatsuri/",
+          "site_name": "宇倍神社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-30"
+        },
+        {
+          "url": "https://www.torican.jp/festival/detail_1079.html",
+          "site_name": "鳥取市観光サイト【公式】",
+          "is_official": true,
+          "retrieved_date": "2026-08-30"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_840",
+      "name": "大和郡山お城まつり",
+      "alternate_names": [
+        "第65回大和郡山お城まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "大和郡山市",
+      "date_start": "2026-03-24",
+      "date_end": "2026-04-07",
+      "date_note": "時代行列・白狐渡御は3月29日13:30〜。金魚品評会や数珠くり法要など期間中に複数行事あり（既に開催済みの回だが、恒例行事として記録）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "天候等により実施しない場合・変更の場合あり。白狐渡御は雨天中止。",
+      "organizer": "一般社団法人大和郡山市観光協会",
+      "genre": [
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": 65,
+      "history_description": "国史跡・郡山城跡（続日本100名城／日本さくら名所100選）を会場に、明治40年から続く金魚品評会や時代行列・白狐渡御などを行う祭り。約600本の桜と天守台のライトアップでも知られる。",
+      "food_stalls": "露店の出店あり。会場内「番屋カフェ」も利用可能",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR大和路線「郡山駅」から徒歩約15分",
+      "official_url": "https://www.city.yamatokoriyama.lg.jp/soshiki/chiikishinkoka/event/1/1621.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.yamatokoriyama.lg.jp/soshiki/chiikishinkoka/event/1/1621.html",
+          "site_name": "大和郡山市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-30"
+        },
+        {
+          "url": "https://trip.iko-yo.net/events/3978",
+          "site_name": "いこーよとりっぷ",
+          "is_official": false,
+          "retrieved_date": "2026-08-30"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0729e538232/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-30"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
