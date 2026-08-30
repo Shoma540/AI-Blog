@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30 12:15",
+  "last_updated": "2026-08-30 16:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -50793,6 +50793,124 @@
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_837",
+      "name": "忍草諏訪神社例祭",
+      "alternate_names": [
+        "諏訪神社(忍草)例祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "南都留郡忍野村",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "19日は神輿渡御（神社出発後、神鶴橋・阿原・横町を練り歩き御旅玉殿に一泊）、20日正午に獅子舞奉納、その後神輿が下村・東円寺・上村を練り歩き19時頃神社に戻る。",
+      "time_start": "不明",
+      "time_end": "19:00頃",
+      "rain_policy": "不明",
+      "organizer": "忍草諏訪神社／忍野村観光協会",
+      "genre": [
+        "神輿",
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "その年の実りを神に感謝する忍草地区第一の秋祭り。祭神は大国主命の子・建御名方命。獅子舞や神輿渡御が行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.vill.oshino.lg.jp/site/kanko/1597.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.vill.oshino.lg.jp/site/kanko/1597.html",
+          "site_name": "忍野村役場公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-30"
+        },
+        {
+          "url": "https://oshino-navi.com/240-2",
+          "site_name": "忍野村観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-30"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_838",
+      "name": "大弐学問祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "甲斐市",
+      "date_start": "2026-09-23",
+      "date_end": "2026-09-23",
+      "date_note": "毎年「秋分の日」に開催される慣例行事。2026年の秋分の日は9月23日(水・祝)だが、2026年開催分の公式告知そのものは確認できておらず例年パターンからの推定。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "甲斐市／大弐学問祭実行委員会",
+      "genre": [
+        "神輿",
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "甲斐市出身の江戸時代の学者「山県大弐」の遺徳を偲び山縣神社周辺で行われる祭り。学問成就祈願、大弐仮装行列、神輿渡御、信玄太鼓演奏などが行われる。",
+      "food_stalls": "神社周辺に出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "山梨県甲斐市篠原190周辺（山縣神社）",
+      "official_url": "https://www.yamanashi-kankou.jp/kai/event/dainigakumonnsai.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yamanashi-kankou.jp/kai/event/dainigakumonnsai.html",
+          "site_name": "富士の国やまなし観光ネット（山梨県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-30"
+        },
+        {
+          "url": "https://www.city.kai.yamanashi.jp/soshikinogoannai/shokokankoka/kankokoryugakari/2/event/9229.html",
+          "site_name": "甲斐市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-30"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
