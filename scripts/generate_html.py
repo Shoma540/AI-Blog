@@ -1,7 +1,13 @@
+import html
 import json
 import os
 from datetime import datetime
 from urllib.parse import quote
+
+
+def esc(value):
+    """祭りデータ由来の文字列をHTML本文・属性値に安全に埋め込むためエスケープする。"""
+    return html.escape(str(value or ''), quote=True)
 
 # ページタブ・ブックマーク表示用のfavicon（絵文字のインラインSVG、外部ファイル不要）
 FAVICON_HREF = "data:image/svg+xml," + quote(
@@ -445,11 +451,11 @@ def festival_card_html(f, img_path_prefix="", index=None):
     img_url = get_image_url(f)
     img_attrs = 'loading="eager" fetchpriority="high"' if index == 0 else 'loading="lazy"'
     return f"""<div class="festival-card">
-  <img class="card-img" src="{img_url}" alt="{f.get('name','')}" width="928" height="1152" {img_attrs}>
+  <img class="card-img" src="{img_url}" alt="{esc(f.get('name',''))}" width="928" height="1152" {img_attrs}>
   <div class="card-body">
-    <div class="card-name">{f.get('name','')}</div>
-    <div class="card-date">📅 {date_label}</div>
-    <div class="card-location">📍 {location}</div>
+    <div class="card-name">{esc(f.get('name',''))}</div>
+    <div class="card-date">📅 {esc(date_label)}</div>
+    <div class="card-location">📍 {esc(location)}</div>
     <div class="card-badges">
       {genre_badges}
       <span class="badge badge-trust-{trust}" style="background:{TRUST_COLORS.get(trust,'#eee')}1a;color:{trust_color};">[信頼度:{trust}]</span>
@@ -564,8 +570,8 @@ def website_jsonld():
 
 
 def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path=""):
-    description = description.replace('"', '').replace('\n', ' ')
-    full_title = f"{title} | 全国祭り情報"
+    description = esc(description.replace('\n', ' '))
+    full_title = esc(f"{title} | 全国祭り情報")
     canonical_url = f"{SITE_BASE_URL}/{quote(url_path)}" if url_path else f"{SITE_BASE_URL}/"
     current_nav_href = {'': 'index.html', 'map.html': 'map.html', 'calendar.html': 'calendar.html'}.get(url_path)
     if current_nav_href:
