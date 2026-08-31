@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31 16:17",
+  "last_updated": "2026-08-31 17:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -9983,12 +9983,8 @@
       "trust_level": "中",
       "conflict_note": "⚠️矛盾: 一部の非公式サイトは2026年を「10/4(土)-10/6(月)」と案内するが、2026年の実際の暦では10/4は日曜・10/6は火曜であり「10月第1土日月」という公式の開催ルール（二本松市公式サイトに記載）と一致しない。同ルールを2026年カレンダーに当てはめると10/3(土)-10/5(月)が正しく、公式サイトはまだ2026年の確定日程を明示していないため、ルールベースの推定値として日付を暫定修正した。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "暫定推定日を訂正: 昨年ルール適用の誤り「2026-10-04〜2026-10-06」→ 2026年暦に基づく正しい推定「2026-10-03〜2026-10-05」"
@@ -12577,9 +12573,9 @@
       "similar_name_warning": false,
       "prefecture": "兵庫県",
       "city": "三木市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "例年「体育の日（10月第2月曜）」前の土日に開催される傾向あり。2026年の体育の日は10/12のため10/10-11頃と推定されるが、2026年の公式日程は未発表・未確認。",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "例年「体育の日（10月第2月曜）」前の土日に開催。2026年は10/10-11の開催と複数の非公式ソース（観光サイト・地元ブログ）で一致確認。三木市公式サイトの2026年専用ページは未更新のため一次情報での確定はまだ。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -12615,16 +12611,41 @@
           "site_name": "神戸新聞NEXT",
           "is_official": false,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0728e519763/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-31"
+        },
+        {
+          "url": "https://ekitan.com/event/evid-b6b5b8d31933657642500b9f2f23c867",
+          "site_name": "駅探",
+          "is_official": false,
+          "retrieved_date": "2026-08-31"
+        },
+        {
+          "url": "https://harimarche.com/topics/83827_83827/",
+          "site_name": "はりまーち",
+          "is_official": false,
+          "retrieved_date": "2026-08-31"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "2026年の具体的日程を明記したソースが見つからず、開催パターンからの推定のみ。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "trust_level",
+        "requires_check",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：日程不明（推定のみ） → 今年：2026-10-10〜11（複数非公式ソースで一致）"
       }
     },
     {
@@ -23334,13 +23355,8 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 2026年の具体的日付(9/19-21)は「敬老の日を含む土日月」という通例からの算出であり、2026年版として明記した一次情報源は未確認。歴史年数の表記に350年/400年/1100年超の揺れあり。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27096,13 +27112,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "organizer",
-        "date_note",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "主催表記誤り修正: 「日枝神社、高山祭保存会」→「桜山八幡宮、高山祭屋台保存会」"
@@ -39320,14 +39331,8 @@
       "trust_level": "高",
       "conflict_note": "神社公式サイトの年間行事では例大祭の神事本義を9/14と案内しているが、氏子14町会による神輿連合渡御などの「にぎわい行事」は例年直近の週末に実施され、2026年（令和8年）は9/19・20開催。複数ソースで日程が一致したため要確認は解除。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "access",
-        "food_stalls",
-        "genre",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -51135,7 +51140,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -51187,6 +51192,70 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_844",
+      "name": "増田の花火",
+      "alternate_names": [
+        "第102回増田の花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "秋田県",
+      "city": "横手市増田町",
+      "date_start": "2026-09-14",
+      "date_end": "2026-09-14",
+      "date_note": "雨天時は翌日に順延予定",
+      "time_start": "19:00",
+      "time_end": "21:00",
+      "rain_policy": "雨天順延",
+      "organizer": "増田町観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料桟敷席あり（15,000円）",
+      "ticket_url": "",
+      "history_years": 102,
+      "history_description": "大正時代から続く花火大会で、令和6年度（2024年）の大会で100回目を迎えた秋田県内屈指の歴史を持つ花火大会。二尺玉をはじめとする大型花火が仲秋の夜空を彩る。",
+      "food_stalls": "不明",
+      "crowd_level": "例年約5万人",
+      "visitors": "約5万人",
+      "access": "十文字ICから車で約15分",
+      "official_url": "https://www.city.yokote.lg.jp/kanko/1001534/1004568.html",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.yokote.lg.jp/kanko/1001534/1004568.html",
+          "site_name": "横手市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-31"
+        },
+        {
+          "url": "https://masuda-matta.com/20260914_102hanabi/",
+          "site_name": "増田町観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-08-31"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0205e00042/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-08-31"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
