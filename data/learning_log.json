@@ -263,6 +263,18 @@
       "verify_after": "2026-09-02",
       "result": "",
       "commit": "98a4e8fb2a35ac5e614e355fba957cb5a08f9623"
+    },
+    {
+      "date": "2026-08-31 08:22",
+      "analysis": "GA4スナップショット（過去7日間、2026-08-31 08:18取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。本実行冒頭でverify_after到来（2026-08-31）の前回改善entry（2026-08-28、festival_card_html()へのwidth/height属性追加、commit 9d443b0）を効果測定し「変化なし（アクセス自体が発生していないため測定不能）」を記録した。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。generate_html.pyを確認したところ、festival_card_html()が祭りのname（カード表示テキスト・img alt属性）とlocation（都道府県+市区町村）をHTMLエスケープせず直接f-stringで埋め込んでおり、html_page()もdescription/titleを「\"を除去するだけ」の簡易処理に留まっていた。現在のfestivals.json（786件）には&/</>/\"を含むデータは無く現状は無症状だが、今後Web検索で収集する祭り名・主催者名・地名に半角記号（例:「A&B観光協会」）が含まれた場合、HTML構造の破壊やog:title等の属性値がその場で終端されるリスクがある構造的な欠落だった。",
+      "action": "scripts/generate_html.py の先頭に html.escape をラップした esc() ヘルパー関数を追加し、festival_card_html() のimg alt属性・card-name・card-locationの3箇所と、html_page() のdescription・full_title（title/og:title/og:description/twitter:title/twitter:description等で再利用される変数）にesc()を適用した。genre等の固定語彙のみのフィールドは対象外とし、Web検索由来の自由記述フィールド（祭り名・地名・ページ説明文）に絞って適用した。適用後にgenerate_html.pyを実行し、現行786件のデータでは特殊文字を含む祭りが無いためdocs/配下の61ページが1バイトも変わらないこと（git diffで無変更）を確認し、既存表示に影響しない安全な変更であることを検証した。あわせて&/</>/\"を含む架空データでesc()の単体動作も確認し、正しくエスケープされることを確認した。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "今後のデータ収集で祭り名・主催者名・市区町村名等に&/</>/\"などのHTML特殊文字が含まれても、ページの表示崩れ・タグ構造の破壊・meta属性の意図しない終端が発生しなくなり、サイトの堅牢性が向上するはず。現時点のデータには該当文字が無いためGA4のアクセス指標や見た目には変化が出ない改善であり、次回以降もvalidate_site.pyでの構造維持確認（全61ページのパース可否）を中心に経過観察する。",
+      "verify_after": "2026-09-03",
+      "result": "",
+      "commit": "2ada3754c219ec51f583d70d5554cd75325b9fc7"
     }
   ]
 }
