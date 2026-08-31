@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31 17:14",
+  "last_updated": "2026-08-31 18:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -12634,15 +12634,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "trust_level",
-        "requires_check",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：日程不明（推定のみ） → 今年：2026-10-10〜11（複数非公式ソースで一致）"
@@ -51254,6 +51247,65 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_845",
+      "name": "さっぽろ菊まつり",
+      "alternate_names": [
+        "第64回さっぽろ菊まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市（札幌駅前通地下歩行空間ほか）",
+      "date_start": "2026-11-01",
+      "date_end": "2026-11-03",
+      "date_note": "会期前日の10月31日15時頃から一般開放。最終日11月3日は13時までの開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "屋内開催（地下歩行空間等）のため天候の影響を受けにくい",
+      "organizer": "さっぽろ菊まつり実行委員会",
+      "genre": [
+        "菊花展",
+        "秋祭り"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "無料（入場自由の可能性、詳細不明）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "丹精込めて育てられた多数の菊が出品され、大きさや美しさを競う本格的な審査が行われる札幌の秋の風物詩。優秀作品には大臣賞や北海道知事賞などが贈られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "札幌駅前通地下歩行空間（チ・カ・ホ）、さっぽろ地下街オーロラタウン（オーロラスクエア）、ほくほく札幌ビル",
+      "official_url": "https://www.sapporo.travel/chrysanthemum-festival/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sapporo.travel/chrysanthemum-festival/",
+          "site_name": "ようこそさっぽろ（札幌市公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-31"
+        },
+        {
+          "url": "https://www.sapporoevents.com/sapporo-chrysanthemum-festival-2026/",
+          "site_name": "Sapporo Events",
+          "is_official": false,
+          "retrieved_date": "2026-08-31"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
