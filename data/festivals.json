@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30 18:10",
+  "last_updated": "2026-08-31 08:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -9938,8 +9938,8 @@
       "similar_name_warning": false,
       "prefecture": "福島県",
       "city": "二本松市",
-      "date_start": "2026-10-04",
-      "date_end": "2026-10-06",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-05",
       "date_note": "会場は二本松神社と市内一帯",
       "time_start": "不明",
       "time_end": "不明",
@@ -9981,13 +9981,17 @@
         }
       ],
       "trust_level": "中",
-      "conflict_note": "",
+      "conflict_note": "⚠️矛盾: 一部の非公式サイトは2026年を「10/4(土)-10/6(月)」と案内するが、2026年の実際の暦では10/4は日曜・10/6は火曜であり「10月第1土日月」という公式の開催ルール（二本松市公式サイトに記載）と一致しない。同ルールを2026年カレンダーに当てはめると10/3(土)-10/5(月)が正しく、公式サイトはまだ2026年の確定日程を明示していないため、ルールベースの推定値として日付を暫定修正した。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "暫定推定日を訂正: 昨年ルール適用の誤り「2026-10-04〜2026-10-06」→ 2026年暦に基づく正しい推定「2026-10-03〜2026-10-05」"
       }
     },
     {
@@ -23276,7 +23280,7 @@
       "city": "西村山郡河北町",
       "date_start": "2026-09-19",
       "date_end": "2026-09-21",
-      "date_note": "毎年9月の敬老の日を含む土・日・月曜日開催。2026年の敬老の日(9/21)から9/19-21と推定。2026年専用の日程告知は確認できていない。",
+      "date_note": "例年、敬老の日を含む3連休開催。2026年の敬老の日(9/21月)から逆算し9/19(土)-9/21(月)と確認",
       "time_start": "14:30頃",
       "time_end": "21:00頃",
       "rain_policy": "不明",
@@ -23319,13 +23323,24 @@
           "site_name": "谷地八幡宮 公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-20"
+        },
+        {
+          "url": "https://www.yachihachimangu.jp/saijiki/%E8%B0%B7%E5%9C%B0%E5%85%AB%E5%B9%A1%E5%AE%AE%E4%BE%8B%E5%A4%A7%E7%A5%AD%E8%B0%B7%E5%9C%B0%E3%81%A9%E3%82%93%E3%81%8C%E3%81%BE%E3%81%A4%E3%82%8A",
+          "site_name": "谷地八幡宮公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-08-31"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 2026年の具体的日付(9/19-21)は「敬老の日を含む土日月」という通例からの算出であり、2026年版として明記した一次情報源は未確認。歴史年数の表記に350年/400年/1100年超の揺れあり。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -27019,11 +27034,11 @@
       "city": "高山市",
       "date_start": "2026-10-09",
       "date_end": "2026-10-10",
-      "date_note": "日枝神社の例祭",
+      "date_note": "桜山八幡宮の例祭（日枝神社の例祭は春の高山祭＝山王祭であり誤りだったため訂正）",
       "time_start": "",
       "time_end": "",
       "rain_policy": "不明",
-      "organizer": "日枝神社、高山祭保存会",
+      "organizer": "桜山八幡宮、高山祭屋台保存会",
       "genre": [
         "屋台行事"
       ],
@@ -27070,16 +27085,27 @@
           "site_name": "岐阜県観光公式サイト（秋の高山祭）",
           "is_official": true,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://www.kankou-gifu.jp/event/detail_1074.html",
+          "site_name": "岐阜県観光公式サイト（岐阜の旅ガイド）",
+          "is_official": true,
+          "retrieved_date": "2026-08-31"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "organizer",
+        "date_note",
+        "requires_check",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "主催表記誤り修正: 「日枝神社、高山祭保存会」→「桜山八幡宮、高山祭屋台保存会」"
       }
     },
     {
@@ -51104,7 +51130,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：神社公式サイトの年間行事ページは例大祭日を9/14と案内する一方、2026年のにぎわい行事（神輿連合渡御）公式サイトは9/19・20開催と案内。両サイトで表記に差異があるため要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
