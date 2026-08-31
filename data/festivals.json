@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31 08:17",
+  "last_updated": "2026-08-31 16:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -39257,8 +39257,9 @@
       "id": "festival_647",
       "name": "渋谷金王八幡宮例大祭",
       "alternate_names": [
+        "渋谷氷川神社連合渡御",
         "金王八幡宮例大祭",
-        "渋谷氷川神社連合渡御"
+        "金王八幡宮祭"
       ],
       "similar_name_warning": false,
       "prefecture": "東京都",
@@ -39272,7 +39273,8 @@
       "organizer": "渋谷金王八幡宮例大祭実行委員会",
       "genre": [
         "神輿",
-        "神事"
+        "神事",
+        "縁日"
       ],
       "scale": "その他",
       "is_free": true,
@@ -39280,10 +39282,10 @@
       "ticket_url": "不明",
       "history_years": 934,
       "history_description": "寛治6年(1092)、源義家が河崎基家の崇拝する八幡神への加護に感謝し渋谷城内に勧請したのが始まりとされる。基家の子・重家が渋谷姓を賜り「渋谷」の地名発祥となったとされ、渋谷金王丸の名から金王八幡宮と称されるようになった。14基の神輿による連合渡御は数百年続く伝統行事。",
-      "food_stalls": "屋台あり",
+      "food_stalls": "境内・周辺に露店が出店。子供縁日・未来縁日も開催",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "JR・東京メトロ・東急ほか「渋谷駅」より徒歩5分（東京都渋谷区渋谷3-5-12）",
       "official_url": "https://shibuyamatsuri.com/",
       "sns_accounts": {
         "instagram": "不明"
@@ -39307,13 +39309,25 @@
           "site_name": "金王八幡宮 公式サイト",
           "is_official": true,
           "retrieved_date": "2026-08-13"
+        },
+        {
+          "url": "https://kt-hub.com/64984/konnouhachimanguu-2026/",
+          "site_name": "来たHUB",
+          "is_official": false,
+          "retrieved_date": "2026-08-30"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "神社公式サイトの年間行事では例大祭の神事本義を9/14と案内しているが、氏子14町会による神輿連合渡御などの「にぎわい行事」は例年直近の週末に実施され、2026年（令和8年）は9/19・20開催。複数ソースで日程が一致したため要確認は解除。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names",
+        "access",
+        "food_stalls",
+        "genre",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -51071,66 +51085,109 @@
       }
     },
     {
-      "id": "festival_841",
-      "name": "金王八幡宮例大祭",
+      "id": "festival_842",
+      "name": "賀茂観月祭",
       "alternate_names": [
-        "渋谷金王八幡宮例大祭",
-        "金王八幡宮祭"
+        "上賀茂神社賀茂観月祭"
       ],
       "similar_name_warning": false,
-      "prefecture": "東京都",
-      "city": "渋谷区",
-      "date_start": "2026-09-19",
-      "date_end": "2026-09-20",
-      "date_note": "宵宮9/19(土)18:00〜、本祭・神輿連合渡御9/20(日)。神社公式サイトの年間行事ページでは例大祭本義の日を9/14と案内しているが、氏子14町会による神輿連合渡御などの「にぎわい行事」は例年、直近の週末に実施される。2026年（令和8年）はにぎわい行事公式サイトが9/19・20開催として案内している。",
-      "time_start": "12:00",
-      "time_end": "19:00",
+      "prefecture": "京都府",
+      "city": "京都市北区",
+      "date_start": "2026-09-25",
+      "date_end": "2026-09-25",
+      "date_note": "中秋の名月（十五夜）にあわせて開催。",
+      "time_start": "16:30",
+      "time_end": "20:00",
       "rain_policy": "不明",
-      "organizer": "金王八幡宮／渋谷金王八幡宮例大祭奉賛会",
+      "organizer": "上賀茂神社（賀茂別雷神社）",
       "genre": [
-        "神輿",
-        "神事",
-        "縁日"
+        "神事"
       ],
       "scale": "その他",
       "is_free": true,
-      "price": "見学無料",
+      "price": "不明（神事・奉納行事の見学は無料と推測されるが、公式の明記は未確認）",
       "ticket_url": "不明",
-      "history_years": 930,
-      "history_description": "青山・渋谷の総鎮守として930年以上の歴史を持つ金王八幡宮の例大祭。氏子14町会の神輿が渋谷・青山地域を練り歩き、日曜午後には渋谷109前や青山通りで神輿連合渡御が行われる。境内では里神楽の奉納や子供縁日、露店の出店もある。",
-      "food_stalls": "境内・周辺に露店が出店。子供縁日・未来縁日も開催",
+      "history_years": "不明",
+      "history_description": "上賀茂神社境内の馬場殿にて、十五夜に中秋の名月を愛でる神事を執り行う年中行事。神事終了後は神楽や雅楽などの奉納行事が行われる。",
+      "food_stalls": "不明（例年、月見団子・にごり酒の接待が数量限定で行われる場合がある）",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "JR・東京メトロ・東急ほか「渋谷駅」より徒歩5分（東京都渋谷区渋谷3-5-12）",
-      "official_url": "https://www.konno-hachimangu.jp/",
+      "access": "京都市バス4系統（A2乗り場）「上賀茂神社前」下車徒歩約15分、または地下鉄烏丸線「北山駅」から徒歩約15分",
+      "official_url": "https://www.kamigamojinja.jp/hitotose/",
       "sns_accounts": {
         "instagram": "不明"
       },
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.konno-hachimangu.jp/nenkangyouzi.html",
-          "site_name": "金王八幡宮公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-08-30"
-        },
-        {
-          "url": "https://shibuyamatsuri.com/",
-          "site_name": "令和8年渋谷金王八幡宮例大祭ホームページ",
-          "is_official": true,
-          "retrieved_date": "2026-08-30"
-        },
-        {
-          "url": "https://kt-hub.com/64984/konnouhachimanguu-2026/",
-          "site_name": "来たHUB",
+          "url": "https://kyototravel.info/kamokangetsusai",
+          "site_name": "京都観光旅行ガイド",
           "is_official": false,
-          "retrieved_date": "2026-08-30"
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://blog.kanko.jp/kyoto-sightseeing/illumination/lightup9/moonviewing-kamigamo2026",
+          "site_name": "京都観光旅行ガイド（お月見イベント特集）",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾：神社公式サイトの年間行事ページは例大祭日を9/14と案内する一方、2026年のにぎわい行事（神輿連合渡御）公式サイトは9/19・20開催と案内。両サイトで表記に差異があるため要確認。",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_843",
+      "name": "秋の実りの大収穫祭2026",
+      "alternate_names": [
+        "なめがた秋の実りの大収穫祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "行方市",
+      "date_start": "2026-09-05",
+      "date_end": "2026-10-04",
+      "date_note": "「栗まつり」「新米まつり」の2テーマで期間中に体験イベントを実施。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "らぽっぽ なめがたファーマーズヴィレッジ",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "体験内容により異なる（目安1,200円～4,200円程度）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "栗の焼き栗食べ比べ、モンブランスイートポテト作りなど収穫体験イベントを併設",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京駅から車で約80分、成田空港から車で約50分、羽田空港から車で約90分",
+      "official_url": "https://www.namegata-fv.jp/event/fall-fes2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.namegata-fv.jp/event/fall-fes2026/",
+          "site_name": "らぽっぽ なめがたファーマーズヴィレッジ公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-01"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
