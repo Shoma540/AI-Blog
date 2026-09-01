@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01 08:20",
+  "last_updated": "2026-09-01 12:55",
   "festivals": [
     {
       "id": "festival_001",
@@ -51371,7 +51371,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -51427,6 +51427,70 @@
         {
           "url": "https://www.jalan.net/event/evt_342972/",
           "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_848",
+      "name": "アークヒルズ秋祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "港区赤坂（アーク・カラヤン広場）",
+      "date_start": "2026-09-11",
+      "date_end": "2026-09-13",
+      "date_note": "9月11日（金）〜13日（日）の3日間開催。子ども神輿・山車は12日、本祭神輿は13日に実施。",
+      "time_start": "11:00",
+      "time_end": "20:00",
+      "rain_policy": "雨天決行・荒天中止",
+      "organizer": "アークヒルズ自治会、森ビル株式会社",
+      "genre": [
+        "神輿",
+        "民俗芸能",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料（縁日屋台は300円〜500円程度）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "東京・赤坂のアークヒルズで毎年秋に開催されるまちのお祭り。アーク・カラヤン広場を会場に、江戸太神楽などの伝統芸能から盆踊り、コメディショー、ジャズパフォーマンスまで多彩なステージが行われるほか、9月12日には子ども神輿・山車の巡行、13日には約200名の担ぎ手による本祭神輿が周辺を練り歩く。",
+      "food_stalls": "多国籍グルメ屋台が全日程で15店舗出店（ビーフカレー、ハンバーガー、パッタイ、たこ焼きなど）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京メトロ南北線・銀座線「溜池山王」駅、千代田線「赤坂」駅、南北線「六本木一丁目」駅から徒歩",
+      "official_url": "https://www.arkhills.com/events/2026/09/0221.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.arkhills.com/events/2026/09/0221.html",
+          "site_name": "アークヒルズ（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://report.iko-yo.net/articles/32946",
+          "site_name": "いこーよニュース",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://www.timeout.jp/tokyo/ja/things-to-do/arkhills-akimatsuri",
+          "site_name": "Time Out Tokyo",
           "is_official": false,
           "retrieved_date": "2026-09-01"
         }
