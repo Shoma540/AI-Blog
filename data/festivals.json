@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01 17:13",
+  "last_updated": "2026-09-01 18:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -51695,7 +51695,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -51764,6 +51764,69 @@
       ],
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: 公式サイトはナイター営業期間を7/25〜9/27と案内しているのに対し、地元メディア3件（サカイタイムズ・まちっと堺泉北・OSAKA STYLE）は花火・盆踊り実施日を8/13〜16・9/20〜23の8日間と一致して報じている。日程は複数メディア一致の8日間を採用。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_853",
+      "name": "ふるさと全国県人会まつり2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "名古屋市中区",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "両日とも9:30〜17:00",
+      "time_start": "09:30",
+      "time_end": "17:00",
+      "rain_policy": "雨天決行",
+      "organizer": "東海地方の3県で活動する30を超える県人会",
+      "genre": [
+        "物産展",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料（飲食等は有料）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "各県人会ブースで地元特産品を販売",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "地下鉄「栄」駅または「矢場町」駅から徒歩すぐ",
+      "official_url": "https://kenjinkai-matsuri.com/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/1706/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://kenjinkai-matsuri.com/",
+          "site_name": "ふるさと全国県人会まつり2026 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_344767/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
