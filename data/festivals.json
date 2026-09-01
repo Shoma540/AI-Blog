@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01 16:20",
+  "last_updated": "2026-09-01 17:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -51563,7 +51563,7 @@
       "trust_level": "中",
       "conflict_note": "神社公式サイトでは開催有無・由緒は確認できるが2026年の具体的日程の明記がなく、地域メディア2件以上の一致に基づく日程情報のため中評価とした。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -51625,6 +51625,145 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_851",
+      "name": "姫路夏祭り2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "姫路市（大手前公園）",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "9月5日（土）・6日（日）の2日間開催。姫路城前の大手前公園が会場。",
+      "time_start": "16:00",
+      "time_end": "22:00",
+      "rain_policy": "雨天時の開催有無は公式サイトで告知（詳細未確認のため不明）",
+      "organizer": "SHIRASAGI ENTERTAINMENT",
+      "genre": [
+        "屋台行事",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場観覧無料（一部ワークショップ等は有料の可能性）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "姫路市内最大規模とされる夏祭り。姫路城前の大手前公園を会場に、約150店舗の屋台・縁日、ゲストライブ、中学生・吹奏楽合同チームによる演奏会（総勢250名）、働く車の展示、お化け屋敷、ハンドメイドワークショップなど家族向け企画を実施。",
+      "food_stalls": "屋台・縁日 約150店舗出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR姫路駅から徒歩約10分（姫路市本町68-24-1 大手前公園）",
+      "official_url": "https://himeji-natsu-matsuri.net/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/himeji_natsumatsuri/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://himeji-natsu-matsuri.net/",
+          "site_name": "姫路夏祭り2026（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://harimap.com/otemae-himeji-natsu-matsuri-2026/",
+          "site_name": "はりまっぷ",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://tanosu.com/trip/183970/",
+          "site_name": "たのすー",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://article.yahoo.co.jp/detail/57f7bcb26548d4c30c0404ea425d0bc025704a54",
+          "site_name": "Yahoo!ニュース",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_852",
+      "name": "ハーベストの丘 夏祭り2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "堺市南区（堺・緑のミュージアム ハーベストの丘）",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-23",
+      "date_note": "8月13日(木)〜16日(日)・9月20日(日)〜23日(祝)の計8日間、夜間ナイター営業として開催（公式サイトは7/25〜9/27の範囲でナイター営業期間を案内しており、複数の地元メディアは花火・盆踊り実施日を上記8日間と報じている）。",
+      "time_start": "18:00",
+      "time_end": "20:30",
+      "rain_policy": "花火は雨天中止",
+      "organizer": "Farm corporation（堺・緑のミュージアム ハーベストの丘）",
+      "genre": [
+        "花火",
+        "盆踊り",
+        "屋台行事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "通常の入園料のみでミニ花火・盆踊りを観覧・参加可能",
+      "ticket_url": "https://farm.or.jp/nightharvest2026/",
+      "history_years": "不明",
+      "history_description": "堺市南区の農業公園「ハーベストの丘」で夏期に開催される夜間イベント。遊戯屋台やキッチンカーが並び、午後8時から約5分間のミニ花火ショーを実施。盆踊りも通常入園料の範囲で参加できる。",
+      "food_stalls": "遊戯屋台・キッチンカーが出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大阪府堺市南区鉢ヶ峯寺2405-1。阪和自動車道「堺IC」から泉北2号線を南へ約7km（約15分）。南海泉北線「泉ヶ丘駅」から南海バス「ハーベストの丘行き」利用。",
+      "official_url": "https://farm.or.jp/nightharvest2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://farm.or.jp/nightharvest2026/",
+          "site_name": "堺・緑のミュージアム ハーベストの丘（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://sakai-times.com/20260810-1/",
+          "site_name": "サカイタイムズ",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://machitto.jp/sakaisemboku/210727/",
+          "site_name": "まちっと堺・泉北",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://osaka.style/news/prtimes/73978/",
+          "site_name": "OSAKA STYLE",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "⚠️ 矛盾: 公式サイトはナイター営業期間を7/25〜9/27と案内しているのに対し、地元メディア3件（サカイタイムズ・まちっと堺泉北・OSAKA STYLE）は花火・盆踊り実施日を8/13〜16・9/20〜23の8日間と一致して報じている。日程は複数メディア一致の8日間を採用。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
