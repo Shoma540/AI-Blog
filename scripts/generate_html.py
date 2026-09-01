@@ -1435,6 +1435,32 @@ def generate_sitemap(festivals, last_updated):
     print(f"sitemap.xml を生成しました（{len(paths)}件のURL）")
 
 
+def generate_404(festivals):
+    """GitHub Pages が自動で使うカスタム404ページ。存在しないURLへのアクセス時に
+    サイト内の主要な行き先（ホーム・地図・カレンダー・都道府県一覧）へ誘導する。
+    """
+    prefectures = sorted(set(f.get('prefecture', '') for f in festivals if f.get('prefecture')))
+    pref_links = ''.join(
+        f'<a class="badge-link" href="prefecture/{p}.html">{p}</a>'
+        for p in prefectures
+    )
+    body = f"""<div class="page-header">
+  <h1>🎉 ページが見つかりません</h1>
+  <p>お探しのページは移動または削除された可能性があります。</p>
+</div>
+<p><a href="index.html">🏠 ホームへ戻る</a> ｜ <a href="map.html">🗺️ 地図から探す</a> ｜ <a href="calendar.html">📅 カレンダーから探す</a></p>
+<h2>都道府県から探す</h2>
+<div class="badge-links">{pref_links}</div>"""
+    html_out = html_page(
+        "ページが見つかりません", body,
+        extra_head='<meta name="robots" content="noindex">',
+        url_path="404.html",
+    )
+    with open(os.path.join(DOCS_DIR, '404.html'), 'w', encoding='utf-8') as f:
+        f.write(html_out)
+    print("docs/404.html を生成しました")
+
+
 def generate_robots_txt():
     """検索エンジンのクローラー向けに robots.txt を docs/ 直下に生成する"""
     content = (
@@ -1456,6 +1482,7 @@ if __name__ == '__main__':
     generate_calendar(festivals, last_updated)
     generate_prefecture_pages(festivals, last_updated)
     generate_month_pages(festivals, last_updated)
+    generate_404(festivals)
     generate_sitemap(festivals, last_updated)
     generate_robots_txt()
     print("HTML生成完了")
