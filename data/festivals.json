@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01 12:55",
+  "last_updated": "2026-09-01 16:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -51491,6 +51491,134 @@
         {
           "url": "https://www.timeout.jp/tokyo/ja/things-to-do/arkhills-akimatsuri",
           "site_name": "Time Out Tokyo",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_849",
+      "name": "ときわ台天祖神社例大祭",
+      "alternate_names": [
+        "ときわ台天祖神社秋祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "板橋区",
+      "date_start": "2026-09-18",
+      "date_end": "2026-09-21",
+      "date_note": "露店出店は9/19・20。例祭日は9/21。例祭前の日曜夕刻に氏子四ケ町の町神輿連合宮入。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "天祖神社（ときわ台）氏子会",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他（国・都指定の記録は確認できず、地域の氏神例祭として毎年開催）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "板橋区南常盤台の天祖神社（神明様）で毎年9月に行われる秋の例祭。氏子四ケ町の町神輿による連合宮入が見どころ。",
+      "food_stalls": "露店あり（9/19・20）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京都板橋区南常盤台2-4-3",
+      "official_url": "http://www.tokyo-jinjacho.or.jp/itabashi/3231/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://itabashi-times.com/archives/tokiwadai-tenso202609.html",
+          "site_name": "板橋Times",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://itabashi.keizai.biz/headline/976/",
+          "site_name": "板橋経済新聞",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://matsuri-no-hi.com/matsuri/1093",
+          "site_name": "祭の日",
+          "is_official": false,
+          "retrieved_date": "2026-09-01"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "神社公式サイトでは開催有無・由緒は確認できるが2026年の具体的日程の明記がなく、地域メディア2件以上の一致に基づく日程情報のため中評価とした。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_850",
+      "name": "杉沢比山",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "飽海郡遊佐町",
+      "date_start": "2026-08-06",
+      "date_end": "2026-08-20",
+      "date_note": "8/6「仕組」19:00〜21:30、8/15「本舞」18:30お頭舞〜22:30、8/20「神送」19:00〜21:30の三晩にわたり奉納。",
+      "time_start": "19:00",
+      "time_end": "22:30",
+      "rain_policy": "不明",
+      "organizer": "杉沢比山保存会／遊佐町教育委員会文化係",
+      "genre": [
+        "民俗芸能",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財（1978年5月22日指定）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "遊佐町杉沢地区に伝わる山伏神楽（番楽）。杉沢熊野神社に「仕込」「本舞」「神送り」の三晩にわたり奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "山形県飽海郡遊佐町杉沢字宮ノ後23（杉沢熊野神社）",
+      "official_url": "https://www.town.yuza.yamagata.jp/archive/contents-824",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.yuza.yamagata.jp/archive/contents-824",
+          "site_name": "遊佐町公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://www.miyazaki-archive.jp/kagura/database/104/",
+          "site_name": "全国神楽継承・振興協議会（宮崎県文化財課）",
+          "is_official": true,
+          "retrieved_date": "2026-09-01"
+        },
+        {
+          "url": "https://kyodoai-yamagata.jp/sugisawahiyama/",
+          "site_name": "ふるさとやまがた発見ナビ",
           "is_official": false,
           "retrieved_date": "2026-09-01"
         }
