@@ -287,6 +287,18 @@
       "verify_after": "2026-09-04",
       "result": "",
       "commit": "23ab465c4c37821983b176b8615e55c788d9bf2d"
+    },
+    {
+      "date": "2026-09-02 08:16",
+      "analysis": "GA4スナップショット（2026-09-02 08:15取得、過去7日間）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。本実行冒頭でverify_after到来（2026-09-02）の前回改善entry（2026-08-30、theme-colorメタタグ追加、commit 98a4e8f）を効果測定し「変化なし（アクセス自体が発生していないため測定不能）」を記録した。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。過去の学習記録（24件）を確認したところ、favicon（絵文字インラインSVG）・theme-color・OGP/Twitter Card等モバイル表示関連の改善は実施済みだが、docs/配下にWeb App Manifest（manifest.json）が存在せず、スマートフォンでサイトを「ホーム画面に追加」した際にアプリ名・アイコン・テーマカラー等が設定されないブラウザ既定の状態になっていた。",
+      "action": "scripts/generate_html.py に generate_manifest() 関数を新設し、docs/manifest.json（name/short_name/description/start_url/scope/display=standalone/lang=ja/background_color/theme_color/icons）を生成するようにした。アイコンは新規画像を追加せず、既存のFAVICON_HREF（絵文字🎉のインラインSVG data URI）をsizes=\"any\"で再利用した。html_page()の<head>に<link rel=\"manifest\" href=\"{SITE_BASE_URL}/manifest.json\">を追加し、全61ページに適用されるようにした。main()の生成呼び出し列にgenerate_manifest()を追加した。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "manifest.jsonが提供されることで、モバイル端末でサイトを「ホーム画面に追加」した際にアプリ名（全国祭り情報）・アイコン・テーマカラーが正しく表示され、standalone表示（ブラウザUIを省いたアプリ的な見た目）になるはず。PWAインストール可能性・モバイルUXのベストプラクティスとして一般的に推奨される項目であり、GA4のセッション数だけでは直接効果を測定できない性質のため、次回以降もvalidate_site.pyでの構造維持確認（manifest.jsonのパース可否・全ページでのlinkタグ出力確認）を中心に経過観察する。",
+      "verify_after": "2026-09-05",
+      "result": "",
+      "commit": "758cb25a2b83d09746289e39d1774f24bc9ca5d5"
     }
   ]
 }
