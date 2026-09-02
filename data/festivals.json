@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02 12:28",
+  "last_updated": "2026-09-02 16:18",
   "festivals": [
     {
       "id": "festival_001",
@@ -45355,18 +45355,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "genre",
-        "sources",
-        "time_start",
-        "access",
-        "history_years",
-        "price",
-        "is_free",
-        "scale"
-      ],
+      "diff_status": "UNCHANGED",
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -51858,6 +51847,182 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_855",
+      "name": "成羽愛宕大花火",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岡山県",
+      "city": "高梁市",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-07",
+      "date_note": "",
+      "time_start": "19:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "成羽愛宕大花火実行委員会（事務局：備北商工会）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 300,
+      "history_description": "江戸時代に藩が取りしきった奉納花火を起源とし、約300年の伝統を受け継ぐ。町民が手作りした約20基の仕掛花火が見どころで、「大銀滝」など独特の大仕掛花火が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "高梁市成羽町下原地区　成羽川河原、東遊山等",
+      "official_url": "https://kawakin.nobody.jp/atago/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://kawakin.nobody.jp/atago/",
+          "site_name": "備中名物成羽愛宕大花火のご案内(公式)",
+          "is_official": true,
+          "retrieved_date": "2026-09-02"
+        },
+        {
+          "url": "https://takahasikanko.or.jp/modules/spot/index.php?content_id=53",
+          "site_name": "高梁観光情報｜備中たかはし",
+          "is_official": true,
+          "retrieved_date": "2026-09-02"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0833e00099/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-02"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_856",
+      "name": "杉大門通り盆踊り大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "新宿区",
+      "date_start": "2026-09-13",
+      "date_end": "2026-09-13",
+      "date_note": "",
+      "time_start": "17:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "杉大門通り商店会親交会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 0,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "杉大門通り（新宿区四谷3-3周辺）",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.arakicho-chokai.com/post/bon-yotsuya2026",
+          "site_name": "荒木町町会「四谷地域の盆踊り情報」",
+          "is_official": false,
+          "retrieved_date": "2026-09-02"
+        },
+        {
+          "url": "https://news.yahoo.co.jp/articles/7724ace5095b770f4e25ebd7b3ab7e7d4480463f",
+          "site_name": "みんなの経済新聞ネットワーク（Yahoo!ニュース配信）",
+          "is_official": false,
+          "retrieved_date": "2026-09-02"
+        },
+        {
+          "url": "https://matsuri-no-hi.com/matsuri/52742",
+          "site_name": "祭の日",
+          "is_official": false,
+          "retrieved_date": "2026-09-02"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_857",
+      "name": "踊ろう！in 荒木町の秋（荒木町秋祭り）",
+      "alternate_names": [
+        "荒木町秋祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "新宿区",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "",
+      "time_start": "17:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "荒木町青年会",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 0,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "荒木公園（新宿区荒木町10）",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.arakicho-chokai.com/post/bon-yotsuya2026",
+          "site_name": "荒木町町会「四谷地域の盆踊り情報」",
+          "is_official": true,
+          "retrieved_date": "2026-09-02"
+        },
+        {
+          "url": "https://news.yahoo.co.jp/articles/7724ace5095b770f4e25ebd7b3ab7e7d4480463f",
+          "site_name": "みんなの経済新聞ネットワーク（Yahoo!ニュース配信、荒木町秋祭りと同時開催と紹介）",
+          "is_official": false,
+          "retrieved_date": "2026-09-02"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
