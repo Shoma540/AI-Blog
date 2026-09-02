@@ -45806,12 +45806,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -52096,7 +52092,7 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾: ちたまるNavi（非公式）記事は「9/27(土)・28(日)」と記載しているが、2026年9月27日は日曜日であり、「第4日曜日とその前日」という公式ルール（複数の公式ソースで確認）と整合しないため誤記の可能性が高いと判断し採用せず。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
