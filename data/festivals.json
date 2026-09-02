@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02 17:11",
+  "last_updated": "2026-09-02 18:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -45359,7 +45359,8 @@
       "year_comparison": {
         "changed": false,
         "details": ""
-      }
+      },
+      "updated_fields": []
     },
     {
       "id": "festival_749",
@@ -45757,7 +45758,7 @@
       "city": "平戸市",
       "date_start": "2026-10-24",
       "date_end": "2026-10-27",
-      "date_note": "例年10月24日～27日の4日間で固定開催。2026年の公式日程発表は確認できず、例年パターンからの推定。",
+      "date_note": "例年10月24日～27日の4日間で固定開催。2026年の公式日程発表は確認できず、例年パターンからの推定（神社公式サイトでは2025年10/24-27の日程を確認、2026年分は未掲載）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -45794,13 +45795,23 @@
           "site_name": "平戸観光協会",
           "is_official": true,
           "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://kameoka-j.jp/pages/25/detail=1/b_id=3/r_id=190/",
+          "site_name": "亀岡神社（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-03"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
