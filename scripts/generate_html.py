@@ -609,6 +609,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   </script>
   <title>{full_title}</title>
   <link rel="icon" href="{FAVICON_HREF}">
+  <link rel="manifest" href="{SITE_BASE_URL}/manifest.json">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
@@ -1473,6 +1474,30 @@ def generate_robots_txt():
     print("robots.txt を生成しました")
 
 
+def generate_manifest():
+    """スマートフォンでの「ホーム画面に追加」に対応する Web App Manifest を生成する。
+    既存のfaviconと同じ絵文字インラインSVGをアイコンとして再利用し、新規画像アセットは追加しない。
+    """
+    manifest = {
+        "name": "全国祭り情報",
+        "short_name": "祭り情報",
+        "description": "全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。",
+        "start_url": f"{SITE_BASE_URL}/",
+        "scope": f"{SITE_BASE_URL}/",
+        "display": "standalone",
+        "lang": "ja",
+        "background_color": "#FAF7F2",
+        "theme_color": "#C0392B",
+        "icons": [
+            {"src": FAVICON_HREF, "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+        ],
+    }
+    with open(os.path.join(DOCS_DIR, 'manifest.json'), 'w', encoding='utf-8') as f:
+        json.dump(manifest, f, ensure_ascii=False, indent=2)
+        f.write('\n')
+    print("manifest.json を生成しました")
+
+
 if __name__ == '__main__':
     data = load_data()
     festivals = data.get('festivals', [])
@@ -1485,4 +1510,5 @@ if __name__ == '__main__':
     generate_404(festivals)
     generate_sitemap(festivals, last_updated)
     generate_robots_txt()
+    generate_manifest()
     print("HTML生成完了")
