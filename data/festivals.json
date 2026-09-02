@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01 18:14",
+  "last_updated": "2026-09-02 08:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -51823,6 +51823,71 @@
           "site_name": "じゃらんnet",
           "is_official": false,
           "retrieved_date": "2026-09-01"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_854",
+      "name": "市民祭宿毛まつり",
+      "alternate_names": [
+        "宿毛まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "高知県",
+      "city": "宿毛市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-12",
+      "date_note": "本祭は10/11（日）10:30〜、花火は19:30〜。",
+      "time_start": "10:30",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "市民祭宿毛まつり実行委員会",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（花火の有料テーブル席あり、46席限定、申込締切9/30）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "海風公園（高知県宿毛市高砂）、土佐くろしお鉄道「宿毛駅」より徒歩約20分。臨時無料駐車場あり。",
+      "official_url": "https://www.city.sukumo.kochi.jp/docs-18/46545.html",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/sukumomaturi/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.sukumo.kochi.jp/docs-18/46545.html",
+          "site_name": "宿毛市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-02"
+        },
+        {
+          "url": "https://www.japan47go.travel/ja/detail/ef81ef26-5687-4302-b93b-aeebb941e30f",
+          "site_name": "JAPAN 47 GO",
+          "is_official": false,
+          "retrieved_date": "2026-09-02"
+        },
+        {
+          "url": "https://hata-kochi.jp/spot/spot89.html",
+          "site_name": "はた旅（公式予約サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-09-02"
         }
       ],
       "trust_level": "高",
