@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02 08:13",
+  "last_updated": "2026-09-02 12:28",
   "festivals": [
     {
       "id": "festival_001",
@@ -45279,7 +45279,9 @@
       "name": "北野祭（ずいき祭）",
       "alternate_names": [
         "ずいき祭",
-        "北野天満宮ずいき祭"
+        "北野天満宮ずいき祭",
+        "北野祭（瑞饋祭／ずいき祭）",
+        "瑞饋祭"
       ],
       "similar_name_warning": false,
       "prefecture": "京都府",
@@ -45287,25 +45289,26 @@
       "date_start": "2026-10-01",
       "date_end": "2026-10-05",
       "date_note": "神幸祭10/1、還幸祭10/4。2026年より祭名を「ずいき祭」から「北野祭」に変更（令和9年の大祭「半萬燈祭」に向けた旧儀復興の一環）。",
-      "time_start": "不明",
+      "time_start": "09:00",
       "time_end": "不明",
       "rain_policy": "不明",
       "organizer": "北野天満宮",
       "genre": [
-        "神輿",
+        "ずいき神輿",
         "収穫祭",
-        "ずいき神輿"
+        "神事",
+        "神輿"
       ],
-      "scale": "不明",
-      "is_free": null,
-      "price": "不明",
+      "scale": "その他（京都三大奇祭の一つとされる）",
+      "is_free": true,
+      "price": "基本無料（一部茶会等の関連行事は有料）",
       "ticket_url": "不明",
-      "history_years": "不明",
+      "history_years": 1070,
       "history_description": "五穀豊穣に感謝する神事として室町時代から続く北野天満宮の祭礼。ずいき（里芋の茎）や野菜、乾物で飾られた「ずいき神輿」（大小2基）が氏子地域・西ノ京の御旅所へ巡行する。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "市バス「北野天満宮前」下車すぐ、嵐電「北野白梅町駅」から徒歩約5分",
       "official_url": "https://kitanotenmangu.or.jp/news/%E5%8C%97%E9%87%8E%E7%A5%AD%E3%80%80%E7%A5%9E%E5%B9%B8%E7%A5%AD%E3%83%BB%E9%82%84%E5%B9%B8%E7%A5%AD/",
       "sns_accounts": {
         "instagram": "不明"
@@ -45329,13 +45332,41 @@
           "site_name": "Yahoo!ニュース エキスパート",
           "is_official": false,
           "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://kitanotenmangu.or.jp/news/%E5%8C%97%E9%87%8E%E7%A5%AD-%E7%91%9E%E9%A5%8B%E5%A5%89%E9%A5%8C/",
+          "site_name": "北野天満宮（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-08-25"
+        },
+        {
+          "url": "https://kyototravel.info/zuikimatsuri",
+          "site_name": "京都観光旅行ガイド",
+          "is_official": false,
+          "retrieved_date": "2026-08-25"
+        },
+        {
+          "url": "https://blog.kanko.jp/kyoto-sightseeing/event10/zuiki-festival",
+          "site_name": "京都観光旅行ガイド（blog.kanko.jp）",
+          "is_official": false,
+          "retrieved_date": "2026-08-25"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names",
+        "genre",
+        "sources",
+        "time_start",
+        "access",
+        "history_years",
+        "price",
+        "is_free",
+        "scale"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -48721,73 +48752,6 @@
       }
     },
     {
-      "id": "festival_802",
-      "name": "北野祭（瑞饋祭／ずいき祭）",
-      "alternate_names": [
-        "ずいき祭",
-        "瑞饋祭",
-        "北野天満宮ずいき祭"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "京都府",
-      "city": "京都市上京区",
-      "date_start": "2026-10-01",
-      "date_end": "2026-10-05",
-      "date_note": "例年10月1日〜5日開催。北野天満宮は令和9年(2027年)の菅公御神忌1125年半萬燈祭を機に祭礼を再興・統合する方針を公表しており、今後の名称・形式が変更される可能性がある。",
-      "time_start": "09:00",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "北野天満宮",
-      "genre": [
-        "神輿",
-        "神事"
-      ],
-      "scale": "その他（京都三大奇祭の一つとされる）",
-      "is_free": true,
-      "price": "基本無料（一部茶会等の関連行事は有料）",
-      "ticket_url": "不明",
-      "history_years": 1070,
-      "history_description": "村上天皇の時代（946〜967年）に始まったとされる秋祭りで、五穀豊穣に感謝する神事。名称は里芋の茎（ずいき）で神輿の屋根を葺くことに由来し、穀物・野菜・湯葉・麩などの乾物で飾った「ずいき神輿」が北野天満宮と御旅所の間を巡行する。京都三大奇祭の一つに数えられる。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "市バス「北野天満宮前」下車すぐ、嵐電「北野白梅町駅」から徒歩約5分",
-      "official_url": "https://kitanotenmangu.or.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://kitanotenmangu.or.jp/news/%E5%8C%97%E9%87%8E%E7%A5%AD-%E7%91%9E%E9%A5%8B%E5%A5%89%E9%A5%8C/",
-          "site_name": "北野天満宮（公式）",
-          "is_official": true,
-          "retrieved_date": "2026-08-25"
-        },
-        {
-          "url": "https://kyototravel.info/zuikimatsuri",
-          "site_name": "京都観光旅行ガイド",
-          "is_official": false,
-          "retrieved_date": "2026-08-25"
-        },
-        {
-          "url": "https://blog.kanko.jp/kyoto-sightseeing/event10/zuiki-festival",
-          "site_name": "京都観光旅行ガイド（blog.kanko.jp）",
-          "is_official": false,
-          "retrieved_date": "2026-08-25"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_803",
       "name": "大槌まつり",
       "alternate_names": [
@@ -51828,7 +51792,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -51893,7 +51857,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
