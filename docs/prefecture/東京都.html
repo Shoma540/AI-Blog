@@ -217,6 +217,14 @@ footer {
   border-top: 1px solid #e8e0d8;
   margin-top: 2rem;
 }
+/* 地の文中のリンク（フッター・404ページ等）：色だけに頼らずリンクと分かるよう下線を付ける */
+footer a, .content-link a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+footer a:hover, .content-link a:hover {
+  text-decoration-thickness: 2px;
+}
 
 /* 地図ページ（地理配置グリッド） */
 .geo-map-wrap {
@@ -1349,7 +1357,7 @@ footer {
 </div></div>
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
 </div>
-<footer>最終更新: 2026-09-02 18:11</footer>
+<footer>最終更新: 2026-09-03 08:14</footer>
 </main>
 </body>
 </html>

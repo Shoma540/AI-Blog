@@ -221,6 +221,14 @@ footer {
   border-top: 1px solid #e8e0d8;
   margin-top: 2rem;
 }
+/* 地の文中のリンク（フッター・404ページ等）：色だけに頼らずリンクと分かるよう下線を付ける */
+footer a, .content-link a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+footer a:hover, .content-link a:hover {
+  text-decoration-thickness: 2px;
+}
 
 /* 地図ページ（地理配置グリッド） */
 .geo-map-wrap {
@@ -1449,7 +1457,7 @@ def generate_404(festivals):
   <h1>🎉 ページが見つかりません</h1>
   <p>お探しのページは移動または削除された可能性があります。</p>
 </div>
-<p><a href="index.html">🏠 ホームへ戻る</a> ｜ <a href="map.html">🗺️ 地図から探す</a> ｜ <a href="calendar.html">📅 カレンダーから探す</a></p>
+<p class="content-link"><a href="index.html">🏠 ホームへ戻る</a> ｜ <a href="map.html">🗺️ 地図から探す</a> ｜ <a href="calendar.html">📅 カレンダーから探す</a></p>
 <h2>都道府県から探す</h2>
 <div class="badge-links">{pref_links}</div>"""
     html_out = html_page(
