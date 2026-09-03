@@ -299,6 +299,18 @@
       "verify_after": "2026-09-05",
       "result": "",
       "commit": "758cb25a2b83d09746289e39d1774f24bc9ca5d5"
+    },
+    {
+      "date": "2026-09-03 08:16",
+      "analysis": "GA4スナップショット（過去7日間、2026-09-03 08:16取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中。本実行冒頭でverify_after到来（2026-09-03）の前回改善entry（2026-08-31、esc()によるHTMLエスケープ処理追加、commit 2ada375）を効果測定し「変化なし」を記録した（該当データ自体が未収集のため）。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。plan.mdの「表示速度・アクセシビリティの改善」テーマに関連し、COMMON_CSSの a { text-decoration: none; color: inherit; } というグローバル指定を確認したところ、footer内の地の文リンク（「地図から探す」「カレンダーで見る」等）と404ページ本文中のリンク（「ホームへ戻る」等）が、周囲のテキストと同じ色・下線なしで表示されており、色以外の手がかり（下線等）でリンクと識別できない状態だった（WCAG 1.4.1 Use of Color 相当の欠落）。nav・badge-link・festival-card等の主要な導線は背景色や枠線で既にリンクと視覚的に区別できているため対象外とした。",
+      "action": "scripts/generate_html.py のCOMMON_CSSに footer a, .content-link a { text-decoration: underline; text-underline-offset: 2px; } とホバー時の下線太さ調整を追加し、footer内の全リンク（index/map/calendar/都道府県47/月別11の計61ページ共通）に下線を付与した。また generate_404() の本文リンク段落に class=\"content-link\" を付与し、同じ下線スタイルを適用した。nav・badge-link等の既存スタイルは変更していない。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "地の文中のリンク（footer・404ページ）に下線が付くことで、色覚特性に関わらず全てのユーザーがリンクとテキストを色以外の手がかりでも識別できるようになり、WCAG 1.4.1準拠に近づくはず。表示速度やGA4のセッション数には影響しない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認（全HTMLパース・内部リンク確認）を中心に経過観察する。",
+      "verify_after": "2026-09-06",
+      "result": "",
+      "commit": "582ec157bfb7332afffac9639a8f1851b874cf77"
     }
   ]
 }
