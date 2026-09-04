@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04 17:15",
+  "last_updated": "2026-09-04 18:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -52669,6 +52669,201 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_868",
+      "name": "沖縄かなさ花火",
+      "alternate_names": [
+        "沖縄かなさ花火 supported by セブン-イレブン・沖縄"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "沖縄県",
+      "city": "宜野湾市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "date_note": "花火打ち上げは20:00～（予定）。安室奈美恵さんの楽曲に合わせた花火・レーザーショーやドローンショーを実施。",
+      "time_start": "20:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "花火観覧券 4,400円（税込）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "宜野湾海浜公園トロピカルビーチ特設会場（沖縄県宜野湾市真志喜4丁目2-1）",
+      "official_url": "https://ginowankaihinkouen.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ginowankaihinkouen.jp/%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E9%96%8B%E5%82%AC%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+          "site_name": "宜野湾海浜公園 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-04"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1047e514318/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-04"
+        },
+        {
+          "url": "https://okinawa-move.com/kanasahanabi/",
+          "site_name": "Okinawa Move",
+          "is_official": false,
+          "retrieved_date": "2026-09-04"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_869",
+      "name": "うるま市エイサーまつり",
+      "alternate_names": [
+        "第21回うるま市エイサーまつり"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "沖縄県",
+      "city": "うるま市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "県道75号線（安慶名十字路～琉球銀行具志川支店付近交差点）が歩行者天国となり、青年会によるエイサー演舞が披露される。「沖縄全島エイサーまつり」「金武町青年エイサーまつり」とは別の、うるま市主催の祭り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "うるま市（観光スポーツ課）／うるま市観光物産協会",
+      "genre": [
+        "民俗芸能",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 21,
+      "history_description": "うるま市誕生を機に始まったエイサーまつりで、2026年で第21回を迎える。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "県道75号線 安慶名十字路～琉球銀行具志川支店付近交差点",
+      "official_url": "https://www.city.uruma.lg.jp/1007003000/event/p000037.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.uruma.lg.jp/1007003000/event/p000037.html",
+          "site_name": "うるま市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-04"
+        },
+        {
+          "url": "https://uruma-ru.jp/news/2026/05/21/21th_urumacityeisafes/",
+          "site_name": "うるま市観光物産協会公式サイト「うるまいろ」",
+          "is_official": true,
+          "retrieved_date": "2026-09-04"
+        },
+        {
+          "url": "https://www.okinawastory.jp/event/600017250",
+          "site_name": "おきなわ物語（沖縄県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-04"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_870",
+      "name": "宜野湾はごろも祭り",
+      "alternate_names": [
+        "第49回宜野湾はごろも祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "沖縄県",
+      "city": "宜野湾市",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "2日目9/27のフィナーレとして「はごろも花火フェスタ2026」を開催（尺玉10個含む1000発以上の花火予定）。「はごろもエキサイティングステージ」「飛衣羽衣（とびんすはにんす）カチャーシー大会」等も実施。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "宜野湾はごろも祭り実行委員会",
+      "genre": [
+        "花火",
+        "踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 49,
+      "history_description": "2026年で第49回を迎える宜野湾市の秋祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "宜野湾海浜公園多目的広場",
+      "official_url": "https://www.city.ginowan.lg.jp/soshiki/keizai/2/12839.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.ginowan.lg.jp/soshiki/keizai/2/12839.html",
+          "site_name": "宜野湾市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-04"
+        },
+        {
+          "url": "https://www.okinawastory.jp/event/600022384",
+          "site_name": "おきなわ物語（沖縄県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-04"
+        },
+        {
+          "url": "https://okinawa-move.com/ginowan-hagoromo-matsuri/",
+          "site_name": "Okinawa Move",
+          "is_official": false,
+          "retrieved_date": "2026-09-04"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
