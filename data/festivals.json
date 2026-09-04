@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03 18:12",
+  "last_updated": "2026-09-04 08:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -52164,6 +52164,133 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_860",
+      "name": "自由が丘熊野神社例大祭",
+      "alternate_names": [
+        "熊野神社例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "目黒区",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "9/5宵宮・9/6本宮。大祭式は9/6 11:00斎行、連合渡御（神幸祭）は大祭式後の9/6 13:00より開始",
+      "time_start": "10:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "熊野神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 800,
+      "history_description": "800年以上の歴史を誇る熊野神社の例大祭。約10基の神輿（子供神輿・国際親善神輿を含む）が自由が丘の街を練り歩く。9/5宵宮では18:00宮出・21:00宮入、9/6本宮では13:00宮出・18:30宮入の神輿渡御が行われる。",
+      "food_stalls": "屋台あり（9/5・9/6とも10:00～21:30頃）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東急東横線・大井町線 自由が丘駅から徒歩約5分",
+      "official_url": "https://www.jiyugaoka-abc.com/event/%E8%87%AA%E7%94%B1%E3%81%8C%E4%B8%98%E7%86%8A%E9%87%8E%E7%A5%9E%E7%A4%BE%E4%BE%8B%E5%A4%A7%E7%A5%AD-3",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.jiyugaoka-abc.com/event/%E8%87%AA%E7%94%B1%E3%81%8C%E4%B8%98%E7%86%8A%E9%87%8E%E7%A5%9E%E7%A4%BE%E4%BE%8B%E5%A4%A7%E7%A5%AD-3",
+          "site_name": "自由が丘オフィシャルウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-04"
+        },
+        {
+          "url": "https://ameblo.jp/jiyugaoka-net/entry-12977536792.html",
+          "site_name": "自由が丘.net",
+          "is_official": false,
+          "retrieved_date": "2026-09-04"
+        },
+        {
+          "url": "https://meguro.goguynet.jp/2026/08/22/kumanojinjya_jiyugaoka_matsuri2026/",
+          "site_name": "号外NET 目黒区",
+          "is_official": false,
+          "retrieved_date": "2026-09-04"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_861",
+      "name": "鶴岡八幡宮例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "鎌倉市",
+      "date_start": "2026-09-14",
+      "date_end": "2026-09-16",
+      "date_note": "14日：宵宮祭、15日：例大祭・神幸祭、16日：流鏑馬神事",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "鶴岡八幡宮",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "鶴岡八幡宮で最も大切な祭事。15日の例大祭では神社本庁からの献幣使を迎え神幸祭が執り行われ、16日には全長260mの馬場で狩装束姿の射手が3つの的を射抜く流鏑馬神事が奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR横須賀線・江ノ電鎌倉駅から徒歩約10分",
+      "official_url": "https://www.hachimangu.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hachimangu.or.jp/",
+          "site_name": "鶴岡八幡宮",
+          "is_official": true,
+          "retrieved_date": "2026-09-04"
+        },
+        {
+          "url": "https://www.yoritomo-japan.com/gyoji-maturi/hatiman-reisai.htm",
+          "site_name": "鎌倉検定",
+          "is_official": false,
+          "retrieved_date": "2026-09-04"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2074570/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-09-04"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
