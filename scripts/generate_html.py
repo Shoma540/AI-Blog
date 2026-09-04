@@ -188,6 +188,19 @@ nav a:hover, nav a.active, nav a[aria-current="page"] {
   background: #fff3e0;
   color: #e65100;
 }
+.card-official-link {
+  display: inline-block;
+  align-self: flex-start;
+  margin-top: 0.15rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #C0392B;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.card-official-link:hover {
+  color: #8e2a1e;
+}
 
 /* バッジリンク（都道府県・月） */
 .badge-links {
@@ -458,6 +471,14 @@ def festival_card_html(f, img_path_prefix="", index=None):
     location = f"{pref} {city}".strip()
     img_url = get_image_url(f)
     img_attrs = 'loading="eager" fetchpriority="high"' if index == 0 else 'loading="lazy"'
+    official_url = f.get('official_url', '')
+    official_link = ''
+    if official_url and official_url != '不明' and official_url.startswith(('http://', 'https://')):
+        official_link = (
+            f'<a class="card-official-link" href="{esc(official_url)}" target="_blank" '
+            f'rel="noopener noreferrer" aria-label="{esc(f.get("name",""))}の公式サイト（新しいタブで開きます）">'
+            f'🔗 公式サイト</a>'
+        )
     return f"""<div class="festival-card">
   <img class="card-img" src="{img_url}" alt="{esc(f.get('name',''))}" width="928" height="1152" {img_attrs}>
   <div class="card-body">
@@ -469,6 +490,7 @@ def festival_card_html(f, img_path_prefix="", index=None):
       <span class="badge badge-trust-{trust}" style="background:{TRUST_COLORS.get(trust,'#eee')}1a;color:{trust_color};">[信頼度:{trust}]</span>
       {check_badge}
     </div>
+    {official_link}
   </div>
 </div>"""
 
