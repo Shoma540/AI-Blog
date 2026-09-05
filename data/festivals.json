@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05 21:15",
+  "last_updated": "2026-09-05 18:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -37065,13 +37065,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "time_start",
-        "time_end",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -38600,11 +38595,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -38667,12 +38659,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "date_note",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50717,12 +50705,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50792,12 +50776,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -52959,6 +52939,69 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_871",
+      "name": "尾張津島秋まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "津島市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-04",
+      "date_note": "毎年10月第1日曜日とその前日の土曜日に開催。10/3(土)は子供獅子・七切の山車奉納など、10/4(日)は神守山車からくり披露・石採祭車競演・車切披露など。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "津島市観光協会",
+      "genre": [
+        "山車",
+        "民俗芸能"
+      ],
+      "scale": "その他（山車16台は市指定文化財等として保護されているが、国指定の有無は今回の調査で確認できず）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 100,
+      "history_description": "江戸期から続く七切祭・向島祭・今市場祭・神守祭の4祭を、大正15年(1926年)に津島神社が国幣小社に昇格したのを機に合同開催するようになった祭り。16台の山車が競演し、からくり人形の披露や車切(車輪を持ち上げて回転させる技)が見どころ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "名鉄津島線 津島駅から徒歩約15分（約1km）。名古屋駅から津島駅まで約24分。東名阪自動車道 弥富ICから国道155号線で北へ約15分。市内全域で山車運行に伴う交通規制・渋滞のため公共交通機関の利用が推奨されている。",
+      "official_url": "https://www.city.tsushima.lg.jp/shokai/matsurikyoudo/akimaturi/index.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.tsushima.lg.jp/shokai/matsurikyoudo/akimaturi/index.html",
+          "site_name": "津島市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://tsushima-kankou.com/akimatsuri/",
+          "site_name": "津島市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/75/",
+          "site_name": "愛知県公式観光サイト Aichi Now",
+          "is_official": true,
+          "retrieved_date": "2026-09-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
