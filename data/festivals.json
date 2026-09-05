@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04 18:16",
+  "last_updated": "2026-09-05 21:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -37012,8 +37012,8 @@
       "date_start": "2026-09-19",
       "date_end": "2026-09-20",
       "date_note": "2026年から酷暑対策で7月から9月開催に変更",
-      "time_start": "不明",
-      "time_end": "不明",
+      "time_start": "13:00",
+      "time_end": "19:00",
       "rain_policy": "不明",
       "organizer": "柏まつり実行委員会",
       "genre": [
@@ -37042,13 +37042,36 @@
           "site_name": "柏市公式ホームページ",
           "is_official": true,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2079872/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://www.kashiwa-cci.or.jp/other-organizations/kashiwamaturi",
+          "site_name": "柏商工会議所",
+          "is_official": true,
+          "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://machitto.jp/kashiwa/194916/",
+          "site_name": "まちっと柏",
+          "is_official": false,
+          "retrieved_date": "2026-09-05"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "time_start",
+        "time_end",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -38560,13 +38583,28 @@
           "site_name": "富山市観光協会公式サイト",
           "is_official": true,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://www.tour.ne.jp/matome/articles/j532/",
+          "site_name": "トラベルコ",
+          "is_official": false,
+          "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://www.info-toyama.com/stories/summer-toyama",
+          "site_name": "とやま観光ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-09-05"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -38583,7 +38621,7 @@
       "city": "太田市",
       "date_start": "2026-09-12",
       "date_end": "2026-09-13",
-      "date_note": "予定（変更の可能性あり、公式発表で要確認）",
+      "date_note": "9月12日(土)・13日(日)16:00〜21:00に決定（複数ソースで一致）",
       "time_start": "16:00",
       "time_end": "21:00",
       "rain_policy": "不明",
@@ -38612,13 +38650,29 @@
           "site_name": "太田市公式サイト",
           "is_official": true,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://ota.goguynet.jp/2026/06/20/otamatsuri-2/",
+          "site_name": "号外NET 太田市",
+          "is_official": false,
+          "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://gunmahanabi.com/ootamaturi/",
+          "site_name": "ぐんま花火・夏祭り特集",
+          "is_official": false,
+          "retrieved_date": "2026-09-05"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "date_note",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50646,13 +50700,29 @@
           "site_name": "柴田町観光物産協会（公式）",
           "is_official": true,
           "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://shibata-info.jp/event",
+          "site_name": "しばた観光ガイド（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://iko-yo.net/events/515562",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-09-05"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50699,13 +50769,35 @@
           "site_name": "幸手市観光協会（公式）",
           "is_official": true,
           "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://chocotabi-saitama.jp/event/154029/",
+          "site_name": "ちょこたび埼玉（埼玉県公式観光情報）",
+          "is_official": true,
+          "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://gongendo.jp/news/%E6%9B%BC%E6%AE%8A%E6%B2%99%E8%8F%AF%E3%81%BE%E3%81%A4%E3%82%8A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+          "site_name": "県営権現堂公園（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/665877/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-09-05"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
