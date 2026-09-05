@@ -198,6 +198,43 @@ nav a:hover, nav a.active, nav a[aria-current="page"] {
   color: #8e2a1e;
 }
 
+/* パンくずリスト */
+.breadcrumb {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem 0;
+}
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.82rem;
+  color: #777;
+}
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+.breadcrumb li:not(:last-child)::after {
+  content: "›";
+  margin: 0 0.5rem;
+  color: #bbb;
+}
+.breadcrumb a {
+  color: #777;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.breadcrumb a:hover {
+  color: #C0392B;
+}
+.breadcrumb li[aria-current="page"] {
+  color: #444;
+  font-weight: 600;
+}
+
 /* バッジリンク（都道府県・月） */
 .badge-links {
   display: flex;
@@ -390,6 +427,7 @@ footer a:hover, .content-link a:hover {
   <a href="../calendar.html">カレンダー</a>
 </nav>
 <main id="main">
+<nav class="breadcrumb" aria-label="パンくずリスト"><ol><li><a href="https://shoma540.github.io/AI-Blog/">全国祭り情報</a></li><li aria-current="page">山形県の祭り情報</li></ol></nav>
 <div class="page-header">
   <h1>山形県の祭り情報【2026年】</h1>
   <p>13件の祭りが見つかりました</p>

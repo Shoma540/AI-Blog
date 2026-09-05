@@ -202,6 +202,43 @@ nav a:hover, nav a.active, nav a[aria-current="page"] {
   color: #8e2a1e;
 }
 
+/* パンくずリスト */
+.breadcrumb {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem 0;
+}
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.82rem;
+  color: #777;
+}
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+.breadcrumb li:not(:last-child)::after {
+  content: "›";
+  margin: 0 0.5rem;
+  color: #bbb;
+}
+.breadcrumb a {
+  color: #777;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.breadcrumb a:hover {
+  color: #C0392B;
+}
+.breadcrumb li[aria-current="page"] {
+  color: #444;
+  font-weight: 600;
+}
+
 /* バッジリンク（都道府県・月） */
 .badge-links {
   display: flex;
@@ -573,6 +610,23 @@ def breadcrumb_jsonld(items):
     }
     json_str = json.dumps(payload, ensure_ascii=False).replace('</', '<\\/')
     return f'<script type="application/ld+json">{json_str}</script>'
+
+
+def breadcrumb_html(items):
+    """(name, url) のリストから、画面に表示するパンくずリストのHTMLを生成する。
+    breadcrumb_jsonld() と同じitemsを渡すことで、構造化データと表示内容を一致させる。
+    最後の項目は現在地としてリンクなし・aria-current="page"で表示する。
+    """
+    if not items:
+        return ""
+    parts = []
+    last_index = len(items) - 1
+    for i, (name, url) in enumerate(items):
+        if i == last_index:
+            parts.append(f'<li aria-current="page">{esc(name)}</li>')
+        else:
+            parts.append(f'<li><a href="{esc(url)}">{esc(name)}</a></li>')
+    return f'<nav class="breadcrumb" aria-label="パンくずリスト"><ol>{"".join(parts)}</ol></nav>'
 
 
 def website_jsonld():
@@ -1250,7 +1304,12 @@ def generate_map(festivals, last_updated):
 }
 </style>"""
 
-    body = f"""<div class="page-header">
+    breadcrumb_items = [
+        ("全国祭り情報", f"{SITE_BASE_URL}/"),
+        ("地図から探す", f"{SITE_BASE_URL}/map.html"),
+    ]
+    body = f"""{breadcrumb_html(breadcrumb_items)}
+<div class="page-header">
   <h1>地図から探す</h1>
   <p>色のついた地域に祭り情報があります（{data_count}地域）</p>
 </div>
@@ -1262,10 +1321,7 @@ def generate_map(festivals, last_updated):
   </div>
 </div>
 <footer>最終更新: {last_updated}</footer>"""
-    breadcrumb = breadcrumb_jsonld([
-        ("全国祭り情報", f"{SITE_BASE_URL}/"),
-        ("地図から探す", f"{SITE_BASE_URL}/map.html"),
-    ])
+    breadcrumb = breadcrumb_jsonld(breadcrumb_items)
     with open(os.path.join(DOCS_DIR, 'map.html'), 'w', encoding='utf-8') as f:
         f.write(html_page(
             "地図から探す", body, extra_head=map_css + breadcrumb,
@@ -1289,13 +1345,14 @@ def generate_calendar(festivals, last_updated):
         except:
             pass
 
-    calendar_breadcrumb = breadcrumb_jsonld([
+    calendar_breadcrumb_items = [
         ("全国祭り情報", f"{SITE_BASE_URL}/"),
         ("カレンダー", f"{SITE_BASE_URL}/calendar.html"),
-    ])
+    ]
+    calendar_breadcrumb = breadcrumb_jsonld(calendar_breadcrumb_items)
 
     if not months_data:
-        body = '<div class="container"><p>データがありません</p></div>'
+        body = f'{breadcrumb_html(calendar_breadcrumb_items)}<div class="container"><p>データがありません</p></div>'
         with open(os.path.join(DOCS_DIR, 'calendar.html'), 'w', encoding='utf-8') as f:
             f.write(html_page(
                 "カレンダー", body, extra_head=calendar_breadcrumb,
@@ -1338,7 +1395,8 @@ function showMonth(m) {
 }
 </script>"""
 
-    body = f"""<div class="page-header">
+    body = f"""{breadcrumb_html(calendar_breadcrumb_items)}
+<div class="page-header">
   <h1>月別カレンダー</h1>
   <p>開催月を選んで祭りを探す</p>
 </div>
@@ -1368,7 +1426,12 @@ def generate_prefecture_pages(festivals, last_updated):
         )
         cards = ''.join(festival_card_html(f, index=i) for i, f in enumerate(pref_festivals))
         page_title = f"{pref}の祭り情報【{current_year}年】"
-        body = f"""<div class="page-header">
+        breadcrumb_items = [
+            ("全国祭り情報", f"{SITE_BASE_URL}/"),
+            (f"{pref}の祭り情報", f"{SITE_BASE_URL}/prefecture/{quote(pref)}.html"),
+        ]
+        body = f"""{breadcrumb_html(breadcrumb_items)}
+<div class="page-header">
   <h1>{page_title}</h1>
   <p>{len(pref_festivals)}件の祭りが見つかりました</p>
 </div>
@@ -1379,10 +1442,7 @@ def generate_prefecture_pages(festivals, last_updated):
 <footer>最終更新: {last_updated}</footer>"""
         nav = NAV_HTML.replace('href="../', 'href="../')
         with open(os.path.join(out_dir, f'{pref}.html'), 'w', encoding='utf-8') as f:
-            breadcrumb = breadcrumb_jsonld([
-                ("全国祭り情報", f"{SITE_BASE_URL}/"),
-                (f"{pref}の祭り情報", f"{SITE_BASE_URL}/prefecture/{quote(pref)}.html"),
-            ])
+            breadcrumb = breadcrumb_jsonld(breadcrumb_items)
             f.write(html_page(
                 page_title, body, nav=nav,
                 extra_head=event_jsonld(pref_festivals) + breadcrumb,
@@ -1410,7 +1470,13 @@ def generate_month_pages(festivals, last_updated):
         sorted_fests = sorted(fests, key=lambda x: x.get('date_start',''))
         cards = ''.join(festival_card_html(f, index=i) for i, f in enumerate(sorted_fests))
         page_title = f"{m}月の祭り情報【{current_year}年】"
-        body = f"""<div class="page-header">
+        breadcrumb_items = [
+            ("全国祭り情報", f"{SITE_BASE_URL}/"),
+            ("カレンダー", f"{SITE_BASE_URL}/calendar.html"),
+            (f"{m}月の祭り情報", f"{SITE_BASE_URL}/month/{m}.html"),
+        ]
+        body = f"""{breadcrumb_html(breadcrumb_items)}
+<div class="page-header">
   <h1>{page_title}</h1>
   <p>{len(fests)}件の祭りが見つかりました</p>
 </div>
@@ -1420,11 +1486,7 @@ def generate_month_pages(festivals, last_updated):
 </div>
 <footer>最終更新: {last_updated}</footer>"""
         nav = NAV_HTML
-        breadcrumb = breadcrumb_jsonld([
-            ("全国祭り情報", f"{SITE_BASE_URL}/"),
-            ("カレンダー", f"{SITE_BASE_URL}/calendar.html"),
-            (f"{m}月の祭り情報", f"{SITE_BASE_URL}/month/{m}.html"),
-        ])
+        breadcrumb = breadcrumb_jsonld(breadcrumb_items)
         with open(os.path.join(out_dir, f'{m}.html'), 'w', encoding='utf-8') as f:
             f.write(html_page(
                 page_title, body, nav=nav,
