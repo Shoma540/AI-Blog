@@ -1501,9 +1501,12 @@ def generate_sitemap(festivals, last_updated):
     """検索エンジン向けの sitemap.xml を docs/ 直下に生成する"""
     lastmod = (last_updated or '')[:10] or datetime.now().strftime('%Y-%m-%d')
 
-    paths = ['', 'calendar.html', 'map.html']
+    # トップページ・カレンダー・地図は1日複数回更新されるため changefreq=daily・priority高め、
+    # 都道府県・月別ページは相対的に更新頻度が低いため changefreq=weekly・priority中程度とし、
+    # クローラーが優先度の高いページを見分けやすくする。
+    top_paths = ['', 'calendar.html', 'map.html']
     prefectures = sorted(set(f.get('prefecture', '') for f in festivals if f.get('prefecture')))
-    paths += [f'prefecture/{pref}.html' for pref in prefectures]
+    prefecture_paths = [f'prefecture/{pref}.html' for pref in prefectures]
 
     months = set()
     for f in festivals:
@@ -1511,11 +1514,17 @@ def generate_sitemap(festivals, last_updated):
             months.add(datetime.strptime(f.get('date_start', ''), '%Y-%m-%d').month)
         except ValueError:
             pass
-    paths += [f'month/{m}.html' for m in sorted(months)]
+    month_paths = [f'month/{m}.html' for m in sorted(months)]
+
+    paths = (
+        [(p, 'daily', '0.8') for p in top_paths]
+        + [(p, 'weekly', '0.6') for p in prefecture_paths + month_paths]
+    )
 
     urls = '\n'.join(
-        f'  <url><loc>{SITE_BASE_URL}/{quote(path)}</loc><lastmod>{lastmod}</lastmod></url>'
-        for path in paths
+        f'  <url><loc>{SITE_BASE_URL}/{quote(path)}</loc><lastmod>{lastmod}</lastmod>'
+        f'<changefreq>{changefreq}</changefreq><priority>{priority}</priority></url>'
+        for path, changefreq, priority in paths
     )
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
