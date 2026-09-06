@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05 18:11",
+  "last_updated": "2026-09-06 08:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -52999,6 +52999,135 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_872",
+      "name": "さばえやっしきまつり",
+      "alternate_names": [
+        "第53回さばえやっしきまつり"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "福井県",
+      "city": "鯖江市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "date_note": "JR鯖江駅周辺の古町商店街通り・本町商店街通りが会場（13時～22時は通行止め）。浴衣姿の踊り子が「やんしき踊り」を踊りながら商店街を練り歩く。例年7月開催だったが、2026年から9月開催に変更。同じ鯖江市で9/26・27に開催される「さばえまつり」（西山公園）とは名称が似ているが別の祭り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "小雨決行",
+      "organizer": "さばえやっしきまつり実行委員会（協力：鯖江市壮年グループ連絡協議会）",
+      "genre": [
+        "盆踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "53回（第53回）",
+      "history_description": "「やんしき」は伊勢松坂の「松坂節」が越後経由等で福井に伝わったとされる盆踊りで、かつて嶺北一帯で広く踊られたが昭和40年代以降ほとんど途絶え、鯖江市周辺にかろうじて伝承が残る。その踊りを中心にした夏の風物詩として定着してきた祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR鯖江駅周辺（古町商店街通り・本町商店街通り）",
+      "official_url": "https://www.city.sabae.fukui.jp/kanko_sangyo/kankoshisetsu_meisho/oshirase/matsuri/ShogaiYashikiHP.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.sabae.fukui.jp/kanko_sangyo/kankoshisetsu_meisho/oshirase/matsuri/ShogaiYashikiHP.html",
+          "site_name": "鯖江市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/manabenoyakata/bunkazai/sabae_bunkazai/mukeiminzokubunkazai/114-city.html",
+          "site_name": "鯖江市公式ホームページ（やんしき踊り／文化財）",
+          "is_official": true,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://www.chunichi.co.jp/article/522469",
+          "site_name": "中日新聞（日刊県民福井Web）",
+          "is_official": false,
+          "retrieved_date": "2026-09-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：7月開催 → 今年：9月19日開催に変更"
+      }
+    },
+    {
+      "id": "festival_873",
+      "name": "さばえまつり",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "福井県",
+      "city": "鯖江市",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "西山公園芝生広場で開催。26日は12:00～20:00、27日は10:00～17:00。「つくるを祝う祭典」がテーマで、飲食ブース・アーティストパフォーマンス・廃材ワークショップ・「イッココ音頭」の盆踊り大会などを実施。同じ鯖江市で9/19に開催される「さばえやっしきまつり」（商店街）とは名称が似ているが別の祭り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "天候や主催者都合により内容変更・中止の場合あり（公式SNSで要確認）",
+      "organizer": "さばえまつり実行委員会",
+      "genre": [
+        "盆踊り",
+        "マーケット",
+        "ワークショップ"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "西山公園芝生広場で毎年秋（9月末～10月頃）に開催されている市民参加型のまつり。高校生から70代まで幅広い世代が「つくり手」として参加することを特徴とする。",
+      "food_stalls": "飲食ブースあり（出店者による）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "西山公園芝生広場（福井県鯖江市桜町3丁目8-10）",
+      "official_url": "https://fuku-iro.jp/event/detail_13097.html",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/sabaematsuri/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://fupo.jp/event/sabae_matsuri/",
+          "site_name": "ふーぽ（福井の旬な街ネタ&情報ポータル）",
+          "is_official": false,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://note.com/sabaematsuri/n/n7ef58fad1165",
+          "site_name": "さばえまつり実行委員会 note",
+          "is_official": true,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://fuku-iro.jp/event/detail_13097.html",
+          "site_name": "福いろ（福井市公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-06"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
