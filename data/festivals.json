@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06 08:15",
+  "last_updated": "2026-09-06 12:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -53066,7 +53066,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -53123,6 +53123,200 @@
         {
           "url": "https://fuku-iro.jp/event/detail_13097.html",
           "site_name": "福いろ（福井市公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_874",
+      "name": "因州若桜弁天大祭",
+      "alternate_names": [
+        "弁天大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "八頭郡若桜町",
+      "date_start": "2026-09-03",
+      "date_end": "2026-09-04",
+      "date_note": "毎年9月初巳の日に開催。2026年は9月3日(木)・4日(金)。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "雨天決行。ただし天候悪化・警報発令時はナイトウォーク等の内容変更または一時中断・中止の可能性あり。",
+      "organizer": "若桜町観光協会",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "若桜弁財天は「べんてんさん」として親しまれ、商売繁盛・縁結びの神様として信仰される。境内には渓流や巨石、苔生した石段などが点在し、草履を抱いてご神体の巨岩をまわり恋愛成就を願う風習で知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "若桜鉄道若桜駅から車で約5分",
+      "official_url": "https://www.torican.jp/festival/detail_1477.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.torican.jp/festival/detail_1477.html",
+          "site_name": "鳥取市観光サイト（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://tottorizumu.com/202609event/",
+          "site_name": "とっとりずむ",
+          "is_official": false,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://www.tour.ne.jp/matome/articles/j559/",
+          "site_name": "トラベルコ",
+          "is_official": false,
+          "retrieved_date": "2026-09-06"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_875",
+      "name": "来んさい！見んさい！踊りん祭！！",
+      "alternate_names": [
+        "踊りん祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "八頭郡智頭町",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-05",
+      "date_note": "第24回。夏の終わりに開催される智頭町の夏祭り。",
+      "time_start": "13:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "来んさい！見んさい！踊りん祭！！実行委員会・智頭町商工会青年部",
+      "genre": [
+        "踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": 24,
+      "history_description": "智頭宿・智頭河原町商店街を会場に、町内外・県内外のよさこいチームが個性豊かな踊りを披露する祭り。最後は観客も自由参加できる総踊りで締めくくられる。",
+      "food_stalls": "駅前屋台村が出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "智頭急行智頭駅前",
+      "official_url": "https://chizukankou-kurashiya.jp/event/summer/kinsai/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://chizukankou-kurashiya.jp/event/summer/kinsai/",
+          "site_name": "智頭町観光協会 暮らし屋（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://www.torican.jp/festival/detail_2475.html",
+          "site_name": "鳥取市観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://tottorizumu.com/kinsaiminsaiodorinsai/",
+          "site_name": "とっとりずむ",
+          "is_official": false,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://www.lazuda.com/news/archives/8312",
+          "site_name": "日刊Lazuda",
+          "is_official": false,
+          "retrieved_date": "2026-09-06"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_876",
+      "name": "明和まつり",
+      "alternate_names": [
+        "明和町ふるさとまつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "群馬県",
+      "city": "邑楽郡明和町",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-12",
+      "date_note": "令和8年度開催。荒天の場合、花火のみ2026年9月19日(日)に延期。",
+      "time_start": "20:00",
+      "time_end": "20:30",
+      "rain_policy": "荒天の場合、花火のみ9月19日(日)に延期",
+      "organizer": "明和町（明和町ふるさとの広場）",
+      "genre": [
+        "花火",
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料席あり（詳細不明）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "明和町ふるさとの広場で行われる町のまつり。ステージショーや盆踊り、大抽選会などが行われ、夜には花火が打ち上げられる。例年の人出は約1万人。",
+      "food_stalls": "屋台あり",
+      "crowd_level": "例年の人出は約1万人",
+      "visitors": "約1万人",
+      "access": "東武伊勢崎線川俣駅東口から会場近くまで無料バス運行",
+      "official_url": "https://www.town.meiwa.gunma.jp/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0310e01085/",
+          "site_name": "ウォーカープラス（花火大会2026）",
+          "is_official": false,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://sorahanabi.com/gunma/meiwa/meiwamatsuri-hanabi.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-09-06"
+        },
+        {
+          "url": "https://www.town.meiwa.gunma.jp/life/soshiki/sangyoukankyo/syoukougyou/3535.html",
+          "site_name": "明和町公式ホームページ（前年度開催実績）",
           "is_official": true,
           "retrieved_date": "2026-09-06"
         }
