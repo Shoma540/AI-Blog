@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07 02:15",
+  "last_updated": "2026-09-07 03:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -53380,7 +53380,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -53442,7 +53442,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -53494,6 +53494,71 @@
           "url": "https://www.shibuyasenmon.com/column/479",
           "site_name": "中古マンションなび渋谷区",
           "is_official": false,
+          "retrieved_date": "2026-09-07"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_880",
+      "name": "雑司が谷大鳥神社例大祭",
+      "alternate_names": [
+        "大鳥神社例大祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "豊島区",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "例祭日は9月10日に近い土曜・日曜とされる。2026年は9月5日(土)宵宮祭・9月6日(日)大祭式・里神楽奉納の情報あり（具体的日付の裏付けは地域情報サイト1件のみ、公式サイトでの日程掲載は未確認）。",
+      "time_start": "11:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "雑司が谷大鳥神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "都電荒川線「鬼子母神前」駅より徒歩約2分",
+      "official_url": "https://www.ootorijinja.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://mh123-box.com/web/portable-shrine/",
+          "site_name": "豊島区 神輿・例大祭 完全ガイド",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "http://www.tokyo-jinjacho.or.jp/toshima/200061/",
+          "site_name": "東京都神社庁",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://www.ootorijinja.or.jp/",
+          "site_name": "大鳥神社 公式サイト",
+          "is_official": true,
           "retrieved_date": "2026-09-07"
         }
       ],
