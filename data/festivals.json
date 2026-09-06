@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06 12:15",
+  "last_updated": "2026-09-07 02:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -53192,7 +53192,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -53261,7 +53261,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -53324,6 +53324,182 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_877",
+      "name": "高田總鎮守氷川神社例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "豊島区",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "毎年9月上旬開催。高田・目白・雑司が谷・目白台地域の総鎮守の例大祭。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "高田總鎮守氷川神社",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "都電荒川線 鬼子母神前駅より徒歩約2分／東京メトロ副都心線 雑司が谷駅より徒歩約6分",
+      "official_url": "http://takatasouchinjyu-hikawajinja.tokyo-jinjacho.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://takatasouchinjyu-hikawajinja.tokyo-jinjacho.or.jp/gyouji00.html",
+          "site_name": "高田總鎮守氷川神社 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://mh123-box.com/web/portable-shrine/",
+          "site_name": "豊島区 神輿・例大祭 完全ガイド",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_878",
+      "name": "子安稲荷神社例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "豊島区",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "上池袋町会が中心となり開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "子安稲荷神社／上池袋町会",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "正徳5年(1715年)に疫病が流行した際、村人が子安稲荷神社に祈りを捧げ疫病が収まったことから、その報恩として大祭を行ったのが始まりと伝わる。",
+      "food_stalls": "境内に模擬店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東武東上線 北池袋駅より徒歩圏内",
+      "official_url": "https://www.koyasu-inari.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.koyasu-inari.com/",
+          "site_name": "子安稲荷神社 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://www.kamiike.org/",
+          "site_name": "上池袋町会ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://mh123-box.com/web/portable-shrine/",
+          "site_name": "豊島区 神輿・例大祭 完全ガイド",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_879",
+      "name": "笹塚連合御神輿祭礼",
+      "alternate_names": [
+        "笹塚連合神輿"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "毎年9月中旬～下旬の土日に笹塚地区の各町会で開催。19日夕方に笹塚駅前へ各町会神輿が集合し、20日は10:00〜12:00に子ども神輿・山車、13:00〜18:00に大人神輿の巡行。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "笹塚地区各町会",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京王線・都営新宿線 笹塚駅周辺",
+      "official_url": "https://www.shh-town-board.com/en/%E7%AC%B9%E5%A1%9A%E9%80%A3%E5%90%88%E5%BE%A1%E8%BC%BF%E7%A5%AD%E7%A4%BC/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.shh-town-board.com/en/%E7%AC%B9%E5%A1%9A%E9%80%A3%E5%90%88%E5%BE%A1%E8%BC%BF%E7%A5%AD%E7%A4%BC/",
+          "site_name": "笹塚連合御神輿祭礼 情報サイト",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://www.shibuyasenmon.com/column/479",
+          "site_name": "中古マンションなび渋谷区",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
