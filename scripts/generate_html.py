@@ -421,14 +421,14 @@ footer a:hover, .content-link a:hover {
 }
 """
 
-NAV_HTML = """<nav>
+NAV_HTML = """<nav aria-label="メインナビゲーション">
   <span class="logo">🎉 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>"""
 
-NAV_ROOT_HTML = """<nav>
+NAV_ROOT_HTML = """<nav aria-label="メインナビゲーション">
   <span class="logo">🎉 全国祭り情報</span>
   <a href="index.html">ホーム</a>
   <a href="map.html">地図</a>
