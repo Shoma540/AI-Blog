@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07 16:14",
+  "last_updated": "2026-09-07 17:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -53621,6 +53621,141 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_882",
+      "name": "牛嶋神社祭礼",
+      "alternate_names": [
+        "牛嶋神社大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "墨田区",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "本年は陰祭りにあたり、若宮近隣町会による大神輿連合宮入り（本所二丁目摂社）が行われる。広い氏子エリア（約50ヶ町）で各町会ごとに催しや町内神輿渡御も実施。次回の五年に一度の大祭「御鎮座1170年大祭」は2027年予定。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "牛嶋神社／氏子各町会",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "貞観二年（860年）創建と伝わる牛嶋神社の例祭。例祭日は9月15日。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "都営浅草線 本所吾妻橋駅より徒歩3分、東武スカイツリーライン とうきょうスカイツリー駅より徒歩3分",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/ushijima145/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sumidoko.com/events/4g6zjfnrnb3xomgnrwj6f4/",
+          "site_name": "すみどこ「牛嶋神社 祭礼 2026」",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://www.chokai.info/areanews/017912.php",
+          "site_name": "横川一丁目町会「令和8年 牛嶋神社祭禮日程」",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://visit-sumida.jp/event/ushijimajinjya_taisai091417/",
+          "site_name": "すみだ観光協会（公式）「牛嶋神社大祭」",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_883",
+      "name": "しちのへ秋まつり",
+      "alternate_names": [
+        "七戸秋まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "青森県",
+      "city": "上北郡七戸町",
+      "date_start": "2026-09-04",
+      "date_end": "2026-09-06",
+      "date_note": "9/4(金)前夜祭：柏葉太鼓競演会18:00〜20:00。9/5(土)：障害物リレー大会、流し踊り・八甲田太鼓、神事、神輿・山車合同運行。9/6(日)：神輿山車合同運行14:00〜17:00。五穀豊穣祈願として全14台の絵馬風流山車が出陣。",
+      "time_start": "10:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "しちのへ秋まつり実行委員会（しちのへ観光協会内）",
+      "genre": [
+        "山車",
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "七戸町中心街（青森県上北郡七戸町）",
+      "official_url": "https://www.town.shichinohe.lg.jp/gyosei/tourism-events/event/post-221.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.shichinohe.lg.jp/gyosei/tourism-events/event/post-221.html",
+          "site_name": "七戸町公式サイト「しちのへ秋まつりの開催について」",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://aomori-tourism.com/event/detail_8651.html",
+          "site_name": "Amazing AOMORI（青森県公式観光情報サイト）「しちのへ秋まつり」",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://towakomyu.com/events/sichinohe-autumn-festival/",
+          "site_name": "towakomyu「しちのへ秋まつり2026」",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://machiiko.jp/events/aa4db8ae-1a72-4fbf-b9ec-d9dc199aed47/",
+          "site_name": "マチイコ「七戸町 しちのへ秋まつり 2026」",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
