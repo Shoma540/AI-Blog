@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07 03:13",
+  "last_updated": "2026-09-07 08:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -47588,9 +47588,9 @@
       "similar_name_warning": false,
       "prefecture": "大分県",
       "city": "大分市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "例年9月1日～7日に開催される大分県内で最も早い秋祭り。ただし2026年の具体的な西暦日程が情報源に明記されておらず確定できないため、日付は不明として記録する。奉納花火は例年6日に実施。",
+      "date_start": "2026-09-01",
+      "date_end": "2026-09-07",
+      "date_note": "2026年9月1日（火）～7日（月）開催。大分市公式サイト・visit-oitaの両公式情報源で2026年の具体的日程が確認できたため確定。奉納花火は例年6日に実施。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -47619,13 +47619,13 @@
           "url": "https://www.visit-oita.jp/events/detail/14119",
           "site_name": "日本一の「おんせん県」大分県の観光情報公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-08-21"
+          "retrieved_date": "2026-09-07"
         },
         {
           "url": "https://www.city.oita.oita.jp/o157/akiibe.html",
           "site_name": "大分市公式サイト（秋の行事）",
           "is_official": true,
-          "retrieved_date": "2026-08-21"
+          "retrieved_date": "2026-09-07"
         },
         {
           "url": "https://www.nippon-matsuri.net/report/kaku/",
@@ -47634,11 +47634,17 @@
           "retrieved_date": "2026-08-21"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -47654,9 +47660,9 @@
       "similar_name_warning": false,
       "prefecture": "大分県",
       "city": "大分市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "公式サイトでは「九月中旬」「九月十四日～九月二十日」と説明される一方、観光サイトの過去実績は年により9月12日～15日など幅がある。2026年の具体的な西暦日程が情報源間で一致せず確定できないため、日付は不明として記録する。奉納花火は例年13日前後・西大分港で実施。",
+      "date_start": "2026-09-17",
+      "date_end": "2026-09-22",
+      "date_note": "2026年9月17日（木）～22日（火・祝）開催。大分市公式サイト・visit-oitaの両公式情報源で一致する2026年の具体的日程が確認できたため、従来の情報源間の不一致を解消し確定。奉納花火は例年13日前後・西大分港で実施。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -47692,14 +47698,28 @@
           "url": "https://www.visit-oita.jp/events/detail/14121",
           "site_name": "日本一の「おんせん県」大分県の観光情報公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-08-21"
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://www.city.oita.oita.jp/o157/akiibe.html",
+          "site_name": "大分市公式サイト（秋の行事）",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾: 開催日程が情報源により9/12-15、9/13-16、9/14-20など一致しない",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "CONFLICT_RESOLVED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -53565,7 +53585,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
