@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07 17:12",
+  "last_updated": "2026-09-07 18:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -53621,7 +53621,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -53685,7 +53685,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -53756,6 +53756,178 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_884",
+      "name": "氏郷まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "滋賀県",
+      "city": "蒲生郡日野町",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-26",
+      "date_note": "小雨決行。台風等の悪天候が予想される場合は順延または中止（ウォーカープラスでは荒天時9/27に順延と記載）。",
+      "time_start": "11:00",
+      "time_end": "20:00",
+      "rain_policy": "小雨決行。台風等の悪天候が予想される場合は順延または中止。",
+      "organizer": "日野町イベント実行委員会・日野町商工観光課",
+      "genre": [
+        "花火",
+        "農祭り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "日野町ゆかりの武将・蒲生氏郷の名を冠した町のイベント。屋台出店や農林商工業者・企業の魅力を紹介する催しのほか、募金・協賛金により花火（約1500発）が打ち上げられる。",
+      "food_stalls": "屋台出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "日野町役場駐車場",
+      "official_url": "https://www.town.shiga-hino.lg.jp/0000007773.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.shiga-hino.lg.jp/0000007773.html",
+          "site_name": "日野町役場「氏郷まつり2026」を開催します！",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0725e355271/data.html",
+          "site_name": "ウォーカープラス「氏郷まつり 2026（蒲生郡日野町）」",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "雨天時の順延先について、町公式は「順延または中止」とのみ記載し、ウォーカープラスは「9/27に順延」と具体的な振替日を記載。矛盾ではなく情報粒度の差の可能性が高いが念のため付記。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_885",
+      "name": "さばえ門前まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "福井県",
+      "city": "鯖江市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "第3回開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "鯖江商工会議所",
+      "genre": [
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "鯖江駅周辺の門前町（旧藩主間部詮勝ゆかりの街並み）の歴史を背景にしたまつり。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "鯖江駅周辺",
+      "official_url": "https://www.sabaecci.or.jp/monzen-fes/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sabaecci.or.jp/monzen-fes/",
+          "site_name": "鯖江商工会議所「さばえ門前まつり」",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://www.sabaecci.or.jp/latest_information/2026%E3%81%95%E3%81%B0%E3%81%88%E9%96%80%E5%89%8D%E3%81%BE%E3%81%A4%E3%82%8A%E3%80%809%E6%9C%8819%E6%97%A5%EF%BC%88%E5%9C%9F%EF%BC%89%E3%83%BB20%E6%97%A5%E9%96%8B%E5%82%AC/",
+          "site_name": "鯖江商工会議所「2026さばえ門前まつり 9月19日・20日開催」",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_886",
+      "name": "鹿野まつり",
+      "alternate_names": [
+        "城山神社祭礼行事"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "鳥取市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "隔年開催で例年4月中旬の土日に実施される祭りのため、次回本祭が2026年に開催されるか2026年時点では未確認。日程が判明次第要更新。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（問い合わせ先：鳥取市鹿野往来交流館「童里夢」）",
+      "genre": [
+        "神輿",
+        "民俗芸能"
+      ],
+      "scale": "県指定",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "城山神社の祭礼行事。4台の屋台や榊、猩々・獅子舞、武者行列、神輿などの御幸行列が山陰の城下町・鹿野を練り歩く。宵祭りではおよそ100個の提灯を綱につないで流す神事がある。日本遺産の構成文化財。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "城山神社・鹿野城跡公園周辺",
+      "official_url": "https://www.torican.jp/festival/detail_1082.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.torican.jp/festival/detail_1082.html",
+          "site_name": "鳥取市観光サイト【公式】「鹿野まつり」",
+          "is_official": true,
+          "retrieved_date": "2026-09-07"
+        },
+        {
+          "url": "https://www.kouryu.or.jp/festival/detail/31201/5897/",
+          "site_name": "（一財）都市農山漁村交流活性化機構「城山神社祭礼行事 鹿野祭り」",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
