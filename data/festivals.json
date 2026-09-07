@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07 08:11",
+  "last_updated": "2026-09-07 16:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -47637,14 +47637,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -47710,16 +47704,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "CONFLICT_RESOLVED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -53586,6 +53572,56 @@
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_881",
+      "name": "上目黒天祖神社例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "目黒区",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "date_note": "9/5(土)は子供みこし・山車巡行と模擬店、9/6(日)は宮神輿渡御。",
+      "time_start": "15:00",
+      "time_end": "不明",
+      "rain_policy": "9/5の巡行・模擬店は雨天中止。9/6の宮神輿渡御は小雨決行。",
+      "organizer": "上目黒天祖神社／伊勢脇町会",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（半纏貸出はクリーニング代500円）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "9/5夕方より境内にて模擬店の出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東急東横線 中目黒駅または祐天寺駅より徒歩圏内",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://voyvoi.com/event/umemeguro-shrine-festival/",
+          "site_name": "voyvoi.com「【2026年】上目黒天祖神社 例大祭」",
+          "is_official": false,
+          "retrieved_date": "2026-09-07"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
