@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08 12:25",
+  "last_updated": "2026-09-08 16:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -54167,6 +54167,195 @@
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_891",
+      "name": "有松山車まつり（有松天満社秋季大祭）",
+      "alternate_names": [
+        "有松天満社秋季大祭",
+        "有松祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "名古屋市緑区有松",
+      "date_start": "2026-10-04",
+      "date_end": "2026-10-04",
+      "date_note": "毎年10月第1日曜日に本祭（前日は前夜祭）。2026年は10月4日（日）開催予定。",
+      "time_start": "09:30",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "有松天満社",
+      "genre": [
+        "山車",
+        "曳山"
+      ],
+      "scale": "市指定無形民俗文化財（祭礼：平成26年指定）、山車3輌は名古屋市有形民俗文化財（昭和48年指定）",
+      "is_free": true,
+      "price": "見学無料（公式サイトに料金記載なし）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "起源は桶狭間の祭礼に遡るとされ、有松天満社創祀（寛政年間・1789〜1800年）以降、絞り商人らの寄進により発展。現在の山車まつりの形式は明治時代以降に成立。東町「布袋車」・中町「唐子車」・西町「神功皇后車」の3輌のからくり山車が有松東海道一帯を曳行し、夜は約200個の提灯を灯して巡行する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "名鉄名古屋本線「有松」駅から徒歩約3分",
+      "official_url": "https://www.arimatsu-tenmansha.com/%E6%9C%89%E6%9D%BE%E5%B1%B1%E8%BB%8A%E3%81%BE%E3%81%A4%E3%82%8A",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.arimatsu-tenmansha.com/%E6%9C%89%E6%9D%BE%E5%B1%B1%E8%BB%8A%E3%81%BE%E3%81%A4%E3%82%8A",
+          "site_name": "有松天満社公式HP",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/1720/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://www.nagoya-info.jp/event/detail/94/",
+          "site_name": "名古屋コンシェルジュ（名古屋市観光情報）",
+          "is_official": false,
+          "retrieved_date": "2026-09-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_892",
+      "name": "勝岡八幡神社秋祭り（一体走り）",
+      "alternate_names": [
+        "一体走り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "松山市勝岡町",
+      "date_start": "2026-10-07",
+      "date_end": "2026-10-07",
+      "date_note": "毎年10月7日固定で開催。6時宮出し、7時30分頃「一体走り」、16時30分頃から「川狩り」。",
+      "time_start": "06:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（勝岡八幡神社／地元氏子）",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "松山市指定無形民俗文化財",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "褌姿の神守（担ぎ手）10名程が神輿を担ぎ、参道約100mを神輿を上下左右に揺らさずまっすぐに走り抜ける「一体走り」が特徴の神事。「神人一体」を体現する儀式として知られ、松山市無形民俗文化財に指定されている。夕方には「川狩り」も行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR予讃線「松山」駅から路線バス",
+      "official_url": "https://katsuoka-hachimanjinja.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://katsuoka-hachimanjinja.jp/",
+          "site_name": "勝岡八幡神社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://www.ehime-np.co.jp/article/news202510070209",
+          "site_name": "愛媛新聞ONLINE",
+          "is_official": false,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://www.nippon-matsuri.net/report/katsuoka/",
+          "site_name": "NPO日本の祭りネットワーク",
+          "is_official": false,
+          "retrieved_date": "2026-09-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "料金・雨天時対応・主催団体名は各ソースとも記載なし。事前に松山市文化財課（089-948-6603）へ確認推奨との情報あり。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_893",
+      "name": "美しが丘 秋の盆踊り大会",
+      "alternate_names": [
+        "美しが丘盆踊り大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "横浜市青葉区美しが丘",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "50年の歴史で初めて、酷暑を避けるため夏から9月開催に変更。",
+      "time_start": "16:30",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "不明（we love tamaplaza project が情報発信）",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（公式サイトに料金記載なし）",
+      "ticket_url": "不明",
+      "history_years": 50,
+      "history_description": "横浜市青葉区美しが丘公園の多目的広場（グラウンド）で開催される、50年の歴史を持つ地域の盆踊り大会。山内中学校吹奏楽部や美和太鼓による演奏、かえで幼稚園園児によるダンス、紙芝居など催し物多数。2026年は酷暑を避け初めて9月開催（例年は夏開催）に変更された。",
+      "food_stalls": "模擬店あり（15:30〜オープン）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東急田園都市線「たまプラーザ」駅周辺",
+      "official_url": "https://welovetamaplaza.jp/bon-odori-2026-update/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://welovetamaplaza.jp/bon-odori-2026-update/",
+          "site_name": "we love tamaplaza project（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://www.townnews.co.jp/0101/2026/08/13/848479.html",
+          "site_name": "タウンニュース青葉区版",
+          "is_official": false,
+          "retrieved_date": "2026-09-08"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：夏（7月）開催 → 今年：初の9月開催（酷暑回避のため）"
       }
     }
   ]
