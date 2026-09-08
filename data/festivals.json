@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08 16:13",
+  "last_updated": "2026-09-08 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -54104,7 +54104,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -54162,7 +54162,7 @@
       "trust_level": "中",
       "conflict_note": "出水市公式イベントカレンダー一覧ページでは9/27表記で掲載されていたが、詳細ページ（出水市公式・出水ナビ）では主日程9/26、荒天延期時のみ翌27日に花火実施と確認できたため9/26を採用。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -54228,7 +54228,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -54293,7 +54293,7 @@
       "trust_level": "高",
       "conflict_note": "料金・雨天時対応・主催団体名は各ソースとも記載なし。事前に松山市文化財課（089-948-6603）へ確認推奨との情報あり。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -54351,11 +54351,199 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：夏（7月）開催 → 今年：初の9月開催（酷暑回避のため）"
+      }
+    },
+    {
+      "id": "festival_894",
+      "name": "第31回来る福招き猫まつりin瀬戸",
+      "alternate_names": [
+        "来る福招き猫まつり",
+        "招き猫まつりin瀬戸"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "瀬戸市",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "毎年9月に開催。2026年で第31回。",
+      "time_start": "10:00",
+      "time_end": "17:00",
+      "rain_policy": "不明",
+      "organizer": "来る福招き猫まつりin瀬戸実行委員会",
+      "genre": [
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（一部催事は有料の場合あり）",
+      "ticket_url": "不明",
+      "history_years": 31,
+      "history_description": "明治30年代、日本で最初に磁器製の招き猫を量産し始めた瀬戸のまちで、平成8年（1996年）から始まった祭り。日本最大級の招き猫コンペティション「にっぽん招き猫100人展」や招き猫づくり体験、招き猫メイク、福々ランチ、猫グッズ販売などが行われる。会場は瀬戸蔵（瀬戸市蔵所町）ほか、名鉄瀬戸線「尾張瀬戸駅」周辺一帯。",
+      "food_stalls": "福々ランチ等の飲食ブースあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "名鉄瀬戸線「尾張瀬戸駅」下車すぐ",
+      "official_url": "https://www.city.seto.aichi.jp/docs/2026/08/06/00090/00090.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.seto.aichi.jp/docs/2026/08/06/00090/00090.html",
+          "site_name": "瀬戸市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://www.seto-marutto.info/event-post/manekinekomatsuri2026/",
+          "site_name": "せと・まるっとミュージアム（瀬戸市観光情報公式サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/1576/",
+          "site_name": "愛知県観光公式サイト Aichi Now",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_895",
+      "name": "高住神社神幸祭",
+      "alternate_names": [
+        "添田神幸祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "田川郡添田町",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-13",
+      "date_note": "毎年9月の第2土曜日・日曜日に開催。",
+      "time_start": "不明",
+      "time_end": "16:00頃",
+      "rain_policy": "不明",
+      "organizer": "高住神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "豊前豊後の開拓神・豊日別命を祀る高住神社（添田町）の神幸祭。氏子たちが威儀物や神輿を担ぎ、太鼓の音とともに氏子域を巡行し、神輿は高住神社参道の御旅所で一夜を明かす。かつて牛一頭が景品となる「牛くじ（牛抽籤）」が行われたことでも知られ、添田町の歴史的風致に認定されている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "高住神社（福岡県田川郡添田町）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.crossroadfukuoka.jp/event/16778",
+          "site_name": "クロスロードふくおか（福岡県観光情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://matsuri-no-hi.com/matsuri/35087",
+          "site_name": "祭の日",
+          "is_official": false,
+          "retrieved_date": "2026-09-08"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_896",
+      "name": "ワテラス盆踊り-BOOGIE BON BEAT-",
+      "alternate_names": [
+        "ワテラス盆踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "千代田区神田淡路町",
+      "date_start": "2026-09-18",
+      "date_end": "2026-09-19",
+      "date_note": "2026年が初開催。18日は17:00～21:00、19日は15:00～20:00。",
+      "time_start": "15:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "ワテラス出店者会（協力：安田不動産、淡路エリアマネジメント、東急住宅リース／後援：千代田区、淡路町二丁目町会）",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 1,
+      "history_description": "千代田区神田淡路町の複合施設「ワテラス」広場と隣接する淡路公園を会場に2026年初開催される盆踊りイベント「ワテラス盆踊り-BOOGIE BON BEAT-」。世代を越えて楽しめる盆踊りステージを企画し、地域のにぎわい創出を目的に安田不動産などが協力する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "ワテラス広場（千代田区神田淡路町二丁目101番）・淡路公園、JR/東京メトロ「御茶ノ水」「秋葉原」「神田」各駅周辺",
+      "official_url": "https://www.yasuda-re.co.jp/news/detail-4397/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yasuda-re.co.jp/news/detail-4397/",
+          "site_name": "安田不動産株式会社 公式ニュース",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000109.000069362.html",
+          "site_name": "PR TIMES（安田不動産プレスリリース）",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://www.waterras-mall.com/event/item_eventnews.jsp?id=48",
+          "site_name": "ワテラスモール公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "2026年が初開催のため昨年データなし"
       }
     }
   ]
