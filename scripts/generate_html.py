@@ -1393,6 +1393,25 @@ function showMonth(m) {
   event.target.setAttribute('aria-selected', 'true');
   event.target.tabIndex = 0;
 }
+document.addEventListener('DOMContentLoaded', function() {
+  const tablist = document.querySelector('.month-tabs');
+  if (!tablist) return;
+  tablist.addEventListener('keydown', function(e) {
+    const tabs = Array.from(document.querySelectorAll('.month-tab'));
+    const currentIndex = tabs.indexOf(document.activeElement);
+    if (currentIndex === -1) return;
+    let newIndex = null;
+    if (e.key === 'ArrowRight') newIndex = (currentIndex + 1) % tabs.length;
+    else if (e.key === 'ArrowLeft') newIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+    else if (e.key === 'Home') newIndex = 0;
+    else if (e.key === 'End') newIndex = tabs.length - 1;
+    if (newIndex !== null) {
+      e.preventDefault();
+      tabs[newIndex].focus();
+      tabs[newIndex].click();
+    }
+  });
+});
 </script>"""
 
     body = f"""{breadcrumb_html(calendar_breadcrumb_items)}
