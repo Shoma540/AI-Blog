@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08 08:16",
+  "last_updated": "2026-09-08 12:25",
   "festivals": [
     {
       "id": "festival_001",
@@ -9986,8 +9986,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "暫定推定日を訂正: 昨年ルール適用の誤り「2026-10-04〜2026-10-06」→ 2026年暦に基づく正しい推定「2026-10-03〜2026-10-05」"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -12637,8 +12637,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：日程不明（推定のみ） → 今年：2026-10-10〜11（複数非公式ソースで一致）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -27114,8 +27114,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "主催表記誤り修正: 「日枝神社、高山祭保存会」→「桜山八幡宮、高山祭屋台保存会」"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -44435,8 +44435,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "2025年は10/31〜11/9開催だったのに対し、2026年は10/30〜11/8開催と確定（開始・終了とも1日前倒し）。"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -47459,8 +47459,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：2025年9月19日～10月8日 → 今年：2026年9月21日～10月6日"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -53075,8 +53075,8 @@
       "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年：7月開催 → 今年：9月19日開催に変更"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -53980,7 +53980,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -54039,6 +54039,129 @@
       "trust_level": "中",
       "conflict_note": "公式サイト上の正式な開催告知ページは確認できず、地域メディア記事および公式SNSアカウント名からの情報。",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_889",
+      "name": "天空夢祭（てんくうゆめまつり）",
+      "alternate_names": [
+        "天空の盆踊り",
+        "SHIBUYA SKY 天空夢祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区道玄坂（SHIBUYA SKY／渋谷スクランブルスクエア）",
+      "date_start": "2026-09-01",
+      "date_end": "2026-09-27",
+      "date_note": "会期は9/1(火)〜9/27(日)。目玉企画「天空の盆踊り」の実施日は9/5(土)・9/12(土)のみ（各日18:15〜19:45）。",
+      "time_start": "18:15",
+      "time_end": "19:45",
+      "rain_policy": "降雨・雷・強風等の悪天候時は「天空の盆踊り」を中止（開催直前・開催中の中止／中断もあり得る）",
+      "organizer": "渋谷スクランブルスクエア株式会社",
+      "genre": [
+        "盆踊り"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "SHIBUYA SKY入場料が必要。Web事前購入：大人2,700円（〜14:59）／3,400円（15:00〜）。当日窓口：大人3,000円（〜14:59）／3,700円（15:00〜）。5歳以下無料。",
+      "ticket_url": "https://www.shibuya-scramble-square.com/sky/ticket/",
+      "history_years": "不明",
+      "history_description": "渋谷スクランブルスクエア屋上展望施設「SHIBUYA SKY」（地上229m）で開催される秋祭り。屋外回廊を色とりどりの提灯と来場者の夢の短冊が彩る「天空の夢回廊」と、和太鼓「鼓龍太鼓」や「夜明けのチンドン屋」の演奏に合わせて踊るオリジナル音頭「渋谷スクランブル音頭」の「天空の盆踊り」で構成。短冊は後日、金王八幡宮でお焚き上げされる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "渋谷駅直結（SHIBUYA SKY入口はSHIBUYA SCRAMBLE SQUARE 14階）",
+      "official_url": "https://www.shibuya-scramble-square.com/sky/bonodori/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.shibuya-scramble-square.com/sky/bonodori/",
+          "site_name": "SHIBUYA SKY公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000181.000046405.html",
+          "site_name": "渋谷スクランブルスクエア株式会社 プレスリリース（PR TIMES）",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://www.fashion-press.net/news/149609",
+          "site_name": "ファッションプレス",
+          "is_official": false,
+          "retrieved_date": "2026-09-08"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_890",
+      "name": "高尾野秋祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "出水市高尾野町柴引",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-26",
+      "date_note": "荒天等により延期の場合、翌9/27(日)に花火のみ実施予定。延期時は当日正午頃に出水市公式HP・LINE・防災行政無線で周知。旧「高尾野夏祭り」（8月第1土曜開催）が2023年より秋分前後の9月開催「高尾野秋祭り」に変更された。",
+      "time_start": "15:00",
+      "time_end": "20:55",
+      "rain_policy": "荒天延期の場合、翌日に花火のみ実施",
+      "organizer": "高尾野秋祭り実行委員会事務局（鶴の町商工会 高尾野本所）",
+      "genre": [
+        "花火",
+        "神輿",
+        "踊り"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明（公式ページに料金記載なし。地域の秋祭りのため見学無料の可能性が高いが未確認）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "肥薩おれんじ鉄道高尾野駅周辺（JA鹿児島いずみ高尾野事業所駐車場一帯）で開催される秋祭り。子ども向けイベント・子どもみこし・総踊り・花火大会などで構成。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "肥薩おれんじ鉄道 高尾野駅から徒歩2分",
+      "official_url": "https://www.izumi-navi.jp/events/post-2086/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.izumi-navi.jp/events/post-2086/",
+          "site_name": "出水ナビ（出水市公式観光情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://www.city.kagoshima-izumi.lg.jp/page/page_013217.html",
+          "site_name": "出水市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "出水市公式イベントカレンダー一覧ページでは9/27表記で掲載されていたが、詳細ページ（出水市公式・出水ナビ）では主日程9/26、荒天延期時のみ翌27日に花火実施と確認できたため9/26を採用。",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
