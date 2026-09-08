@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08 17:15",
+  "last_updated": "2026-09-09 03:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -54416,7 +54416,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -54475,7 +54475,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -54539,11 +54539,195 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "2026年が初開催のため昨年データなし"
+      }
+    },
+    {
+      "id": "festival_897",
+      "name": "松山秋祭り",
+      "alternate_names": [
+        "松山道後秋祭り",
+        "道後温泉大神輿総練"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "松山市",
+      "date_start": "2026-10-05",
+      "date_end": "2026-10-07",
+      "date_note": "10月7日早朝、道後温泉駅前で神輿同士がぶつかり合う「鉢合わせ」が行われる",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（松山市内各神社が主体）",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "不明",
+      "is_free": "不明（見学は基本無料と推定）",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "松山市内の各神社で一斉に催される秋祭りで、神輿同士の激しい練り合わせ「鉢合わせ」が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "道後温泉駅から徒歩圏内",
+      "official_url": "https://www.dogo.or.jp/event/matsuyama-akimatsuri2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.dogo.or.jp/event/matsuyama-akimatsuri2026/",
+          "site_name": "道後温泉公式エリアガイド",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://www.iyokannet.jp/event/829",
+          "site_name": "いよ観ネット（愛媛県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_898",
+      "name": "代々木八幡宮例大祭",
+      "alternate_names": [
+        "代々木八幡例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-09-22",
+      "date_end": "2026-09-23",
+      "date_note": "22日は宵宮祭（宮神輿渡御あり）、23日が例大祭本祭で町会神輿が宮入りする",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "代々木八幡宮",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "不明",
+      "is_free": "不明（見学は基本無料と推定）",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "代々木八幡宮の秋の例大祭。宵宮祭・例大祭の2日間で境内に100以上の露店が並び、宮神輿・各町会神輿が渡御する。",
+      "food_stalls": "露店100以上",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "小田急線代々木八幡駅・東京メトロ千代田線代々木公園駅から徒歩",
+      "official_url": "https://www.yoyogihachimangu.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yoyogihachimangu.or.jp/",
+          "site_name": "代々木八幡宮公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://kotokoto-sasazuka.com/yoyogi-reitaisai/",
+          "site_name": "ことこと笹塚",
+          "is_official": false,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://www.visiting-japan.com/ja/articles/events/j13sb-yoyogi-hachimangu-reitaisai.htm",
+          "site_name": "Visiting Japan",
+          "is_official": false,
+          "retrieved_date": "2026-09-09"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_899",
+      "name": "椙森神社例大祭",
+      "alternate_names": [
+        "椙森神社大祭",
+        "椙森神社例大祭本祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "中央区",
+      "date_start": "2026-05-15",
+      "date_end": "2026-05-16",
+      "date_note": "3年に一度の本祭。5/15は神楽・お囃子(14:00〜20:00)、5/16は神輿渡御・お囃子(9:20〜17:00)。",
+      "time_start": "09:20",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "椙森神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "不明",
+      "is_free": "不明（見学は基本無料と推定）",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "総重量約1.4トンの大神輿が見どころ。神輿は1931年、一千年祭を記念して作製されたもの。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京都中央区日本橋堀留町",
+      "official_url": "https://www.chuo-kanko.or.jp/blogs/event/2603251649",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.chuo-kanko.or.jp/blogs/event/2603251649",
+          "site_name": "一般社団法人中央区観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://tokuhain.chuo-kanko.or.jp/detail.php?id=6969",
+          "site_name": "中央区観光協会特派員ブログ",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
