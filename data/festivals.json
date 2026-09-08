@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07 18:20",
+  "last_updated": "2026-09-08 08:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -53813,7 +53813,7 @@
       "trust_level": "中",
       "conflict_note": "雨天時の順延先について、町公式は「順延または中止」とのみ記載し、ウォーカープラスは「9/27に順延」と具体的な振替日を記載。矛盾ではなく情報粒度の差の可能性が高いが念のため付記。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -53869,7 +53869,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -53927,6 +53927,117 @@
       ],
       "trust_level": "低",
       "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_887",
+      "name": "四万十川感謝祭",
+      "alternate_names": [
+        "第3回四万十川感謝祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "高知県",
+      "city": "四万十市",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-26",
+      "date_note": "第3回開催。四万十川の恵みに感謝するイベント。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "一般社団法人 四万十市観光協会",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（体験メニューにより異なる可能性あり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "四万十川の恵みに感謝する四万十市のイベント。屋形船クルーズ、カヌー・SUP体験、投網実演、アユのつかみどり、宝探し、菓子まき、夜の鵜飼体験などを実施。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.shimanto-kankou.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.shimanto-kankou.com/news/%E7%81%AB%E6%8C%AF%E3%82%8A%E6%BC%81%E8%A6%B3%E8%A6%A7%E3%83%84%E3%82%A2%E3%83%BC-2.html",
+          "site_name": "一般社団法人 四万十市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_888",
+      "name": "高知大道芸フェス",
+      "alternate_names": [
+        "高知大道芸フェス2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "高知県",
+      "city": "高知市",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "高知市中央公園（帯屋町）および高知市中心街で開催。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（公式SNSアカウント名：DAIDOUGEI.KOCHI）",
+      "genre": [
+        "大道芸",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "パントマイム・ジャグリング・バルーン・中国雑技など多彩な大道芸パフォーマーが高知市中心街に集まるイベント。2026年は15組が出演予定。",
+      "food_stalls": "東洋電化中央公園にグルメ出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.facebook.com/DAIDOUGEI.KOCHI/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/kochi.daidougei.fes/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kokoharekochi.com/article/feature/recommend/n44652/",
+          "site_name": "ココハレ（高知の子育て応援ウェブメディア）",
+          "is_official": false,
+          "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://www.facebook.com/DAIDOUGEI.KOCHI/",
+          "site_name": "高知大道芸フェス2026 公式Facebook",
+          "is_official": true,
+          "retrieved_date": "2026-09-08"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "公式サイト上の正式な開催告知ページは確認できず、地域メディア記事および公式SNSアカウント名からの情報。",
       "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
