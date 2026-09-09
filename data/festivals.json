@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09 16:20",
+  "last_updated": "2026-09-09 17:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -54915,6 +54915,196 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_903",
+      "name": "御霊神社例大祭（面掛行列）",
+      "alternate_names": [
+        "権五郎神社例祭",
+        "面掛行列"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "鎌倉市",
+      "date_start": "2026-09-18",
+      "date_end": "2026-09-18",
+      "date_note": "鎌倉権五郎景政公の命日である9月18日に毎年開催（固定日）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "御霊神社（鎌倉権五郎神社）",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "神奈川県指定無形民俗文化財（面掛行列）",
+      "is_free": true,
+      "price": "見学無料（面掛面の宝物庫拝観は大人100円）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "鎌倉・湘南地帯を開拓した鎌倉権五郎景政公を祀る御霊神社の例祭。景政公の命日にあたる9月18日に、湯立神楽と、江戸時代から伝わる面をつけた10人の行列が練り歩く面掛行列が奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "江ノ電 長谷駅より徒歩約5分",
+      "official_url": "https://www.kanagawa-jinja.or.jp/shrine/1205011-000/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kanagawa-jinja.or.jp/shrine/1205011-000/",
+          "site_name": "神奈川県神社庁",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://www.city.kamakura.kanagawa.jp/keikan/100sen/rekisi/44.html",
+          "site_name": "鎌倉市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://www.yoritomo-japan.com/gyoji-maturi/goryo-menkake.htm",
+          "site_name": "鎌倉手帳（yoritomo-japan.com）",
+          "is_official": false,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://matsuri-no-hi.com/matsuri/4131",
+          "site_name": "祭の日",
+          "is_official": false,
+          "retrieved_date": "2026-09-09"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_904",
+      "name": "中目黒八幡神社秋例大祭",
+      "alternate_names": [
+        "中目黒秋まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "目黒区",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "例年9月第4土曜・日曜に開催（2026年の日程は各サイトで「予想」表記であり公式未確定）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "中目黒八幡神社",
+      "genre": [
+        "神輿",
+        "民俗芸能"
+      ],
+      "scale": "江戸の里神楽（国指定重要無形民俗文化財）を奉奏",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "中目黒八幡神社の秋の例大祭。宵宮での奉納演芸・神楽「浦安の舞」、本祭での神輿渡御と江戸の里神楽の奉奏が特徴。",
+      "food_stalls": "境内に物産展・屋台の出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東急東横線・東京メトロ日比谷線 中目黒駅より徒歩約7分",
+      "official_url": "http://www.tokyo-jinjacho.or.jp/meguro/5202",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://www.tokyo-jinjacho.or.jp/meguro/5202",
+          "site_name": "東京都神社庁",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://meguromag.jp/matsuri/nakameguro_hachimanjinjya.html",
+          "site_name": "meguromag",
+          "is_official": false,
+          "retrieved_date": "2026-09-09"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_905",
+      "name": "甘縄神明神社例祭",
+      "alternate_names": [
+        "甘縄神明宮例祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "神奈川県",
+      "city": "鎌倉市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "式典は9月7日・14日頃、神輿渡御は9月第2日曜（2026年は9/13）に行われるとの情報があるが、ソースにより表記が揺れており正確な日程は要確認",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "甘縄神明神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "鎌倉最古とされる神社の例祭。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "江ノ電 長谷駅より徒歩約7分",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.trip-kamakura.com/facility/detail.php?id=2",
+          "site_name": "鎌倉市観光協会（かまくら観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://www.kanagawa-jinja.or.jp/shrine/1205009-000/",
+          "site_name": "神奈川県神社庁",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "⚠️ 矛盾: 式典日・神輿渡御日についてサイトにより記載が異なる",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
