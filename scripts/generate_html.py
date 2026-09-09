@@ -422,14 +422,14 @@ footer a:hover, .content-link a:hover {
 """
 
 NAV_HTML = """<nav aria-label="メインナビゲーション">
-  <span class="logo">🎉 全国祭り情報</span>
+  <span class="logo"><span aria-hidden="true">🎉</span> 全国祭り情報</span>
   <a href="../index.html">ホーム</a>
   <a href="../map.html">地図</a>
   <a href="../calendar.html">カレンダー</a>
 </nav>"""
 
 NAV_ROOT_HTML = """<nav aria-label="メインナビゲーション">
-  <span class="logo">🎉 全国祭り情報</span>
+  <span class="logo"><span aria-hidden="true">🎉</span> 全国祭り情報</span>
   <a href="index.html">ホーム</a>
   <a href="map.html">地図</a>
   <a href="calendar.html">カレンダー</a>
@@ -495,7 +495,7 @@ def format_date(date_str):
 def festival_card_html(f, img_path_prefix="", index=None):
     trust = f.get('trust_level', '低')
     trust_color = TRUST_COLORS.get(trust, '#999')
-    check_badge = '<span class="badge badge-check">⚠️ 要確認</span>' if f.get('requires_check') else ''
+    check_badge = '<span class="badge badge-check"><span aria-hidden="true">⚠️</span> 要確認</span>' if f.get('requires_check') else ''
     genres = f.get('genre') or []
     genre_badges = ''.join(f'<span class="badge badge-genre">{g}</span>' for g in genres[:2])
     date_start = format_date(f.get('date_start', ''))
@@ -514,14 +514,14 @@ def festival_card_html(f, img_path_prefix="", index=None):
         official_link = (
             f'<a class="card-official-link" href="{esc(official_url)}" target="_blank" '
             f'rel="noopener noreferrer" aria-label="{esc(f.get("name",""))}の公式サイト（新しいタブで開きます）">'
-            f'🔗 公式サイト</a>'
+            f'<span aria-hidden="true">🔗</span> 公式サイト</a>'
         )
     return f"""<div class="festival-card">
   <img class="card-img" src="{img_url}" alt="{esc(f.get('name',''))}" width="928" height="1152" {img_attrs}>
   <div class="card-body">
     <div class="card-name">{esc(f.get('name',''))}</div>
-    <div class="card-date">📅 {esc(date_label)}</div>
-    <div class="card-location">📍 {esc(location)}</div>
+    <div class="card-date"><span aria-hidden="true">📅</span> {esc(date_label)}</div>
+    <div class="card-location"><span aria-hidden="true">📍</span> {esc(location)}</div>
     <div class="card-badges">
       {genre_badges}
       <span class="badge badge-trust-{trust}" style="background:{TRUST_COLORS.get(trust,'#eee')}1a;color:{trust_color};">[信頼度:{trust}]</span>
@@ -722,7 +722,7 @@ def generate_index(festivals, last_updated):
         for p in sorted(set(f.get('prefecture','') for f in festivals if f.get('prefecture')))
     )
     body = f"""<div class="page-header">
-  <h1>🎉 全国祭り情報</h1>
+  <h1><span aria-hidden="true">🎉</span> 全国祭り情報</h1>
   <p>全国の祭りをまとめてチェック。随時更新中。</p>
 </div>
 <div class="container">
@@ -1566,10 +1566,10 @@ def generate_404(festivals):
         for p in prefectures
     )
     body = f"""<div class="page-header">
-  <h1>🎉 ページが見つかりません</h1>
+  <h1><span aria-hidden="true">🎉</span> ページが見つかりません</h1>
   <p>お探しのページは移動または削除された可能性があります。</p>
 </div>
-<p class="content-link"><a href="index.html">🏠 ホームへ戻る</a> ｜ <a href="map.html">🗺️ 地図から探す</a> ｜ <a href="calendar.html">📅 カレンダーから探す</a></p>
+<p class="content-link"><a href="index.html"><span aria-hidden="true">🏠</span> ホームへ戻る</a> ｜ <a href="map.html"><span aria-hidden="true">🗺️</span> 地図から探す</a> ｜ <a href="calendar.html"><span aria-hidden="true">📅</span> カレンダーから探す</a></p>
 <h2>都道府県から探す</h2>
 <div class="badge-links">{pref_links}</div>"""
     html_out = html_page(
