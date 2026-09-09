@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09 12:25",
+  "last_updated": "2026-09-09 16:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -54850,6 +54850,71 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_902",
+      "name": "こきりこ祭り",
+      "alternate_names": [
+        "秋の五箇山 こきりこ祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "富山県",
+      "city": "南砺市",
+      "date_start": "2026-09-25",
+      "date_end": "2026-09-26",
+      "date_note": "毎年9月25日・26日開催で固定。両日とも13時・15時に白山宮境内で昼の奉納踊りを実施し、19時からこきりこ館内で夜の舞台競演会。26日は17時から獅子舞奉納も予定。",
+      "time_start": "13:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（問い合わせ先：五箇山総合案内所）",
+      "genre": [
+        "民俗芸能",
+        "神事"
+      ],
+      "scale": "国選択無形民俗文化財（こきりこ節を含む「五箇山の歌と踊」が1973年選択）",
+      "is_free": false,
+      "price": "昼の部：協力金500円（立見）／夜の部：指定席1,500円",
+      "ticket_url": "不明",
+      "history_years": 1300,
+      "history_description": "日本最古の民謡とも言われる「こきりこ節」を中心に、越中五箇山・上梨の白山宮の祭礼として歌い継がれてきた民俗芸能行事。1973年に「五箇山の歌と踊」として国の選択無形民俗文化財に選択され、これを機に保存会が組織された。地元住民による奉納踊りに加え、来場者も輪に加わって踊れる「こきりこ総踊り」が行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東海北陸自動車道 五箇山ICから車で約20分。JR城端線城端駅からバスで上梨下車（世界遺産バス利用で約1時間30分、加越能バスで約2時間）。",
+      "official_url": "https://gokayama-info.jp/archives/8316",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://gokayama-info.jp/archives/8316",
+          "site_name": "世界遺産五箇山 観光情報サイト（五箇山総合案内所）",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://www.tabi-nanto.jp/archives/2337",
+          "site_name": "五箇山NANTO観光機構",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://www.info-toyama.com/events/40030",
+          "site_name": "とやま観光ナビ（富山県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
