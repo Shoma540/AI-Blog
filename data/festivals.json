@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09 08:20",
+  "last_updated": "2026-09-09 12:25",
   "festivals": [
     {
       "id": "festival_001",
@@ -54791,6 +54791,65 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_901",
+      "name": "富岡八幡宮秋季例大祭",
+      "alternate_names": [
+        "富岡八幡宮秋祭り"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "神奈川県",
+      "city": "横浜市金沢区",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-21",
+      "date_note": "9/20（日）宵宮祭・万灯神輿連合渡御、9/21（月・祝）本祭。関連行事の湯立神楽は9/27（日）10時〜。公式サイトの祭礼案内ページは2026年版が未更新で、日付は例年の開催パターン（9月第3日曜・月曜）と地域メディア記事の2026年表記に基づく。東京都江東区の「深川八幡祭り（富岡八幡宮例大祭）」（festival_019）とは同名だが別の神社・別の祭りのため、similar_name_warningを付与。",
+      "time_start": "18:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "富岡八幡宮",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 800,
+      "history_description": "建久2年（1191年）に源頼朝が創建したと伝わる横浜市金沢区の富岡八幡宮の秋季例大祭。宵宮祭・万灯神輿連合渡御が行われ、関連行事として800年以上の伝統を持つとされる湯立神楽が奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京急本線「京急富岡駅」から徒歩約15分",
+      "official_url": "https://www.tomioka80000goo.org/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://page.yokohama/wp/tomioka-hachimangu-autumn-festival-2026/",
+          "site_name": "page.yokohama",
+          "is_official": false,
+          "retrieved_date": "2026-09-09"
+        },
+        {
+          "url": "https://www.tomioka80000goo.org/",
+          "site_name": "富岡八幡宮公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-09"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
