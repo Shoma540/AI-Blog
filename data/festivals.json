@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12 16:11",
+  "last_updated": "2026-09-12 18:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -55106,6 +55106,79 @@
       "conflict_note": "⚠️ 矛盾: 式典日・神輿渡御日についてサイトにより記載が異なる",
       "requires_check": true,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_906",
+      "name": "酉の市（浅草 鷲神社）",
+      "alternate_names": [
+        "酉の市",
+        "おとりさま",
+        "浅草酉の市",
+        "大酉祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "台東区",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-19",
+      "date_note": "11月の「酉の日」に開催される年中行事。2026年は一の酉が11/7(土)、二の酉が11/19(木)の2回で、三の酉はなし。両日は連続開催ではなく単発2日間（date_start/date_endは一の酉・二の酉の日付）。花園神社（新宿）など他の鷲・大鳥神社でも同日程で酉の市が行われるが、本entryは浅草・鷲神社のものを指す。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "鷲神社（浅草）",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "参拝無料（熊手・縁起物は有料）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "江戸時代から続く「その年の無事を感謝し、来る年の幸運を願う」年中行事。開運招福・商売繁盛の熊手を求める人で賑わう、浅草で最も大きい酉の市とされる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京メトロ日比谷線「入谷駅」・「三ノ輪駅」から徒歩",
+      "official_url": "https://otorisama.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://otorisama.or.jp/kotoshi.html",
+          "site_name": "浅草鷲神社公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-12"
+        },
+        {
+          "url": "https://torinoichi.jp/",
+          "site_name": "浅草・酉の市 公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-12"
+        },
+        {
+          "url": "https://e-asakusa.jp/culture-experience/107489",
+          "site_name": "浅草観光連盟",
+          "is_official": true,
+          "retrieved_date": "2026-09-12"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/feature/matsuri_autumn/topics_torinoichi/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-09-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
