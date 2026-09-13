@@ -383,6 +383,18 @@
       "verify_after": "2026-09-12",
       "result": "変化なし: 2026-09-13 08:10時点のGA4スナップショット（過去7日間）もセッション0件・ページビュー0件が継続しており、装飾絵文字のaria-hidden化によるスクリーンリーダー読み上げ改善の効果はアクセス自体が発生していないため測定不能。validate_site.pyは全項目通過しサイト破損は無し。",
       "commit": "e42f25a4ec4a742841eeac31d60736e021b1b538"
+    },
+    {
+      "date": "2026-09-13 08:14",
+      "analysis": "過去のSTEP10改善（nav aria-label、カレンダーキーボード操作、装飾絵文字aria-hidden化など）でアクセシビリティ関連の対応を重ねてきたが、リンク・ボタンなど操作可能要素のキーボードフォーカス時の視認性を明示的に強化するCSS（:focus-visible）はまだ追加されていなかった。skip-linkのみ:focusスタイルがあり、他のリンク・ボタンはブラウザ既定のアウトラインに依存していた。",
+      "action": "scripts/generate_html.py のCOMMON_CSSに a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px solid #C0392B; outline-offset: 2px; border-radius: 2px; } を追加した。サイトのブランドカラー(#C0392B)を使い、全61ページ共通のnavリンク・祭りカードリンク・公式サイトリンク・カレンダーの月別タブボタン・footerリンク・breadcrumbリンク等、キーボード操作可能な要素すべてに一貫した視認性の高いフォーカスリングを適用する。マウス操作時（:focus-visible）には表示されないため、既存の見た目への影響はない。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "キーボードユーザー（スクリーンリーダー利用者・タブキー操作のユーザー）が現在フォーカスしている要素をブランドカラーの太いアウトラインで明確に把握できるようになり、ブラウザ・OSごとに異なる既定のフォーカスリング表示に依存しない一貫した操作性が得られるはず。WCAG 2.4.7（Focus Visible）準拠度が上がる。表示速度やGA4のセッション数には直接影響しない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認を中心に経過観察する。",
+      "verify_after": "2026-09-16",
+      "result": "",
+      "commit": "2fa05265c3f5cb380c81200900ba24e1e09a54e2"
     }
   ]
 }
