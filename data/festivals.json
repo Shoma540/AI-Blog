@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12 18:12",
+  "last_updated": "2026-09-13 12:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -32379,11 +32379,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：神幸行列・随兵行列を実施 → 今年：熊本地震の影響により神幸式（神幸行列・随兵行列・飾馬等）は中止、神前祭典・奉納行事のみ実施"
@@ -55251,6 +55248,137 @@
           "url": "http://hanazono-jinja.or.jp/",
           "site_name": "花園神社公式",
           "is_official": true,
+          "retrieved_date": "2026-09-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_908",
+      "name": "高石だんじり祭",
+      "alternate_names": [
+        "高石祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "大阪府",
+      "city": "高石市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "羽衣地区・紀州街道連合・取石地区は宵宮10/10(土)・本宮10/11(日)。富木地区は別日程の場合あり。岸和田だんじり祭・和泉だんじり祭など他地域のだんじり祭とは別の祭り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（地区ごとの町会・連合が主体）",
+      "genre": [
+        "山車",
+        "曳山"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明（約400年ともいわれる）",
+      "history_description": "西部（高石連合）は戦前から続くとされ、1983年の市主催パレードを機に復興。東部の富木地区は幕末頃から継続。15台のだんじりが参加。",
+      "food_stalls": "不明",
+      "crowd_level": "不明（南海高石駅周辺が主要観覧ポイント）",
+      "visitors": "不明",
+      "access": "南海電鉄高石駅周辺（駅周辺への車乗り入れ不可）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sdanjirim.jp/schedule/",
+          "site_name": "泉州だんじり祭（令和8年祭禮日程表）",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        },
+        {
+          "url": "https://shineestate.com/blog/article.php?id=399",
+          "site_name": "シャインエステート",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E7%9F%B3%E3%81%A0%E3%82%93%E3%81%98%E3%82%8A%E7%A5%AD",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_909",
+      "name": "和泉だんじり・みこし祭り",
+      "alternate_names": [
+        "和泉だんじり祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "大阪府",
+      "city": "和泉市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "信太・幸地区/伯太地区/松尾連合、府中地区/黒鳥地区/郷荘地区とも宵宮10/10(土)・本宮10/11(日)。信太・幸地区は10/12(月・祝)に後宴の情報あり。市が主催する単一イベントではなく地区ごとの連合が自主開催。岸和田だんじり祭・高石だんじり祭など他地域のだんじり祭とは別の祭り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "各地区連合（池上町・和泉だんじり大連合・信太九町・松尾連合等）",
+      "genre": [
+        "山車",
+        "曳山",
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.osaka-izumi.lg.jp/kakukano/kousitu/kyoudou/osirase/danjirimikoshi/index.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kousitu/kyoudou/osirase/danjirimikoshi/index.html",
+          "site_name": "和泉市公式",
+          "is_official": true,
+          "retrieved_date": "2026-09-13"
+        },
+        {
+          "url": "https://sdanjirim.jp/schedule/",
+          "site_name": "泉州だんじり祭（令和8年祭禮日程表）",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        },
+        {
+          "url": "https://shineestate.com/blog/article.php?id=443",
+          "site_name": "シャインエステート",
+          "is_official": false,
           "retrieved_date": "2026-09-13"
         }
       ],
