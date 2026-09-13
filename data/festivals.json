@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13 12:13",
+  "last_updated": "2026-09-13 16:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -55319,7 +55319,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -55383,6 +55383,127 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_910",
+      "name": "江別神社秋季例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "江別市",
+      "date_start": "2026-09-08",
+      "date_end": "2026-09-10",
+      "date_note": "宵宮祭9/8、例祭9/9、後日祭・神輿渡御9/10",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "江別神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "露店あり（江別市コミュニティセンター周辺）、キッチンカーあり（境内駐車場）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://park19.wakwak.com/~e-jinjya/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ebetsunopporo.com/?p=56721",
+          "site_name": "えべナビ！",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        },
+        {
+          "url": "https://ebetsunopporo.com/?p=56679",
+          "site_name": "えべナビ！",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        },
+        {
+          "url": "https://www.iz2.co.jp/calendar/?p=2477",
+          "site_name": "お祭り情報館",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_911",
+      "name": "大麻神社秋季例大祭",
+      "alternate_names": [
+        "大麻神社秋祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "江別市",
+      "date_start": "2026-09-14",
+      "date_end": "2026-09-15",
+      "date_note": "宵宮祭9/14、本祭9/15。演芸の夕べ・子供すもう大会・子供みこし等の奉納行事あり。",
+      "time_start": "17:30",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "大麻神社",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ebetsunopporo.com/?p=56633",
+          "site_name": "えべナビ！",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        },
+        {
+          "url": "https://ebetsunopporo.com/?p=56785",
+          "site_name": "えべナビ！",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        }
+      ],
+      "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "NEW",
