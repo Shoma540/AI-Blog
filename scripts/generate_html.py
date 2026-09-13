@@ -389,6 +389,14 @@ footer a:hover, .content-link a:hover {
   left: 0;
 }
 
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #C0392B;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
   .card-grid { grid-template-columns: 1fr; }
