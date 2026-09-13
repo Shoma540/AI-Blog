@@ -32327,7 +32327,7 @@
       "city": "熊本市中央区",
       "date_start": "2026-09-20",
       "date_end": "2026-09-20",
-      "date_note": "神幸行列（随兵行列）本番は2026年9月20日(日)。ただし例大祭全体（神幸行列前後の関連行事を含む期間）の正確な開始日は検索結果内で確認できず、公式サイトでの確認を推奨。",
+      "date_note": "神前祭典9/13(日)・14(月)・15(火)、神幸行事関連9/19(土)・20(日)。2026年は熊本地震の影響により神幸式（神幸行列・随兵行列・飾馬等）は中止、神前祭典・奉納行事のみ実施予定（藤崎八旛宮公式発表2026-08-19付）。例大祭全体の正確な開始日は公式サイトでの確認を推奨。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -32368,16 +32368,25 @@
           "site_name": "TimeTree",
           "is_official": false,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://fujisakigu.or.jp/2026/08/19/令和8年藤崎八旛宮例大祭-2/",
+          "site_name": "藤崎八旛宮公式",
+          "is_official": true,
+          "retrieved_date": "2026-09-13"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：神幸行列・随兵行列を実施 → 今年：熊本地震の影響により神幸式（神幸行列・随兵行列・飾馬等）は中止、神前祭典・奉納行事のみ実施"
       }
     },
     {
@@ -55178,6 +55187,76 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_907",
+      "name": "花園神社大酉祭（酉の市）",
+      "alternate_names": [
+        "新宿 花園神社 酉の市"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "新宿区",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-19",
+      "date_note": "一の酉11/7(土)、二の酉11/19(木)。浅草 鷲神社の酉の市（festival_906）とは別の神社・別の祭り。",
+      "time_start": "不明",
+      "time_end": "翌0時頃（提灯消灯）",
+      "rain_policy": "不明",
+      "organizer": "花園神社",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "熊手商・露店多数",
+      "crowd_level": "混雑時(18時以降)入場規制の場合あり",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "http://hanazono-jinja.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.enjoytokyo.jp/feature/matsuri_autumn/topics_torinoichi/",
+          "site_name": "エンジョイ・トーキョー",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        },
+        {
+          "url": "https://harunohi.jp/1209_torinoichi-itsu/",
+          "site_name": "はるののひ",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        },
+        {
+          "url": "https://oggi.jp/6838580",
+          "site_name": "Oggi.jp",
+          "is_official": false,
+          "retrieved_date": "2026-09-13"
+        },
+        {
+          "url": "http://hanazono-jinja.or.jp/",
+          "site_name": "花園神社公式",
+          "is_official": true,
+          "retrieved_date": "2026-09-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
