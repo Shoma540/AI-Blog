@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14 17:11",
+  "last_updated": "2026-09-14 18:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -46210,21 +46210,21 @@
       "city": "阿南市橘町",
       "date_start": "2026-10-01",
       "date_end": "2026-10-03",
-      "date_note": "毎年10月1日～3日の固定日程で開催。2026年の公式発表は未確認だが、日付固定の慣習祭のため信頼度は比較的高い。",
+      "date_note": "毎年10月1日～3日の固定日程で開催。徳島県指定無形民俗文化財（2016年6月6日指定）として文化庁の文化遺産オンラインにも記録されている。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
-      "organizer": "橘町だんじり保存会等（不明瞭）",
+      "organizer": "東・中・先・西の4つの組（氏子組織、総代を中心とした地区ごとの奉仕組織）",
       "genre": [
         "だんじり",
         "鉢合わせ"
       ],
-      "scale": "不明",
+      "scale": "徳島県指定無形民俗文化財（2016年6月6日指定）",
       "is_free": null,
       "price": "不明",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "重さ約4トンのだんじりを町内の若者たちが曳き、国道55号沿いの旧道周辺で深夜まで激しくぶつけ合う「鉢合わせ」で知られる勇壮な祭り。",
+      "history_description": "神社は11世紀前半の創建と伝わり、1269年に現在地へ再興されたとされる。宮司家の古文書から、遅くとも江戸時代末期には祭礼が始まっていたことが確認できる。重さ約4トンのだんじりを町内の若者たちが曳き、国道55号沿いの旧道周辺で深夜まで激しくぶつけ合う「鉢合わせ」で知られる勇壮な祭り。2016年6月6日に徳島県指定無形民俗文化財（海正八幡神社の秋季例祭行事）に指定された。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -46246,13 +46246,33 @@
           "site_name": "NPO日本の祭りネットワーク",
           "is_official": false,
           "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://online.bunka.go.jp/heritages/detail/299419",
+          "site_name": "文化遺産オンライン（文化庁）",
+          "is_official": true,
+          "retrieved_date": "2026-09-14"
+        },
+        {
+          "url": "https://www.topics.or.jp/articles/-/1313856",
+          "site_name": "徳島新聞デジタル",
+          "is_official": false,
+          "retrieved_date": "2026-09-14"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "organizer",
+        "scale",
+        "history_description",
+        "sources",
+        "trust_level",
+        "requires_check",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -55947,11 +55967,77 @@
       "trust_level": "高",
       "conflict_note": "駅からの徒歩所要時間の表記が情報源により1分〜4分とばらつきあり（軽微な矛盾）。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": "例年同日程（10月14日・15日）で開催。前年比の変更点は確認されず。"
+      }
+    },
+    {
+      "id": "festival_919",
+      "name": "小松明火祭り",
+      "alternate_names": [
+        "こだい火祭り",
+        "こだいひまつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大分県",
+      "city": "豊後大野市緒方町",
+      "date_start": "2026-08-14",
+      "date_end": "2026-08-14",
+      "date_note": "荒天の場合は中止・1日順延。一斉点火は19:30、交通規制は18:30より開始。",
+      "time_start": "19:30",
+      "time_end": "不明",
+      "rain_policy": "荒天中止、1日順延",
+      "organizer": "豊後大野市緒方支所／株式会社道の駅原尻の滝",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "江戸時代から伝わる伝統行事で、盆の供養、米の豊作を願う虫送り、江戸時代の一揆で犠牲となった庄屋の供養など複数の由来が伝わる。約10,000本の松明が原尻の滝周辺及び緒方平野一帯を照らし、地元住民が鳥居や石橋などをかたどった松明の造形美を競う企画もある。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "原尻の滝周辺及び緒方平野一帯（大分県豊後大野市緒方町）。18:30より交通規制。",
+      "official_url": "https://www.bungo-ohno.jp/docs/2026070900048/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.bungo-ohno.jp/docs/2026070900048/",
+          "site_name": "豊後大野市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-14"
+        },
+        {
+          "url": "https://sato-no-tabi.jp/news/20260715event-ogata/",
+          "site_name": "豊後大野市観光協会 里の旅",
+          "is_official": true,
+          "retrieved_date": "2026-09-14"
+        },
+        {
+          "url": "https://sato-no-tabi.jp/news/20260817event-ogata/",
+          "site_name": "豊後大野市観光協会 里の旅（開催後レポート）",
+          "is_official": true,
+          "retrieved_date": "2026-09-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
