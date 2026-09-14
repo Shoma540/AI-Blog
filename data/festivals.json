@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14 12:35",
+  "last_updated": "2026-09-14 12:38",
   "festivals": [
     {
       "id": "festival_001",
@@ -55739,7 +55739,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
