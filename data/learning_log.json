@@ -395,6 +395,18 @@
       "verify_after": "2026-09-16",
       "result": "",
       "commit": "2fa05265c3f5cb380c81200900ba24e1e09a54e2"
+    },
+    {
+      "date": "2026-09-14 08:15",
+      "analysis": "GA4スナップショット（2026-09-14 08:14取得、過去7日間）はセッション0件・ページビュー0件が継続しており、データ不十分期（週間セッション50未満）が続いている。前回改善entry（2026-09-13、focus-visible対応、commit 2fa05265）のverify_afterは2026-09-16でまだ到来しておらず、今回は効果測定を行っていない。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。過去の学習記録（33件）を確認したところ、meta description・Organization/WebSite/Event/BreadcrumbのJSON-LD・sitemap・robots.txt・favicon・skip-link・focus-visible・reduced-motion対応・タブのキーボード操作・装飾絵文字のaria-hidden化など幅広いSEO/アクセシビリティ改善が積み重ねられてきた一方、COMMON_CSSには prefers-reduced-motion の分岐はあるが prefers-color-scheme（ダークモード）への対応が無く、<head> にも color-scheme メタタグが無かった。OSやブラウザをダークモードに設定している閲覧者には、常に明るい背景色（#FAF7F2）が強制表示され、夜間などにまぶしさ・コントラスト不整合が生じる状態だった。",
+      "action": "scripts/generate_html.py の html_page() の<head>に <meta name=\"color-scheme\" content=\"light dark\"> を追加し、COMMON_CSSの末尾（prefers-reduced-motionブロックの後）に @media (prefers-color-scheme: dark) ブロックを新設した。body・festival-card・card-img・card-name・card-location・各badge・badge-link・footer・breadcrumb・month-tab・geo-pref・skip-linkの背景色・文字色・枠線色をダーク配色に上書きする。既存の light 配色のCSSルール自体は変更せず、ダークモード時のみ適用される追加ブロックとした。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "OS/ブラウザがダークモードに設定されている閲覧者は、ページ読み込み時から明るい背景に切り替わることなくダーク配色で表示されるようになり、夜間閲覧時のまぶしさが減り読みやすくなるはず。表示速度やGA4のセッション数には直接影響しない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認を中心に経過観察する。",
+      "verify_after": "2026-09-17",
+      "result": "",
+      "commit": "897ee003a5ac1ab9b26274214bed614ace84ae93"
     }
   ]
 }
