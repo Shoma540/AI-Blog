@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14 12:38",
+  "last_updated": "2026-09-14 16:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -55810,11 +55810,76 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_917",
+      "name": "稲渕棚田案山子祭り",
+      "alternate_names": [
+        "案山子祭り・案山子コンテスト",
+        "彼岸花まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "高市郡明日香村",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "両日9:00〜15:00開催。案山子コンテストの投票締め切りは12時予定。",
+      "time_start": "09:00",
+      "time_end": "15:00",
+      "rain_policy": "不明",
+      "organizer": "一般財団法人明日香村地域振興公社（あすか夢耕社）",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 30,
+      "history_description": "明日香・稲渕棚田が棚田オーナー制度を導入した1996年から始まった祭りで、2026年で31回目を迎える。彼岸花と黄金色に実った稲穂が広がる棚田の「案山子ロード」沿いに、地域住民らが制作したユーモアあふれる案山子が並び、案山子コンテストが行われる。旧称「彼岸花まつり」。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "南阪奈道路葛城ICから国道165号経由で車約30分。近鉄飛鳥駅・石舞台より臨時無料シャトルバスを運行（約15分間隔）。会場周辺に駐車場なし。",
+      "official_url": "https://www.asukadeasobo.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://iko-yo.net/events/592985",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-09-14"
+        },
+        {
+          "url": "https://www.asukadeasobo.jp/event/2025%E6%A1%88%E5%B1%B1%E5%AD%90%E3%81%BE%E3%81%A4%E3%82%8A/",
+          "site_name": "あすか夢耕社（明日香村地域振興公社）",
+          "is_official": true,
+          "retrieved_date": "2026-09-14"
+        },
+        {
+          "url": "https://www.asukamirai.org/post/%E4%BB%A4%E5%92%8C8%E5%B9%B4-2026%E5%B9%B4-%E6%A1%88%E5%B1%B1%E5%AD%90%E7%A5%AD%E3%82%8A%E3%83%BB%E6%A1%88%E5%B1%B1%E5%AD%90%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+          "site_name": "NPO法人明日香の未来を創る会",
+          "is_official": true,
+          "retrieved_date": "2026-09-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：2025年9月27日〜28日 → 今年：2026年9月26日〜27日"
       }
     }
   ]
