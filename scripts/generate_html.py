@@ -427,6 +427,30 @@ button:focus-visible,
   }
   .festival-card:hover { transform: none; }
 }
+
+/* ダークモード（OS/ブラウザ側の配色設定を尊重） */
+@media (prefers-color-scheme: dark) {
+  body { background: #1b1815; color: #ECE6DC; }
+  .festival-card { background: #2a2521; box-shadow: 0 2px 8px rgba(0,0,0,0.4); }
+  .festival-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.5); }
+  .card-img { background: #3a332c; }
+  .card-name { color: #F5F0E8; }
+  .card-location { color: #b8b0a4; }
+  .badge-genre { background: #4a2e2a; color: #ff8a75; }
+  .badge-trust-高 { background: #1e3a20; color: #7bc97e; }
+  .badge-trust-中 { background: #3a3318; color: #f2c94c; }
+  .badge-trust-低 { background: #3a1e1e; color: #ff8a80; }
+  .badge-check { background: #3a2c14; color: #ffb74d; }
+  .badge-link { background: #2a2521; border-color: #4a4238; color: #ECE6DC; }
+  .badge-link:hover { color: #fff; }
+  footer { color: #8a8378; border-top-color: #3a332c; }
+  .breadcrumb ol { color: #a8a094; }
+  .breadcrumb a { color: #a8a094; }
+  .breadcrumb li[aria-current="page"] { color: #ECE6DC; }
+  .month-tab { background: #2a2521; border-color: #4a4238; color: #ECE6DC; }
+  .geo-pref { background: #2a2521; border-color: #4a4238; color: #b8b0a4; }
+  .skip-link { background: #2a2521; color: #ff8a75; }
+}
 """
 
 NAV_HTML = """<nav aria-label="メインナビゲーション">
@@ -675,6 +699,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#C0392B">
+  <meta name="color-scheme" content="light dark">
   <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical_url}">
   <meta property="og:type" content="website">
