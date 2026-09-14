@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14 16:13",
+  "last_updated": "2026-09-14 17:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -55875,11 +55875,83 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：2025年9月27日〜28日 → 今年：2026年9月26日〜27日"
+      }
+    },
+    {
+      "id": "festival_918",
+      "name": "大塩天満宮秋季例祭",
+      "alternate_names": [
+        "大塩天満宮秋祭り",
+        "大塩の秋祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "姫路市",
+      "date_start": "2026-10-14",
+      "date_end": "2026-10-15",
+      "date_note": "毎年10月14日・15日固定で開催（2026年もこの日程で開催予定。公式サイトに2026年開催の明示的な告知は未掲載のため例年日程からの推定）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "大塩天満宮",
+      "genre": [
+        "屋台行事",
+        "神事"
+      ],
+      "scale": "県指定重要無形民俗文化財（毛獅子）",
+      "is_free": true,
+      "price": "無料（拝観無料）",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "鎌倉・室町期を起源とすると伝わる「毛獅子」の舞を中心とした秋季例祭。熊の毛を植え付けた獅子頭を用いる毛獅子は全国的にも珍しく、兵庫県指定重要無形民俗文化財に指定されている。氏子8地区から繰り出す8頭の毛獅子が笛や太鼓の囃子に合わせて荒々しく舞うほか、大塩町4地区・北浜町2地区の計6台の屋台による勇壮な練り合わせが奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "山陽電鉄「大塩駅」から徒歩約2〜4分（情報源により1分〜4分と表記に幅あり）。専用駐車場なし。",
+      "official_url": "https://oshiotenmangu.com/festival/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://oshiotenmangu.com/festival/",
+          "site_name": "大塩天満宮 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-14"
+        },
+        {
+          "url": "https://www.takasago-tavb.com/event/autumn/ooshio_akimatsuri/",
+          "site_name": "一般社団法人 高砂市観光交流ビューロー",
+          "is_official": true,
+          "retrieved_date": "2026-09-14"
+        },
+        {
+          "url": "https://tanosu.com/trip/2861/",
+          "site_name": "TANOSU（はりまエリア地域情報サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-09-14"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_348653/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-09-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "駅からの徒歩所要時間の表記が情報源により1分〜4分とばらつきあり（軽微な矛盾）。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "例年同日程（10月14日・15日）で開催。前年比の変更点は確認されず。"
       }
     }
   ]
