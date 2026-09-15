@@ -150,6 +150,7 @@ nav a:hover, nav a.active, nav a[aria-current="page"] {
   gap: 0.4rem;
 }
 .card-name {
+  margin: 0;
   font-size: 1.05rem;
   font-weight: 700;
   color: #1a1a1a;
@@ -551,7 +552,7 @@ def festival_card_html(f, img_path_prefix="", index=None):
     return f"""<div class="festival-card">
   <img class="card-img" src="{img_url}" alt="{esc(f.get('name',''))}" width="928" height="1152" {img_attrs}>
   <div class="card-body">
-    <div class="card-name">{esc(f.get('name',''))}</div>
+    <h3 class="card-name">{esc(f.get('name',''))}</h3>
     <div class="card-date"><span aria-hidden="true">📅</span> {esc(date_label)}</div>
     <div class="card-location"><span aria-hidden="true">📍</span> {esc(location)}</div>
     <div class="card-badges">
