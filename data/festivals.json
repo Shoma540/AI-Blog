@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15 16:12",
+  "last_updated": "2026-09-16 02:09",
   "festivals": [
     {
       "id": "festival_001",
@@ -56240,11 +56240,11 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "昨年（2025年）：夏開催から秋開催へ変更した最初の年 → 2026年：10月第1土曜日開催が定着し第74回として開催"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -56304,11 +56304,279 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_924",
+      "name": "興居島の船踊り",
+      "alternate_names": [
+        "ごごしまの船踊り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "松山市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "毎年10月第1土曜日開催。2026年度は泊地区が主催。",
+      "time_start": "11:20",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "興居島船踊り保存会（2026年度は泊地区主催）",
+      "genre": [
+        "民俗芸能",
+        "踊り"
+      ],
+      "scale": "愛媛県指定無形民俗文化財",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "伊予水軍の出陣・凱旋の様子を再現したと伝わる郷土芸能。船越和気比売神社の秋の祭礼として毎年10月第1土曜日に奉納される。中学生による水軍太鼓演奏も披露される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "旧泊小学校体育館（泊港前）・興居島小中学校体育館（愛媛県松山市興居島）",
+      "official_url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/ken/gogosimano_funaodori.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/ken/gogosimano_funaodori.html",
+          "site_name": "松山市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://machiraku.net/gogoshima-funaodori-2026/",
+          "site_name": "街楽松山",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://s-imanani.com/blog/?p=64675",
+          "site_name": "イマナニ",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "2025年：第1回開催 → 2026年：第2回開催"
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_925",
+      "name": "川中島古戦場まつり大花火大会",
+      "alternate_names": [
+        "第31回川中島古戦場まつり大花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "長野市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "date_note": "ステージイベント15:00～、花火18:00～19:30。",
+      "time_start": "18:00",
+      "time_end": "19:30",
+      "rain_policy": "不明",
+      "organizer": "川中島古戦場まつり実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（有料観覧席あり）",
+      "ticket_url": "不明",
+      "history_years": 31,
+      "history_description": "450年以上前の川中島の戦いで亡くなった人々の霊を慰め、地域振興を祈念して行われる祭り。約3,000発の花火（音楽スターマイン、大スターマイン含む）が打ち上げられ、例年約2万人が来場する。",
+      "food_stalls": "あり（約60店舗）",
+      "crowd_level": "不明（例年2万人程度来場）",
+      "visitors": "例年約2万人",
+      "access": "川中島古戦場史跡公園（長野県長野市）。JR長野駅からバス約30分、上信越道長野ICから車約5分。",
+      "official_url": "https://www.naganoshi-sci.or.jp/kawanakajimakosenjoumatsuri/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.naganoshi-sci.or.jp/kawanakajimakosenjoumatsuri/",
+          "site_name": "長野市文化スポーツ振興公社（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0420e01096/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://www.web-komachi.com/?p=245535",
+          "site_name": "Web-Komachi",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_926",
+      "name": "見付天神裸祭",
+      "alternate_names": [
+        "矢奈比賣神社裸祭",
+        "見付天神 裸祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "静岡県",
+      "city": "磐田市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "旧暦8月10日直前の土曜・日曜に開催。祭事は9/13の祭事始めから9/20の還御まで一連の行事として続く。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "見付天神裸祭保存会（矢奈比賣神社）",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "矢奈比売神社の祭神が遠江総社の淡海国玉神社へ渡御する神事。神輿渡御に先立ち、サラシと腰蓑姿の男達が乱舞することから「裸祭」と呼ばれる。国の重要無形民俗文化財に指定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "矢奈比賣神社（見付天神）周辺（静岡県磐田市）",
+      "official_url": "https://www.hadakamatsuri.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hadakamatsuri.jp/nittei/",
+          "site_name": "見付天神裸祭 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://www.mitsuke-tenjin.com/s-taisai/",
+          "site_name": "見付天神 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/sports_midokoro/bunkazai/kunishitei/1002052.html",
+          "site_name": "磐田市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://kanko-iwata.jp/2025/08/post-15171/",
+          "site_name": "磐田市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_927",
+      "name": "草薙神社秋季例大祭（龍勢花火）",
+      "alternate_names": [
+        "草薙神社龍勢花火",
+        "草薙神社大龍勢"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "静岡県",
+      "city": "静岡市清水区",
+      "date_start": "2026-09-21",
+      "date_end": "2026-09-21",
+      "date_note": "草薙神社秋季例大祭に合わせて奉納される手作りロケット花火「龍勢」。",
+      "time_start": "13:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "草薙神社龍勢保存会",
+      "genre": [
+        "神事",
+        "手作りロケット奉納",
+        "花火"
+      ],
+      "scale": "静岡県指定無形民俗文化財",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "草薙神社の秋季例大祭に合わせて、手作りの筒に火薬を詰めたロケット花火「龍勢」を奉納する伝統行事。日本三大龍勢のひとつに数えられる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "草薙神社（静岡県静岡市清水区草薙）",
+      "official_url": "https://kusanagijinjya.jp/reitaisai",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kusanagijinjya.jp/reitaisai",
+          "site_name": "草薙神社 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://kusanagiryusei.com/",
+          "site_name": "草薙神社龍勢保存会 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3101064/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
