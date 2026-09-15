@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16 02:09",
+  "last_updated": "2026-09-16 03:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -56369,7 +56369,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -56433,7 +56433,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -56505,7 +56505,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -56571,6 +56571,151 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_928",
+      "name": "発寒神社秋季例大祭",
+      "alternate_names": [
+        "発寒神社お祭り",
+        "発寒神社秋祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市西区",
+      "date_start": "2026-09-14",
+      "date_end": "2026-09-16",
+      "date_note": "14日:宵宮祭、15日:例祭・神輿渡御、16日:後鎮祭。屋台は14日・15日出店。",
+      "time_start": "09:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "発寒神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "安政3年(1856)創建、札幌で2番目に古いとされる神社の秋季例大祭。神輿渡御は午前・午後の2部制で行われる。",
+      "food_stalls": "境内に約20店の屋台・露店が出店（14日〜15日 10:00〜20:00）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR函館本線「発寒中央」駅より徒歩約3分",
+      "official_url": "http://hassamujinja.com/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/hassamu__jinja/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://hassamujinja.com/",
+          "site_name": "発寒神社 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://www.ansinjp.net/blog/hassamu-shrine-september-festival-guide",
+          "site_name": "ホクドラ",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://kitaiko.com/hassamujinja-omatsuri/",
+          "site_name": "Kitaiko",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://kokorosearch.net/travel/event/hassamujinjareitaisai.html",
+          "site_name": "こころサーチ",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_929",
+      "name": "八朔祭（開口神社）",
+      "alternate_names": [
+        "開口神社秋祭り",
+        "大寺さん八朔祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "大阪府",
+      "city": "堺市堺区",
+      "date_start": "2026-09-11",
+      "date_end": "2026-09-13",
+      "date_note": "泉州地方で最も早い秋祭りとされる。宵宮祭11日、渡御祭・例大祭12日、宮出祭13日。",
+      "time_start": "17:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "開口神社",
+      "genre": [
+        "神輿",
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 600,
+      "history_description": "開口神社（大寺さん）で行われる秋祭り。5層の布団を重ねた「布団太鼓」4台が宮入・宮出しを行う、600年以上の歴史を持つ祭礼。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "南海本線「堺」駅・南海高野線「堺東」駅より徒歩圏内",
+      "official_url": "https://aguchi.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://aguchi.jp/",
+          "site_name": "開口神社 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://www.sakai-tcb.or.jp/event/detail/712",
+          "site_name": "堺観光ガイド（堺市観光局）",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://omatsurijapan.com/search/m/2364/",
+          "site_name": "おまつりジャパン",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://sakai-news.jp/event/20250824_a066_aguchihassaku",
+          "site_name": "堺ニュース",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "「八朔祭」という名称は近隣の菅原神社の祭礼にも使われるため、開口神社のものと混同しないよう注記。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
