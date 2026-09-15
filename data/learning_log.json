@@ -407,6 +407,18 @@
       "verify_after": "2026-09-17",
       "result": "",
       "commit": "897ee003a5ac1ab9b26274214bed614ace84ae93"
+    },
+    {
+      "date": "2026-09-15 08:14",
+      "analysis": "GA4スナップショット（2026-09-15 08:12取得、過去7日間）はセッション0件・ページビュー0件が継続しており、データ不十分期（週間セッション50未満）が続いている。前回改善entry（2026-09-13、focus-visible対応、verify_after 2026-09-16）と前々回entry（2026-09-14、ダークモード対応、verify_after 2026-09-17）はいずれもverify_after未到来のため、今回は効果測定を行っていない。validate_site.pyは全項目通過し、直近2件の改善によるサイト破損は無し。過去の学習記録（34件）を確認したところ、meta description・JSON-LD（Event/WebSite/Organization/Breadcrumb）・sitemap・robots.txt・favicon・skip-link・focus-visible・reduced-motion・ダークモード・装飾絵文字のaria-hidden化・nav aria-label・タブのキーボード操作など幅広いSEO/アクセシビリティ改善が積み重ねられてきた一方、festival_card_html()内の祭り名（.card-name）が<div>のままで、見出し要素（h1〜h6）になっていなかった。トップページはh1（サイトタイトル）→h2（開催が近い順・都道府県から探す）という構造の直下に843件超の祭りカードが並ぶが、各カードの祭り名に見出しレベルが無いため、スクリーンリーダー利用者が見出しジャンプ機能で祭りカード単位を移動できず、多数のカードが並ぶページ（index/都道府県別/月別/カレンダー）での探索性に欠けていた。",
+      "action": "scripts/generate_html.py の festival_card_html() で祭り名を囲むタグを <div class=\"card-name\"> から <h3 class=\"card-name\"> に変更し、既存のh1・h2（section-title）の下に位置する見出し階層として意味付けした。ブラウザ既定のh3余白でカード内レイアウトが崩れないよう、COMMON_CSSの.card-nameルールに margin: 0; を追加した。文言・クラス名・視覚スタイル（フォントサイズ/太さ/色/行間）は変更していない。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "祭りカードの祭り名がh3見出しになることで、スクリーンリーダー利用者が見出しジャンプ機能で個々の祭りカードへ直接移動できるようになり、843件超のカードが並ぶindex/都道府県別/月別ページでの探索性・アクセシビリティが向上するはず。margin:0によりビジュアル上の変化は生じない。表示速度やGA4のセッション数には直接影響しない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認を中心に経過観察する。",
+      "verify_after": "2026-09-18",
+      "result": "",
+      "commit": "943305aff27c7c714c130eb6db4a1dc92932ad25"
     }
   ]
 }
