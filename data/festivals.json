@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15 12:17",
+  "last_updated": "2026-09-15 16:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -56174,6 +56174,141 @@
       "year_comparison": {
         "changed": true,
         "details": "2025年（第2回）：11/1～11/2開催 → 2026年（第3回）：10/31～11/1開催"
+      }
+    },
+    {
+      "id": "festival_922",
+      "name": "小山の花火",
+      "alternate_names": [
+        "第74回小山の花火",
+        "小山花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "小山市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "2025年から開催時期を夏から秋に変更し、以降は10月第1土曜日開催。荒天時は中止（延期日なし）。",
+      "time_start": "18:05",
+      "time_end": "不明",
+      "rain_policy": "荒天時中止、延期日なし",
+      "organizer": "小山の花火実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "有料観覧席あり（テーブル・イス席500円～36,000円、プレミアムリクライニング席22,000円、階段席500円～3,500円、ベンチ席8,000円、芝生席1,000円～5,000円、市庁舎内西側廊下席10,000円）。無料観覧エリアとして白鷗大学側の思川河川敷が公式に指定されている（場所取りは当日12:00から）。",
+      "ticket_url": "https://www.oyamanohanabi.com/viewingseats.html",
+      "history_years": 74,
+      "history_description": "70年以上の歴史を持つ小山市の花火大会。県内外から40万人以上が訪れる。2025年から開催時期を夏から秋へ変更し、2026年は「郷土の夜空を彩る 秋の祭典」をテーマに第74回として開催。約2万発を打ち上げ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明（例年40万人以上来場の実績あり）",
+      "visitors": "例年40万人以上（全体来場者数、大会全体）",
+      "access": "観晃橋下流思川河畔（栃木県小山市）。無料観覧は白鷗大学側の思川河川敷。道の駅思川・アオヤカンパーニュでも駐車場が無料開放される（早期満車の可能性あり）。",
+      "official_url": "https://www.oyamanohanabi.com/summary.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.oyamanohanabi.com/summary.html",
+          "site_name": "小山の花火 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-15"
+        },
+        {
+          "url": "https://www.oyamanohanabi.com/viewingseats.html",
+          "site_name": "小山の花火 公式サイト（観覧席情報）",
+          "is_official": true,
+          "retrieved_date": "2026-09-15"
+        },
+        {
+          "url": "https://oyama-navi.com/oyama-hanabi-2026",
+          "site_name": "とちぎびより",
+          "is_official": false,
+          "retrieved_date": "2026-09-15"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-09-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年（2025年）：夏開催から秋開催へ変更した最初の年 → 2026年：10月第1土曜日開催が定着し第74回として開催"
+      }
+    },
+    {
+      "id": "festival_923",
+      "name": "rockin'star Carnival 2026",
+      "alternate_names": [
+        "ロッキンスター・カーニバル2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "ひたちなか市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "会場オープン11:00、公演開始12:30、花火打ち上げ18:00～19:15（予定）。",
+      "time_start": "18:00",
+      "time_end": "19:15",
+      "rain_policy": "雨天決行（荒天の場合は中止）",
+      "organizer": "ロッキング・オン／TOKYO FM",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "チケット制（有料）。一般発売は8月31日～10月3日18:00まで受付。",
+      "ticket_url": "https://rockinstarcarnival.jp/2026/ticket/ippan/",
+      "history_years": 2,
+      "history_description": "ロッキング・オンが手掛ける新しい音楽×花火エンターテインメント。2025年に第1回が開催され好評を博し、2026年は第2回。国営ひたち海浜公園を会場に、DJ Wa選曲のJ-ROCK・J-POPと連動した約2万発の花火を打ち上げるほか、ステージ前の演出・レーザーショーやスイーツフェスも併催。",
+      "food_stalls": "JAPAN Sweets Festival（スイーツ店12店舗が出店）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "国営ひたち海浜公園（茨城県ひたちなか市）。JR勝田駅からシャトルバス、北関東自動車道・ひたち海浜公園ICより車でアクセス可能。駐車場あり。",
+      "official_url": "https://rockinstarcarnival.jp/",
+      "sns_accounts": {
+        "instagram": "@jfes_official（X: @rockinon_fes、TikTok: @jfes_official）"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://rockinstarcarnival.jp/",
+          "site_name": "rockin'star Carnival 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-15"
+        },
+        {
+          "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=1145",
+          "site_name": "観光いばらき公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-15"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0308e555797/",
+          "site_name": "ウォーカープラス 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-09-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "2025年：第1回開催 → 2026年：第2回開催"
       }
     }
   ]
