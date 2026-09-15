@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15 08:12",
+  "last_updated": "2026-09-15 12:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -56097,11 +56097,83 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_921",
+      "name": "徳島おどりフェスタ2026",
+      "alternate_names": [
+        "秋の阿波おどり 徳島おどりフェスタ2026",
+        "徳島おどりフェスタ～新時代へ躍り出そう～"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "徳島県",
+      "city": "徳島市",
+      "date_start": "2026-10-31",
+      "date_end": "2026-11-01",
+      "date_note": "10/31（土）は藍場浜公園で「ふるさとカーニバル～阿波の狸まつり～」を併催。11/1（日）は元町交差点～新町橋北詰間で交通規制予定。雨天時の対応は公式サイト要確認（不明）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（問い合わせ先：徳島県観光政策課にぎわい創出室）",
+      "genre": [
+        "踊り",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "道路沿いの無料観覧エリアあり。有料観覧席の詳細（要否・料金）は公式サイト要確認（不明）。",
+      "ticket_url": "不明",
+      "history_years": 3,
+      "history_description": "徳島県がアフターコロナの観光客誘致・地域周遊促進を目的に2024年秋から始めた新しい阿波おどりイベント。2026年で第3回。2024年の第1回「徳島おどりフェスタ～新時代へ躍り出そう～」（12月開催）は約8万人が来場。徳島の阿波おどり自体は400年以上の歴史を持つが、本イベントとしての開催実績は2024年からで、有名連の演舞に加えキャラクターパレードやドローンショーなど多様な企画を展開する。2026年はセサミストリートを公式アンバサダーに迎え、超特急のユーキが率いる「ユーキ連」も参加予定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明（前回2024年開催時は約8万人来場）",
+      "visitors": "不明",
+      "access": "徳島県徳島市 新町橋通り周辺",
+      "official_url": "https://www.pref.tokushima.lg.jp/ippannokata/kyoiku/kanko/7315687/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.pref.tokushima.lg.jp/ippannokata/kyoiku/kanko/7315687/",
+          "site_name": "徳島県公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-15"
+        },
+        {
+          "url": "https://www.awanavi.jp/archives/topics/74888",
+          "site_name": "徳島県観光情報サイト 阿波ナビ（徳島県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000695.000100825.html",
+          "site_name": "PR TIMES（徳島県プレスリリース）",
+          "is_official": true,
+          "retrieved_date": "2026-09-15"
+        },
+        {
+          "url": "https://funfun-tokushima.jp/news/%E3%80%9010%E6%9C%8831%E6%97%A5%EF%BC%88%E5%9C%9F%EF%BC%89%E3%83%BB11%E6%9C%881%E6%97%A5%EF%BC%88%E6%97%A5%EF%BC%89%E3%80%91%E3%80%8C%E5%BE%B3%E5%B3%B6%E3%81%8A%E3%81%A9%E3%82%8A%E3%83%95%E3%82%A7/",
+          "site_name": "Fun!Fun!とくしま",
+          "is_official": false,
+          "retrieved_date": "2026-09-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "2025年（第2回）：11/1～11/2開催 → 2026年（第3回）：10/31～11/1開催"
       }
     }
   ]
