@@ -686,7 +686,7 @@ def website_jsonld():
     return f'<script type="application/ld+json">{json_str}</script>'
 
 
-def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path=""):
+def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path="", footer=""):
     description = esc(description.replace('\n', ' '))
     full_title = esc(f"{title} | 全国祭り情報")
     canonical_url = f"{SITE_BASE_URL}/{quote(url_path)}" if url_path else f"{SITE_BASE_URL}/"
@@ -740,6 +740,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
 <main id="main">
 {body}
 </main>
+{footer}
 </body>
 </html>"""
 
@@ -764,8 +765,8 @@ def generate_index(festivals, last_updated):
   <div class="card-grid">{cards}</div>
   <h2 class="section-title">都道府県から探す</h2>
   <div class="badge-links">{pref_links}</div>
-</div>
-<footer>最終更新: {last_updated} &nbsp;|&nbsp; <a href="map.html">地図から探す</a> &nbsp;|&nbsp; <a href="calendar.html">カレンダーで見る</a></footer>"""
+</div>"""
+    footer_html = f'<footer>最終更新: {last_updated} &nbsp;|&nbsp; <a href="map.html">地図から探す</a> &nbsp;|&nbsp; <a href="calendar.html">カレンダーで見る</a></footer>'
     today_str = datetime.now().strftime('%Y-%m-%d')
     upcoming_festivals = [
         f for f in sorted_festivals
@@ -778,7 +779,7 @@ def generate_index(festivals, last_updated):
             "全国祭り情報", body,
             extra_head=website_jsonld() + event_jsonld(upcoming_festivals),
             description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。",
-            url_path="",
+            url_path="", footer=footer_html,
         ))
     print("docs/index.html を生成しました")
 
@@ -1353,14 +1354,14 @@ def generate_map(festivals, last_updated):
     <span style="display:flex;align-items:center;gap:0.4rem;"><span style="width:16px;height:16px;border-radius:4px;background:#C0392B;"></span> 祭り情報あり</span>
     <span style="display:flex;align-items:center;gap:0.4rem;"><span style="width:16px;height:16px;border-radius:4px;background:#e8e0d8;"></span> 情報なし</span>
   </div>
-</div>
-<footer>最終更新: {last_updated}</footer>"""
+</div>"""
+    footer_html = f'<footer>最終更新: {last_updated}</footer>'
     breadcrumb = breadcrumb_jsonld(breadcrumb_items)
     with open(os.path.join(DOCS_DIR, 'map.html'), 'w', encoding='utf-8') as f:
         f.write(html_page(
             "地図から探す", body, extra_head=map_css + breadcrumb,
             description="日本地図から都道府県別に全国の祭り・花火大会情報を探せます。",
-            url_path="map.html",
+            url_path="map.html", footer=footer_html,
         ))
     print("docs/map.html を生成しました")
 
@@ -1456,13 +1457,13 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="container">
   <div class="month-tabs" role="tablist" aria-label="開催月で絞り込む">{tabs}</div>
   {sections}
-</div>
-<footer>最終更新: {last_updated}</footer>"""
+</div>"""
+    footer_html = f'<footer>最終更新: {last_updated}</footer>'
     with open(os.path.join(DOCS_DIR, 'calendar.html'), 'w', encoding='utf-8') as f:
         f.write(html_page(
             "カレンダー", body, extra_head=js + calendar_breadcrumb,
             description="月別カレンダーで全国の祭り・花火大会の開催時期をチェックできます。",
-            url_path="calendar.html",
+            url_path="calendar.html", footer=footer_html,
         ))
     print("docs/calendar.html を生成しました")
 
@@ -1491,8 +1492,8 @@ def generate_prefecture_pages(festivals, last_updated):
 <div class="container">
   <div class="card-grid">{cards}</div>
   <a class="badge-link" href="../index.html">← トップへ戻る</a>
-</div>
-<footer>最終更新: {last_updated}</footer>"""
+</div>"""
+        footer_html = f'<footer>最終更新: {last_updated}</footer>'
         nav = NAV_HTML.replace('href="../', 'href="../')
         with open(os.path.join(out_dir, f'{pref}.html'), 'w', encoding='utf-8') as f:
             breadcrumb = breadcrumb_jsonld(breadcrumb_items)
@@ -1500,7 +1501,7 @@ def generate_prefecture_pages(festivals, last_updated):
                 page_title, body, nav=nav,
                 extra_head=event_jsonld(pref_festivals) + breadcrumb,
                 description=f"{pref}の祭り・花火大会情報【{current_year}年】を{len(pref_festivals)}件掲載。開催日程・場所・アクセスなど最新情報をまとめています。",
-                url_path=f"prefecture/{pref}.html",
+                url_path=f"prefecture/{pref}.html", footer=footer_html,
             ))
     print(f"都道府県ページを {len(prefectures)} 件生成しました")
 
@@ -1536,8 +1537,8 @@ def generate_month_pages(festivals, last_updated):
 <div class="container">
   <div class="card-grid">{cards}</div>
   <a class="badge-link" href="../calendar.html">← カレンダーへ戻る</a>
-</div>
-<footer>最終更新: {last_updated}</footer>"""
+</div>"""
+        footer_html = f'<footer>最終更新: {last_updated}</footer>'
         nav = NAV_HTML
         breadcrumb = breadcrumb_jsonld(breadcrumb_items)
         with open(os.path.join(out_dir, f'{m}.html'), 'w', encoding='utf-8') as f:
@@ -1545,7 +1546,7 @@ def generate_month_pages(festivals, last_updated):
                 page_title, body, nav=nav,
                 extra_head=event_jsonld(sorted_fests) + breadcrumb,
                 description=f"{m}月に開催される全国の祭り・花火大会【{current_year}年】を{len(fests)}件掲載。日程・場所など最新情報をまとめています。",
-                url_path=f"month/{m}.html",
+                url_path=f"month/{m}.html", footer=footer_html,
             ))
     print(f"月別ページを {len(months_data)} 件生成しました")
 
