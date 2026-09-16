@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16 16:15",
+  "last_updated": "2026-09-16 17:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -56978,6 +56978,65 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_934",
+      "name": "伊座利新田八幡神社祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "徳島県",
+      "city": "海部郡美波町",
+      "date_start": "2026-10-14",
+      "date_end": "2026-10-15",
+      "date_note": "由岐地区で連続して行われる秋祭りの一つ。14日(水)昼から御輿（太鼓御輿）宵宮・獅子舞・花火（19時30分頃）、15日(木)が本祭りで、だんじりは装飾のみ展示。町公式ページ（town.minami.lg.jp/docs/5158030.html）は接続エラーで直接確認できず。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "新田八幡神社（美波町伊座利地区）",
+      "genre": [
+        "神輿",
+        "太鼓御輿",
+        "獅子舞",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "徳島県海部郡美波町伊座利地区にある新田八幡神社の秋祭り。由岐地区で9月上旬から10月中旬にかけて各神社が連続して秋祭りを行う中の一つで、地区最後に開催される。太鼓御輿・獅子舞・花火が奉納され、だんじりは装飾のみの展示となる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "徳島県海部郡美波町伊座利1（美波町産業振興課 0884-77-3617）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.awanavi.jp/archives/event/1850",
+          "site_name": "阿波ナビ（徳島県観光情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-16"
+        },
+        {
+          "url": "https://iko-yo.net/events/596637",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-09-16"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
