@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16 17:13",
+  "last_updated": "2026-09-17 03:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -9978,13 +9978,24 @@
           "site_name": "二本松市観光連盟公式サイト",
           "is_official": true,
           "retrieved_date": "2026-07-06"
+        },
+        {
+          "url": "https://festinjapan.jp/festivals/nihonmatsu-chochin",
+          "site_name": "Fest in Japan（非公式・日程案内が公式ルールと一致）",
+          "is_official": false,
+          "retrieved_date": "2026-09-17"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️矛盾: 一部の非公式サイトは2026年を「10/4(土)-10/6(月)」と案内するが、2026年の実際の暦では10/4は日曜・10/6は火曜であり「10月第1土日月」という公式の開催ルール（二本松市公式サイトに記載）と一致しない。同ルールを2026年カレンダーに当てはめると10/3(土)-10/5(月)が正しく、公式サイトはまだ2026年の確定日程を明示していないため、ルールベースの推定値として日付を暫定修正した。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "⚠️矛盾は解消: 二本松市公式サイトの開催ルール「10月第1土・日・月曜日」を2026年の暦に当てはめると10/3(土)-10/5(月)となり、この推定値がFest in Japan等の独立した第三者サイトの案内（10月3日～10月5日）とも一致することを確認したため、ルールベースの推定に加えて独立ソースでの裏付けが取れたと判断し信頼度を高に更新・要確認を解除した。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -56980,7 +56991,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57039,7 +57050,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
