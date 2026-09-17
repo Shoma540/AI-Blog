@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17 03:20",
+  "last_updated": "2026-09-17 08:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -9989,13 +9989,8 @@
       "trust_level": "高",
       "conflict_note": "⚠️矛盾は解消: 二本松市公式サイトの開催ルール「10月第1土・日・月曜日」を2026年の暦に当てはめると10/3(土)-10/5(月)となり、この推定値がFest in Japan等の独立した第三者サイトの案内（10月3日～10月5日）とも一致することを確認したため、ルールベースの推定に加えて独立ソースでの裏付けが取れたと判断し信頼度を高に更新・要確認を解除した。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
