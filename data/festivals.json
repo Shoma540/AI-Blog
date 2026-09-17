@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17 12:12",
+  "last_updated": "2026-09-17 16:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -57052,6 +57052,70 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_935",
+      "name": "やまびこ花火大会",
+      "alternate_names": [
+        "西米良村やまびこ花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮崎県",
+      "city": "児湯郡西米良村",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "一ツ瀬川河川敷で開催される花火大会。開催時期は「毎年8月第1土曜」とする情報と、近年は秋（2025年＝第48回は10月11日開催）とする情報が混在。2026年（第49回）の公式日程は本記事作成時点（2026-09-17）で未発表・未確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "西米良村",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "民話の里として知られる西米良村の一ツ瀬川渓谷で行われる花火大会。爆音が谷にこだまする「爆音花火」として紹介されている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "一ツ瀬川河川敷（児湯郡西米良村）",
+      "official_url": "https://www.vill.nishimera.lg.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kanko-miyazaki.jp/event/1959",
+          "site_name": "みやざき観光ナビ（宮崎県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-17"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1045e00337/",
+          "site_name": "ウォーカープラス 花火大会2025",
+          "is_official": false,
+          "retrieved_date": "2026-09-17"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87563.html",
+          "site_name": "ジョルダン 花火大会2026",
+          "is_official": false,
+          "retrieved_date": "2026-09-17"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "⚠️ 矛盾: 開催時期について「毎年8月第1土曜」という情報と「近年は10月開催（前回2025年は10/11）」という情報が混在。2026年の公式日程・開催有無は未確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
