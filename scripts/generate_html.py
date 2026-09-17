@@ -713,6 +713,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="928">
   <meta property="og:image:height" content="1152">
+  <meta property="og:image:alt" content="全国の祭り・花火大会情報を紹介するイラスト">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{full_title}">
   <meta name="twitter:description" content="{description}">
