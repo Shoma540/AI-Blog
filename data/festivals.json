@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17 17:15",
+  "last_updated": "2026-09-17 18:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -57173,11 +57173,82 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": "2025年に初開催（新規イベントのため昨年との日程比較対象外）"
+      }
+    },
+    {
+      "id": "festival_937",
+      "name": "尾張津島秋まつり",
+      "alternate_names": [
+        "尾張津島秋祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "津島市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-04",
+      "date_note": "10月第1日曜日とその前日の土曜日に開催。16輌の山車が参加、からくり人形披露や神明太鼓、石採祭車の競演、夜の一斉総車切などを実施。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "津島市観光協会・津島市まちづくり推進部",
+      "genre": [
+        "山車",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（記載なし、無料と推定）",
+      "ticket_url": "不明",
+      "history_years": 300,
+      "history_description": "18世紀初め頃（約300年前）に始まったと伝わる津島神社の秋まつり。からくり人形を載せた山車の技が代々受け継がれている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "名鉄名古屋駅から津島駅まで約24分、津島駅から徒歩約15分（約1km）。車は東名阪自動車道「弥富IC」から約15分。",
+      "official_url": "https://www.city.tsushima.lg.jp/shokai/matsurikyoudo/akimaturi/akimatsuri.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.tsushima.lg.jp/shokai/matsurikyoudo/akimaturi/akimatsuri.html",
+          "site_name": "津島市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-17"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/75/",
+          "site_name": "愛知県観光サイトAichi Now",
+          "is_official": true,
+          "retrieved_date": "2026-09-17"
+        },
+        {
+          "url": "https://tsushima-kankou.com/akimatsuri/",
+          "site_name": "津島市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-17"
+        },
+        {
+          "url": "http://www.npo-tsushima.org/omatsuri/akimatsuri/index.html",
+          "site_name": "つしまNPO・ボランティア支援センター",
+          "is_official": false,
+          "retrieved_date": "2026-09-17"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "前回データに記録なし（新規追加）"
       }
     }
   ]
