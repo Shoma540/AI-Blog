@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17 08:12",
+  "last_updated": "2026-09-17 12:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -53860,9 +53860,9 @@
       "date_start": "2026-09-19",
       "date_end": "2026-09-20",
       "date_note": "第3回開催。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "time_start": "10:00",
+      "time_end": "20:00（19日）/ 16:00（20日）",
+      "rain_policy": "雨天決行・暴風中止",
       "organizer": "鯖江商工会議所",
       "genre": [
         "民俗芸能"
@@ -53896,11 +53896,17 @@
           "retrieved_date": "2026-09-07"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
