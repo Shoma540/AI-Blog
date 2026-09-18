@@ -699,7 +699,8 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#C0392B">
+  <meta name="theme-color" content="#C0392B" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1b1815" media="(prefers-color-scheme: dark)">
   <meta name="color-scheme" content="light dark">
   <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical_url}">
