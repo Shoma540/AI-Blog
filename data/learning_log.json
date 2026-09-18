@@ -443,6 +443,18 @@
       "verify_after": "2026-09-20",
       "result": "",
       "commit": "7a49bf7715c8f5965eb212c138350bf60d51d1d7"
+    },
+    {
+      "date": "2026-09-18 08:17",
+      "analysis": "GA4スナップショット（2026-09-18 08:15取得、過去7日間）はセッション0件・ページビュー0件が継続しており、データ不十分期（週間セッション50未満）が続いている。前回改善entry（2026-09-15、祭りカード名のh3見出し化、verify_after 2026-09-18）は本実行冒頭でverify_after到来のため効果測定し「変化なし」を記録した（アクセス自体が発生していないため測定不能）。validate_site.pyは全項目通過し、直近2件の改善（footerのランドマーク化、og:image:alt追加）によるサイト破損は無し。過去の学習記録（37件）を確認したところ、meta description・JSON-LD（Event/WebSite/Organization/Breadcrumb）・sitemap・robots.txt・favicon・skip-link・focus-visible・reduced-motion・ダークモード対応（body等のCSS配色切り替え）・装飾絵文字のaria-hidden化・nav aria-label・タブのキーボード操作・h3見出し化・footerのランドマーク化・og:image:alt など幅広いSEO/アクセシビリティ改善が積み重ねられてきた一方、2026-09-14にダークモードのCSS配色切り替えを追加した際、<head>のtheme-colorメタタグは<meta name=\"theme-color\" content=\"#C0392B\">の1つのみで、prefers-color-schemeに応じた出し分けがされていなかった。そのため、OS/ブラウザをダークモードに設定している閲覧者がページを開いた際、本文はダーク配色（#1b1815系）に切り替わる一方、モバイルブラウザのアドレスバー/ステータスバー色は常にブランドカラー（#C0392B、明るい赤）のままとなり、本文とブラウザUIの配色に不整合が生じていた。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、単一だった<meta name=\"theme-color\" content=\"#C0392B\">を、media属性で出し分ける2つのタグに分割した：<meta name=\"theme-color\" content=\"#C0392B\" media=\"(prefers-color-scheme: light)\"> と <meta name=\"theme-color\" content=\"#1b1815\" media=\"(prefers-color-scheme: dark)\">。ダーク側の色は2026-09-14に追加したダークモードCSSのbody背景色（#1b1815）と揃えた。既存のcolor-schemeメタタグやCSS、他の構造は変更していない。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "theme-colorメタタグがprefers-color-schemeに応じて出し分けられることで、ダークモード設定の閲覧者がモバイルブラウザで本サイトを開いた際、アドレスバー/ステータスバーの色が本文のダーク配色（#1b1815）と一致するようになり、ライト/ダーク切り替え時の視覚的な違和感が減るはず。表示速度やGA4のセッション数には直接影響しない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認を中心に経過観察する。",
+      "verify_after": "2026-09-21",
+      "result": "",
+      "commit": "b2a9dec432ce83b08731275df7cd03141715feb0"
     }
   ]
 }
