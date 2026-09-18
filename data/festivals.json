@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18 12:20",
+  "last_updated": "2026-09-18 16:12",
   "festivals": [
     {
       "id": "festival_001",
@@ -57308,7 +57308,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57371,7 +57371,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57434,7 +57434,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57499,7 +57499,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57558,7 +57558,7 @@
       "trust_level": "低",
       "conflict_note": "2026年の具体的な開催日程（9/26〜10/4）は集約サイトの記述のみで、半田市公式サイト上での2026年版の日程発表を本実行時点では確認できなかった。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57616,7 +57616,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57674,7 +57674,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57733,6 +57733,304 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_946",
+      "name": "名月管絃祭",
+      "alternate_names": [
+        "下鴨神社名月管絃祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "京都市左京区",
+      "date_start": "2026-09-25",
+      "date_end": "2026-09-25",
+      "date_note": "中秋の名月（十五夜）に合わせて毎年開催",
+      "time_start": "17:30",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "下鴨神社（賀茂御祖神社）",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "境内無料、お茶席1,000円（予定）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "中秋の名月にススキを飾り、かがり火を焚いて橋殿で尺八・管絃・箏曲などの伝統芸能を月に奉納する下鴨神社の恒例行事。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京阪電車出町柳駅から徒歩約12分",
+      "official_url": "https://www.shimogamo-jinja.or.jp/saiji/meigetsu",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.shimogamo-jinja.or.jp/saiji/meigetsu",
+          "site_name": "下鴨神社（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://www.kyoto-kankou.or.jp/event/637",
+          "site_name": "京都府観光連盟公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://kakure-kyoto.com/kyotoshi/2920/",
+          "site_name": "かくれKYOTO",
+          "is_official": false,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_947",
+      "name": "光兎神社十五夜祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "岩船郡関川村",
+      "date_start": "2026-09-27",
+      "date_end": "2026-09-27",
+      "date_note": "中秋の名月前後の日曜に開催",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "光兎神社",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "月の神・月読尊を祀る光兎神社で、夕暮れから夜にかけて神事や演舞・音楽などの奉納が行われる十五夜の祭事。境内には兎をモチーフにした意匠が多数見られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://kousagi-j.jp/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://kousagi-j.jp/ritual/",
+          "site_name": "光兎神社（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://sekikawa-kankou.com/kousagi15-program-2026/",
+          "site_name": "関川村観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_948",
+      "name": "奈良豆比古神社翁舞",
+      "alternate_names": [
+        "奈良豆比古神社秋祭り宵宮 翁舞"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "奈良市",
+      "date_start": "2026-10-08",
+      "date_end": "2026-10-08",
+      "date_note": "毎年10月8日、秋祭り宵宮の夜に奉納",
+      "time_start": "20:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "奈良豆比古神社",
+      "genre": [
+        "民俗芸能",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "能楽のルーツともいわれる翁舞を、三人の翁が立ち合う特異な形式で奉納する神事。国の重要無形民俗文化財に指定されている。9月21日に配役を決定し、9月23日から練習、10月4日に予行練習（勢揃え）を行う。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.pref.nara.lg.jp/n002/61557.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.pref.nara.lg.jp/n002/61557.html",
+          "site_name": "奈良県（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://narashikanko.or.jp/spot/detail_10054.html",
+          "site_name": "奈良市観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://online.bunka.go.jp/db/heritages/detail/204083",
+          "site_name": "文化遺産データベース（文化庁）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_949",
+      "name": "村屋神社秋季例大祭",
+      "alternate_names": [
+        "村屋坐弥冨都比売神社秋季例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "磯城郡田原本町",
+      "date_start": "2026-10-18",
+      "date_end": "2026-10-19",
+      "date_note": "10月第3土曜（宵宮祭）・第4日曜（本宮祭）に開催",
+      "time_start": "16:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "村屋神社（村屋坐弥冨都比売神社）",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "延喜式に記載される古社・村屋神社の秋の例大祭。18日夕方に宵宮祭（巫女神楽、奉納演芸、露店）、19日午前に本宮祭（神事・奉納芸能）が行われる。縁結びの神を祀ることでも知られる。",
+      "food_stalls": "屋台あり（宵宮）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.town.tawaramoto.nara.jp/kanko/kanko/temple/3444.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.town.tawaramoto.nara.jp/kanko/kanko/temple/3444.html",
+          "site_name": "田原本町（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://yamatoji.nara-kankou.or.jp/01shaji/01jinja/02west_area/murayajinja/",
+          "site_name": "奈良県観光公式サイト あをによし なら旅ネット",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://tawaramoton.com/spot/%E6%9D%91%E5%B1%8B%E7%A5%9E%E7%A4%BE/",
+          "site_name": "田原本まちづくり観光振興機構",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_950",
+      "name": "小木袖ぎりこ祭り",
+      "alternate_names": [
+        "袖キリコ祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "石川県",
+      "city": "鳳珠郡能登町",
+      "date_start": "2026-09-25",
+      "date_end": "2026-09-25",
+      "date_note": "例年9月25日開催と伝えられるが、2026年の公式日程は一次情報で確認できず",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "地元自治会（能登町白丸地区）",
+      "genre": [
+        "曳山"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "能登町白丸地区で行われるキリコ祭り。地区の氏神に小型のキリコ（奉燈）を奉納する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://notocho.jp/event/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.hot-ishikawa.jp/event/detail_6869.html",
+          "site_name": "ほっと石川旅ねっと（石川県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://notokiriko.ishikawa.jp/kiriko/jp/calendar.php",
+          "site_name": "能登のキリコ祭り（日本遺産公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
