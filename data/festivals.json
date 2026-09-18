@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18 16:12",
+  "last_updated": "2026-09-18 17:11",
   "festivals": [
     {
       "id": "festival_001",
@@ -57795,7 +57795,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57849,7 +57849,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57912,7 +57912,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -57975,7 +57975,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -58031,6 +58031,71 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_951",
+      "name": "夕焼けの渚 紅葉まつり",
+      "alternate_names": [
+        "山中湖夕焼けの渚・紅葉まつり",
+        "山中湖紅葉まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "南都留郡山中湖村",
+      "date_start": "2026-10-30",
+      "date_end": "2026-11-15",
+      "date_note": "山梨県観光公式サイト等では「10月31日～11月16日」との表記も見られたが、主催団体である山中湖観光協会の公式イベントページを直接確認し、こちらの日程（10/30夕方～11/15夜、予定）を正とした。",
+      "time_start": "16:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "山中湖観光協会",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "山中湖畔の旭日丘湖畔緑地公園で、湖畔の紅葉をライトアップする秋の恒例イベント。夕焼けに染まる湖と紅葉の競演が見どころ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://lake-yamanakako.com/event/10439",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://lake-yamanakako.com/event/10439",
+          "site_name": "山中湖観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://www.yamanashi-kankou.jp/yamanakako/event/koyo-fes.html",
+          "site_name": "山梨県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_347694/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "終了日について公式ページ「11/15」と山梨県公式観光サイト「11/16」とで1日の相違あり。主催団体の直接公式ページを優先。",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
