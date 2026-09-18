@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17 18:12",
+  "last_updated": "2026-09-18 08:13",
   "festivals": [
     {
       "id": "festival_001",
@@ -57244,6 +57244,320 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_938",
+      "name": "赤城神社例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "新宿区",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "date_note": "大祭式（神事）は19日14時。神賑行事（屋台・奉納行事）は19・20日両日。2026年は6年ぶりに宮神輿渡御を実施予定。",
+      "time_start": "14:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "赤城神社",
+      "genre": [
+        "神輿",
+        "神事",
+        "例大祭"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（見学）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "牛込総鎮守として氏子崇敬者に親しまれる赤城神社の秋の例大祭。2026年は6年ぶりとなる宮神輿渡御が行われる予定。",
+      "food_stalls": "神賑行事期間中に屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京メトロ東西線・都営大江戸線「神楽坂駅」等最寄り（赤城神社所在地：新宿区赤城元町）",
+      "official_url": "https://www.akagi-jinja.jp/info/2026/8reitaisai.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.akagi-jinja.jp/info/2026/8reitaisai.html",
+          "site_name": "赤城神社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://kagurazaka-tuu.jimdofree.com/akagi-shrine-festival2026",
+          "site_name": "神楽坂net",
+          "is_official": false,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://kt-hub.com/65016/akagijinja-2026/",
+          "site_name": "来たHUB",
+          "is_official": false,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "前回データに記録なし（新規追加）"
+      }
+    },
+    {
+      "id": "festival_939",
+      "name": "彼岸花ウィーク2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "芳賀郡茂木町",
+      "date_start": "2026-09-21",
+      "date_end": "2026-10-04",
+      "date_note": "城山公園の斜面に約55万本の彼岸花が咲く。会場周辺（9/25〜10/5 8:00〜17:00）は車・バイク・自転車の通行禁止。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "茂木町商工会・茂木町観光協会",
+      "genre": [
+        "花",
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "臨時駐車場からのシャトルバス往復200円、保全協力金300円（セット券500円）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "茂木町の城山公園斜面に群生する約55万本の彼岸花が「赤い絨毯」のような景観をつくる観光イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "臨時駐車場「グリーンパークもてぎ」から徒歩またはシャトルバス",
+      "official_url": "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=7329&syurui=2",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=7329&syurui=2",
+          "site_name": "茂木町公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://www.tochigiji.or.jp/event/e17663",
+          "site_name": "とちぎ旅ネット（栃木県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://r.goope.jp/srb-09-32/info/6909055",
+          "site_name": "茂木町商工会",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "前回データに記録なし（新規追加）"
+      }
+    },
+    {
+      "id": "festival_940",
+      "name": "やちよ彼岸花まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "八千代市",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-27",
+      "date_note": "村上緑地公園に約28万球の彼岸花。今年は鑑賞会形式で実施、ステージイベントはなし。キッチンカー等の出店あり。",
+      "time_start": "10:00",
+      "time_end": "15:30",
+      "rain_policy": "不明",
+      "organizer": "やちよ彼岸花まつり実行委員会（公益財団法人八千代市地域振興財団）",
+      "genre": [
+        "花",
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "八千代市村上緑地公園に群生する約28万球の彼岸花を楽しむ観光イベント。",
+      "food_stalls": "キッチンカー等の出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東葉高速鉄道・京成電鉄「勝田台駅」北口から東洋バス「村上団地行き」で「村上団地第一」下車。車の場合は国道16号村上団地交差点から誘導案内に従う。",
+      "official_url": "https://www.city.yachiyo.lg.jp/site/kankou/84673.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.yachiyo.lg.jp/site/kankou/84673.html",
+          "site_name": "八千代市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://maruchiba.jp/event/detail_13119.html",
+          "site_name": "ちば観光ナビ（千葉県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://ycp.or.jp/news/greening_news/37993/",
+          "site_name": "八千代市地域振興財団",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "前回データに記録なし（新規追加）"
+      }
+    },
+    {
+      "id": "festival_941",
+      "name": "小出川彼岸花まつり",
+      "alternate_names": [
+        "第19回小出川彼岸花まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "藤沢市",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-26",
+      "date_note": "小出川沿い（大黒橋〜寒川町青少年広場、約3km）の彼岸花を楽しむイベント。会場を巡るスタンプラリー（先着600人に景品、1家族2点まで）。",
+      "time_start": "10:00",
+      "time_end": "15:00",
+      "rain_policy": "小雨決行。雨天時順延",
+      "organizer": "藤沢市（御所見市民センター）ほか実行委員会",
+      "genre": [
+        "花",
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "不明",
+      "history_years": 19,
+      "history_description": "小出川沿いに咲く彼岸花を楽しむ地域イベントで、2026年で第19回を迎える。",
+      "food_stalls": "地域の特産品・地元野菜等のブース出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "式典会場（打戻会場）へは辻堂駅北口より「綾瀬車庫行き」バスで「根下」下車徒歩1分",
+      "official_url": "https://www.city.fujisawa.kanagawa.jp/endou-c/higanbana.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.fujisawa.kanagawa.jp/endou-c/higanbana.html",
+          "site_name": "藤沢市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://www.aicco.jp/higanbanamatsuri2026/",
+          "site_name": "aicco（湘南・藤沢ローカルコミュニティサイト）",
+          "is_official": false,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://www.shonan-sh.jp/events/koidegawa-higan/",
+          "site_name": "とことこ湘南",
+          "is_official": false,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "前回データに記録なし（新規追加）"
+      }
+    },
+    {
+      "id": "festival_942",
+      "name": "彼岸花とごんの秋まつり",
+      "alternate_names": [
+        "ごんの秋まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "半田市",
+      "date_start": "2026-09-26",
+      "date_end": "2026-10-04",
+      "date_note": "2026年の具体的な日程は一部サイトの言及に留まり、半田市公式サイト上での2026年版の正式発表を本実行時点で確認できなかったため要確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "半田市・新美南吉顕彰会ほか（例年の実施体制、2026年版は未確認）",
+      "genre": [
+        "花",
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "半田市出身の児童文学作家・新美南吉の代表作「ごんぎつね」の舞台である矢勝川堤に、地域住民の手で植えられた約300万本の彼岸花が咲き誇る観光イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "矢勝川堤・新美南吉記念館周辺",
+      "official_url": "https://www.city.handa.lg.jp/bunka/kanko/1002901/1008188.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.handa.lg.jp/bunka/kanko/1002901/1008188.html",
+          "site_name": "半田市公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://www.nankichi.gr.jp/Kensyokai/Higanbana/higan.html",
+          "site_name": "新美南吉記念館関連サイト",
+          "is_official": false,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "2026年の具体的な開催日程（9/26〜10/4）は集約サイトの記述のみで、半田市公式サイト上での2026年版の日程発表を本実行時点では確認できなかった。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
