@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18 17:11",
+  "last_updated": "2026-09-18 18:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -58095,6 +58095,70 @@
       ],
       "trust_level": "高",
       "conflict_note": "終了日について公式ページ「11/15」と山梨県公式観光サイト「11/16」とで1日の相違あり。主催団体の直接公式ページを優先。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_952",
+      "name": "英賀神社秋季例大祭",
+      "alternate_names": [
+        "播州姫路秋祭り（英賀神社）"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "姫路市",
+      "date_start": "2026-10-17",
+      "date_end": "2026-10-18",
+      "date_note": "毎年10月17日・18日の2日間開催（神社公式サイトの記載に基づく。2026年専用の告知ページは未確認だが、両日とも土曜・日曜に合致することを確認済み）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "英賀神社",
+      "genre": [
+        "神輿",
+        "屋台",
+        "秋祭り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "旧県社・英賀神社の例祭で、2台の檀尻と大小18台の屋台が繰り出される。高床式の拝殿の中で天井に届くほど屋台を高く練り上げる「拝殿練り」、横木のない梯子の上で獅子が舞う演目が見どころ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR「英賀保駅」から南西へ徒歩約15分",
+      "official_url": "https://www.agajinja.jp/masturi/",
+      "sns_accounts": {},
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.agajinja.jp/masturi/",
+          "site_name": "英賀神社 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://www.kobe-np.co.jp/news/himeji/202509/0019516340.shtml",
+          "site_name": "神戸新聞NEXT",
+          "is_official": false,
+          "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://tanosu.com/trip/2861/",
+          "site_name": "たのすー姫路",
+          "is_official": false,
+          "retrieved_date": "2026-09-18"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
