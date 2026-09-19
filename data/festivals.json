@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19 08:17",
+  "last_updated": "2026-09-19 12:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -58225,7 +58225,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -58290,7 +58290,7 @@
       "trust_level": "中",
       "conflict_note": "神輿渡御・子供みこし巡行の日付（10/1 or 10/4）について情報源間で差異あり。宵宮・当日祭の9/30-10/1は複数ソース一致。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -58349,6 +58349,134 @@
           "url": "https://www.tochigiji.or.jp/event/e17062",
           "site_name": "とちぎ旅ネット",
           "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_956",
+      "name": "富士河口湖紅葉まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山梨県",
+      "city": "南都留郡富士河口湖町",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-29",
+      "date_note": "第27回。ライトアップは日没～21:00",
+      "time_start": "不明",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "富士河口湖町観光連盟",
+      "genre": [
+        "紅葉",
+        "ライトアップ"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "河口湖北岸のもみじ回廊・もみじ街道を中心に、約400～500本の紅葉が湖面に映える秋の名物イベント。",
+      "food_stalls": "もみじ回廊周辺で飲食店・クラフト市が出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "河口湖北岸（紅葉まつり特設会場）",
+      "official_url": "https://fujisan.ne.jp/event/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://fujisan.ne.jp/news/6065/",
+          "site_name": "富士河口湖町観光情報サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://kitakawaguchiko.co.jp/archives/introduce/post31",
+          "site_name": "北河口湖観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.toretabi.jp/event/entry-23219.html",
+          "site_name": "トレたび",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_957",
+      "name": "香嵐渓もみじまつり",
+      "alternate_names": [
+        "第71回香嵐渓もみじまつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "豊田市足助町",
+      "date_start": "2026-11-01",
+      "date_end": "2026-11-30",
+      "date_note": "第71回。ライトアップは日没～21:00",
+      "time_start": "不明",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "豊田市足助観光協会",
+      "genre": [
+        "紅葉",
+        "ライトアップ"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "散策無料",
+      "ticket_url": "不明",
+      "history_years": "71",
+      "history_description": "香嵐渓・飯盛山一帯の紅葉が見頃を迎える期間に開催される、東海地方屈指の紅葉名所のもみじまつり。猿回しや和太鼓などの催しも行われる。",
+      "food_stalls": "香嵐渓広場周辺で出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "香嵐渓（豊田市足助町）",
+      "official_url": "http://asuke.info/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "http://asuke.info/event/nov/entry-3035.html",
+          "site_name": "豊田市足助観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.city.toyota.aichi.jp/shisei/jichiku/1008649/1013511/1005336.html",
+          "site_name": "豊田市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/131/",
+          "site_name": "愛知県公式観光サイトAichi Now",
+          "is_official": true,
           "retrieved_date": "2026-09-19"
         }
       ],
