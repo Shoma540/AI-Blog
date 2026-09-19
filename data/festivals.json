@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18 18:16",
+  "last_updated": "2026-09-19 08:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -58158,6 +58158,201 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_953",
+      "name": "和泉熊野神社例大祭",
+      "alternate_names": [
+        "和泉熊野神社祭礼"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "杉並区",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-04",
+      "date_note": "例年9月第2週開催だったが、2026年は暑さ対策および社殿設備改修のため10月開催に変更。10/3(土)は子供神輿・山車、10/4(日)は大人神輿。",
+      "time_start": "不明",
+      "time_end": "20:00頃（両日とも境内出店の営業終了目安）",
+      "rain_policy": "不明",
+      "organizer": "和泉熊野神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（見学は無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "杉並区和泉2丁目に鎮座する和泉熊野神社（和泉村鎮守）の例大祭。境内に縁日の屋台が立ち並び、4カ所の町内睦会による神輿渡御が行われる、地域に秋を呼び込む恒例行事。",
+      "food_stalls": "縁日の屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京王井の頭線 永福町駅から徒歩圏内（駐輪スペース限定のため徒歩推奨）",
+      "official_url": "https://www.city.suginami.tokyo.jp/s113/7419.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.suginamigaku.org/2026/08/reitaisai-2026.html",
+          "site_name": "すぎなみ学倶楽部（杉並区公式情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://kotokoto-sasazuka.com/kumano-reitaisai/",
+          "site_name": "ことこと笹塚",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://voyvoi.com/event/izumi-kumano-shrine-annual-festival/",
+          "site_name": "voyvoi",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：例年9月第2週開催 → 今年：暑さ対策・設備改修のため10月3日〜4日開催に変更"
+      }
+    },
+    {
+      "id": "festival_954",
+      "name": "井草八幡宮例大祭",
+      "alternate_names": [
+        "井草八幡宮秋祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "杉並区",
+      "date_start": "2026-09-30",
+      "date_end": "2026-10-01",
+      "date_note": "9/30(水)宵宮、10/1(木)当日祭（例祭日は毎年10月1日）。別日程で神輿渡御・子供みこし巡行が行われるとする情報源もあるが、具体的な日付は情報源により差異があるため要確認。",
+      "time_start": "不明",
+      "time_end": "22:00頃閉門",
+      "rain_policy": "子供みこし巡行は雨天中止（他は不明）",
+      "organizer": "井草八幡宮",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（見学は無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "杉並区善福寺の井草八幡宮の例大祭。長い参道に露店がずらりと並び賑わう。例祭日は毎年10月1日。",
+      "food_stalls": "参道に露店多数",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "西武新宿線 上井草駅から徒歩、または関東バス等",
+      "official_url": "https://www.igusahachimangu.jp/reitaisai/reitaisai.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.suginamigaku.org/2026/08/reitaisai-2026.html",
+          "site_name": "すぎなみ学倶楽部（杉並区公式情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://matsuri-no-hi.com/matsuri/1447",
+          "site_name": "祭の日",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.visiting-japan.com/ja/articles/events/j13sn-igusa-hachimangu-reitaisai.htm",
+          "site_name": "Visiting Japan",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "神輿渡御・子供みこし巡行の日付（10/1 or 10/4）について情報源間で差異あり。宵宮・当日祭の9/30-10/1は複数ソース一致。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_955",
+      "name": "小山の花火",
+      "alternate_names": [
+        "第74回小山の花火",
+        "おやまの花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "小山市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "荒天時は中止（順延なし）",
+      "time_start": "18:00",
+      "time_end": "19:00",
+      "rain_policy": "荒天時中止（順延なし）",
+      "organizer": "小山の花火実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明（有料観覧エリアあり）",
+      "price": "事前の有料観覧席購入を推奨（詳細不明）",
+      "ticket_url": "https://www.oyamanohanabi.com/",
+      "history_years": 74,
+      "history_description": "「郷土の夜空を彩る 秋の祭典」をテーマに、観晃橋下流・思川河畔（小山市役所西側）で開催される第74回目の花火大会。約2万発を打ち上げ、例年約50万人が来場する栃木県内有数の規模。",
+      "food_stalls": "不明",
+      "crowd_level": "例年約50万人来場のため非常に混雑",
+      "visitors": "約50万人（例年）",
+      "access": "JR小山駅から徒歩、周辺は大混雑のため公共交通機関推奨",
+      "official_url": "https://www.oyamanohanabi.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.oyamanohanabi.com/summary.html",
+          "site_name": "小山の花火 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
+          "site_name": "小山市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.tochigiji.or.jp/event/e17062",
+          "site_name": "とちぎ旅ネット",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
