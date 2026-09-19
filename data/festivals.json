@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19 17:16",
+  "last_updated": "2026-09-19 18:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -58608,7 +58608,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -58666,7 +58666,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -58723,6 +58723,220 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_962",
+      "name": "rockin'star Carnival",
+      "alternate_names": [
+        "ロッキンスター・カーニバル",
+        "国営ひたち海浜公園花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "茨城県",
+      "city": "ひたちなか市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "",
+      "time_start": "18:00",
+      "time_end": "19:15",
+      "rain_policy": "不明",
+      "organizer": "rockin'star Carnival実行委員会",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "不明",
+      "ticket_url": "https://l-tike.com/event/mevent/?mid=758856",
+      "history_years": "不明",
+      "history_description": "国営ひたち海浜公園を会場に、DJ和が繰り出すJ-ROCK・J-POPの名曲と約20,000発の花火をシンクロさせる音楽花火イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "国営ひたち海浜公園",
+      "official_url": "https://rockinstarcarnival.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://rockinstarcarnival.jp/",
+          "site_name": "rockin'star Carnival公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.hitachikaihin.jp/",
+          "site_name": "国営ひたち海浜公園公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0308e555797/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://sorahanabi.com/ibaraki/hitachinaka/rockinstarcarnival.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_963",
+      "name": "第74回小山の花火",
+      "alternate_names": [
+        "小山の花火",
+        "思川花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "小山市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "2025年から開催時期を夏から秋へ変更",
+      "time_start": "18:00",
+      "time_end": "19:00",
+      "rain_policy": "荒天時中止（順延なし）",
+      "organizer": "小山の花火実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "観晃橋下流の思川河畔で開催される小山市の花火大会。テーマは「郷土の夜空を彩る秋の祭典」。",
+      "food_stalls": "不明",
+      "crowd_level": "例年多数の人出（約45万人規模との報道あり）",
+      "visitors": "不明",
+      "access": "観晃橋下流思川河畔",
+      "official_url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
+          "site_name": "小山市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.oyamanohanabi.com/summary.html",
+          "site_name": "小山の花火 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.tochigiji.or.jp/event/e17062",
+          "site_name": "とちぎ旅ネット",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
+          "site_name": "花火大会2026 ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_964",
+      "name": "第53回池田町秋のワイン祭り",
+      "alternate_names": [
+        "池田町秋のワイン祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "中川郡池田町",
+      "date_start": "2026-10-04",
+      "date_end": "2026-10-04",
+      "date_note": "最終入場13:30",
+      "time_start": "10:00",
+      "time_end": "14:00",
+      "rain_policy": "雨天決行",
+      "organizer": "池田町観光協会",
+      "genre": [
+        "農祭り",
+        "ワイン祭り"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "大人6,000円／中学生・高校生2,000円／小学生以下無料／池田町民割チケット3,000円",
+      "ticket_url": "https://kankou-ikeda.com/wine_festival/",
+      "history_years": 53,
+      "history_description": "十勝ワイン発祥の地・池田町で行われる収穫祭。十勝ワインと牛の丸焼きを楽しめる秋の一大イベント。",
+      "food_stalls": "牛の丸焼きなど",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "ワイン城横イベント広場",
+      "official_url": "https://kankou-ikeda.com/wine_festival/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kankou-ikeda.com/wine_festival/",
+          "site_name": "池田町観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.tokachi-wine.com/topics/10384.html",
+          "site_name": "十勝ワイン公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://matoka-tokachi.jp/aki-no-wine-maturi/",
+          "site_name": "まとか十勝",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.guidoor.jp/media/2026-ikeda-wine-festival/",
+          "site_name": "Guidoor Media",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
