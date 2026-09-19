@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19 16:16",
+  "last_updated": "2026-09-19 17:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -58545,6 +58545,184 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_959",
+      "name": "西条まつり",
+      "alternate_names": [
+        "西条祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "西条市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-17",
+      "date_note": "嘉母神社祭礼10/10-11、石岡神社祭礼10/14-15、伊曽乃神社祭礼10/15-16、飯積神社祭礼10/16-17の4神社例祭の総称",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "嘉母神社・石岡神社・伊曽乃神社・飯積神社（西条市観光振興課が問い合わせ窓口）",
+      "genre": [
+        "だんじり",
+        "神輿",
+        "太鼓台",
+        "神事"
+      ],
+      "scale": "市指定無形民俗文化財",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "江戸時代から続く伝統的な秋祭りで、五穀豊穣を神に感謝する神事。市内氏子各町が所有する百数十台のだんじり・みこし・太鼓台が奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.saijo.ehime.jp/site/kanko/maturi.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.saijo.ehime.jp/site/kanko/maturi.html",
+          "site_name": "西条市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.rnb.co.jp/media/ehime-akimatsuri2026/",
+          "site_name": "RNBエンタメディア",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_960",
+      "name": "川之江秋祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "四国中央市",
+      "date_start": "2026-10-13",
+      "date_end": "2026-10-15",
+      "date_note": "10/14に四地区太鼓台統一寄、10/15に神輿の海幸祭（船渡御）を実施",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "太鼓台",
+        "神輿",
+        "船渡御"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "旧川之江市内（川之江・妻鳥・金生・上分・金田の各地区）の太鼓台が練り歩き、かき比べや宮入りが行われる秋祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.rnb.co.jp/media/ehime-akimatsuri2026/",
+          "site_name": "RNBエンタメディア",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://shikokuchuo.mypl.net/article/matsuri-photo_shikokuchuo",
+          "site_name": "まいぷれ四国中央市",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_961",
+      "name": "土居秋まつり",
+      "alternate_names": [
+        "土居太鼓祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛媛県",
+      "city": "四国中央市",
+      "date_start": "2026-10-13",
+      "date_end": "2026-10-15",
+      "date_note": "10/14に関川河川敷ふるさと広場でかきくらべコンテストを実施",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "太鼓台",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "土居・上野地区の太鼓台が練り歩き、関川河川敷ふるさと広場でのかきくらべコンテストなどが行われる秋祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "会場周辺は混雑が予想され、路上駐車禁止",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.rnb.co.jp/media/ehime-akimatsuri2026/",
+          "site_name": "RNBエンタメディア",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://shikokuchuo.mypl.net/article/matsuri-photo_shikokuchuo",
+          "site_name": "まいぷれ四国中央市",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
