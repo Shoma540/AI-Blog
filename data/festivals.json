@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19 12:15",
+  "last_updated": "2026-09-19 16:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -58418,7 +58418,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -58476,6 +58476,70 @@
         {
           "url": "https://aichinow.pref.aichi.jp/events/detail/131/",
           "site_name": "愛知県公式観光サイトAichi Now",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_958",
+      "name": "日本一の芋煮会フェスティバル",
+      "alternate_names": [
+        "芋煮会フェスティバル"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "山形市",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-20",
+      "date_note": "雨天決行・荒天の場合は中止となる場合がある（延期なし）",
+      "time_start": "08:30",
+      "time_end": "14:30",
+      "rain_policy": "雨天決行／荒天時は中止の場合あり（延期なし）",
+      "organizer": "日本一の芋煮会フェスティバル協議会（山形市・山形商工会議所・山形商工会議所青年部）",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料。芋煮（約3万食）の配食は事前チケット（600円以上）または当日協賛（700円以上）が必要",
+      "ticket_url": "https://imoni-fes.jp/",
+      "history_years": 38,
+      "history_description": "第38回を数える山形市の秋の風物詩。直径6mの大鍋「三代目鍋太郎」で3万食分の芋煮を調理し来場者に振る舞う。",
+      "food_stalls": "芋煮の配食のほか、芋煮茶屋（有料座席）などあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "山形市馬見ヶ崎川河川敷（双月橋付近）",
+      "official_url": "https://imoni-fes.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://imoni-fes.jp/event_guide/",
+          "site_name": "日本一の芋煮会フェスティバル 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.visityamagata.jp/topics-yamagata-imonikai_festival/",
+          "site_name": "山形 まるごと観光情報サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://yamagatakanko.com/festivals/detail_2957.html",
+          "site_name": "やまがたへの旅（山形県公式観光・旅行情報サイト）",
           "is_official": true,
           "retrieved_date": "2026-09-19"
         }
