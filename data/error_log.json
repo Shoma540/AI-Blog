@@ -545,6 +545,12 @@
       "step": "post_instagram",
       "error": "Instagramアクセストークンの有効期限切れ",
       "detail": "The token has expired on Wednesday, 19-Aug-26 19:50:36 PDT. The current time is Saturday, 22-Aug-26 01:11:48 PDT.（400 OAuthException code=190）。2026-08-20 08:19から継続し丸3日以上未解消。INSTAGRAM_ACCESS_TOKENの再発行・Routineのカスタム環境変数への再登録が必要（人手対応待ち、既知の問題としてエスカレーション済み）。ブログ更新（HTML生成・新規1件：荘内大祭、GitHub Push）は正常完了。"
+    },
+    {
+      "timestamp": "2026-09-19 08:18",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
     }
   ]
 }
