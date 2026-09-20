@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20 16:17",
+  "last_updated": "2026-09-20 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -58952,6 +58952,192 @@
       ],
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 開催日について「7月14日」とする公式系情報源が複数ある一方、9月下旬開催とする情報も一部で見られ、要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_970",
+      "name": "日前神宮・國懸神宮例大祭",
+      "alternate_names": [
+        "日前宮例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "和歌山県",
+      "city": "和歌山市",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-26",
+      "date_note": "日前神宮例大祭は10:00〜、國懸神宮例大祭は11:00〜斎行。和歌山県公式観光サイトと和歌山市公式サイト（年間行事ページ）が一致。",
+      "time_start": "10:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "日前神宮・國懸神宮",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他（旧官幣大社の例大祭）",
+      "is_free": true,
+      "price": "不明（見学無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "日前神宮・國懸神宮（日前宮）の両宮の大神様ゆかりの日を祝い、日々の神徳に感謝するとともに、人々の平和・国家安泰・五穀豊穣を祈念する神事。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "和歌山県和歌山市秋月365 日前神宮・國懸神宮",
+      "official_url": "https://www.wakayama-kanko.or.jp/events/detail_3707.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.wakayama-kanko.or.jp/events/detail_3707.html",
+          "site_name": "和歌山県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://www.city.wakayama.wakayama.jp/kankou/nenkangyoji/1006636.html",
+          "site_name": "和歌山市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_971",
+      "name": "宇多津秋祭り",
+      "alternate_names": [
+        "宇夫階神社例大祭",
+        "塩竃神社例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "綾歌郡宇多津町",
+      "date_start": "2026-10-24",
+      "date_end": "2026-10-27",
+      "date_note": "宇多津町公式サイト・まちづくりNEWSでは10月25・26・27日と案内される一方、宇多津町公式X（まちづくり課）では例大祭を10月24〜26日（太鼓台運行は25・26日）と案内しており、日程表記に幅がある。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "宇夫階神社・塩竃神社、宇多津町まちづくり課",
+      "genre": [
+        "神輿",
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（見学無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "宇夫階（うぶしな）神社と塩竃（しおがま）神社の例祭を併せた宇多津町最大の祭り。宵祭には里神楽を奉奏し、例大祭・氏子祭・神幸祭では太鼓台が田町・聖通寺のお旅所へ渡御する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "香川県綾歌郡宇多津町 宇夫階神社・塩竃神社周辺",
+      "official_url": "https://www.town.utazu.lg.jp/page/1167.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.town.utazu.lg.jp/page/1167.html",
+          "site_name": "宇多津町公式サイト（まちづくり課）",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://sanpomichi.town.utazu.lg.jp/articles/entry/007538/",
+          "site_name": "うたづさんぽみち（宇多津町公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://x.com/utazu_town/status/1980081364964946111",
+          "site_name": "宇多津町まちづくり課 公式X",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾: 開催日について町公式サイトは「10/25,26,27」、町公式Xは「例大祭10/24〜26、太鼓台運行は25・26日」と表記が異なる。要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_972",
+      "name": "観音寺祭り（琴弾八幡宮秋季大祭）",
+      "alternate_names": [
+        "観音寺ちょうさ祭り",
+        "琴弾八幡宮大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "観音寺市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "観音寺市観光協会によれば「毎年10月第3日曜日を最終日とする3日間」に開催。2026年の具体的な日付（例：10/16〜18）は情報源に明記されておらず未確定。市商工観光課への確認が必要。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "琴弾八幡宮",
+      "genre": [
+        "神輿",
+        "民俗芸能",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（見学無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "琴弾八幡宮の秋季大祭。周辺地域に比べ大型（俗に3t級）の太鼓台（ちょうさ）9台が奉納される。金曜は宵祭りで各地域を練り歩き、土日は宮入りして奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "香川県観音寺市 琴弾八幡宮周辺",
+      "official_url": "https://kanonji-kanko.jp/kanonji-festival/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kanonji-kanko.jp/kanonji-festival/",
+          "site_name": "観音寺市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://www.city.kanonji.kagawa.jp/soshiki/21/364.html",
+          "site_name": "観音寺市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
       "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
