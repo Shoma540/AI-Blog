@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20 12:14",
+  "last_updated": "2026-09-20 16:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -33530,70 +33530,6 @@
       }
     },
     {
-      "id": "festival_540",
-      "name": "小山の花火（おやまサマーフェスティバル）",
-      "alternate_names": [
-        "おやまサマーフェスティバル"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "栃木県",
-      "city": "小山市",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-03",
-      "date_note": "第74回。2025年より開催時期を夏から秋（10月第1土曜日）に変更。",
-      "time_start": "18:00",
-      "time_end": "19:00",
-      "rain_policy": "荒天時中止（順延日なし）",
-      "organizer": "小山市（問い合わせ：小山市商業観光課）",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": false,
-      "price": "有料観覧席あり（詳細は準備中・小山市発表待ち）",
-      "ticket_url": "不明",
-      "history_years": 74,
-      "history_description": "不明",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "JR小山駅西口より徒歩約8分",
-      "official_url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
-          "site_name": "小山市公式ホームページ",
-          "is_official": true,
-          "retrieved_date": "2026-08-07"
-        },
-        {
-          "url": "https://weathernews.jp/hanabi/spot/1801002/",
-          "site_name": "ウェザーニュース",
-          "is_official": false,
-          "retrieved_date": "2026-08-07"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
-          "site_name": "ウォーカープラス 花火大会2026",
-          "is_official": false,
-          "retrieved_date": "2026-08-07"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_541",
       "name": "青森港まつり花火大会",
       "alternate_names": [],
@@ -56192,8 +56128,12 @@
       "id": "festival_922",
       "name": "小山の花火",
       "alternate_names": [
-        "第74回小山の花火",
-        "小山花火大会"
+        "おやまの花火",
+        "おやまサマーフェスティバル",
+        "小山の花火（おやまサマーフェスティバル）",
+        "小山花火大会",
+        "思川花火大会",
+        "第74回小山の花火"
       ],
       "similar_name_warning": false,
       "prefecture": "栃木県",
@@ -56228,13 +56168,19 @@
           "url": "https://www.oyamanohanabi.com/summary.html",
           "site_name": "小山の花火 公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-09-15"
+          "retrieved_date": "2026-09-19"
         },
         {
           "url": "https://www.oyamanohanabi.com/viewingseats.html",
           "site_name": "小山の花火 公式サイト（観覧席情報）",
           "is_official": true,
           "retrieved_date": "2026-09-15"
+        },
+        {
+          "url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
+          "site_name": "小山市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
         },
         {
           "url": "https://oyama-navi.com/oyama-hanabi-2026",
@@ -56246,7 +56192,13 @@
           "url": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
           "site_name": "ウォーカープラス 花火大会2026",
           "is_official": false,
-          "retrieved_date": "2026-09-15"
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.tochigiji.or.jp/event/e17062",
+          "site_name": "とちぎ旅ネット",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
         }
       ],
       "trust_level": "高",
@@ -56263,7 +56215,9 @@
       "id": "festival_923",
       "name": "rockin'star Carnival 2026",
       "alternate_names": [
-        "ロッキンスター・カーニバル2026"
+        "ロッキンスターカーニバル",
+        "ロッキンスター・カーニバル2026",
+        "国営ひたち海浜公園花火大会"
       ],
       "similar_name_warning": false,
       "prefecture": "茨城県",
@@ -56298,7 +56252,7 @@
           "url": "https://rockinstarcarnival.jp/",
           "site_name": "rockin'star Carnival 公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-09-15"
+          "retrieved_date": "2026-09-19"
         },
         {
           "url": "https://www.ibarakiguide.jp/event.php?mode=detail&code=1145",
@@ -56307,10 +56261,22 @@
           "retrieved_date": "2026-09-15"
         },
         {
+          "url": "https://www.hitachikaihin.jp/",
+          "site_name": "国営ひたち海浜公園公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-19"
+        },
+        {
           "url": "https://hanabi.walkerplus.com/detail/ar0308e555797/",
           "site_name": "ウォーカープラス 花火大会2026",
           "is_official": false,
-          "retrieved_date": "2026-09-15"
+          "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://sorahanabi.com/ibaraki/hitachinaka/rockinstarcarnival.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-09-19"
         }
       ],
       "trust_level": "高",
@@ -57114,70 +57080,6 @@
       "year_comparison": {
         "changed": false,
         "details": ""
-      }
-    },
-    {
-      "id": "festival_936",
-      "name": "rockin'star Carnival 2026",
-      "alternate_names": [
-        "ロッキンスターカーニバル"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "茨城県",
-      "city": "ひたちなか市",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-03",
-      "date_note": "開場11:00・開演12:30・花火開演18:00・終演19:15（予定）",
-      "time_start": "18:00",
-      "time_end": "19:15",
-      "rain_policy": "雨天決行（荒天の場合は中止）",
-      "organizer": "ロッキング・オン・ジャパン／TOKYO FM",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": false,
-      "price": "有料（詳細金額は公式サイト参照）",
-      "ticket_url": "https://rockinstarcarnival.jp/",
-      "history_years": 2,
-      "history_description": "邦ロック・J-POPの名曲に約2万発の花火をシンクロさせる音楽花火イベント。2025年に初開催され、2026年は第2回。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "国営ひたち海浜公園（茨城県ひたちなか市）",
-      "official_url": "https://rockinstarcarnival.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://rockinstarcarnival.jp/",
-          "site_name": "rockin'star Carnival 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-09-17"
-        },
-        {
-          "url": "https://www.ibarakiguide.jp/special/hanabi.html",
-          "site_name": "観光いばらき公式ホームページ",
-          "is_official": true,
-          "retrieved_date": "2026-09-17"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0308e555797/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-09-17"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": "2025年に初開催（新規イベントのため昨年との日程比較対象外）"
       }
     },
     {
@@ -58298,71 +58200,6 @@
       }
     },
     {
-      "id": "festival_955",
-      "name": "小山の花火",
-      "alternate_names": [
-        "第74回小山の花火",
-        "おやまの花火"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "栃木県",
-      "city": "小山市",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-03",
-      "date_note": "荒天時は中止（順延なし）",
-      "time_start": "18:00",
-      "time_end": "19:00",
-      "rain_policy": "荒天時中止（順延なし）",
-      "organizer": "小山の花火実行委員会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": "不明（有料観覧エリアあり）",
-      "price": "事前の有料観覧席購入を推奨（詳細不明）",
-      "ticket_url": "https://www.oyamanohanabi.com/",
-      "history_years": 74,
-      "history_description": "「郷土の夜空を彩る 秋の祭典」をテーマに、観晃橋下流・思川河畔（小山市役所西側）で開催される第74回目の花火大会。約2万発を打ち上げ、例年約50万人が来場する栃木県内有数の規模。",
-      "food_stalls": "不明",
-      "crowd_level": "例年約50万人来場のため非常に混雑",
-      "visitors": "約50万人（例年）",
-      "access": "JR小山駅から徒歩、周辺は大混雑のため公共交通機関推奨",
-      "official_url": "https://www.oyamanohanabi.com/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.oyamanohanabi.com/summary.html",
-          "site_name": "小山の花火 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-09-19"
-        },
-        {
-          "url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
-          "site_name": "小山市公式ホームページ",
-          "is_official": true,
-          "retrieved_date": "2026-09-19"
-        },
-        {
-          "url": "https://www.tochigiji.or.jp/event/e17062",
-          "site_name": "とちぎ旅ネット",
-          "is_official": false,
-          "retrieved_date": "2026-09-19"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_956",
       "name": "富士河口湖紅葉まつり",
       "alternate_names": [],
@@ -58733,149 +58570,6 @@
       }
     },
     {
-      "id": "festival_962",
-      "name": "rockin'star Carnival",
-      "alternate_names": [
-        "ロッキンスター・カーニバル",
-        "国営ひたち海浜公園花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "茨城県",
-      "city": "ひたちなか市",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-03",
-      "date_note": "",
-      "time_start": "18:00",
-      "time_end": "19:15",
-      "rain_policy": "不明",
-      "organizer": "rockin'star Carnival実行委員会",
-      "genre": [
-        "花火",
-        "パレード"
-      ],
-      "scale": "その他",
-      "is_free": false,
-      "price": "不明",
-      "ticket_url": "https://l-tike.com/event/mevent/?mid=758856",
-      "history_years": "不明",
-      "history_description": "国営ひたち海浜公園を会場に、DJ和が繰り出すJ-ROCK・J-POPの名曲と約20,000発の花火をシンクロさせる音楽花火イベント。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "国営ひたち海浜公園",
-      "official_url": "https://rockinstarcarnival.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://rockinstarcarnival.jp/",
-          "site_name": "rockin'star Carnival公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-09-19"
-        },
-        {
-          "url": "https://www.hitachikaihin.jp/",
-          "site_name": "国営ひたち海浜公園公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-09-19"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0308e555797/",
-          "site_name": "花火大会2026 ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-09-19"
-        },
-        {
-          "url": "https://sorahanabi.com/ibaraki/hitachinaka/rockinstarcarnival.html",
-          "site_name": "空花火2026",
-          "is_official": false,
-          "retrieved_date": "2026-09-19"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_963",
-      "name": "第74回小山の花火",
-      "alternate_names": [
-        "小山の花火",
-        "思川花火大会"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "栃木県",
-      "city": "小山市",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-03",
-      "date_note": "2025年から開催時期を夏から秋へ変更",
-      "time_start": "18:00",
-      "time_end": "19:00",
-      "rain_policy": "荒天時中止（順延なし）",
-      "organizer": "小山の花火実行委員会",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "見学無料",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "観晃橋下流の思川河畔で開催される小山市の花火大会。テーマは「郷土の夜空を彩る秋の祭典」。",
-      "food_stalls": "不明",
-      "crowd_level": "例年多数の人出（約45万人規模との報道あり）",
-      "visitors": "不明",
-      "access": "観晃橋下流思川河畔",
-      "official_url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
-          "site_name": "小山市公式ホームページ",
-          "is_official": true,
-          "retrieved_date": "2026-09-19"
-        },
-        {
-          "url": "https://www.oyamanohanabi.com/summary.html",
-          "site_name": "小山の花火 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-09-19"
-        },
-        {
-          "url": "https://www.tochigiji.or.jp/event/e17062",
-          "site_name": "とちぎ旅ネット",
-          "is_official": false,
-          "retrieved_date": "2026-09-19"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
-          "site_name": "花火大会2026 ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-09-19"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_964",
       "name": "第53回池田町秋のワイン祭り",
       "alternate_names": [
@@ -59127,6 +58821,139 @@
       "conflict_note": "⚠️ 矛盾: 一部サイトは10/31開催（前日祭）と紹介しているが公式情報は11/1のみ",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_968",
+      "name": "伊香保まつり",
+      "alternate_names": [
+        "伊香保神社例大祭",
+        "蘆花祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "群馬県",
+      "city": "渋川市",
+      "date_start": "2026-09-18",
+      "date_end": "2026-09-20",
+      "date_note": "18日は蘆花祭、19・20日は伊香保神社例大祭。あわせて「伊香保まつり」として開催。",
+      "time_start": "13:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "伊香保まつり実行委員会（渋川市）",
+      "genre": [
+        "神輿",
+        "山車",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（見学無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "伊香保温泉・石段街を舞台に、樽みこしや本神輿、子供山車が石段街を練り歩く秋祭り。18日は徳冨蘆花を偲ぶ蘆花追悼式（蘆花祭）、19・20日は伊香保神社の例大祭として本神輿渡御や樽みこし、若連山車の宮入などが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "伊香保石段街・伊香保神社・徳冨蘆花記念文学館ほか温泉町内各所",
+      "official_url": "https://www.city.shibukawa.lg.jp/event/matsuri/p011595.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.shibukawa.lg.jp/event/matsuri/p011595.html",
+          "site_name": "渋川市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://www.ikaho-kankou.com/calendar/ikaho-matsuri/",
+          "site_name": "渋川伊香保温泉観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://www.jomo-news.co.jp/articles/-/1026177",
+          "site_name": "上毛新聞電子版",
+          "is_official": false,
+          "retrieved_date": "2026-09-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_969",
+      "name": "潮かけ祭り（大島祭）",
+      "alternate_names": [
+        "大島祭",
+        "潮かけ祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "志摩市",
+      "date_start": "2026-07-14",
+      "date_end": "2026-07-14",
+      "date_note": "日本遺産「海女」関連行事。開催日について一部情報源で「9月下旬」との記載も見られたが、観光三重・伊勢志摩観光ナビ・文化庁日本遺産ポータルは7月14日開催として案内しており、こちらを採用。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事",
+        "パレード"
+      ],
+      "scale": "その他（日本遺産構成文化財）",
+      "is_free": true,
+      "price": "不明（見学無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "海の女神・市杵島姫命が大島の祠に里帰りするのを祝い、海女や漁師がその日の獲物を供え、海の安全と大漁を祈願する神事の後、船同士・人同士でバケツやホースの海水をかけ合う志摩市和具地区の奇祭。祭り広場ではステージイベントや花火大会、太鼓演奏、夜店も行われる。",
+      "food_stalls": "夜店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "志摩市志摩町和具・和具漁港周辺",
+      "official_url": "https://www.kankomie.or.jp/event/5111",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.iseshima-kanko.jp/event/1020",
+          "site_name": "伊勢志摩観光ナビ",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://www.kankomie.or.jp/event/5111",
+          "site_name": "観光三重",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://japan-heritage.bunka.go.jp/ja/culturalproperties/result/4279/",
+          "site_name": "日本遺産ポータルサイト（文化庁）",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾: 開催日について「7月14日」とする公式系情報源が複数ある一方、9月下旬開催とする情報も一部で見られ、要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
