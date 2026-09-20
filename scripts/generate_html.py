@@ -738,7 +738,9 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
 </head>
 <body>
 <a href="#main" class="skip-link">メインコンテンツへスキップ</a>
+<header>
 {nav}
+</header>
 <main id="main">
 {body}
 </main>
