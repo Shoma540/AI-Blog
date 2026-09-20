@@ -455,6 +455,18 @@
       "verify_after": "2026-09-21",
       "result": "",
       "commit": "b2a9dec432ce83b08731275df7cd03141715feb0"
+    },
+    {
+      "date": "2026-09-20 08:18",
+      "analysis": "GA4スナップショット（2026-09-20 08:17取得、過去7日間）はセッション0件・ページビュー0件が継続しており、データ不十分期（週間セッション50未満）が続いている。前回改善entry2件（2026-09-16のfooterランドマーク化、2026-09-17のog:image:alt追加。verify_afterはそれぞれ2026-09-19・2026-09-20で到来済み）は本実行冒頭で効果測定し、いずれもアクセス0件のため「変化なし」を記録した。validate_site.pyは全項目通過し、直近の改善（2026-09-18、theme-colorのダークモード出し分け）によるサイト破損は無し。過去の学習記録（38件）を確認したところ、meta description・JSON-LD（Event/WebSite/Organization/Breadcrumb）・sitemap・robots.txt・favicon・skip-link・focus-visible・reduced-motion・ダークモード・装飾絵文字のaria-hidden化・nav aria-label・タブのキーボード操作・h3見出し化・footerのランドマーク化（contentinfo）・og:image:alt・theme-colorのダーク対応など幅広いSEO/アクセシビリティ改善が積み重ねられてきた一方、2026-09-16にfooter要素をmainの外に出してcontentinfoランドマークを付与した際、nav要素は依然としてbody直下に裸で置かれたままであり、header要素（暗黙のbannerランドマークロール）で囲まれていなかった。そのため、footerがcontentinfoランドマークとして発見できるようになった一方で、ページ上部のサイトロゴ・グローバルナビゲーションを含む領域はbannerランドマークとしてスクリーンリーダーのランドマークナビゲーションから一貫して発見できない状態が残っていた。",
+      "action": "scripts/generate_html.py の html_page() で、<a class=\"skip-link\">の直後・<main id=\"main\">の直前にあった{nav}を、<header>{nav}</header>で囲むように変更した。footerの時と同様、nav要素自体の内容・aria-label・CSS（bodyの直接の子であることに依存しないセレクタ）は変更していない。html_page()は全61ページ共通テンプレートのため、index/map/calendar/prefecture(47)/month(11)/404の全ページに適用される。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "nav要素がheader要素で囲まれたことで、HTML5仕様に基づきbannerランドマークロールが暗黙的に付与されるようになり、スクリーンリーダー利用者がランドマークナビゲーション機能でサイトロゴ・グローバルナビゲーション（ホーム・地図・カレンダー）を含む領域に直接ジャンプできるようになるはず。footer側は既にcontentinfoランドマーク化済みのため、これによりページ上部・下部の主要ランドマークが揃うことになる。CSSのnavセレクタは入れ子位置に依存しないため、視覚的なレイアウト・スタイルには変化が生じない。表示速度やGA4のセッション数には直接影響しない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認を中心に経過観察する。",
+      "verify_after": "2026-09-23",
+      "result": "",
+      "commit": "99d52491b68a5dbea61b6d4d9529d6f8317ece81"
     }
   ]
 }
