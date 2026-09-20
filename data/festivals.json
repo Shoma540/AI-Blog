@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20 17:15",
+  "last_updated": "2026-09-20 18:18",
   "festivals": [
     {
       "id": "festival_001",
@@ -58887,7 +58887,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -58953,7 +58953,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 開催日について「7月14日」とする公式系情報源が複数ある一方、9月下旬開催とする情報も一部で見られ、要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -59011,7 +59011,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -59078,7 +59078,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾: 開催日について町公式サイトは「10/25,26,27」、町公式Xは「例大祭10/24〜26、太鼓台運行は25・26日」と表記が異なる。要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -59139,11 +59139,150 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_973",
+      "name": "荒川神社秋季例大祭（小芋祭り）",
+      "alternate_names": [
+        "小芋祭り",
+        "荒川神社例祭風流"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "姫路市",
+      "date_start": "2026-10-17",
+      "date_end": "2026-10-18",
+      "date_note": "毎年10月第3土・日曜日に開催。宵宮祭（17日）・本宮祭（18日）。本宮祭では午前8時過ぎに子供樽みこしの宮入り、9時頃から屋台の宮入りが始まり、17時頃から周辺6町の屋台6台による「6台練り」が行われる。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "荒川神社",
+      "genre": [
+        "屋台行事",
+        "神輿",
+        "神事"
+      ],
+      "scale": "市指定重要無形民俗文化財（荒川神社例祭風流）",
+      "is_free": true,
+      "price": "不明（見学無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "「小芋祭り」とも呼ばれる荒川神社の秋季例大祭。屋台を練る様子が小芋を洗うように見えることが名前の由来とされる。「階段登り」や拝殿前での練りが見どころ。2004年9月、「田休みの祭（湯立祭）」「八朔祭」とあわせて姫路市の重要無形民俗文化財に指定された。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR山陽本線「手柄山平和公園駅」北口から西へ徒歩約14分。専用駐車場情報は不明。",
+      "official_url": "https://www.city.himeji.lg.jp/kanko/0000002075.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.himeji.lg.jp/kanko/0000002075.html",
+          "site_name": "姫路市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://arakawa-jinja.jp/event/%E7%A7%8B%E5%AD%A3%E4%BE%8B%E5%A4%A7%E7%A5%AD-%E5%B0%8F%E8%8A%8B%E7%A5%AD%E3%82%8A-%E5%AE%B5%E5%AE%AE%E7%A5%AD-%E6%9C%AC%E5%AE%AE%E7%A5%AD/",
+          "site_name": "荒川神社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://tanosu.com/trip/2861/",
+          "site_name": "TANOSU（はりまエリア地域情報サイト）",
+          "is_official": false,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://www.himeji-mitai.com/feature/382639.html",
+          "site_name": "みつけて播磨（まるはり×みたい）",
+          "is_official": false,
+          "retrieved_date": "2026-09-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "例年10月第3土・日曜日に開催。前年からの変更点は確認されず。"
+      }
+    },
+    {
+      "id": "festival_974",
+      "name": "米原曳山まつり",
+      "alternate_names": [
+        "米原曳山祭",
+        "本曳山まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "滋賀県",
+      "city": "米原市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-12",
+      "date_note": "毎年スポーツの日を含む10月の3連休に開催。宵宮・本楽・後宴の3日間で曳山が運行される。2026年は10月10日(土・宵宮)〜12日(月・祝・後宴)。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "米原曳山まつり保存会（湯谷神社祭礼）",
+      "genre": [
+        "曳山",
+        "神事"
+      ],
+      "scale": "県指定無形民俗文化財（滋賀県選択無形民俗文化財）",
+      "is_free": true,
+      "price": "不明（見学無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "湯谷神社の祭礼に由来し、江戸時代後期に始まったとされる曳山まつり。小学1年生から6年生の男の子たちが曳山の上で演じる子ども歌舞伎が見どころ。1987年に米原町の無形文化財、1992年に滋賀県選択無形民俗文化財に指定された。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.maibara.lg.jp/soshiki/keizai_kankyo/shoko_kanko/kanko_info/spot/saiji/14382.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.maibara.lg.jp/soshiki/keizai_kankyo/shoko_kanko/kanko_info/spot/saiji/14382.html",
+          "site_name": "米原市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://www.biwako-visitors.jp/event/detail/21799/",
+          "site_name": "滋賀県観光情報公式サイト（びわ湖ビジターズビューロー）",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://kitabiwako.jp/ja/event/event_50517",
+          "site_name": "北びわこ観光情報サイト",
+          "is_official": false,
+          "retrieved_date": "2026-09-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "例年スポーツの日を含む10月3連休に開催。前年からの変更点は確認されず。"
       }
     }
   ]
