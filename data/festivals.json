@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19 18:15",
+  "last_updated": "2026-09-20 08:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -58938,6 +58938,193 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_965",
+      "name": "たかさご万灯祭2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "高砂市",
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-22",
+      "date_note": "例年より開始・終了時刻が1時間前倒し",
+      "time_start": "17:00",
+      "time_end": "20:00",
+      "rain_policy": "天候等により開催を見合わせる場合あり",
+      "organizer": "不明",
+      "genre": [
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "山陽電車高砂駅南側一帯を会場に、路地キャンドルなど灯りの演出で歴史情緒あふれるまちを彩る祭り。ジャズライブや建物ライトアップ、楽市・展示会も実施される。",
+      "food_stalls": "楽市など出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "山陽電車高砂駅南側一帯",
+      "official_url": "https://www.city.takasago.lg.jp/soshikikarasagasu/citypromotionshitsu/kanko_tokusan/2/13744.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.takasago.lg.jp/soshikikarasagasu/citypromotionshitsu/kanko_tokusan/2/13744.html",
+          "site_name": "高砂市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2076543/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://escort-online.sanyo-railway.co.jp/9352/",
+          "site_name": "エスコートオンライン（山陽電車）",
+          "is_official": false,
+          "retrieved_date": "2026-09-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_966",
+      "name": "東海秋まつり2026",
+      "alternate_names": [
+        "東海秋まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "東海市",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-08",
+      "date_note": "11/7 10:00-16:00、11/8 9:30-15:30",
+      "time_start": "09:30",
+      "time_end": "16:00",
+      "rain_policy": "不明",
+      "organizer": "東海秋まつり実行委員会事務局",
+      "genre": [
+        "民俗芸能",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "産業まつり・消費者広場・文化祭・農業フェスティバル・インターナショナルデーなどを一斉に開催する東海市内最大規模のイベント。元浜公園会場（元浜公園・市民体育館・勤労センター）と太田川駅前会場（観光物産プラザ）で実施され、物産品・農産物の販売、山車の披露、ステージイベント、文化作品展示などが行われる。",
+      "food_stalls": "物産品・農産物の販売あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "元浜公園会場／太田川駅前会場（愛知県東海市元浜町64-2ほか）",
+      "official_url": "https://www.city.tokai.aichi.jp/business/1002969/1009112.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/2368/",
+          "site_name": "Aichi Now（愛知県観光公式サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://www.tokaikanko.com/event/aki_matsuri/",
+          "site_name": "東海市観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://www.city.tokai.aichi.jp/business/1002969/1009112.html",
+          "site_name": "東海市公式ウェブサイト（前年開催実績ページ）",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_967",
+      "name": "豊明秋まつり",
+      "alternate_names": [
+        "豊明秋まつり2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "豊明市",
+      "date_start": "2026-11-01",
+      "date_end": "2026-11-01",
+      "date_note": "一部情報源は10/31を前日祭として紹介しているが、豊明市公式ページでは11/1のみの開催と明記",
+      "time_start": "10:00",
+      "time_end": "16:00",
+      "rain_policy": "不明",
+      "organizer": "豊明秋まつり実行委員会",
+      "genre": [
+        "民俗芸能",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（無料と推定）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "豊明市共生交流プラザ「カラット」を会場に、ステージ発表・縁舞祭・みんなのマーケットなどを行う市の秋まつり。",
+      "food_stalls": "みんなのマーケットにキッチンカー等出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "豊明市共生交流プラザ カラット",
+      "official_url": "https://www.city.toyoake.lg.jp/item/34625.htm",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.toyoake.lg.jp/item/34625.htm",
+          "site_name": "豊明市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        },
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/2389/",
+          "site_name": "Aichi Now（愛知県観光公式サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-20"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾: 一部サイトは10/31開催（前日祭）と紹介しているが公式情報は11/1のみ",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
