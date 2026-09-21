@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21 16:16",
+  "last_updated": "2026-09-21 17:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -4780,12 +4780,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -37029,11 +37025,8 @@
       "trust_level": "高",
       "conflict_note": "台風25号接近に伴い、柏市公式発表により9/20(日)分は中止（荒天予想のため）。9/19(土)分は実施。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50994,9 +50987,11 @@
       ],
       "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -57912,8 +57907,8 @@
       "similar_name_warning": true,
       "prefecture": "石川県",
       "city": "鳳珠郡能登町",
-      "date_start": "2026-09-25",
-      "date_end": "2026-09-25",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
       "date_note": "例年9月25日開催と伝えられるが、2026年の公式日程は一次情報で確認できず",
       "time_start": "不明",
       "time_end": "不明",
@@ -57947,16 +57942,28 @@
           "site_name": "能登のキリコ祭り（日本遺産公式）",
           "is_official": true,
           "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://aqua.w3.kanazawa-u.ac.jp/blog/2026/09/20/20260919%E3%80%80%E8%83%BD%E7%99%BB%E6%B5%B7%E6%B4%8B%E6%B0%B4%E7%94%A3%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E6%83%85%E5%A0%B1%E3%80%9C2026%E5%B9%B4%E5%B0%8F%E6%9C%A8%E8%A2%96%E3%81%8E%E3%82%8A/",
+          "site_name": "能登海洋水産センター（金沢大学）ブログ",
+          "is_official": false,
+          "retrieved_date": "2026-09-21"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "旧データでは開催日を2026-09-25としていたが、公式サイト（ほっと石川旅ねっと）を直接確認した結果「2026年9月19日(土)、20日(日)」と明記されており、「毎年9月第3土日」というルールとも一致するため2026-09-19〜20に訂正。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "訂正：旧登録日2026-09-25 → 正しい開催日2026-09-19〜20（公式サイト直接確認）"
       }
     },
     {
@@ -59430,6 +59437,69 @@
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_977",
+      "name": "東松島秋まつり",
+      "alternate_names": [
+        "東松島夏まつり（改称）"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "東松島市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "従来は夏に開催していたが2026年から秋開催に変更。翌10/4の松島基地航空祭と2日連続開催。",
+      "time_start": "12:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "東松島秋まつり実行委員会（東松島市商工会周辺）",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": 0,
+      "history_description": "従来の東松島夏まつりが2026年に「東松島秋まつり」として秋開催に改称された。",
+      "food_stalls": "多数の出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR仙石線矢本駅から徒歩1分",
+      "official_url": "https://www.city.higashimatsushima.miyagi.jp/jikan/kakotopics/natsumatsuri2025.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.higashimatsushima.miyagi.jp/jikan/kakotopics/natsumatsuri2025.html",
+          "site_name": "東松島市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-21"
+        },
+        {
+          "url": "https://www.miyagi-kankou.or.jp/kakikomi/detail.php?id=11007",
+          "site_name": "宮城まるごと探訪（宮城県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-21"
+        },
+        {
+          "url": "https://ishinomaki-higashimatsushima.goguynet.jp/2026/03/04/post-17915/",
+          "site_name": "石巻・東松島経済新聞系地域ニュース",
+          "is_official": false,
+          "retrieved_date": "2026-09-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：東松島夏まつり（夏開催） → 今年：東松島秋まつりに改称し10/3開催、翌日の松島基地航空祭と連続開催に"
       }
     }
   ]
