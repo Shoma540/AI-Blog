@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21 17:17",
+  "last_updated": "2026-09-21 18:21",
   "festivals": [
     {
       "id": "festival_001",
@@ -40885,12 +40885,20 @@
           "site_name": "ほっかいどう秋の大収穫祭 公式サイト",
           "is_official": true,
           "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001251.000088209.html",
+          "site_name": "PR TIMES（北海道発表のプレスリリース）",
+          "is_official": true,
+          "retrieved_date": "2026-09-18"
         }
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -43625,72 +43633,6 @@
       }
     },
     {
-      "id": "festival_721",
-      "name": "西条まつり",
-      "alternate_names": [
-        "西条祭り"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "愛媛県",
-      "city": "西条市",
-      "date_start": "2026-10-14",
-      "date_end": "2026-10-17",
-      "date_note": "西条市内4神社の祭礼が連続して行われる総称。嘉母神社祭礼・石岡神社祭礼は10/14-15、伊曽乃神社祭礼（最大規模、だんじり・みこし約80台が加茂川に入る「川入り」で有名）は10/15-16、飯積神社祭礼は10/16-17。「川入り」は10/16夕刻。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "西条市（各神社氏子・だんじり関係団体）、(一社)西条市観光物産協会",
-      "genre": [
-        "だんじり",
-        "神輿",
-        "神事"
-      ],
-      "scale": "愛媛県を代表する大規模祭礼（だんじり・みこし合計約150台奉納）",
-      "is_free": true,
-      "price": "不明",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "伊曽乃神社・石岡神社・嘉母神社・飯積神社という西条市内4つの神社の秋季例大祭が連続して行われる祭礼群の総称。だんじり・みこしが加茂川に入る「川入り」が最大の見どころ。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "JR伊予西条駅下車",
-      "official_url": "https://www.iyokannet.jp/event/2552",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.iyokannet.jp/event/2552",
-          "site_name": "いよ観ネット（愛媛県公式観光サイト）",
-          "is_official": true,
-          "retrieved_date": "2026-08-18"
-        },
-        {
-          "url": "https://ehime.travel/articles/saijo-event-map/",
-          "site_name": "まちかど愛媛",
-          "is_official": false,
-          "retrieved_date": "2026-08-18"
-        },
-        {
-          "url": "https://shikoku-tourism.com/feature/saijo_matsuri/saijo_matsuri",
-          "site_name": "四国ツーリズム創造機構",
-          "is_official": false,
-          "retrieved_date": "2026-08-18"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "神社ごとに祭礼日が異なり(10/14-17に分散)、単一の「開催日」として一元化しにくいため、代表として最も規模の大きい伊曽乃神社祭礼を含む全体期間(10/14-17)をdate_start/date_endとした。データベース内の既存祭りとの重複（岸和田だんじり祭など）とは主催・地域が異なる別祭りであることを確認済み。",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_722",
       "name": "諸鈍シバヤ",
       "alternate_names": [
@@ -44135,13 +44077,27 @@
           "site_name": "ちば観光ナビ（千葉県公式）",
           "is_official": true,
           "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://isumi-kankou.com/hadakamaturi/",
+          "site_name": "いすみ市観光センター",
+          "is_official": true,
+          "retrieved_date": "2026-09-21"
+        },
+        {
+          "url": "https://www.gurutto-chiba.co.jp/event/ohara-hadaka-matsuri-isumi-2026",
+          "site_name": "ぐるっと千葉",
+          "is_official": false,
+          "retrieved_date": "2026-09-21"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50988,10 +50944,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -52982,13 +52936,27 @@
           "site_name": "愛知県公式観光サイト Aichi Now",
           "is_official": true,
           "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://www.city.tsushima.lg.jp/shokai/matsurikyoudo/akimaturi/akimatsuri.html",
+          "site_name": "津島市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-17"
+        },
+        {
+          "url": "http://www.npo-tsushima.org/omatsuri/akimatsuri/index.html",
+          "site_name": "つしまNPO・ボランティア支援センター",
+          "is_official": false,
+          "retrieved_date": "2026-09-17"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -57097,77 +57065,6 @@
       }
     },
     {
-      "id": "festival_937",
-      "name": "尾張津島秋まつり",
-      "alternate_names": [
-        "尾張津島秋祭り"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "愛知県",
-      "city": "津島市",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-04",
-      "date_note": "10月第1日曜日とその前日の土曜日に開催。16輌の山車が参加、からくり人形披露や神明太鼓、石採祭車の競演、夜の一斉総車切などを実施。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "津島市観光協会・津島市まちづくり推進部",
-      "genre": [
-        "山車",
-        "神事"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "見学無料（記載なし、無料と推定）",
-      "ticket_url": "不明",
-      "history_years": 300,
-      "history_description": "18世紀初め頃（約300年前）に始まったと伝わる津島神社の秋まつり。からくり人形を載せた山車の技が代々受け継がれている。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "名鉄名古屋駅から津島駅まで約24分、津島駅から徒歩約15分（約1km）。車は東名阪自動車道「弥富IC」から約15分。",
-      "official_url": "https://www.city.tsushima.lg.jp/shokai/matsurikyoudo/akimaturi/akimatsuri.html",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.city.tsushima.lg.jp/shokai/matsurikyoudo/akimaturi/akimatsuri.html",
-          "site_name": "津島市公式ホームページ",
-          "is_official": true,
-          "retrieved_date": "2026-09-17"
-        },
-        {
-          "url": "https://aichinow.pref.aichi.jp/events/detail/75/",
-          "site_name": "愛知県観光サイトAichi Now",
-          "is_official": true,
-          "retrieved_date": "2026-09-17"
-        },
-        {
-          "url": "https://tsushima-kankou.com/akimatsuri/",
-          "site_name": "津島市観光協会",
-          "is_official": true,
-          "retrieved_date": "2026-09-17"
-        },
-        {
-          "url": "http://www.npo-tsushima.org/omatsuri/akimatsuri/index.html",
-          "site_name": "つしまNPO・ボランティア支援センター",
-          "is_official": false,
-          "retrieved_date": "2026-09-17"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_938",
       "name": "赤城神社例大祭",
       "alternate_names": [],
@@ -57598,65 +57495,6 @@
       }
     },
     {
-      "id": "festival_945",
-      "name": "ほっかいどう秋の大収穫祭",
-      "alternate_names": [
-        "ほっかいどう秋の大収穫祭〜つなぐミライのタネ〜"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "北海道",
-      "city": "札幌市",
-      "date_start": "2026-10-02",
-      "date_end": "2026-10-04",
-      "date_note": "10/2(金)11:00〜16:00、10/3(土)10:00〜16:00、10/4(日)10:00〜15:00と日ごとに時間が異なる。",
-      "time_start": "10:00",
-      "time_end": "16:00",
-      "rain_policy": "不明",
-      "organizer": "北海道（農政部食料安全保障推進局）",
-      "genre": [
-        "農祭り",
-        "その他"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "入場無料（推定、公式サイトに料金記載なし）",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "収穫の秋を迎えた北海道の農業をはじめとした一次産業と農林水産物をPRするイベント。道内58団体が出展し、農林水産品の対面販売や道産グルメの提供、体験型アクティビティ、特設ステージでの集客イベントなどを実施。",
-      "food_stalls": "道産グルメの提供あり、農林水産品の対面販売あり",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "札幌市中央区・赤れんが庁舎前庭（赤れんがガーデン）",
-      "official_url": "https://www.pref.hokkaido.lg.jp/ns/sas/233713.html",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.pref.hokkaido.lg.jp/ns/sas/233713.html",
-          "site_name": "北海道庁 農政部食料安全保障推進局",
-          "is_official": true,
-          "retrieved_date": "2026-09-18"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000001251.000088209.html",
-          "site_name": "PR TIMES（北海道発表のプレスリリース）",
-          "is_official": true,
-          "retrieved_date": "2026-09-18"
-        }
-      ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_946",
       "name": "名月管絃祭",
       "alternate_names": [
@@ -57953,14 +57791,8 @@
       "trust_level": "高",
       "conflict_note": "旧データでは開催日を2026-09-25としていたが、公式サイト（ほっと石川旅ねっと）を直接確認した結果「2026年9月19日(土)、20日(日)」と明記されており、「毎年9月第3土日」というルールとも一致するため2026-09-19〜20に訂正。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "trust_level",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "訂正：旧登録日2026-09-25 → 正しい開催日2026-09-19〜20（公式サイト直接確認）"
@@ -58428,7 +58260,7 @@
       "city": "西条市",
       "date_start": "2026-10-10",
       "date_end": "2026-10-17",
-      "date_note": "嘉母神社祭礼10/10-11、石岡神社祭礼10/14-15、伊曽乃神社祭礼10/15-16、飯積神社祭礼10/16-17の4神社例祭の総称",
+      "date_note": "西条市内の複数神社（伊曽乃神社・石岡神社・嘉母神社・飯積神社等）が氏子地域ごとにだんじり・みこし行事を行う総称的な祭りで、地区・神社により実施日が異なる。西条市公式サイトでは10/10〜10/17を期間として案内。中心的な行事（伊曽乃神社例大祭のだんじり運行等）は10/14〜17に集中するとの情報もあり、来場予定日の地区の実施日は個別に確認が必要。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -58466,13 +58298,37 @@
           "site_name": "RNBエンタメディア",
           "is_official": false,
           "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://www.iyokannet.jp/event/2552",
+          "site_name": "いよ観ネット（愛媛県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://ehime.travel/articles/saijo-event-map/",
+          "site_name": "まちかど愛媛",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
+        },
+        {
+          "url": "https://shikoku-tourism.com/feature/saijo_matsuri/saijo_matsuri",
+          "site_name": "四国ツーリズム創造機構",
+          "is_official": false,
+          "retrieved_date": "2026-08-18"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "複数ソースで祭り期間の表記に幅（10/10〜17 と 10/14〜17）があり、地区別の日程差に起因する可能性が高いが要確認。",
+      "requires_check": true,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "date_end",
+        "date_start",
+        "conflict_note",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -59312,69 +59168,6 @@
       }
     },
     {
-      "id": "festival_975",
-      "name": "大原はだか祭り",
-      "alternate_names": [],
-      "similar_name_warning": false,
-      "prefecture": "千葉県",
-      "city": "いすみ市",
-      "date_start": "2026-09-23",
-      "date_end": "2026-09-24",
-      "date_note": "汐ふみは9/23 14:30頃、大別れ式は両日18時頃に実施予定。",
-      "time_start": "14:30",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "大原地区祭礼運営組織（いすみ市）",
-      "genre": [
-        "神輿",
-        "神事"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "見学無料",
-      "ticket_url": "不明",
-      "history_years": "不明",
-      "history_description": "十数基の神輿が大原海水浴場へ一斉に担ぎ込まれもみ合う「汐ふみ」と、両日夕方に大原小学校で神輿が激しく行き交う「大別れ」を中心とした、いすみ市大原地区の秋祭り。",
-      "food_stalls": "大原中央商店街周辺に露店が並ぶ",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "JR外房線大原駅から徒歩。祭礼期間中は周辺で交通規制あり。",
-      "official_url": "https://isumi-kankou.com/hadakamaturi/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://isumi-kankou.com/hadakamaturi/",
-          "site_name": "いすみ市観光センター",
-          "is_official": true,
-          "retrieved_date": "2026-09-21"
-        },
-        {
-          "url": "https://www.gurutto-chiba.co.jp/event/ohara-hadaka-matsuri-isumi-2026",
-          "site_name": "ぐるっと千葉",
-          "is_official": false,
-          "retrieved_date": "2026-09-21"
-        },
-        {
-          "url": "https://maruchiba.jp/event/detail_13144.html",
-          "site_name": "千葉県公式観光サイト まるごとちば",
-          "is_official": true,
-          "retrieved_date": "2026-09-21"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_976",
       "name": "恵美酒宮天満神社秋季例大祭（台場練り）",
       "alternate_names": [
@@ -59495,7 +59288,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
