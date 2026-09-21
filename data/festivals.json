@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20 18:18",
+  "last_updated": "2026-09-21 12:21",
   "festivals": [
     {
       "id": "festival_001",
@@ -59212,7 +59212,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -59278,11 +59278,139 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": "例年スポーツの日を含む10月3連休に開催。前年からの変更点は確認されず。"
+      }
+    },
+    {
+      "id": "festival_975",
+      "name": "大原はだか祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "いすみ市",
+      "date_start": "2026-09-23",
+      "date_end": "2026-09-24",
+      "date_note": "汐ふみは9/23 14:30頃、大別れ式は両日18時頃に実施予定。",
+      "time_start": "14:30",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "大原地区祭礼運営組織（いすみ市）",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "十数基の神輿が大原海水浴場へ一斉に担ぎ込まれもみ合う「汐ふみ」と、両日夕方に大原小学校で神輿が激しく行き交う「大別れ」を中心とした、いすみ市大原地区の秋祭り。",
+      "food_stalls": "大原中央商店街周辺に露店が並ぶ",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR外房線大原駅から徒歩。祭礼期間中は周辺で交通規制あり。",
+      "official_url": "https://isumi-kankou.com/hadakamaturi/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://isumi-kankou.com/hadakamaturi/",
+          "site_name": "いすみ市観光センター",
+          "is_official": true,
+          "retrieved_date": "2026-09-21"
+        },
+        {
+          "url": "https://www.gurutto-chiba.co.jp/event/ohara-hadaka-matsuri-isumi-2026",
+          "site_name": "ぐるっと千葉",
+          "is_official": false,
+          "retrieved_date": "2026-09-21"
+        },
+        {
+          "url": "https://maruchiba.jp/event/detail_13144.html",
+          "site_name": "千葉県公式観光サイト まるごとちば",
+          "is_official": true,
+          "retrieved_date": "2026-09-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_976",
+      "name": "恵美酒宮天満神社秋季例大祭（台場練り）",
+      "alternate_names": [
+        "飾磨祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "姫路市",
+      "date_start": "2026-10-08",
+      "date_end": "2026-10-09",
+      "date_note": "台場練りは氏子8地区の屋台による奉納行事。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "恵美酒宮天満神社／氏子8地区",
+      "genre": [
+        "屋台行事",
+        "神事"
+      ],
+      "scale": "姫路市指定重要無形民俗文化財（台場練り）",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "氏子8地区が繰り出す屋台のもと、24人で神輿型の「泥台」を肩で担ぎ上げて練り歩く「台場練り」が特徴。重さ約2トンの屋台が宙に浮いているように見える豪快さで知られる播州秋祭りのひとつ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "山陽電車「飾磨駅」から南西へ徒歩約10分。",
+      "official_url": "https://www.city.himeji.lg.jp/kanko/0000002062.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.himeji.lg.jp/kanko/0000002062.html",
+          "site_name": "姫路市役所",
+          "is_official": true,
+          "retrieved_date": "2026-09-21"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_316015/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-09-21"
+        },
+        {
+          "url": "https://tanosu.com/trip/2861/",
+          "site_name": "tanoSU（播州秋祭り特集）",
+          "is_official": false,
+          "retrieved_date": "2026-09-21"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
