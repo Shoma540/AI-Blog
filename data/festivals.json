@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21 12:21",
+  "last_updated": "2026-09-21 16:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -4726,7 +4726,7 @@
       "city": "秩父市",
       "date_start": "2026-12-02",
       "date_end": "2026-12-03",
-      "date_note": "12/2宵宮、12/3大祭",
+      "date_note": "12/2宵宮、12/3大祭。秩父夜祭は毎年12/2・12/3の固定日程で開催（曜日は年により変動）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -4769,13 +4769,23 @@
           "site_name": "花火大会2026 ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-07-03"
+        },
+        {
+          "url": "https://saitamahanabi-navi.com/chichibu-yomatsuri-hanabi/",
+          "site_name": "埼玉花火ナビ（秩父夜祭2026特集）",
+          "is_official": false,
+          "retrieved_date": "2026-09-21"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "requires_check",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -37008,13 +37018,22 @@
           "site_name": "まちっと柏",
           "is_official": false,
           "retrieved_date": "2026-09-05"
+        },
+        {
+          "url": "https://www.city.kashiwa.lg.jp/chiiki-community/kashiwamatsuri/kashiwamatsuri2026-3.html",
+          "site_name": "柏市公式ホームページ（中止告知）",
+          "is_official": true,
+          "retrieved_date": "2026-09-21"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "台風25号接近に伴い、柏市公式発表により9/20(日)分は中止（荒天予想のため）。9/19(土)分は実施。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -59341,7 +59360,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -59406,7 +59425,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
