@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21 18:21",
+  "last_updated": "2026-09-22 08:21",
   "festivals": [
     {
       "id": "festival_001",
@@ -40895,10 +40895,8 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -44094,10 +44092,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -52953,10 +52949,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -58321,14 +58315,8 @@
       "trust_level": "中",
       "conflict_note": "複数ソースで祭り期間の表記に幅（10/10〜17 と 10/14〜17）があり、地区別の日程差に起因する可能性が高いが要確認。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "date_end",
-        "date_start",
-        "conflict_note",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -59293,6 +59281,135 @@
       "year_comparison": {
         "changed": true,
         "details": "昨年：東松島夏まつり（夏開催） → 今年：東松島秋まつりに改称し10/3開催、翌日の松島基地航空祭と連続開催に"
+      }
+    },
+    {
+      "id": "festival_978",
+      "name": "ロッキンスターカーニバル",
+      "alternate_names": [
+        "rockin'star Carnival"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "茨城県",
+      "city": "ひたちなか市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "同市内で開催される「ひたちなか祭り花火大会」（8月開催・陸上自衛隊勝田駐屯地）とは異なる別イベント。混同注意。",
+      "time_start": "11:00",
+      "time_end": "19:15",
+      "rain_policy": "雨天決行。荒天の場合は中止。",
+      "organizer": "ロッキング・オン・ジャパン、TOKYO FM",
+      "genre": [
+        "花火",
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "全席有料（金額は公式サイト要確認）",
+      "ticket_url": "https://rockinstarcarnival.jp/",
+      "history_years": "不明",
+      "history_description": "音楽と約20,000発の花火を同期させる音楽×花火の複合イベント。",
+      "food_stalls": "JAPAN Sweets Festival、フードコート（50店舗以上）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "国営ひたち海浜公園（茨城県ひたちなか市馬渡大沼605-4）",
+      "official_url": "https://rockinstarcarnival.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://rockinstarcarnival.jp/",
+          "site_name": "rockin'star Carnival 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://sorahanabi.com/ibaraki/hitachinaka/rockinstarcarnival.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87168.html",
+          "site_name": "花火大会2026（じゃらん系）",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_979",
+      "name": "小山の花火",
+      "alternate_names": [
+        "第74回小山の花火"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "小山市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "第74回。荒天時は中止、順延日なし。",
+      "time_start": "18:00",
+      "time_end": "不明",
+      "rain_policy": "荒天時には中止。順延日はなし。",
+      "organizer": "小山の花火実行委員会（小山市商業観光課内）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（有料観覧席あり）",
+      "ticket_url": "https://www.oyamanohanabi.com/",
+      "history_years": 74,
+      "history_description": "第74回を数える栃木県小山市の秋の花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "観晃橋下流思川河畔（栃木県小山市）",
+      "official_url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
+          "site_name": "小山市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://www.oyamanohanabi.com/",
+          "site_name": "小山の花火 公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
+          "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
