@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22 16:21",
+  "last_updated": "2026-09-22 17:21",
   "festivals": [
     {
       "id": "festival_001",
@@ -23495,13 +23495,8 @@
       "trust_level": "高",
       "conflict_note": "2025年度まで10/19-20の2日間開催だったが、秋祭本宮が令和7年度より第2日曜日開催に変更となり、2026年は10/11（第2日曜日）の1日開催であることを複数ソースで確認。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31478,13 +31473,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "organizer",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -49873,17 +49863,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "time_start",
-        "time_end",
-        "rain_policy",
-        "date_note",
-        "official_url",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -53983,17 +53964,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "time_start",
-        "time_end",
-        "rain_policy",
-        "access",
-        "date_note",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -57441,14 +57413,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "date_note",
-        "trust_level",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": "前回データに記録なし（新規追加）"
@@ -59608,6 +59574,217 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_982",
+      "name": "萩まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "京都市上京区",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "梨木神社",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "境内無料／お茶席1,000円（記念品・萩の絵皿付は2,000円）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "萩の名所として知られる梨木神社で、境内の萩が見頃を迎える時期に開催される祭り。萩の枝に短冊が飾られ、拝殿では弓術披露・舞踊・居合の演武などの伝統芸能が奉納される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "市バス4・7・205号系統「府立医大病院前」バス停下車徒歩3分",
+      "official_url": "http://www.nashinoki.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://ja.kyoto.travel/event/single.php?event_id=4829",
+          "site_name": "京都市公式 京都観光Navi",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://www.the-kyoto.jp/calendar/september/nashinoki-hagi/",
+          "site_name": "ざ・京都",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_983",
+      "name": "南陽の菊まつり",
+      "alternate_names": [
+        "第114回南陽の菊まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "南陽市",
+      "date_start": "2026-10-09",
+      "date_end": "2026-11-08",
+      "date_note": "宮内会場（熊野大社周辺）10/9〜10/19、花公園会場（南陽市中央花公園）10/20〜11/8",
+      "time_start": "09:00",
+      "time_end": "16:00",
+      "rain_policy": "不明",
+      "organizer": "菊まつり実行委員会（事務局：南陽市商工観光課）",
+      "genre": [
+        "民俗芸能"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 114,
+      "history_description": "114回目を迎える菊まつりで、宮内会場と花公園会場の2会場にわたり開催される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東北中央自動車道 南陽高畠ICから車で約9〜12分",
+      "official_url": "https://nanyo-kiku.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://nanyo-kiku.jp/",
+          "site_name": "南陽の菊まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_984",
+      "name": "たけふ菊人形",
+      "alternate_names": [
+        "第75回2026たけふ菊人形"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福井県",
+      "city": "越前市",
+      "date_start": "2026-10-09",
+      "date_end": "2026-11-08",
+      "date_note": "10月22日（木）は休園日",
+      "time_start": "09:00",
+      "time_end": "17:00",
+      "rain_policy": "不明",
+      "organizer": "たけふ菊人形まつり実行委員会、越前市、武生商工会議所、福井新聞社",
+      "genre": [
+        "民俗芸能"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": 75,
+      "history_description": "75回目を迎える菊人形展で、越前市に伝わる妖怪をテーマにした菊人形が展示される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "無料駐車場約1200台。日曜日は「ハピラインふくい武生駅」「福井鉄道福武線たけふ新駅」から無料シャトルバス運行",
+      "official_url": "https://xn--08j1a5d044nforx33c.com/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://xn--08j1a5d044nforx33c.com/",
+          "site_name": "たけふ菊人形公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_985",
+      "name": "さらべつ大収穫祭2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "河西郡更別村",
+      "date_start": "2026-10-18",
+      "date_end": "2026-10-18",
+      "date_note": "",
+      "time_start": "10:00",
+      "time_end": "14:00",
+      "rain_policy": "不明",
+      "organizer": "さらべつ大収穫祭実行委員会事務局",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "更別村ふるさと館で開催される秋の収穫祭。農産物販売、さらべつ和牛の実演販売、地元産ビール「ふるえーる」の販売、ステージイベント、抽選会などが行われる。",
+      "food_stalls": "農産物販売・さらべつ和牛実演販売・地元産ビール「ふるえーる」あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "無料駐車場あり（更別村ふるさと館、北海道河西郡更別村字更別189番地1）",
+      "official_url": "https://matoka-tokachi.jp/sarabetsu-dai-shukakusai-2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://matoka-tokachi.jp/sarabetsu-dai-shukakusai-2026/",
+          "site_name": "まとか十勝",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
