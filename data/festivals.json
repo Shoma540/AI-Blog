@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22 08:21",
+  "last_updated": "2026-09-22 12:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -59341,7 +59341,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -59398,6 +59398,126 @@
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
           "site_name": "花火大会2026 - ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_980",
+      "name": "有田夏祭り 納涼花火大会",
+      "alternate_names": [
+        "有田夏まつり納涼花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "西松浦郡有田町",
+      "date_start": "2026-10-04",
+      "date_end": "2026-10-04",
+      "date_note": "20年以上続く有田町の花火大会。例年は夏開催だが、2026年は秋（10月）に時期を変更して開催。",
+      "time_start": "20:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": 20,
+      "history_description": "不明",
+      "food_stalls": "15時から会場にて屋台出店あり",
+      "crowd_level": "例年の人出は約1万人",
+      "visitors": "約1万人",
+      "access": "松浦鉄道黒川駅から徒歩10分／西九州道佐世保三川内ICから約5分",
+      "official_url": "https://www.arita.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1041e00556/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://www.arita.jp/event/",
+          "site_name": "有田観光協会 ありたさんぽ",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：例年は夏（8月頃）開催 → 今年：2026年は10月4日開催に変更"
+      }
+    },
+    {
+      "id": "festival_981",
+      "name": "玄海町花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "東松浦郡玄海町",
+      "date_start": "2026-11-15",
+      "date_end": "2026-11-15",
+      "date_note": "荒天時の順延・中止等の扱いは不明。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "（一社）玄海町みんなの地域商社",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料観覧席あり（限定600席、1席1,000円～）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR唐津駅からタクシーで約25分／長崎道多久ICから車で約50分",
+      "official_url": "https://all-genkai.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar1041e00948/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://all-genkai.jp/info/7116/",
+          "site_name": "おいしい旅GENKAI（玄海町地域商社）",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_346201/",
+          "site_name": "じゃらんnet",
           "is_official": false,
           "retrieved_date": "2026-09-22"
         }
