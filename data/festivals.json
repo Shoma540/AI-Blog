@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22 12:30",
+  "last_updated": "2026-09-22 16:21",
   "festivals": [
     {
       "id": "festival_001",
@@ -23478,13 +23478,30 @@
           "site_name": "徳島県観光情報サイト阿波ナビ（徳島県公式）",
           "is_official": true,
           "retrieved_date": "2026-07-20"
+        },
+        {
+          "url": "https://shikoku-tourism.com/dc/20206",
+          "site_name": "四国ツーリズム創造機構（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://www.jalan.net/event/evt_349230/",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾: 同協会サイト内の2024年アーカイブでは10/19-20の2日間開催・関船7隻となっており、開催日数・関船数は年により変動する可能性がある。2026年専用ページの情報を採用。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "2025年度まで10/19-20の2日間開催だったが、秋祭本宮が令和7年度より第2日曜日開催に変更となり、2026年は10/11（第2日曜日）の1日開催であることを複数ソースで確認。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31418,7 +31435,7 @@
       "time_start": "15:00",
       "time_end": "22:19",
       "rain_policy": "不明",
-      "organizer": "不明",
+      "organizer": "久世祭り実行委員会（地区5社合同）",
       "genre": [
         "山車",
         "神事"
@@ -31444,13 +31461,30 @@
           "site_name": "岡山観光WEB（岡山県公式）",
           "is_official": true,
           "retrieved_date": "2026-07-31"
+        },
+        {
+          "url": "https://www.maniwa.or.jp/web/?c=event-2&pk=512",
+          "site_name": "真庭市観光局（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://guide.jr-odekake.net/event/125181/",
+          "site_name": "JRおでかけネット",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "organizer",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -49786,10 +49820,10 @@
       "city": "南国市",
       "date_start": "2026-09-26",
       "date_end": "2026-09-26",
-      "date_note": "第38回。吾岡山文化の森特設会場（南国市大埇乙）で開催。約1,500発打ち上げ。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "date_note": "第38回。吾岡山文化の森特設会場（南国市大埇乙）で開催。14:50〜21:30、花火は21時頃から約1,500発打ち上げ（高知空港の運行状況により開始が遅れる場合あり）。",
+      "time_start": "14:50",
+      "time_end": "21:30",
+      "rain_policy": "雨天中止（順延なし）",
       "organizer": "不明",
       "genre": [
         "花火",
@@ -49805,7 +49839,7 @@
       "crowd_level": "不明",
       "visitors": "不明",
       "access": "南国市役所駐車場・サテライト南国より無料シャトルバス運行予定（駐車場は南国市役所14:30〜22:00、サテライト南国17:00〜22:00）。",
-      "official_url": "不明",
+      "official_url": "https://www.city.nankoku.lg.jp/gomenarigatou/info/life_dtl.php?hdnKey=9988",
       "sns_accounts": {
         "instagram": "不明"
       },
@@ -49822,13 +49856,34 @@
           "site_name": "空花火2026",
           "is_official": false,
           "retrieved_date": "2026-08-28"
+        },
+        {
+          "url": "https://www.kutv.co.jp/event/event-2735872/",
+          "site_name": "KUTVテレビ高知",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://www.city.nankoku.lg.jp/gomenarigatou/info/life_dtl.php?hdnKey=9988",
+          "site_name": "南国市公式ウェブサイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "date_note",
+        "official_url",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -53888,10 +53943,10 @@
       "city": "四万十市",
       "date_start": "2026-09-26",
       "date_end": "2026-09-26",
-      "date_note": "第3回開催。四万十川の恵みに感謝するイベント。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "date_note": "第3回開催。11:00〜20:00、四万十カヌーとキャンプの里（かわらっこ）にて実施。四万十川感謝祭実行委員会事務局への問い合わせ可。",
+      "time_start": "11:00",
+      "time_end": "20:00",
+      "rain_policy": "雨天中止",
       "organizer": "一般社団法人 四万十市観光協会",
       "genre": [
         "その他"
@@ -53905,7 +53960,7 @@
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
+      "access": "四万十カヌーとキャンプの里（かわらっこ）（高知県四万十市田出ノ川）",
       "official_url": "https://www.shimanto-kankou.com/",
       "sns_accounts": {
         "instagram": "不明"
@@ -53917,13 +53972,28 @@
           "site_name": "一般社団法人 四万十市観光協会",
           "is_official": true,
           "retrieved_date": "2026-09-08"
+        },
+        {
+          "url": "https://www.city.shimanto.lg.jp/soshiki/15/27372.html",
+          "site_name": "四万十市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "access",
+        "date_note",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -57324,7 +57394,7 @@
       "city": "半田市",
       "date_start": "2026-09-26",
       "date_end": "2026-10-04",
-      "date_note": "2026年の具体的な日程は一部サイトの言及に留まり、半田市公式サイト上での2026年版の正式発表を本実行時点で確認できなかったため要確認。",
+      "date_note": "半田市観光協会公式サイト「ごんの秋まつり2026」で9/26(土)〜10/4(日)開催、10/3(土)彼岸花の結婚式・花嫁行列を実施と確認。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -57360,13 +57430,25 @@
           "site_name": "新美南吉記念館関連サイト",
           "is_official": false,
           "retrieved_date": "2026-09-18"
+        },
+        {
+          "url": "https://www.handa-kankou.com/event/19933/",
+          "site_name": "半田市観光協会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "2026年の具体的な開催日程（9/26〜10/4）は集約サイトの記述のみで、半田市公式サイト上での2026年版の日程発表を本実行時点では確認できなかった。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "date_note",
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": "前回データに記録なし（新規追加）"
@@ -59463,7 +59545,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -59525,7 +59607,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
