@@ -551,6 +551,12 @@
       "step": "fetch_analytics",
       "error": "GA4ライブラリ未インストール",
       "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-09-22 08:23",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
     }
   ]
 }
