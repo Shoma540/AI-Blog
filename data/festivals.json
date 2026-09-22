@@ -59630,7 +59630,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -59682,7 +59682,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -59734,7 +59734,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -59784,11 +59784,78 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_986",
+      "name": "ヨコハマニシグチかりゆし祭り",
+      "alternate_names": [
+        "第1回ヨコハマニシグチかりゆし祭り",
+        "ヨコハマエキニシグチかりゆし祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "横浜市西区",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "date_note": "初開催。9/26(土)12:00〜21:00、9/27(日)11:00〜18:00。",
+      "time_start": "11:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "横浜駅西口商店会連合会（五番街、商和会、幸栄会）、共催：ヨコハマニシグチかりゆし祭り実行委員会",
+      "genre": [
+        "ステージ",
+        "屋台",
+        "文化イベント"
+      ],
+      "scale": "その他（商店街主催の地域イベント・第1回）",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": 0,
+      "history_description": "横浜駅西口エリアで初めて開催される、沖縄の音楽・文化をテーマにしたイベント。エイサーや沖縄民謡のステージ、沖縄グルメの屋台などが並ぶ。",
+      "food_stalls": "沖縄グルメの屋台あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "南幸橋（横浜ビブレ前）パルナード通り、JR・私鉄各線「横浜駅」西口すぐ",
+      "official_url": "https://www.yokohama-west-rengoukai.com/info/kariyushi_kyousan/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.yokohama-west-rengoukai.com/info/kariyushi_kyousan/",
+          "site_name": "横浜駅西口商店会連合会公式",
+          "is_official": true,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://www.townnews.co.jp/0113/2026/09/17/852980.html",
+          "site_name": "タウンニュース",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://shotengai-kanagawa.com/?p=17909",
+          "site_name": "商店街に行こう！ in かながわ",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "今年初開催のため前年データなし"
       }
     }
   ]
