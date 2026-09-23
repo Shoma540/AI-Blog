@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22 17:21",
+  "last_updated": "2026-09-23 08:21",
   "festivals": [
     {
       "id": "festival_001",
@@ -59851,11 +59851,75 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": "今年初開催のため前年データなし"
+      }
+    },
+    {
+      "id": "festival_987",
+      "name": "松明あかし",
+      "alternate_names": [
+        "須賀川松明あかし"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福島県",
+      "city": "須賀川市",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
+      "date_note": "毎年11月第2土曜日開催。前夜祭は前日夜に実施される年もある（2025年は11月7日）。2026年は令和8年度実施内容として須賀川市公式サイトで案内予定。",
+      "time_start": "18:30",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "松明あかし実行委員会",
+      "genre": [
+        "火祭り"
+      ],
+      "scale": "その他（日本三大火祭りの一つとされる）",
+      "is_free": true,
+      "price": "見学無料（記載なし・料金情報の明記は確認できず）",
+      "ticket_url": "不明",
+      "history_years": 420,
+      "history_description": "戦国時代、須賀川城が落城した際の犠牲者を弔うために始まったとされる、420年以上の伝統を持つ火祭り。晩秋の夜、高さ10メートル・重さ3トンにもなる大松明を含む約30本の松明を翠ケ丘公園（五老山）で一斉に点灯する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR須賀川駅より徒歩約15〜20分。東北自動車道須賀川ICより車で約10分。会場周辺に駐車場あり（シャトルバス運行の年もある）。",
+      "official_url": "https://www.city.sukagawa.fukushima.jp/kanko_sukagawa/event/taimatsu_akashi/index.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.sukagawa.fukushima.jp/kanko_sukagawa/event/taimatsu_akashi/index.html",
+          "site_name": "須賀川市公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-23"
+        },
+        {
+          "url": "https://tif.ne.jp/jp/entry/article.html?event=6700",
+          "site_name": "ふくしまの旅",
+          "is_official": false,
+          "retrieved_date": "2026-09-23"
+        },
+        {
+          "url": "https://da-inn.com/taimatsuakashi-35908/",
+          "site_name": "季節お役立ち情報局",
+          "is_official": false,
+          "retrieved_date": "2026-09-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "開催時間・前夜祭の有無は年により変動する可能性あり（ソースにより差異）。2026年の公式プログラム公開前のため日程は「11月第2土曜日」の慣例に基づく。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
