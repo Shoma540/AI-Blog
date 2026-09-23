@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23 16:21",
+  "last_updated": "2026-09-23 17:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -5490,11 +5490,11 @@
       "similar_name_warning": false,
       "prefecture": "千葉県",
       "city": "佐倉市",
-      "date_start": "2026-10-10",
-      "date_end": "2026-10-12",
-      "date_note": "2026年は10月10日(金)・11日(土)・12日(日)開催と佐倉市公式サイトで確認。例年通り10月第2金土日の開催。",
-      "time_start": "不明",
-      "time_end": "不明",
+      "date_start": "2026-10-09",
+      "date_end": "2026-10-11",
+      "date_note": "佐倉市公式サイト（city.sakura.lg.jp）を直接確認し、2026年は10月9日(金)・10日(土)・11日(日)開催と確定。開催時間15:00〜22:00。従来記載の「10/10(金)〜12(日)」は曜日照合の結果、10/10は実際には土曜日であり金曜日ではないため誤記（前年以前の日付パターンの誤転記）と判明し訂正。",
+      "time_start": "15:00",
+      "time_end": "22:00",
       "rain_policy": "不明",
       "organizer": "佐倉の秋祭り実行委員会（麻賀多神社・愛宕神社・神明神社・八幡神社の4社合同）",
       "genre": [
@@ -5520,32 +5520,40 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://sakura-maturi.jp/",
-          "site_name": "佐倉の秋祭り公式",
+          "url": "https://www.city.sakura.lg.jp/soshiki/sakuranomiryoku/event_kanko/16470.html",
+          "site_name": "佐倉市公式ウェブサイト",
           "is_official": true,
-          "retrieved_date": "2026-07-05"
+          "retrieved_date": "2026-09-23"
         },
         {
-          "url": "https://www.city.sakura.lg.jp/soshiki/sakuranomiryoku/event_kanko/16470.html",
-          "site_name": "佐倉市公式",
+          "url": "https://www.sakura-maturi.jp/about/index.html",
+          "site_name": "佐倉の秋祭り公式ウェブサイト",
           "is_official": true,
-          "retrieved_date": "2026-07-05"
+          "retrieved_date": "2026-09-23"
         },
         {
-          "url": "https://www.city.sakura.lg.jp/soshiki/sakuranomiryoku/event_kanko/16470.html",
-          "site_name": "佐倉市公式サイト",
+          "url": "https://prtimes.jp/main/html/rd/p/000000400.000024449.html",
+          "site_name": "佐倉市プレスリリース（PR TIMES）",
           "is_official": true,
-          "retrieved_date": "2026-07-21"
+          "retrieved_date": "2026-09-23"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "公式サイト・佐倉市公式ページとも2026年7月11日時点では2025年（令和7年10月10日〜12日）の情報のみ掲載。2026年日程は未発表のため要再確認。",
+      "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "time_start",
+        "time_end",
+        "sources",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "前回記録：2026-10-10〜2026-10-12（曜日照合の結果誤りと判明） → 訂正後：2026-10-09〜2026-10-11"
       }
     },
     {
@@ -59397,70 +59405,6 @@
       }
     },
     {
-      "id": "festival_979",
-      "name": "小山の花火",
-      "alternate_names": [
-        "第74回小山の花火"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "栃木県",
-      "city": "小山市",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-03",
-      "date_note": "第74回。荒天時は中止、順延日なし。",
-      "time_start": "18:00",
-      "time_end": "不明",
-      "rain_policy": "荒天時には中止。順延日はなし。",
-      "organizer": "小山の花火実行委員会（小山市商業観光課内）",
-      "genre": [
-        "花火"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "見学無料（有料観覧席あり）",
-      "ticket_url": "https://www.oyamanohanabi.com/",
-      "history_years": 74,
-      "history_description": "第74回を数える栃木県小山市の秋の花火大会。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "観晃橋下流思川河畔（栃木県小山市）",
-      "official_url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://www.city.oyama.tochigi.jp/kankou-bunka/event/page010608.html",
-          "site_name": "小山市公式ホームページ",
-          "is_official": true,
-          "retrieved_date": "2026-09-22"
-        },
-        {
-          "url": "https://www.oyamanohanabi.com/",
-          "site_name": "小山の花火 公式ホームページ",
-          "is_official": true,
-          "retrieved_date": "2026-09-22"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
-          "site_name": "花火大会2026 - ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-09-22"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_980",
       "name": "有田夏祭り 納涼花火大会",
       "alternate_names": [
@@ -60059,7 +60003,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -60124,7 +60068,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
