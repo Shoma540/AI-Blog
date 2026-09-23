@@ -467,6 +467,18 @@
       "verify_after": "2026-09-23",
       "result": "変化なし: 2026-09-23 08:23時点のGA4スナップショット（過去7日間）もセッション0件・ページビュー0件が継続しており、nav要素をheaderで囲みbannerランドマークロールを付与した改善の効果はアクセス自体が発生していないため測定不能。validate_site.pyは全項目通過しており、この改善によるサイト破損は確認されていない。",
       "commit": "99d52491b68a5dbea61b6d4d9529d6f8317ece81"
+    },
+    {
+      "date": "2026-09-23 08:24",
+      "analysis": "GA4スナップショット（2026-09-23 08:23取得、過去7日間）はセッション0件・ページビュー0件が継続しており、データ不十分期（週間セッション50未満）が続いている。本実行冒頭でverify_after到来済みの前回改善2件（2026-09-18のtheme-colorダークモード出し分け、2026-09-20のnav要素のheader/bannerランドマーク化）を効果測定し、いずれもアクセス0件のため「変化なし」を記録した。validate_site.pyは全項目通過し、直近の改善によるサイト破損は無し。過去の学習記録（39件）を確認したところ、meta description・sitemap・JSON-LD（Event/WebSite/Organization/Breadcrumb）・robots.txt・favicon・skip-link・focus-visible・reduced-motion・ダークモード・装飾絵文字のaria-hidden化・nav aria-label・タブのキーボード操作・h3見出し化・footer/headerのランドマーク化・og:image:alt・theme-colorのダーク対応など幅広いSEO/アクセシビリティ改善が積み重ねられてきた一方、event_jsonld()内のEvent構造化データで、無料の祭り（is_free=True）にのみ offers（price/priceCurrency）を付与していたが、Googleの公式ドキュメント（Event structured data）ではOfferのrecommended propertiesとして price/priceCurrency に加え url・availability・validFrom が挙げられており、このうち url と availability が未設定だった。offers.url（チケット/詳細ページへのリンク）や availability（在庫状況）が欠けていると、Googleの検索結果でイベントのリッチリザルト表示の質が下がる可能性がある。",
+      "action": "scripts/generate_html.py の event_jsonld() 内、is_free=True の祭りに付与している offers オブジェクトに availability: \"https://schema.org/InStock\" を追加し、既に検証済みの official_url（'不明'でなければ）を offers.url としても設定するよう修正した。price・priceCurrencyの既存ロジックや、is_free=False（有料）の祭りの扱い（offersを付与しない現状維持）は変更していない。価格情報はfree text（例：「有料観覧席あり」等）で構造化しにくいため、今回は無料イベントのoffers品質向上のみに範囲を絞った。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "無料の祭りイベントのEvent構造化データにoffers.url（詳細・公式サイトへの導線）とavailability（在庫状況=InStock）が加わることで、Googleが推奨するOfferプロパティが揃い、検索結果でのイベントリッチリザルト表示の適格性・品質が向上するはず。表示速度やGA4のセッション数には直接影響しない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認とGoogle側の構造化データ認識状況（Search Console等、現状未連携）を中心に経過観察する。",
+      "verify_after": "2026-09-26",
+      "result": "",
+      "commit": "10bfbb7aa376d8db2afe1e8507ce0e6a71de97dd"
     }
   ]
 }
