@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23 08:21",
+  "last_updated": "2026-09-23 12:24",
   "festivals": [
     {
       "id": "festival_001",
@@ -59914,6 +59914,79 @@
       ],
       "trust_level": "高",
       "conflict_note": "開催時間・前夜祭の有無は年により変動する可能性あり（ソースにより差異）。2026年の公式プログラム公開前のため日程は「11月第2土曜日」の慣例に基づく。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_988",
+      "name": "東北絆まつり2026盛岡",
+      "alternate_names": [
+        "東北絆まつり in 盛岡",
+        "東北絆まつり2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "盛岡市",
+      "date_start": "2026-05-23",
+      "date_end": "2026-05-24",
+      "date_note": "東北の6市（仙台・盛岡・秋田・山形・福島・郡山）による持ち回り開催の連携イベント。2026年は盛岡市で開催（既に開催終了）。",
+      "time_start": "10:00",
+      "time_end": "19:00",
+      "rain_policy": "不明",
+      "organizer": "東北絆まつり実行委員会",
+      "genre": [
+        "パレード",
+        "伝統芸能",
+        "東北6大祭り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "パレードコース沿道の無料観覧エリアあり。有料観覧席はプレミアム席7,000円、一般席5,000円（3歳以下は保護者1名につき1名まで膝上無料）。",
+      "ticket_url": "https://tohoku-kizunamatsuri.jp/ticket_p/",
+      "history_years": "不明",
+      "history_description": "東日本大震災からの復興支援・東北6市の連携を目的に始まった、東北6大祭り（仙台七夕まつり・盛岡さんさ踊り・秋田竿燈まつり・山形花笠まつり・福島わらじまつり・郡山うねめまつり）が集結する持ち回り開催イベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "盛岡市内 盛岡城跡公園多目的広場・もりおか歴史文化館前広場・盛岡城跡公園芝生広場・岩手教育会館前広場ほか。パレードは盛岡市役所前～中央通り2丁目交差点（約1km）。",
+      "official_url": "https://tohoku-kizunamatsuri.jp/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/tohoku_kizunamatsuri/"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tohoku-kizunamatsuri.jp/",
+          "site_name": "東北絆まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-23"
+        },
+        {
+          "url": "https://www.city.morioka.iwate.jp/kankou/kankou/1037105/1055894.html",
+          "site_name": "盛岡市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-23"
+        },
+        {
+          "url": "https://iwatetabi.jp/events/8974/",
+          "site_name": "いわての旅（岩手県観光ポータル）",
+          "is_official": true,
+          "retrieved_date": "2026-09-23"
+        },
+        {
+          "url": "https://www.iwate-np.co.jp/article/2026/5/21/193322",
+          "site_name": "岩手日報ONLINE",
+          "is_official": false,
+          "retrieved_date": "2026-09-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
