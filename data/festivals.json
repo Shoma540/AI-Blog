@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23 17:16",
+  "last_updated": "2026-09-23 18:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -5541,16 +5541,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "time_start",
-        "time_end",
-        "sources",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "前回記録：2026-10-10〜2026-10-12（曜日照合の結果誤りと判明） → 訂正後：2026-10-09〜2026-10-11"
@@ -46349,9 +46341,9 @@
       "city": "長野市",
       "date_start": "2026-11-23",
       "date_end": "2026-11-23",
-      "date_note": "一部サイトでは2026年開催日を「未定」と表記しており、正式発表前の情報の可能性がある。18時打上げ開始との情報あり。",
+      "date_note": "第120回。会場は長野大橋西側 犀川第2緑地。",
       "time_start": "18:00",
-      "time_end": "不明",
+      "time_end": "19:30",
       "rain_policy": "不明",
       "organizer": "長野えびす講煙火大会実行委員会",
       "genre": [
@@ -46375,28 +46367,31 @@
       "sources": [
         {
           "url": "https://www.nagano-ebisukou.jp/",
-          "site_name": "長野えびす講煙火大会 公式",
+          "site_name": "長野えびす講煙火大会公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-08-19"
+          "retrieved_date": "2026-09-23"
         },
         {
           "url": "https://hanabi.walkerplus.com/detail/ar0420e01112/",
-          "site_name": "ウォーカープラス 花火大会2026",
+          "site_name": "ウォーカープラス",
           "is_official": false,
-          "retrieved_date": "2026-08-19"
-        },
-        {
-          "url": "https://hanabi-navi.info/nagano/4331/",
-          "site_name": "花火大会ナビ",
-          "is_official": false,
-          "retrieved_date": "2026-08-19"
+          "retrieved_date": "2026-09-23"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾：開催日について「2026年11月23日」とする情報源と「2026年未定」とする情報源が併存。公式サイトでの最終確認を推奨。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "date_start",
+        "date_end",
+        "time_start",
+        "time_end",
+        "conflict_note",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -54016,23 +54011,34 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://kokoharekochi.com/article/feature/recommend/n44652/",
-          "site_name": "ココハレ（高知の子育て応援ウェブメディア）",
-          "is_official": false,
-          "retrieved_date": "2026-09-08"
+          "url": "https://kochi-daidougei.com/schedule/",
+          "site_name": "高知大道芸フェス公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-23"
         },
         {
-          "url": "https://www.facebook.com/DAIDOUGEI.KOCHI/",
-          "site_name": "高知大道芸フェス2026 公式Facebook",
-          "is_official": true,
-          "retrieved_date": "2026-09-08"
+          "url": "https://www.kochinews.co.jp/article/detail/1037980",
+          "site_name": "高知新聞",
+          "is_official": false,
+          "retrieved_date": "2026-09-23"
+        },
+        {
+          "url": "https://kochi.goguynet.jp/2026/09/09/event_kochi-daidougei2026/",
+          "site_name": "号外NET 高知市",
+          "is_official": false,
+          "retrieved_date": "2026-09-23"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "公式サイト上の正式な開催告知ページは確認できず、地域メディア記事および公式SNSアカウント名からの情報。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -58053,7 +58059,7 @@
       "city": "杉並区",
       "date_start": "2026-09-30",
       "date_end": "2026-10-01",
-      "date_note": "9/30(水)宵宮、10/1(木)当日祭（例祭日は毎年10月1日）。別日程で神輿渡御・子供みこし巡行が行われるとする情報源もあるが、具体的な日付は情報源により差異があるため要確認。",
+      "date_note": "宵宮9/30(水)・当日祭10/1(木、閉門22:00)、子供みこし町内巡行10/1(木)13:30集合・14:00開始(雨天中止)、神輿渡御(青梅街道巡行)10/4(日)13:00〜。日付は井草八幡宮公式サイトで確認済み。",
       "time_start": "不明",
       "time_end": "22:00頃閉門",
       "rain_policy": "子供みこし巡行は雨天中止（他は不明）",
@@ -58079,29 +58085,29 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.suginamigaku.org/2026/08/reitaisai-2026.html",
-          "site_name": "すぎなみ学倶楽部（杉並区公式情報サイト）",
+          "url": "https://www.igusahachimangu.jp/reitaisai/reitaisai.html",
+          "site_name": "井草八幡宮公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-09-19"
+          "retrieved_date": "2026-09-23"
         },
         {
-          "url": "https://matsuri-no-hi.com/matsuri/1447",
-          "site_name": "祭の日",
-          "is_official": false,
-          "retrieved_date": "2026-09-19"
-        },
-        {
-          "url": "https://www.visiting-japan.com/ja/articles/events/j13sn-igusa-hachimangu-reitaisai.htm",
-          "site_name": "Visiting Japan",
-          "is_official": false,
-          "retrieved_date": "2026-09-19"
+          "url": "https://www.igusahachimangu.jp/event/event.html",
+          "site_name": "井草八幡宮公式サイト（年間行事）",
+          "is_official": true,
+          "retrieved_date": "2026-09-23"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "神輿渡御・子供みこし巡行の日付（10/1 or 10/4）について情報源間で差異あり。宵宮・当日祭の9/30-10/1は複数ソース一致。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "date_note",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -58310,7 +58316,7 @@
       "city": "西条市",
       "date_start": "2026-10-10",
       "date_end": "2026-10-17",
-      "date_note": "西条市内の複数神社（伊曽乃神社・石岡神社・嘉母神社・飯積神社等）が氏子地域ごとにだんじり・みこし行事を行う総称的な祭りで、地区・神社により実施日が異なる。西条市公式サイトでは10/10〜10/17を期間として案内。中心的な行事（伊曽乃神社例大祭のだんじり運行等）は10/14〜17に集中するとの情報もあり、来場予定日の地区の実施日は個別に確認が必要。",
+      "date_note": "神社ごとに日程が異なる連合祭。10/10-11嘉母神社、10/14-15石岡神社、10/15-16伊曽乃神社、10/16-17飯積神社（西条市公式サイトで確認）。「10/10〜17」「10/14〜17」という表記ゆれは、この神社ごとの開催日幅の違いに起因すると判明。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -58338,41 +58344,28 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.city.saijo.ehime.jp/site/kanko/maturi.html",
-          "site_name": "西条市公式ホームページ",
+          "url": "https://www.city.saijo.ehime.jp/soshiki/kanko/maturi2.html",
+          "site_name": "西条市公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-09-19"
+          "retrieved_date": "2026-09-23"
         },
         {
-          "url": "https://www.rnb.co.jp/media/ehime-akimatsuri2026/",
-          "site_name": "RNBエンタメディア",
-          "is_official": false,
-          "retrieved_date": "2026-09-19"
-        },
-        {
-          "url": "https://www.iyokannet.jp/event/2552",
-          "site_name": "いよ観ネット（愛媛県公式観光サイト）",
+          "url": "http://www.saijomatsuri.jp/",
+          "site_name": "西条祭り豪華絢爛公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-08-18"
-        },
-        {
-          "url": "https://ehime.travel/articles/saijo-event-map/",
-          "site_name": "まちかど愛媛",
-          "is_official": false,
-          "retrieved_date": "2026-08-18"
-        },
-        {
-          "url": "https://shikoku-tourism.com/feature/saijo_matsuri/saijo_matsuri",
-          "site_name": "四国ツーリズム創造機構",
-          "is_official": false,
-          "retrieved_date": "2026-08-18"
+          "retrieved_date": "2026-09-23"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "複数ソースで祭り期間の表記に幅（10/10〜17 と 10/14〜17）があり、地区別の日程差に起因する可能性が高いが要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "requires_check",
+        "date_note",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -58956,7 +58949,7 @@
       "city": "綾歌郡宇多津町",
       "date_start": "2026-10-24",
       "date_end": "2026-10-27",
-      "date_note": "宇多津町公式サイト・まちづくりNEWSでは10月25・26・27日と案内される一方、宇多津町公式X（まちづくり課）では例大祭を10月24〜26日（太鼓台運行は25・26日）と案内しており、日程表記に幅がある。",
+      "date_note": "例大祭10/24(土)〜26(月)、太鼓台運行は25・26日（宇多津町公式X最新投稿より）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -58983,29 +58976,33 @@
       "video_url": "不明",
       "sources": [
         {
-          "url": "https://www.town.utazu.lg.jp/page/1167.html",
-          "site_name": "宇多津町公式サイト（まちづくり課）",
+          "url": "https://x.com/utazu_town/status/1980081364964946111",
+          "site_name": "宇多津町まちづくり課公式X",
           "is_official": true,
-          "retrieved_date": "2026-09-20"
+          "retrieved_date": "2026-09-23"
         },
         {
           "url": "https://sanpomichi.town.utazu.lg.jp/articles/entry/007538/",
-          "site_name": "うたづさんぽみち（宇多津町公式）",
+          "site_name": "宇多津町まちづくりNEWS",
           "is_official": true,
-          "retrieved_date": "2026-09-20"
+          "retrieved_date": "2026-09-23"
         },
         {
-          "url": "https://x.com/utazu_town/status/1980081364964946111",
-          "site_name": "宇多津町まちづくり課 公式X",
+          "url": "https://www.town.utazu.lg.jp/page/1167.html",
+          "site_name": "宇多津町公式サイト",
           "is_official": true,
-          "retrieved_date": "2026-09-20"
+          "retrieved_date": "2026-09-23"
         }
       ],
       "trust_level": "中",
-      "conflict_note": "⚠️ 矛盾: 開催日について町公式サイトは「10/25,26,27」、町公式Xは「例大祭10/24〜26、太鼓台運行は25・26日」と表記が異なる。要確認。",
+      "conflict_note": "⚠️ 矛盾継続: 宇多津町公式X（最新投稿）は「例大祭10/24〜26、太鼓台運行は25・26日」。一方、宇多津町公式サイト内特設記事（sanpomichi）の見出しは「10/25,26,27」。町公式サイト本体（town.utazu.lg.jp）には2026年の確定日程記載なし。最新の公式X投稿を優先し日程を10/24-26の3日間・太鼓台運行25-26日として記録するが、27日を含むとする記述も残るため要確認は維持。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -60073,6 +60070,69 @@
       "year_comparison": {
         "changed": false,
         "details": "新規追加のため昨年データなし"
+      }
+    },
+    {
+      "id": "festival_991",
+      "name": "ええじゃないか豊橋まつり",
+      "alternate_names": [
+        "豊橋まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "豊橋市",
+      "date_start": "2026-10-31",
+      "date_end": "2026-11-01",
+      "date_note": "第70回。アジアパラ大会との兼ね合いで例年より開催日が後ろ倒し。参加者70万人を目標。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "豊橋まつり振興会",
+      "genre": [
+        "パレード",
+        "神輿"
+      ],
+      "scale": "市指定",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 70,
+      "history_description": "豊橋市を代表する秋の祭り。総踊り・仮装パレード・神輿などで市内が賑わう。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "目標70万人",
+      "access": "不明",
+      "official_url": "https://www.toyohashimatsuri.jp/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.toyohashimatsuri.jp/",
+          "site_name": "ええじゃないか豊橋まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-23"
+        },
+        {
+          "url": "https://www.city.toyohashi.lg.jp/6560.htm",
+          "site_name": "豊橋市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-23"
+        },
+        {
+          "url": "https://higashiaichi.jp/news/detail.php?id=27195",
+          "site_name": "東愛知新聞",
+          "is_official": false,
+          "retrieved_date": "2026-09-23"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
