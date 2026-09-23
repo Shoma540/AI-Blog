@@ -613,7 +613,15 @@ def event_jsonld(festivals):
             event["organizer"] = {"@type": "Organization", "name": organizer}
         event["image"] = get_image_url(f)
         if f.get('is_free') is True:
-            event["offers"] = {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}
+            offer = {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "JPY",
+                "availability": "https://schema.org/InStock",
+            }
+            if official_url and official_url != '不明':
+                offer["url"] = official_url
+            event["offers"] = offer
         events.append(event)
     if not events:
         return ""
