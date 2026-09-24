@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24 12:29",
+  "last_updated": "2026-09-24 16:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -3449,10 +3449,8 @@
       "trust_level": "高",
       "conflict_note": "新居浜市公式サイトの太鼓祭りページと愛媛県公式観光サイト「いよ観ネット」の2ソースで10/16〜18の開催を確認。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -4230,14 +4228,8 @@
       "trust_level": "中",
       "conflict_note": "祭り自体の内容・主催は3ソース一致で確認できたが、2026年の具体的な開催日は本稿時点で未発表のため「不明」とした。要確認。 追加確認（2026-09-24）：公式ルール（10/26固定・直後の土日）から10/31-11/1と推定したが、2026年の公式日程発表はまだ確認できていないため date は推定値。確定後に要更新。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_end",
-        "date_note",
-        "date_start",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26754,14 +26746,8 @@
       "trust_level": "中",
       "conflict_note": "花火大会の規模縮小（約4000発→数十発）と2026年開催日について、Yahoo!ニュース（みんなの経済新聞配信）・山口宇部経済新聞の報道と、地域ポータル「いいかも！あじす」の記事が整合。ただし公式サイト（山口県公式観光サイト）では2026年の具体的日付が未掲載のため信頼度は中にとどめる。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_end",
-        "date_note",
-        "date_start",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -29506,15 +29492,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_end",
-        "date_note",
-        "date_start",
-        "requires_check",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31805,11 +31784,8 @@
       "trust_level": "中",
       "conflict_note": "ジョルダン（2026-09-24時点）はなお「延期決定…延期日未定」表記のままで中止情報を反映していない。御船町公式サイトのお知らせ一覧の見出しのみから中止の可能性が高いと判断したが未確定。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -36790,13 +36766,22 @@
           "site_name": "栃木市公式ホームページ",
           "is_official": true,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://kondoux.hatenablog.com/entry/2026/09/04/133727",
+          "site_name": "つれづれ日記（まとめブログ）",
+          "is_official": false,
+          "retrieved_date": "2026-09-24"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -60130,6 +60115,128 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_992",
+      "name": "防府天満宮御神幸祭（裸坊祭）",
+      "alternate_names": [
+        "裸坊祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山口県",
+      "city": "防府市",
+      "date_start": "2026-11-28",
+      "date_end": "2026-11-28",
+      "date_note": "毎年11月の第4土曜日に開催",
+      "time_start": "18:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "防府天満宮",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "重さ約500kgの御網代輿を裸坊と呼ばれる白装束の男達が担ぎ、大石段を一気に滑り下りる勇壮な祭り。日本三大裸祭りの一つとされる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "約5,000人の裸坊が参加",
+      "access": "JR山陽本線防府駅から徒歩約20分",
+      "official_url": "https://visit-hofu.jp/event/%E9%98%B2%E5%BA%9C%E5%A4%A9%E6%BA%80%E5%AE%AE%E3%80%80%E5%BE%A1%E7%A5%9E%E5%B9%B8%E7%A5%AD%EF%BC%88%E8%A3%B8%E5%9D%8A%E7%A5%AD%EF%BC%89/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://visit-hofu.jp/event/%E9%98%B2%E5%BA%9C%E5%A4%A9%E6%BA%80%E5%AE%AE%E3%80%80%E5%BE%A1%E7%A5%9E%E5%B9%B8%E7%A5%AD%EF%BC%88%E8%A3%B8%E5%9D%8A%E7%A5%AD%EF%BC%89/",
+          "site_name": "たびたびほうふ（防府市観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-24"
+        },
+        {
+          "url": "https://yamaguchi-tourism.jp/event/detail_14765.html",
+          "site_name": "おいでませ山口へ（山口県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-24"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_993",
+      "name": "箱根大名行列",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "足柄下郡箱根町（箱根湯本温泉）",
+      "date_start": "2026-11-03",
+      "date_end": "2026-11-03",
+      "date_note": "毎年11月3日（文化の日）に開催",
+      "time_start": "10:00",
+      "time_end": "14:30",
+      "rain_policy": "不明",
+      "organizer": "箱根大名行列保存会・箱根湯本温泉観光協会",
+      "genre": [
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明（沿道での見学は無料、一般参加は事前募集）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "江戸時代の大名行列を再現し、箱根湯本温泉街を練り歩く時代行列。小田原北条鉄砲衆やマーチングバンドなども参加する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "総勢400名余が参加",
+      "access": "箱根登山鉄道・箱根湯本駅周辺",
+      "official_url": "https://www.hakone.or.jp/6321",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.hakone.or.jp/6321",
+          "site_name": "箱根町観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-24"
+        },
+        {
+          "url": "https://www.jtco.or.jp/bunkakan/?act=detail&id=51&p=0&c=20",
+          "site_name": "日本伝統文化振興機構(JTCO)",
+          "is_official": false,
+          "retrieved_date": "2026-09-24"
+        },
+        {
+          "url": "https://kondoux.hatenablog.com/entry/2026/09/15/183620",
+          "site_name": "つれづれ日記（まとめブログ）",
+          "is_official": false,
+          "retrieved_date": "2026-09-24"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
