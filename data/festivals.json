@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24 17:20",
+  "last_updated": "2026-09-24 18:19",
   "festivals": [
     {
       "id": "festival_001",
@@ -56245,7 +56245,9 @@
       "id": "festival_923",
       "name": "rockin'star Carnival 2026",
       "alternate_names": [
+        "rockin'star Carnival",
         "ロッキンスターカーニバル",
+        "ロッキンスターカーニバル2026",
         "ロッキンスター・カーニバル2026",
         "国営ひたち海浜公園花火大会"
       ],
@@ -56254,13 +56256,15 @@
       "city": "ひたちなか市",
       "date_start": "2026-10-03",
       "date_end": "2026-10-03",
-      "date_note": "会場オープン11:00、公演開始12:30、花火打ち上げ18:00～19:15（予定）。",
+      "date_note": "会場オープン11:00、公演開始12:30、花火打ち上げ18:00～19:15（予定）。（同市内の「ひたちなか祭り花火大会」＝8月開催・陸上自衛隊勝田駐屯地とは異なる別イベント。混同注意。）",
       "time_start": "18:00",
       "time_end": "19:15",
       "rain_policy": "雨天決行（荒天の場合は中止）",
       "organizer": "ロッキング・オン／TOKYO FM",
       "genre": [
-        "花火"
+        "パレード",
+        "花火",
+        "音楽フェス"
       ],
       "scale": "その他",
       "is_free": false,
@@ -56307,13 +56311,38 @@
           "site_name": "空花火2026",
           "is_official": false,
           "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/hanabi/spot_87168.html",
+          "site_name": "花火大会2026（じゃらん系）",
+          "is_official": false,
+          "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://event.jreast.co.jp/pages/rockin-star_carnival",
+          "site_name": "JR East Event",
+          "is_official": false,
+          "retrieved_date": "2026-09-23"
+        },
+        {
+          "url": "https://l-tike.com/event/mevent/?mid=758856",
+          "site_name": "ローチケ",
+          "is_official": false,
+          "retrieved_date": "2026-09-23"
         }
       ],
       "trust_level": "高",
-      "conflict_note": "",
+      "conflict_note": "重複登録されていた同一イベント（festival_978, festival_989）を本イベントに統合（2026-09-24確認）。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "alternate_names",
+        "sources",
+        "genre",
+        "date_note",
+        "conflict_note",
+        "duplicate_merge"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -59320,71 +59349,6 @@
       }
     },
     {
-      "id": "festival_978",
-      "name": "ロッキンスターカーニバル",
-      "alternate_names": [
-        "rockin'star Carnival"
-      ],
-      "similar_name_warning": true,
-      "prefecture": "茨城県",
-      "city": "ひたちなか市",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-03",
-      "date_note": "同市内で開催される「ひたちなか祭り花火大会」（8月開催・陸上自衛隊勝田駐屯地）とは異なる別イベント。混同注意。",
-      "time_start": "11:00",
-      "time_end": "19:15",
-      "rain_policy": "雨天決行。荒天の場合は中止。",
-      "organizer": "ロッキング・オン・ジャパン、TOKYO FM",
-      "genre": [
-        "花火",
-        "パレード"
-      ],
-      "scale": "その他",
-      "is_free": false,
-      "price": "全席有料（金額は公式サイト要確認）",
-      "ticket_url": "https://rockinstarcarnival.jp/",
-      "history_years": "不明",
-      "history_description": "音楽と約20,000発の花火を同期させる音楽×花火の複合イベント。",
-      "food_stalls": "JAPAN Sweets Festival、フードコート（50店舗以上）",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "国営ひたち海浜公園（茨城県ひたちなか市馬渡大沼605-4）",
-      "official_url": "https://rockinstarcarnival.jp/",
-      "sns_accounts": {
-        "instagram": "不明"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://rockinstarcarnival.jp/",
-          "site_name": "rockin'star Carnival 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-09-22"
-        },
-        {
-          "url": "https://sorahanabi.com/ibaraki/hitachinaka/rockinstarcarnival.html",
-          "site_name": "空花火2026",
-          "is_official": false,
-          "retrieved_date": "2026-09-22"
-        },
-        {
-          "url": "https://sp.jorudan.co.jp/hanabi/spot_87168.html",
-          "site_name": "花火大会2026（じゃらん系）",
-          "is_official": false,
-          "retrieved_date": "2026-09-22"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
       "id": "festival_980",
       "name": "有田夏祭り 納涼花火大会",
       "alternate_names": [
@@ -59920,77 +59884,6 @@
       }
     },
     {
-      "id": "festival_989",
-      "name": "rockin'star Carnival 2026",
-      "alternate_names": [
-        "ロッキンスターカーニバル2026"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "茨城県",
-      "city": "ひたちなか市",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-03",
-      "date_note": "雨天決行。花火打ち上げは18:00〜19:15予定。チケット申込は8/31 12:00〜10/3 18:00。",
-      "time_start": "11:00",
-      "time_end": "19:15",
-      "rain_policy": "不明",
-      "organizer": "ロッキング・オン・ジャパン／TOKYO FM",
-      "genre": [
-        "花火",
-        "音楽フェス"
-      ],
-      "scale": "その他（音楽フェス×花火の大型イベント）",
-      "is_free": false,
-      "price": "有料（チケット制。詳細は公式サイト参照）",
-      "ticket_url": "https://rockinstarcarnival.jp/",
-      "history_years": 0,
-      "history_description": "DJ和がつなぐJ-ROCK・J-POPの名曲と約20,000発の花火がシンクロする約75分間の演出を楽しめる、国営ひたち海浜公園で開催される音楽×花火の新イベント。",
-      "food_stalls": "不明",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "国営ひたち海浜公園（茨城県ひたちなか市）。勝田駅東口から会場まで有料直行シャトルバス運行予定。",
-      "official_url": "https://rockinstarcarnival.jp/",
-      "sns_accounts": {
-        "instagram": "https://www.instagram.com/jfes_official"
-      },
-      "video_url": "不明",
-      "sources": [
-        {
-          "url": "https://rockinstarcarnival.jp/",
-          "site_name": "rockin'star Carnival 公式サイト",
-          "is_official": true,
-          "retrieved_date": "2026-09-23"
-        },
-        {
-          "url": "https://event.jreast.co.jp/pages/rockin-star_carnival",
-          "site_name": "JR East Event",
-          "is_official": false,
-          "retrieved_date": "2026-09-23"
-        },
-        {
-          "url": "https://hanabi.walkerplus.com/detail/ar0308e555797/",
-          "site_name": "花火大会2026 - ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-09-23"
-        },
-        {
-          "url": "https://l-tike.com/event/mevent/?mid=758856",
-          "site_name": "ローチケ",
-          "is_official": false,
-          "retrieved_date": "2026-09-23"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": "2026年新規開催のため昨年データなし"
-      }
-    },
-    {
       "id": "festival_990",
       "name": "宝之市神事（升の市）",
       "alternate_names": [
@@ -60296,7 +60189,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
