@@ -540,7 +540,7 @@ def festival_card_html(f, img_path_prefix="", index=None):
     city = f.get('city', '')
     location = f"{pref} {city}".strip()
     img_url = get_image_url(f)
-    img_attrs = 'loading="eager" fetchpriority="high"' if index == 0 else 'loading="lazy"'
+    img_attrs = 'loading="eager" fetchpriority="high" decoding="async"' if index == 0 else 'loading="lazy" decoding="async"'
     official_url = f.get('official_url', '')
     official_link = ''
     if official_url and official_url != '不明' and official_url.startswith(('http://', 'https://')):

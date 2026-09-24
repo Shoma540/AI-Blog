@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23 18:16",
+  "last_updated": "2026-09-24 08:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -46381,17 +46381,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "date_start",
-        "date_end",
-        "time_start",
-        "time_end",
-        "conflict_note",
-        "date_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -54032,13 +54023,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -58100,14 +58086,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "date_note",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -58359,13 +58339,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "requires_check",
-        "date_note",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -58997,12 +58972,8 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾継続: 宇多津町公式X（最新投稿）は「例大祭10/24〜26、太鼓台運行は25・26日」。一方、宇多津町公式サイト内特設記事（sanpomichi）の見出しは「10/25,26,27」。町公式サイト本体（town.utazu.lg.jp）には2026年の確定日程記載なし。最新の公式X投稿を優先し日程を10/24-26の3日間・太鼓台運行25-26日として記録するが、27日を含むとする記述も残るため要確認は維持。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -60128,7 +60099,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
