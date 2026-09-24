@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24 08:17",
+  "last_updated": "2026-09-24 12:29",
   "festivals": [
     {
       "id": "festival_001",
@@ -3390,7 +3390,7 @@
       "city": "新居浜市",
       "date_start": "2026-10-16",
       "date_end": "2026-10-18",
-      "date_note": "10月16日(木)〜18日(日)開催。複数ソースで一致。",
+      "date_note": "10月16日(金)〜18日(日)開催。複数ソースで一致。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -3449,8 +3449,10 @@
       "trust_level": "高",
       "conflict_note": "新居浜市公式サイトの太鼓祭りページと愛媛県公式観光サイト「いよ観ネット」の2ソースで10/16〜18の開催を確認。",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -4153,9 +4155,9 @@
       "similar_name_warning": false,
       "prefecture": "宮崎県",
       "city": "宮崎市",
-      "date_start": "2026-11-01",
-      "date_end": "2026-11-02",
-      "date_note": "御神幸行列は11月1日(日)・2日(月)。ただし検索で得られた情報の一部は「令和7年」表記であり年度に混同がある可能性があるため、公式サイトでの最終確認が必要。",
+      "date_start": "2026-10-31",
+      "date_end": "2026-11-01",
+      "date_note": "例祭本体は毎年10月26日固定開催（2026年は月曜）。御神幸祭（神賑行列）は例祭直後の土日に実施されるルールのため、2026年はこのルールから10月31日(土)・11月1日(日)と推定されるが、宮崎神宮・宮崎商工会議所とも2026年の具体的日程は本稿時点で公式発表されていない。ネット上で見られる「11月1日(土)・2日(日)」という情報は令和7年（2025年）の日程が誤って使い回されたもので、2026年の実際の曜日（11/1は日曜、11/2は月曜）と一致しないため2026年情報として不採用。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -4225,11 +4227,17 @@
           "retrieved_date": "2026-08-12"
         }
       ],
-      "trust_level": "高",
-      "conflict_note": "祭り自体の内容・主催は3ソース一致で確認できたが、2026年の具体的な開催日は本稿時点で未発表のため「不明」とした。要確認。",
+      "trust_level": "中",
+      "conflict_note": "祭り自体の内容・主催は3ソース一致で確認できたが、2026年の具体的な開催日は本稿時点で未発表のため「不明」とした。要確認。 追加確認（2026-09-24）：公式ルール（10/26固定・直後の土日）から10/31-11/1と推定したが、2026年の公式日程発表はまだ確認できていないため date は推定値。確定後に要更新。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "date_end",
+        "date_note",
+        "date_start",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -26686,9 +26694,9 @@
       "similar_name_warning": false,
       "prefecture": "山口県",
       "city": "山口市",
-      "date_start": "不明",
-      "date_end": "不明",
-      "date_note": "【要確認】十七夜祭（神輿・山車巡行）本体は継続。付随する花火大会は、青年部による実施が2025年5月31日をもって終了したと報じられているが、一部サイトでは2026年5月30日開催予定とも案内されており情報が一致しない。",
+      "date_start": "2026-05-30",
+      "date_end": "2026-05-31",
+      "date_note": "十七夜祭（神輿・山車巡行）本体は継続。花火大会は担い手不足・経費高騰により青年部による従来規模（約4000発）の実施は2025年5月31日をもって終了し、2026年は数十発規模の小規模な「フィナーレ花火」に縮小して実施される。2026年5月30日(土)開催、荒天の場合は5月31日(日)に順延（地域ポータル「いいかも！あじす」2026年1月20日付記事で確認）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -26735,13 +26743,25 @@
           "site_name": "ジョルダン 花火大会2026（中止・延期一覧）",
           "is_official": false,
           "retrieved_date": "2026-07-25"
+        },
+        {
+          "url": "https://iikamo-ajisu.com/",
+          "site_name": "いいかも！あじす（地域ポータル）",
+          "is_official": false,
+          "retrieved_date": "2026-09-24"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "花火大会は2026年に終了（中止）と確認（ジョルダン「中止・開催時期変更が決定した花火大会」一覧に「終了」表記で掲載）。十七夜祭本体の開催有無は別途確認が必要。",
+      "trust_level": "中",
+      "conflict_note": "花火大会の規模縮小（約4000発→数十発）と2026年開催日について、Yahoo!ニュース（みんなの経済新聞配信）・山口宇部経済新聞の報道と、地域ポータル「いいかも！あじす」の記事が整合。ただし公式サイト（山口県公式観光サイト）では2026年の具体的日付が未掲載のため信頼度は中にとどめる。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "date_end",
+        "date_note",
+        "date_start",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -29443,9 +29463,9 @@
       "similar_name_warning": false,
       "prefecture": "宮城県",
       "city": "黒川郡大和町",
-      "date_start": "2026-08-01",
-      "date_end": "2026-08-01",
-      "date_note": "公式ページでは開催時期を「8月第1週の日曜日」と案内しているが、複数の花火大会情報サイトは2026年8月1日(土)と記載。2026年の8月第1日曜は8月2日であり、日付に⚠️矛盾あり。過去には8月4日開催の年もある。公式サイトでの最終確認が必要。",
+      "date_start": "2026-08-02",
+      "date_end": "2026-08-02",
+      "date_note": "公式ページの「8月第1週の日曜日」ルールとウォーカープラス掲載日が一致（2026年8月2日=8月第1日曜）することを確認し矛盾を解消。",
       "time_start": "19:30",
       "time_end": "21:00",
       "rain_policy": "不明",
@@ -29483,11 +29503,18 @@
           "retrieved_date": "2026-07-28"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "⚠️矛盾：開催日が情報源により8月1日（ウォーカープラス等）と8月第1日曜＝8月2日（公式ページの案内文言から算出）とで一致しない。確定情報ではないため信頼度を上げていない。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "date_end",
+        "date_note",
+        "date_start",
+        "requires_check",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31732,7 +31759,7 @@
       "city": "上益城郡御船町",
       "date_start": "延期",
       "date_end": "延期",
-      "date_note": "2026年7月28日発生の令和8年熊本地震（最大震度7）の影響により、当初予定の8/9(日)開催から延期が正式決定。延期後の新日程は本稿執筆時点で未定。",
+      "date_note": "2026年7月28日発生の令和8年熊本地震（最大震度7）の影響により、当初予定の8/9(日)開催から延期が正式決定。延期後の新日程は本稿執筆時点で未定。 追加確認（2026-09-24）：御船町公式サイトのイベント告知一覧に「第53回御船があーっぱ祭りの開催中止について」と題するページが2026年9月10日付で追加されているのを確認したが、当該ページ本文を直接開けなかったため中止の確定はできていない。前年（第52回・2025年）も延期後に正式中止となった前例があり、同様の経過をたどっている可能性が高い。次回実行時に公式サイトで本文を直接確認して確定させること。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -31776,10 +31803,13 @@
         }
       ],
       "trust_level": "中",
-      "conflict_note": "",
+      "conflict_note": "ジョルダン（2026-09-24時点）はなお「延期決定…延期日未定」表記のままで中止情報を反映していない。御船町公式サイトのお知らせ一覧の見出しのみから中止の可能性が高いと判断したが未確定。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "conflict_note",
+        "date_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
