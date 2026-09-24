@@ -479,6 +479,18 @@
       "verify_after": "2026-09-26",
       "result": "",
       "commit": "10bfbb7aa376d8db2afe1e8507ce0e6a71de97dd"
+    },
+    {
+      "date": "2026-09-24 08:20",
+      "analysis": "festival_card_html()のimg要素はloading属性（eager/lazy）とfetchpriorityのみ制御しており、decoding属性が未指定のため、ブラウザのデフォルト（sync相当）でデコードされる可能性がある。1ページに最大30枚程度並ぶ祭りカード画像のデコード処理がメインスレッドをブロックし、特にlazy読み込み対象（2枚目以降）のスクロール時レンダリング滑らかさに影響しうる。",
+      "action": "scripts/generate_html.py の festival_card_html() で、img_attrsに decoding=\"async\" を追加した（index==0のeager/fetchpriority=high画像、それ以外のlazy画像の両方）。alt・width・height・loading・fetchpriority等の既存属性やCSS・画像ファイル自体は変更していない。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "decoding=\"async\"によりブラウザが画像デコードをメインスレッドの描画処理と並行して行えるようになり、特にスクロールに伴うlazy画像表示時の描画がスムーズになる（Core Web VitalsのINP/レンダリング応答性の改善が期待できる）。ページ内容やレイアウトへの見た目の変化はない。",
+      "verify_after": "2026-09-27",
+      "result": "",
+      "commit": "d37132e540ddef0e54fb5888e33ee1f2f5d6cee5"
     }
   ]
 }
