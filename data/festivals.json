@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24 18:19",
+  "last_updated": "2026-09-25 08:16",
   "festivals": [
     {
       "id": "festival_001",
@@ -56334,15 +56334,8 @@
       "trust_level": "高",
       "conflict_note": "重複登録されていた同一イベント（festival_978, festival_989）を本イベントに統合（2026-09-24確認）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "alternate_names",
-        "sources",
-        "genre",
-        "date_note",
-        "conflict_note",
-        "duplicate_merge"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -60190,6 +60183,78 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_995",
+      "name": "海神社秋祭り",
+      "alternate_names": [
+        "海神社 秋祭り",
+        "海神社秋季例大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "神戸市垂水区",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-12",
+      "date_note": "10/10(土)〜10/12(月・祝)の3日間。最大の見どころは10/12の海上渡御祭（垂水漁港御発船10:00頃、塩屋漁港経由、垂水漁港御着船14:00頃、海神社宮入り16:10頃）。",
+      "time_start": "10:00",
+      "time_end": "16:10",
+      "rain_policy": "不明",
+      "organizer": "海神社",
+      "genre": [
+        "神輿",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "海神社（わたつみじんじゃ）は神戸市垂水区にある式内社（名神大社）。社伝では神功皇后が三韓出兵の帰途、垂水沖で暴風雨に遭った際にこの地の神を祀ったところ鎮まり、無事帰還できたことが鎮座の由来と伝わる。航海安全・漁業繁栄の神として崇敬されている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://kaijinjya.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kaijinjya.jp/news/autumn-festival-2026",
+          "site_name": "海神社公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-25"
+        },
+        {
+          "url": "https://kisspress.jp/articles/52244/",
+          "site_name": "Kiss PRESS",
+          "is_official": false,
+          "retrieved_date": "2026-09-25"
+        },
+        {
+          "url": "https://www.iz2.co.jp/calendar/?p=2456",
+          "site_name": "お祭り情報館",
+          "is_official": false,
+          "retrieved_date": "2026-09-25"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0728e521316/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-25"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
