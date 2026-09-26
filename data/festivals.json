@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-26 17:16",
+  "last_updated": "2026-09-26 18:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -37110,13 +37110,28 @@
           "site_name": "池上本門寺公式",
           "is_official": true,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev141/index.html",
+          "site_name": "GO TOKYO（東京都公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-26"
+        },
+        {
+          "url": "https://www.o-2.jp/event/oeshiki2026/",
+          "site_name": "東京・大田観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-26"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -59558,13 +59573,28 @@
           "site_name": "南陽の菊まつり公式サイト",
           "is_official": true,
           "retrieved_date": "2026-09-22"
+        },
+        {
+          "url": "https://www.visityamagata.jp/event-nanyo-kikumatsuri/",
+          "site_name": "VISIT YAMAGATA（山形県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-26"
+        },
+        {
+          "url": "https://yamagatakanko.com/festivals/detail_9419.html",
+          "site_name": "やまがたへの旅（山形県公式観光・旅行情報サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-09-26"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
