@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27 08:20",
+  "last_updated": "2026-09-27 12:19",
   "festivals": [
     {
       "id": "festival_001",
@@ -1442,7 +1442,7 @@
       "city": "唐津市",
       "date_start": "2026-11-02",
       "date_end": "2026-11-04",
-      "date_note": "11月2日(月)宵曳山、3日(火・祝)御旅所神幸、4日(水)後祭。複数ソースで一致。",
+      "date_note": "11月2日(月)宵曳山19:00〜21:30、3日(火・祝)御旅所神幸9:30〜16:30（御旅所曳込み12:00・曳出し15:00）、4日(水)翌日祭10:00〜16:40（米屋町通り勢揃い12:00・曳出し14:30）。複数ソースで一致。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -1504,13 +1504,22 @@
           "site_name": "文化遺産オンライン",
           "is_official": true,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://www.city.karatsu.lg.jp/page/4344.html",
+          "site_name": "唐津市公式（観光課）",
+          "is_official": true,
+          "retrieved_date": "2026-09-27"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -60310,7 +60319,7 @@
       "price": "不明",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "堺東駅と堺駅を東西につなぐ大小路筋や大道筋一帯で行われる堺市最大級の市民まつり。鉄砲隊実演やふとん太鼓の担ぎ合いなどが行われる。",
+      "history_description": "堺東駅と堺駅を東西につなぐ大小路筋や大道筋一帯で行われる堺市最大級の市民まつり。前夜祭・大パレード・大茶会・なんばん市を柱に、鉄砲隊実演やふとん太鼓の担ぎ合いなどが行われる。毎年10月第3日曜日とその前日の土曜日に開催。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -60332,13 +60341,23 @@
           "site_name": "堺観光ガイド（イベント情報）",
           "is_official": true,
           "retrieved_date": "2026-09-27"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/堺まつり",
+          "site_name": "Wikipedia",
+          "is_official": false,
+          "retrieved_date": "2026-09-27"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "history_description",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
