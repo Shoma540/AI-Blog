@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27 12:19",
+  "last_updated": "2026-09-27 16:19",
   "festivals": [
     {
       "id": "festival_001",
@@ -1515,11 +1515,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -31745,9 +31742,9 @@
       "similar_name_warning": false,
       "prefecture": "熊本県",
       "city": "上益城郡御船町",
-      "date_start": "延期",
-      "date_end": "延期",
-      "date_note": "2026年7月28日発生の令和8年熊本地震（最大震度7）の影響により、当初予定の8/9(日)開催から延期が正式決定。延期後の新日程は本稿執筆時点で未定。 追加確認（2026-09-24）：御船町公式サイトのイベント告知一覧に「第53回御船があーっぱ祭りの開催中止について」と題するページが2026年9月10日付で追加されているのを確認したが、当該ページ本文を直接開けなかったため中止の確定はできていない。前年（第52回・2025年）も延期後に正式中止となった前例があり、同様の経過をたどっている可能性が高い。次回実行時に公式サイトで本文を直接確認して確定させること。",
+      "date_start": "中止",
+      "date_end": "中止",
+      "date_note": "令和8年熊本地震の被害を受け、御船町は「被災者の再建支援を最優先することとし、今年度の開催を中止することとしました」と発表（当初は延期予定だったが方針変更）。ただし完全な中止ではなく、寄せられた協賛金を活用し花火大会のみ年明けに実施予定（具体的な振替日は未定）。祭り本体（があーっぱ祭り）は2026年度は中止。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -31788,16 +31785,29 @@
           "site_name": "御船町公式サイト",
           "is_official": true,
           "retrieved_date": "2026-08-01"
+        },
+        {
+          "url": "https://www.town.mifune.kumamoto.jp/page9461.html",
+          "site_name": "御船町公式サイト（第53回御船があーっぱ祭りについて）",
+          "is_official": true,
+          "retrieved_date": "2026-09-27"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "ジョルダン（2026-09-24時点）はなお「延期決定…延期日未定」表記のままで中止情報を反映していない。御船町公式サイトのお知らせ一覧の見出しのみから中止の可能性が高いと判断したが未確定。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "解消済み：御船町公式サイトの個別記事（page9461.html）を直接確認し、2026年9月10日付で第53回御船があーっぱ祭りの開催中止が正式発表されたことを確認。協賛金を使った花火大会のみ年明けに振替実施予定（日程未定）。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "trust_level",
+        "conflict_note",
+        "requires_check"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "前回：延期決定（延期日未定・中止の確度は未確認） → 今回：正式に開催中止と確認（花火大会のみ年明け振替予定）"
       }
     },
     {
@@ -60352,12 +60362,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "history_description",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
