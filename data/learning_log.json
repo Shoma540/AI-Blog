@@ -491,6 +491,18 @@
       "verify_after": "2026-09-27",
       "result": "変化なし: 2026-09-27 08:17時点のGA4スナップショット（過去7日間）もセッション0件・ページビュー0件が継続しており、festival_card_html()のimg要素にdecoding=\"async\"を追加した改善の効果（レンダリング応答性）はGA4のセッション数だけでは直接測定できない性質であり、アクセス自体も発生していないため検出できない。validate_site.pyは全項目通過しており、この改善によるサイト破損は確認されていない。",
       "commit": "d37132e540ddef0e54fb5888e33ee1f2f5d6cee5"
+    },
+    {
+      "date": "2026-09-27 08:20",
+      "analysis": "GA4スナップショット（2026-09-27 08:17取得、過去7日間）はセッション0件・ページビュー0件が継続しており、データ不十分期（週間セッション50未満）が続いている。本実行冒頭でverify_after到来済みの前回改善2件（2026-09-23のEvent構造化データoffers.url/availability追加、2026-09-24のfestival-card画像decoding=async追加）を効果測定し、いずれもアクセス0件のため「変化なし」を記録した。validate_site.pyは全項目通過し、直近の改善によるサイト破損は無し。過去の学習記録（41件）を確認したところ、meta description・sitemap・JSON-LD（Event/WebSite/Organization/Breadcrumb）・robots.txt・favicon・skip-link・focus-visible・reduced-motion・ダークモード・装飾絵文字のaria-hidden化・nav aria-label・タブのキーボード操作・h3見出し化・footer/headerのランドマーク化・og:image:alt・theme-colorのダーク対応・Event offersの拡充・画像decoding=asyncなど幅広いSEO/アクセシビリティ/表示速度の改善が積み重ねられてきた一方、<head>内でfonts.googleapis.com・fonts.gstatic.comへはpreconnectが張られていたが、gtag.js本体を配信するwww.googletagmanager.comおよび計測データ送信先のwww.google-analytics.comへは事前接続のヒントが無く、async属性で非同期読み込みされるgtag.jsスクリプトの実際のDNS解決・TLSハンドシェイクがリクエスト発生時まで開始されない状態だった。",
+      "action": "scripts/generate_html.py の html_page() で、<head>内のGoogle tag（gtag.js）<script>タグの直前に、<link rel=\"preconnect\" href=\"https://www.googletagmanager.com\"> と <link rel=\"preconnect\" href=\"https://www.google-analytics.com\"> の2つのpreconnectタグを追加した。gtag.jsのスクリプトタグ自体（async属性・計測ID）や既存のfontsへのpreconnect、その他の構造・CSSは変更していない。html_page()は全62ページ共通テンプレートのため、index/map/calendar/prefecture(47)/month(11)/404の全ページに適用される。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "googletagmanager.com・google-analytics.comへのpreconnectにより、ブラウザがページ解析の早い段階でこれらのドメインへのDNS解決・TLS接続を事前に開始できるようになり、gtag.jsの読み込み・計測データ送信開始までの遅延がわずかに短縮されるはず。gtag.js自体はasyncのままなのでメインコンテンツのレンダリングをブロックせず、見た目・レイアウトへの変化は無い。GA4のセッション数自体には影響しない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認を中心に経過観察する。",
+      "verify_after": "2026-09-30",
+      "result": "",
+      "commit": "33aa5c9d213d258871e42bf4a3f7963c3a57bb83"
     }
   ]
 }
