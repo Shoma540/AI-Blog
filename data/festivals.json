@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27 16:19",
+  "last_updated": "2026-09-27 17:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -31796,18 +31796,11 @@
       "trust_level": "高",
       "conflict_note": "解消済み：御船町公式サイトの個別記事（page9461.html）を直接確認し、2026年9月10日付で第53回御船があーっぱ祭りの開催中止が正式発表されたことを確認。協賛金を使った花火大会のみ年明けに振替実施予定（日程未定）。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "trust_level",
-        "conflict_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
-        "changed": true,
-        "details": "前回：延期決定（延期日未定・中止の確度は未確認） → 今回：正式に開催中止と確認（花火大会のみ年明け振替予定）"
+        "changed": false,
+        "details": ""
       }
     },
     {
@@ -43329,7 +43322,7 @@
           "url": "https://www.maniwa.or.jp/web/?c=event-2&pk=490",
           "site_name": "真庭観光WEB（公式）",
           "is_official": true,
-          "retrieved_date": "2026-08-17"
+          "retrieved_date": "2026-09-27"
         },
         {
           "url": "https://www.okayama-kanko.jp/spot/detail_12692.html",
@@ -43342,16 +43335,27 @@
           "site_name": "ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2081619/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-09-27"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "⚠️ 2026年開催の公式発表未確認。例年日程（10月19日・20日）からの推定のため要確認。",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "解消済み：真庭観光WEB（公式）・岡山観光WEB（公式）・レッツエンジョイ東京の複数ソースで2026年10月19日・20日開催が改めて一致確認できたため、要確認フラグを解除し信頼度を高に更新。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "trust_level",
+        "requires_check",
+        "conflict_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "前回：例年日程からの推定のみで2026年の確度は中 → 今回：複数ソースの再確認により2026年10/19・20開催の信頼度を高に格上げ"
       }
     },
     {
@@ -45861,9 +45865,9 @@
       "similar_name_warning": false,
       "prefecture": "愛媛県",
       "city": "八幡浜市保内町",
-      "date_start": "2026-10-15",
+      "date_start": "2026-10-17",
       "date_end": "2026-10-24",
-      "date_note": "磯崎地区10/15、喜木津地区10/17、喜須来地区10月第3日曜(10/18)、三島神社秋季大祭10月第4土曜(10/24)と推定。2026年の公式発表は未確認、例年の固定・曜日パターンからの算出。",
+      "date_note": "喜木津地区10/17(土)、磯崎地区10/18(日)※例年の10/15開催から変更、喜須来地区10/18(日・10月第3日曜)、三島神社秋季大祭10/24(土・10月第4土曜)。RNBエンタメディア「愛媛県の秋祭り2026年開催情報」記事で磯崎地区の日程変更を確認。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -45902,16 +45906,27 @@
           "site_name": "八幡浜市",
           "is_official": true,
           "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://www.rnb.co.jp/media/ehime-akimatsuri2026/",
+          "site_name": "RNBエンタメディア（愛媛県の秋祭り2026年開催情報）",
+          "is_official": false,
+          "retrieved_date": "2026-09-27"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_note",
+        "trust_level",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "例年：磯崎地区10/15開催 → 2026年：磯崎地区10/18開催に変更（喜木津10/17・喜須来10/18・三島神社秋季大祭10/24は例年通り）"
       }
     },
     {
