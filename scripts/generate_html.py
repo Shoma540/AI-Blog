@@ -727,6 +727,8 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <meta name="twitter:title" content="{full_title}">
   <meta name="twitter:description" content="{description}">
   <meta name="twitter:image" content="{og_image}">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://www.google-analytics.com">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6NXKRMQDZ0"></script>
   <script>
