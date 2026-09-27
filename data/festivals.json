@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-26 18:17",
+  "last_updated": "2026-09-27 08:20",
   "festivals": [
     {
       "id": "festival_001",
@@ -37127,11 +37127,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -59590,11 +59587,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -60285,6 +60279,65 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_996",
+      "name": "堺まつり",
+      "alternate_names": [
+        "第53回堺まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "堺市",
+      "date_start": "2026-10-17",
+      "date_end": "2026-10-18",
+      "date_note": "詳細スケジュールは2026年9月初旬に公式サイトで公開予定と案内されていた。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "堺市・堺観光コンベンション協会",
+      "genre": [
+        "屋台行事",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "堺東駅と堺駅を東西につなぐ大小路筋や大道筋一帯で行われる堺市最大級の市民まつり。鉄砲隊実演やふとん太鼓の担ぎ合いなどが行われる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "南海本線・南海高野線 堺駅／堺東駅、阪堺電気軌道 大小路駅等",
+      "official_url": "https://www.sakai-tcb.or.jp/sakaimatsuri2026/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sakai-tcb.or.jp/sakaimatsuri2026/",
+          "site_name": "堺観光コンベンション協会（第53回堺まつり公式）",
+          "is_official": true,
+          "retrieved_date": "2026-09-27"
+        },
+        {
+          "url": "https://www.sakai-tcb.or.jp/event/detail/883",
+          "site_name": "堺観光ガイド（イベント情報）",
+          "is_official": true,
+          "retrieved_date": "2026-09-27"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
