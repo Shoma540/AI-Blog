@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27 17:17",
+  "last_updated": "2026-09-27 18:19",
   "festivals": [
     {
       "id": "festival_001",
@@ -43346,13 +43346,8 @@
       "trust_level": "高",
       "conflict_note": "解消済み：真庭観光WEB（公式）・岡山観光WEB（公式）・レッツエンジョイ東京の複数ソースで2026年10月19日・20日開催が改めて一致確認できたため、要確認フラグを解除し信頼度を高に更新。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "conflict_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "前回：例年日程からの推定のみで2026年の確度は中 → 今回：複数ソースの再確認により2026年10/19・20開催の信頼度を高に格上げ"
@@ -45917,13 +45912,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_note",
-        "trust_level",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "例年：磯崎地区10/15開催 → 2026年：磯崎地区10/18開催に変更（喜木津10/17・喜須来10/18・三島神社秋季大祭10/24は例年通り）"
@@ -46271,9 +46261,9 @@
       "similar_name_warning": false,
       "prefecture": "徳島県",
       "city": "海部郡美波町由岐",
-      "date_start": "2026-10-11",
-      "date_end": "2026-10-12",
-      "date_note": "宵宮10月11日、本祭10月12日と伝えられる（美波町公式ページは接続エラーで直接確認できず、旅行情報サイトの記載に基づく）。2026年公式発表は要確認。",
+      "date_start": "2026-09-06",
+      "date_end": "2026-10-15",
+      "date_note": "由岐地区7つの神社で9月上旬〜10月中旬にかけて順次開催される連続秋祭りの総称。田井白鳥神社祭9/6(神事のみ)、西由岐八幡神社9/11-13(海入り13日14時頃・花火11日19時)、木岐八幡神社9/12-13、西の地岡崎神社9/13-14(花火13日19:30頃)、阿部宮内神社祭10/3-5(海入り4日午後)、志和岐吉野神社祭10/10-11(海入り11日午後)、伊座利新田八幡神社祭10/14-15(花火14日19:30頃)。県公式・町公式の2ソースで一致。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -46302,19 +46292,32 @@
       "sources": [
         {
           "url": "https://www.awanavi.jp/archives/event/1850",
-          "site_name": "阿波ナビ（徳島県観光情報）",
+          "site_name": "阿波ナビ（徳島県観光情報公式）",
           "is_official": true,
-          "retrieved_date": "2026-08-19"
+          "retrieved_date": "2026-09-27"
+        },
+        {
+          "url": "https://www.town.minami.lg.jp/docs/6203906.html",
+          "site_name": "美波町公式ホームページ（由岐の連続秋祭り 令和8年度）",
+          "is_official": true,
+          "retrieved_date": "2026-09-27"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：単一日程(宵宮/本祭の2日間)として記録 → 今年：由岐地区7神社の連続開催期間(9/6〜10/15)として正確化"
       }
     },
     {
@@ -47339,7 +47342,7 @@
       "city": "高砂市",
       "date_start": "2026-10-10",
       "date_end": "2026-10-11",
-      "date_note": "毎年10月10日・11日開催（固定日程）。船渡御は3年に1度の神事で、2026年が実施年かは公式未確認のため要確認。",
+      "date_note": "毎年10月10日・11日開催（固定日程）。船渡御は3年に1度の神事で、2026年は実施年であることを複数ソースで確認。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -47392,9 +47395,12 @@
       ],
       "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -47536,7 +47542,7 @@
       "city": "宮崎市",
       "date_start": "2026-10-11",
       "date_end": "2026-10-11",
-      "date_note": "第3回開催。開催時間・打ち上げ場所は公式発表待ちのため未確定（2024年の第1回実績値を参考情報として記載、2026年時点で確定ではない）。",
+      "date_note": "第3回青島神社奉納花火。2026年10月11日開催が青島ナビ・宮崎市公式で確認済み。打ち上げ時間・詳細は決まり次第発表予定のため未確定。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -47572,13 +47578,23 @@
           "site_name": "花火番付.com",
           "is_official": false,
           "retrieved_date": "2026-08-21"
+        },
+        {
+          "url": "https://aoshima-navi.jp/news/202610aoshimahanabi03/",
+          "site_name": "青島ナビ（宮崎市青島観光イベント情報）",
+          "is_official": true,
+          "retrieved_date": "2026-09-27"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "date_note",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -50388,7 +50404,7 @@
       "city": "石川郡古殿町",
       "date_start": "2026-10-10",
       "date_end": "2026-10-11",
-      "date_note": "日付不明：例年「10月の第2日曜とその前日」開催とされ、2026年は10/10(土)・10/11(日)と推定されるが、町公式サイトに2026年分の日程掲載はまだ確認できていないため要確認。",
+      "date_note": "令和8年度（2026年）の公式開催案内で10月10日(土)宵祭・11日(日)本祭と確定。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -50424,13 +50440,24 @@
           "site_name": "ふくしまの旅",
           "is_official": false,
           "retrieved_date": "2026-08-29"
+        },
+        {
+          "url": "https://www.town.furudono.fukushima.jp/news-topikkusu/event/3434",
+          "site_name": "古殿町公式（令和8年度古殿八幡神社例大祭、やぶさめフェア開催案内）",
+          "is_official": true,
+          "retrieved_date": "2026-09-27"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "date_note",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
