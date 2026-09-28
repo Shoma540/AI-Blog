@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28 17:17",
+  "last_updated": "2026-09-28 18:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -60700,7 +60700,7 @@
       "trust_level": "低",
       "conflict_note": "民間サイト（tenryo.oidehita.com、visit-oita.jp）は2025年開催分（11/8〜9）の情報のみ掲載しており未更新。2026年日程は日田市公式サイトの1件のみで確認（信頼度は低とするが発信元は市の公式サイト）。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
