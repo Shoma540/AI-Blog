@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28 12:35",
+  "last_updated": "2026-09-28 16:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -4240,11 +4240,8 @@
       "trust_level": "中",
       "conflict_note": "祭り自体の内容・主催は3ソース一致で確認できたが、2026年の具体的な開催日は本稿時点で未発表のため「不明」とした。要確認。 追加確認（2026-09-24）：公式ルール（10/26固定・直後の土日）から10/31-11/1と推定したが、2026年の公式日程発表はまだ確認できていないため date は推定値。確定後に要更新。 再確認（2026-09-28）：じゃらんnet・宮崎商工会議所公式・みやざき観光ナビ（宮崎県公式）の3サイトが現時点でも「11月1日(土)・2日(日)」と表記しているが、2026年の実際の曜日は11/1が日曜、11/2が月曜であり暦と矛盾する。これは令和7年（2025年）の日程（2025年は11/1が土曜）がそのまま使い回されている可能性が高く、2026年向けに未更新の情報と判断し不採用を継続。2026年の公式日程発表は本稿時点でも確認できず、dateは推定値のまま要確認を継続。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -60635,17 +60632,28 @@
       "video_url": "不明",
       "sources": [
         {
+          "url": "https://www.city.kimitsu.lg.jp/",
+          "site_name": "君津市公式サイト（2026年9月24日発表）",
+          "is_official": true,
+          "retrieved_date": "2026-09-28"
+        },
+        {
           "url": "https://jimoharu.net/kimitsu-shimin-hanabi-2026/",
-          "site_name": "ジモはる（君津市公式サイト・広報きみつ令和8年9月号を引用）",
+          "site_name": "ジモはる（君津市公式発表の引用・全文転記あり）",
           "is_official": false,
           "retrieved_date": "2026-09-28"
         }
       ],
-      "trust_level": "中",
-      "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "NEW",
-      "updated_fields": [],
+      "trust_level": "高",
+      "conflict_note": "君津市公式サイトが2026年9月24日付で「台風第25号の被害状況を考慮し中止とします」と正式発表（「令和8年10月3日（土曜日）君津市民花火大会」を名指しで中止と明記）。ジモはるが公式発表文を全文引用しており内容が一致するため信頼度を高に更新。2026年9月25日時点で振替日の発表はなし。",
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "trust_level",
+        "requires_check",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
