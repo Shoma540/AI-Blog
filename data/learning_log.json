@@ -503,6 +503,18 @@
       "verify_after": "2026-09-30",
       "result": "",
       "commit": "33aa5c9d213d258871e42bf4a3f7963c3a57bb83"
+    },
+    {
+      "date": "2026-09-28 08:30",
+      "analysis": "GA4スナップショット（2026-09-28 08:19取得、過去7日間）はセッション0件・ページビュー0件が継続しており、データ不十分期（週間セッション50未満）が続いている。前回改善entry（2026-09-27、gtag.js配信元へのpreconnect追加、verify_after 2026-09-30）はまだ到来していないため効果測定は行っていない。validate_site.pyは全項目通過し、直近の改善によるサイト破損は無し。コード面を確認したところ、html_page()のog:image/twitter:imageは全62ページでconfig.jsonのdefault_image（汎用イラスト1種）に固定されており、SNSでシェアされた際のリンクプレビュー画像がトップページも都道府県ページも月別ページも常に同じ汎用イラストになっていた。一方でfestival_card_html()は既にジャンル別画像（config.jsonのgenre_images）を各祭りカードに使い分けており、都道府県・月別ページ内には既にジャンルに応じた複数の画像アセット（同一サイズ928x1152・同一形式JPEG）が使われている状態だった。",
+      "action": "scripts/generate_html.py のhtml_page()にog_image_filename引数を追加し、指定があればog:image/twitter:imageにそのファイルを使い、無指定時は従来通りDEFAULT_IMAGEにフォールバックするようにした。generate_prefecture_pages()・generate_month_pages()では、そのページに掲載される祭りのうち開催日が最も近いもの（各リストは既にdate_start昇順でソート済み）のジャンルから select_image_filename() で画像を決定し、og_image_filenameとして渡すようにした。画像アセットは全て同一サイズ・同一形式のためog:image:width/height/typeの変更は不要。index.html・calendar.html・map.html・404.htmlは対象外（従来通り既定画像）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "都道府県ページ・月別ページがSNS等でシェアされた際、そのページの祭りジャンルに応じた画像（花火・神輿・盆踊り等）がリンクプレビューに表示されるようになり、常に同じ汎用イラストだった場合より内容を予感させやすくなる（クリック率のわずかな向上が期待できる）。GA4のセッション数だけでは直接測定できない性質の改善であり、アクセス自体も発生していないため、当面はvalidate_site.pyでの構造維持確認（OGPタグのパース可否等）を中心に経過観察する。",
+      "verify_after": "2026-10-01",
+      "result": "",
+      "commit": "3781060494a644981d929df08bc8f129bbb08250"
     }
   ]
 }
