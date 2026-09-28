@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27 18:19",
+  "last_updated": "2026-09-28 08:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -45254,16 +45254,14 @@
     },
     {
       "id": "festival_747",
-      "name": "沙沙貴まつり（近江源氏祭）",
-      "alternate_names": [
-        "近江源氏祭"
-      ],
+      "name": "近江源氏祭",
+      "alternate_names": [],
       "similar_name_warning": false,
       "prefecture": "滋賀県",
       "city": "近江八幡市",
       "date_start": "2026-10-11",
       "date_end": "2026-10-11",
-      "date_note": "例年10月第2日曜日開催。2026年は10月11日と推定されるが、神社による2026年specific発表は未確認のため要確認。",
+      "date_note": "沙沙貴神社公式サイトで確認：「沙沙貴まつり」は正式な祭礼名ではなく、正式には4月第3土日・5月・10月の年3回執り行われる「沙沙貴十二座の神事」と、10月第2日曜開催の「近江源氏祭」は別の行事。本項目は例年10月第2日曜開催の近江源氏祭を指すため、名称を「近江源氏祭」に修正。2026年は10月11日と推定されるが、神社による2026年specific発表は未確認のため要確認は継続。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -45300,13 +45298,24 @@
           "site_name": "近江八幡市観光情報サイト（公式）",
           "is_official": true,
           "retrieved_date": "2026-08-19"
+        },
+        {
+          "url": "https://sasakijinja.or.jp/event/",
+          "site_name": "沙沙貴神社公式サイト（祭典・行事ページ）",
+          "is_official": true,
+          "retrieved_date": "2026-09-28"
         }
       ],
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "name",
+        "alternate_names",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -46306,15 +46315,8 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "sources",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：単一日程(宵宮/本祭の2日間)として記録 → 今年：由岐地区7神社の連続開催期間(9/6〜10/15)として正確化"
@@ -47396,11 +47398,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_note",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -47542,7 +47541,7 @@
       "city": "宮崎市",
       "date_start": "2026-10-11",
       "date_end": "2026-10-11",
-      "date_note": "第3回青島神社奉納花火。2026年10月11日開催が青島ナビ・宮崎市公式で確認済み。打ち上げ時間・詳細は決まり次第発表予定のため未確定。",
+      "date_note": "第3回青島神社奉納花火。2026年10月11日開催が青島ナビ・宮崎市公式・ジモシル宮崎など複数の独立ソースで確認済み。打ち上げ時間・詳細は決まり次第発表予定のため未確定。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -47584,16 +47583,23 @@
           "site_name": "青島ナビ（宮崎市青島観光イベント情報）",
           "is_official": true,
           "retrieved_date": "2026-09-27"
+        },
+        {
+          "url": "https://myzkc.jp/aosimahanabi20260926/",
+          "site_name": "ジモシル宮崎",
+          "is_official": false,
+          "retrieved_date": "2026-09-28"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
+      "requires_check": false,
       "diff_status": "UPDATED",
       "updated_fields": [
         "sources",
-        "date_note",
-        "trust_level"
+        "trust_level",
+        "requires_check",
+        "date_note"
       ],
       "year_comparison": {
         "changed": false,
@@ -50451,13 +50457,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "date_note",
-        "trust_level",
-        "requires_check"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -60405,6 +60406,194 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_997",
+      "name": "第48回 世田谷区たまがわ花火大会",
+      "alternate_names": [
+        "世田谷区たまがわ花火大会"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "世田谷区",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "荒天の場合は中止（順延なし）。今大会より打上花火の最大号数を6号に変更（前回大会までは10号）。",
+      "time_start": "18:00",
+      "time_end": "19:00",
+      "rain_policy": "荒天中止（順延なし）",
+      "organizer": "世田谷区たまがわ花火大会実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（約6000発）",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "二子玉川緑地運動場（二子橋上流）で開催される世田谷区の花火大会。2026年のテーマは「翔～夜空を駆ける、新たなる飛翔」。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "区立二子玉川緑地運動場（二子橋上流）",
+      "official_url": "https://tamagawa-hanabi.com/about/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/02219/23775.html",
+          "site_name": "世田谷区公式ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-09-28"
+        },
+        {
+          "url": "https://tamagawa-hanabi.com/about/",
+          "site_name": "世田谷区たまがわ花火大会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-28"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e355272/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-28"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_998",
+      "name": "三郷花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "三郷市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "対岸の千葉県流山市で同日開催の「流山花火大会」との合同打ち上げ（両市合計約1万4000発）。全席有料・場所取り不要。荒天の場合は中止の可能性あり、詳細は主催者発表を要確認。",
+      "time_start": "18:00",
+      "time_end": "19:00",
+      "rain_policy": "荒天中止（順延なし）",
+      "organizer": "三郷市商工会青年部ほか実行委員会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（両市合計約1万4000発）",
+      "is_free": false,
+      "price": "全席有料（座席詳細は公式サイト要確認）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "江戸川運動公園を会場に、対岸の流山花火大会と同時開催される合同花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "江戸川運動公園（埼玉県三郷市）",
+      "official_url": "https://misato-impulse.com/fireworks/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://misato-impulse.com/fireworks/",
+          "site_name": "三郷市商工会青年部",
+          "is_official": true,
+          "retrieved_date": "2026-09-28"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00446/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-28"
+        },
+        {
+          "url": "https://sorahanabi.com/saitama/misato-saitama/misato-hanabitaikai.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-09-28"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_999",
+      "name": "流山花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "流山市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "date_note": "対岸の埼玉県三郷市「三郷花火大会」との同時開催。花火と音楽がシンクロする「流山スカイミュージカル」が特徴。荒天の場合は中止。打ち上げ時間はソースにより18:00〜18:40／18:00〜19:00と若干差異あり、公式発表を優先して要確認。",
+      "time_start": "18:00",
+      "time_end": "不明",
+      "rain_policy": "荒天中止（順延なし）",
+      "organizer": "流山花火大会実行委員会（流山商工会議所）",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他（両市合計約1万4000発）",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "江戸川河川敷を会場に、対岸の三郷花火大会と同時開催される合同花火大会。花火と音楽をシンクロさせる「流山スカイミュージカル」が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "江戸川河川敷（千葉県流山市）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0312e00885/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-09-28"
+        },
+        {
+          "url": "https://sorahanabi.com/chiba/nagareyama/nagareyama-hanabitaikai.html",
+          "site_name": "空花火2026",
+          "is_official": false,
+          "retrieved_date": "2026-09-28"
+        },
+        {
+          "url": "https://www.jalan.net/theme/hanabi/chiba/12_hanabi32.html",
+          "site_name": "じゃらんnet",
+          "is_official": false,
+          "retrieved_date": "2026-09-28"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "打ち上げ時間の表記がソースにより異なる（18:00〜18:40 / 18:00〜19:00）。公式サイト（流山商工会議所）での確認を推奨。",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
