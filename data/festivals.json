@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28 16:17",
+  "last_updated": "2026-09-28 17:17",
   "festivals": [
     {
       "id": "festival_001",
@@ -60647,16 +60647,64 @@
       "trust_level": "高",
       "conflict_note": "君津市公式サイトが2026年9月24日付で「台風第25号の被害状況を考慮し中止とします」と正式発表（「令和8年10月3日（土曜日）君津市民花火大会」を名指しで中止と明記）。ジモはるが公式発表文を全文引用しており内容が一致するため信頼度を高に更新。2026年9月25日時点で振替日の発表はなし。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_1001",
+      "name": "日田天領まつり・千年あかり",
+      "alternate_names": [
+        "天領祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大分県",
+      "city": "日田市",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-15",
+      "date_note": "第47回。ランタン展示（日田どん等）は11/13〜15。千年あかり（竹灯籠）は花月川河川敷中心に開催。",
+      "time_start": "10:00",
+      "time_end": "16:30",
+      "rain_policy": "不明",
+      "organizer": "日田まつり振興会／日田市観光協会",
+      "genre": [
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "見学無料（時代衣装まち歩き体験は500円）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "江戸時代に幕府直轄領（天領）だった日田の歴史にちなむ祭り。西国筋郡代着任行列などを再現する。",
+      "food_stalls": "天領屋台・天領マルシェで20店舗以上が出店",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "豆田地区・月隈公園周辺",
+      "official_url": "https://www.city.hita.oita.jp/soshiki/shokokankobu/kankoka/kankokikaku/kanko/2542.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.hita.oita.jp/soshiki/shokokankobu/kankoka/kankokikaku/kanko/2542.html",
+          "site_name": "日田市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-09-28"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "民間サイト（tenryo.oidehita.com、visit-oita.jp）は2025年開催分（11/8〜9）の情報のみ掲載しており未更新。2026年日程は日田市公式サイトの1件のみで確認（信頼度は低とするが発信元は市の公式サイト）。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：2025年11月8日〜9日 → 今年：2026年11月14日〜15日"
       }
     }
   ]
