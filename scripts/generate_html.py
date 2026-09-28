@@ -694,14 +694,16 @@ def website_jsonld():
     return f'<script type="application/ld+json">{json_str}</script>'
 
 
-def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path="", footer=""):
+def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path="", footer="", og_image_filename=None):
     description = esc(description.replace('\n', ' '))
     full_title = esc(f"{title} | 全国祭り情報")
     canonical_url = f"{SITE_BASE_URL}/{quote(url_path)}" if url_path else f"{SITE_BASE_URL}/"
     current_nav_href = {'': 'index.html', 'map.html': 'map.html', 'calendar.html': 'calendar.html'}.get(url_path)
     if current_nav_href:
         nav = nav.replace(f'href="{current_nav_href}"', f'href="{current_nav_href}" aria-current="page"')
-    og_image = f"{IMAGE_BASE_URL.rstrip('/')}/{DEFAULT_IMAGE}"
+    # ページに関連する祭りのジャンル画像があれば使い、無ければ全ページ共通の既定画像にフォールバックする。
+    # 画像アセットは全て同一サイズ・同一形式（928x1152, JPEG）のため、og:image:width/height/typeは変更不要。
+    og_image = f"{IMAGE_BASE_URL.rstrip('/')}/{og_image_filename or DEFAULT_IMAGE}"
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -1509,6 +1511,7 @@ def generate_prefecture_pages(festivals, last_updated):
 </div>"""
         footer_html = f'<footer>最終更新: {last_updated}</footer>'
         nav = NAV_HTML.replace('href="../', 'href="../')
+        og_image_filename = select_image_filename(pref_festivals[0]) if pref_festivals else None
         with open(os.path.join(out_dir, f'{pref}.html'), 'w', encoding='utf-8') as f:
             breadcrumb = breadcrumb_jsonld(breadcrumb_items)
             f.write(html_page(
@@ -1516,6 +1519,7 @@ def generate_prefecture_pages(festivals, last_updated):
                 extra_head=event_jsonld(pref_festivals) + breadcrumb,
                 description=f"{pref}の祭り・花火大会情報【{current_year}年】を{len(pref_festivals)}件掲載。開催日程・場所・アクセスなど最新情報をまとめています。",
                 url_path=f"prefecture/{pref}.html", footer=footer_html,
+                og_image_filename=og_image_filename,
             ))
     print(f"都道府県ページを {len(prefectures)} 件生成しました")
 
@@ -1555,12 +1559,14 @@ def generate_month_pages(festivals, last_updated):
         footer_html = f'<footer>最終更新: {last_updated}</footer>'
         nav = NAV_HTML
         breadcrumb = breadcrumb_jsonld(breadcrumb_items)
+        og_image_filename = select_image_filename(sorted_fests[0]) if sorted_fests else None
         with open(os.path.join(out_dir, f'{m}.html'), 'w', encoding='utf-8') as f:
             f.write(html_page(
                 page_title, body, nav=nav,
                 extra_head=event_jsonld(sorted_fests) + breadcrumb,
                 description=f"{m}月に開催される全国の祭り・花火大会【{current_year}年】を{len(fests)}件掲載。日程・場所など最新情報をまとめています。",
                 url_path=f"month/{m}.html", footer=footer_html,
+                og_image_filename=og_image_filename,
             ))
     print(f"月別ページを {len(months_data)} 件生成しました")
 
