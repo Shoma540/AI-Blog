@@ -515,6 +515,18 @@
       "verify_after": "2026-10-01",
       "result": "",
       "commit": "3781060494a644981d929df08bc8f129bbb08250"
+    },
+    {
+      "date": "2026-09-29 08:25",
+      "analysis": "GA4セッション0件でデータ不十分期。モバイルでカード内の日程・数字が電話番号として自動リンク化され表示が崩れる可能性がある",
+      "action": "scripts/generate_html.py の html_page() の<head>で、color-scheme メタの直後に <meta name=\"format-detection\" content=\"telephone=no\"> を追加した（全ページ共通）",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "モバイルSafari等での電話番号自動リンク誤検出が防止され、表示の一貫性とUXが改善する",
+      "verify_after": "2026-10-02",
+      "result": "",
+      "commit": "f619176ed7fbebb66a0349a17e6cf89b7b44a65f"
     }
   ]
 }
