@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28 18:14",
+  "last_updated": "2026-09-29 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -60705,6 +60705,56 @@
       "year_comparison": {
         "changed": true,
         "details": "昨年：2025年11月8日〜9日 → 今年：2026年11月14日〜15日"
+      }
+    },
+    {
+      "id": "festival_1002",
+      "name": "稲爪神社秋例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "明石市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-12",
+      "date_note": "三日間開催（10/12は祝日）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://kt-hub.com/65914/inetsumejinja-2026/",
+          "site_name": "来たHUB",
+          "is_official": false,
+          "retrieved_date": "2026-09-29"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明"
       }
     }
   ]
