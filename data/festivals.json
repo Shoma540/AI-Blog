@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29 17:15",
+  "last_updated": "2026-09-30 08:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -60745,6 +60745,156 @@
           "site_name": "来たHUB",
           "is_official": false,
           "retrieved_date": "2026-09-29"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明"
+      }
+    },
+    {
+      "id": "festival_1003",
+      "name": "津田天満神社秋季大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "姫路市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tanosu.com/trip/2861/",
+          "site_name": "たのす",
+          "is_official": false,
+          "retrieved_date": "2026-09-30"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明"
+      }
+    },
+    {
+      "id": "festival_1004",
+      "name": "湊神社秋季例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "姫路市",
+      "date_start": "2026-10-13",
+      "date_end": "2026-10-14",
+      "date_note": "",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tanosu.com/trip/2861/",
+          "site_name": "たのす",
+          "is_official": false,
+          "retrieved_date": "2026-09-30"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明"
+      }
+    },
+    {
+      "id": "festival_1005",
+      "name": "読谷まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "沖縄県",
+      "city": "読谷村",
+      "date_start": "2026-10-24",
+      "date_end": "2026-10-25",
+      "date_note": "",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "その他"
+      ],
+      "scale": "不明",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://matcha-jp.com/jp/27703",
+          "site_name": "MATCHA",
+          "is_official": false,
+          "retrieved_date": "2026-09-30"
         }
       ],
       "trust_level": "低",
