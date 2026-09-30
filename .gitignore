@@ -3,3 +3,6 @@
 __pycache__/
 *.pyc
 .env
+
+# GA4サービスアカウント鍵
+ai-blog-analytics-*.json
