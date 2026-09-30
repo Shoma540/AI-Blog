@@ -538,7 +538,7 @@
       "hypothesis": "検索結果で大きな画像プレビューが許可され、クリック率が向上する可能性がある",
       "verify_after": "2026-10-03",
       "result": "",
-      "commit": "PENDING"
+      "commit": "5077880d33bad4f83ee07fd6c3141afa45ca4df8"
     }
   ]
 }
