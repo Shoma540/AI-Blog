@@ -715,6 +715,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <meta name="format-detection" content="telephone=no">
   <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical_url}">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="全国祭り情報">
   <meta property="og:locale" content="ja_JP">

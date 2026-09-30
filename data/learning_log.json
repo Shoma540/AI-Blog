@@ -501,7 +501,7 @@
       ],
       "hypothesis": "googletagmanager.com・google-analytics.comへのpreconnectにより、ブラウザがページ解析の早い段階でこれらのドメインへのDNS解決・TLS接続を事前に開始できるようになり、gtag.jsの読み込み・計測データ送信開始までの遅延がわずかに短縮されるはず。gtag.js自体はasyncのままなのでメインコンテンツのレンダリングをブロックせず、見た目・レイアウトへの変化は無い。GA4のセッション数自体には影響しない性質の改善のため、次回以降もvalidate_site.pyでの構造維持確認を中心に経過観察する。",
       "verify_after": "2026-09-30",
-      "result": "",
+      "result": "変化なし: 2026-09-30 08:20時点でGA4セッション0件。validate_site.py全通過でサイト破損なし",
       "commit": "33aa5c9d213d258871e42bf4a3f7963c3a57bb83"
     },
     {
@@ -527,6 +527,18 @@
       "verify_after": "2026-10-02",
       "result": "",
       "commit": "f619176ed7fbebb66a0349a17e6cf89b7b44a65f"
+    },
+    {
+      "date": "2026-09-30 08:25",
+      "analysis": "GA4セッション0件でデータ不十分期。検索結果・SNSでの画像プレビューのサイズ制限が未指定だった",
+      "action": "scripts/generate_html.py の html_page() の<head>で、canonicalの直後に <meta name=\"robots\" content=\"index, follow, max-image-preview:large\"> を追加した（全ページ共通）",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "検索結果で大きな画像プレビューが許可され、クリック率が向上する可能性がある",
+      "verify_after": "2026-10-03",
+      "result": "",
+      "commit": "PENDING"
     }
   ]
 }
