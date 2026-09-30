@@ -6,3 +6,4 @@ __pycache__/
 
 # GA4サービスアカウント鍵
 ai-blog-analytics-*.json
+secrets/
