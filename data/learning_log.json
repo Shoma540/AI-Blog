@@ -513,7 +513,7 @@
       ],
       "hypothesis": "都道府県ページ・月別ページがSNS等でシェアされた際、そのページの祭りジャンルに応じた画像（花火・神輿・盆踊り等）がリンクプレビューに表示されるようになり、常に同じ汎用イラストだった場合より内容を予感させやすくなる（クリック率のわずかな向上が期待できる）。GA4のセッション数だけでは直接測定できない性質の改善であり、アクセス自体も発生していないため、当面はvalidate_site.pyでの構造維持確認（OGPタグのパース可否等）を中心に経過観察する。",
       "verify_after": "2026-10-01",
-      "result": "",
+      "result": "変化なし: 2026-10-01 08:xx時点のGA4スナップショット（過去7日間）もセッション0件・ページビュー0件のまま。効果を検出できる段階に達していない。",
       "commit": "3781060494a644981d929df08bc8f129bbb08250"
     },
     {
@@ -539,6 +539,18 @@
       "verify_after": "2026-10-03",
       "result": "",
       "commit": "5077880d33bad4f83ee07fd6c3141afa45ca4df8"
+    },
+    {
+      "date": "2026-10-01 08:20",
+      "analysis": "GA4セッション0件でデータ不十分期。外部リンクや計測送信時のリファラ情報の扱いが未指定だった",
+      "action": "scripts/generate_html.py の html_page() の<head>で、format-detectionメタの直後に <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\"> を追加した（全ページ共通）",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "リファラポリシーが明示され、外部サイトへの遷移時の情報漏えいを抑えつつオリジン情報は維持されるため、プライバシーと計測の一貫性が向上する",
+      "verify_after": "2026-10-04",
+      "result": "",
+      "commit": "PENDING"
     }
   ]
 }
