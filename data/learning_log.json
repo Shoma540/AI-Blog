@@ -551,6 +551,18 @@
       "verify_after": "2026-10-04",
       "result": "",
       "commit": "c16e6147a92c49bc6226e5504b426883cbe69166"
+    },
+    {
+      "date": "2026-10-02 08:16",
+      "analysis": "GA4セッション0件でデータ不十分期。head内メタ情報の充実を継続。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、referrerメタの直後に <meta name=\"application-name\" content=\"全国祭り情報\"> を追加した（全ページ共通）",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "ブラウザ・ブックマーク等でサイト名が正しく認識され、サイトの識別性が向上する",
+      "verify_after": "2026-10-05",
+      "result": "",
+      "commit": "97f9b13c9dc4b7f274b98f016b087867e1b7ea84"
     }
   ]
 }
