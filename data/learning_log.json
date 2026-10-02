@@ -525,7 +525,7 @@
       ],
       "hypothesis": "モバイルSafari等での電話番号自動リンク誤検出が防止され、表示の一貫性とUXが改善する",
       "verify_after": "2026-10-02",
-      "result": "",
+      "result": "変化なし: 2026-10-02 08:14時点のGA4スナップショットでもセッション0件。validate_site.pyは通過し悪化なし。",
       "commit": "f619176ed7fbebb66a0349a17e6cf89b7b44a65f"
     },
     {
