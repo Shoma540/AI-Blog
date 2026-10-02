@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02 16:15",
+  "last_updated": "2026-10-02 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -61238,6 +61238,56 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1013",
+      "name": "KOBE AUTUMN FESTIVAL（神戸オータムフェスティバル）",
+      "alternate_names": [
+        "神戸オータムフェスティバル"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "神戸市",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-04",
+      "date_note": "",
+      "time_start": "10:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "三宮中央通り・京町筋・新港突堤臨港線",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.walkerplus.com/event/ar0728e607224/price.html",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-10-02"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
