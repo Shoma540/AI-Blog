@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02 12:22",
+  "last_updated": "2026-10-02 16:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -60950,6 +60950,294 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1007",
+      "name": "宇検村やけうちどんと祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "鹿児島県",
+      "city": "宇検村",
+      "date_start": "2026-11-01",
+      "date_end": "2026-11-01",
+      "date_note": "花火情報サイト1件のみ。要公式確認",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "",
+      "organizer": "",
+      "genre": [
+        "花火"
+      ],
+      "scale": "",
+      "is_free": "",
+      "price": "",
+      "ticket_url": "",
+      "history_years": "",
+      "history_description": "",
+      "food_stalls": "",
+      "crowd_level": "",
+      "visitors": "",
+      "access": "",
+      "official_url": "",
+      "sns_accounts": "",
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://hanabi.cloud/html/dayEvent/20261101.html",
+          "site_name": "花火情報サイト",
+          "is_official": false,
+          "retrieved_date": "2026-10-02"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1008",
+      "name": "淡路島まつり花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "不明",
+      "date_start": "2026-11-08",
+      "date_end": "2026-11-08",
+      "date_note": "花火情報サイト1件のみ。要公式確認",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "",
+      "organizer": "",
+      "genre": [
+        "花火"
+      ],
+      "scale": "",
+      "is_free": "",
+      "price": "",
+      "ticket_url": "",
+      "history_years": "",
+      "history_description": "",
+      "food_stalls": "",
+      "crowd_level": "",
+      "visitors": "",
+      "access": "",
+      "official_url": "",
+      "sns_accounts": "",
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://hanabi.cloud/html/dayEvent/20261108.html",
+          "site_name": "花火情報サイト",
+          "is_official": false,
+          "retrieved_date": "2026-10-02"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1009",
+      "name": "大田区平和祈念花火",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "大田区",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
+      "date_note": "花火情報サイト1件のみ。要公式確認",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "",
+      "organizer": "",
+      "genre": [
+        "花火"
+      ],
+      "scale": "",
+      "is_free": "",
+      "price": "",
+      "ticket_url": "",
+      "history_years": "",
+      "history_description": "",
+      "food_stalls": "",
+      "crowd_level": "",
+      "visitors": "",
+      "access": "",
+      "official_url": "",
+      "sns_accounts": "",
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://hanabi.cloud/html/dayEvent/20261114.html",
+          "site_name": "花火情報サイト",
+          "is_official": false,
+          "retrieved_date": "2026-10-02"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1010",
+      "name": "川口花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "川口市",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
+      "date_note": "花火情報サイト1件のみ。要公式確認",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "",
+      "organizer": "",
+      "genre": [
+        "花火"
+      ],
+      "scale": "",
+      "is_free": "",
+      "price": "",
+      "ticket_url": "",
+      "history_years": "",
+      "history_description": "",
+      "food_stalls": "",
+      "crowd_level": "",
+      "visitors": "",
+      "access": "",
+      "official_url": "",
+      "sns_accounts": "",
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://hanabi.cloud/html/dayEvent/20261114.html",
+          "site_name": "花火情報サイト",
+          "is_official": false,
+          "retrieved_date": "2026-10-02"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1011",
+      "name": "富士山すそ野花火まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "静岡県",
+      "city": "不明",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
+      "date_note": "花火情報サイト1件のみ。要公式確認",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "",
+      "organizer": "",
+      "genre": [
+        "花火"
+      ],
+      "scale": "",
+      "is_free": "",
+      "price": "",
+      "ticket_url": "",
+      "history_years": "",
+      "history_description": "",
+      "food_stalls": "",
+      "crowd_level": "",
+      "visitors": "",
+      "access": "",
+      "official_url": "",
+      "sns_accounts": "",
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://hanabi.cloud/html/dayEvent/20261114.html",
+          "site_name": "花火情報サイト",
+          "is_official": false,
+          "retrieved_date": "2026-10-02"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1012",
+      "name": "小江戸川越花火大会",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "埼玉県",
+      "city": "川越市",
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-21",
+      "date_note": "花火情報サイト1件のみ。要公式確認",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "",
+      "organizer": "",
+      "genre": [
+        "花火"
+      ],
+      "scale": "",
+      "is_free": "",
+      "price": "",
+      "ticket_url": "",
+      "history_years": "",
+      "history_description": "",
+      "food_stalls": "",
+      "crowd_level": "",
+      "visitors": "",
+      "access": "",
+      "official_url": "",
+      "sns_accounts": "",
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://hanabi.cloud/html/dayEvent/20261122.html",
+          "site_name": "花火情報サイト",
+          "is_official": false,
+          "retrieved_date": "2026-10-02"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
