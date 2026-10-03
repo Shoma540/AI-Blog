@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02 17:15",
+  "last_updated": "2026-10-03 12:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -60950,7 +60950,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -60998,7 +60998,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -61046,7 +61046,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -61094,7 +61094,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -61142,7 +61142,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -61190,7 +61190,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -61238,7 +61238,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -61283,6 +61283,200 @@
           "site_name": "ウォーカープラス",
           "is_official": false,
           "retrieved_date": "2026-10-02"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1014",
+      "name": "備前建部郷秋季例大祭（建部祭り）",
+      "alternate_names": [
+        "建部祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岡山県",
+      "city": "岡山市",
+      "date_start": "2026-10-11",
+      "date_end": "2026-10-11",
+      "date_note": "毎年10月第2日曜日",
+      "time_start": "12:45",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.okayama-kanko.jp/event/detail_1002894.html",
+          "site_name": "岡山観光WEB",
+          "is_official": false,
+          "retrieved_date": "2026-10-03"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1015",
+      "name": "阿田和神社 秋の例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "熊野市",
+      "date_start": "2026-10-18",
+      "date_end": "2026-10-18",
+      "date_note": "正午から神輿渡御",
+      "time_start": "10:00",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.kankomie.or.jp/event/19854",
+          "site_name": "観光三重",
+          "is_official": false,
+          "retrieved_date": "2026-10-03"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1016",
+      "name": "薬祖神社例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "中央区",
+      "date_start": "2026-10-16",
+      "date_end": "2026-10-16",
+      "date_note": "神事は日本橋室町の薬祖神社で午後1時から",
+      "time_start": "13:00",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://nk.jiho.jp/article/305425",
+          "site_name": "日本経済新聞系 業界紙",
+          "is_official": false,
+          "retrieved_date": "2026-10-03"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1017",
+      "name": "雄町と地酒の祭典",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岡山県",
+      "city": "岡山市",
+      "date_start": "2026-10-09",
+      "date_end": "2026-10-10",
+      "date_note": "9日15:00〜20:00／10日11:00〜17:00、岡山コンベンションセンター",
+      "time_start": "15:00",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://matcha-jp.com/jp/9710",
+          "site_name": "検索結果",
+          "is_official": false,
+          "retrieved_date": "2026-10-03"
         }
       ],
       "trust_level": "低",
