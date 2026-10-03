@@ -574,7 +574,7 @@
       "hypothesis": "トップページの検索結果表示タイトルが簡潔になり、将来のオーガニック流入時のクリック率向上につながるはず。",
       "verify_after": "2026-10-06",
       "result": "",
-      "commit": "PENDING"
+      "commit": "713bea628ad6bcb27768bb426df598091bb1f1e2"
     }
   ]
 }
