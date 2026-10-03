@@ -696,7 +696,7 @@ def website_jsonld():
 
 def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path="", footer="", og_image_filename=None):
     description = esc(description.replace('\n', ' '))
-    full_title = esc(f"{title} | 全国祭り情報")
+    full_title = esc(title if title.endswith("全国祭り情報") else f"{title} | 全国祭り情報")
     canonical_url = f"{SITE_BASE_URL}/{quote(url_path)}" if url_path else f"{SITE_BASE_URL}/"
     current_nav_href = {'': 'index.html', 'map.html': 'map.html', 'calendar.html': 'calendar.html'}.get(url_path)
     if current_nav_href:

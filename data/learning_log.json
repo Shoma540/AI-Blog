@@ -537,7 +537,7 @@
       ],
       "hypothesis": "検索結果で大きな画像プレビューが許可され、クリック率が向上する可能性がある",
       "verify_after": "2026-10-03",
-      "result": "",
+      "result": "変化なし: 2026-10-03 08:14時点のGA4スナップショットでもセッション0件。validate_site.py全通過でサイト破損なし。",
       "commit": "5077880d33bad4f83ee07fd6c3141afa45ca4df8"
     },
     {
@@ -563,6 +563,18 @@
       "verify_after": "2026-10-05",
       "result": "",
       "commit": "97f9b13c9dc4b7f274b98f016b087867e1b7ea84"
+    },
+    {
+      "date": "2026-10-03 08:14",
+      "analysis": "GA4は週間セッション0件（データ不十分期）。index.htmlのtitleが「全国祭り情報 | 全国祭り情報」と重複しており、検索結果での表示品質を損ねていた。",
+      "action": "scripts/generate_html.py の html_page() で、titleが既に「全国祭り情報」で終わる場合はサフィックスを付けないようにし、トップページのtitle/og:title/twitter:titleの重複を解消した。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "トップページの検索結果表示タイトルが簡潔になり、将来のオーガニック流入時のクリック率向上につながるはず。",
+      "verify_after": "2026-10-06",
+      "result": "",
+      "commit": "PENDING"
     }
   ]
 }
