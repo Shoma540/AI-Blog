@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03 12:15",
+  "last_updated": "2026-10-03 17:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -42175,9 +42175,9 @@
       ],
       "similar_name_warning": true,
       "date_note": "諏訪神社の祭礼。新宿地区に14台の山車。既存の佐原の大祭（夏祭り、festival_028、7月・八坂神社/本宿地区）とは別祭事。",
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
+      "time_start": "10:00",
+      "time_end": "22:00",
+      "rain_policy": "雨天決行",
       "genre": [
         "山車",
         "伝統行事"
@@ -42201,8 +42201,8 @@
       "name": "佐原の大祭 秋祭り",
       "prefecture": "千葉県",
       "city": "香取市",
-      "date_start": "2026-10-10",
-      "date_end": "2026-10-12",
+      "date_start": "2026-10-09",
+      "date_end": "2026-10-11",
       "organizer": "佐原の大祭秋祭り実行委員会（香取市）",
       "official_url": "https://www.city.katori.lg.jp/sightseeing/matsuri/introduction/aki.html",
       "sources": [
@@ -42217,15 +42217,33 @@
           "site_name": "HOTEL HOUSEN 佐原",
           "is_official": false,
           "retrieved_date": "2026-08-17"
+        },
+        {
+          "url": "https://media.jreast.co.jp/articles/6816",
+          "site_name": "JR東日本",
+          "is_official": false,
+          "retrieved_date": "2026-10-03"
+        },
+        {
+          "url": "https://www.toretabi.jp/event/entry-25586.html",
+          "site_name": "トレたび",
+          "is_official": false,
+          "retrieved_date": "2026-10-03"
         }
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "time_start",
+        "time_end",
+        "rain_policy"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "日程訂正：10/10-12 → 10/9(金)-11(日)（JR東日本・トレたび・香取市公式の記載に基づく）"
       }
     },
     {
@@ -61338,7 +61356,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -61386,7 +61404,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -61434,7 +61452,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -61482,7 +61500,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
