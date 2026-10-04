@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04 17:14",
+  "last_updated": "2026-10-04 18:14",
   "festivals": [
     {
       "id": "festival_001",
@@ -42233,14 +42233,8 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "time_start",
-        "time_end",
-        "rain_policy"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "日程訂正：10/10-12 → 10/9(金)-11(日)（JR東日本・トレたび・香取市公式の記載に基づく）"
@@ -61548,7 +61542,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
