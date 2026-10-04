@@ -549,7 +549,7 @@
       ],
       "hypothesis": "リファラポリシーが明示され、外部サイトへの遷移時の情報漏えいを抑えつつオリジン情報は維持されるため、プライバシーと計測の一貫性が向上する",
       "verify_after": "2026-10-04",
-      "result": "",
+      "result": "変化なし: 2026-10-04 08:14時点のGA4スナップショットでもセッション0件。validate_site.py全通過でサイト破損なし。",
       "commit": "c16e6147a92c49bc6226e5504b426883cbe69166"
     },
     {
@@ -575,6 +575,18 @@
       "verify_after": "2026-10-06",
       "result": "",
       "commit": "713bea628ad6bcb27768bb426df598091bb1f1e2"
+    },
+    {
+      "date": "2026-10-04 08:14",
+      "analysis": "GA4は週間セッション0件（データ不十分期）。ホーム画面追加時のアプリ名が未指定だった。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、application-nameメタの直後に <meta name=\"apple-mobile-web-app-title\" content=\"全国祭り情報\"> を追加した（全ページ共通）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "iOSのホーム画面追加時にサイト名が正しく表示され、再訪導線の品質が向上するはず。",
+      "verify_after": "2026-10-07",
+      "result": "",
+      "commit": "PENDING"
     }
   ]
 }
