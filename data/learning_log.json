@@ -586,7 +586,7 @@
       "hypothesis": "iOSのホーム画面追加時にサイト名が正しく表示され、再訪導線の品質が向上するはず。",
       "verify_after": "2026-10-07",
       "result": "",
-      "commit": "PENDING"
+      "commit": "f462145f3966b48e271a12d7db7ec9de28371522"
     }
   ]
 }
