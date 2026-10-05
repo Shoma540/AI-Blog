@@ -561,7 +561,7 @@
       ],
       "hypothesis": "ブラウザ・ブックマーク等でサイト名が正しく認識され、サイトの識別性が向上する",
       "verify_after": "2026-10-05",
-      "result": "",
+      "result": "変化なし: 2026-10-05 08:15時点のGA4スナップショット（過去7日間）もセッション0件・ページビュー0件のまま。効果を検出できる段階に達していない。validate_site.pyは通過。",
       "commit": "97f9b13c9dc4b7f274b98f016b087867e1b7ea84"
     },
     {
@@ -587,6 +587,18 @@
       "verify_after": "2026-10-07",
       "result": "",
       "commit": "f462145f3966b48e271a12d7db7ec9de28371522"
+    },
+    {
+      "date": "2026-10-05 08:20",
+      "analysis": "GA4は週間セッション0件でデータ不十分期が継続。基本メタタグ整備の一環として、<meta name=\"author\">が全ページで未出力だった。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、apple-mobile-web-app-titleメタの直後に <meta name=\"author\" content=\"全国祭り情報\"> を追加した（全ページ共通）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "サイトの発行元を明示することで、検索エンジン・クローラーがサイトの帰属を把握しやすくなり、ページ理解の補助になるはず。",
+      "verify_after": "2026-10-08",
+      "result": "",
+      "commit": "abfd1e7677da61e606029295388167e7ab8e7cc9"
     }
   ]
 }
