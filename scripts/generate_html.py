@@ -716,6 +716,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="application-name" content="全国祭り情報">
   <meta name="apple-mobile-web-app-title" content="全国祭り情報">
+  <meta name="author" content="全国祭り情報">
   <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical_url}">
   <meta name="robots" content="index, follow, max-image-preview:large">
