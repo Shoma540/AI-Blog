@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05 17:15",
+  "last_updated": "2026-10-05 18:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -61600,6 +61600,69 @@
         {
           "url": "https://www.tohokumatsuri.jp/cate_miyagi/post-388/",
           "site_name": "東北のまつり",
+          "is_official": false,
+          "retrieved_date": "2026-10-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": null,
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1020",
+      "name": "呼子くんち",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "佐賀県",
+      "city": "唐津市",
+      "date_start": "2026-10-17",
+      "date_end": "2026-10-18",
+      "date_note": "10/17(土)18:00〜21:00、10/18(日)8:45〜13:00。呼子ナイトマルシェ（17:00〜21:00）・キッチンカー出店あり",
+      "time_start": "18:00",
+      "time_end": "21:00",
+      "rain_policy": null,
+      "organizer": "呼子くんち実行委員会",
+      "genre": [
+        "秋祭り",
+        "山車"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": null,
+      "ticket_url": null,
+      "history_years": null,
+      "history_description": "八幡神社の秋祭り。親子鯨をかたどった山車（曳山）が町を練り歩く",
+      "food_stalls": "キッチンカー・呼子ナイトマルシェ",
+      "crowd_level": null,
+      "visitors": null,
+      "access": "鯨組主中尾家屋敷周辺（唐津市呼子町呼子3750-3）",
+      "official_url": "https://www.city.karatsu.lg.jp/page/52392.html",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/yobuko.kunchi/"
+      },
+      "video_url": null,
+      "sources": [
+        {
+          "url": "https://www.city.karatsu.lg.jp/page/52392.html",
+          "site_name": "唐津市ホームページ",
+          "is_official": true,
+          "retrieved_date": "2026-10-05"
+        },
+        {
+          "url": "https://www.karatsu-kankou.jp/sp/events/detail/734/",
+          "site_name": "旅Karatsu 唐津観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-10-05"
+        },
+        {
+          "url": "https://www.asobo-saga.jp/events/detail/a06841a4-108a-40f1-a289-6e0310ff74c6",
+          "site_name": "あそぼーさが",
           "is_official": false,
           "retrieved_date": "2026-10-05"
         }
