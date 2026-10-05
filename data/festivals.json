@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05 12:26",
+  "last_updated": "2026-10-05 17:15",
   "festivals": [
     {
       "id": "festival_001",
@@ -61545,6 +61545,69 @@
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1019",
+      "name": "仙台みちのくYOSAKOIまつり",
+      "alternate_names": [
+        "みちのくYOSAKOIまつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "仙台市",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "date_note": "第29回。会場により開始時刻が異なる。パレード会場（定禅寺通）は10/11のみ",
+      "time_start": null,
+      "time_end": null,
+      "rain_policy": null,
+      "organizer": null,
+      "genre": [
+        "踊り",
+        "YOSAKOI"
+      ],
+      "scale": null,
+      "is_free": null,
+      "price": null,
+      "ticket_url": null,
+      "history_years": null,
+      "history_description": "約110チーム・延べ5500人が参加予定（第29回）。テーマは「いっしょに鳴らそう」",
+      "food_stalls": null,
+      "crowd_level": null,
+      "visitors": "60万人見込み",
+      "access": null,
+      "official_url": "https://michinoku-yosakoi.net/overview/",
+      "sns_accounts": {},
+      "video_url": null,
+      "sources": [
+        {
+          "url": "https://michinoku-yosakoi.net/overview/",
+          "site_name": "仙台みちのくYOSAKOIまつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-10-05"
+        },
+        {
+          "url": "https://www.miyagi-kankou.or.jp/kakikomi/detail.php?id=2106",
+          "site_name": "宮城まるごと探訪",
+          "is_official": false,
+          "retrieved_date": "2026-10-05"
+        },
+        {
+          "url": "https://www.tohokumatsuri.jp/cate_miyagi/post-388/",
+          "site_name": "東北のまつり",
+          "is_official": false,
+          "retrieved_date": "2026-10-05"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": null,
+      "requires_check": false,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
