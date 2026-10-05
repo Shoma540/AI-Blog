@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04 18:14",
+  "last_updated": "2026-10-05 12:26",
   "festivals": [
     {
       "id": "festival_001",
@@ -41285,7 +41285,7 @@
         "第72回名古屋まつり"
       ],
       "similar_name_warning": false,
-      "date_note": "久屋大通公園をメイン会場に開催。",
+      "date_note": "久屋大通公園をメイン会場に開催。アジアパラ競技大会の聖火リレー・開会式と日程が重複するため、名古屋まつり行列は実施見送り（名古屋市発表）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -41333,11 +41333,13 @@
       ],
       "trust_level": "高",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "例年：行列あり → 今年：行列の実施見送り"
       }
     },
     {
