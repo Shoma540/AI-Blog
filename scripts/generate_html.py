@@ -735,6 +735,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <meta name="twitter:title" content="{full_title}">
   <meta name="twitter:description" content="{description}">
   <meta name="twitter:image" content="{og_image}">
+  <meta name="twitter:image:alt" content="全国の祭り・花火大会情報を紹介するイラスト">
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="preconnect" href="https://www.google-analytics.com">
   <!-- Google tag (gtag.js) -->
