@@ -611,6 +611,18 @@
       "verify_after": "2026-10-09",
       "result": "変化なし: 2026-10-09 08:2x時点のGA4スナップショット（過去7日間）もセッション0件・ページビュー0件のままで、効果は測定不能。validate_site.pyは全項目通過しサイト破損なし。",
       "commit": "7c5d71942e7fb48c55cf46d6b5c0f5135a7dcfb3"
+    },
+    {
+      "date": "2026-10-09 08:25",
+      "analysis": "GA4は週間セッション0件でデータ不十分期が継続。Windows/Edge向けタイル色メタ(msapplication-TileColor)が未出力だった。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、color-schemeメタの直後に <meta name=\"msapplication-TileColor\" content=\"#C0392B\"> を追加した（全ページ共通）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "Windows/Edge等でピン留め・タイル表示された際にブランド色が反映され、ブランド一貫性が向上するはず。",
+      "verify_after": "2026-10-12",
+      "result": "",
+      "commit": "9d13b8e4469fa982032516abd072ef93f7461d07"
     }
   ]
 }
