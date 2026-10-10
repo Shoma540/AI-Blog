@@ -750,6 +750,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <title>{full_title}</title>
   <link rel="icon" href="{FAVICON_HREF}">
   <link rel="manifest" href="{SITE_BASE_URL}/manifest.json">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{SITE_BASE_URL}/sitemap.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
