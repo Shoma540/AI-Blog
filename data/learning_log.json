@@ -623,6 +623,18 @@
       "verify_after": "2026-10-12",
       "result": "",
       "commit": "9d13b8e4469fa982032516abd072ef93f7461d07"
+    },
+    {
+      "date": "2026-10-10 08:20",
+      "analysis": "GA4スナップショット（過去7日間）は引き続きセッション0件で、データ不十分期が継続中。sitemap.xmlは生成済みだが、各ページのheadからsitemapを参照するlink要素が無かった。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、manifestリンクの直後に <link rel=\"sitemap\" type=\"application/xml\" title=\"Sitemap\" href=\"{SITE_BASE_URL}/sitemap.xml\"> を追加した（全ページ共通）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "クローラーが各ページからsitemap.xmlを発見しやすくなり、インデックス登録の促進につながるはず。",
+      "verify_after": "2026-10-13",
+      "result": "",
+      "commit": "fce840f8c399a40135bda07f5c0b11dc64a89957"
     }
   ]
 }
