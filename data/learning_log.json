@@ -635,6 +635,18 @@
       "verify_after": "2026-10-13",
       "result": "",
       "commit": "fce840f8c399a40135bda07f5c0b11dc64a89957"
+    },
+    {
+      "date": "2026-10-11 08:20",
+      "analysis": "GA4は週間セッション0件でデータ不十分期が継続。Android/Chromeのホーム画面追加向け mobile-web-app-capable メタが未出力だった。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、apple-mobile-web-app-titleメタの直後に <meta name=\"mobile-web-app-capable\" content=\"yes\"> を追加した（全ページ共通）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "Android/Chromeでホーム画面追加した際にアプリ風の全画面表示になり、再訪導線の品質が向上するはず。",
+      "verify_after": "2026-10-14",
+      "result": "",
+      "commit": ""
     }
   ]
 }
