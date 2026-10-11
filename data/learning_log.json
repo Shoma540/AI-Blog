@@ -646,7 +646,7 @@
       "hypothesis": "Android/Chromeでホーム画面追加した際にアプリ風の全画面表示になり、再訪導線の品質が向上するはず。",
       "verify_after": "2026-10-14",
       "result": "",
-      "commit": ""
+      "commit": "65d85b05e8c3e1e973250a91f9d0f598f43237b3"
     }
   ]
 }
