@@ -721,6 +721,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <meta name="author" content="全国祭り情報">
   <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical_url}">
+  <link rel="alternate" hreflang="ja" href="{canonical_url}">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="全国祭り情報">
