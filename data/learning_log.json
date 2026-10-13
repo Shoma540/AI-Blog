@@ -647,6 +647,18 @@
       "verify_after": "2026-10-14",
       "result": "",
       "commit": "65d85b05e8c3e1e973250a91f9d0f598f43237b3"
+    },
+    {
+      "date": "2026-10-13 08:20",
+      "analysis": "GA4スナップショットは引き続きセッション0件でデータ不十分期。基礎的な多言語/地域指定SEOとして、hreflang指定が未出力だった。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、canonicalの直後に <link rel=\"alternate\" hreflang=\"ja\" href=\"{canonical_url}\"> を追加した（全ページ共通）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "ページの言語・地域が検索エンジンに明示され、日本語検索での正しい評価・表示につながるはず。",
+      "verify_after": "2026-10-16",
+      "result": "",
+      "commit": "2bbea2dd447fe9e216b148d49ff0e080d206d4be"
     }
   ]
 }
