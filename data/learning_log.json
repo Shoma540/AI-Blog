@@ -659,6 +659,18 @@
       "verify_after": "2026-10-16",
       "result": "",
       "commit": "2bbea2dd447fe9e216b148d49ff0e080d206d4be"
+    },
+    {
+      "date": "2026-10-14 08:20",
+      "analysis": "GA4は週間セッション0件でデータ不十分期が継続。hreflang=jaのみで x-default が未指定だった。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、hreflang=jaの直後に <link rel=\"alternate\" hreflang=\"x-default\" href=\"{canonical_url}\"> を追加した（全ページ共通）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "言語未一致ユーザーにも正規URLが明示され、検索エンジンの言語/地域解釈が安定するはず。",
+      "verify_after": "2026-10-17",
+      "result": "",
+      "commit": "cb9734c418ffcd569fcf0eaab34546c9abc6021e"
     }
   ]
 }
