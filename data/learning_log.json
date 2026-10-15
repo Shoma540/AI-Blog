@@ -671,6 +671,18 @@
       "verify_after": "2026-10-17",
       "result": "",
       "commit": "cb9734c418ffcd569fcf0eaab34546c9abc6021e"
+    },
+    {
+      "date": "2026-10-15 08:20",
+      "analysis": "GA4は直近7日セッション0件でデータ不十分期。メタ情報の網羅性改善を継続",
+      "action": "scripts/generate_html.py の html_page() の<head>で、mobile-web-app-capableの直後に <meta name=\"apple-mobile-web-app-capable\" content=\"yes\"> を追加（iOSホーム画面追加時の互換性向上）",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "iOS Safariでホーム画面追加時にスタンドアロン表示となり、モバイル利用体験が向上する",
+      "verify_after": "2026-10-18",
+      "result": "",
+      "commit": "pending"
     }
   ]
 }
