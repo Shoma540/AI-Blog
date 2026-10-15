@@ -682,7 +682,7 @@
       "hypothesis": "iOS Safariでホーム画面追加時にスタンドアロン表示となり、モバイル利用体験が向上する",
       "verify_after": "2026-10-18",
       "result": "",
-      "commit": "pending"
+      "commit": "93031ba356057ea6bc91ee8a72273465d3dff21d"
     }
   ]
 }
