@@ -707,6 +707,12 @@
       "step": "fetch_analytics",
       "error": "GA4ライブラリ未インストール",
       "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-10-16 17:14",
+      "step": "post_instagram",
+      "error": "requestsライブラリ未インストール",
+      "detail": "has_update=false の時間帯のため投稿対象外。pip install -r requirements.txt が必要"
     }
   ]
 }
