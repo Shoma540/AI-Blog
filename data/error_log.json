@@ -743,6 +743,24 @@
       "step": "post_instagram",
       "error": "requests未インストール",
       "detail": "ModuleNotFoundError: No module named 'requests'（pip install -r requirements.txt が必要）。この回は has_update=false のため投稿対象外"
+    },
+    {
+      "timestamp": "2026-10-22 08:03",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-10-22 08:03",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-10-22 08:03",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
     }
   ]
 }
