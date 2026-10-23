@@ -683,6 +683,18 @@
       "verify_after": "2026-10-18",
       "result": "",
       "commit": "93031ba356057ea6bc91ee8a72273465d3dff21d"
+    },
+    {
+      "date": "2026-10-23 08:10",
+      "analysis": "GA4は週間セッション0件でデータ不十分期。robots以外にGoogle向けのスニペット表示制御メタが未出力だった。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、robotsメタの直後に <meta name=\"googlebot\" content=\"index, follow, max-snippet:-1, max-image-preview:large\"> を追加した（全ページ共通）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "Googlebotに対しスニペット長・画像プレビューの制限が無いことを明示でき、検索結果での表示が充実してクリック率向上につながるはず。",
+      "verify_after": "2026-10-26",
+      "result": "",
+      "commit": "c881fb4e23414199e66e647d2b86149216b92986"
     }
   ]
 }
