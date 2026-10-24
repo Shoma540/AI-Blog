@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24 16:04",
+  "last_updated": "2026-10-24 17:03",
   "festivals": [
     {
       "id": "festival_001",
@@ -61771,7 +61771,7 @@
       "id": "festival_953",
       "similar_name_warning": false,
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -61823,7 +61823,7 @@
       "id": "festival_954",
       "similar_name_warning": false,
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
