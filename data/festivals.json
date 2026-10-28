@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26 18:04",
+  "last_updated": "2026-10-28 16:04",
   "festivals": [
     {
       "id": "festival_001",
@@ -61830,6 +61830,156 @@
         "details": ""
       },
       "is_free": null
+    },
+    {
+      "id": "festival_1021",
+      "name": "伊勢大神楽",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "桑名市",
+      "date_start": "2026-12-24",
+      "date_end": "2026-12-24",
+      "date_note": "雨天時は屋内で奉納（ソース1件のみ・要確認）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神楽"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "桑名市太夫を本拠地とする伝統芸能。1981年に国の重要無形民俗文化財に指定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kankomie.or.jp/event/35041",
+          "site_name": "観光三重",
+          "is_official": false,
+          "retrieved_date": "2026-10-28"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1022",
+      "name": "大倉山冬花火2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市",
+      "date_start": "2026-12-05",
+      "date_end": "2026-12-05",
+      "date_note": "ソース1件のみ・要確認",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "札幌・大倉山の冬花火。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.sapporo.travel/news/okuryama_hanabi2026/",
+          "site_name": "札幌観光協会",
+          "is_official": false,
+          "retrieved_date": "2026-10-28"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1023",
+      "name": "火焚祭（新日吉神宮）",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "京都市",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
+      "date_note": "ソース1件のみ・要確認",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "火と神楽を伴う祭り。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://rurubu.jp/andmore/spot/20000536",
+          "site_name": "るるぶ",
+          "is_official": false,
+          "retrieved_date": "2026-10-28"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
     }
   ]
 }
