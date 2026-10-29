@@ -809,6 +809,12 @@
       "step": "fetch_analytics",
       "error": "GA4ライブラリ未インストール",
       "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-10-29 12:09",
+      "step": "post_instagram",
+      "error": "INSTAGRAM_ACCESS_TOKEN期限切れ",
+      "detail": "OAuthException 190: 2026-10-21に失効。トークン再発行が必要"
     }
   ]
 }
