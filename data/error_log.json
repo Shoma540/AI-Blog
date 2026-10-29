@@ -803,6 +803,12 @@
       "step": "post_instagram",
       "error": "requestsライブラリ未インストール",
       "detail": "ModuleNotFoundError: requests。has_update=false・12時台以外のため投稿対象外"
+    },
+    {
+      "timestamp": "2026-10-29 08:03",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
     }
   ]
 }

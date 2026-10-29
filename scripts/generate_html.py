@@ -719,6 +719,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <meta name="apple-mobile-web-app-title" content="全国祭り情報">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="author" content="全国祭り情報">
   <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical_url}">
