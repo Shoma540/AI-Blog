@@ -827,6 +827,12 @@
       "step": "post_instagram",
       "error": "INSTAGRAM_ACCESS_TOKEN期限切れ",
       "detail": "OAuthException 190: 2026-10-21失効。再発行が必要"
+    },
+    {
+      "timestamp": "2026-10-30 16:13",
+      "step": "post_instagram",
+      "error": "requestsライブラリ未インストール",
+      "detail": "has_update=false・12時台以外のため投稿対象外。トークン失効(10-21)も未解決"
     }
   ]
 }
