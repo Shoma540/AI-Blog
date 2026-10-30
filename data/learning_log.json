@@ -718,7 +718,7 @@
       "hypothesis": "HTTPS画像URLを明示することで、SNSクローラーでのOGP画像取得・表示が安定するはず。",
       "verify_after": "2026-11-02",
       "result": "",
-      "commit": "PENDING"
+      "commit": "d3f7c93457b5bd5f439b96de73eab93039f175f9"
     }
   ]
 }
