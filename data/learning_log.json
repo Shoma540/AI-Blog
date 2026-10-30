@@ -707,6 +707,18 @@
       "verify_after": "2026-11-01",
       "result": "",
       "commit": "10c04245569e813e560466b68532ca4b048121b1"
+    },
+    {
+      "date": "2026-10-30 08:20",
+      "analysis": "GA4は過去7日セッション0件でデータ不十分期。plan.mdのデータ不十分期テーマ（メタ情報の充実）から選択。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、og:imageの直後に <meta property=\"og:image:secure_url\"> を追加した（全ページ共通、og_imageと同じHTTPS URL）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "HTTPS画像URLを明示することで、SNSクローラーでのOGP画像取得・表示が安定するはず。",
+      "verify_after": "2026-11-02",
+      "result": "",
+      "commit": "PENDING"
     }
   ]
 }
