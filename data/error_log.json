@@ -839,6 +839,12 @@
       "step": "post_instagram",
       "error": "requestsライブラリ未インストール",
       "detail": "has_update=false・12時台以外のため投稿対象外。トークン失効(10-21)も未解決"
+    },
+    {
+      "timestamp": "2026-10-31 17:03",
+      "step": "post_instagram",
+      "error": "requestsライブラリ未インストール",
+      "detail": "has_update=false・12時台以外のため投稿対象外。トークン失効(10-21)も未解決"
     }
   ]
 }
