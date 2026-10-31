@@ -719,6 +719,18 @@
       "verify_after": "2026-11-02",
       "result": "",
       "commit": "PENDING"
+    },
+    {
+      "date": "2026-10-31 08:15",
+      "analysis": "GA4は週間セッション0件でデータ不十分期が継続。過去の改善と重複しない<head>メタの基礎整備を選定。",
+      "action": "scripts/generate_html.py の html_page() の<head>で、authorメタの直後に <meta name=\"rating\" content=\"general\"> を追加した（全ページ共通）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "全年齢向けコンテンツであることをクローラーに明示し、セーフサーチ等での分類が安定するはず。",
+      "verify_after": "2026-11-03",
+      "result": "",
+      "commit": "eee9f9c3870ab8ec9a64bd1dc5efce1d610dac6c"
     }
   ]
 }
