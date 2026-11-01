@@ -857,6 +857,12 @@
       "step": "fetch_analytics",
       "error": "google-analytics-data未インストール",
       "detail": "STEP10スキップ。post_instagramもrequests未インストール(投稿対象外)"
+    },
+    {
+      "timestamp": "2026-11-01 17:05",
+      "step": "post_instagram",
+      "error": "requests未インストール",
+      "detail": "Instagram投稿スキップ。STEP10は17時台のため対象外"
     }
   ]
 }
