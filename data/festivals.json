@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01 16:05",
+  "last_updated": "2026-11-01 17:03",
   "festivals": [
     {
       "id": "festival_001",
@@ -61980,6 +61980,114 @@
         "changed": false,
         "details": ""
       }
+    },
+    {
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "date_end": null,
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://weathernews.jp/hanabi/12/",
+          "site_name": "ウェザーニュース花火",
+          "is_official": false,
+          "retrieved_date": "2026-11-01"
+        },
+        {
+          "url": "https://hanabi.cloud/html/dayEvent/20261206.html",
+          "site_name": "hanabi.cloud",
+          "is_official": false,
+          "retrieved_date": "2026-11-01"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      },
+      "id": "festival_958",
+      "name": "芳賀町ロマン花火大会",
+      "prefecture": "栃木県",
+      "city": "芳賀町",
+      "date_start": "2026-12-06",
+      "date_note": "HAGAグルミネーションフェス2026と同時開催。打上数5000発",
+      "genre": [
+        "花火"
+      ]
+    },
+    {
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "date_end": null,
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://weathernews.jp/hanabi/12/",
+          "site_name": "ウェザーニュース花火",
+          "is_official": false,
+          "retrieved_date": "2026-11-01"
+        },
+        {
+          "url": "https://hanabi.cloud/html/dayEvent/20261206.html",
+          "site_name": "hanabi.cloud",
+          "is_official": false,
+          "retrieved_date": "2026-11-01"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      },
+      "id": "festival_959",
+      "name": "冬季熱海海上花火大会",
+      "prefecture": "静岡県",
+      "city": "熱海市",
+      "date_start": "2026-12-06",
+      "date_note": "12/6・12/25に開催情報あり。打上数3000発（12/6）。詳細は公式情報で要確認",
+      "genre": [
+        "花火"
+      ]
     }
   ]
 }
