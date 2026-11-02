@@ -742,7 +742,7 @@
       "hypothesis": "preconnect非対応ブラウザでもGAドメインのDNS解決が先行し、初期表示・計測開始が僅かに安定するはず。",
       "verify_after": "2026-11-05",
       "result": "",
-      "commit": "PENDING"
+      "commit": "606ab10efa1ed143c75028f35d9f0cd5de301f49"
     }
   ]
 }
