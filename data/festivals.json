@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02 18:03",
+  "last_updated": "2026-11-03 16:03",
   "festivals": [
     {
       "id": "festival_001",
@@ -62019,7 +62019,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -62073,7 +62073,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -62088,6 +62088,103 @@
       "genre": [
         "花火"
       ]
+    },
+    {
+      "id": "festival_960",
+      "name": "大前神社例大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "真岡市",
+      "date_start": "2026-11-09",
+      "date_end": "2026-11-10",
+      "date_note": "祭典後に市指定無形民俗文化財「大大神楽」奉奏（要公式確認）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神楽",
+        "例大祭"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "神楽奉納と福撒きが行われるとの情報あり",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://rurubu.jp/andmore/spot/20000359",
+          "site_name": "るるぶ",
+          "is_official": false,
+          "retrieved_date": "2026-11-03"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_961",
+      "name": "八坂神社太々神楽",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "宇都宮市",
+      "date_start": "2026-11-23",
+      "date_end": "2026-11-23",
+      "date_note": "10時〜15時、入場無料との掲載",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神楽"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.walkerplus.com/event/ar0309e592661/price.html",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-03"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
     }
   ]
 }
