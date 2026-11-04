@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03 16:03",
+  "last_updated": "2026-11-04 16:03",
   "festivals": [
     {
       "id": "festival_001",
@@ -62178,6 +62178,71 @@
       ],
       "trust_level": "低",
       "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_962",
+      "name": "豊川稲荷 秋季大祭",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "豊川市",
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-22",
+      "date_note": "毎年11月第3土・日曜（神輿渡御・園児行列）。要公式確認",
+      "organizer": "不明",
+      "genre": [
+        "神輿"
+      ],
+      "scale": "その他",
+      "sources": [
+        {
+          "url": "https://www.fun-japan.jp/jp/articles/1599",
+          "site_name": "fun-japan",
+          "is_official": false,
+          "retrieved_date": "2026-11-04"
+        }
+      ],
+      "trust_level": "低",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_963",
+      "name": "梅小路公園 紅葉まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "京都市",
+      "date_start": "2026-11-13",
+      "date_end": "2026-11-29",
+      "date_note": "11/16・11/24は休園",
+      "organizer": "不明",
+      "genre": [
+        "紅葉",
+        "ライトアップ"
+      ],
+      "scale": "その他",
+      "sources": [
+        {
+          "url": "https://ja.kyoto.travel/event/single.php?event_id=3731",
+          "site_name": "京都観光Navi",
+          "is_official": false,
+          "retrieved_date": "2026-11-04"
+        }
+      ],
+      "trust_level": "低",
       "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
