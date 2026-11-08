@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08 08:03",
+  "last_updated": "2026-11-08 16:05",
   "festivals": [
     {
       "id": "festival_001",
@@ -62249,6 +62249,106 @@
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "video_url": "不明",
+      "id": "festival_1024",
+      "name": "くらしき冬花火2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "岡山県",
+      "city": "倉敷市",
+      "date_start": "2026-12-03",
+      "date_end": "2026-12-03",
+      "date_note": "開催場所は保安上非公開、打ち上げ15:00〜25:00掲載（参考情報）",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "sources": [
+        {
+          "url": "https://hanabi.cloud/html/Chugoku/okayama/2026/2026-12-03_kurashiki-fuyu-hanabi.html",
+          "site_name": "hanabi.cloud",
+          "is_official": false,
+          "retrieved_date": "2026-11-08"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明"
+      }
+    },
+    {
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "video_url": "不明",
+      "id": "festival_1025",
+      "name": "東海道関宿街道まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "亀山市",
+      "date_start": "2026-11-01",
+      "date_end": "2026-11-01",
+      "date_note": "第39回",
+      "organizer": "不明",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "sources": [
+        {
+          "url": "https://www.kankomie.or.jp/event/detail_38390.html",
+          "site_name": "観光三重",
+          "is_official": false,
+          "retrieved_date": "2026-11-08"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "不明"
       }
     }
   ]
