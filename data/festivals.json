@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08 16:05",
+  "last_updated": "2026-11-09 12:05",
   "festivals": [
     {
       "id": "festival_001",
@@ -62294,7 +62294,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -62344,11 +62344,44 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": "不明"
+      }
+    },
+    {
+      "id": "festival_1026",
+      "name": "三重県植木まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "不明",
+      "date_start": "2026-10-31",
+      "date_end": "2026-11-01",
+      "date_note": "第55回",
+      "organizer": "不明",
+      "genre": [
+        "植木市"
+      ],
+      "scale": "その他",
+      "sources": [
+        {
+          "url": "https://www.kankomie.or.jp/event/detail_38390.html",
+          "site_name": "観光三重",
+          "is_official": true,
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
