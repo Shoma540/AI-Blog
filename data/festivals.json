@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09 18:03",
+  "last_updated": "2026-11-10 17:30",
   "festivals": [
     {
       "id": "festival_001",
@@ -62378,6 +62378,114 @@
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1027",
+      "name": "筑紫野もみじ祭～はんなりアートさんぽ～",
+      "alternate_names": [
+        "筑紫野もみじ祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "筑紫野市",
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-22",
+      "date_note": "第6回。複数のイベント情報サイトで2026/11/21(土)～11/22(日)開催と案内されているが、主催公式サイトでの確認はできていない。例年は二日市温泉街・武蔵寺周辺で開催されるが、2026年の会場詳細は未確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "九州最古の寺とされる武蔵寺周辺の紅葉名所を歩き、アートや茶会などを楽しむイベント。例年は二日市温泉街・武蔵寺・五条寺天満宮周辺で開催されている。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.enjoytokyo.jp/event/list/regn11/cat0904/3/",
+          "site_name": "じゃらん等イベント一覧",
+          "is_official": false,
+          "retrieved_date": "2026-11-10"
+        },
+        {
+          "url": "https://www.fukuoka-now.com/en/event/chikushino-momiji-festival-2024/",
+          "site_name": "Fukuoka Now（2024年版記事・会場参考）",
+          "is_official": false,
+          "retrieved_date": "2026-11-10"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1028",
+      "name": "紅葉八幡宮もみじ祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "福岡市",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "2026年の開催日は公式発表が確認できなかった（未確認）。2025年は11/29(土)・11/30(日)17:00~20:00開催、ライトアップは11/22~11/30。例年11月下旬～12月上旬開催とされるが、2026年の日程は紅葉八幡宮の公式発表を要確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "紅葉八幡宮",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "例年20店近くの露店が並ぶ（2025年時点）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://report.iko-yo.net/articles/29103",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-10"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
