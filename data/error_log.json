@@ -977,6 +977,12 @@
       "step": "post_instagram",
       "error": "Instagramアクセストークン期限切れ",
       "detail": "OAuthException 190: token expired on 2026-10-21。INSTAGRAM_ACCESS_TOKENの更新が必要（requestsは今回インストール済みで実行は成功、APIが401/400でトークン失効を返した）。"
+    },
+    {
+      "timestamp": "2026-11-10 18:12",
+      "step": "post_instagram",
+      "error": "Instagramアクセストークン期限切れ",
+      "detail": "OAuthException 190: token expired on 2026-10-21。INSTAGRAM_ACCESS_TOKENの更新が必要。requestsモジュール未インストールのため今回のみ python3 -m pip install --user requests で対応し実行は成功したが、Graph APIが400でトークン失効を返した。投稿はスキップされた。"
     }
   ]
 }
