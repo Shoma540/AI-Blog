@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10 17:30",
+  "last_updated": "2026-11-10 18:10",
   "festivals": [
     {
       "id": "festival_001",
@@ -62485,6 +62485,239 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1029",
+      "name": "大阪・光の饗宴2026",
+      "alternate_names": [
+        "御堂筋イルミネーション2026",
+        "OSAKA光のルネサンス2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "date_start": "2026-11-03",
+      "date_end": "2027-01-31",
+      "date_note": "全体期間は2026/11/3(火・祝)~2027/1/31(日)の90日間。中心プログラムの御堂筋イルミネーション2026は2026/11/3~12/31の59日間。2027/1/1以降は一部のエリアプログラムのみ実施。",
+      "time_start": "17:00",
+      "time_end": "19:00",
+      "rain_policy": "不明",
+      "organizer": "大阪・光の饗宴実行委員会（大阪府・大阪市等）",
+      "genre": [
+        "イルミネーション",
+        "ライトアップ"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "御堂筋（淀屋橋交差点~船場中央3交差点）ほか大阪市内各エリア",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000687506.html",
+          "site_name": "大阪市（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-11-10"
+        },
+        {
+          "url": "https://www.pref.osaka.lg.jp/toshimiryoku/illumi/index.html",
+          "site_name": "大阪府（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-11-10"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "点灯時間について一部の海外向け旅行サイトは17:00~翌1:00としているが、大阪府の公式発表(17:00~19:00)を優先して採用。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1030",
+      "name": "たちかわイルミネーション2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "立川市",
+      "date_start": "2026-11-01",
+      "date_end": "2027-01-17",
+      "date_note": "JR立川駅北口サンサンロードで開催。点灯式は初日11/1(日)17:30~18:30。",
+      "time_start": "日没",
+      "time_end": "24:00",
+      "rain_policy": "不明",
+      "organizer": "不明（実行委員会）",
+      "genre": [
+        "イルミネーション",
+        "ライトアップ"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料（ステージ前方観覧エリアは事前抽選制の見込み）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR立川駅北口 サンサンロード",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.iwafu.com/jp/events/1163934",
+          "site_name": "iwafu",
+          "is_official": false,
+          "retrieved_date": "2026-11-10"
+        },
+        {
+          "url": "https://bestcalendar.jp/press/156180",
+          "site_name": "ベストカレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-11-10"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/721780/",
+          "site_name": "エンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-11-10"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1031",
+      "name": "金刀比羅大鷲神社 酉の市（横浜）",
+      "alternate_names": [
+        "ことひらおおとりじんじゃ酉の市"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "神奈川県",
+      "city": "横浜市",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-19",
+      "date_note": "一の酉11/7(土)、二の酉11/19(木)。神社公式サイトでの2026年告知は未確認で、情報サイト(るるぶ)の掲載のみ。横浜市観光公式サイトは2025年分の日程(一の酉11/12、二の酉11/24)しか掲載されていない点に注意。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "金刀比羅大鷲神社",
+      "genre": [
+        "神事",
+        "縁日"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "横浜市南区真金町1-3",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://rurubu.jp/andmore/spot/20006056",
+          "site_name": "るるぶ",
+          "is_official": false,
+          "retrieved_date": "2026-11-10"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "⚠️ 矛盾: 横浜市観光公式サイトの最新掲載は2025年の日程であり、2026年分は未更新の可能性がある。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1032",
+      "name": "イルミネーションフェスティバル2026 in Abu",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "山口県",
+      "city": "阿武町",
+      "date_start": "2026-12-12",
+      "date_end": "2027-01-04",
+      "date_note": "点灯式は12/12(土)18:00~で打ち上げ花火あり。ホットココア・イルミグッズの無料配布（各先着100~200名）予定。",
+      "time_start": "18:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（道の駅阿武町 周辺イベント実行主体）",
+      "genre": [
+        "イルミネーション",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "道の駅阿武町周辺（山口県阿武郡阿武町奈古2248-1）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.iwafu.com/jp/events/1038712",
+          "site_name": "iwafu",
+          "is_official": false,
+          "retrieved_date": "2026-11-10"
+        },
+        {
+          "url": "https://yamaguchi-tourism.jp/event/detail_18884.html",
+          "site_name": "山口県観光連盟（やまぐちへの旅）",
+          "is_official": true,
+          "retrieved_date": "2026-11-10"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
