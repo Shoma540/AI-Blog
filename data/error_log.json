@@ -971,6 +971,12 @@
       "step": "fetch_analytics",
       "error": "GA4ライブラリ未インストール",
       "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-11-10 12:05",
+      "step": "post_instagram",
+      "error": "Instagramアクセストークン期限切れ",
+      "detail": "OAuthException code 190: token expired 2026-10-21。トークン再発行が必要"
     }
   ]
 }
