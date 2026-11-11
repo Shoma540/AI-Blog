@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11 08:05",
+  "last_updated": "2026-11-11 12:07",
   "festivals": [
     {
       "id": "festival_001",
@@ -62783,7 +62783,7 @@
       "trust_level": "中",
       "conflict_note": "公式サイトでの直接確認はできておらず、報道・情報サイトの記事のみに基づく情報。主催団体名・料金詳細は不明。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -62847,6 +62847,241 @@
       ],
       "trust_level": "中",
       "conflict_note": "公式サイトURL(christmas-advent.jp/ueno/)は2025年のプレスリリース記載のもので、2026年版としての直接確認はできていない。同名の別イベント（東京オペラシティ等）と情報が混在している可能性あり。",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1035",
+      "name": "Winter Wonder Park Yokohama 2026-27",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "横浜市中区",
+      "date_start": "2026-12-05",
+      "date_end": "2027-02-28",
+      "date_note": "山下公園（おまつり広場近辺）で開催。スケートパークの営業時間は前年度(2025-26)実績では平日13:00~21:00、土日祝11:00~21:00（最終入場20:00）だが、2026-27シーズンの時間は公式サイトで要確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（前年度はYMC冬季山下公園イベント実行委員会が主催、2026-27版での明記は未確認）",
+      "genre": [
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料（スケートパーク利用は有料：大人1,200円、小人1,000円、親子セット2,000円、税込）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "フードトラックあり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "横浜・山下公園（おまつり広場近辺）",
+      "official_url": "https://winterwonderpark.yokohama",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://winterwonderpark.yokohama",
+          "site_name": "Winter Wonder Park Yokohama 公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.asoview.com/note/5545/",
+          "site_name": "アソビュー！ノート",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年（2025-26）：2025年12月6日～2026年3月1日 → 今年（2026-27）：2026年12月5日～2027年2月28日"
+      }
+    },
+    {
+      "id": "festival_1036",
+      "name": "松例祭の大松明行事",
+      "alternate_names": [
+        "松例祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "鶴岡市",
+      "date_start": "2026-12-31",
+      "date_end": "2027-01-01",
+      "date_note": "出羽三山神社（羽黒山）で大晦日から元日にかけて行われる年越しの神事。12月30日に「大松明まるき」、12月31日夕方から本殿祭、23時過ぎに大松明引き、翌1月1日未明に国分神事・歳旦祭が行われる（例年の進行。年により時刻は変動の可能性あり）。",
+      "time_start": "18:00",
+      "time_end": "不明（翌日未明まで）",
+      "rain_policy": "不明",
+      "organizer": "出羽三山神社",
+      "genre": [
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "羽黒修験の「冬の峰」の結願行事として伝わる年越しの神事。大松明の引き合いの勝敗と燃え具合により翌年の豊凶を占う。2014年3月10日に国の重要無形民俗文化財に指定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR鶴岡駅からバス約50分、バス停「羽黒山頂」下車徒歩3分（大晦日は特別運行の場合あり）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://online.bunka.go.jp/db/heritages/detail/442273",
+          "site_name": "文化遺産オンライン（文化庁）",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.tohokukanko.jp/attractions/detail_1009579.html",
+          "site_name": "東北観光推進機構",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.city.tsuruoka.lg.jp/shisei/kohojigyou/koho/kohor7/koho202602.files/20260201-10-11.pdf",
+          "site_name": "鶴岡市広報",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "例年同日程（12月31日～1月1日）で開催"
+      }
+    },
+    {
+      "id": "festival_1037",
+      "name": "酒津のトンドウ",
+      "alternate_names": [
+        "酒津のトンド"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "鳥取県",
+      "city": "鳥取市気高町",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "例年1月15日に近い土曜または日曜に、鳥取市気高町の酒津港で開催される正月の神送り行事。2027年の正式日程は未発表のため具体的日付は記載しない（推測による日付特定は行わない）。火入れは日曜深夜に行われる。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（地元保存会）",
+      "genre": [
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "正月の神送りと、一年の幸福の保証を得ようとする儀礼が合わさった行事。国の重要無形民俗文化財に指定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "鳥取市気高町 酒津港",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tabi-mag.jp/tondou/",
+          "site_name": "たびまが",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.pref.tottori.lg.jp/41867.htm",
+          "site_name": "鳥取県公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1038",
+      "name": "遠山の霜月祭り",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "飯田市（上村・南信濃）",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "遠山郷内の複数の神社で12月を中心に（一部は11月・1月にかかる場合もある）日程をずらして開催される神楽行事。神社ごとに日程が異なり、2026年の正式日程は公式発表での確認ができなかったため記載しない。参考（2025年の例）：12月6日 中郷正八幡宮・小道木川合熊野神社、12月11日 上町正八幡宮、12月13日 下栗拾五社大明神・木沢正八幡神社、12月14日 程野正八幡宮、12月15日 尾野島正八幡神社、12月20日 和田諏訪神社（いずれも昨年の実績で、今年と同一とは限らない）。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "遠山郷観光協会／各神社",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "面をつけた神の化身が舞う霜月神楽。国の重要無形民俗文化財に指定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "遠山郷（飯田市上村・南信濃）各神社",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.go-nagano.net/tradition-and-culture/id22634",
+          "site_name": "長野県公式観光サイト",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.pref.nagano.lg.jp/osakajimu/pressreleases/documents/documents/2611arukuma.pdf",
+          "site_name": "長野県大阪事務所広報",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "要確認：各神社の2026年の正確な日程は遠山郷観光協会の公式発表待ち。",
       "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
