@@ -1007,6 +1007,12 @@
       "step": "post_instagram",
       "error": "Instagramアクセストークン期限切れ",
       "detail": "OAuthException 190: token expired on 2026-10-21。3週間以上（21日間超）経過しても未更新で継続中。INSTAGRAM_ACCESS_TOKENの再発行・環境変数更新が必要。ブログ更新（HTML生成・GitHub Push、新規3件：十日町雪まつり・野沢温泉の道祖神祭り・鬼夜、更新1件：さっぽろ雪まつりを2026年開催分(終了済み)から2027年開催分へ更新）は正常に完了。本件は長期未解決のためユーザーへプッシュ通知でエスカレーションした。"
+    },
+    {
+      "timestamp": "2026-11-11 18:08",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramアクセストークン期限切れ",
+      "detail": "The token has expired on Wednesday, 21-Oct-26 04:21:18 PDT. The current time is Wednesday, 11-Nov-26 10:07:53 PST. (code 190, OAuthException)"
     }
   ]
 }
