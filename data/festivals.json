@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11 12:07",
+  "last_updated": "2026-11-11 17:07",
   "festivals": [
     {
       "id": "festival_001",
@@ -9820,9 +9820,9 @@
       "similar_name_warning": false,
       "prefecture": "北海道",
       "city": "札幌市",
-      "date_start": "2026-02-04",
-      "date_end": "2026-02-11",
-      "date_note": "第76回。大通会場の日程。すすきの会場・つどーむ会場は日程が異なる場合あり（要公式確認）",
+      "date_start": "2027-02-04",
+      "date_end": "2027-02-11",
+      "date_note": "大通会場・つどーむ会場・すすきの会場とも同期間。公式サイトで次回開催として告知されている日程（回数表記は公式サイトに記載なし）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -9848,6 +9848,12 @@
       "video_url": "不明",
       "sources": [
         {
+          "url": "https://www.snowfes.com/",
+          "site_name": "さっぽろ雪まつり公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        },
+        {
           "url": "https://www.snowfes.com/news/917.html",
           "site_name": "さっぽろ雪まつり公式サイト",
           "is_official": true,
@@ -9869,11 +9875,16 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年開催：2026-02-04〜2026-02-11（終了済み） → 次回：2027-02-04〜2027-02-11"
       }
     },
     {
@@ -62904,7 +62915,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -62968,7 +62979,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -63026,7 +63037,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -63082,6 +63093,185 @@
       ],
       "trust_level": "低",
       "conflict_note": "要確認：各神社の2026年の正確な日程は遠山郷観光協会の公式発表待ち。",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1039",
+      "name": "十日町雪まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "新潟県",
+      "city": "十日町市",
+      "date_start": "2027-02-19",
+      "date_end": "2027-02-21",
+      "date_note": "第78回。雪の芸術展（芸術部門）の審査は19日(金)夜に実施予定。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明（積雪が前提の雪祭りのため中止基準は不明）",
+      "organizer": "十日町雪まつり実行委員会",
+      "genre": [
+        "パレード",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 78,
+      "history_description": "1950年代から続く日本有数の雪まつり。雪像コンテスト「雪の芸術展」や豪雪地帯の文化を伝えるイベントが特徴。日本の雪まつりの中でも歴史が長いことで知られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京から鉄道で約2時間（越後湯沢駅乗換）、車で約3時間40分（関越自動車道利用）。冬季はスタッドレスタイヤ・チェーン必須。",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://niigata-kankou.or.jp/event/3599",
+          "site_name": "新潟県公式観光情報サイト",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.iwafu.com/jp/events/1014808",
+          "site_name": "iwafu.com",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1040",
+      "name": "野沢温泉の道祖神祭り",
+      "alternate_names": [
+        "道祖神祭り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "野沢温泉村",
+      "date_start": "2027-01-15",
+      "date_end": "2027-01-15",
+      "date_note": "1863年以降、毎年1月15日固定で開催。2027年開催についての個別告知は未確認だが、固定日程の伝統行事。",
+      "time_start": "不明（13日に社殿組み、15日夜に本格化）",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "野沢温泉道祖神祭り保存会",
+      "genre": [
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": 164,
+      "history_description": "日本三大火祭りの一つ。厄年の42歳・25歳の男性が中心となり、1月13日に社殿を組み、15日夜に松明で攻防戦を行い最後に社殿を焼く小正月の火祭り。1993年に国の重要無形民俗文化財に指定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://nozawakanko.jp/event/the-nozawa-onsen-dosojin-festival/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://nozawakanko.jp/event/the-nozawa-onsen-dosojin-festival/",
+          "site_name": "野沢温泉観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.mlit.go.jp/tagengo-db/H30-00630.html",
+          "site_name": "国土交通省多言語解説文データベース",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "2027年単年の開催告知は未確認。例年固定の1月15日として記載（要確認）。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1041",
+      "name": "鬼夜",
+      "alternate_names": [
+        "大善寺玉垂宮の鬼夜"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "久留米市",
+      "date_start": "2027-01-07",
+      "date_end": "2027-01-07",
+      "date_note": "毎年1月7日固定で開催。2027年単年の個別告知は未確認（例年開催の継続を前提に記載）。",
+      "time_start": "13:00",
+      "time_end": "不明（大松明の点火は20:45頃、祭りは22:35頃終了）",
+      "rain_policy": "不明",
+      "organizer": "大善寺玉垂宮",
+      "genre": [
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": false,
+      "price": "有料観覧席あり（例年全席自由2,000円、2027年の料金は要確認）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "日本三大火祭りの一つとされる、大善寺玉垂宮で毎年正月に厄災を祓い幸いを招くとして行われる火祭り。長さ約13m・重さ約1.2tの大松明6本を燃やし、締め込み姿の男性たちが担いで境内を回る。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.crossroadfukuoka.jp/event/12881",
+          "site_name": "クロスロードふくおか",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20000943",
+          "site_name": "るるぶ",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.japan.travel/tw/spot/2266/",
+          "site_name": "Japan Travel（日本政府観光局）",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "2027年単年の開催告知・時間・料金は未確認（2026年実績を参考記載）。",
       "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
