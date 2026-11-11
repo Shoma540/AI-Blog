@@ -743,6 +743,18 @@
       "verify_after": "2026-11-05",
       "result": "変化なし: 2026-11-11 08:07時点のGA4スナップショット（過去7日間）もセッション0件で、効果は測定不能。validate_site.pyは通過。",
       "commit": "606ab10efa1ed143c75028f35d9f0cd5de301f49"
+    },
+    {
+      "date": "2026-11-11 08:10",
+      "analysis": "GA4は過去7日セッション0件でデータ不十分期が継続。<head>の汎用メタタグ系の小改善が一巡したため、都道府県ページ固有のローカルSEO要素（geoメタ）が未実装であることに着目した。",
+      "action": "scripts/generate_html.py にPREFECTURE_ISO（47都道府県→ISO 3166-2:JPコード）の対応表を追加し、html_page()にgeo_region/geo_placename引数を追加。generate_prefecture_pages()から各都道府県ページにのみ<meta name=\"geo.region\">と<meta name=\"geo.placename\">を付与するようにした（index/calendar/map等の全国ページには付与しない）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "都道府県ページごとに正確な地域メタ情報を明示することで、検索エンジンがページの地理的関連性をより正確に把握し、「〇〇県 祭り」等の地域名を含む検索での関連性評価に寄与するはず。",
+      "verify_after": "2026-11-14",
+      "result": "",
+      "commit": "5c8aefe6dd3fa5f536298a14a1cff39d97542742"
     }
   ]
 }
