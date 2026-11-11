@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10 18:10",
+  "last_updated": "2026-11-11 08:05",
   "festivals": [
     {
       "id": "festival_001",
@@ -62435,7 +62435,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -62485,7 +62485,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -62545,7 +62545,7 @@
       "trust_level": "高",
       "conflict_note": "点灯時間について一部の海外向け旅行サイトは17:00~翌1:00としているが、大阪府の公式発表(17:00~19:00)を優先して採用。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -62608,7 +62608,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -62661,7 +62661,7 @@
       "trust_level": "低",
       "conflict_note": "⚠️ 矛盾: 横浜市観光公式サイトの最新掲載は2025年の日程であり、2026年分は未更新の可能性がある。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -62718,6 +62718,136 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1033",
+      "name": "東京クリスマスマーケット2026",
+      "alternate_names": [
+        "Tokyo Christmas Market 2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "江東区・港区",
+      "date_start": "2026-11-20",
+      "date_end": "2026-12-25",
+      "date_note": "新豊洲会場: 2026/11/20(金)~12/25(金)の36日間（新豊洲は今回初開催）。芝公園(御成門駅前広場)会場: 2026/12/4(金)~12/25(金)の22日間。新豊洲会場の営業時間は初日16:00~21:30、2日目以降11:00~21:30（最終入場20:30）。",
+      "time_start": "11:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "不明（主催団体名は未確認）",
+      "genre": [
+        "マーケット",
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "事前予約チケット制（2026/10/1 18:00販売開始、大人チケットはマグカップ付き特典あり）。詳細不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "ドイツ・ヨーロッパ風マーケット（ザイフェン雑貨等）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "ゆりかもめ「新豊洲駅」徒歩2分、「市場前駅」徒歩4分（新豊洲会場・江東区豊洲6-4）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://bestcalendar.jp/press/163991",
+          "site_name": "bestcalendar.jp",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.timeout.jp/tokyo/ja/news/tokyo-christmas-market-2026-shintoyosu-110926",
+          "site_name": "Time Out Tokyo",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://report.iko-yo.net/articles/33678",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "公式サイトでの直接確認はできておらず、報道・情報サイトの記事のみに基づく情報。主催団体名・料金詳細は不明。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1034",
+      "name": "東京クリスマスアドベント in 上野公園",
+      "alternate_names": [
+        "東京クリスマスアドベント Sponsored by au PAY"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "台東区",
+      "date_start": "2026-11-06",
+      "date_end": "2026-12-25",
+      "date_note": "上野恩賜公園内の2エリアで時期をずらして開催。袴腰広場: 2026/11/6(金)~12/25(金)。不忍池エリア: 2026/11/18(水)~12/25(金)。袴腰広場の営業時間は12:00~23:00。福岡発祥のイベントで、東京オペラシティ等で行われる同名の別イベントと混同しないよう注意。",
+      "time_start": "12:00",
+      "time_end": "23:00",
+      "rain_policy": "不明",
+      "organizer": "不明（福岡発のイベント主催団体、詳細未確認）",
+      "genre": [
+        "マーケット",
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料（飲食等は有料）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "上野恩賜公園 袴腰広場・不忍池エリア",
+      "official_url": "https://christmas-advent.jp/ueno/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://rurubu.jp/andmore/article/25594",
+          "site_name": "るるぶ&more",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://report.iko-yo.net/articles/34526",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/feature/christmas/area_tokyo_ueno/",
+          "site_name": "エンジョイ・トーキョー",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "公式サイトURL(christmas-advent.jp/ueno/)は2025年のプレスリリース記載のもので、2026年版としての直接確認はできていない。同名の別イベント（東京オペラシティ等）と情報が混在している可能性あり。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
