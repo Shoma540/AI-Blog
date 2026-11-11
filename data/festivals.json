@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11 17:07",
+  "last_updated": "2026-11-11 18:07",
   "festivals": [
     {
       "id": "festival_001",
@@ -9875,13 +9875,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年開催：2026-02-04〜2026-02-11（終了済み） → 次回：2027-02-04〜2027-02-11"
@@ -63151,7 +63146,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -63209,7 +63204,7 @@
       "trust_level": "中",
       "conflict_note": "2027年単年の開催告知は未確認。例年固定の1月15日として記載（要確認）。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -63273,11 +63268,69 @@
       "trust_level": "中",
       "conflict_note": "2027年単年の開催告知・時間・料金は未確認（2026年実績を参考記載）。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_1042",
+      "name": "少林山七草大祭だるま市",
+      "alternate_names": [
+        "少林山達磨寺だるま市"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "群馬県",
+      "city": "高崎市",
+      "date_start": "2027-01-06",
+      "date_end": "2027-01-07",
+      "date_note": "毎年1月6日〜7日に固定開催される伝統行事。1月6日は夜通し、7日午前2時には星祭りの祈祷が行われる。2027年分の公式発表は未確認のため例年パターンからの推定日程。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "少林山達磨寺（七草大祭だるま市運営委員会）",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": null,
+      "history_description": "縁起だるま発祥の寺とされる少林山達磨寺で、江戸時代の天明の飢饉の際に9代目住職・東嶽和尚が農民救済のため張り子だるまの作り方を伝え、大祭の縁日で売り出したのが始まりとされる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR群馬八幡駅から徒歩18分。期間中は鼻高橋下などに臨時無料駐車場（約700台）を開設。",
+      "official_url": "https://www.daruma.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://rurubu.jp/andmore/spot/20000874",
+          "site_name": "るるぶ&more.",
+          "is_official": false,
+          "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.daruma.or.jp/uploads/2025/09/e9552949ca216d0487c4ef4e5a7c8c79.pdf",
+          "site_name": "少林山達磨寺（七草大祭だるま市運営委員会）",
+          "is_official": true,
+          "retrieved_date": "2026-11-11"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "2026年は1月6日〜7日に開催済み。2027年の日程は例年パターンからの推定（1月6日〜7日）で公式未発表。"
       }
     }
   ]
