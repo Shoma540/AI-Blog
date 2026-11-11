@@ -25,6 +25,22 @@ SITE_BASE_URL = os.environ.get('SITE_URL', 'https://shoma540.github.io/AI-Blog')
 
 TRUST_COLORS = {'高': '#2e7d32', '中': '#f9a825', '低': '#c62828'}
 
+# 都道府県ページのgeoメタタグ用（ISO 3166-2:JP）
+PREFECTURE_ISO = {
+    '北海道': 'JP-01', '青森県': 'JP-02', '岩手県': 'JP-03', '宮城県': 'JP-04',
+    '秋田県': 'JP-05', '山形県': 'JP-06', '福島県': 'JP-07', '茨城県': 'JP-08',
+    '栃木県': 'JP-09', '群馬県': 'JP-10', '埼玉県': 'JP-11', '千葉県': 'JP-12',
+    '東京都': 'JP-13', '神奈川県': 'JP-14', '新潟県': 'JP-15', '富山県': 'JP-16',
+    '石川県': 'JP-17', '福井県': 'JP-18', '山梨県': 'JP-19', '長野県': 'JP-20',
+    '岐阜県': 'JP-21', '静岡県': 'JP-22', '愛知県': 'JP-23', '三重県': 'JP-24',
+    '滋賀県': 'JP-25', '京都府': 'JP-26', '大阪府': 'JP-27', '兵庫県': 'JP-28',
+    '奈良県': 'JP-29', '和歌山県': 'JP-30', '鳥取県': 'JP-31', '島根県': 'JP-32',
+    '岡山県': 'JP-33', '広島県': 'JP-34', '山口県': 'JP-35', '徳島県': 'JP-36',
+    '香川県': 'JP-37', '愛媛県': 'JP-38', '高知県': 'JP-39', '福岡県': 'JP-40',
+    '佐賀県': 'JP-41', '長崎県': 'JP-42', '熊本県': 'JP-43', '大分県': 'JP-44',
+    '宮崎県': 'JP-45', '鹿児島県': 'JP-46', '沖縄県': 'JP-47',
+}
+
 # 画像設定はconfig.jsonから読み込む（post_instagram.pyと共通化）
 def load_config():
     if os.path.exists(CONFIG_JSON):
@@ -694,7 +710,7 @@ def website_jsonld():
     return f'<script type="application/ld+json">{json_str}</script>'
 
 
-def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path="", footer="", og_image_filename=None):
+def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国の祭り・花火大会情報をまとめてチェック。開催日程・場所・料金・アクセスなど最新情報を随時更新中。", url_path="", footer="", og_image_filename=None, geo_region=None, geo_placename=None):
     description = esc(description.replace('\n', ' '))
     full_title = esc(title if title.endswith("全国祭り情報") else f"{title} | 全国祭り情報")
     canonical_url = f"{SITE_BASE_URL}/{quote(url_path)}" if url_path else f"{SITE_BASE_URL}/"
@@ -704,6 +720,10 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
     # ページに関連する祭りのジャンル画像があれば使い、無ければ全ページ共通の既定画像にフォールバックする。
     # 画像アセットは全て同一サイズ・同一形式（928x1152, JPEG）のため、og:image:width/height/typeは変更不要。
     og_image = f"{IMAGE_BASE_URL.rstrip('/')}/{og_image_filename or DEFAULT_IMAGE}"
+    geo_meta = (
+        f'  <meta name="geo.region" content="{esc(geo_region)}">\n  <meta name="geo.placename" content="{esc(geo_placename)}">\n'
+        if geo_region else ''
+    )
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -722,7 +742,7 @@ def html_page(title, body, nav=NAV_ROOT_HTML, extra_head="", description="全国
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="author" content="全国祭り情報">
   <meta name="rating" content="general">
-  <meta name="description" content="{description}">
+{geo_meta}  <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical_url}">
   <link rel="alternate" hreflang="ja" href="{canonical_url}">
   <link rel="alternate" hreflang="x-default" href="{canonical_url}">
@@ -1538,6 +1558,7 @@ def generate_prefecture_pages(festivals, last_updated):
                 description=f"{pref}の祭り・花火大会情報【{current_year}年】を{len(pref_festivals)}件掲載。開催日程・場所・アクセスなど最新情報をまとめています。",
                 url_path=f"prefecture/{pref}.html", footer=footer_html,
                 og_image_filename=og_image_filename,
+                geo_region=PREFECTURE_ISO.get(pref), geo_placename=pref,
             ))
     print(f"都道府県ページを {len(prefectures)} 件生成しました")
 
