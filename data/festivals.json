@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12 12:04",
+  "last_updated": "2026-11-12 16:05",
   "festivals": [
     {
       "id": "festival_001",
@@ -63565,6 +63565,181 @@
       ],
       "trust_level": "高",
       "conflict_note": "公式(at-nagasaki.jp等)の2027年発表は未確認。旅行会社サイト等の複数ソースが一致する日程を記載。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1046",
+      "name": "平笠裸参り",
+      "alternate_names": [
+        "平笠の裸参り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "岩手県",
+      "city": "八幡平市",
+      "date_start": "2027-01-08",
+      "date_end": "2027-01-08",
+      "date_note": "毎年1月8日固定開催。",
+      "time_start": "08:30",
+      "time_end": "13:30",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "冷水による禊のあと宮田神社で祈願し、約8kmの行程を経て八幡平市大更の八坂神社まで向かう裸参り行事。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR大更駅からタクシーで約20分、東北自動車道西根ICから約4km（駐車場なし）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tabi-mag.jp/hirakasa0108/",
+          "site_name": "tabi-mag.jp",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://en.japantravel.com/iwate/hiragasa-naked-pilgrimage/71951",
+          "site_name": "japantravel.com",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1047",
+      "name": "蓮光寺の星まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "石川県",
+      "city": "加賀市",
+      "date_start": "2027-01-15",
+      "date_end": "2027-01-15",
+      "date_note": "例年1月15日に行われているとみられるが、寺・市の公式発表による確認は取れていない。日付不明に近いため信頼度は低とする。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "蓮光寺",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "寒行（かんぎょう）と呼ばれ、僧侶が冷水を浴びて祈祷する行事。無病息災・五穀豊穣を祈願する。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大聖寺駅から徒歩約8分",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://zhcn.jal.japantravel.com/ishikawa/renkoji-temple-star-festival-2027/72241",
+          "site_name": "japantravel.com",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1048",
+      "name": "十日恵比須祭",
+      "alternate_names": [
+        "十日恵比須",
+        "正月大祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "福岡市博多区",
+      "date_start": "2027-01-08",
+      "date_end": "2027-01-11",
+      "date_note": "十日恵比須神社の正月大祭。例年1月8日(初えびす)〜11日(残りえびす)の固定4日間開催。2027年分の公式発表は未確認のため例年の日程で記載。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "十日恵比須神社",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "1月8日の初えびすに始まり、9日の宵えびす（博多芸妓によるかち詣り）、10日の本えびす、11日の残りえびすと続く正月の祭礼。例年期間中は約100万人が訪れる。",
+      "food_stalls": "参道に露店多数",
+      "crowd_level": "高（期間中約100万人）",
+      "visitors": "約100万人（例年）",
+      "access": "JR鹿児島本線「吉塚駅」または福岡市地下鉄箱崎線「千代県庁口」から徒歩約5分",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tabi-mag.jp/tohkaebisu0108/",
+          "site_name": "tabi-mag.jp",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://www.crossroadfukuoka.jp/event/13560",
+          "site_name": "crossroadfukuoka.jp",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://www.data-max.co.jp/article/82361",
+          "site_name": "data-max.co.jp",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
