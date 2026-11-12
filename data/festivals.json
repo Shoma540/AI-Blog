@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12 08:05",
+  "last_updated": "2026-11-12 12:04",
   "festivals": [
     {
       "id": "festival_001",
@@ -63383,7 +63383,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -63435,7 +63435,7 @@
       "trust_level": "低",
       "conflict_note": "準備行事の開始日について資料間で食い違いあり（12月3日説と師走8日説）。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -63493,6 +63493,78 @@
       ],
       "trust_level": "中",
       "conflict_note": "国指定日について市ページ「平成6年12月1日」、県ページ「1994年12月13日」で記載が食い違う。",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_986",
+      "name": "長崎ランタンフェスティバル",
+      "alternate_names": [
+        "長崎ランタンフェスティバル(旧長崎春節祭)"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "長崎県",
+      "city": "長崎市",
+      "date_start": "2027-02-05",
+      "date_end": "2027-02-21",
+      "date_note": "例年2月の第1金曜日から17日間開催。公式発表前のため変更の可能性あり。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "長崎ランタンフェスティバル実行委員会（長崎市）",
+      "genre": [
+        "灯籠",
+        "イルミネーション",
+        "パレード"
+      ],
+      "scale": "その他（長崎市最大級の冬季イベント）",
+      "is_free": true,
+      "price": "見学無料（一部有料イベントあり）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "中国の旧正月を祝う「春節祭」を起源とし、長崎新地中華街の住民が始めた行事が市全体のイベントに発展した。新地中華街や浜市・観光通りなど市内中心部に約1万5千個のランタン等が飾られる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.knt.co.jp/meito/sp/nagasaki_lantern_festival/",
+          "site_name": "近畿日本ツーリスト",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://www.nta.co.jp/jrodekakenet/plan/n/202611_lanthanumtour.htm",
+          "site_name": "日本旅行",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://data-max.co.jp/article/33748",
+          "site_name": "data-max",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://tabi-mag.jp/nagasaki-lanternfes/",
+          "site_name": "tabi-mag",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "公式(at-nagasaki.jp等)の2027年発表は未確認。旅行会社サイト等の複数ソースが一致する日程を記載。",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
