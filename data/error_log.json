@@ -1031,6 +1031,12 @@
       "step": "fetch_analytics",
       "error": "GA4ライブラリ未インストール",
       "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-11-12 12:08",
+      "step": "STEP9_instagram_post",
+      "error": "Instagramアクセストークン期限切れ",
+      "detail": "INSTAGRAM_ACCESS_TOKENが2026-10-21に期限切れ。以降の全実行（12:00台の無条件投稿含む）でInstagram投稿が継続して失敗中。requestsモジュールが未インストールだったため今回追加でインストールして実行したが、投稿自体はトークン期限切れで失敗。ブログ更新（HTML生成・GitHub Push）は正常完了。"
     }
   ]
 }
