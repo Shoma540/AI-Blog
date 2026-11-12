@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12 16:05",
+  "last_updated": "2026-11-12 17:10",
   "festivals": [
     {
       "id": "festival_001",
@@ -63625,7 +63625,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -63675,7 +63675,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -63741,11 +63741,75 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_1049",
+      "name": "羽子板市（歳の市）",
+      "alternate_names": [
+        "浅草羽子板市",
+        "歳の市"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "台東区",
+      "date_start": "2026-12-17",
+      "date_end": "2026-12-19",
+      "date_note": "本尊の縁日「納めの観音」(12月18日)に合わせて毎年12月17日〜19日に開催される恒例行事。2026年分の浅草寺公式ページでの明示的な告知は検索時点で未確認。",
+      "time_start": "09:00",
+      "time_end": "19:30",
+      "rain_policy": "不明",
+      "organizer": "浅草寺",
+      "genre": [
+        "市",
+        "伝統行事"
+      ],
+      "scale": "その他（浅草の年中行事）",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "浅草寺の本尊・観世音菩薩の年末の縁日「納めの観音」(12月18日)にあわせて立つ歳の市。江戸押絵羽子板を中心に20種以上の国指定伝統的工芸品の店が並ぶ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東京メトロ・東武線・つくばエクスプレス浅草駅から徒歩5分",
+      "official_url": "https://www.gotokyo.org/jp/kanko/taito/event/hagoita.html",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.gotokyo.org/jp/kanko/taito/event/hagoita.html",
+          "site_name": "GO TOKYO（東京都公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://kaibutsu-blog.com/asakusa-hagoita-ichi-2026/",
+          "site_name": "かいぶつブログ",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://hugkum.sho.jp/545710",
+          "site_name": "HugKum",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "GO TOKYO公式ページは2025年開催分の記載が中心で、2026年の明示的な告知は未確認。日程(12/17-19)は縁日に基づく毎年恒例のため複数の非公式ソースが一致。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "例年通り12月17日〜19日の開催とみられる（公式の2026年版告知は未確認）"
       }
     }
   ]
