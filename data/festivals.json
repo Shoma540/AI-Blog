@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12 17:10",
+  "last_updated": "2026-11-12 18:05",
   "festivals": [
     {
       "id": "festival_001",
@@ -63810,6 +63810,137 @@
       "year_comparison": {
         "changed": false,
         "details": "例年通り12月17日〜19日の開催とみられる（公式の2026年版告知は未確認）"
+      }
+    },
+    {
+      "id": "festival_1050",
+      "name": "江津祇園大祭禮",
+      "alternate_names": [
+        "山辺神社祇園祭",
+        "ホーランエー"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "島根県",
+      "city": "江津市",
+      "date_start": "2026-07-19",
+      "date_end": "2026-07-19",
+      "date_note": "石見三大祭の一つ。神輿を御座船に乗せて江の川を渡る「川渡神事（ホーランエー）」は4年に1度の実施で、2026年がその実施年だった。次回の実施年は公式発表未確認のため「不明」。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "山辺神社",
+      "genre": [
+        "神事",
+        "船渡御"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "川の鎮護・航海安全などを祈願し、1713年頃から始まったとされる神事。神輿を御座船に乗せ、櫂揃船3隻・供奉船約30隻を随行させて江の川を渡る「川渡神事（ホーランエー）」が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://summer.walkerplus.com/odekake/detail_e/ar0832e603474/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://www.mlit.go.jp/river/toukei_chousa/kasen/jiten/nihon_kawa/0704_gounokawa/0704_gounokawa_03.html",
+          "site_name": "国土交通省（江の川水系資料）",
+          "is_official": true,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://satodukuri.pref.shimane.lg.jp/www/contents/1678428873448/simple/129.pdf",
+          "site_name": "島根県（里づくり資料）",
+          "is_official": true,
+          "retrieved_date": "2026-11-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1051",
+      "name": "揖夜神社 穂掛祭",
+      "alternate_names": [
+        "穂掛祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "島根県",
+      "city": "松江市",
+      "date_start": "2026-08-28",
+      "date_end": "2026-08-28",
+      "date_note": "毎年8月28日に固定で開催される夏祭り。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "揖夜神社",
+      "genre": [
+        "神事",
+        "船渡御"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "稲穂を榊に掛けた「穂掛榊」を作り神前に供え、田の神に感謝する祭り。祭礼当日午前中に境内75ヶ所へ神饌を奉じたのち、午後に神輿を御座船に乗せ、袖師ヶ浦沖約500mの一ツ石まで舟渡御する。陸上では提灯行列も出る。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tabi-mag.jp/iyashrine-hokake",
+          "site_name": "たびまが",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://summer.walkerplus.com/odekake/detail_e/ar0832e609495/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://www.city.matsue.lg.jp/material/files/group/32/higasiizumo1.pdf",
+          "site_name": "松江市（東出雲地区資料）",
+          "is_official": true,
+          "retrieved_date": "2026-11-12"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "⚠️矛盾：陸上提灯行列の距離について、ウォーカープラス（低信頼ソース）は「約1km」、松江市資料（公式）は「約2km」と記載が異なる。公式情報の約2kmを優先表示。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
