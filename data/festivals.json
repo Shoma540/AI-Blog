@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11 18:07",
+  "last_updated": "2026-11-12 08:05",
   "festivals": [
     {
       "id": "festival_001",
@@ -63326,11 +63326,179 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": "2026年は1月6日〜7日に開催済み。2027年の日程は例年パターンからの推定（1月6日〜7日）で公式未発表。"
+      }
+    },
+    {
+      "id": "festival_1043",
+      "name": "西浦の田楽",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "静岡県",
+      "city": "浜松市天竜区水窪町奥領家",
+      "date_start": "2027-02-24",
+      "date_end": "2027-02-25",
+      "date_note": "旧暦1月18日の月の出から翌日の日の出まで夜を徹して行われる。次回開催は浜松市公式情報による2027年2月24日。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "国指定重要無形民俗文化財（1976年5月4日指定）",
+      "is_free": false,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "西浦観音堂で行われる田楽。「地能」33番、「はね能」12番、「獅子舞」「しずめの舞」で構成される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.hamamatsu.shizuoka.jp/bunkazai/shitei/misakubo/misakubo/nishiuredengaku.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.hamamatsu.shizuoka.jp/bunkazai/shitei/misakubo/misakubo/nishiuredengaku.html",
+          "site_name": "浜松市公式",
+          "is_official": true,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://itcj.or.jp/japanese-festival/pageindices/index188.html",
+          "site_name": "地域伝統芸能活用センター 日本の祭り総集編",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1044",
+      "name": "大磯の左義長",
+      "alternate_names": [
+        "さいと焼き"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "中郡大磯町",
+      "date_start": "2027-01-14",
+      "date_end": "2027-01-14",
+      "date_note": "例年1月14日開催。2027年の町公式日程は未確認のため、例年通りの目安。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": false,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "大磯町の北浜海岸で行われる冬の火祭り。正月飾りなどを燃やして無病息災を祈る左義長行事。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kanaloco.jp/news/life/article-1049281.html",
+          "site_name": "神奈川新聞 カナロコ",
+          "is_official": false,
+          "retrieved_date": "2026-11-12"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "準備行事の開始日について資料間で食い違いあり（12月3日説と師走8日説）。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1045",
+      "name": "懐山のおくない",
+      "alternate_names": [
+        "遠江のおくないひよんどり（一括指定名）"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "静岡県",
+      "city": "浜松市天竜区懐山",
+      "date_start": "2027-01-03",
+      "date_end": "2027-01-03",
+      "date_note": "例年1月3日、泰蔵院にて日中に開催。かつては旧暦1月4〜5日に夜通し行われていた。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "神事",
+        "民俗芸能"
+      ],
+      "scale": "国指定重要無形民俗文化財（1994年指定、浜名区の川名のひよんどり・寺野のひよんどりと一括指定）",
+      "is_free": false,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "泰蔵院で行われる修正会の一種。五穀豊穣や無病息災を祈り、20余りの舞が演じられる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://www.city.hamamatsu.shizuoka.jp/bunkazai/shitei/tenryu/tenryu/okunai.html",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.city.hamamatsu.shizuoka.jp/bunkazai/shitei/tenryu/tenryu/okunai.html",
+          "site_name": "浜松市公式",
+          "is_official": true,
+          "retrieved_date": "2026-11-12"
+        },
+        {
+          "url": "https://www.pref.shizuoka.jp/kankosports/bunkageijutsu/bunkazai/1002825/1041003/1041889/1004986/1021493.html",
+          "site_name": "しずおか文化財ナビ（静岡県公式）",
+          "is_official": true,
+          "retrieved_date": "2026-11-12"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "国指定日について市ページ「平成6年12月1日」、県ページ「1994年12月13日」で記載が食い違う。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
       }
     }
   ]
