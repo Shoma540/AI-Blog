@@ -1013,6 +1013,24 @@
       "step": "STEP9_instagram_post",
       "error": "Instagramアクセストークン期限切れ",
       "detail": "The token has expired on Wednesday, 21-Oct-26 04:21:18 PDT. The current time is Wednesday, 11-Nov-26 10:07:53 PST. (code 190, OAuthException)"
+    },
+    {
+      "timestamp": "2026-11-12 08:07",
+      "step": "post_instagram",
+      "error": "Instagramアクセストークン期限切れ",
+      "detail": "OAuthException 190: token expired on 2026-10-21。3週間以上（22日間超）経過しても未更新で継続中。INSTAGRAM_ACCESS_TOKENの再発行・環境変数更新が必要。前回2026-11-11 17:08の実行で既にユーザーへプッシュ通知でエスカレーション済みのため、今回は再通知せずログ記録のみ行った。ブログ更新（HTML生成・GitHub Push、新規3件：西浦の田楽・大磯の左義長・懐山のおくない）は正常に完了。"
+    },
+    {
+      "timestamp": "2026-11-12 08:07",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
+    },
+    {
+      "timestamp": "2026-11-12 08:07",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
     }
   ]
 }
