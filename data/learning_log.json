@@ -755,6 +755,18 @@
       "verify_after": "2026-11-14",
       "result": "",
       "commit": "5c8aefe6dd3fa5f536298a14a1cff39d97542742"
+    },
+    {
+      "date": "2026-11-13 08:11",
+      "analysis": "GA4スナップショット（過去7日間、2026-11-13 08:10取得）は引き続きセッション0件・ページビュー0件で、データ不十分期が継続中（4ヶ月以上）。前回entry（2026-11-11、PREFECTURE_ISO追加）はverify_afterが2026-11-14でまだ未到来のため本実行では効果測定を行わなかった。validate_site.pyは全項目通過し前回改善によるサイト破損は無し。過去の学習記録（63件）を確認したところ、title/meta description/構造化データ（Event・BreadcrumbList・WebSite）/画像最適化/アクセシビリティ等は非常に広範に実施済みだが、website_jsonld()が出力するOrganizationの構造化データにはname/urlのみでlogoプロパティが無く、Googleのナレッジパネル・検索結果でのサイトロゴ表示に必要な推奨フィールドが欠落していた。",
+      "action": "scripts/generate_html.py の website_jsonld() で、Organizationオブジェクトに logo プロパティ（IMAGE_BASE_URLとDEFAULT_IMAGEから組み立てた絶対URL、既存のog:imageと同じ画像を再利用）を追加した。新規アセットの追加・他ページへの影響は無く、トップページ(index.html)のJSON-LDのみに適用される。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "Organization構造化データにlogoが加わることで、Googleがサイトのロゴをナレッジパネルや検索結果でより正確に認識・表示できるようになり、ブランド認知の安定化に寄与するはず。効果はGA4のセッション数だけでは直接測定できない性質の改善であり、トラフィック自体も発生していないため、次回以降もvalidate_site.pyでの構造維持確認（JSON-LDのパース可否・logoフィールド出力確認）を中心に経過観察する。",
+      "verify_after": "2026-11-16",
+      "result": "",
+      "commit": "5e68f4af98ec370579b529fc653e4b5d25f682ac"
     }
   ]
 }
