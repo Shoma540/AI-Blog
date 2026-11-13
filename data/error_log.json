@@ -1061,6 +1061,12 @@
       "step": "fetch_analytics",
       "error": "GA4 Data API呼び出し失敗",
       "detail": "GA4 Data API の呼び出しに失敗: DeadlineExceeded: 504 Deadline Exceeded"
+    },
+    {
+      "timestamp": "2026-11-13 12:09",
+      "step": "post_instagram",
+      "error": "Instagramアクセストークン期限切れ",
+      "detail": "OAuthException 190: token expired on 2026-10-21。3週間以上（約23日間）経過しても未更新で継続中。INSTAGRAM_ACCESS_TOKENの再発行・環境変数更新が必要。2026-11-11 17:08の実行で既にユーザーへプッシュ通知でエスカレーション済みのため、今回も再通知せずログ記録のみ行った。ブログ更新（HTML生成・GitHub Push、新規2件：浅草寺除夜の鐘・知恩院除夜の鐘、更新3件：冬季熱海海上花火大会・小江戸川越花火大会・梅小路公園紅葉まつり）は正常に完了。"
     }
   ]
 }
