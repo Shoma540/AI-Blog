@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13 16:21",
+  "last_updated": "2026-11-13 17:07",
   "festivals": [
     {
       "id": "festival_001",
@@ -4240,10 +4240,8 @@
       "trust_level": "中",
       "conflict_note": "祭り自体の内容・主催は3ソース一致で確認できたが、2026年の具体的な開催日は本稿時点で未発表のため「不明」とした。要確認。 追加確認（2026-09-24）：公式ルール（10/26固定・直後の土日）から10/31-11/1と推定したが、2026年の公式日程発表はまだ確認できていないため date は推定値。確定後に要更新。 再確認（2026-09-28）：じゃらんnet・宮崎商工会議所公式・みやざき観光ナビ（宮崎県公式）の3サイトが現時点でも「11月1日(土)・2日(日)」と表記しているが、2026年の実際の曜日は11/1が日曜、11/2が月曜であり暦と矛盾する。これは令和7年（2025年）の日程（2025年は11/1が土曜）がそのまま使い回されている可能性が高く、2026年向けに未更新の情報と判断し不採用を継続。2026年の公式日程発表は本稿時点でも確認できず、dateは推定値のまま要確認を継続。 再確認（2026-11-13）：公式サイト（宮崎神宮・宮崎市）および商工会議所のいずれにも2026年実施分（10/31-11/1）の開催結果・2027年日程に関する新たな公式発表は確認できず、状況に変化なし。日付は引き続き規則からの推定値のまま要確認を継続。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -55334,12 +55332,8 @@
       "trust_level": "高",
       "conflict_note": "再確認（2026-11-13）：エンジョイ・トーキョー、はるののひ、Oggi.jp、花園神社公式の4ソースが一の酉11/7(土)・二の酉11/19(木)で一致（公式含む）。信頼度を中→高に更新し、要確認を解消。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -61906,12 +61900,8 @@
       "trust_level": "中",
       "conflict_note": "再確認（2026-11-13）：観光三重に加えるるぶ&moreも増田神社での伊勢大神楽「総舞」を12月24日開催として掲載しており2ソース一致。信頼度を低→中に更新。開始時刻・雨天時対応の公式（増田神社・桑名市）での確認は依然取れておらず要確認を継続。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -62728,12 +62718,8 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾（継続）: 横浜市観光公式サイトの最新掲載は2025年の日程（一の酉11/12、二の酉11/24）であり、2026年分は未更新の可能性がある。再確認（2026-11-13）：るるぶに加えmatcha-jp.comも一の酉11/7(土)・二の酉11/19(木)を掲載しており2ソース一致。神社公式での告知は依然未確認のため信頼度は中にとどめ、要確認を継続。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "trust_level",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -62860,15 +62846,8 @@
       "trust_level": "高",
       "conflict_note": "再確認（2026-11-13）：公式サイト（tokyochristmas.net）を確認し、新豊洲会場11/20-12/25・芝公園会場12/4-12/25の日程を確認。bestcalendar.jp・Time Out Tokyo・いこーよの既存3ソースとも一致したため信頼度を中→高に更新し、要確認を解消。料金詳細（報道間で差異あり）は引き続き公式サイトでの最終確認を推奨。",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "official_url",
-        "organizer",
-        "trust_level",
-        "requires_check",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -63167,10 +63146,8 @@
       "trust_level": "低",
       "conflict_note": "要確認：各神社の2026年の正確な日程は遠山郷観光協会の公式発表待ち。 再確認（2026-11-13）：長野県の最新広報資料にも地区別の正式日程は明記されておらず、遠山郷観光協会による2026年版の公式発表は依然確認できず。状況に変化なし、要確認を継続。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -63348,11 +63325,8 @@
       "trust_level": "高",
       "conflict_note": "2027年単年の開催告知・時間・料金は未確認（2026年実績を参考記載）。 再確認（2026-11-13）：クロスロードふくおか・るるぶ・Japan Travel（日本政府観光局・公式）の3ソースが毎年1月7日固定開催で一致しているため信頼度を中→高に更新。2027年単年の個別告知・料金は依然未確認のため要確認は継続。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "trust_level",
-        "conflict_note"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -63524,16 +63498,8 @@
       "trust_level": "中",
       "conflict_note": "日程を修正（2026-11-13）：神奈川新聞のみを根拠に1月14日固定としていたが、神奈川県公式ページの開催ルール（1/14が平日なら1月第3土曜に移動）とPythonのdatetimeによる曜日確認（2027/1/14=木曜）から、旧登録日（2027-01-14）は誤りと判断し2027-01-16に修正。2026年実績（1/14=水曜→1/17(土)開催）との整合性も確認済み。大磯町の2027年単年の公式告知は未確認のため要確認は継続。準備行事開始日の資料間の食い違い（12月3日説と師走8日説）は未解消。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "sources",
-        "trust_level",
-        "conflict_note",
-        "year_comparison"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "2026年は1/14(水)が平日のためルール適用で1/17(土)開催。2027年も1/14(木)が平日のため同ルールにより1/16(土)開催と推定（旧登録の1/14から修正）。"
@@ -64340,7 +64306,7 @@
       "trust_level": "中",
       "conflict_note": "主催者（実行委員会）側の詳細告知は未確認のため、正式な営業時間・料金は北九州市公式サイトまたは実行委員会（093-591-1170）で最終確認が必要。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -64402,7 +64368,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -64466,7 +64432,7 @@
       "trust_level": "高",
       "conflict_note": "会場別の鑑賞料金・点灯時間の詳細は本稿時点で未確定部分あり（前回実績ベース）。開催直前に公式サイトでの最終確認を推奨。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -64536,6 +64502,190 @@
       ],
       "trust_level": "高",
       "conflict_note": "2027年単年の公式告知（四天王寺本体の発表）は本稿時点で未確認。1月14日固定開催という毎年の実績・区役所広報での掲載を根拠とした推定日程。",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1060",
+      "name": "大國魂神社 酉の市",
+      "alternate_names": [
+        "府中酉の市"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "府中市",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-19",
+      "date_note": "一の酉11/7(土)、二の酉11/19(木)。三の酉なし。浅草 鷲神社の酉の市（festival_906）、花園神社大酉祭（festival_907）とは別の神社・別の祭り（関東三大酉の市の一つ）。開催時間は2025年の記事に基づく参考値。",
+      "time_start": "09:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "大國魂神社",
+      "genre": [
+        "神事",
+        "酉の市"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "武蔵国総社・大國魂神社で行われる酉の市。関東三大酉の市の一つとされる。",
+      "food_stalls": "境内に約100店の露店（熊手店中心）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "京王線「府中駅」またはJR南武線「府中本町駅」から徒歩数分",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://matcha-jp.com/jp/8526",
+          "site_name": "MATCHA",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/389312/",
+          "site_name": "엔조이Tokyo",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://tabi-mag.jp/ookunitama-torinoichi/",
+          "site_name": "旅行読売「たびまぐ」",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1061",
+      "name": "鳥越神社 とんど焼き",
+      "alternate_names": [
+        "鳥越神社どんど焼き"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "台東区",
+      "date_start": "2027-01-08",
+      "date_end": "2027-01-08",
+      "date_note": "お焚き上げの受付は1/5〜1/8午前中（2026年実施分の案内に基づく参考値）。ウォーカープラス掲載情報は2026年8月時点のもので、2027年分は変更の可能性あり。",
+      "time_start": "13:00",
+      "time_end": "14:00",
+      "rain_policy": "不明",
+      "organizer": "鳥越神社",
+      "genre": [
+        "神事",
+        "どんど焼き"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "正月飾りやお札を焚き上げる小正月行事。子供たちが青竹で地面を叩きながら回り、竹竿に吊るした餅を火であぶる風習がある。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "都営浅草線「蔵前駅」から徒歩約5分、JR「浅草橋駅」から徒歩約8分",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.walkerplus.com/event/ar0313e582274/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://www.nta.co.jp/kokunai/special/eventinfo/10608735.htm",
+          "site_name": "日本旅行",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1062",
+      "name": "松之山温泉 むこ投げ・すみ塗り（賽の神）",
+      "alternate_names": [
+        "賽の神",
+        "どんど焼き（松之山）"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "新潟県",
+      "city": "十日町市",
+      "date_start": "2027-01-15",
+      "date_end": "2027-01-15",
+      "date_note": "観光情報サイトでは2027年1月15日(金)と案内。十日町市の公式報道資料で確認できたのは2026年1月15日開催分のみで、2027年分の市公式確定情報は未確認。",
+      "time_start": "14:00",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "十日町市（松之山地域）",
+      "genre": [
+        "神事",
+        "小正月行事"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "前年に結婚した初婿を薬師堂境内から雪の斜面へ投げ落とす「むこ投げ」と、賽の神（どんど焼き）の灰と雪を混ぜて顔に塗り合う「すみ塗り」からなる小正月行事。出場夫婦は例年11月末日までに公募される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "松之山温泉 薬師堂（新潟県十日町市松之山湯本）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.iwafu.com/jp/events/1164037",
+          "site_name": "いわふる",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://niigata-kankou.or.jp/spot/detail_2083.html",
+          "site_name": "新潟県観光協会",
+          "is_official": true,
+          "retrieved_date": "2026-11-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "2027年分の市公式確定情報は未確認（市資料は2026年分のみ確認）",
       "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
