@@ -63805,7 +63805,7 @@
       "trust_level": "中",
       "conflict_note": "GO TOKYO公式ページは2025年開催分の記載が中心で、2026年の明示的な告知は未確認。日程(12/17-19)は縁日に基づく毎年恒例のため複数の非公式ソースが一致。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -63871,7 +63871,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -63936,7 +63936,7 @@
       "trust_level": "高",
       "conflict_note": "⚠️矛盾：陸上提灯行列の距離について、ウォーカープラス（低信頼ソース）は「約1km」、松江市資料（公式）は「約2km」と記載が異なる。公式情報の約2kmを優先表示。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
