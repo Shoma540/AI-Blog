@@ -1049,6 +1049,18 @@
       "step": "post_instagram",
       "error": "Instagramアクセストークン期限切れ",
       "detail": "OAuthException 190: token expired on 2026-10-21。3週間以上（約22日間）経過しても未更新で継続中。INSTAGRAM_ACCESS_TOKENの再発行・環境変数更新が必要。2026-11-11 17:08の実行で既にユーザーへプッシュ通知でエスカレーション済みのため、今回は再通知せずログ記録のみ行った。ブログ更新（HTML生成・GitHub Push、新規2件：江津祇園大祭禮・揖夜神社穂掛祭）は正常に完了。"
+    },
+    {
+      "timestamp": "2026-11-13 08:08",
+      "step": "post_instagram",
+      "error": "Instagramアクセストークン期限切れ",
+      "detail": "OAuthException 190: token expired on 2026-10-21。3週間以上（約23日間）経過しても未更新で継続中。INSTAGRAM_ACCESS_TOKENの再発行・環境変数更新が必要。2026-11-11 17:08の実行で既にユーザーへプッシュ通知でエスカレーション済みのため、今回も再通知せずログ記録のみ行った。ブログ更新（HTML生成・GitHub Push、新規2件：第10回つくい湖湖上祭・市制施行55周年えびな市民まつり2026）は正常に完了。"
+    },
+    {
+      "timestamp": "2026-11-13 08:10",
+      "step": "fetch_analytics",
+      "error": "GA4 Data API呼び出し失敗",
+      "detail": "GA4 Data API の呼び出しに失敗: DeadlineExceeded: 504 Deadline Exceeded"
     }
   ]
 }

@@ -703,6 +703,7 @@ def website_jsonld():
                 "@type": "Organization",
                 "name": "全国祭り情報",
                 "url": f"{SITE_BASE_URL}/",
+                "logo": f"{IMAGE_BASE_URL.rstrip('/')}/{DEFAULT_IMAGE}",
             },
         ],
     }
