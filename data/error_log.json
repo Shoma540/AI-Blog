@@ -1073,6 +1073,12 @@
       "step": "post_instagram",
       "error": "Instagramアクセストークン期限切れ",
       "detail": "OAuthException 190: token expired on 2026-10-21。3週間以上（約24日間）経過しても未更新で継続中。INSTAGRAM_ACCESS_TOKENの再発行・環境変数更新が必要。2026-11-11 17:08の実行で既にユーザーへプッシュ通知でエスカレーション済みのため、今回も再通知せずログ記録のみ行った。実行時はrequestsモジュール未インストールだったため今回も python3 -m pip install --user requests で対応し、その後の実行自体は成功、Graph APIが400でトークン失効（code 190）を返した。投稿はスキップされた。ブログ更新（HTML生成・GitHub Push、新規4件：小倉クリスマスマーケット&キャッスル2026・クリスマスゲートパーク in 福岡大名ガーデンシティ2026・第32回神戸ルミナリエ・四天王寺どやどや、更新8件：宮崎神宮大祭・花園神社大酉祭・金刀比羅大鷲神社酉の市・東京クリスマスマーケット2026・遠山の霜月祭り・伊勢大神楽・鬼夜・大磯の左義長〈日程を1/14→1/16に修正〉）は正常に完了。"
+    },
+    {
+      "timestamp": "2026-11-13 17:09",
+      "step": "post_instagram",
+      "error": "OAuthException 190: token expired",
+      "detail": "OAuthException 190: token expired on 2026-10-21。3週間以上（約24日間）経過しても未更新で継続中。INSTAGRAM_ACCESS_TOKENの再発行・環境変数更新が必要。"
     }
   ]
 }
