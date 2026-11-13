@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13 08:07",
+  "last_updated": "2026-11-13 12:06",
   "festivals": [
     {
       "id": "festival_001",
@@ -61224,43 +61224,71 @@
       "city": "川越市",
       "date_start": "2026-11-21",
       "date_end": "2026-11-21",
-      "date_note": "花火情報サイト1件のみ。要公式確認",
-      "time_start": "",
-      "time_end": "",
-      "rain_policy": "",
-      "organizer": "",
+      "date_note": "第32回大会。2026年は11月21日(土)開催（夏から秋開催に変更）。時間は18:10〜19:10とする情報源と「未定」とする情報源があり一致せず。",
+      "time_start": "18:10",
+      "time_end": "19:10",
+      "rain_policy": "荒天時は中止の可能性あり（詳細未確認）",
+      "organizer": "小江戸川越花火大会実行委員会（詳細未確認）",
       "genre": [
         "花火"
       ],
-      "scale": "",
-      "is_free": "",
-      "price": "",
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料（有料観覧席の有無は未確認）",
       "ticket_url": "",
-      "history_years": "",
-      "history_description": "",
-      "food_stalls": "",
-      "crowd_level": "",
-      "visitors": "",
-      "access": "",
-      "official_url": "",
-      "sns_accounts": "",
-      "video_url": "",
+      "history_years": 32,
+      "history_description": "第32回を数える川越市の花火大会。従来の夏開催から秋開催に変更された点が特徴。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "安比奈親水公園（埼玉県川越市安比奈新田）。JR川越線 笠幡駅から徒歩約25分。東武東上線 霞ケ関駅・西武新宿線 南大塚駅からは徒歩約50分。",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
       "sources": [
         {
-          "url": "https://hanabi.cloud/html/dayEvent/20261122.html",
-          "site_name": "花火情報サイト",
+          "url": "https://hanabi.cloud/html/Kanto/saitama/2026/2026-11-21_koedo-kawagoe-hanabi-taikai.html",
+          "site_name": "hanabi.cloud",
           "is_official": false,
-          "retrieved_date": "2026-10-02"
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/2001002/",
+          "site_name": "ウェザーニュース花火",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://www.mapple.net/sp/hanabi/hanabi_saitama/",
+          "site_name": "まっぷる",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
         }
       ],
-      "trust_level": "低",
-      "conflict_note": "",
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾: 打上時間について、ウェザーニュースは18:10〜19:10とするが、別の情報源は「未定」としている。公式サイトは確認できず、観覧席情報や最終日程は主催者発表で要確認。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "organizer",
+        "is_free",
+        "price",
+        "history_years",
+        "history_description",
+        "access",
+        "sources",
+        "trust_level",
+        "conflict_note"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "例年夏開催だったが2026年は秋(11月)開催に変更。"
       }
     },
     {
@@ -62044,30 +62072,36 @@
     {
       "alternate_names": [],
       "similar_name_warning": false,
-      "date_end": null,
-      "time_start": "不明",
-      "time_end": "不明",
-      "rain_policy": "不明",
-      "organizer": "不明",
+      "date_end": "2026-12-25",
+      "time_start": "20:20",
+      "time_end": "20:40",
+      "rain_policy": "雨天決行（順延日の案内は確認できず）",
+      "organizer": "熱海市観光協会（問い合わせ：熱海温泉ホテル旅館協同組合）",
       "scale": "その他",
-      "is_free": null,
-      "price": "不明",
+      "is_free": true,
+      "price": "観覧無料（有料観覧席の有無は未確認）",
       "ticket_url": "",
       "history_years": null,
-      "history_description": "不明",
+      "history_description": "熱海では夏季に加え冬季にも海上花火大会を定期開催。2026年12月は12/6・12/25の2回。",
       "food_stalls": "不明",
       "crowd_level": "不明",
       "visitors": "不明",
-      "access": "不明",
-      "official_url": "",
+      "access": "熱海湾（熱海駅から徒歩圏）",
+      "official_url": "https://www.ataminews.gr.jp/event/8/",
       "sns_accounts": {},
       "video_url": "",
       "sources": [
         {
-          "url": "https://weathernews.jp/hanabi/12/",
+          "url": "https://www.ataminews.gr.jp/event/8/",
+          "site_name": "熱海市観光協会公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/3101066/",
           "site_name": "ウェザーニュース花火",
           "is_official": false,
-          "retrieved_date": "2026-11-01"
+          "retrieved_date": "2026-11-13"
         },
         {
           "url": "https://hanabi.cloud/html/dayEvent/20261206.html",
@@ -62076,21 +62110,36 @@
           "retrieved_date": "2026-11-01"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "",
-      "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "requires_check": false,
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_end",
+        "date_note",
+        "time_start",
+        "time_end",
+        "rain_policy",
+        "organizer",
+        "is_free",
+        "price",
+        "access",
+        "official_url",
+        "history_description",
+        "sources",
+        "trust_level",
+        "requires_check"
+      ],
       "year_comparison": {
         "changed": false,
-        "details": ""
+        "details": "例年同様、冬季に複数回開催。日程は年ごとに異なる。"
       },
       "id": "festival_959",
       "name": "冬季熱海海上花火大会",
       "prefecture": "静岡県",
       "city": "熱海市",
       "date_start": "2026-12-06",
-      "date_note": "12/6・12/25に開催情報あり。打上数3000発（12/6）。詳細は公式情報で要確認",
+      "date_note": "12/6(日)・12/25(金)の2回開催。両日とも20:20〜20:40（打上時間は変更となる場合あり）。会場は熱海湾。HAGAグルミネーションフェス云々は別件(festival_958)。",
       "genre": [
         "花火"
       ]
@@ -62233,8 +62282,8 @@
       "city": "京都市",
       "date_start": "2026-11-13",
       "date_end": "2026-11-29",
-      "date_note": "11/16・11/24は休園",
-      "organizer": "不明",
+      "date_note": "11/13(金)〜11/29(日)開催。11/16(月)・11/24(火)は休園。ライトアップは17:00〜21:00、会場は日本庭園「朱雀の庭」。見頃予想は11月下旬〜12月上旬(tenki.jp)。",
+      "organizer": "(公財)京都市都市緑化協会（推定、公式発表での組織名未確認）",
       "genre": [
         "紅葉",
         "ライトアップ"
@@ -62245,17 +62294,48 @@
           "url": "https://ja.kyoto.travel/event/single.php?event_id=3731",
           "site_name": "京都観光Navi",
           "is_official": false,
-          "retrieved_date": "2026-11-04"
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/leaf/news/jrd_261027_4.html",
+          "site_name": "jorudan 紅葉情報",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://tenki.jp/kouyou/6/29/30826.html",
+          "site_name": "tenki.jp",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
         }
       ],
-      "trust_level": "低",
+      "trust_level": "中",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_note",
+        "time_start",
+        "time_end",
+        "organizer",
+        "is_free",
+        "price",
+        "history_description",
+        "access",
+        "sources",
+        "trust_level",
+        "conflict_note"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
-      }
+      },
+      "time_start": "17:00",
+      "time_end": "21:00",
+      "is_free": false,
+      "price": "大人600円・小学生300円・未就学児無料（2025年実績。2026年料金は公式未確認）",
+      "history_description": "梅小路公園・日本庭園「朱雀の庭」で行われる紅葉ライトアップ。池に映る「逆さ紅葉」が見どころ。",
+      "access": "JR京都駅から徒歩約15分。JR梅小路京都西駅からすぐ。",
+      "conflict_note": "料金は2025年実績を参考値として記載。2026年分の公式発表（京都市都市緑化協会）での確認はできていない。"
     },
     {
       "time_start": "不明",
@@ -64066,6 +64146,130 @@
         "changed": false,
         "details": ""
       }
+    },
+    {
+      "id": "festival_1054",
+      "name": "浅草寺 除夜の鐘",
+      "alternate_names": [
+        "除夜の鐘(浅草寺)"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "台東区",
+      "date_start": "2026-12-31",
+      "date_end": "2027-01-01",
+      "date_note": "大晦日12月31日深夜〜1月1日0時にかけて、弁天山にて実施。浅草寺僧侶が鐘を撞いた後、「百八会」会員108人が交代で108回撞く形式。一般参加には鐘つき券が必要とする情報源があるが、配布方法・抽選有無の2026年分詳細は未確認（記事は前年12月頃の情報を基にしている可能性あり）。他寺院（池上本門寺など）の除夜の鐘と混同しないよう注意。",
+      "time_start": "23:30",
+      "time_end": "00:30",
+      "rain_policy": "不明",
+      "organizer": "浅草寺",
+      "genre": [
+        "除夜の鐘",
+        "年中行事"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "参拝無料（鐘つき券の要否・料金は未確認）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "大晦日の深夜、1年の罪や穢れを祓い新年を迎える仏教行事。浅草寺では「百八会」会員が108回の鐘を撞く。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "弁天山（浅草寺境内）。東京メトロ・東武・つくばエクスプレス「浅草駅」から徒歩",
+      "official_url": "https://www.senso-ji.jp/annual_event/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.senso-ji.jp/annual_event/",
+          "site_name": "浅草寺公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20003408",
+          "site_name": "るるぶ&more",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/newyear/spot_0046.html",
+          "site_name": "jorudan 初詣ガイド",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "鐘つき券の配布方法・抽選有無など一般参加の詳細は情報源間で確認が取れず、前年(2025年末)の情報が流用されている可能性がある。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {}
+    },
+    {
+      "id": "festival_1055",
+      "name": "知恩院 除夜の鐘",
+      "alternate_names": [
+        "除夜の鐘(知恩院)"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "京都府",
+      "city": "京都市",
+      "date_start": "2026-12-31",
+      "date_end": "2027-01-01",
+      "date_note": "大晦日12月31日深夜に実施。知恩院の除夜の鐘は一般参拝者が撞くのではなく、17人の僧侶が親綱・子綱を使って撞く様子を見学する形式（事前予約制・拝観料必要）。2025-26年シーズンはネット申込が12/1 14:00開始、先着4班各500名、拝観料3,000円だったが、2026-27年シーズンの公式発表は本稿執筆時点で未確認のため同条件とは限らない。",
+      "time_start": "不明",
+      "time_end": "00:00頃",
+      "rain_policy": "不明",
+      "organizer": "知恩院",
+      "genre": [
+        "除夜の鐘",
+        "年中行事"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "拝観料3,000円（2025-26年実績。2026-27年分は公式未確認）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "知恩院の大鐘（国内最大級の梵鐘の一つ）を17人の僧侶が撞く様子を見学する年末行事。一般参拝者は見学のみで、事前予約・拝観料が必要。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "知恩院（京都市東山区）。京阪「祇園四条駅」から徒歩約15分",
+      "official_url": "https://www.chion-in.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://watabi.org/articles/kyoto-new-year-guide",
+          "site_name": "watabi.org",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://ja.kyoto.travel/event/single.php?event_id=7062",
+          "site_name": "京都観光Navi",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/article/5392",
+          "site_name": "るるぶ&more",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "予約開始日・人数枠・拝観料は2025-26年シーズンの情報を基にしており、2026-27年シーズンの公式発表（知恩院公式サイト）での確認は取れていない。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {}
     }
   ]
 }
