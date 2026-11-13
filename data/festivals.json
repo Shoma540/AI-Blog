@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12 18:05",
+  "last_updated": "2026-11-13 08:07",
   "festivals": [
     {
       "id": "festival_001",
@@ -63936,6 +63936,130 @@
       "trust_level": "高",
       "conflict_note": "⚠️矛盾：陸上提灯行列の距離について、ウォーカープラス（低信頼ソース）は「約1km」、松江市資料（公式）は「約2km」と記載が異なる。公式情報の約2kmを優先表示。",
       "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1052",
+      "name": "第10回つくい湖湖上祭",
+      "alternate_names": [
+        "つくい湖湖上祭",
+        "津久井湖湖上祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "相模原市緑区",
+      "date_start": "2026-11-15",
+      "date_end": "2026-11-15",
+      "date_note": "花火打ち上げは17:30頃予定、イベント全体は10:00〜18:00とする情報源がある一方、別の花火情報サイトでは打ち上げ時間「未定」としている。雨天時は中止。",
+      "time_start": "10:00",
+      "time_end": "18:00",
+      "rain_policy": "雨天中止",
+      "organizer": "不明",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "例年の人出は約15,000人とする情報源あり",
+      "visitors": "約15,000人（例年）",
+      "access": "津久井湖城山公園 水の苑地（神奈川県相模原市緑区）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.cloud/html/Kanto/kanagawa/2026/2026-11-15_tsukui-mizuumi-kojou-sai.html",
+          "site_name": "hanabi.cloud",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://www.walkerplus.com/event/ar0314e601853/data.html",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://sorahanabi.com/kanagawa/sagamihara/tsukuiko-kojosai-hanabitaikai.html",
+          "site_name": "sorahanabi.com",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾: 花火打ち上げ時刻について、ある情報源は17:30頃と案内する一方、別の情報源は「未定」としている。公式サイトは確認できておらず主催団体・開催有無は最終的に主催者発表で要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1053",
+      "name": "市制施行55周年 えびな市民まつり2026",
+      "alternate_names": [
+        "えびな市民まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "海老名市",
+      "date_start": "2026-11-15",
+      "date_end": "2026-11-15",
+      "date_note": "花火は17:30〜18:00予定、まつり全体は10:00〜18:30予定（ウォーカープラス掲載情報は2026年6月時点のもので、プログラムは決定次第更新とされている）。別の花火情報サイトでは打ち上げ時間「未定」としている。",
+      "time_start": "10:00",
+      "time_end": "18:30",
+      "rain_policy": "不明",
+      "organizer": "えびな市民まつり実行委員会事務局（海老名市市民活動推進課内）",
+      "genre": [
+        "花火",
+        "地域まつり"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "海老名市の市制施行を記念した市民まつり。2026年は市制施行55周年。",
+      "food_stalls": "不明",
+      "crowd_level": "2024年の来場者数16万人（主催者発表、ウォーカープラス掲載）",
+      "visitors": "約16万人（2024年実績）",
+      "access": "海老名運動公園（神奈川県海老名市）。JR・小田急・相鉄 海老名駅から市役所経由の無料シャトルバス約20分、JR相模線 社家駅から徒歩圏。",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0314e00451/data.html",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        },
+        {
+          "url": "https://hanabi.cloud/html/Kanto/kanagawa/2026/2026-11-15_ebina-shimin-matsuri.html",
+          "site_name": "hanabi.cloud",
+          "is_official": false,
+          "retrieved_date": "2026-11-13"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾: 花火打ち上げ時刻について、ウォーカープラスは17:30〜18:00とするが、hanabi.cloudは「未定」としている。sorahanabi掲載情報は前年(2025年11月16日)のもので2026年向けには未更新。公式サイトは確認できておらず、主催者発表で最終確認が必要。",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
