@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14 12:05",
+  "last_updated": "2026-11-14 16:06",
   "festivals": [
     {
       "id": "festival_001",
@@ -61696,7 +61696,7 @@
       }
     },
     {
-      "id": "festival_952",
+      "id": "festival_1068",
       "name": "川崎みなと祭り",
       "alternate_names": [
         "第53回川崎みなと祭り"
@@ -61788,7 +61788,7 @@
         }
       ],
       "conflict_note": "所在地表記が情報源により大阪府池田市／兵庫県川西市で異なる",
-      "id": "festival_953",
+      "id": "festival_1069",
       "similar_name_warning": false,
       "requires_check": false,
       "diff_status": "UNCHANGED",
@@ -61840,7 +61840,7 @@
           "retrieved_date": "2026-10-24"
         }
       ],
-      "id": "festival_954",
+      "id": "festival_1070",
       "similar_name_warning": false,
       "requires_check": false,
       "diff_status": "UNCHANGED",
@@ -62051,7 +62051,7 @@
         "changed": false,
         "details": ""
       },
-      "id": "festival_958",
+      "id": "festival_1071",
       "name": "芳賀町ロマン花火大会",
       "prefecture": "栃木県",
       "city": "芳賀町",
@@ -62111,7 +62111,7 @@
         "changed": false,
         "details": "例年同様、冬季に複数回開催。日程は年ごとに異なる。"
       },
-      "id": "festival_959",
+      "id": "festival_1072",
       "name": "冬季熱海海上花火大会",
       "prefecture": "静岡県",
       "city": "熱海市",
@@ -62122,7 +62122,7 @@
       ]
     },
     {
-      "id": "festival_960",
+      "id": "festival_1073",
       "name": "大前神社例大祭",
       "alternate_names": [],
       "similar_name_warning": false,
@@ -62171,7 +62171,7 @@
       }
     },
     {
-      "id": "festival_961",
+      "id": "festival_1074",
       "name": "八坂神社太々神楽",
       "alternate_names": [],
       "similar_name_warning": false,
@@ -63565,7 +63565,7 @@
       }
     },
     {
-      "id": "festival_986",
+      "id": "festival_1075",
       "name": "長崎ランタンフェスティバル",
       "alternate_names": [
         "長崎ランタンフェスティバル(旧長崎春節祭)"
@@ -65009,6 +65009,179 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1076",
+      "name": "讃岐まんのう公園 ウインターファンタジー 2026-2027",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "香川県",
+      "city": "まんのう町",
+      "date_start": "不明",
+      "date_end": "不明",
+      "date_note": "2026年11月下旬〜2027年1月中旬開催予定とされるが、日程は未確定（公式サイト要確認）",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": "不明",
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://pt.japantravel.com/%E9%A6%99%E5%B7%9D/%E8%AE%83%E5%B2%90%E3%81%BE%E3%82%93%E3%81%AE%E3%81%86%E5%85%AC%E5%9C%92%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BC/25641",
+          "site_name": "Japan Travel",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1077",
+      "name": "新嘗祭（明治神宮）",
+      "alternate_names": [
+        "にいなめさい"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-11-23",
+      "date_end": "2026-11-23",
+      "date_note": "勤労感謝の日（11/23固定の祝日）に全国の神社で行われる年中行事の一つ。本entryは明治神宮のもの。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "明治神宮",
+      "genre": [
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "参拝無料（志納）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "収穫された新穀などを供えて恵みに感謝する祭り。全国よりの奉献物や野菜の宝船を供えて祝う。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "不明（明治神宮公式サイトでの告知は今回未確認。meijijingu.or.jp を要確認）",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://rurubu.jp/andmore/spot/20000470",
+          "site_name": "るるぶ",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1078",
+      "name": "神恩感謝伊勢新酒祭",
+      "alternate_names": [
+        "伊勢新酒祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "伊勢市",
+      "date_start": "2026-11-23",
+      "date_end": "2026-11-23",
+      "date_note": "伊勢神宮の新嘗祭と同日開催。第6回。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "伊勢福（おかげ横丁運営）",
+      "genre": [
+        "グルメ",
+        "神事関連"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "お愉しみチケット4,000円、飲み比べ券6,500円（前売り。当日券は高め）",
+      "ticket_url": "不明",
+      "history_years": 6,
+      "history_description": "伊勢神宮の新嘗祭に合わせ、その年の新穀への恵みに感謝し新酒を奉納・披露する祭り。三重県27蔵・全国53蔵の計80蔵の新酒が伊勢・おかげ横丁に集結。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "おかげ横丁（伊勢神宮内宮前）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.kankomie.or.jp/event/44004",
+          "site_name": "観光三重",
+          "is_official": true,
+          "retrieved_date": "2026-11-14"
+        },
+        {
+          "url": "https://dime.jp/genre/964370/",
+          "site_name": "@DIME",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        },
+        {
+          "url": "https://www.iwafu.com/jp/events/1166102",
+          "site_name": "iwafu.com",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        },
+        {
+          "url": "https://oggi.jp/6563963",
+          "site_name": "Oggi.jp",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
