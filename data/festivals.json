@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14 16:06",
+  "last_updated": "2026-11-14 17:05",
   "festivals": [
     {
       "id": "festival_001",
@@ -65009,7 +65009,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65059,7 +65059,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65111,7 +65111,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65180,6 +65180,126 @@
         }
       ],
       "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1079",
+      "name": "岩井花火 冬花火",
+      "alternate_names": [
+        "いわいはなび ふゆはなび"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "南房総市",
+      "date_start": "2026-12-24",
+      "date_end": "2026-12-24",
+      "date_note": "荒天時は12月25日(金)に順延。",
+      "time_start": "19:00",
+      "time_end": "19:15",
+      "rain_policy": "荒天時順延（12月25日）",
+      "organizer": "南房総市観光協会",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料（有料席なし）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "南房総市岩井海岸で冬に開催される花火大会。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR内房線 岩井駅から徒歩10分／富津館山道路 鋸南富山ICから車で約5分（無料駐車場は数に限りあり）",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.nta.co.jp/kokunai/special/eventinfo/10634861.htm",
+          "site_name": "日本旅行",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0312e601596/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        },
+        {
+          "url": "https://weathernews.jp/hanabi/spot/9009997/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20004283",
+          "site_name": "るるぶ",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1080",
+      "name": "花火スペクタキュラ「ラ・レーヴ・デ・ノエル」",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "蒲郡市",
+      "date_start": "2026-12-24",
+      "date_end": "2026-12-30",
+      "date_note": "開催日は12月24・25・26・29・30日（12月27・28日は開催なしの可能性あり、公式情報で確認要）。",
+      "time_start": "20:15",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "ラグーナテンボス",
+      "genre": [
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "花火観覧は無料（ラグナシア入園には別途入園料が必要）",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "ラグーナテンボス ラグナシア内ルナポート付近で行われるクリスマス期の花火ショー。",
+      "food_stalls": "不明",
+      "crowd_level": "会場周辺は点灯時間帯に混雑するため早めの来場が推奨されている",
+      "visitors": "不明",
+      "access": "ラグーナテンボス（愛知県蒲郡市）内　ラグナシア ルナポート付近",
+      "official_url": "https://aichinow.pref.aichi.jp/spots/detail/2252",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://aichinow.pref.aichi.jp/spots/detail/2252",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-11-14"
+        }
+      ],
+      "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
