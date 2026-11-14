@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14 17:05",
+  "last_updated": "2026-11-14 18:10",
   "festivals": [
     {
       "id": "festival_001",
@@ -65252,7 +65252,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65302,6 +65302,138 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1081",
+      "name": "西宮神社 十日戎",
+      "alternate_names": [
+        "西宮えびす",
+        "十日えびす"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "兵庫県",
+      "city": "西宮市",
+      "date_start": "2027-01-09",
+      "date_end": "2027-01-11",
+      "date_note": "宵えびす1/9(土)・本えびす1/10(日、福男選び）・残り福1/11(月・祝)。毎年1月9〜11日固定の年中行事だが、2027年分の西宮神社公式による個別告知は本実行時点で未確認。大阪・今宮戎神社の十日戎（festival_1082）とは別の神社・別の祭りのためsimilar_name_warning付与。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "西宮神社",
+      "genre": [
+        "神事",
+        "伝統行事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "えびす宮総本社とされる西宮神社で毎年1月9〜11日に行われる商売繁盛を願う祭り。10日早朝の表大門からの「開門神事福男選び」で知られる。",
+      "food_stalls": "福笹・縁起物の授与あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "阪神電車「西宮」駅すぐ",
+      "official_url": "https://www.nishi.or.jp/",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.nishi.or.jp/",
+          "site_name": "西宮神社（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-11-14"
+        },
+        {
+          "url": "https://bestcalendar.jp/koyomi/toka-ebisu",
+          "site_name": "ベストカレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20000953",
+          "site_name": "るるぶ&more",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1082",
+      "name": "今宮戎神社 十日戎",
+      "alternate_names": [
+        "えべっさん",
+        "今宮戎"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "大阪府",
+      "city": "大阪市浪速区",
+      "date_start": "2027-01-09",
+      "date_end": "2027-01-11",
+      "date_note": "宵戎1/9(土)・本戎1/10(日)・残り福1/11(月・祝)。毎年1月9〜11日固定の年中行事だが、2027年分の今宮戎神社公式による個別告知（福娘の選出含む）は本実行時点で未確認。兵庫・西宮神社の十日戎（festival_1081）とは別の神社・別の祭りのためsimilar_name_warning付与。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "今宮戎神社",
+      "genre": [
+        "神事",
+        "伝統行事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "大阪の商売繁盛の神様として知られる今宮戎神社の祭り。福娘が福を授けて回ることで知られる。",
+      "food_stalls": "福笹等の授与あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "南海電鉄「今宮戎」駅・Osaka Metro「恵美須町」駅から徒歩",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://tabi-mag.jp/imamiyaebisu0110/",
+          "site_name": "tabi-mag.jp",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        },
+        {
+          "url": "https://bestcalendar.jp/koyomi/toka-ebisu",
+          "site_name": "ベストカレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        },
+        {
+          "url": "https://weathernews.jp/hatsumoude/spot/3603014/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-11-14"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
