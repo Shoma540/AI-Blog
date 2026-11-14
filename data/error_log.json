@@ -1115,6 +1115,12 @@
       "step": "post_instagram",
       "error": "OAuthException 190: token expired (2026-10-21以降継続、約24日間)",
       "detail": "INSTAGRAM_ACCESS_TOKENが2026-10-21に期限切れとなって以降、本日17時台の実行でも投稿失敗が継続（Graph API code 190）。ブログ更新（HTML生成・GitHub Push、新規2件）は正常に完了。requestsモジュールが今回もpython3(3.11)環境に無く、python3 -m pip install requestsで導入して対応（コンテナが再作成されるたびに再発する可能性あり、永続対策不可）。2026-11-11 17:08に既にユーザーへプッシュ通知でエスカレーション済みのため、今回は再通知せずログ記録のみ。"
+    },
+    {
+      "timestamp": "2026-11-14 18:12",
+      "step": "STEP9_instagram_post",
+      "error": "OAuthException 190: token expired on 2026-10-21",
+      "detail": "INSTAGRAM_ACCESS_TOKENが2026-10-21に期限切れとなって以降、本日18時台の実行でも投稿失敗が継続（Graph API code 190、約24日間未解消）。ブログ更新（HTML生成・GitHub Push、新規2件：西宮神社十日戎・今宮戎神社十日戎）は正常に完了。requestsモジュールが今回もコンテナ上に無く python3 -m pip install --user requests で再導入（コンテナ再作成ごとに再発、永続化不可）。2026-11-11 17:08に既にユーザーへプッシュ通知でエスカレーション済みで状況変化がないため、今回も再通知せずログ記録のみ行った。"
     }
   ]
 }
