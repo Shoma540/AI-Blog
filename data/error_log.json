@@ -1097,6 +1097,12 @@
       "step": "post_instagram",
       "error": "OAuthException 190: token expired",
       "detail": "OAuthException 190: token expired on 2026-10-21。3週間以上（約24日間）経過しても未更新で継続中。INSTAGRAM_ACCESS_TOKENの再発行・環境変数更新が必要。2026-11-11 17:08の実行で既にユーザーへプッシュ通知でエスカレーション済みのため、今回も再通知せずログ記録のみ行った。requestsモジュール未インストールだったため python3 -m pip install --user requests で対応し、その後の実行自体は成功、Graph APIが400でトークン失効（code 190）を返した。投稿はスキップされた。"
+    },
+    {
+      "timestamp": "2026-11-14 12:06",
+      "step": "post_instagram",
+      "error": "OAuthException 190: token expired (2026-10-21以降継続)",
+      "detail": "INSTAGRAM_ACCESS_TOKENが2026-10-21に期限切れとなって以降、本日まで毎回のInstagram投稿が失敗し続けている。ブログ更新（HTML生成・GitHub Push）は正常に完了。トークンの再発行が必要。"
     }
   ]
 }
