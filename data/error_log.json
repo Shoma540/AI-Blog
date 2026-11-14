@@ -1085,6 +1085,12 @@
       "step": "post_instagram",
       "error": "OAuthException 190: token expired",
       "detail": "OAuthException 190: token expired on 2026-10-21。3週間以上（約24日間）経過しても未更新で継続中。INSTAGRAM_ACCESS_TOKENの再発行・環境変数更新が必要。"
+    },
+    {
+      "timestamp": "2026-11-14 08:05",
+      "step": "fetch_analytics",
+      "error": "GA4ライブラリ未インストール",
+      "detail": "google-analytics-data がインストールされていません（pip install -r requirements.txt を実行してください）"
     }
   ]
 }
