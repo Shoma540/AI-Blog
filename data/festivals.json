@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15 12:05",
+  "last_updated": "2026-11-15 16:06",
   "festivals": [
     {
       "id": "festival_001",
@@ -58283,12 +58283,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "history_description",
-        "organizer",
-        "sources"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：第27回（2025年11月1日〜11月30日） → 今年：第28回（2026年11月7日〜11月29日）"
@@ -65758,7 +65754,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65820,7 +65816,7 @@
       "trust_level": "高",
       "conflict_note": "点灯時間は前シーズンの参考値のため⚠️矛盾の可能性あり。公式サイトで要確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65882,7 +65878,7 @@
       "trust_level": "高",
       "conflict_note": "LED球数は情報源により130万球／150万球超と差がある（⚠️矛盾）。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65936,7 +65932,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65989,6 +65985,128 @@
       ],
       "trust_level": "中",
       "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1092",
+      "name": "さっぽろホワイトイルミネーション",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市中央区",
+      "date_start": "2026-11-20",
+      "date_end": "2026-12-25",
+      "date_note": "大通会場は2026-11-20〜12-25。他会場は期間が異なる：駅前通会場は2026-11-20〜2027-02-11、南一条通り・札幌駅南口駅前広場・北3条広場(アカプラ)は2026-11-20〜2027-03-14、赤れんが庁舎会場は2026-11-20〜2027-02-28、中島公園会場(新設)は2027-01-09〜01-28。date_start/date_endは大通会場の期間を代表値として採用。",
+      "time_start": "16:30",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "さっぽろ観光誘致促進協議会",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "札幌の冬を彩る大規模イルミネーションイベント。大通公園など市内複数会場で開催され、12月23〜25日は大通会場の点灯時間が24:00まで延長されるとの情報がある（公式サイトで要確認）。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "地下鉄南北線・東西線・東豊線「大通」駅から直結",
+      "official_url": "https://www.sapporo.travel/white-illumination/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.sapporo.travel/?p=123862",
+          "site_name": "さっぽろ観光誘致促進協議会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.city.sapporo.jp/city/mayor/interview/text/2026/documents/20261110_whiteillumi.pdf",
+          "site_name": "札幌市（市長記者会見資料・公式PDF）",
+          "is_official": true,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.visit-hokkaido.jp/event/detail/143",
+          "site_name": "Visit Hokkaido",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1093",
+      "name": "ミュンヘン・クリスマス市 in Sapporo",
+      "alternate_names": [
+        "さっぽろミュンヘンクリスマス市"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市中央区",
+      "date_start": "2026-11-20",
+      "date_end": "2026-12-25",
+      "date_note": "さっぽろホワイトイルミネーション（festival_1092）期間中に大通公園1・2丁目で開催される併催イベント。開催回数は「25回目」「24回目」と情報源によって表記が食い違っている（要確認）。",
+      "time_start": "11:00",
+      "time_end": "21:00",
+      "rain_policy": "不明",
+      "organizer": "さっぽろ観光誘致促進協議会（事務局：札幌観光協会）",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料（飲食・物販は実費、ワークショップ等一部有料）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "ドイツ・ミュンヘン市の公式認定を受けた本格的なクリスマス市。大通公園1丁目にシンボルツリー、2丁目にグルメ・雑貨の出店ブースが並ぶ。国内外から45店舗が出店予定。",
+      "food_stalls": "ドイツ食品・グルメブースなど出店あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "地下鉄南北線・東西線・東豊線「大通」駅から直結",
+      "official_url": "https://www.sapporo.travel/white-illumination/event/munich/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.sapporo.travel/white-illumination/event/munich/",
+          "site_name": "さっぽろ観光誘致促進協議会（公式）",
+          "is_official": true,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.city.sapporo.jp/somu/koho-shi/202611/documents/202611_14-15.pdf",
+          "site_name": "札幌市（広報さっぽろ・公式PDF）",
+          "is_official": true,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.visit-hokkaido.jp/event/detail/142",
+          "site_name": "Visit Hokkaido",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "開催回数の表記（24回目/25回目）が情報源により異なる",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
