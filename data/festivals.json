@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15 17:04",
+  "last_updated": "2026-11-15 12:05",
   "festivals": [
     {
       "id": "festival_001",
@@ -58228,7 +58228,7 @@
       "time_start": "不明",
       "time_end": "21:00",
       "rain_policy": "不明",
-      "organizer": "富士河口湖町観光連盟",
+      "organizer": "富士河口湖町紅葉まつり運営協議会",
       "genre": [
         "紅葉",
         "ライトアップ"
@@ -58238,7 +58238,7 @@
       "price": "見学無料",
       "ticket_url": "不明",
       "history_years": "不明",
-      "history_description": "河口湖北岸のもみじ回廊・もみじ街道を中心に、約400～500本の紅葉が湖面に映える秋の名物イベント。",
+      "history_description": "第28回（2026年）。主催は富士河口湖町紅葉まつり運営協議会。開場9:00〜19:00、ライトアップは日没〜21:00。メイン会場はもみじ回廊。",
       "food_stalls": "もみじ回廊周辺で飲食店・クラフト市が出店",
       "crowd_level": "不明",
       "visitors": "不明",
@@ -58266,16 +58266,32 @@
           "site_name": "トレたび",
           "is_official": false,
           "retrieved_date": "2026-09-19"
+        },
+        {
+          "url": "https://kyodonewsprwire.jp/release/202610208271",
+          "site_name": "共同通信PRワイヤー",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.fujisan.ne.jp/news/6065/",
+          "site_name": "富士河口湖町観光情報",
+          "is_official": true,
+          "retrieved_date": "2026-11-15"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "history_description",
+        "organizer",
+        "sources"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：第27回（2025年11月1日〜11月30日） → 今年：第28回（2026年11月7日〜11月29日）"
       }
     },
     {
@@ -65498,7 +65514,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65562,7 +65578,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65612,7 +65628,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65681,6 +65697,298 @@
       ],
       "trust_level": "高",
       "conflict_note": "終了日について情報源間で11/29と11/30の表記差あり（低信頼情報のため注記のみ）",
+      "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1087",
+      "name": "稲武もみじまつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "愛知県",
+      "city": "豊田市",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-23",
+      "date_note": "メイン会場は大井平公園。名倉川遊歩道・タカドヤ湿地でも関連の紅葉スポットあり。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "不明（問い合わせ先：いなぶ観光協会 0565-77-6283、2025年時点の情報）",
+      "genre": [
+        "農祭り"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "愛知県の紅葉名所特集（Aichi Now）に香嵐渓もみじまつりと並んで掲載される、豊田市稲武地区の紅葉まつり。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "https://aichinow.pref.aichi.jp/spots/detail/1788/",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://aichinow.pref.aichi.jp/events/detail/1788/",
+          "site_name": "Aichi Now（愛知県公式観光サイト）",
+          "is_official": true,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2090731/",
+          "site_name": "enjoytokyo",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://iko-yo.net/events/456790",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1088",
+      "name": "よみうりランド ジュエルミネーション2026",
+      "alternate_names": [
+        "ジュエルミネーション2026 Growing Light"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "稲城市",
+      "date_start": "2026-10-29",
+      "date_end": "2027-04-04",
+      "date_note": "17シーズン目。2027年3月1日(月)〜3月12日(金)の平日はイルミネーション休止（遊園地のみ営業）。点灯時間は前シーズン(2025-26)実績の16:00〜20:30を参考値として記載（今季の公式時間は未確認）。",
+      "time_start": "16:00",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "よみうりランド",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "よみうりランド入園料が必要",
+      "ticket_url": "",
+      "history_years": 17,
+      "history_description": "よみうりランドの冬のイルミネーションイベント。今季のサブテーマは「Growing Light」。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.walkerplus.com/article/1453478/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/illumi/news/jrd_260901_2.html",
+          "site_name": "ジョルダン ニュース",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.pricey.jp/web/articles/7211",
+          "site_name": "pricey.jp",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "点灯時間は前シーズンの参考値のため⚠️矛盾の可能性あり。公式サイトで要確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1089",
+      "name": "けやきライトパレード（KEYAKI LIGHT PARADE）",
+      "alternate_names": [
+        "KEYAKI LIGHT PARADE by FeStA LuCe"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "和歌山県",
+      "city": "和歌山市",
+      "date_start": "2026-11-21",
+      "date_end": "2027-02-28",
+      "date_note": "JR和歌山駅から和歌山城・南海和歌山市駅・和歌山県庁前まで約3.5kmのけやき大通りで開催。初日11/21はけやき大通りの一部が歩行者天国になり、和歌山城でドローンショー「WAKAYAMA LIGHTS 2026」も予定。",
+      "time_start": "17:00",
+      "time_end": "23:00",
+      "rain_policy": "不明",
+      "organizer": "和歌山けやき大通りイルミネーション実行委員会（事務局 073-455-5721）",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "約500本の街路樹に150万球超（前年は130万球という記事もあり情報源により差あり）のLEDを点灯する大規模イルミネーション。「最も多くのLEDを使ったイルミネーション」部門でのギネス世界記録認定を目指し、初日11/21に審査が行われる予定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.haveagood-holiday.com/en/articles/keyaki-light-parade-wakayama-guinness-world-record-2026",
+          "site_name": "Have a Good Holiday",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://weathernews.jp/illumi/area/wakayama/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/066/223/1023-5.pdf",
+          "site_name": "和歌山市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "LED球数は情報源により130万球／150万球超と差がある（⚠️矛盾）。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1090",
+      "name": "東京クリスマスマーケット2026 in 新豊洲",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "江東区",
+      "date_start": "2026-11-20",
+      "date_end": "2026-12-25",
+      "date_note": "36日間開催。初日11/20は16:00〜21:30、それ以外は11:00〜21:30。芝公園会場（festival_1091）とは別会場・別イベントなので要区別。",
+      "time_start": "11:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "新豊洲会場の入場料は確認できず。事前予約チケットはKKdayで10/1 18:00から販売開始（入場特典のマグカップ付き）。",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "ドイツ・ザイフェンの雑貨等を扱う東京のクリスマスマーケットイベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://bestcalendar.jp/press/163991",
+          "site_name": "ベストカレンダー（プレスリリース）",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://report.iko-yo.net/articles/33678",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1091",
+      "name": "東京クリスマスマーケット2026 in 芝公園",
+      "alternate_names": [],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "港区",
+      "date_start": "2026-12-04",
+      "date_end": "2026-12-25",
+      "date_note": "22日間開催。会場は芝公園4号地（御成門駅前広場）。初日12/4は16:00〜22:00、それ以外は11:00〜22:00。新豊洲会場（festival_1090）とは別会場・別イベントなので要区別。",
+      "time_start": "11:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "その他"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "大人(中学生以上)：12/4〜12/23は平日1,000円・土日1,500円、12/24・25は2,000円。子供(小学生)：12/4〜12/23は500円、12/24・25は1,000円。未就学児は無料。",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "東京タワーを望む芝公園4号地で開催されるクリスマスマーケットイベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {},
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://bestcalendar.jp/press/159441",
+          "site_name": "ベストカレンダー（プレスリリース）",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://report.iko-yo.net/articles/34138",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
       "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
