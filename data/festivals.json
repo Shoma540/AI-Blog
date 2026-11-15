@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14 18:10",
+  "last_updated": "2026-11-15 17:04",
   "festivals": [
     {
       "id": "festival_001",
@@ -65368,7 +65368,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -65434,6 +65434,254 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1083",
+      "name": "Christmas Market in 横浜赤レンガ倉庫 2026",
+      "alternate_names": [
+        "横浜赤レンガ倉庫クリスマスマーケット"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "横浜市中区",
+      "date_start": "2026-11-20",
+      "date_end": "2026-12-25",
+      "date_note": "36日間開催。無料エリアとして新港中央広場「ヨルノヨ×Christmas Gate 2026」、赤レンガパーク「Christmas Village」がある。営業時間の詳細は検索時点で未確認。",
+      "time_start": "不明",
+      "time_end": "不明",
+      "rain_policy": "不明",
+      "organizer": "横浜赤レンガ倉庫",
+      "genre": [
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "有料エリアあり（入場料500円から）。無料エリアもあり。",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "横浜赤レンガ倉庫イベント広場・赤レンガパークで毎年冬に開催されるクリスマスマーケット。",
+      "food_stalls": "ドイツ風ヒュッテでの飲食販売あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "みなとみらい線「馬車道」「日本大通り」駅から徒歩",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://report.iko-yo.net/articles/35045",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/illumi/news/jrd_260925_3.html",
+          "site_name": "ジョルダン",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://kanagawa-kankou.or.jp/event/6657",
+          "site_name": "神奈川県観光協会",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1084",
+      "name": "絵本の中のクリスマスマーケット in 東京スカイツリータウン 2026",
+      "alternate_names": [
+        "東京スカイツリータウン ドリームクリスマス2026"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "墨田区",
+      "date_start": "2026-11-05",
+      "date_end": "2026-12-25",
+      "date_note": "東京スカイツリータウン4階スカイアリーナで開催。11/5初日に全長約4mの「巨大シュトレン入刀式」。同名の東京オペラシティ等の別イベントと混同しないよう注意。",
+      "time_start": "11:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "東京スカイツリータウン",
+      "genre": [
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "不明",
+      "history_years": 11,
+      "history_description": "東京スカイツリータウンの冬の風物詩として11回目を迎えるクリスマスマーケット。",
+      "food_stalls": "ヒュッテでの飲食販売あり",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東武スカイツリーライン「とうきょうスカイツリー」駅・東京メトロ半蔵門線等「押上」駅直結",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.enjoytokyo.jp/news/205229/",
+          "site_name": "エンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://iko-yo.net/facilities/21476/news/128415",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://bestcalendar.jp/press/162573",
+          "site_name": "ベストカレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1085",
+      "name": "佐久山御殿山紅葉まつり",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "大田原市",
+      "date_start": "2026-11-10",
+      "date_end": "2026-11-25",
+      "date_note": "御殿山公園の池周辺で開催。11/15(日)には餅つき・野点茶会・箏曲演奏・雅楽吹奏あり（餅つきは佐久山小学校校庭、雨天時は佐久山小学校食堂）。",
+      "time_start": "17:00",
+      "time_end": "21:00",
+      "rain_policy": "一部行事は雨天時会場変更（佐久山小学校食堂）",
+      "organizer": "大田原市観光協会",
+      "genre": [
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "樹齢約200余年のイロハモミジ（おおたわら令和の名木選）など御殿山公園のもみじをライトアップする紅葉まつり。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR宇都宮線「野崎」駅から車で約15分、東北自動車道矢板ICから約20分",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://www.iwafu.com/jp/events/1014393",
+          "site_name": "iwafu.com",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1086",
+      "name": "黄葉・紅葉まつり&秋の夜散歩2026（国営昭和記念公園）",
+      "alternate_names": [
+        "昭和記念公園紅葉まつり"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "東京都",
+      "city": "立川市・昭島市",
+      "date_start": "2026-10-29",
+      "date_end": "2026-11-29",
+      "date_note": "会場はカナール・かたらいのイチョウ並木・日本庭園の3か所。10/29〜31は夜間の日本庭園を入園料のみで観賞可。終了日は情報源により11/29説と11/30説がある。同公園内の花火大会（festival_344 立川まつり国営昭和記念公園花火大会）とは別イベント。",
+      "time_start": "16:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "国営昭和記念公園管理センター",
+      "genre": [
+        "民俗芸能"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "入園料：大人450円、65歳以上210円、中学生以下無料。夜間日本庭園観賞券は大人・65歳以上1,200円〜、小中学生600円〜。",
+      "ticket_url": "不明",
+      "history_years": "不明",
+      "history_description": "約98本のイチョウが並ぶ「かたらいのイチョウ並木」が音楽と光でライトアップされる。第21回日本夜景遺産「ライトアップ夜景遺産」認定。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR青梅線「西立川」駅・JR中央線「立川」駅等から徒歩",
+      "official_url": "不明",
+      "sns_accounts": {
+        "instagram": "不明"
+      },
+      "video_url": "不明",
+      "sources": [
+        {
+          "url": "https://sp.jorudan.co.jp/leaf/news/jrd_261022_1.html",
+          "site_name": "ジョルダン",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/leaf/news/jrd_261109_4.html",
+          "site_name": "ジョルダン",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://report.iko-yo.net/articles/34540",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://koyo.walkerplus.com/detail/ar0313e13052/1222701/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "終了日について情報源間で11/29と11/30の表記差あり（低信頼情報のため注記のみ）",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
