@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15 16:06",
+  "last_updated": "2026-11-15 17:05",
   "festivals": [
     {
       "id": "festival_001",
@@ -66046,7 +66046,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -66108,11 +66108,189 @@
       "trust_level": "高",
       "conflict_note": "開催回数の表記（24回目/25回目）が情報源により異なる",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
+      }
+    },
+    {
+      "id": "festival_1094",
+      "name": "SENDAI光のページェント2026",
+      "alternate_names": [
+        "仙台光のページェント"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "仙台市",
+      "date_start": "2026-12-04",
+      "date_end": "2026-12-27",
+      "date_note": "仙台市資料による予定日程。旅行サイトの一部では12月6日〜25日と案内されており、市発表と食い違いがある（⚠️矛盾）。",
+      "time_start": "19:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "SENDAI光のページェント実行委員会（仙台市）",
+      "genre": [
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "仙台市定禅寺通周辺で毎年冬に行われる光のイルミネーションイベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR仙台駅・地下鉄仙台駅から定禅寺通周辺",
+      "official_url": "https://www.city.sendai.jp/kyoikukate/documents/20260819hikapeangels.pdf",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.sendai.jp/kyoikukate/documents/20260819hikapeangels.pdf",
+          "site_name": "仙台市",
+          "is_official": true,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.trvlogue.com/ja/sendai-light-pageant-2026",
+          "site_name": "trvlogue",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "開催期間について仙台市資料は12/4〜12/27、旅行サイトは12/6〜12/25と案内しており矛盾がある。市発表を優先して記載。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年（2025年）：12/5〜12/28 → 今年：12/4〜12/27（予定）"
+      }
+    },
+    {
+      "id": "festival_1095",
+      "name": "なばなの里 イルミネーション2026-2027",
+      "alternate_names": [
+        "なばなの里イルミネーション「野生の楽園」"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "三重県",
+      "city": "桑名市",
+      "date_start": "2026-10-17",
+      "date_end": "2027-05-31",
+      "date_note": "1月6日・7日は休業日。",
+      "time_start": "日没頃",
+      "time_end": "閉園時間まで（時期により変動）",
+      "rain_policy": "不明",
+      "organizer": "なばなの里（長島温泉）",
+      "genre": [
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "入園料2,500〜3,000円程度（時期・前売り等で変動、公式サイト要確認）",
+      "ticket_url": "https://www.nagashima-onsen.co.jp/nabananosato/",
+      "history_years": 23,
+      "history_description": "今年で23回目を迎える、なばなの里恒例の大規模イルミネーション。今季のテーマは「野生の楽園」で新エリア「ゴールデンサファリ」が登場。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "名古屋・桑名から無料シャトルバス等（公式サイト要確認）",
+      "official_url": "https://www.nagashima-onsen.co.jp/nabananosato/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.kankomie.or.jp/topic/1353",
+          "site_name": "観光三重",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.nta.co.jp/kokunai/special/eventinfo/10644539.htm",
+          "site_name": "日本旅行",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://vegcale.com/2026/10/17/nabananosato-winter-illumination/",
+          "site_name": "vegcale",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "例年同時期（10月中旬〜翌年5月末）の開催。"
+      }
+    },
+    {
+      "id": "festival_1096",
+      "name": "ひろしまドリミネーション2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "広島県",
+      "city": "広島市",
+      "date_start": "2026-12-04",
+      "date_end": "2027-01-24",
+      "date_note": "令和8年度より開催期間を変更（従来の11/17〜1/3から今年度は12/4〜翌1/24に変更）。",
+      "time_start": "17:30",
+      "time_end": "22:30",
+      "rain_policy": "不明",
+      "organizer": "広島市",
+      "genre": [
+        "パレード"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "広島市中心部で開催される大規模イルミネーション。令和8年度は宿泊施設の稼働率が低い時期の周遊促進のため開催期間を変更。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "広島市内中心部（本通・平和大通り周辺）",
+      "official_url": "https://www.city.hiroshima.lg.jp/shisei/kouhou/1004010/1045546/1053270/1054001.html",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.hiroshima.lg.jp/shisei/kouhou/1004010/1045546/1053270/1054001.html",
+          "site_name": "広島市",
+          "is_official": true,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://www.city.hiroshima.lg.jp/shisei/kouhou/1004010/1045546/1050817/1051613.html",
+          "site_name": "広島市",
+          "is_official": true,
+          "retrieved_date": "2026-11-15"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年まで：11/17〜1/3 → 今年度：12/4〜翌1/24（開催期間変更）"
       }
     }
   ]
