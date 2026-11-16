@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16 16:05",
+  "last_updated": "2026-11-16 17:04",
   "festivals": [
     {
       "id": "festival_001",
@@ -36756,14 +36756,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "date_start",
-        "date_end",
-        "date_note",
-        "sources",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：2026年2月17日(火)〜20日(金) → 今年：2027年2月17日(水)〜20日(土)（日付は同じ・曜日のみ変更）"
@@ -67498,7 +67492,7 @@
       "trust_level": "高",
       "conflict_note": "⚠️ 矛盾：Tokyo Cheapo は開催日を12月6日〜27日と記載（信頼度の低い側）。iwafu ほかは12月5・12・19・26日（土）。",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -67565,7 +67559,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -67630,7 +67624,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -67696,7 +67690,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -67762,7 +67756,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -67827,7 +67821,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -67893,7 +67887,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -67953,7 +67947,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：露店数は約600店とする資料と約1,000店とする資料がある。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -68006,6 +68000,505 @@
         {
           "url": "https://ja.kyoto.travel/event/season/december/",
           "site_name": "京都観光Navi",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1126",
+      "name": "善光寺表参道イルミネーション2026-2027",
+      "alternate_names": [
+        "善光寺表参道イルミネーション"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "長野県",
+      "city": "長野市",
+      "date_start": "2026-11-14",
+      "date_end": "2027-02-14",
+      "date_note": "2026年11月14日（土）～2027年2月14日。点灯は毎日17:00～22:00（長野市公式）。",
+      "time_start": "17:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "長野駅前交差点～善光寺交差点の善光寺表参道をLEDで彩る冬のイルミネーション。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "善光寺表参道（長野駅前交差点～善光寺交差点）",
+      "official_url": "https://www.city.nagano.nagano.jp/n150800/kanko/p006155.html",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.nagano.nagano.jp/n150800/kanko/p006155.html",
+          "site_name": "長野市公式サイト",
+          "is_official": true,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "⚠️ 矛盾：公式ページは終了日を「2027年2月14日（土曜日）」と表記しているが、暦上2027年2月14日は日曜日。日付と曜日のどちらが正しいか未確認。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1127",
+      "name": "をけら詣り（八坂神社）",
+      "alternate_names": [
+        "おけら詣り",
+        "白朮詣り",
+        "をけら参り"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "京都府",
+      "city": "京都市東山区",
+      "date_start": "2026-12-31",
+      "date_end": "2027-01-01",
+      "date_note": "2026年12月31日（木）。大祓式15:00～、除夜祭19:00～（京都観光Navi）。をけら詣りは19:30頃～元旦5:00頃、白朮祭は1月1日5:00～とする情報あり（前年版の可能性あり）。",
+      "time_start": "19:00",
+      "time_end": "05:00",
+      "rain_policy": "不明",
+      "organizer": "八坂神社",
+      "genre": [
+        "年越し",
+        "火祭り",
+        "神事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "除夜祭の後、をけら灯籠の「をけら火」を吉兆縄（火縄）に移し、消さないよう回しながら持ち帰る年越しの習わし。火は神前の灯明や雑煮を炊く火種とし、火縄は火伏せのお守りとする。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "八坂神社（京都市東山区祇園町）。年末は四条通周辺で交通規制あり。",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://ja.kyoto.travel/event/single.php?event_id=5148",
+          "site_name": "京都観光Navi",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://weathernews.jp/hatsumoude/spot/3503001/",
+          "site_name": "ウェザーニュース",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1128",
+      "name": "御燈祭り",
+      "alternate_names": [
+        "お燈まつり",
+        "お燈祭り",
+        "御燈祭",
+        "Oto Matsuri"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "和歌山県",
+      "city": "新宮市",
+      "date_start": "2027-02-06",
+      "date_end": "2027-02-06",
+      "date_note": "毎年2月6日。2027年は2月6日（土）と観光情報サイトに記載（公式発表は未確認）。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "火祭り",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": 1400,
+      "history_description": "神倉神社の火祭り。日没後に山頂で御神火が灯され、白装束の男性約2,000人が松明を手に538段の石段を駆け下りる。1,400年以上の歴史を持つとされる。祭り当日は女人禁制。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "神倉神社（JR新宮駅から徒歩約15分）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://en.jal.japantravel.com/wakayama/oto-matsuri-2027/72213",
+          "site_name": "Japan Travel",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20001079",
+          "site_name": "るるぶ&more.",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1129",
+      "name": "刈和野の大綱引き",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "秋田県",
+      "city": "大仙市",
+      "date_start": "2027-02-10",
+      "date_end": "2027-02-10",
+      "date_note": "毎年2月10日。毎年同日固定の行事。2027年の公式告知は未確認のため要確認。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "綱引き",
+        "小正月行事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "刈和野地区の住民が二手に分かれて巨大な綱を引き合う小正月行事。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大仙市刈和野",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://tabi-mag.jp/kariwano-tsunahiki/",
+          "site_name": "ニッポン旅マガジン",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.sakigake.jp/news/article/20260131AK0026/",
+          "site_name": "秋田魁新報",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://en.japantravel.com/akita/yi-he-ye-de-da-xing-ba-he/42995",
+          "site_name": "Japan Travel",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "⚠️ 矛盾：開始時刻は情報源により13:50開始と19:40開始の記載があり未確定のため時間は未記載。",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1130",
+      "name": "上桧木内の紙風船上げ",
+      "alternate_names": [
+        "紙風船上げ"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "秋田県",
+      "city": "仙北市",
+      "date_start": "2027-02-10",
+      "date_end": "2027-02-10",
+      "date_note": "毎年2月10日。毎年同日固定の行事。2027年の公式告知は未確認のため要確認。（2026年に第48回サントリー地域文化賞を受賞）",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "上桧木内紙風船上げ保存委員会",
+      "genre": [
+        "小正月行事",
+        "紙風船"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "仙北市西木町上桧木内地区の小正月行事。灯をともした巨大な紙風船を冬の夜空に打ち上げる。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "仙北市西木町上桧木内",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.sakigake.jp/news/article/20260121AK0034/",
+          "site_name": "秋田魁新報",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.suntory.co.jp/sfnd/prize_cca/detail/2026_03.html",
+          "site_name": "サントリー文化財団",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1131",
+      "name": "春日神社王祇祭（黒川能）",
+      "alternate_names": [
+        "王祇祭",
+        "黒川能 王祇祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "山形県",
+      "city": "鶴岡市",
+      "date_start": "2027-02-01",
+      "date_end": "2027-02-02",
+      "date_note": "毎年2月1日～2日。毎年同日固定の行事。2027年の公式告知は未確認のため要確認。 当屋での見学は黒川能保存会への事前申込・抽選制。",
+      "time_start": "06:00",
+      "time_end": "17:00",
+      "rain_policy": "不明",
+      "organizer": "黒川能保存会",
+      "genre": [
+        "能",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "1日早朝に神霊の宿る王祇様を当屋に迎え、夕方から大地踏、続いて黒川能が夜を徹して演じられる。2日は御神体が春日神社に還り神前で神事が続く。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "春日神社（山形県鶴岡市黒川）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://tabi-mag.jp/tsuruoka-ougisai/",
+          "site_name": "ニッポン旅マガジン",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20001023",
+          "site_name": "るるぶ&more.",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://imidas.jp/rekigyoji/detail/L-55-211-09-01-G222.html",
+          "site_name": "imidas",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1132",
+      "name": "松焚祭（大崎八幡宮 どんと祭）",
+      "alternate_names": [
+        "どんと祭",
+        "大崎八幡宮どんと祭",
+        "松焚祭"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "宮城県",
+      "city": "仙台市青葉区",
+      "date_start": "2027-01-14",
+      "date_end": "2027-01-14",
+      "date_note": "毎年1月14日。毎年同日固定の行事。2027年の公式告知は未確認のため要確認。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "大崎八幡宮",
+      "genre": [
+        "火祭り",
+        "裸参り",
+        "小正月行事"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "正月飾りなどを持ち寄って焚き上げ、無病息災・家内安全を祈る。御神火を目指して参拝する裸参りが名物。宮城県内各地のどんと祭のうち最大規模。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "大崎八幡宮（仙台市青葉区八幡4-6-1）。当日は周辺道路規制あり。",
+      "official_url": "https://www.oosaki-hachiman.or.jp/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://rurubu.jp/andmore/spot/20000844",
+          "site_name": "るるぶ&more.",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://visitmiyagi.com/events_festivals/dontosai-festival",
+          "site_name": "VISIT MIYAGI",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.oosaki-hachiman.or.jp/festival/matsutaki/pdf/donto.pdf",
+          "site_name": "大崎八幡宮",
+          "is_official": true,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1133",
+      "name": "鷽替え・鬼すべ神事（太宰府天満宮）",
+      "alternate_names": [
+        "うそ替え神事",
+        "鬼すべ神事",
+        "鷽替え神事"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "太宰府市",
+      "date_start": "2027-01-07",
+      "date_end": "2027-01-07",
+      "date_note": "毎年1月7日。毎年同日固定の行事。2027年の公式告知は未確認のため要確認。 2026年は鷽替え18:00～、鬼すべ19:00～（斎火点火は21:00頃）。",
+      "time_start": "18:00",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "太宰府天満宮",
+      "genre": [
+        "神事",
+        "火祭り"
+      ],
+      "scale": "県指定",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "鷽替えは木彫りの鷽を交換し、前年についた嘘を天神さまの誠心に替えて吉を願う神事。鬼すべは鬼すべ堂に立てこもる鬼をいぶし出す火除けの神事で、福岡県指定無形民俗文化財。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "太宰府天満宮（太宰府市宰府4-7-1、西鉄太宰府駅から徒歩5分）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.crossroadfukuoka.jp/event/13582",
+          "site_name": "クロスロードふくおか",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20000945",
+          "site_name": "るるぶ&more.",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://tabi-mag.jp/fu0096/",
+          "site_name": "ニッポン旅マガジン",
           "is_official": false,
           "retrieved_date": "2026-11-16"
         }
