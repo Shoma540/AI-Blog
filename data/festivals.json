@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16 17:04",
+  "last_updated": "2026-11-16 18:04",
   "festivals": [
     {
       "id": "festival_001",
@@ -68059,7 +68059,7 @@
       "trust_level": "低",
       "conflict_note": "⚠️ 矛盾：公式ページは終了日を「2027年2月14日（土曜日）」と表記しているが、暦上2027年2月14日は日曜日。日付と曜日のどちらが正しいか未確認。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -68121,7 +68121,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -68183,7 +68183,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -68246,7 +68246,7 @@
       "trust_level": "中",
       "conflict_note": "⚠️ 矛盾：開始時刻は情報源により13:50開始と19:40開始の記載があり未確定のため時間は未記載。",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -68305,7 +68305,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -68371,7 +68371,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -68439,7 +68439,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -68506,6 +68506,375 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1134",
+      "name": "2026はこだてクリスマスファンタジー",
+      "alternate_names": [
+        "はこだてクリスマスファンタジー"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "函館市",
+      "date_start": "2026-12-01",
+      "date_end": "2026-12-25",
+      "date_note": "毎晩18:00に花火とツリー再点灯。ツリー点灯は16:30～17:45、18:00～22:00（12/1は18:00から）との情報あり。",
+      "time_start": "16:30",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "はこだてクリスマスファンタジー実行委員会",
+      "genre": [
+        "イルミネーション",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "赤レンガ倉庫群前海上（函館市末広町）。JR函館駅から徒歩約10分。会場に駐車場なし。",
+      "official_url": "http://www.hakodatexmas.com/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.visit-hokkaido.jp/event/detail_11022.html",
+          "site_name": "HOKKAIDO LOVE!（北海道観光機構）",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.nta.co.jp/kokunai/special/eventinfo/10642696.htm",
+          "site_name": "日本旅行",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.gutabi.jp/event/detail/1410",
+          "site_name": "ぐうたび北海道",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1135",
+      "name": "クリスマスアドベント2026（旧福岡クリスマスマーケット）",
+      "alternate_names": [
+        "福岡クリスマスマーケット",
+        "FUKUOKA CHRISTMAS MARKET",
+        "クリスマスアドベント"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "福岡県",
+      "city": "福岡市",
+      "date_start": "2026-11-02",
+      "date_end": "2026-12-25",
+      "date_note": "会場ごとに期間が異なる。博多（JR博多駅前広場）11/7～12/25、天神（福岡市役所西側ふれあい広場）11/14～12/26（11/28・29休業との情報あり）、天神中央公園11/12～12/25、貴賓館前広場11/11～12/25、百道浜11/20～2027/1/6。中洲周辺（11/2～2027/1/12）・渡辺通（11/12～2027/1/31）はイルミネーションのみ。営業時間は会場により異なる（公式サイト要確認）。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明（会場ごとに主催が異なる）",
+      "genre": [
+        "クリスマスマーケット",
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "ホットワイン・クリスマスフードの出店あり（詳細は公式サイト要確認）",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR博多駅前広場（福岡市博多区博多駅中央街1-1）ほか",
+      "official_url": "https://christmas-advent.jp/",
+      "sns_accounts": {
+        "instagram": "https://www.instagram.com/fukuoka.christmasadvent/"
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.crossroadfukuoka.jp/event/13738",
+          "site_name": "クロスロードふくおか",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.trvlogue.com/ja/fukuoka-christmas-market-2026",
+          "site_name": "trvlogue",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1136",
+      "name": "金沢城・兼六園四季物語～冬の段～",
+      "alternate_names": [
+        "金沢城・兼六園ライトアップ 冬の段",
+        "兼六園 冬のライトアップ"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "date_start": "2027-02-06",
+      "date_end": "2027-02-27",
+      "date_note": "2027年2/6(土)～2/10(水)、2/13(土)、2/20(土)、2/27(土)との情報（情報サイト1件のみ、公式発表は未確認のため要確認）。17:00～18:00は準備のため一時閉園。",
+      "time_start": "18:00",
+      "time_end": "21:00",
+      "rain_policy": "悪天候の場合中止の場合あり",
+      "organizer": "不明",
+      "genre": [
+        "ライトアップ"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "ライトアップ中の兼六園は入園無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "金沢城公園・兼六園（金沢市兼六町1）",
+      "official_url": "https://www.hot-ishikawa.jp/event/21201",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.iwafu.com/jp/events/1030501",
+          "site_name": "イベントバンク（iwafu）",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：2026年2/7・14・21・28の土曜4日間 → 今年：2027年2/6～2/10、2/13、2/20、2/27（未確認情報）"
+      }
+    },
+    {
+      "id": "festival_1137",
+      "name": "定山渓・雪灯路2027～灯りが紡ぐ静寂散歩～",
+      "alternate_names": [
+        "雪灯路（ゆきとうろ）",
+        "定山渓温泉 雪灯路"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "札幌市",
+      "date_start": "2027-01-20",
+      "date_end": "2027-02-28",
+      "date_note": "予定。従来のスノーキャンドルは2026年2月の「FINAL」で終了し、2027年は新しい演出になるとされる。会場は定山渓神社（宿泊者限定の夜間特別拝観）、定山源泉公園、月見橋。最終入場21:15。確認できたソースは1件のみ。",
+      "time_start": "18:00",
+      "time_end": "21:30",
+      "rain_policy": "不明",
+      "organizer": "定山渓観光協会",
+      "genre": [
+        "ライトアップ",
+        "雪まつり"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "定山渓温泉（札幌市南区）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.sapporo.travel/?p=124466",
+          "site_name": "ようこそさっぽろ（札幌観光協会）",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：雪灯路2026 FINAL（スノーキャンドル） → 今年：スノーキャンドルに代わる新演出で2027/1/20～2/28開催予定"
+      }
+    },
+    {
+      "id": "festival_1138",
+      "name": "神戸イルミナージュ2026",
+      "alternate_names": [
+        "神戸イルミナージュ"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "兵庫県",
+      "city": "神戸市",
+      "date_start": "2026-10-23",
+      "date_end": "2027-02-14",
+      "date_note": "17回目、テーマ「スターライトドリーム」。ライトアップは17:30～21:30。12/31はカウントダウンイベントのため特別チケットが必要。神戸ルミナリエとは別のイベント。",
+      "time_start": "17:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "大人1,800円・小人900円・ペット500円との情報と、大人2,000円・小人1,000円との情報あり（要公式確認）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "道の駅 神戸フルーツ・フラワーパーク大沢（神戸市北区）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://happyell.co.jp/event/kobe-illuminage-2026",
+          "site_name": "Happyell",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://bestcalendar.jp/press/158340",
+          "site_name": "ベストカレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://dc.watch.impress.co.jp/docs/news/event/2150020.html",
+          "site_name": "デジカメ Watch",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.zaikei.co.jp/releases/3454628/",
+          "site_name": "財経新聞",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "⚠️ 矛盾：入場料が媒体により異なる（大人1,800円／2,000円）。公式サイトで要確認。",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1139",
+      "name": "男鹿のナマハゲ",
+      "alternate_names": [
+        "なまはげ行事",
+        "男鹿のなまはげ"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "秋田県",
+      "city": "男鹿市",
+      "date_start": "2026-12-31",
+      "date_end": "2026-12-31",
+      "date_note": "毎年12月31日（大晦日）の夜に男鹿半島の各集落で行われる民俗行事。各家庭を巡る行事のため一般見学は限定的（男鹿真山伝承館で再現を体験可能）。2月の観光行事「なまはげ柴灯まつり」とは別。2026年大晦日の関連イベントの詳細は未確認。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "男鹿市内各集落",
+      "genre": [
+        "民俗芸能",
+        "神事"
+      ],
+      "scale": "国指定重要無形民俗文化財",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "面と藁の衣装をまとった若者が家々を回り、厄や穢れを祓い豊作・家内安全を願う来訪神行事。本来は小正月の行事だったが新暦採用後は12月31日に行われる。1978年に国の重要無形民俗文化財指定、2018年に「来訪神：仮面・仮装の神々」としてユネスコ無形文化遺産登録。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "秋田県男鹿市内各地区",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://tabi-mag.jp/namahage/",
+          "site_name": "ニッポン旅マガジン",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.tohokukanko.jp/manabi/attractions/detail_100086.html",
+          "site_name": "旅東北（東北観光推進機構）",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.mlit.go.jp/tagengo-db/common/001539223.docx",
+          "site_name": "観光庁 多言語解説文データベース",
+          "is_official": true,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
