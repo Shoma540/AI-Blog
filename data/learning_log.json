@@ -767,6 +767,18 @@
       "verify_after": "2026-11-16",
       "result": "変化なし: 2026-11-16 08:05時点のGA4スナップショットでも過去7日セッション0件・ページビュー0件のままで、仮説の効果は確認できず。validate_site.pyは全項目通過しサイト破損なし。",
       "commit": "5e68f4af98ec370579b529fc653e4b5d25f682ac"
+    },
+    {
+      "date": "2026-11-16 08:10",
+      "analysis": "GA4スナップショット（過去7日、2026-11-16 08:05取得）はセッション0件・ページビュー0件で、データ不十分期が4ヶ月以上継続。過去64件の改善は<head>のメタタグ・構造化データ中心で全て「変化なし」。アクセス0件の主因はメタタグ不足ではなく、検索エンジンへの未登録（Search Console未設定）や外部流入経路の欠如（Instagram投稿が2026-10-21からトークン期限切れで停止中）といった generate_html.py の外側にある可能性が高い（これは本ルーティンでは変更不可で、人間の対応が必要）。その上でサイト内で意味のある未実施テーマとして表示速度に着目：index.htmlは祭りカード1,038件・約1.1MB（PC幅でページ高17万px、スマホ幅で51万px）に肥大しており、初期レンダリング時に全カードのレイアウト・描画が走る。",
+      "action": "scripts/generate_html.py のCOMMON_CSSの .festival-card に content-visibility: auto と contain-intrinsic-size: auto 480px を追加し、画面外の祭りカードのレイアウト・描画をブラウザが遅延できるようにした（全ページのカードに適用。HTML構造・文言は変更なし）。",
+      "target_files": [
+        "scripts/generate_html.py"
+      ],
+      "hypothesis": "1,000件超のカードを持つindex.html/calendar.htmlで初期レンダリング（レイアウト・ペイント）コストが下がり、特にスマホでの表示速度・INPが改善して、Core Web Vitals評価と訪問時の直帰抑制に寄与するはず。",
+      "verify_after": "2026-11-19",
+      "result": "",
+      "commit": "bae5859b52a7a593839872f5f529dd1501dc5280"
     }
   ]
 }
