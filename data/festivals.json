@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15 18:08",
+  "last_updated": "2026-11-16 08:04",
   "festivals": [
     {
       "id": "festival_001",
@@ -58218,7 +58218,9 @@
     {
       "id": "festival_956",
       "name": "富士河口湖紅葉まつり",
-      "alternate_names": [],
+      "alternate_names": [
+        "第28回富士河口湖紅葉まつり"
+      ],
       "similar_name_warning": false,
       "prefecture": "山梨県",
       "city": "南都留郡富士河口湖町",
@@ -58278,13 +58280,29 @@
           "site_name": "富士河口湖町観光情報",
           "is_official": true,
           "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/leaf/news/jrd_261030_4.html",
+          "site_name": "ジョルダン",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
+        },
+        {
+          "url": "https://livejapan.com/ja/in-tokyo/in-pref-fuji_mountain/in-mount_fuji/article-a0005545/",
+          "site_name": "LIVE JAPAN",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "alternate_names",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": true,
         "details": "昨年：第27回（2025年11月1日〜11月30日） → 今年：第28回（2026年11月7日〜11月29日）"
@@ -62869,7 +62887,9 @@
       "id": "festival_1034",
       "name": "東京クリスマスアドベント in 上野公園",
       "alternate_names": [
-        "東京クリスマスアドベント Sponsored by au PAY"
+        "東京クリスマスアドベント Sponsored by au PAY",
+        "東京クリスマスアドベント Sponsored by au PAY（上野恩賜公園）",
+        "東京クリスマスアドベント"
       ],
       "similar_name_warning": true,
       "prefecture": "東京都",
@@ -62918,13 +62938,23 @@
           "site_name": "エンジョイ・トーキョー",
           "is_official": false,
           "retrieved_date": "2026-11-11"
+        },
+        {
+          "url": "https://www.walkerplus.com/article/1300270/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-15"
         }
       ],
-      "trust_level": "中",
+      "trust_level": "高",
       "conflict_note": "公式サイトURL(christmas-advent.jp/ueno/)は2025年のプレスリリース記載のもので、2026年版としての直接確認はできていない。同名の別イベント（東京オペラシティ等）と情報が混在している可能性あり。",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "sources",
+        "alternate_names",
+        "trust_level"
+      ],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -66350,137 +66380,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_1098",
-      "name": "富士河口湖紅葉まつり",
-      "alternate_names": [
-        "第28回富士河口湖紅葉まつり"
-      ],
-      "similar_name_warning": false,
-      "prefecture": "山梨県",
-      "city": "富士河口湖町",
-      "date_start": "2026-11-07",
-      "date_end": "2026-11-29",
-      "date_note": "",
-      "time_start": "09:00",
-      "time_end": "21:00",
-      "rain_policy": "不明",
-      "organizer": "富士河口湖町紅葉まつり運営協議会",
-      "genre": [
-        "紅葉",
-        "ライトアップ"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "無料（一部有料エリアの可能性、要確認）",
-      "ticket_url": "",
-      "history_years": 28,
-      "history_description": "河口湖畔「もみじ回廊」を中心に約1.5kmにわたりもみじが植えられた紅葉の名所。富士山とのコラボレーションが人気。日没から21:00までライトアップを実施。",
-      "food_stalls": "あり",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "もみじ回廊に常設駐車場なし。周遊バス利用を推奨。",
-      "official_url": "https://fujisan.ne.jp/news/6065/",
-      "sns_accounts": {
-        "instagram": ""
-      },
-      "video_url": "",
-      "sources": [
-        {
-          "url": "https://kyodonewsprwire.jp/release/202610208271",
-          "site_name": "共同通信PRワイヤー",
-          "is_official": true,
-          "retrieved_date": "2026-11-15"
-        },
-        {
-          "url": "https://sp.jorudan.co.jp/leaf/news/jrd_261030_4.html",
-          "site_name": "ジョルダン",
-          "is_official": false,
-          "retrieved_date": "2026-11-15"
-        },
-        {
-          "url": "https://livejapan.com/ja/in-tokyo/in-pref-fuji_mountain/in-mount_fuji/article-a0005545/",
-          "site_name": "LIVE JAPAN",
-          "is_official": false,
-          "retrieved_date": "2026-11-15"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "",
-      "requires_check": false,
-      "diff_status": "NEW",
-      "updated_fields": [],
-      "year_comparison": {
-        "changed": false,
-        "details": ""
-      }
-    },
-    {
-      "id": "festival_1099",
-      "name": "東京クリスマスアドベント Sponsored by au PAY（上野恩賜公園）",
-      "alternate_names": [
-        "東京クリスマスアドベント"
-      ],
-      "similar_name_warning": true,
-      "prefecture": "東京都",
-      "city": "台東区",
-      "date_start": "2026-11-06",
-      "date_end": "2026-12-25",
-      "date_note": "袴腰広場は11/6〜12/25、不忍池エリアは11/18〜12/25。",
-      "time_start": "12:00",
-      "time_end": "23:00",
-      "rain_policy": "有料コンテンツ（サーカスAURA等）は雨天・荒天時中止",
-      "organizer": "上野観光連盟",
-      "genre": [
-        "クリスマスマーケット",
-        "イルミネーション"
-      ],
-      "scale": "その他",
-      "is_free": true,
-      "price": "入場無料（サーカス「AURA」前売3,500円、ライブ別途有料）",
-      "ticket_url": "",
-      "history_years": null,
-      "history_description": "福岡発のクリスマスイベント「クリスマスアドベント」の東京版。2026年のテーマは「Five Senses Christmas」。点灯式は11/6 18:00〜20:00。",
-      "food_stalls": "あり",
-      "crowd_level": "不明",
-      "visitors": "不明",
-      "access": "上野恩賜公園（京成上野駅側 袴腰広場・不忍池エリア）",
-      "official_url": "",
-      "sns_accounts": {
-        "instagram": ""
-      },
-      "video_url": "",
-      "sources": [
-        {
-          "url": "https://report.iko-yo.net/articles/34526",
-          "site_name": "いこーよ",
-          "is_official": false,
-          "retrieved_date": "2026-11-15"
-        },
-        {
-          "url": "https://rurubu.jp/andmore/article/25594",
-          "site_name": "るるぶ",
-          "is_official": false,
-          "retrieved_date": "2026-11-15"
-        },
-        {
-          "url": "https://www.walkerplus.com/article/1300270/",
-          "site_name": "ウォーカープラス",
-          "is_official": false,
-          "retrieved_date": "2026-11-15"
-        }
-      ],
-      "trust_level": "高",
-      "conflict_note": "⚠️矛盾：営業時間・ラストオーダー表記がサイト間で微妙に異なる。公式サイトURL未確認のため来場前に要確認。",
-      "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -66546,6 +66446,443 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1101",
+      "name": "丸の内イルミネーション2026",
+      "alternate_names": [
+        "Marunouchi Bright Holiday 2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "date_start": "2026-11-12",
+      "date_end": "2027-02-14",
+      "date_note": "丸の内仲通り等は11/12〜2027/2/14。行幸通りは11/27〜12/25（16:00〜24:00）。12月中は24:00まで点灯延長予定。",
+      "time_start": "16:00",
+      "time_end": "23:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "丸の内仲通りを中心に街路樹をシャンパンゴールドのLEDで彩る冬の恒例イルミネーション。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR東京駅・地下鉄大手町駅・二重橋前駅すぐ",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://sp.jorudan.co.jp/illumi/news/jrd_261110_2.html",
+          "site_name": "ジョルダン",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://visit-chiyoda.tokyo/app/event/detail/964",
+          "site_name": "千代田区観光協会",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2091501/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：2025-11-13〜2026-02-15 → 今年：2026-11-12〜2027-02-14"
+      }
+    },
+    {
+      "id": "festival_1102",
+      "name": "青の洞窟 SHIBUYA",
+      "alternate_names": [
+        "青の洞窟 SHIBUYA 2026"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "date_start": "2026-12-11",
+      "date_end": "2026-12-27",
+      "date_note": "渋谷公園通り〜代々木公園ケヤキ並木。雨天等により点灯時間・内容が変更となる可能性あり。",
+      "time_start": "17:00",
+      "time_end": "22:00",
+      "rain_policy": "雨天等により点灯時間・内容変更の可能性あり",
+      "organizer": "青の洞窟 SHIBUYA 実行委員会",
+      "genre": [
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "約50万球の青色LEDで渋谷公園通りから代々木公園ケヤキ並木を彩るイルミネーション。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR渋谷駅・原宿駅から徒歩",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://sp.jorudan.co.jp/illumi/news/jrd_261110_1.html",
+          "site_name": "ジョルダン",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://kyodonewsprwire.jp/release/202610268658",
+          "site_name": "共同通信PRワイヤー",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/2018293/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：2025-12-04〜2025-12-25 → 今年：2026-12-11〜2026-12-27"
+      }
+    },
+    {
+      "id": "festival_1103",
+      "name": "あしかがフラワーパーク 光の花の庭～Flower Fantasy2026-27～",
+      "alternate_names": [
+        "あしかがフラワーパーク イルミネーション"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "栃木県",
+      "city": "足利市",
+      "date_start": "2026-10-17",
+      "date_end": "2027-02-14",
+      "date_note": "12/31は休園。土日祝は21:00まで。11/7〜1/3は平日21:00・土日祝21:30まで延長営業。点灯は16:30〜17:00頃。",
+      "time_start": "15:30",
+      "time_end": "20:30",
+      "rain_policy": "不明",
+      "organizer": "あしかがフラワーパーク",
+      "genre": [
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "大人1,500円、子供800円",
+      "ticket_url": "",
+      "history_years": 25,
+      "history_description": "イルミネーション開始25周年。高さ21mの大クリスマスツリー等が新登場。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR両毛線あしかがフラワーパーク駅すぐ",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://report.iko-yo.net/articles/34654",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://bestcalendar.jp/press/158817",
+          "site_name": "ベストカレンダー",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.gamespark.jp/release/prtimes/20261014/321152.html",
+          "site_name": "PR TIMES（Game*Spark転載）",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1104",
+      "name": "若草山焼き",
+      "alternate_names": [
+        "若草山焼き2027",
+        "若草山焼き行事"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "奈良県",
+      "city": "奈良市",
+      "date_start": "2027-01-23",
+      "date_end": "2027-01-23",
+      "date_note": "例年1月第4土曜日。花火は18:15頃（約600発）、18:30に一斉点火の予定。公式サイトでの2027年日程発表は未確認のため要確認。",
+      "time_start": "18:15",
+      "time_end": "",
+      "rain_policy": "天候不良等により中止の場合あり",
+      "organizer": "若草山焼き行事実行委員会",
+      "genre": [
+        "火祭り",
+        "花火"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "観覧無料（有料観覧エリアあり）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "古都奈良に早春を告げる伝統行事。花火の打ち上げ後、若草山に一斉点火される。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "近鉄奈良駅から徒歩またはバス",
+      "official_url": "https://www3.pref.nara.jp/yamayaki/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://dc.watch.impress.co.jp/docs/news/2149993.html",
+          "site_name": "デジカメ Watch",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://sorahanabi.com/nara/narashi/wakakusa-yamayaki-hanabi.html",
+          "site_name": "sorahanabi",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://tabi-mag.jp/wakakusayama-yamayaki/",
+          "site_name": "ニッポン旅マガジン",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1105",
+      "name": "世田谷のボロ市",
+      "alternate_names": [
+        "世田谷ボロ市"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "世田谷区",
+      "date_start": "2026-12-15",
+      "date_end": "2027-01-16",
+      "date_note": "毎年12月15・16日と1月15・16日の計4日間開催（今季：2026/12/15・16、2027/1/15・16）。2026年12月開催分の区公式告知は未確認。開催時間は例年9:00〜20:00。次回の代官行列は令和9年度予定。",
+      "time_start": "09:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "せたがやボロ市保存会",
+      "genre": [
+        "市"
+      ],
+      "scale": "東京都指定無形民俗文化財",
+      "is_free": true,
+      "price": "入場無料",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "代官屋敷を中心としたボロ市通りで開かれる伝統の市。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "東急世田谷線 世田谷駅・上町駅から徒歩3分（駐車場なし）",
+      "official_url": "https://www.city.setagaya.lg.jp/02072/10108.html",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/02072/10108.html",
+          "site_name": "世田谷区",
+          "is_official": true,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev114/index.html",
+          "site_name": "GO TOKYO",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://rurubu.jp/andmore/spot/20000734",
+          "site_name": "るるぶ",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1106",
+      "name": "横手の雪まつり かまくら",
+      "alternate_names": [
+        "横手かまくら"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "秋田県",
+      "city": "横手市",
+      "date_start": "2027-02-12",
+      "date_end": "2027-02-13",
+      "date_note": "2029年2月までの試行として開催日が従来の2/15・16固定から2月第2金・土曜に変更。2027年日程の公式発表は未確認（要確認）。時間は2026年実績（18:00〜21:00）で2027年は未確認。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "雪まつり"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "秋田県横手市の小正月行事。雪室「かまくら」に水神様を祀る。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JR横手駅から徒歩",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.japanistry.com/event/yokote-kamakura-snow-festival/",
+          "site_name": "Japanistry",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://watabi.org/articles/yokote-kamakura-guide",
+          "site_name": "watabi",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1107",
+      "name": "ハウステンボス ヨーロピアン・ホーリー・クリスマス",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "長崎県",
+      "city": "佐世保市",
+      "date_start": "2026-11-06",
+      "date_end": "2026-12-25",
+      "date_note": "前年（2025/11/7〜2026/1/5）と期間が異なるため公式サイトで要確認。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "ハウステンボス",
+      "genre": [
+        "イルミネーション",
+        "クリスマス"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "不明（入場パスポートが必要）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "ハウステンボスのクリスマスシーズンイベント。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "JRハウステンボス駅すぐ",
+      "official_url": "https://www.huistenbosch.co.jp/",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://rurubu.jp/andmore/article/25621",
+          "site_name": "るるぶ",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://report.iko-yo.net/articles/33219",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
       "diff_status": "NEW",
       "updated_fields": [],
       "year_comparison": {
