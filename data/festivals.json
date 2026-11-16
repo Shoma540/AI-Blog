@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16 08:04",
+  "last_updated": "2026-11-16 12:04",
   "festivals": [
     {
       "id": "festival_001",
@@ -9891,9 +9891,9 @@
       "similar_name_warning": true,
       "prefecture": "秋田県",
       "city": "男鹿市",
-      "date_start": "2026-02-13",
-      "date_end": "2026-02-15",
-      "date_note": "第63回。会場は真山神社、18:00-20:30。事前申込制（各日上限2,000人）",
+      "date_start": "2027-02-12",
+      "date_end": "2027-02-14",
+      "date_note": "第64回。2027年2月12日(金)〜14日(日)（毎年2月第2金・土・日）。男鹿市観光協会の日本語ページ掲載との報告に基づく（当方では公式ページ未確認）。",
       "time_start": "不明",
       "time_end": "不明",
       "rain_policy": "不明",
@@ -9941,16 +9941,28 @@
           "site_name": "アキタファン",
           "is_official": false,
           "retrieved_date": "2026-08-12"
+        },
+        {
+          "url": "https://watabi.org/articles/namahage-sedo-matsuri-guide",
+          "site_name": "watabi",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
         }
       ],
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "UNCHANGED",
-      "updated_fields": [],
+      "diff_status": "UPDATED",
+      "updated_fields": [
+        "date_start",
+        "date_end",
+        "date_note",
+        "sources",
+        "year_comparison"
+      ],
       "year_comparison": {
-        "changed": false,
-        "details": ""
+        "changed": true,
+        "details": "昨年：2026-02-13〜2026-02-15（第63回） → 今年：2027-02-12〜2027-02-14（第64回）"
       }
     },
     {
@@ -58297,12 +58309,8 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "alternate_names",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": true,
         "details": "昨年：第27回（2025年11月1日〜11月30日） → 今年：第28回（2026年11月7日〜11月29日）"
@@ -62949,12 +62957,8 @@
       "trust_level": "高",
       "conflict_note": "公式サイトURL(christmas-advent.jp/ueno/)は2025年のプレスリリース記載のもので、2026年版としての直接確認はできていない。同名の別イベント（東京オペラシティ等）と情報が混在している可能性あり。",
       "requires_check": true,
-      "diff_status": "UPDATED",
-      "updated_fields": [
-        "sources",
-        "alternate_names",
-        "trust_level"
-      ],
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
       "year_comparison": {
         "changed": false,
         "details": ""
@@ -66510,7 +66514,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -66574,7 +66578,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": true,
@@ -66638,7 +66642,7 @@
       "trust_level": "高",
       "conflict_note": "",
       "requires_check": false,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -66704,7 +66708,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -66768,7 +66772,7 @@
       "trust_level": "中",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -66826,7 +66830,7 @@
       "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
-      "diff_status": "NEW",
+      "diff_status": "UNCHANGED",
       "updated_fields": [],
       "year_comparison": {
         "changed": false,
@@ -66881,6 +66885,541 @@
         }
       ],
       "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "UNCHANGED",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1108",
+      "name": "第123回赤穂義士祭",
+      "alternate_names": [
+        "赤穂義士祭"
+      ],
+      "similar_name_warning": true,
+      "prefecture": "兵庫県",
+      "city": "赤穂市",
+      "date_start": "2026-12-14",
+      "date_end": "2026-12-14",
+      "date_note": "毎年12月14日（討ち入りの日）開催。10:00〜16:00頃は予定（前年実績ベースの可能性あり）。詳細な時間・交通規制は赤穂市の発表を要確認。",
+      "time_start": "10:00",
+      "time_end": "16:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "パレード",
+        "時代行列"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "赤穂浪士の討ち入りの日（12月14日）に行われる。義士行列・大名行列・山車などが練り歩く忠臣蔵パレードがメイン。東京・泉岳寺の義士祭（同日）とは別の行事。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "会場：赤穂城跡、お城通り、いきつぎ広場周辺（赤穂市加里屋）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.toretabi.jp/event/entry-26811.html",
+          "site_name": "トレたび",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://iko-yo.net/events/527013",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://tabi-mag.jp/ako-gishisai",
+          "site_name": "ニッポン旅マガジン",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1109",
+      "name": "目黒川みんなのイルミネーション2026",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "品川区",
+      "date_start": "2026-12-04",
+      "date_end": "2027-01-31",
+      "date_note": "2026年の点灯時間は未確認（2025年は17:00〜22:30）。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "約41万球のLEDで目黒川両岸約2.2kmの桜並木をライトアップ。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "会場：品川区立五反田ふれあい水辺広場、目黒川沿道",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.timeout.jp/tokyo/ja/news/meguro-river-minna-no-illumination-110626",
+          "site_name": "Time Out Tokyo",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1110",
+      "name": "さがみ湖イルミリオン2026-2027",
+      "alternate_names": [
+        "さがみ湖イルミリオン"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "神奈川県",
+      "city": "相模原市",
+      "date_start": "2026-11-14",
+      "date_end": "2027-05-09",
+      "date_note": "2027年1月3日までは毎日営業。以降の休園日は情報源により記載が異なるため公式サイトで要確認。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "さがみ湖MORI MORI",
+      "genre": [
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "約600万球のイルミネーション。メインショー「オトイルミ」。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "会場：さがみ湖MORI MORI（相模原市）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://bestcalendar.jp/press/160258",
+          "site_name": "ベストカレンダー（プレスリリース）",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://report.iko-yo.net/articles/33088",
+          "site_name": "いこーよ",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://resemom.jp/release/prtimes/20261021/222041.html",
+          "site_name": "リセマム（PR TIMES）",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "⚠️ 矛盾：1月4日以降の休園日（水・木休園／4月5日以降は土日祝のみ営業）の記載が情報源により異なる",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1111",
+      "name": "ROPPONGI HILLS CHRISTMAS 2026（けやき坂イルミネーション）",
+      "alternate_names": [
+        "六本木ヒルズ けやき坂イルミネーション"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "港区",
+      "date_start": "2026-11-05",
+      "date_end": "2026-12-25",
+      "date_note": "けやき坂の点灯は17:00〜22:00（2025年は〜23:00）。66プラザ・毛利庭園など他会場は開始日・終了時刻が異なる。",
+      "time_start": "17:00",
+      "time_end": "22:00",
+      "rain_policy": "不明",
+      "organizer": "森ビル株式会社",
+      "genre": [
+        "イルミネーション",
+        "クリスマス"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "約400mのけやき坂の並木道を約97万灯のLEDが照らす。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "会場：六本木ヒルズ（六本木けやき坂通りほか）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://bestcalendar.jp/press/155764",
+          "site_name": "ベストカレンダー（プレスリリース）",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://vegcale.com/2026/10/22/roppongi-hills-christmas-2026/",
+          "site_name": "vegcale",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://matcha-jp.com/jp/5344",
+          "site_name": "MATCHA",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": true,
+        "details": "昨年：11月4日〜12月25日・17:00〜23:00 → 今年：11月5日〜12月25日・17:00〜22:00"
+      }
+    },
+    {
+      "id": "festival_1112",
+      "name": "第68回旭川冬まつり",
+      "alternate_names": [
+        "旭川冬まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "旭川市",
+      "date_start": "2027-02-06",
+      "date_end": "2027-02-11",
+      "date_note": "実行委員会総会で決定と北海道新聞が報道。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "旭川冬まつり実行委員会",
+      "genre": [
+        "雪まつり"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "不明",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.hokkaido-np.co.jp/article/1317317/",
+          "site_name": "北海道新聞",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "低",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": "昨年：2026年2月6日〜11日 → 今年：2027年2月6日〜11日（同日程）"
+      }
+    },
+    {
+      "id": "festival_1113",
+      "name": "千歳・支笏湖氷濤まつり",
+      "alternate_names": [
+        "支笏湖氷濤まつり"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "北海道",
+      "city": "千歳市",
+      "date_start": "2027-01-30",
+      "date_end": "2027-02-23",
+      "date_note": "期間中無休。ライトアップは16:30〜20:00。",
+      "time_start": "10:00",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "雪まつり",
+        "ライトアップ"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "平日1,000円／土日祝3,000円（小学生以下無料）と報じられている（要確認）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "会場：支笏湖温泉（千歳市）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://www.visit-hokkaido.jp/event/detail_11029.html",
+          "site_name": "HOKKAIDO LOVE!（北海道観光機構）",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://bestcalendar.jp/press/152089",
+          "site_name": "ベストカレンダー（プレスリリース）",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://sp.jorudan.co.jp/illumi/spot_146749.html",
+          "site_name": "ジョルダン",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1114",
+      "name": "東京ドイツ村ウインターイルミネーション2026-2027",
+      "alternate_names": [],
+      "similar_name_warning": false,
+      "prefecture": "千葉県",
+      "city": "袖ケ浦市",
+      "date_start": "2026-10-31",
+      "date_end": "2027-04-04",
+      "date_note": "テーマ「Why USA!? 〜超Smile! ドイツ村、アメリカへ〜」。点灯は日没後〜20:00（最終入園19:30）。状況により変更・中止の場合あり。",
+      "time_start": "",
+      "time_end": "20:00",
+      "rain_policy": "不明",
+      "organizer": "東京ドイツ村",
+      "genre": [
+        "イルミネーション"
+      ],
+      "scale": "その他",
+      "is_free": false,
+      "price": "入園料：大人1,500円、小人（4歳〜小学生）800円。駐車料金別途（普通車 12/31まで1,500円、1/1以降1,000円）",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "会場：東京ドイツ村（袖ケ浦市）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://sp.jorudan.co.jp/illumi/spot_J0057.html",
+          "site_name": "ジョルダン",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.enjoytokyo.jp/event/722681/",
+          "site_name": "レッツエンジョイ東京",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://www.walkerplus.com/article/1451050/",
+          "site_name": "ウォーカープラス",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "高",
+      "conflict_note": "",
+      "requires_check": false,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1115",
+      "name": "MIDTOWN CHRISTMAS 2026",
+      "alternate_names": [
+        "東京ミッドタウン クリスマス"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "港区",
+      "date_start": "2026-11-26",
+      "date_end": "2026-12-25",
+      "date_note": "テーマ「Midwinter Night's Dream」。アイスリンクは12月5日から。「光の散歩道」の終了日は情報源により年表記が食い違う（2027年2月23日とみられる）。",
+      "time_start": "17:00",
+      "time_end": "23:00",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "イルミネーション",
+        "クリスマス"
+      ],
+      "scale": "その他",
+      "is_free": true,
+      "price": "",
+      "ticket_url": "",
+      "history_years": null,
+      "history_description": "不明",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "会場：東京ミッドタウン（港区赤坂）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://vegcale.com/2026/10/14/tokyo-midtown-christmas-2026/",
+          "site_name": "vegcale",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        },
+        {
+          "url": "https://matcha-jp.com/jp/27826",
+          "site_name": "MATCHA",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "中",
+      "conflict_note": "",
+      "requires_check": true,
+      "diff_status": "NEW",
+      "updated_fields": [],
+      "year_comparison": {
+        "changed": false,
+        "details": ""
+      }
+    },
+    {
+      "id": "festival_1116",
+      "name": "王子狐の行列",
+      "alternate_names": [
+        "王子 狐の行列"
+      ],
+      "similar_name_warning": false,
+      "prefecture": "東京都",
+      "city": "北区",
+      "date_start": "2026-12-31",
+      "date_end": "2027-01-01",
+      "date_note": "第34回が大晦日に開催予定との情報が非公式サイト1件のみ。時間・参加申込・交通規制は未発表。",
+      "time_start": "",
+      "time_end": "",
+      "rain_policy": "不明",
+      "organizer": "不明",
+      "genre": [
+        "行列",
+        "年越し"
+      ],
+      "scale": "その他",
+      "is_free": null,
+      "price": "不明",
+      "ticket_url": "",
+      "history_years": 33,
+      "history_description": "1993年に第1回開催。大晦日の夜、狐の扮装をした参加者が装束稲荷神社から王子稲荷神社まで歩く。",
+      "food_stalls": "不明",
+      "crowd_level": "不明",
+      "visitors": "不明",
+      "access": "装束稲荷神社〜王子稲荷神社（北区王子）",
+      "official_url": "",
+      "sns_accounts": {
+        "instagram": ""
+      },
+      "video_url": "",
+      "sources": [
+        {
+          "url": "https://todolist-japan.com/zh/oji-fox-parade/",
+          "site_name": "todolist-japan",
+          "is_official": false,
+          "retrieved_date": "2026-11-16"
+        }
+      ],
+      "trust_level": "低",
       "conflict_note": "",
       "requires_check": true,
       "diff_status": "NEW",
