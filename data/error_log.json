@@ -1163,6 +1163,12 @@
       "step": "post_instagram",
       "error": "OAuthException 190: token expired (2026-10-21以降継続、約26日間)",
       "detail": "INSTAGRAM_ACCESS_TOKENが2026-10-21に期限切れのまま、本日08時台の実行でも投稿失敗（Graph API code 190）。requestsモジュールはコンテナに無く pip で再導入して対応。ブログ更新（新規7件・重複統合による更新2件、HTML生成・GitHub Push）は正常完了。"
+    },
+    {
+      "timestamp": "2026-11-16 12:04",
+      "step": "post_instagram",
+      "error": "OAuthException 190: token expired (2026-10-21以降継続、約26日間)",
+      "detail": "INSTAGRAM_ACCESS_TOKENが2026-10-21に期限切れのまま、本日12時台（無条件投稿回）の実行でも投稿失敗（Graph API code 190）。requestsモジュールはコンテナに無く pip で再導入して対応。ブログ更新（新規9件：赤穂義士祭・目黒川みんなのイルミネーション・さがみ湖イルミリオン・ROPPONGI HILLS CHRISTMAS・旭川冬まつり・支笏湖氷濤まつり・東京ドイツ村イルミ・MIDTOWN CHRISTMAS・王子狐の行列／更新1件：なまはげ柴灯まつり2027年日程、HTML生成・GitHub Push）は正常完了。前回通知（2026-11-11）から5日経過のためユーザーへ再通知した。STEP 10は08時台以外のためスキップ。"
     }
   ]
 }
